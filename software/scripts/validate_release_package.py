@@ -161,6 +161,35 @@ def validate_workflow(failures: list[str]) -> None:
             failures.append(f"GitHub workflow contains forbidden operation: {token}")
 
 
+def validate_computation_guide(failures: list[str]) -> None:
+    readme = ROOT / "README.md"
+    if not readme.is_file():
+        failures.append("README.md missing")
+        return
+    text = readme.read_text(encoding="utf-8")
+    required_sections = (
+        "为什么本项目把WSL 2作为权威计算平台",
+        "硬件与软件栈",
+        "在WSL 2里完成的计算任务",
+        "十四项 × WSL 2定判入口",
+        "单次作业的数据流（WSL 2内）",
+        "计算纪律（WSL 2同样强制）",
+        "本目录内容（归档结构）",
+        "在WSL 2中复现（操作摘要）",
+        "刷新本快照",
+        "相关文档",
+    )
+    for section in required_sections:
+        if section not in text:
+            failures.append(f"README detailed computation guide missing: {section}")
+    rows = re.findall(r"(?m)^\| (P\d{2}) \|", text)
+    expected = {f"P{number:02d}" for number in range(1, 15)}
+    if len(rows) != 14 or set(rows) != expected:
+        failures.append("README WSL determination table must contain exactly P01-P14")
+    if "WSL 2不是这些量子化学公式成立的数学前提" not in text:
+        failures.append("README must distinguish canonical runtime from mathematical necessity")
+
+
 def main() -> int:
     failures: list[str] = []
     manifest_rows = 0
@@ -216,6 +245,7 @@ def main() -> int:
             failures.append("file inventory set differs from substantive repository files")
 
     validate_workflow(failures)
+    validate_computation_guide(failures)
     result = {
         "status": "PASS" if not failures else "FAIL",
         "repository_files": len(files),

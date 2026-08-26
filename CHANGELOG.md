@@ -6,7 +6,19 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 
 - The release author is confirmed as Xiao Chen in `CITATION.cff`; optional affiliation and ORCID may be added if explicitly supplied.
 - Manuscript contribution and conflict-of-interest statements remain to be completed before scholarly submission.
-- GitHub Actions and clean-clone verification will be added before the first remote candidate.
+
+## [0.1.0-rc2] - 2026-08-26
+
+### Added
+
+- a detailed WSL 2 computation guide on the GitHub home page, including the verified hardware/software stack, task classes, the P01-P14 determination-entry matrix, job data flow, computation discipline, archive map, reproduction summary, and related documents;
+- a safe maintainer command for refreshing the file inventory and SHA-256 snapshot after authorized changes;
+- CI enforcement that the detailed guide retains all required sections and exactly fourteen proposition rows.
+
+### Changed
+
+- preserved `v0.1.0-rc1` as an immutable local candidate and advanced the updated home page to `v0.1.0-rc2`;
+- clarified that WSL 2 is the canonical validated runtime, not a mathematical requirement of quantum chemistry.
 
 ## [0.1.0-rc1] - 2026-08-26
 
@@ -29,4 +41,4 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 
 ### Release status
 
-This release candidate has been assembled and validated locally. It has not yet been pushed to GitHub or peer reviewed.
+This release candidate was assembled and validated locally and is preserved as the pre-computation-guide snapshot. It has not been pushed to GitHub or peer reviewed.

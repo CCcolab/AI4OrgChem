@@ -11,6 +11,7 @@
 - `scripts/validate_evidence_navigation.py`：检查双语14项导航、120个以上证据链接及P11/P12差异数值。
 - `scripts/validate_wsl_release.py`：检查WSL双目录模式、公开环境名、平台边界和无环境变更约束。
 - `scripts/validate_release_package.py`：执行JSON/JSONL/YAML/CFF语法、Markdown链接、SHA清单、敏感信息、路径、大文件和重复文件总门禁。
+- `scripts/refresh_release_snapshot.py`：在授权修改后重建实质文件清单和SHA-256快照；刷新后必须重新运行全部门禁。
 
 ## 验证命令
 

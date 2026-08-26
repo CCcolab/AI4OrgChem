@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "release_target": "github_v0.1.0_rc1",
-  "status": "local_clean_staging_not_uploaded",
+  "release_target": "github_versioned_snapshot",
+  "status": "snapshot_refreshed_validation_required",
   "files": [
     {
       "path": ".gitattributes",
@@ -11,7 +11,7 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "artifact_role": "repository-root",
+      "artifact_role": "continuous-integration",
       "bytes": 1583,
       "sha256": "997ee70d284779d736c63df0514a179d50a44c6c5ab42cdc98809fdfc42ae03f"
     },
@@ -60,14 +60,14 @@
     {
       "path": "CHANGELOG.md",
       "artifact_role": "repository-root",
-      "bytes": 1473,
-      "sha256": "670046c26a63ccb323468abc49af2aeea6f918ca51981a146e7e8a6e703fe877"
+      "bytes": 2180,
+      "sha256": "de44386cea31427b14bcb21157c86372926040b10ffbcc337c5fe28393d53f98"
     },
     {
       "path": "CITATION.cff",
       "artifact_role": "repository-root",
       "bytes": 854,
-      "sha256": "f38fc8053917bb7dd0b2a9374b679f94c01c6817034a3e9c6fe02eec7696f474"
+      "sha256": "636ebe8983d389d90198e08a29bdf1f049d374a3a0550a4cd63dc4f9f6330e16"
     },
     {
       "path": "configs/qm/p09_exchange_integral_classes_v0.1.yaml",
@@ -468,8 +468,8 @@
     {
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
-      "bytes": 18684,
-      "sha256": "feff330b323b33db1484c69b14e5f3686069e99165380c48dcc5e46c1cf09d51"
+      "bytes": 18793,
+      "sha256": "66dcd3e5c51cbc1c7cf88178437767931641274cc1d19086549f4fe5b1d6da26"
     },
     {
       "path": "manuscripts/MANUSCRIPT_EN.md",
@@ -552,14 +552,14 @@
     {
       "path": "README.md",
       "artifact_role": "repository-root",
-      "bytes": 6852,
-      "sha256": "268bf43b516a46fabe1a2e6dca68433617eb4d813193a945aa0ddb0124f20f7e"
+      "bytes": 18256,
+      "sha256": "0fe62afcad3e52fbae97a0dd2f57d01f230970c9d475ee26bc49880d19ab960a"
     },
     {
       "path": "README_zh-CN.md",
       "artifact_role": "repository-root",
       "bytes": 5745,
-      "sha256": "0e545b847b79e093977f8282d39d17d02670c0af7ccae32d579aa101240e29a7"
+      "sha256": "62ed89fcc6b852c00c49b6e095d64d22459295d5154b01d78e69ca165176dd40"
     },
     {
       "path": "reproducibility/environment.yml",
@@ -624,8 +624,14 @@
     {
       "path": "software/README.md",
       "artifact_role": "software-or-test",
-      "bytes": 1688,
-      "sha256": "21b2014dbab17dd19292bc0387350cce834ce27475ec6e6aa42de3abe6a830fc"
+      "bytes": 1834,
+      "sha256": "5363f63e95b566e7210b4bb8301dd2248d1f6b5e7a556a24171a4f77aa749704"
+    },
+    {
+      "path": "software/scripts/refresh_release_snapshot.py",
+      "artifact_role": "software-or-test",
+      "bytes": 3642,
+      "sha256": "fec2bea043be692038b7f66fd38bcb6a79d9cdc96fbd5b943b3d80099e414ba2"
     },
     {
       "path": "software/scripts/validate_evidence_navigation.py",
@@ -642,8 +648,8 @@
     {
       "path": "software/scripts/validate_release_package.py",
       "artifact_role": "software-or-test",
-      "bytes": 8031,
-      "sha256": "1da52adbef8f08481844d1690fc1f8cd90babb8a3ca51fd6691165acc767486a"
+      "bytes": 9332,
+      "sha256": "829d6e2101ada00cba1fa67397f7d3afa9eacae42e6540b51de933d7fa75db4a"
     },
     {
       "path": "software/scripts/validate_wsl_release.py",

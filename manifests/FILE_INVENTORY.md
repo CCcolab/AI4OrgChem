@@ -1,15 +1,14 @@
 # AI4OrgChem GitHub文件清单
 
-本清单记录GitHub洁净暂存目录中的实质内容文件。生成型SHA清单和本文件自身不反向列入表格。
+本清单记录GitHub洁净仓库中的实质内容文件。生成型SHA清单和本文件自身不反向列入表格。
 
-- 实质内容文件：134
-- 来源：本地审计通过的精选发布包及两个WSL复现入口
-- 状态：本地候选；尚未上传GitHub
+- 实质内容文件：135
+- 状态：版本化发布快照；内容变更后必须重新生成并验证
 
 | 文件 | 角色 | 字节 | SHA-256 |
 |---|---|---:|---|
 | `.gitattributes` | repository-root | 32 | `23302dd90b8bb74b44d365fafef8df20f809b61cb347023951ecf60a88a29651` |
-| `.github/workflows/validate.yml` | repository-root | 1583 | `997ee70d284779d736c63df0514a179d50a44c6c5ab42cdc98809fdfc42ae03f` |
+| `.github/workflows/validate.yml` | continuous-integration | 1583 | `997ee70d284779d736c63df0514a179d50a44c6c5ab42cdc98809fdfc42ae03f` |
 | `.gitignore` | repository-root | 552 | `d8ff66910bd19c5d3f852f72162264b78897d09e523fe32800c506da0b75aaf4` |
 | `ai4s-agent/CAPABILITIES_AND_RESULTS_zh-CN.md` | agent-delivery | 1325 | `aa79dc262647dea30360b744e12fd5f048b23c17ec863aaabce02003786ea540` |
 | `ai4s-agent/EVALUATION_SUMMARY.json` | agent-delivery | 1193 | `19420e6698a7503ab90840e81c45f64d7476260baa827a18b96e015e5384d887` |
@@ -17,8 +16,8 @@
 | `ai4s-agent/LIMITATIONS_zh-CN.md` | agent-delivery | 649 | `8a59ffbdb909d742bc1ba261a193d75139b633ded35ec05c776f98137bdc330e` |
 | `ai4s-agent/README.md` | agent-delivery | 553 | `76daec0d2baba625555fc38d388d3e76ea0a1205af42c30e9aa735ca084d99c9` |
 | `ai4s-agent/SYSTEM_ARCHITECTURE_zh-CN.md` | agent-delivery | 1114 | `c767a97c2fca2abdb13540dfc6b6e8983952dbc9f3cfd5f119017da2dd830a8a` |
-| `CHANGELOG.md` | repository-root | 1473 | `670046c26a63ccb323468abc49af2aeea6f918ca51981a146e7e8a6e703fe877` |
-| `CITATION.cff` | repository-root | 854 | `f38fc8053917bb7dd0b2a9374b679f94c01c6817034a3e9c6fe02eec7696f474` |
+| `CHANGELOG.md` | repository-root | 2180 | `de44386cea31427b14bcb21157c86372926040b10ffbcc337c5fe28393d53f98` |
+| `CITATION.cff` | repository-root | 854 | `636ebe8983d389d90198e08a29bdf1f049d374a3a0550a4cd63dc4f9f6330e16` |
 | `configs/qm/p09_exchange_integral_classes_v0.1.yaml` | public-configuration | 7326 | `324c2e7988be48ed8898a5e9b04a87d40386ca8a8f7eb603d9a697d3ac6a6ee2` |
 | `evidence/P01-P14/P01/data-card.md` | scientific-evidence | 755 | `04013950752b0246026329854e28919d59986352597bb4521ceab3e3dd3a7224` |
 | `evidence/P01-P14/P01/protocol.md` | scientific-evidence | 4555 | `006f72c60d5522ef48129e5b4b6128416fdd24db9cc9160df7c626b939618dd7` |
@@ -98,8 +97,8 @@
 | `project/README.md` | project-narrative | 617 | `35669801530aa48d4d5c79d85ea1d542089b175d0f6c74bc184adf7a1af94ef6` |
 | `project/RESEARCH_ITEMS_zh-CN.md` | project-narrative | 1755 | `b04ddd4d1094d8fc9bbb4402d01f49a21ce2432bdfb71ea1ecf18b73aa0f525c` |
 | `project/RESEARCH_VALUE_zh-CN.md` | project-narrative | 1171 | `c78655d099b01c576c98450bb047a3403905a40391dafe9eb2bc18273ed12908` |
-| `README.md` | repository-root | 6852 | `268bf43b516a46fabe1a2e6dca68433617eb4d813193a945aa0ddb0124f20f7e` |
-| `README_zh-CN.md` | repository-root | 5745 | `0e545b847b79e093977f8282d39d17d02670c0af7ccae32d579aa101240e29a7` |
+| `README.md` | repository-root | 18256 | `0fe62afcad3e52fbae97a0dd2f57d01f230970c9d475ee26bc49880d19ab960a` |
+| `README_zh-CN.md` | repository-root | 5745 | `62ed89fcc6b852c00c49b6e095d64d22459295d5154b01d78e69ca165176dd40` |
 | `reproducibility/environment.yml` | reproducibility | 190 | `10612a5f9b274c2eaf69e43190e7d239f77dfbe3b5a00672cca544ec315e011a` |
 | `reproducibility/PLATFORM_MATRIX_EN.md` | reproducibility | 1963 | `1ea2cc5909ef145c93c5dcdc9c3bfaefb1726bc4c51ea47f57134fefcb5141cd` |
 | `reproducibility/PLATFORM_MATRIX_zh-CN.md` | reproducibility | 1773 | `60cd3af1c440d40f30ef58b54b35bec5c7ae764faec54ef9dbc70bb32863fa88` |
@@ -110,10 +109,11 @@
 | `reproducibility/wsl/ai4orgchem-verify` | reproducibility | 929 | `7eec73ec0269e9549a238707c6edf792a3bbae8161b72d714ba84abe3c43dc92` |
 | `reproducibility/wsl/README.md` | reproducibility | 1742 | `afb4d76e6f525e4b55036a446867d6ecc47b1657d7f17f6303062f4031ad832c` |
 | `software/pyproject.toml` | software-or-test | 643 | `21dfdbe31ca58d3103ca520910f6d0321e8f818519e765afbb1686048e311abe` |
-| `software/README.md` | software-or-test | 1688 | `21b2014dbab17dd19292bc0387350cce834ce27475ec6e6aa42de3abe6a830fc` |
+| `software/README.md` | software-or-test | 1834 | `5363f63e95b566e7210b4bb8301dd2248d1f6b5e7a556a24171a4f77aa749704` |
+| `software/scripts/refresh_release_snapshot.py` | software-or-test | 3642 | `fec2bea043be692038b7f66fd38bcb6a79d9cdc96fbd5b943b3d80099e414ba2` |
 | `software/scripts/validate_evidence_navigation.py` | software-or-test | 5445 | `74eb7062fc0999df2baad7265273f61987332f22c2b2ef6df9801a884cdf1984` |
 | `software/scripts/validate_public_evidence.py` | software-or-test | 3272 | `11eab02c7302e7fd6ed2ae8c7d2b62ae6ca43e76c7345595ec45e74a4ad32061` |
-| `software/scripts/validate_release_package.py` | software-or-test | 8031 | `1da52adbef8f08481844d1690fc1f8cd90babb8a3ca51fd6691165acc767486a` |
+| `software/scripts/validate_release_package.py` | software-or-test | 9332 | `829d6e2101ada00cba1fa67397f7d3afa9eacae42e6540b51de933d7fa75db4a` |
 | `software/scripts/validate_wsl_release.py` | software-or-test | 3690 | `9ef2ef7ffe4fc654751268474142c54e0d79f695684a9167b267dbbe3646dcd6` |
 | `software/src/ai4orgchem/lfmo/__init__.py` | software-or-test | 1385 | `6fb72d30002525c94773ee7fb0a2a6ee73f38388e204de6c18817df95d88a438` |
 | `software/src/ai4orgchem/lfmo/conditional_scf.py` | software-or-test | 6432 | `403377e08ea59b0076d99f56a2db2317a94db54dec71d7854236c568400d4b33` |
