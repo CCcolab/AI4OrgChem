@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评估的 **AI for Science（AI4S）Agent**。项目以《Questioning Fundamental Principles of Organic Chemistry》提出的反传统命题为科学起点，完全不使用原著程序代码进行独立实现。
+AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评估的 **AI for Science（AI4S）Agent**。项目以虞忠衡教授的学术专著《Questioning Fundamental Principles of Organic Chemistry》（2024）提出的反传统命题为科学起点，完全不使用原著程序代码进行独立实现。
 
 > **发布状态：** 首个精选正式版本`v0.1.0`。相关论文稿尚未经过同行评审。
 
@@ -105,4 +105,4 @@ python -m pytest -p no:cacheprovider
 
 ## 引用
 
-本版本唯一作者为 **Xiao Chen**。作者身份、CRediT贡献和利益冲突声明见[`AUTHORS.md`](AUTHORS.md)；机器可读引用信息见[`CITATION.cff`](CITATION.cff)。因未提供机构和ORCID，本版本不填写相关信息。
+本版本唯一作者为 **Xiao Chen**。联系方式：[chenxiao0101@gmail.com](mailto:chenxiao0101@gmail.com)。作者身份、CRediT贡献和利益冲突声明见[`AUTHORS.md`](AUTHORS.md)；机器可读引用信息见[`CITATION.cff`](CITATION.cff)。因未提供机构和ORCID，本版本不填写相关信息。

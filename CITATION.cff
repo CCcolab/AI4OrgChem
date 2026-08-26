@@ -5,6 +5,7 @@ type: software
 authors:
   - family-names: Chen
     given-names: Xiao
+    email: chenxiao0101@gmail.com
 version: 0.1.0
 date-released: 2026-08-26
 license: Apache-2.0

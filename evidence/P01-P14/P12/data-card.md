@@ -6,7 +6,7 @@
 
 Six source-native published numeric records: `[12]`, `[14]`, `[16]`, `[18]`,
 `[20]`, and `[22]annulene`. Values are transcribed from Chapter 9, Tables 9-5
-and 9-8 of *Questioning Fundamental Principles of Organic Chemistry* and are
+and 9-8 of Zhong-Heng Yu's *Questioning Fundamental Principles of Organic Chemistry* and are
 recomputed under protocol `p12-annulene-size-boundary/0.1`.
 
 ## Fields

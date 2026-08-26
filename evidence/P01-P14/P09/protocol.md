@@ -18,7 +18,7 @@ P09只检验：在原著公开的局域几何/虚拟参考与2011程序语义下
 
 主来源：
 
-1. Zhongheng Yu, *Questioning Fundamental Principles of Organic Chemistry*, Figshare DOI `10.6084/m9.figshare.27261243`, CC BY 4.0。
+1. Zhong-Heng Yu, *Questioning Fundamental Principles of Organic Chemistry*, Figshare DOI `10.6084/m9.figshare.27261243`, CC BY 4.0。
 2. Peng Bao and Zhong-Heng Yu, “New procedure to evaluate aromaticity at the density functional theory, Hartree–Fock, and post-self-consistent field levels,” *Journal of Computational Chemistry* 32 (2011) 248–259, DOI `10.1002/jcc.21614`。
 
 预注册比较值：

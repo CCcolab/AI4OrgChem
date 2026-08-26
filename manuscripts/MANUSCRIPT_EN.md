@@ -4,7 +4,13 @@
 
 Fourteen reproducible LFMO and energy-based assessments
 
+**Author:** Xiao Chen
+
+**Correspondence:** chenxiao0101@gmail.com
+
 ## Abstract
+
+**Scientific source under assessment:** Zhong-Heng Yu, *Questioning Fundamental Principles of Organic Chemistry* (2024).
 
 Conjugative stabilization, conjugation-driven planarization, and steric destabilization are widely used as organizing heuristics in organic chemistry. *Questioning Fundamental Principles of Organic Chemistry* proposed a set of counter-traditional claims, but its specialized localized-state constructions, historical coordinates, and software were not fully public. Without using the monograph's code, we translated fourteen major propositions into falsifiable computational tasks and independently reconstructed them from published equations, tables, numerical anchors, and frozen source-proxy protocols. The workflow covered localized fragment molecular-orbital states, conditional SCF, pi/sigma classification, DSI/FUD/GL/PLG energy ledgers, direct-interaction/orbital-response analysis, relaxed potential-energy scans, and virtual-reference aromatic energies. All propositions received determinate classifications: twelve were consistent or scope-consistent with the monograph, two were partially consistent, and none was globally inconsistent. Representative results include destabilizing LFMO pi-pi endpoints at all eleven technically valid tested points, a GL-defined butadiene conjugation energy of +1.575676 kcal/mol, a cyclobutadiene ADE of +53.822467 kcal/mol, a benzene ESE of -37.412764 kcal/mol, and a strained-aromatic C12H6 endpoint of 67.086899 kcal/mol. The partially consistent cases retain an opposite-sign inductive component for substituted benzene and a cross-estimator disagreement in the exact annulene size onset. The evidence supports the monograph's methodological criticism that textbook heuristics should not be promoted to universally sufficient mechanistic explanations. It neither establishes that traditional organic chemistry is globally incorrect nor introduces a universal opposite law of conjugative destabilization. The subsequent AI4S engineering line completed bounded data qualification, MACE/NequIP family holdouts, active-learning label return, PySR blind tests, and a read-only evidence agent. These results test engineering feasibility without replacing the quantum-chemical evidence.
 

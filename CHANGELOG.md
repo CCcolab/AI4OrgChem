@@ -5,6 +5,7 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 ## [Unreleased]
 
 - Added Chinese and English rapid-review guides that enable quantum-chemistry experts without GitHub, AI, or software-engineering backgrounds to inspect the scientific argument in 10–30 minutes.
+- Made Zhong-Heng Yu's authorship of the assessed monograph prominent across project-background and review entry points, and added the public contact email for Xiao Chen.
 
 ## [0.1.0] - 2026-08-26
 

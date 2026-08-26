@@ -6,6 +6,10 @@
 
 **Xiao Chen** 是 AI4OrgChem `v0.1.0` 版本的唯一作者。因未提供机构和 ORCID，本版本不填写相关信息。
 
+## Contact / 联系方式
+
+[chenxiao0101@gmail.com](mailto:chenxiao0101@gmail.com)
+
 ## CRediT contribution statement / CRediT贡献声明
 
 Xiao Chen: Conceptualization; Methodology; Software; Validation; Investigation; Data Curation; Writing; Visualization; Project Administration.

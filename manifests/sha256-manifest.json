@@ -60,20 +60,20 @@
     {
       "path": "AUTHORS.md",
       "artifact_role": "repository-root",
-      "bytes": 819,
-      "sha256": "a6b4de7bc507fa98cac39ea23a176248163b15d2513dd4474bc0d238b0e48937"
+      "bytes": 903,
+      "sha256": "d6fd45f9086df95b7824196026b9f4a7cffb3fd0ef5a17ea807029e07439d37b"
     },
     {
       "path": "CHANGELOG.md",
       "artifact_role": "repository-root",
-      "bytes": 2948,
-      "sha256": "9b1e4af893033127ae86461c1ebad55a908f4963450034f9daa889fe74707365"
+      "bytes": 3119,
+      "sha256": "5cd420cbc1dbf691a6e5be86b1d9b53f0bab1ab97fbb824c3506dcb5f892991e"
     },
     {
       "path": "CITATION.cff",
       "artifact_role": "repository-root",
-      "bytes": 876,
-      "sha256": "c22eef22a7285b15495ccb840e02c21996f8f045922433dac925b92fde72358e"
+      "bytes": 910,
+      "sha256": "37e022a1bf17c0555ae8879da272d379b97bf62fb147d5737022d7343b93273c"
     },
     {
       "path": "configs/qm/p09_exchange_integral_classes_v0.1.yaml",
@@ -282,8 +282,8 @@
     {
       "path": "evidence/P01-P14/P09/protocol.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 6960,
-      "sha256": "90ed54b98408585ea8e1dd5659afce2c73284d32c97830eeb0d30f0270cf108d"
+      "bytes": 6961,
+      "sha256": "cc55d026487c9260b6ea342c9ea7bec6a15df0a79be9d296a67deaacb68c2313"
     },
     {
       "path": "evidence/P01-P14/P09/report.md",
@@ -372,8 +372,8 @@
     {
       "path": "evidence/P01-P14/P12/data-card.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 1702,
-      "sha256": "e4e6f38919b73c358808adbb82d3cf45e0403246e4eaf129fcf40d352a309d11"
+      "bytes": 1718,
+      "sha256": "00f3ba3d358c11e280bc0987e5de313d86a37db3ba0c2dce8a9118e3070a7479"
     },
     {
       "path": "evidence/P01-P14/P12/protocol.md",
@@ -474,20 +474,20 @@
     {
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
-      "bytes": 19184,
-      "sha256": "757e1f13b9c8b2a80b02d606b65d1c00da8a83ce33d7a51ed0cbf96ca55758f4"
+      "bytes": 19186,
+      "sha256": "681939e6283ae79ef411d456e7fa13c78e50654f55447c638fbb63514d20442a"
     },
     {
       "path": "manuscripts/MANUSCRIPT_EN.md",
       "artifact_role": "manuscript",
-      "bytes": 7242,
-      "sha256": "6dec752d94627cb596d091416ad1bc9be39aa3cb62da5e29a27470be0f0b748d"
+      "bytes": 7431,
+      "sha256": "87263fc52e654a002f20b187971304952014fdb3fad79ab19b738eeccea2e332"
     },
     {
       "path": "manuscripts/MANUSCRIPT_zh-CN.md",
       "artifact_role": "manuscript",
-      "bytes": 5487,
-      "sha256": "300259ce6941c36a3a28ffce3b55d02bfe779c525bd0a3543438dbd9f343eeee"
+      "bytes": 5685,
+      "sha256": "7b2a2c6cb684497f4993a9e0ba5e717a1099043850a8afbc26eefda976305d2f"
     },
     {
       "path": "manuscripts/P01-P14_evidence_matrix_zh-CN.md",
@@ -522,8 +522,8 @@
     {
       "path": "project/ACHIEVEMENTS_zh-CN.md",
       "artifact_role": "project-narrative",
-      "bytes": 1514,
-      "sha256": "1c545686a9da447f598c99531dd688175e937d5e12696aa45e753954b899391c"
+      "bytes": 1677,
+      "sha256": "14db0a3262bb60f1bb9c9397c119d1a2a07b7241aec85b7bdf75fcb244bc67db"
     },
     {
       "path": "project/P01-P14_MASTER_TABLE_zh-CN.md",
@@ -534,38 +534,38 @@
     {
       "path": "project/PROJECT_BACKGROUND_zh-CN.md",
       "artifact_role": "project-narrative",
-      "bytes": 926,
-      "sha256": "ae125ef5f554f2df97b07b9b35b37ba18fb31d0160f488823daa55f87fe4c12a"
+      "bytes": 1077,
+      "sha256": "376edd3d1e88e520c1924f7f2d4ce1d6c6c0433168096005e4a54d17bb1e1f21"
     },
     {
       "path": "project/README.md",
       "artifact_role": "project-narrative",
-      "bytes": 610,
-      "sha256": "226590564d00eb268e8eae97828340d30054f0db92e351ea95e8bf9afd8d4eb2"
+      "bytes": 736,
+      "sha256": "091d42eeeb3f9eeb22dc473dbe9789fd9ad28f8ad40ab8777002ccfee2cc26c7"
     },
     {
       "path": "project/RESEARCH_ITEMS_zh-CN.md",
       "artifact_role": "project-narrative",
-      "bytes": 1817,
-      "sha256": "ecce4bfae9868db38db82501faaf9b9a6750e835f1be611ae1b7b9c65ffc02c9"
+      "bytes": 1939,
+      "sha256": "508c64832f3b075a9d073e33badd35be764012eebb94624fc7966fa2b03b143f"
     },
     {
       "path": "project/RESEARCH_VALUE_zh-CN.md",
       "artifact_role": "project-narrative",
-      "bytes": 1171,
-      "sha256": "c78655d099b01c576c98450bb047a3403905a40391dafe9eb2bc18273ed12908"
+      "bytes": 1319,
+      "sha256": "7308230ee6f5dd7009de88e0483b3ff298baa2a438d8f99fc010103e24b80c5b"
     },
     {
       "path": "README.md",
       "artifact_role": "repository-root",
-      "bytes": 18865,
-      "sha256": "bbb7017fd670b20d23eae71a4dc144fa5185d7a6187bdd0b86247a4197df28a4"
+      "bytes": 18966,
+      "sha256": "03f4633a6a73845a2fc2cbd17e0c325cc8aa886277bd5c75358082910dd5ff3e"
     },
     {
       "path": "README_zh-CN.md",
       "artifact_role": "repository-root",
-      "bytes": 6261,
-      "sha256": "44ec81c33841d1b094051e3034e7b7ea8e3554a8d9510499c7cd17fd34c489d8"
+      "bytes": 6374,
+      "sha256": "85160a3c01b0110fdc4548809018470ebc45d812796a09641ebfc6b0d1362649"
     },
     {
       "path": "reproducibility/environment.yml",
@@ -624,14 +624,14 @@
     {
       "path": "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md",
       "artifact_role": "repository-root",
-      "bytes": 12057,
-      "sha256": "9e6c96d3be01c22e8d8d7d55a632a7a72f69f51aaa63a5948e3a362e50f31e76"
+      "bytes": 12187,
+      "sha256": "98c2fc548da6772c231d7121c92860af364bf9f496dc44b769f3c262a37a90ce"
     },
     {
       "path": "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md",
       "artifact_role": "repository-root",
-      "bytes": 9911,
-      "sha256": "28cabeb5553e6fd389f9dc0c378dcc180d1ea8a567488657098a2dcf963e79ec"
+      "bytes": 10040,
+      "sha256": "498f5588fa66daa0d28e1a49223d8cc9aa688597b1286cfed50586882ea123a9"
     },
     {
       "path": "software/pyproject.toml",

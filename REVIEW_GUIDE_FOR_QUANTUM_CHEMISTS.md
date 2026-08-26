@@ -4,6 +4,8 @@
 
 This guide is for readers who know quantum chemistry but do not need prior experience with GitHub, artificial intelligence, or software engineering. It lets an expert understand the project in **10 minutes**, audit one proposition in **30 minutes**, and run machine-consistency checks only if desired.
 
+**Scientific source under review:** Zhong-Heng Yu's monograph, *Questioning Fundamental Principles of Organic Chemistry* (2024).
+
 > AI4OrgChem is an independent computational reconstruction and evidence-assessment project, not an institutional certification or an AI vote on scientific truth. AI supports protocol management, evidence tracing, and engineering. Energy signs, numerical results, and classifications come from explicit quantum-chemical definitions and frozen computational evidence.
 
 ## 1. Read the repository as a paper with expandable supporting information

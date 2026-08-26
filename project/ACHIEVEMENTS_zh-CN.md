@@ -1,5 +1,7 @@
 # 项目成就（成果）
 
+本成果是对虞忠衡教授《Questioning Fundamental Principles of Organic Chemistry》（2024）主要命题的独立计算重构与范围化证据评估。
+
 ### 科学论证
 
 - 完成 P01–P14 十四项主要命题的确定性分类；
