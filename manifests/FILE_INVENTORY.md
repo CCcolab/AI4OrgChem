@@ -98,7 +98,7 @@
 | `project/README.md` | project-narrative | 736 | `091d42eeeb3f9eeb22dc473dbe9789fd9ad28f8ad40ab8777002ccfee2cc26c7` |
 | `project/RESEARCH_ITEMS_zh-CN.md` | project-narrative | 1939 | `508c64832f3b075a9d073e33badd35be764012eebb94624fc7966fa2b03b143f` |
 | `project/RESEARCH_VALUE_zh-CN.md` | project-narrative | 1319 | `7308230ee6f5dd7009de88e0483b3ff298baa2a438d8f99fc010103e24b80c5b` |
-| `README.md` | repository-root | 18966 | `03f4633a6a73845a2fc2cbd17e0c325cc8aa886277bd5c75358082910dd5ff3e` |
+| `README.md` | repository-root | 18970 | `82b1f326f6b7a3759dddeefcfbcfd9c543e7307b0359215458b4a7057f83e609` |
 | `README_zh-CN.md` | repository-root | 6374 | `85160a3c01b0110fdc4548809018470ebc45d812796a09641ebfc6b0d1362649` |
 | `reproducibility/environment.yml` | reproducibility | 190 | `10612a5f9b274c2eaf69e43190e7d239f77dfbe3b5a00672cca544ec315e011a` |
 | `reproducibility/PLATFORM_MATRIX_EN.md` | reproducibility | 1963 | `1ea2cc5909ef145c93c5dcdc9c3bfaefb1726bc4c51ea47f57134fefcb5141cd` |

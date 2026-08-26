@@ -475,7 +475,7 @@
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
       "bytes": 19186,
-      "sha256": "681939e6283ae79ef411d456e7fa13c78e50654f55447c638fbb63514d20442a"
+      "sha256": "c08a4134de9d169c0953002a028a84a15ee579c94e60573cdd642033113eb5f4"
     },
     {
       "path": "manuscripts/MANUSCRIPT_EN.md",
@@ -558,8 +558,8 @@
     {
       "path": "README.md",
       "artifact_role": "repository-root",
-      "bytes": 18966,
-      "sha256": "03f4633a6a73845a2fc2cbd17e0c325cc8aa886277bd5c75358082910dd5ff3e"
+      "bytes": 18970,
+      "sha256": "82b1f326f6b7a3759dddeefcfbcfd9c543e7307b0359215458b4a7057f83e609"
     },
     {
       "path": "README_zh-CN.md",

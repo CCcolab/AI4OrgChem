@@ -2,7 +2,7 @@
 
 [中文说明](README_zh-CN.md)
 
-AI4OrgChem is an **AI for Science (AI4S) Agent** for independent computational reconstruction and evidence assessment of counter-traditional propositions in organic structure theory. The project was motivated by Zhong-Heng Yu's monograph, *Questioning Fundamental Principles of Organic Chemistry* (2024), and was implemented without using the monograph's program code.
+AI4OrgChem is an **AI for Science (AI4S) Agent** for independent computational reconstruction and evidence assessment of counter-traditional propositions in organic structure theory. The project was motivated by Zhong-Heng Yu's monograph, ***Questioning Fundamental Principles of Organic Chemistry*** (2024), and was implemented without using the monograph's program code.
 
 > **Release status:** initial curated release `v0.1.0`. The associated manuscript has not yet undergone peer review.
 
