@@ -34,6 +34,8 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 
 详见[P01–P14总证据矩阵](manuscripts/P01-P14_evidence_matrix_zh-CN.md)和[中文命题证据导航](evidence/P01-P14/README_zh-CN.md)。
 
+如果您是量子化学领域专家，但不熟悉GitHub、AI或软件工程，可直接阅读[面向量子化学专家的快速审阅指南](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md)：10分钟理解总体论证，30分钟核查任意一项命题，无需先阅读代码。
+
 ## AI4S Agent工程成果
 
 已经完成的有界工程线把冻结科学证据连接到机器可读数据、等变模型、主动学习回流、符号发现和只读证据Agent。
@@ -50,6 +52,7 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 
 | 路径 | 内容 |
 |---|---|
+| [`REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md`](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md) | 非计算机/AI专业量子化学专家快速审阅路线 |
 | [`project/`](project/README.md) | 项目背景、研究项、研究价值、成果和命题总表 |
 | [`evidence/P01-P14/`](evidence/P01-P14/README_zh-CN.md) | 冻结数据卡、协议、处理后结果和范围化报告 |
 | [`manuscripts/`](manuscripts/README.md) | 中英文论文、证据矩阵和发布定位 |

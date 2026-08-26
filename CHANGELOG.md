@@ -4,7 +4,7 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 
 ## [Unreleased]
 
-- No changes recorded after the initial curated release.
+- Added a Chinese rapid-review guide that enables quantum-chemistry experts without GitHub, AI, or software-engineering backgrounds to inspect the scientific argument in 10–30 minutes.
 
 ## [0.1.0] - 2026-08-26
 

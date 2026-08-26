@@ -2,7 +2,7 @@
 
 本清单记录GitHub洁净仓库中的实质内容文件。生成型SHA清单和本文件自身不反向列入表格。
 
-- 实质内容文件：136
+- 实质内容文件：137
 - 状态：版本化发布快照；内容变更后必须重新生成并验证
 
 | 文件 | 角色 | 字节 | SHA-256 |
@@ -17,7 +17,7 @@
 | `ai4s-agent/README.md` | agent-delivery | 553 | `76daec0d2baba625555fc38d388d3e76ea0a1205af42c30e9aa735ca084d99c9` |
 | `ai4s-agent/SYSTEM_ARCHITECTURE_zh-CN.md` | agent-delivery | 1114 | `c767a97c2fca2abdb13540dfc6b6e8983952dbc9f3cfd5f119017da2dd830a8a` |
 | `AUTHORS.md` | repository-root | 819 | `a6b4de7bc507fa98cac39ea23a176248163b15d2513dd4474bc0d238b0e48937` |
-| `CHANGELOG.md` | repository-root | 2808 | `00078146c8f1cce96198efc5b8d59f280ebdbf7af9684812d7aee328b43de1e4` |
+| `CHANGELOG.md` | repository-root | 2938 | `7158d56441a9bb7d4223ba6e1e214068a3d9268236644bea7a722609028309b8` |
 | `CITATION.cff` | repository-root | 876 | `c22eef22a7285b15495ccb840e02c21996f8f045922433dac925b92fde72358e` |
 | `configs/qm/p09_exchange_integral_classes_v0.1.yaml` | public-configuration | 7326 | `324c2e7988be48ed8898a5e9b04a87d40386ca8a8f7eb603d9a697d3ac6a6ee2` |
 | `evidence/P01-P14/P01/data-card.md` | scientific-evidence | 755 | `04013950752b0246026329854e28919d59986352597bb4521ceab3e3dd3a7224` |
@@ -99,7 +99,7 @@
 | `project/RESEARCH_ITEMS_zh-CN.md` | project-narrative | 1817 | `ecce4bfae9868db38db82501faaf9b9a6750e835f1be611ae1b7b9c65ffc02c9` |
 | `project/RESEARCH_VALUE_zh-CN.md` | project-narrative | 1171 | `c78655d099b01c576c98450bb047a3403905a40391dafe9eb2bc18273ed12908` |
 | `README.md` | repository-root | 18369 | `64125fd06e031b0f526d77aebe6d0e0156243a5dd3dab540ac75a1ae046b292a` |
-| `README_zh-CN.md` | repository-root | 5827 | `f5698a108baa043017e0ef1e1a80fbb89a3e7cc02a58545518479b3f64988973` |
+| `README_zh-CN.md` | repository-root | 6261 | `44ec81c33841d1b094051e3034e7b7ea8e3554a8d9510499c7cd17fd34c489d8` |
 | `reproducibility/environment.yml` | reproducibility | 190 | `10612a5f9b274c2eaf69e43190e7d239f77dfbe3b5a00672cca544ec315e011a` |
 | `reproducibility/PLATFORM_MATRIX_EN.md` | reproducibility | 1963 | `1ea2cc5909ef145c93c5dcdc9c3bfaefb1726bc4c51ea47f57134fefcb5141cd` |
 | `reproducibility/PLATFORM_MATRIX_zh-CN.md` | reproducibility | 1773 | `60cd3af1c440d40f30ef58b54b35bec5c7ae764faec54ef9dbc70bb32863fa88` |
@@ -109,6 +109,7 @@
 | `reproducibility/wsl/activate-ai4orgchem-public.sh` | reproducibility | 1475 | `5361fab00ebc6c614dfc191fffb4fb5c1eb0690ab862ad27000359347709cb2e` |
 | `reproducibility/wsl/ai4orgchem-verify` | reproducibility | 929 | `7eec73ec0269e9549a238707c6edf792a3bbae8161b72d714ba84abe3c43dc92` |
 | `reproducibility/wsl/README.md` | reproducibility | 1742 | `afb4d76e6f525e4b55036a446867d6ecc47b1657d7f17f6303062f4031ad832c` |
+| `REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md` | repository-root | 9863 | `96ae65080bebd411015f3de5f8e71c3fe779206a1fff7d1a9b5e212a4ef6e8cd` |
 | `software/pyproject.toml` | software-or-test | 643 | `21dfdbe31ca58d3103ca520910f6d0321e8f818519e765afbb1686048e311abe` |
 | `software/README.md` | software-or-test | 1834 | `5363f63e95b566e7210b4bb8301dd2248d1f6b5e7a556a24171a4f77aa749704` |
 | `software/scripts/refresh_release_snapshot.py` | software-or-test | 3642 | `fec2bea043be692038b7f66fd38bcb6a79d9cdc96fbd5b943b3d80099e414ba2` |

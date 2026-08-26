@@ -66,8 +66,8 @@
     {
       "path": "CHANGELOG.md",
       "artifact_role": "repository-root",
-      "bytes": 2808,
-      "sha256": "00078146c8f1cce96198efc5b8d59f280ebdbf7af9684812d7aee328b43de1e4"
+      "bytes": 2938,
+      "sha256": "7158d56441a9bb7d4223ba6e1e214068a3d9268236644bea7a722609028309b8"
     },
     {
       "path": "CITATION.cff",
@@ -474,8 +474,8 @@
     {
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
-      "bytes": 18903,
-      "sha256": "aea6d87eb76f6b4b1d120e9d6f06fba006b3605ccbeb98f915e174468128c58a"
+      "bytes": 19046,
+      "sha256": "c18fc14dca897afe0910f3671a26c6010e06d7a3d1daf11595fb68f34a62a309"
     },
     {
       "path": "manuscripts/MANUSCRIPT_EN.md",
@@ -564,8 +564,8 @@
     {
       "path": "README_zh-CN.md",
       "artifact_role": "repository-root",
-      "bytes": 5827,
-      "sha256": "f5698a108baa043017e0ef1e1a80fbb89a3e7cc02a58545518479b3f64988973"
+      "bytes": 6261,
+      "sha256": "44ec81c33841d1b094051e3034e7b7ea8e3554a8d9510499c7cd17fd34c489d8"
     },
     {
       "path": "reproducibility/environment.yml",
@@ -620,6 +620,12 @@
       "artifact_role": "reproducibility",
       "bytes": 1742,
       "sha256": "afb4d76e6f525e4b55036a446867d6ecc47b1657d7f17f6303062f4031ad832c"
+    },
+    {
+      "path": "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md",
+      "artifact_role": "repository-root",
+      "bytes": 9863,
+      "sha256": "96ae65080bebd411015f3de5f8e71c3fe779206a1fff7d1a9b5e212a4ef6e8cd"
     },
     {
       "path": "software/pyproject.toml",
