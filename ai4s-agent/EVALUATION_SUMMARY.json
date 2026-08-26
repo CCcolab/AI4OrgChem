@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "system": "AI4OrgChem AI4S Agent",
+  "snapshot_date": "2026-08-26",
+  "status": "completed_bounded_engineering_evaluation",
+  "evidence_scope": "summary of frozen local engineering reports; models, caches, and private run directories are excluded from the first GitHub package",
+  "scientific_propositions": {
+    "total": 14,
+    "consistent_or_scope_consistent": 12,
+    "partially_consistent": 2,
+    "globally_inconsistent": 0
+  },
+  "bounded_learning_dataset": {
+    "geometries": 17,
+    "molecular_families": 3,
+    "energy_targets": 5,
+    "split_leakage_detected": false
+  },
+  "equivariant_model_pi_pi_macro_rmse_mev_per_atom": {
+    "MACE": 108.0,
+    "NequIP": 108.2
+  },
+  "active_learning": {
+    "replay_metric": 113.44,
+    "random_median": 148.31,
+    "new_qm_labels": 2,
+    "postreturn_effect": "mixed"
+  },
+  "symbolic_discovery": {
+    "pi_pi_blind_test": "bounded_pass",
+    "pi_sigma_blind_test": "fail",
+    "universal_law_claim": false
+  },
+  "interactive_delivery": {
+    "validation_checks_passed": 9,
+    "validation_checks_total": 9,
+    "new_scientific_label_generation_allowed": false
+  },
+  "industrial_generalization_claim": false
+}
