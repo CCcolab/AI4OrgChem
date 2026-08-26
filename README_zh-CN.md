@@ -4,7 +4,7 @@
 
 AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评估的 **AI for Science（AI4S）Agent**。项目以《Questioning Fundamental Principles of Organic Chemistry》提出的反传统命题为科学起点，完全不使用原著程序代码进行独立实现。
 
-> **发布状态：** 私有`v0.1.0-rc3`候选版，尚未转为公开仓库，也尚未经过同行评审。
+> **发布状态：** 首个精选正式版本`v0.1.0`。相关论文稿尚未经过同行评审。
 
 ## 项目背景与目标
 
@@ -88,7 +88,7 @@ python -m pytest -p no:cacheprovider
 - 部分历史Cartesian坐标和程序未公开，相应结果明确标记为source-proxy，不冒充历史身份复现；
 - 不同状态合同的Target禁止跨协议直接求和；
 - AI模型输出属于工程证据，不是新的量子化学标签，也不替代科学命题论证；
-- 模型、私有运行目录、缓存、API凭据和受版权保护材料不进入候选版。
+- 模型、私有运行目录、缓存、API凭据和受版权保护材料不进入本发布版本。
 
 ## 论文稿件
 
@@ -102,4 +102,4 @@ python -m pytest -p no:cacheprovider
 
 ## 引用
 
-候选版作者为 **Xiao Chen**。机器可读引用信息见[`CITATION.cff`](CITATION.cff)。机构和ORCID尚未明确提供，因此不填写占位值。
+本版本唯一作者为 **Xiao Chen**。作者身份、CRediT贡献和利益冲突声明见[`AUTHORS.md`](AUTHORS.md)；机器可读引用信息见[`CITATION.cff`](CITATION.cff)。因未提供机构和ORCID，本版本不填写相关信息。

@@ -4,7 +4,7 @@
 
 AI4OrgChem is an **AI for Science (AI4S) Agent** for independent computational reconstruction and evidence assessment of counter-traditional propositions in organic structure theory. The project was motivated by *Questioning Fundamental Principles of Organic Chemistry* and was implemented without using the monograph's program code.
 
-> **Release status:** private `v0.1.0-rc3` candidate. The repository is not yet public or peer reviewed.
+> **Release status:** initial curated release `v0.1.0`. The associated manuscript has not yet undergone peer review.
 
 ## Why this project exists
 
@@ -190,7 +190,7 @@ python software/scripts/validate_evidence_navigation.py
 python software/scripts/validate_wsl_release.py
 ```
 
-刷新只重建文件清单和SHA-256快照，不生成量子化学结论；随后必须重新运行64项测试、洁净克隆和Ubuntu入口验证，并创建新提交/新候选标签。外部复核者通常只需验证快照，无需刷新。
+刷新只重建文件清单和SHA-256快照，不生成量子化学结论；随后必须重新运行64项测试、洁净克隆和Ubuntu入口验证，并创建新提交/不可变版本标签。外部复核者通常只需验证快照，无需刷新。
 
 ### 相关文档
 
@@ -232,7 +232,7 @@ The canonical scientific runtime is **WSL 2 / Ubuntu 24.04**. Native Windows is 
 - Some historical Cartesian coordinates and software were unavailable; affected results are explicitly marked as source-proxy rather than identity reproductions.
 - Targets with different state contracts must not be summed across protocols.
 - AI model outputs are engineering evidence, not new quantum-chemical labels or independent proof of the scientific propositions.
-- Models, private run directories, caches, API credentials, and copyrighted source materials are excluded from this release candidate.
+- Models, private run directories, caches, API credentials, and copyrighted source materials are excluded from this release.
 
 ## Manuscripts
 
@@ -246,4 +246,4 @@ Project-authored software and documentation are released under the [Apache Licen
 
 ## Citation
 
-The release author is **Xiao Chen**. Machine-readable citation metadata is provided in [`CITATION.cff`](CITATION.cff). Affiliation and ORCID are intentionally omitted until explicitly supplied.
+The sole release author is **Xiao Chen**. Authorship, CRediT contributions, and the competing-interests statement are recorded in [`AUTHORS.md`](AUTHORS.md). Machine-readable citation metadata is provided in [`CITATION.cff`](CITATION.cff). Affiliation and ORCID are omitted because they were not supplied.

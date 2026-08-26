@@ -34,4 +34,12 @@ We provide an independent, reproducible, and scope-bounded computational assessm
 
 ## Data and code availability
 
-Project-authored code and documentation are licensed under Apache-2.0. This public-release candidate includes versioned core code, machine-readable processed evidence, frozen protocols, reports, tests, a self-contained evidence validator, and environment documentation. The monograph and third-party materials are not relicensed by the project.
+Project-authored code and documentation are licensed under Apache-2.0. The `v0.1.0` release includes versioned core code, machine-readable processed evidence, frozen protocols, reports, tests, a self-contained evidence validator, and environment documentation. The monograph and third-party materials are not relicensed by the project.
+
+## Author contributions
+
+Xiao Chen: Conceptualization; Methodology; Software; Validation; Investigation; Data Curation; Writing; Visualization; Project Administration.
+
+## Competing interests
+
+The author declares no financial or non-financial competing interests.

@@ -5,7 +5,8 @@ type: software
 authors:
   - family-names: Chen
     given-names: Xiao
-version: 0.1.0-rc3
+version: 0.1.0
+date-released: 2026-08-26
 license: Apache-2.0
 abstract: >-
   AI4OrgChem is an AI for Science agent that independently reconstructs and

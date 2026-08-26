@@ -2,7 +2,7 @@
 
 本清单记录GitHub洁净仓库中的实质内容文件。生成型SHA清单和本文件自身不反向列入表格。
 
-- 实质内容文件：135
+- 实质内容文件：136
 - 状态：版本化发布快照；内容变更后必须重新生成并验证
 
 | 文件 | 角色 | 字节 | SHA-256 |
@@ -16,8 +16,9 @@
 | `ai4s-agent/LIMITATIONS_zh-CN.md` | agent-delivery | 649 | `8a59ffbdb909d742bc1ba261a193d75139b633ded35ec05c776f98137bdc330e` |
 | `ai4s-agent/README.md` | agent-delivery | 553 | `76daec0d2baba625555fc38d388d3e76ea0a1205af42c30e9aa735ca084d99c9` |
 | `ai4s-agent/SYSTEM_ARCHITECTURE_zh-CN.md` | agent-delivery | 1114 | `c767a97c2fca2abdb13540dfc6b6e8983952dbc9f3cfd5f119017da2dd830a8a` |
-| `CHANGELOG.md` | repository-root | 2567 | `8000cb051c0333ac4253398edeceec026bcfab9375bd78802d57921bfb121de0` |
-| `CITATION.cff` | repository-root | 854 | `f6ea20ded0cfcf28959b5a25068896de4192c6cfe0f6bc1646dc23d401ab1aad` |
+| `AUTHORS.md` | repository-root | 819 | `a6b4de7bc507fa98cac39ea23a176248163b15d2513dd4474bc0d238b0e48937` |
+| `CHANGELOG.md` | repository-root | 2808 | `00078146c8f1cce96198efc5b8d59f280ebdbf7af9684812d7aee328b43de1e4` |
+| `CITATION.cff` | repository-root | 876 | `c22eef22a7285b15495ccb840e02c21996f8f045922433dac925b92fde72358e` |
 | `configs/qm/p09_exchange_integral_classes_v0.1.yaml` | public-configuration | 7326 | `324c2e7988be48ed8898a5e9b04a87d40386ca8a8f7eb603d9a697d3ac6a6ee2` |
 | `evidence/P01-P14/P01/data-card.md` | scientific-evidence | 755 | `04013950752b0246026329854e28919d59986352597bb4521ceab3e3dd3a7224` |
 | `evidence/P01-P14/P01/protocol.md` | scientific-evidence | 4555 | `006f72c60d5522ef48129e5b4b6128416fdd24db9cc9160df7c626b939618dd7` |
@@ -84,21 +85,21 @@
 | `figures/P01-P14_overview_zh-CN.png` | project-figure | 1742798 | `127bcb2ca0eae15894f775cd7be97341a2e6e06aee9a47bf37696c0d7aa61645` |
 | `figures/README.md` | project-figure | 231 | `5242081eb3a31e485d398fb33eed00217e89edfab03561ba03408a2ea60c7efd` |
 | `LICENSE` | repository-root | 11357 | `4135cedb444c19860a53c85dc984b9c0a9644cba632c8ef44c45cbb1f88699b2` |
-| `manuscripts/MANUSCRIPT_EN.md` | manuscript | 6986 | `e7a2b600dc013a3a3a81321f288c194e9b98c8f3e706b443bf8ff4ac5109bd4c` |
-| `manuscripts/MANUSCRIPT_zh-CN.md` | manuscript | 5228 | `330ccdc2c09c19678fb99213e014e9422c138ad6a0975a4b6d3cbac721cbbaf5` |
+| `manuscripts/MANUSCRIPT_EN.md` | manuscript | 7242 | `6dec752d94627cb596d091416ad1bc9be39aa3cb62da5e29a27470be0f0b748d` |
+| `manuscripts/MANUSCRIPT_zh-CN.md` | manuscript | 5487 | `300259ce6941c36a3a28ffce3b55d02bfe779c525bd0a3543438dbd9f343eeee` |
 | `manuscripts/P01-P14_evidence_matrix_zh-CN.md` | manuscript | 4191 | `3083551cb08c5636c95b89b27bdc8e95df3b3141552ff6674a496d2c82da2773` |
 | `manuscripts/PUBLICATION_POSITIONING_EN.md` | manuscript | 2061 | `23245c67ad9992cea3bae9f458aff505bab0799290329fee3749ed1746aa5357` |
 | `manuscripts/PUBLICATION_POSITIONING_zh-CN.md` | manuscript | 1738 | `4e9ca4a4342e5a223ee8ba86a83259535968ec657c84c581ff46ed2f6c61f979` |
 | `manuscripts/README.md` | manuscript | 316 | `823a2ba0460c463742c63dc794f4c6bef7d27066b781eff7248a9ec8f33f6bdd` |
-| `NOTICE` | repository-root | 575 | `7be8afa9664607513c7e0b07f17ba44c576fd094dfb30d25e2240d16c3835e06` |
+| `NOTICE` | repository-root | 553 | `e69701cabf2f671467e0c5d1aa48c396cd991c4ece443d9983f2b08a3c8c714d` |
 | `project/ACHIEVEMENTS_zh-CN.md` | project-narrative | 1514 | `1c545686a9da447f598c99531dd688175e937d5e12696aa45e753954b899391c` |
 | `project/P01-P14_MASTER_TABLE_zh-CN.md` | project-narrative | 11428 | `c84c6aa5e85cf09461465a3a140fb8349ec673343e7efd42b6a84aa710ff3eff` |
 | `project/PROJECT_BACKGROUND_zh-CN.md` | project-narrative | 926 | `ae125ef5f554f2df97b07b9b35b37ba18fb31d0160f488823daa55f87fe4c12a` |
 | `project/README.md` | project-narrative | 610 | `226590564d00eb268e8eae97828340d30054f0db92e351ea95e8bf9afd8d4eb2` |
 | `project/RESEARCH_ITEMS_zh-CN.md` | project-narrative | 1817 | `ecce4bfae9868db38db82501faaf9b9a6750e835f1be611ae1b7b9c65ffc02c9` |
 | `project/RESEARCH_VALUE_zh-CN.md` | project-narrative | 1171 | `c78655d099b01c576c98450bb047a3403905a40391dafe9eb2bc18273ed12908` |
-| `README.md` | repository-root | 18249 | `12b0ac7a4597231a3e8e927d451acd49be688ab53a07a1ba4a38cc9a02f25ab0` |
-| `README_zh-CN.md` | repository-root | 5745 | `ec0a6e1c4cf221f4428395f2087182861e1fd9bff5b33ce3512f1ca63d1e509b` |
+| `README.md` | repository-root | 18369 | `64125fd06e031b0f526d77aebe6d0e0156243a5dd3dab540ac75a1ae046b292a` |
+| `README_zh-CN.md` | repository-root | 5827 | `f5698a108baa043017e0ef1e1a80fbb89a3e7cc02a58545518479b3f64988973` |
 | `reproducibility/environment.yml` | reproducibility | 190 | `10612a5f9b274c2eaf69e43190e7d239f77dfbe3b5a00672cca544ec315e011a` |
 | `reproducibility/PLATFORM_MATRIX_EN.md` | reproducibility | 1963 | `1ea2cc5909ef145c93c5dcdc9c3bfaefb1726bc4c51ea47f57134fefcb5141cd` |
 | `reproducibility/PLATFORM_MATRIX_zh-CN.md` | reproducibility | 1773 | `60cd3af1c440d40f30ef58b54b35bec5c7ae764faec54ef9dbc70bb32863fa88` |

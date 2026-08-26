@@ -4,8 +4,15 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 
 ## [Unreleased]
 
-- The release author is confirmed as Xiao Chen in `CITATION.cff`; optional affiliation and ORCID may be added if explicitly supplied.
-- Manuscript contribution and conflict-of-interest statements remain to be completed before scholarly submission.
+- No changes recorded after the initial curated release.
+
+## [0.1.0] - 2026-08-26
+
+### Released
+
+- promoted the validated private release candidate to the initial curated release;
+- confirmed Xiao Chen as the sole author, recorded CRediT contributions, and declared no financial or non-financial competing interests;
+- retained the frozen P01-P14 scientific evidence, public software, WSL 2 reproducibility materials, and bounded AI4S engineering results without scientific-value changes.
 
 ## [0.1.0-rc3] - 2026-08-26
 
