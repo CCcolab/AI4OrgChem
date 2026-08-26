@@ -4,7 +4,7 @@
 
 AI4OrgChem is an **AI for Science (AI4S) Agent** for independent computational reconstruction and evidence assessment of counter-traditional propositions in organic structure theory. The project was motivated by *Questioning Fundamental Principles of Organic Chemistry* and was implemented without using the monograph's program code.
 
-> **Release status:** local `v0.1.0-rc2` candidate. The repository has not yet been published or peer reviewed.
+> **Release status:** private `v0.1.0-rc3` candidate. The repository is not yet public or peer reviewed.
 
 ## Why this project exists
 

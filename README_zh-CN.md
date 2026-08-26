@@ -4,7 +4,7 @@
 
 AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评估的 **AI for Science（AI4S）Agent**。项目以《Questioning Fundamental Principles of Organic Chemistry》提出的反传统命题为科学起点，完全不使用原著程序代码进行独立实现。
 
-> **发布状态：** 本地`v0.1.0-rc2`候选版，尚未上传公开仓库，也尚未经过同行评审。
+> **发布状态：** 私有`v0.1.0-rc3`候选版，尚未转为公开仓库，也尚未经过同行评审。
 
 ## 项目背景与目标
 

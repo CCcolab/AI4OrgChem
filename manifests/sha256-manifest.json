@@ -60,14 +60,14 @@
     {
       "path": "CHANGELOG.md",
       "artifact_role": "repository-root",
-      "bytes": 2180,
-      "sha256": "de44386cea31427b14bcb21157c86372926040b10ffbcc337c5fe28393d53f98"
+      "bytes": 2567,
+      "sha256": "8000cb051c0333ac4253398edeceec026bcfab9375bd78802d57921bfb121de0"
     },
     {
       "path": "CITATION.cff",
       "artifact_role": "repository-root",
       "bytes": 854,
-      "sha256": "636ebe8983d389d90198e08a29bdf1f049d374a3a0550a4cd63dc4f9f6330e16"
+      "sha256": "f6ea20ded0cfcf28959b5a25068896de4192c6cfe0f6bc1646dc23d401ab1aad"
     },
     {
       "path": "configs/qm/p09_exchange_integral_classes_v0.1.yaml",
@@ -469,7 +469,7 @@
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
       "bytes": 18793,
-      "sha256": "66dcd3e5c51cbc1c7cf88178437767931641274cc1d19086549f4fe5b1d6da26"
+      "sha256": "6fbe73a7a8c19e04b5d539ef3eee21d5b5aca398538b9ff3957c1fd239a8d35f"
     },
     {
       "path": "manuscripts/MANUSCRIPT_EN.md",
@@ -516,14 +516,14 @@
     {
       "path": "project/ACHIEVEMENTS_zh-CN.md",
       "artifact_role": "project-narrative",
-      "bytes": 1530,
-      "sha256": "af81faf6bcf7015d93989a11f9b50e8ce4c44b2a9d36d09f05984160a5036241"
+      "bytes": 1514,
+      "sha256": "1c545686a9da447f598c99531dd688175e937d5e12696aa45e753954b899391c"
     },
     {
       "path": "project/P01-P14_MASTER_TABLE_zh-CN.md",
       "artifact_role": "project-narrative",
-      "bytes": 11431,
-      "sha256": "84a1fda51e35c84715fcf1ae537ec7458af5a67c06bbbdb63f0711c15c55da82"
+      "bytes": 11428,
+      "sha256": "c84c6aa5e85cf09461465a3a140fb8349ec673343e7efd42b6a84aa710ff3eff"
     },
     {
       "path": "project/PROJECT_BACKGROUND_zh-CN.md",
@@ -534,14 +534,14 @@
     {
       "path": "project/README.md",
       "artifact_role": "project-narrative",
-      "bytes": 617,
-      "sha256": "35669801530aa48d4d5c79d85ea1d542089b175d0f6c74bc184adf7a1af94ef6"
+      "bytes": 610,
+      "sha256": "226590564d00eb268e8eae97828340d30054f0db92e351ea95e8bf9afd8d4eb2"
     },
     {
       "path": "project/RESEARCH_ITEMS_zh-CN.md",
       "artifact_role": "project-narrative",
-      "bytes": 1755,
-      "sha256": "b04ddd4d1094d8fc9bbb4402d01f49a21ce2432bdfb71ea1ecf18b73aa0f525c"
+      "bytes": 1817,
+      "sha256": "ecce4bfae9868db38db82501faaf9b9a6750e835f1be611ae1b7b9c65ffc02c9"
     },
     {
       "path": "project/RESEARCH_VALUE_zh-CN.md",
@@ -552,14 +552,14 @@
     {
       "path": "README.md",
       "artifact_role": "repository-root",
-      "bytes": 18256,
-      "sha256": "0fe62afcad3e52fbae97a0dd2f57d01f230970c9d475ee26bc49880d19ab960a"
+      "bytes": 18249,
+      "sha256": "12b0ac7a4597231a3e8e927d451acd49be688ab53a07a1ba4a38cc9a02f25ab0"
     },
     {
       "path": "README_zh-CN.md",
       "artifact_role": "repository-root",
       "bytes": 5745,
-      "sha256": "62ed89fcc6b852c00c49b6e095d64d22459295d5154b01d78e69ca165176dd40"
+      "sha256": "ec0a6e1c4cf221f4428395f2087182861e1fd9bff5b33ce3512f1ca63d1e509b"
     },
     {
       "path": "reproducibility/environment.yml",

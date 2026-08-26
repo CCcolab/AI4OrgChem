@@ -7,6 +7,14 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 - The release author is confirmed as Xiao Chen in `CITATION.cff`; optional affiliation and ORCID may be added if explicitly supplied.
 - Manuscript contribution and conflict-of-interest statements remain to be completed before scholarly submission.
 
+## [0.1.0-rc3] - 2026-08-26
+
+### Changed
+
+- identified the GitHub release accurately as a private candidate rather than a local, not-yet-uploaded package;
+- replaced internal AI work-package identifiers in public project pages with descriptive engineering capabilities;
+- retained all P01-P14 scientific values, classifications, evidence boundaries, and public software without change.
+
 ## [0.1.0-rc2] - 2026-08-26
 
 ### Added
