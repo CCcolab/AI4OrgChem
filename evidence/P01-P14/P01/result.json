@@ -1,0 +1,109 @@
+{
+  "boundaries": [
+    "Conclusion is limited to the declared single-reference, fixed-partition operational scope.",
+    "NBO and BLW are method-mapped but were not numerically executed or claimed equivalent to LFMO.",
+    "LFMO DSI/FUD evidence is reused unchanged from the frozen Phase 1 release.",
+    "P02, P03, and P08 remain unstarted.",
+    "No universal correlated-electron delocalization metric is claimed.",
+    "No stabilization/destabilization production label or AI training is authorized by P01."
+  ],
+  "checks": {
+    "actual_density_invariant": true,
+    "actual_energy_invariant": true,
+    "actual_localizer_count_sufficient": true,
+    "actual_orbital_support_changed": true,
+    "linear_algebra_gauge_control_passed": true,
+    "named_lfmo_state_contracts_are_distinct": true,
+    "named_lfmo_state_energy_difference_nonzero": true,
+    "named_lfmo_state_records_sufficient": true,
+    "nbo_blw_numeric_equivalence_claimed": false,
+    "p02_p03_p08_started": false,
+    "production_or_ai_label_authorized": false,
+    "same_state_and_named_state_cases_not_conflated": true,
+    "universal_correlated_electron_metric_claimed": false
+  },
+  "config": {
+    "path": "configs/data/p01_scoped_conclusion_v0.1.yaml",
+    "sha256": "02c5ac800c3ff675b08a7adee97f4d8ad423ed60186466ca1bd81bc261425a69"
+  },
+  "date": "2026-08-20",
+  "method_status": {
+    "blw": "conceptual_mapping_only_not_executed",
+    "boys": "executed",
+    "canonical_mo": "executed",
+    "nbo": "conceptual_mapping_only_not_executed",
+    "pipek_mezey": "executed",
+    "source_lfmo_dsi_fud": "reused_from_frozen_phase_01_scientific_evidence"
+  },
+  "named_constrained_state_control": {
+    "basis_relation": "state_specific_source_definitions_with_declared_reporting_basis",
+    "density_relation": "separately_solved_state_specific_densities_not_same_gauge_representation",
+    "distinct_state_contract_pairs": 3,
+    "endpoint_record_count": 11,
+    "evidence_reuse": "frozen_phase_01_P04",
+    "family_count": 3,
+    "maximum_absolute_cross_group_component_change_hartree": 0.29175777740846764,
+    "meaning": "energy_delocalization_requires_an_explicit_named_state_difference",
+    "method": "source_defined_LFMO_DSI3_FUD",
+    "minimum_absolute_state_energy_difference_hartree": 0.059397305662514555,
+    "state_names": [
+      "DSI3",
+      "FUD"
+    ]
+  },
+  "p01_complete": true,
+  "proposition_id": "P01",
+  "protocol_id": "P01_SCOPED_CONCLUSION_V0.1",
+  "relation_to_monograph": "consistent_with_original_proposition_in_declared_scope",
+  "same_state_actual_control": {
+    "density_relation": "same_density_within_numerical_tolerance",
+    "electronic_state_relation": "same_occupied_subspace_and_same_RHF_state",
+    "entropy_changes_from_canonical": {
+      "boys": -0.6753249075628283,
+      "pipek_mezey": -0.6720689225730456
+    },
+    "maximum_density_relative_residual": 7.207204530697296e-16,
+    "maximum_energy_residual_hartree": 5.684341886080802e-14,
+    "meaning": "orbital_representation_change_without_electron_state_change",
+    "method_basis": "RHF/6-31G(d)",
+    "representations": [
+      "canonical",
+      "boys",
+      "pipek_mezey"
+    ],
+    "system": "ethene"
+  },
+  "schema_version": 1,
+  "scientific_conclusion": "Occupied-orbital localization can change molecular-orbital delocalization diagnostics without changing the one-particle density or RHF energy; energetic delocalization requires a separately named and solved constrained electronic-state comparison.",
+  "source_files": {
+    "actual_occupied_gauge_control": {
+      "path": "artifacts/raw/p01_ethene_orbital_density_control_2026-08-20.json",
+      "sha256": "ac468e9142aeb2bf10af7870f1b6e7c2924e6c1795a0658030459442a64bfea4"
+    },
+    "mathematical_control": {
+      "path": "data/processed/p01_delocalization_distinction_evidence_v0.1.json",
+      "sha256": "af08ef2fae6b94597c3a052baa6a8bcd22426e2abe3d9f435b92c55bdf31ee07"
+    },
+    "p01_protocol": {
+      "path": "docs/theory/p01_delocalization_concept_protocol_v0.1.md",
+      "sha256": "44e584e46bf6b8a2acc3d3923fad18a0577afad7c6f227300059ca3b6ddda725"
+    },
+    "public_source_audit": {
+      "path": "docs/theory/public_source_audit.md",
+      "sha256": "ef29d311a671d341a98ba466e22967cf85dd8f4afa74c8123043112fce137847"
+    },
+    "source_lfmo_component_artifact": {
+      "path": "artifacts/raw/target_c_source_proxy_geometry_window_2026-08-16.json",
+      "sha256": "bdd832a79e2316471c5ac08f19a36e751165a53adba862097963e9a1a47973a8"
+    },
+    "source_lfmo_scientific_labels": {
+      "path": "data/processed/target_c_tested_domain_scientific_labels_v0.1.jsonl",
+      "sha256": "37fed066c8d27225d00bce526451142a21eebd382241e8ea8ae37ba6745b17a1"
+    },
+    "source_method_mapping": {
+      "path": "docs/theory/lfmo_source_method_mapping_v0.1.md",
+      "sha256": "573fd98e5402376704247461a502dd0f3174f0410bc3f05631b9642411b99a4e"
+    }
+  },
+  "verdict": "P01_SCOPED_CONCEPTUAL_DISTINCTION_SUPPORTED"
+}

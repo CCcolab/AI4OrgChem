@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "protocol_id": "p14-strained-aromatic-pi-distortivity/0.1",
+  "proposition_id": "P14",
+  "proposition": "strained-aromatic bond-length distortion requires an independently identifiable pi-distortivity contribution beyond angle strain alone",
+  "classification": "consistent",
+  "classification_zh": "与原著一致",
+  "scope": "benzotricyclobutadiene_10_12_C12H6_frozen_source_proxy_protocol",
+  "quantitative_evidence": {
+    "source_G_delta_r_angstrom": 0.177,
+    "source_PLG_delta_r_angstrom": -0.002,
+    "source_d_delta_r_GP_angstrom": 0.179,
+    "pilot_G_delta_r_angstrom": 0.18880715608429988,
+    "pilot_PLG_delta_r_angstrom": 0.020724924584781146,
+    "pilot_d_delta_r_GP_angstrom": 0.16808223149951873,
+    "pilot_d_delta_r_residual_angstrom": -0.010917768500481262,
+    "source_level_endpoint_kcal_mol": 67.08689934831932,
+    "source_endpoint_kcal_mol": 67.08,
+    "source_level_endpoint_residual_kcal_mol": 0.006899348319322485,
+    "memory_implementation_energy_difference_hartree": 2.2737367544323206e-13
+  },
+  "decision_checks": {
+    "fixed_geometry_operator_smoke_passed": true,
+    "five_parameter_optimization_path_passed": true,
+    "memory_controlled_operator_equivalent": true,
+    "source_level_fixed_geometry_anchor_passed": true,
+    "source_PLG_near_equal_bonds": true,
+    "independent_pilot_reduces_bond_alternation": true,
+    "independent_pilot_response_same_direction": true,
+    "independent_pilot_d_delta_within_bond_tolerance": true,
+    "source_level_endpoint_same_sign": true,
+    "source_level_endpoint_within_energy_tolerance": true
+  },
+  "decision_verdict": "PASS",
+  "evidence_files": [
+    "data/processed/p14_benzotricyclobutadiene_fixed_geometry_smoke_v0.1.json",
+    "data/processed/p14_C12H6_five_parameter_pilot_v0.1.json",
+    "data/processed/p14_memory_controlled_eri_equivalence_v0.1.json",
+    "data/processed/p14_C12H6_source_level_fixed_geometry_v0.1.json"
+  ],
+  "limitations": [
+    "source_full_Cartesian_coordinates_not_public",
+    "CH_distance_fixed_at_1.080_angstrom_proxy",
+    "source_level_geometry_not_independently_reoptimized",
+    "single_C12H6_system_does_not_establish_universal_19_molecule_law"
+  ],
+  "scientific_label": "consistent",
+  "publishable_scientific_classification": true,
+  "production_label": false,
+  "training_eligible": false
+}

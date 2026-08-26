@@ -1,0 +1,462 @@
+{
+  "schema_version": 1,
+  "protocol_id": "p13-polycyclic-benzenoid/0.1",
+  "proposition_id": "P13",
+  "generated_date": "2026-08-22",
+  "implementation": "project_authored_polyhex_perfect_matching_enumerator_plus_RDKit_formula_check",
+  "rdkit_version": "2026.03.4",
+  "original_program_code_used": false,
+  "historical_quantum_program_reproduced": false,
+  "git_commit_at_generation": "d55e12c9ee9e4d8a201405be75a1c6c7e19e0d7f",
+  "source_pdf_sha256": "07aadf5e25967616c4076c8b732ebb17e9e179f31c6546b6eb06d46e96d4a85d",
+  "candidate_rows": [
+    {
+      "molecule": "naphthalene",
+      "label": "GL2:3",
+      "N_GL": 1,
+      "E_GL_hartree": -385.87829,
+      "delta_EA": -9.1,
+      "ESE": -52.6,
+      "CESE": -49.2,
+      "sum_delta_EAm": 43.5,
+      "sum_delta_EnAm": -3.4,
+      "selected": false,
+      "calculated_ESE": -52.6,
+      "ESE_residual": 0.0,
+      "calculated_CESE": -49.2,
+      "CESE_residual": 0.0
+    },
+    {
+      "molecule": "naphthalene",
+      "label": "GL5:6",
+      "N_GL": 2,
+      "E_GL_hartree": -385.87779,
+      "delta_EA": -9.4,
+      "ESE": -65.2,
+      "CESE": -62.0,
+      "sum_delta_EAm": 55.8,
+      "sum_delta_EnAm": -3.2,
+      "selected": true,
+      "calculated_ESE": -65.2,
+      "ESE_residual": 0.0,
+      "calculated_CESE": -62.0,
+      "CESE_residual": 0.0
+    },
+    {
+      "molecule": "anthracene",
+      "label": "GL2:3",
+      "N_GL": 1,
+      "E_GL_hartree": -539.5249,
+      "delta_EA": -3.5,
+      "ESE": -62.4,
+      "CESE": -56.1,
+      "sum_delta_EAm": 58.9,
+      "sum_delta_EnAm": -6.3,
+      "selected": false,
+      "calculated_ESE": -62.4,
+      "ESE_residual": 0.0,
+      "calculated_CESE": -56.1,
+      "CESE_residual": 0.0
+    },
+    {
+      "molecule": "anthracene",
+      "label": "GL5:6",
+      "N_GL": 2,
+      "E_GL_hartree": -539.52404,
+      "delta_EA": -4.1,
+      "ESE": -75.1,
+      "CESE": -68.2,
+      "sum_delta_EAm": 71.0,
+      "sum_delta_EnAm": -6.8,
+      "selected": true,
+      "calculated_ESE": -75.1,
+      "ESE_residual": 0.0,
+      "calculated_CESE": -68.3,
+      "CESE_residual": -0.09999999999999432
+    },
+    {
+      "molecule": "tetracene",
+      "label": "GL2:3",
+      "N_GL": 1,
+      "E_GL_hartree": -693.1715,
+      "delta_EA": 3.6,
+      "ESE": -70.8,
+      "CESE": -61.7,
+      "sum_delta_EAm": 74.4,
+      "sum_delta_EnAm": -9.1,
+      "selected": false,
+      "calculated_ESE": -70.80000000000001,
+      "ESE_residual": -1.4210854715202004e-14,
+      "calculated_CESE": -61.70000000000001,
+      "CESE_residual": -7.105427357601002e-15
+    },
+    {
+      "molecule": "tetracene",
+      "label": "GL5:6",
+      "N_GL": 2,
+      "E_GL_hartree": -693.17049,
+      "delta_EA": 2.9,
+      "ESE": -83.4,
+      "CESE": -73.7,
+      "sum_delta_EAm": 86.3,
+      "sum_delta_EnAm": -9.7,
+      "selected": false,
+      "calculated_ESE": -83.39999999999999,
+      "ESE_residual": 1.4210854715202004e-14,
+      "calculated_CESE": -73.69999999999999,
+      "CESE_residual": 1.4210854715202004e-14
+    },
+    {
+      "molecule": "tetracene",
+      "label": "GL8:9",
+      "N_GL": 2,
+      "E_GL_hartree": -693.16998,
+      "delta_EA": 2.6,
+      "ESE": -83.2,
+      "CESE": -72.7,
+      "sum_delta_EAm": 85.8,
+      "sum_delta_EnAm": -10.5,
+      "selected": true,
+      "calculated_ESE": -83.2,
+      "ESE_residual": 0.0,
+      "calculated_CESE": -72.7,
+      "CESE_residual": 0.0
+    },
+    {
+      "molecule": "pentacene",
+      "label": "GL2:3",
+      "N_GL": 1,
+      "E_GL_hartree": -846.81813,
+      "delta_EA": 11.4,
+      "ESE": -78.5,
+      "CESE": -66.7,
+      "sum_delta_EAm": 89.9,
+      "sum_delta_EnAm": -11.8,
+      "selected": false,
+      "calculated_ESE": -78.5,
+      "ESE_residual": 0.0,
+      "calculated_CESE": -66.7,
+      "CESE_residual": 0.0
+    },
+    {
+      "molecule": "pentacene",
+      "label": "GL5:6",
+      "N_GL": 2,
+      "E_GL_hartree": -846.81704,
+      "delta_EA": 10.7,
+      "ESE": -91.1,
+      "CESE": -78.6,
+      "sum_delta_EAm": 101.8,
+      "sum_delta_EnAm": -12.5,
+      "selected": false,
+      "calculated_ESE": -91.1,
+      "ESE_residual": 0.0,
+      "calculated_CESE": -78.6,
+      "CESE_residual": 0.0
+    },
+    {
+      "molecule": "pentacene",
+      "label": "GL8:9",
+      "N_GL": 2,
+      "E_GL_hartree": -846.81629,
+      "delta_EA": 10.3,
+      "ESE": -90.8,
+      "CESE": -77.3,
+      "sum_delta_EAm": 101.0,
+      "sum_delta_EnAm": -13.4,
+      "selected": true,
+      "calculated_ESE": -90.7,
+      "ESE_residual": 0.09999999999999432,
+      "calculated_CESE": -77.3,
+      "CESE_residual": 0.0
+    },
+    {
+      "molecule": "hexacene",
+      "label": "GL2:3",
+      "N_GL": 1,
+      "E_GL_hartree": -1000.46477,
+      "delta_EA": 19.6,
+      "ESE": -85.9,
+      "CESE": -71.4,
+      "sum_delta_EAm": 105.5,
+      "sum_delta_EnAm": -14.5,
+      "selected": false,
+      "calculated_ESE": -85.9,
+      "ESE_residual": 0.0,
+      "calculated_CESE": -71.4,
+      "CESE_residual": 0.0
+    },
+    {
+      "molecule": "hexacene",
+      "label": "GL5:6",
+      "N_GL": 2,
+      "E_GL_hartree": -1000.46364,
+      "delta_EA": 18.9,
+      "ESE": -98.4,
+      "CESE": -83.2,
+      "sum_delta_EAm": 117.4,
+      "sum_delta_EnAm": -15.2,
+      "selected": false,
+      "calculated_ESE": -98.5,
+      "ESE_residual": -0.09999999999999432,
+      "calculated_CESE": -83.3,
+      "CESE_residual": -0.09999999999999432
+    },
+    {
+      "molecule": "hexacene",
+      "label": "GL8:9",
+      "N_GL": 2,
+      "E_GL_hartree": -1000.46277,
+      "delta_EA": 18.4,
+      "ESE": -98.1,
+      "CESE": -81.8,
+      "sum_delta_EAm": 116.4,
+      "sum_delta_EnAm": -16.3,
+      "selected": false,
+      "calculated_ESE": -98.0,
+      "ESE_residual": 0.09999999999999432,
+      "calculated_CESE": -81.7,
+      "CESE_residual": 0.09999999999999432
+    },
+    {
+      "molecule": "hexacene",
+      "label": "GL12:13",
+      "N_GL": 2,
+      "E_GL_hartree": -1000.46254,
+      "delta_EA": 18.2,
+      "ESE": -97.9,
+      "CESE": -81.5,
+      "sum_delta_EAm": 116.2,
+      "sum_delta_EnAm": -16.4,
+      "selected": true,
+      "calculated_ESE": -98.0,
+      "ESE_residual": -0.09999999999999432,
+      "calculated_CESE": -81.6,
+      "CESE_residual": -0.09999999999999432
+    }
+  ],
+  "anchor_rows": [
+    {
+      "molecule": "phenanthrene",
+      "source_id": "7-2-1",
+      "pi_electrons": 14,
+      "delta_EA": -11.8,
+      "ESE": -94.8,
+      "CESE": -88.4,
+      "CESE_per_pi": -6.32,
+      "sum_delta_EAm": 83.0,
+      "sum_delta_EnAm": -6.4,
+      "calculated_ESE": -94.8,
+      "ESE_residual": 0.0,
+      "calculated_CESE": -88.39999999999999,
+      "CESE_residual": 1.4210854715202004e-14
+    },
+    {
+      "molecule": "triphenylene",
+      "source_id": "7-3-1",
+      "pi_electrons": 18,
+      "delta_EA": -15.8,
+      "ESE": -125.7,
+      "CESE": -115.9,
+      "CESE_per_pi": -6.44,
+      "sum_delta_EAm": 109.9,
+      "sum_delta_EnAm": -9.8,
+      "calculated_ESE": -125.7,
+      "ESE_residual": 0.0,
+      "calculated_CESE": -115.9,
+      "CESE_residual": 0.0
+    },
+    {
+      "molecule": "chrysene",
+      "source_id": "7-4-1",
+      "pi_electrons": 18,
+      "delta_EA": -13.0,
+      "ESE": -123.3,
+      "CESE": -110.6,
+      "CESE_per_pi": -6.14,
+      "sum_delta_EAm": 110.2,
+      "sum_delta_EnAm": -12.7,
+      "calculated_ESE": -123.2,
+      "ESE_residual": 0.09999999999999432,
+      "calculated_CESE": -110.5,
+      "CESE_residual": 0.09999999999999432
+    }
+  ],
+  "holdout_rows": [
+    {
+      "label": "GL11:12,22:23",
+      "N_GL": 5,
+      "E_GL_hartree": -1230.33519,
+      "delta_EA": 3.0,
+      "ESE": -182.9,
+      "CESE": -165.9,
+      "sum_delta_EAm": 185.9,
+      "sum_delta_EnAm": -17.0,
+      "source_selected": false,
+      "calculated_ESE": -182.9,
+      "ESE_residual": 0.0,
+      "calculated_CESE": -165.9,
+      "CESE_residual": 0.0
+    },
+    {
+      "label": "GL12:13,22:23",
+      "N_GL": 4,
+      "E_GL_hartree": -1230.33546,
+      "delta_EA": 3.2,
+      "ESE": -161.1,
+      "CESE": -141.2,
+      "sum_delta_EAm": 164.3,
+      "sum_delta_EnAm": -19.9,
+      "source_selected": true,
+      "calculated_ESE": -161.10000000000002,
+      "ESE_residual": -2.842170943040401e-14,
+      "calculated_CESE": -141.20000000000002,
+      "CESE_residual": -2.842170943040401e-14
+    },
+    {
+      "label": "GL11:12,6:7",
+      "N_GL": 4,
+      "E_GL_hartree": -1230.33571,
+      "delta_EA": 3.3,
+      "ESE": -161.2,
+      "CESE": -142.6,
+      "sum_delta_EAm": 164.6,
+      "sum_delta_EnAm": -18.7,
+      "source_selected": false,
+      "calculated_ESE": -161.29999999999998,
+      "ESE_residual": -0.09999999999999432,
+      "calculated_CESE": -142.6,
+      "CESE_residual": 0.0
+    },
+    {
+      "label": "GL12:13,26:27",
+      "N_GL": 4,
+      "E_GL_hartree": -1230.33633,
+      "delta_EA": 3.7,
+      "ESE": -161.3,
+      "CESE": -142.4,
+      "sum_delta_EAm": 165.0,
+      "sum_delta_EnAm": -18.9,
+      "source_selected": false,
+      "calculated_ESE": -161.3,
+      "ESE_residual": 0.0,
+      "calculated_CESE": -142.4,
+      "CESE_residual": 0.0
+    }
+  ],
+  "holdout_global_energy_max": "GL11:12,22:23",
+  "holdout_filtered_energy_max": "GL12:13,22:23",
+  "graph_enumeration": [
+    {
+      "ring_count": 2,
+      "atom_count": 10,
+      "formula": "C10H8",
+      "kekule_count": 3,
+      "qualified_count": 1,
+      "N_db_distribution": {
+        "1": 3
+      },
+      "N_GL_distribution": {
+        "1": 2,
+        "2": 1
+      },
+      "all_qualified_obey_rule": true
+    },
+    {
+      "ring_count": 3,
+      "atom_count": 14,
+      "formula": "C14H10",
+      "kekule_count": 4,
+      "qualified_count": 2,
+      "N_db_distribution": {
+        "1": 4
+      },
+      "N_GL_distribution": {
+        "1": 2,
+        "2": 2
+      },
+      "all_qualified_obey_rule": true
+    },
+    {
+      "ring_count": 4,
+      "atom_count": 18,
+      "formula": "C18H12",
+      "kekule_count": 5,
+      "qualified_count": 3,
+      "N_db_distribution": {
+        "1": 5
+      },
+      "N_GL_distribution": {
+        "1": 2,
+        "2": 3
+      },
+      "all_qualified_obey_rule": true
+    },
+    {
+      "ring_count": 5,
+      "atom_count": 22,
+      "formula": "C22H14",
+      "kekule_count": 6,
+      "qualified_count": 4,
+      "N_db_distribution": {
+        "1": 6
+      },
+      "N_GL_distribution": {
+        "1": 2,
+        "2": 4
+      },
+      "all_qualified_obey_rule": true
+    },
+    {
+      "ring_count": 6,
+      "atom_count": 26,
+      "formula": "C26H16",
+      "kekule_count": 7,
+      "qualified_count": 5,
+      "N_db_distribution": {
+        "1": 7
+      },
+      "N_GL_distribution": {
+        "1": 2,
+        "2": 5
+      },
+      "all_qualified_obey_rule": true
+    },
+    {
+      "ring_count": 7,
+      "atom_count": 30,
+      "formula": "C30H18",
+      "kekule_count": 8,
+      "qualified_count": 6,
+      "N_db_distribution": {
+        "1": 8
+      },
+      "N_GL_distribution": {
+        "1": 2,
+        "2": 6
+      },
+      "all_qualified_obey_rule": true
+    }
+  ],
+  "scientific_verdict": "P13_CONSISTENT_IN_TESTED_RULE_HIERARCHY_AND_PUBLISHED_LEDGER_SCOPE",
+  "relation_to_monograph": "consistent_in_tested_rule_hierarchy_and_published_energy_ledger_scope",
+  "acceptance_checks": {
+    "published_ESE_identities_close": true,
+    "published_CESE_identities_close": true,
+    "source_selected_acene_candidates_obey_filtered_energy_rule": true,
+    "acene_CESE_per_pi_matches_printed_values": true,
+    "acene_absolute_CESE_per_pi_decreases_with_size": true,
+    "all_scoped_CESE_per_pi_below_benzene_reference": true,
+    "all_scoped_adjacent_increment_sums_destabilizing": true,
+    "independent_graph_kekule_counts_match": true,
+    "independent_graph_GL_qualified_counts_match": true,
+    "independent_RDKit_formulas_match": true,
+    "holdout_detects_energy_rule_without_GL_filter_failure": true,
+    "holdout_source_selection_is_highest_energy_after_GL_filter": true,
+    "historical_quantum_program_not_claimed": true,
+    "production_label_disabled": true,
+    "AI_training_disabled": true
+  },
+  "production_label": false,
+  "training_eligible": false
+}

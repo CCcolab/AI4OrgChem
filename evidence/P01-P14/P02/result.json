@@ -1,0 +1,363 @@
+{
+  "boundaries": {
+    "ai_training_started": false,
+    "p03_pes_started": false,
+    "p08_butadiene_started": false,
+    "production_label": false,
+    "universal_all_molecules_law": false
+  },
+  "checks": {
+    "ai_training_started": false,
+    "all_target_group_rules_consistent": true,
+    "aromatic_reference_line_reproduced": true,
+    "both_structure_observables_oppose_traditional_direction": true,
+    "p03_pes_started": false,
+    "p08_butadiene_started": false,
+    "polyenal_reference_line_reproduced": true,
+    "printed_polyenal_cc_is_outside_correlation_range": true,
+    "raw_cif_independent_refinement_completed": false,
+    "source_hash_matches": true,
+    "ten_target_compounds_frozen": true,
+    "uv_pair_order_supports_stronger_aromatic_participation_in_1_1_1_1": true
+  },
+  "completion_scope": "published_value_reanalysis_not_raw_crystallographic_refinement",
+  "config": {
+    "path": "configs/data/p02_structure_uv_source_freeze_v0.1.yaml",
+    "sha256": "0F7CCD27F4C0A41E6EDE1F214AA8B0C9C4232B2B8B5E1E4F452653879A57C0BF"
+  },
+  "date": "2026-08-20",
+  "exclusion_rules": [
+    "Exclude B3LYP geometries from the primary experimental test.",
+    "Exclude 1-2-(1,n) theoretical N-H analogues and all PES/nuclear-repulsion values.",
+    "Exclude Chapter 2 NBA-like species and all additional molecule panels.",
+    "Do not infer statistical uncertainty absent from the published values."
+  ],
+  "external_sources": {
+    "crystal_1_1_1_1": {
+      "citation": "C. L. Bai, Z. H. Yu, H. Fu, Y. Q. Tan, Chin. J. Struct. Chem. 1984, 3, 65-68",
+      "retrieval_status": "cited_values_in_public_monograph_full_article_and_cif_not_retrieved",
+      "title": "Structure of 3-[(N-methyl, N-2-naphthyl)amino]-acrolein"
+    },
+    "crystal_1_1_1_2": {
+      "citation": "C. L. Bai, Z. H. Yu, H. Fu, Y. Q. Tan, Chin. J. Struct. Chem. 1984, 3, 69-72",
+      "retrieval_status": "cited_values_in_public_monograph_full_article_and_cif_not_retrieved",
+      "title": "Structure of 5-[(N-methyl,N-2-naphthyl)amino]-penta-2,4-dienal"
+    },
+    "polyenal_reference_series": {
+      "citation": "S. S. Malhotra and M. C. Whiting, J. Chem. Soc. 1960, 3812-3822",
+      "doi": "10.1039/JR9600003812",
+      "retrieval_status": "metadata_confirmed",
+      "title": "Researches on polyenes. Part VII. The preparation and electronic absorption spectra of homologous series of simple cyanines, merocyanines, and oxonols",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/1960/jr/jr9600003812"
+    },
+    "target_uv_series": {
+      "citation": "M. Q. Jiang, Z. H. Yu, C. C. Dai, Sci. China B 1990, 33, 409-420",
+      "retrieval_status": "cited_values_in_public_monograph_full_article_not_retrieved",
+      "title": "Alternative Predominance in Competition for Conjugation in Nitrogen Bridge Compound"
+    }
+  },
+  "inclusion_rules": [
+    "Include only Table 1-1 wavelengths visible in the public monograph.",
+    "Use the stated p-band for 1-3(m) and K-band for 1-4(n).",
+    "Use only the two explicitly cited X-ray structures for the primary structural direction test.",
+    "Preserve double peaks and their branch roles; do not average them."
+  ],
+  "p02_complete": true,
+  "proposition_id": "P02",
+  "protocol_id": "P02_STRUCTURE_UV_SOURCE_FREEZE_V0.1",
+  "relation_to_monograph": "consistent_with_original_proposition_in_published_value_scope",
+  "schema_version": 1,
+  "scientific_conclusion": "Within the frozen published pair, stronger aromatic-branch conjugation participation is accompanied by a larger twist angle and a longer C-N bond, contradicting the local mandatory-planarization direction.",
+  "source": {
+    "doi": "10.6084/m9.figshare.27261243.v1",
+    "figures": [
+      "Figure 1-2",
+      "Figure 1-3",
+      "Figure 1-4",
+      "Figure 1-5"
+    ],
+    "license": "CC-BY-4.0",
+    "monograph_pdf": "artifacts/source_cache/Questioning Fundamental Principles of Organic Chemistry.PDF",
+    "pdf_pages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "printed_pages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "sha256": "07AADF5E25967616C4076C8B732EBB17E9E179F31C6546B6EB06D46E96D4A85D",
+    "table": "Table 1-1",
+    "verified_sha256": "07AADF5E25967616C4076C8B732EBB17E9E179F31C6546B6EB06D46E96D4A85D"
+  },
+  "structural_direction_test": {
+    "bond_direction_opposes_traditional_prediction": true,
+    "inferential_p_value_computed": false,
+    "observable_count": 2,
+    "observed_c_n_bond_delta_angstrom": 0.006999999999999895,
+    "observed_twist_delta_degree": 2.200000000000003,
+    "opposing_observable_count": 2,
+    "source_tier": "published_value_reanalysis_without_raw_cif",
+    "stronger_id": "1-1-(1,1)",
+    "traditional_prediction": {
+      "c_n_delta_stronger_minus_weaker": "negative",
+      "twist_delta_stronger_minus_weaker": "negative"
+    },
+    "twist_direction_opposes_traditional_prediction": true,
+    "values": {
+      "1-1-(1,1)": {
+        "c_n_bond_angstrom": 1.43,
+        "twist_angle_degree": 33.6
+      },
+      "1-1-(1,2)": {
+        "c_n_bond_angstrom": 1.423,
+        "twist_angle_degree": 31.4
+      }
+    },
+    "weaker_id": "1-1-(1,2)"
+  },
+  "uv_pair_test": {
+    "naphthyl_reference_peak_angstrom": 2800.0,
+    "stronger_aromatic_peak_angstrom": 2840.0,
+    "stronger_aromatic_peak_difference_angstrom": 40.0,
+    "stronger_aromatic_peak_relative_difference": 0.014285714285714285,
+    "stronger_has_aromatic_branch_peak_and_weaker_is_polyenal_predominant": true,
+    "stronger_id": "1-1-(1,1)",
+    "weaker_difference_from_naphthyl_reference_angstrom": 1100.0,
+    "weaker_difference_from_polyenal_reference_angstrom": 285.0,
+    "weaker_id": "1-1-(1,2)",
+    "weaker_relative_difference_from_naphthyl_reference": 0.39285714285714285,
+    "weaker_relative_difference_from_polyenal_reference": 0.07883817427385892,
+    "weaker_single_peak_angstrom": 3900.0
+  },
+  "uv_regressions": {
+    "aromatic_1_3_m": {
+      "figure_equation_reproduced_from_rounded_table_values": true,
+      "intercept": 9.032649509738883,
+      "intercept_absolute_difference": 0.001070490261117385,
+      "monograph_figure_equation": {
+        "intercept": 9.03372,
+        "printed_cc": 0.889,
+        "slope": -7.92576
+      },
+      "point_count": 3,
+      "points": [
+        {
+          "N": 3,
+          "frequency_times_1e_minus_4_cm": 3.9840637450199203,
+          "homologous_factor": 0.6299605249474366,
+          "residual": -0.05645098238896651,
+          "wavelength_angstrom": 2510.0
+        },
+        {
+          "N": 4,
+          "frequency_times_1e_minus_4_cm": 3.5714285714285716,
+          "homologous_factor": 0.7071067811865476,
+          "residual": 0.1422608949002817,
+          "wavelength_angstrom": 2800.0
+        },
+        {
+          "N": 5,
+          "frequency_times_1e_minus_4_cm": 2.9411764705882355,
+          "homologous_factor": 0.757858283255199,
+          "residual": -0.08580991251131476,
+          "wavelength_angstrom": 3400.0
+        }
+      ],
+      "r_squared": 0.9441938942512591,
+      "rmse": 0.10130517708999855,
+      "slope": -7.9245200050376745,
+      "slope_absolute_difference": 0.0012399949623258522
+    },
+    "polyenal_1_4_n": {
+      "figure_equation_reproduced_from_rounded_table_values": true,
+      "intercept": 9.831507254909223,
+      "intercept_absolute_difference": 0.015692745090778004,
+      "monograph_figure_equation": {
+        "intercept": 9.8472,
+        "printed_cc": 9.847,
+        "slope": -9.9477
+      },
+      "point_count": 4,
+      "points": [
+        {
+          "N": 2,
+          "frequency_times_1e_minus_4_cm": 4.901960784313726,
+          "homologous_factor": 0.5,
+          "residual": 0.03240089049959316,
+          "wavelength_angstrom": 2040.0
+        },
+        {
+          "N": 3,
+          "frequency_times_1e_minus_4_cm": 3.5335689045936394,
+          "homologous_factor": 0.6299605249474366,
+          "residual": -0.04627642160156187,
+          "wavelength_angstrom": 2830.0
+        },
+        {
+          "N": 4,
+          "frequency_times_1e_minus_4_cm": 2.7662517289073305,
+          "homologous_factor": 0.7071067811865476,
+          "residual": -0.04800227215982655,
+          "wavelength_angstrom": 3615.0
+        },
+        {
+          "N": 5,
+          "frequency_times_1e_minus_4_cm": 2.372479240806643,
+          "homologous_factor": 0.757858283255199,
+          "residual": 0.0618778032617997,
+          "wavelength_angstrom": 4215.0
+        }
+      ],
+      "r_squared": 0.9975008273760221,
+      "rmse": 0.048281480845206524,
+      "slope": -9.92389472219018,
+      "slope_absolute_difference": 0.023805277809819003
+    }
+  },
+  "uv_target_rows": [
+    {
+      "declared_group": "aromatic_predominant",
+      "group_expected_from_m_n_rule": "aromatic_predominant",
+      "group_rule_consistent": true,
+      "id": "1-1-(0,0)",
+      "m": 0,
+      "n": 0,
+      "peak_roles": null,
+      "wavelengths_angstrom": [
+        2360.0
+      ]
+    },
+    {
+      "declared_group": "polyenal_predominant",
+      "group_expected_from_m_n_rule": "polyenal_predominant",
+      "group_rule_consistent": true,
+      "id": "1-1-(0,1)",
+      "m": 0,
+      "n": 1,
+      "peak_roles": null,
+      "wavelengths_angstrom": [
+        3050.0
+      ]
+    },
+    {
+      "declared_group": "polyenal_predominant",
+      "group_expected_from_m_n_rule": "polyenal_predominant",
+      "group_rule_consistent": true,
+      "id": "1-1-(0,2)",
+      "m": 0,
+      "n": 2,
+      "peak_roles": null,
+      "wavelengths_angstrom": [
+        3780.0
+      ]
+    },
+    {
+      "declared_group": "aromatic_predominant",
+      "group_expected_from_m_n_rule": "aromatic_predominant",
+      "group_rule_consistent": true,
+      "id": "1-1-(1,0)",
+      "m": 1,
+      "n": 0,
+      "peak_roles": null,
+      "wavelengths_angstrom": [
+        2780.0
+      ]
+    },
+    {
+      "declared_group": "dual_competition",
+      "group_expected_from_m_n_rule": "dual_competition",
+      "group_rule_consistent": true,
+      "id": "1-1-(1,1)",
+      "m": 1,
+      "n": 1,
+      "peak_roles": {
+        "aromatic": 2840,
+        "polyenal": 3140
+      },
+      "wavelengths_angstrom": [
+        3140.0,
+        2840.0
+      ]
+    },
+    {
+      "declared_group": "polyenal_predominant",
+      "group_expected_from_m_n_rule": "polyenal_predominant",
+      "group_rule_consistent": true,
+      "id": "1-1-(1,2)",
+      "m": 1,
+      "n": 2,
+      "peak_roles": null,
+      "wavelengths_angstrom": [
+        3900.0
+      ]
+    },
+    {
+      "declared_group": "aromatic_predominant",
+      "group_expected_from_m_n_rule": "aromatic_predominant",
+      "group_rule_consistent": true,
+      "id": "1-1-(2,0)",
+      "m": 2,
+      "n": 0,
+      "peak_roles": null,
+      "wavelengths_angstrom": [
+        3400.0
+      ]
+    },
+    {
+      "declared_group": "aromatic_predominant",
+      "group_expected_from_m_n_rule": "aromatic_predominant",
+      "group_rule_consistent": true,
+      "id": "1-1-(2,1)",
+      "m": 2,
+      "n": 1,
+      "peak_roles": null,
+      "wavelengths_angstrom": [
+        3180.0
+      ]
+    },
+    {
+      "declared_group": "dual_competition",
+      "group_expected_from_m_n_rule": "dual_competition",
+      "group_rule_consistent": true,
+      "id": "1-1-(2,2)",
+      "m": 2,
+      "n": 2,
+      "peak_roles": {
+        "aromatic": 3620,
+        "polyenal": 4100
+      },
+      "wavelengths_angstrom": [
+        4100.0,
+        3620.0
+      ]
+    },
+    {
+      "declared_group": "polyenal_predominant",
+      "group_expected_from_m_n_rule": "polyenal_predominant",
+      "group_rule_consistent": true,
+      "id": "1-1-(2,3)",
+      "m": 2,
+      "n": 3,
+      "peak_roles": null,
+      "wavelengths_angstrom": [
+        4480.0
+      ]
+    }
+  ],
+  "verdict": "P02_PUBLISHED_DATA_SCOPED_PROPOSITION_SUPPORTED"
+}
