@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use AI4OrgChem, please cite this software release and the associated manuscript."
+title: "AI4OrgChem: an AI for Science agent for independent computational evidence assessment in organic chemistry"
+type: software
+authors:
+  - family-names: Chen
+    given-names: Xiao
+version: 0.1.0-rc1
+license: Apache-2.0
+abstract: >-
+  AI4OrgChem is an AI for Science agent that independently reconstructs and
+  evaluates fourteen counter-traditional propositions in organic structure
+  theory using scope-bounded quantum-chemical evidence, public core software,
+  equivariant learning, active sampling, symbolic testing, and traceable
+  evidence presentation.
+keywords:
+  - AI for Science
+  - computational chemistry
+  - organic chemistry
+  - localized fragment molecular orbitals
+  - energy decomposition
+  - reproducible research

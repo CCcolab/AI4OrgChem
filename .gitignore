@@ -1,0 +1,53 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# JavaScript and web build caches
+node_modules/
+.next/
+
+# Scientific runtime outputs
+runs/
+artifacts/
+outputs/
+tmp/
+scratch/
+*.chk
+*.gbw
+*.wfn
+*.wfx
+*.cube
+*.molden
+
+# Model and training caches
+*.pt
+*.pth
+*.ckpt
+wandb/
+
+# Copyright-restricted source containers
+*.epub
+*.mobi
