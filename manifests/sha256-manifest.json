@@ -66,8 +66,8 @@
     {
       "path": "CHANGELOG.md",
       "artifact_role": "repository-root",
-      "bytes": 2938,
-      "sha256": "7158d56441a9bb7d4223ba6e1e214068a3d9268236644bea7a722609028309b8"
+      "bytes": 2948,
+      "sha256": "9b1e4af893033127ae86461c1ebad55a908f4963450034f9daa889fe74707365"
     },
     {
       "path": "CITATION.cff",
@@ -474,8 +474,8 @@
     {
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
-      "bytes": 19046,
-      "sha256": "c18fc14dca897afe0910f3671a26c6010e06d7a3d1daf11595fb68f34a62a309"
+      "bytes": 19184,
+      "sha256": "757e1f13b9c8b2a80b02d606b65d1c00da8a83ce33d7a51ed0cbf96ca55758f4"
     },
     {
       "path": "manuscripts/MANUSCRIPT_EN.md",
@@ -558,8 +558,8 @@
     {
       "path": "README.md",
       "artifact_role": "repository-root",
-      "bytes": 18369,
-      "sha256": "64125fd06e031b0f526d77aebe6d0e0156243a5dd3dab540ac75a1ae046b292a"
+      "bytes": 18865,
+      "sha256": "bbb7017fd670b20d23eae71a4dc144fa5185d7a6187bdd0b86247a4197df28a4"
     },
     {
       "path": "README_zh-CN.md",
@@ -622,10 +622,16 @@
       "sha256": "afb4d76e6f525e4b55036a446867d6ecc47b1657d7f17f6303062f4031ad832c"
     },
     {
+      "path": "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md",
+      "artifact_role": "repository-root",
+      "bytes": 12057,
+      "sha256": "9e6c96d3be01c22e8d8d7d55a632a7a72f69f51aaa63a5948e3a362e50f31e76"
+    },
+    {
       "path": "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md",
       "artifact_role": "repository-root",
-      "bytes": 9863,
-      "sha256": "96ae65080bebd411015f3de5f8e71c3fe779206a1fff7d1a9b5e212a4ef6e8cd"
+      "bytes": 9911,
+      "sha256": "28cabeb5553e6fd389f9dc0c378dcc180d1ea8a567488657098a2dcf963e79ec"
     },
     {
       "path": "software/pyproject.toml",

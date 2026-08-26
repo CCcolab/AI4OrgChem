@@ -34,6 +34,8 @@ These results support a bounded methodological conclusion: several textbook heur
 
 See the [P01-P14 evidence matrix](manuscripts/P01-P14_evidence_matrix_zh-CN.md) and the [evidence collection](evidence/P01-P14/README.md).
 
+Quantum-chemistry experts who do not work with GitHub, AI, or software engineering can begin with the [Rapid Review Guide for Quantum-Chemistry Experts](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md): understand the overall argument in 10 minutes and audit any single proposition in 30 minutes without reading code first.
+
 ## AI4S Agent engineering
 
 The completed bounded engineering line connects frozen scientific evidence to machine-readable data, equivariant learning, active-learning return, symbolic discovery, and a read-only evidence agent.
@@ -50,6 +52,7 @@ The dataset is too small for industrial or universal molecular generalization. D
 
 | Path | Purpose |
 |---|---|
+| [`REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md`](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md) | Rapid scientific review route for quantum-chemistry experts without a computing or AI background |
 | [`project/`](project/README.md) | Background, research questions, value, achievements, and master proposition table |
 | [`evidence/P01-P14/`](evidence/P01-P14/README.md) | Frozen data cards, protocols, processed results, and scoped reports |
 | [`manuscripts/`](manuscripts/README.md) | English and Chinese manuscripts, evidence matrix, and publication positioning |

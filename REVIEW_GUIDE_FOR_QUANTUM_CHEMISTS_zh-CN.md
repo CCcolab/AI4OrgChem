@@ -1,5 +1,7 @@
 # 面向量子化学专家的快速审阅指南
 
+[English](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md)
+
 本指南面向熟悉量子化学、但不要求具备计算机、机器学习或GitHub经验的读者。目标是帮助您在 **10分钟内理解项目主张、30分钟内核查一项命题**，并在需要时完成机器一致性检查。
 
 > 本项目提供的是“独立计算重构与证据评估”，不是机构认证，也不是用AI投票决定科学结论。AI负责组织协议、追踪证据和辅助工程；能量符号、数值与命题判定来自明确的量子化学定义和冻结计算证据。
@@ -168,4 +170,3 @@ python software/scripts/validate_release_package.py
 - [中文论文稿](manuscripts/MANUSCRIPT_zh-CN.md)
 - [复现与平台边界](reproducibility/README.md)
 - [作者、贡献和利益冲突](AUTHORS.md)
-
