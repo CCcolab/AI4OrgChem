@@ -1,0 +1,12 @@
+name: ai4orgchem-public
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy>=2.0,<3
+  - scipy>=1.14,<2
+  - pyyaml>=6,<7
+  - pytest>=8,<9
+  - pip
+  - pip:
+      - pyscf>=2.8,<3

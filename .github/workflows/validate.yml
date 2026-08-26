@@ -1,0 +1,55 @@
+name: Validate curated release
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: software/pyproject.toml
+
+      - name: Install validation dependency
+        run: python -m pip install --disable-pip-version-check "PyYAML>=6,<7"
+
+      - name: Validate release integrity and security boundaries
+        run: python software/scripts/validate_release_package.py
+
+      - name: Validate frozen scientific evidence
+        run: python software/scripts/validate_public_evidence.py
+
+      - name: Validate bilingual evidence navigation
+        run: python software/scripts/validate_evidence_navigation.py
+
+      - name: Validate WSL release boundaries
+        run: python software/scripts/validate_wsl_release.py
+
+      - name: Check WSL shell syntax
+        run: |
+          bash -n reproducibility/wsl/activate-ai4orgchem-public.sh
+          bash -n reproducibility/wsl/ai4orgchem-verify
+
+      - name: Install public core test dependencies
+        run: python -m pip install --disable-pip-version-check -e "./software[test]"
+
+      - name: Run focused public core tests
+        run: python -m pytest -p no:cacheprovider software/tests

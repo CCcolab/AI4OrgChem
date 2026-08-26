@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+script_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
+clone_root="$(cd -- "${script_dir}/../.." && pwd -P)"
+if [[ -n "${AI4ORGCHEM_PUBLICATION_ROOT:-}" ]]; then
+    publication_root="${AI4ORGCHEM_PUBLICATION_ROOT}"
+elif [[ -f "${clone_root}/software/scripts/validate_public_evidence.py" ]]; then
+    publication_root="${clone_root}"
+else
+    publication_root="/opt/ai4orgchem/publication"
+fi
+validator="${publication_root}/software/scripts/validate_public_evidence.py"
+
+if [[ ! -f "${validator}" ]]; then
+    echo "AI4OrgChem public validator not found: ${validator}" >&2
+    exit 1
+fi
+
+if command -v python >/dev/null 2>&1; then
+    python_executable="python"
+elif command -v python3 >/dev/null 2>&1; then
+    python_executable="python3"
+else
+    echo "Python 3 executable not found (checked python and python3)" >&2
+    exit 1
+fi
+
+exec "${python_executable}" "${validator}"
