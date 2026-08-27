@@ -14,7 +14,7 @@
 | `.github/ISSUE_TEMPLATE/new-molecular-test.yml` | continuous-integration | 1647 | `5e9dbbc6ecc40bf420ab4be8d5e5e2eac9df87e5a9b505d61b6abc0608d2151f` |
 | `.github/ISSUE_TEMPLATE/scientific-disagreement.yml` | continuous-integration | 1786 | `b496e191786b9bbe75f35604734b2a9868dbaa2854b5eef650235651d24dc6bc` |
 | `.github/SECURITY.md` | continuous-integration | 2459 | `66884bef7bfd8b028093d91aaeac11237735a553584ff2dbdacaa57f4a930ef2` |
-| `.github/workflows/validate.yml` | continuous-integration | 1669 | `58bacb4c5c5d7c22379fb7c2553232756d1fb65985b053be6bbff7fd74891945` |
+| `.github/workflows/validate.yml` | continuous-integration | 1669 | `d2723e92b66a6feef92bcad824a674bb95058d73cd767c7ee837ef4cefe7a08a` |
 | `.gitignore` | repository-root | 552 | `d8ff66910bd19c5d3f852f72162264b78897d09e523fe32800c506da0b75aaf4` |
 | `ai4s-agent/CAPABILITIES_AND_RESULTS_zh-CN.md` | agent-delivery | 1325 | `aa79dc262647dea30360b744e12fd5f048b23c17ec863aaabce02003786ea540` |
 | `ai4s-agent/EVALUATION_SUMMARY.json` | agent-delivery | 1193 | `19420e6698a7503ab90840e81c45f64d7476260baa827a18b96e015e5384d887` |

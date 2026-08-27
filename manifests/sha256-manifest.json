@@ -49,7 +49,7 @@
       "path": ".github/workflows/validate.yml",
       "artifact_role": "continuous-integration",
       "bytes": 1669,
-      "sha256": "58bacb4c5c5d7c22379fb7c2553232756d1fb65985b053be6bbff7fd74891945"
+      "sha256": "d2723e92b66a6feef92bcad824a674bb95058d73cd767c7ee837ef4cefe7a08a"
     },
     {
       "path": ".gitignore",
@@ -517,7 +517,7 @@
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
       "bytes": 20212,
-      "sha256": "a529d9c5dc369702829bcc2aa36d4d71440b04b027bb70b1d27bcfe7d6fe4e37"
+      "sha256": "0b844fe50e74d6b8ca3dbc0bac76219efd2177cccce08bc9bed44e64c52596b4"
     },
     {
       "path": "manuscripts/MANUSCRIPT_EN.md",
