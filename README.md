@@ -13,7 +13,7 @@ AI4OrgChem is an **AI for Science (AI4S) Agent** for independent computational r
 
 > **AI-assisted research and engineering:** **OpenAI Codex (GPT-5.6)**. Project authorship, scientific decisions, interpretations, and publication responsibility remain with Xiao Chen; OpenAI is not presented as a project author, scientific certifier, peer reviewer, or institutional endorser.
 
-> **Release status:** curated documentation and attribution update `v0.1.1`. The associated manuscript has not yet undergone peer review.
+> **Release status:** security-hardened curated release `v0.1.2`. The associated manuscript has not yet undergone peer review.
 
 ## Why this project exists
 

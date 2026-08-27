@@ -4,7 +4,26 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 
 ## [Unreleased]
 
+No unreleased changes.
+
+## [0.1.2] - 2026-08-28
+
+### Added
+
 - Added GitHub-native discoverability and community-review assets: repository badges, structured issue forms, Discussions entry points, and a social-preview asset.
+- Added a bilingual security reporting policy at `.github/SECURITY.md`.
+
+### Security
+
+- Protected `main` with a repository ruleset requiring pull requests, resolved conversations, and the `validate` status check, while retaining zero required human approvals for the single-maintainer workflow.
+- Enabled dependency graph, Dependabot alerts and security updates, CodeQL default setup, secret scanning, and push protection.
+- Restricted GitHub Actions to CCcolab-owned and GitHub-authored Actions and required immutable full-length commit SHAs.
+- Upgraded `actions/checkout` to v5 and `actions/setup-python` to v6 using verified full SHAs, eliminating the Node.js 20 deprecation warning.
+- Added release validation that rejects unpinned or unapproved Actions.
+
+### Scientific status
+
+- No P01-P14 scientific value, classification, protocol, or evidence boundary changed from `v0.1.1`.
 
 ## [0.1.1] - 2026-08-27
 
