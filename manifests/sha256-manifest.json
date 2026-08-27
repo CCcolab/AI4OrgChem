@@ -102,14 +102,14 @@
     {
       "path": "CHANGELOG.md",
       "artifact_role": "repository-root",
-      "bytes": 3605,
-      "sha256": "8fe762188bbd1bb9b7eb2b7b046c723c3d69f707ea5c584f0661195d2bab0bfb"
+      "bytes": 4550,
+      "sha256": "a3627973b4670feeed1f5ab04e2e229f018f0e052911ee71ac59ff3231953dcc"
     },
     {
       "path": "CITATION.cff",
       "artifact_role": "repository-root",
       "bytes": 910,
-      "sha256": "37e022a1bf17c0555ae8879da272d379b97bf62fb147d5737022d7343b93273c"
+      "sha256": "59b796c8930f15fe958b99b48e2a74fd529da780fead82dda9999b35397068c9"
     },
     {
       "path": "configs/qm/p09_exchange_integral_classes_v0.1.yaml",
@@ -517,7 +517,7 @@
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
       "bytes": 20212,
-      "sha256": "0b844fe50e74d6b8ca3dbc0bac76219efd2177cccce08bc9bed44e64c52596b4"
+      "sha256": "6de5dadda9e9fc95057879794b7b365976137e13b27d7eff6f6b67f4630079a1"
     },
     {
       "path": "manuscripts/MANUSCRIPT_EN.md",
@@ -600,14 +600,14 @@
     {
       "path": "README.md",
       "artifact_role": "repository-root",
-      "bytes": 20869,
-      "sha256": "85f282119201cff6b3b7d8bae0b03410ab43b3184e9be93e7be2e9a4290b94a0"
+      "bytes": 20858,
+      "sha256": "33d9f4cabf0a6b4cb65352d10e14bc1d060ee6dd39f188438cb605b5b3038d8b"
     },
     {
       "path": "README_zh-CN.md",
       "artifact_role": "repository-root",
-      "bytes": 8125,
-      "sha256": "e1097a281fb8f15fee03045a362be3a3d47b4edabe38c72d0a975ceb7603566e"
+      "bytes": 8123,
+      "sha256": "88834dc1cf6385a2c1c8c6c37a4930bb5b8a4bf55b918ab8cade5d557d023944"
     },
     {
       "path": "reproducibility/environment.yml",

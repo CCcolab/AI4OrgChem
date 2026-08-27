@@ -6,8 +6,8 @@ authors:
   - family-names: Chen
     given-names: Xiao
     email: chenxiao0101@gmail.com
-version: 0.1.0
-date-released: 2026-08-26
+version: 0.1.2
+date-released: 2026-08-28
 license: Apache-2.0
 abstract: >-
   AI4OrgChem is an AI for Science agent that independently reconstructs and
