@@ -16,8 +16,8 @@
 | `ai4s-agent/LIMITATIONS_zh-CN.md` | agent-delivery | 649 | `8a59ffbdb909d742bc1ba261a193d75139b633ded35ec05c776f98137bdc330e` |
 | `ai4s-agent/README.md` | agent-delivery | 553 | `76daec0d2baba625555fc38d388d3e76ea0a1205af42c30e9aa735ca084d99c9` |
 | `ai4s-agent/SYSTEM_ARCHITECTURE_zh-CN.md` | agent-delivery | 1114 | `c767a97c2fca2abdb13540dfc6b6e8983952dbc9f3cfd5f119017da2dd830a8a` |
-| `AUTHORS.md` | repository-root | 903 | `d6fd45f9086df95b7824196026b9f4a7cffb3fd0ef5a17ea807029e07439d37b` |
-| `CHANGELOG.md` | repository-root | 3119 | `5cd420cbc1dbf691a6e5be86b1d9b53f0bab1ab97fbb824c3506dcb5f892991e` |
+| `AUTHORS.md` | repository-root | 1832 | `fbd54169acfc3cda59bca64932fad4fce3027ce768d02d3c7e78618096cb7884` |
+| `CHANGELOG.md` | repository-root | 3440 | `5e39bbd8a2bac61b3ffe6a948d0cb677d06ff0af0b3f6c66e4c2344881055e21` |
 | `CITATION.cff` | repository-root | 910 | `37e022a1bf17c0555ae8879da272d379b97bf62fb147d5737022d7343b93273c` |
 | `configs/qm/p09_exchange_integral_classes_v0.1.yaml` | public-configuration | 7326 | `324c2e7988be48ed8898a5e9b04a87d40386ca8a8f7eb603d9a697d3ac6a6ee2` |
 | `evidence/P01-P14/P01/data-card.md` | scientific-evidence | 755 | `04013950752b0246026329854e28919d59986352597bb4521ceab3e3dd3a7224` |
@@ -98,8 +98,8 @@
 | `project/README.md` | project-narrative | 736 | `091d42eeeb3f9eeb22dc473dbe9789fd9ad28f8ad40ab8777002ccfee2cc26c7` |
 | `project/RESEARCH_ITEMS_zh-CN.md` | project-narrative | 1939 | `508c64832f3b075a9d073e33badd35be764012eebb94624fc7966fa2b03b143f` |
 | `project/RESEARCH_VALUE_zh-CN.md` | project-narrative | 1319 | `7308230ee6f5dd7009de88e0483b3ff298baa2a438d8f99fc010103e24b80c5b` |
-| `README.md` | repository-root | 18970 | `82b1f326f6b7a3759dddeefcfbcfd9c543e7307b0359215458b4a7057f83e609` |
-| `README_zh-CN.md` | repository-root | 6374 | `85160a3c01b0110fdc4548809018470ebc45d812796a09641ebfc6b0d1362649` |
+| `README.md` | repository-root | 19406 | `d769309c64e81c9b0c4914b88a0164e8e3bd0670f1aa53964656a2f69ff6bcaa` |
+| `README_zh-CN.md` | repository-root | 6725 | `1480ec481b49c3ceac649df5e3378b796cc297230352db42b27af31e5fe6489a` |
 | `reproducibility/environment.yml` | reproducibility | 190 | `10612a5f9b274c2eaf69e43190e7d239f77dfbe3b5a00672cca544ec315e011a` |
 | `reproducibility/PLATFORM_MATRIX_EN.md` | reproducibility | 1963 | `1ea2cc5909ef145c93c5dcdc9c3bfaefb1726bc4c51ea47f57134fefcb5141cd` |
 | `reproducibility/PLATFORM_MATRIX_zh-CN.md` | reproducibility | 1773 | `60cd3af1c440d40f30ef58b54b35bec5c7ae764faec54ef9dbc70bb32863fa88` |

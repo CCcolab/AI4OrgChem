@@ -4,7 +4,9 @@
 
 AI4OrgChem is an **AI for Science (AI4S) Agent** for independent computational reconstruction and evidence assessment of counter-traditional propositions in organic structure theory. The project was motivated by Zhong-Heng Yu's monograph, ***Questioning Fundamental Principles of Organic Chemistry*** (2024), and was implemented without using the monograph's program code.
 
-> **Release status:** initial curated release `v0.1.0`. The associated manuscript has not yet undergone peer review.
+> **AI-assisted research and engineering:** **OpenAI Codex (GPT-5.6)**. Project authorship, scientific decisions, interpretations, and publication responsibility remain with Xiao Chen; OpenAI is not presented as a project author, scientific certifier, peer reviewer, or institutional endorser.
+
+> **Release status:** curated documentation and attribution update `v0.1.1`. The associated manuscript has not yet undergone peer review.
 
 ## Why this project exists
 
@@ -249,4 +251,4 @@ Project-authored software and documentation are released under the [Apache Licen
 
 ## Citation
 
-The sole release author is **Xiao Chen**. Contact: [chenxiao0101@gmail.com](mailto:chenxiao0101@gmail.com). Authorship, CRediT contributions, and the competing-interests statement are recorded in [`AUTHORS.md`](AUTHORS.md). Machine-readable citation metadata is provided in [`CITATION.cff`](CITATION.cff). Affiliation and ORCID are omitted because they were not supplied.
+The sole project author is **Xiao Chen**. Contact: [chenxiao0101@gmail.com](mailto:chenxiao0101@gmail.com). AI-assisted research and engineering support was provided through **OpenAI Codex (GPT-5.6)**. Authorship, CRediT contributions, AI-assistance disclosure, and the competing-interests statement are recorded in [`AUTHORS.md`](AUTHORS.md). Machine-readable citation metadata is provided in [`CITATION.cff`](CITATION.cff). Affiliation and ORCID are omitted because they were not supplied.

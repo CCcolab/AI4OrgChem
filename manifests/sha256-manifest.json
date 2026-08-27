@@ -60,14 +60,14 @@
     {
       "path": "AUTHORS.md",
       "artifact_role": "repository-root",
-      "bytes": 903,
-      "sha256": "d6fd45f9086df95b7824196026b9f4a7cffb3fd0ef5a17ea807029e07439d37b"
+      "bytes": 1832,
+      "sha256": "fbd54169acfc3cda59bca64932fad4fce3027ce768d02d3c7e78618096cb7884"
     },
     {
       "path": "CHANGELOG.md",
       "artifact_role": "repository-root",
-      "bytes": 3119,
-      "sha256": "5cd420cbc1dbf691a6e5be86b1d9b53f0bab1ab97fbb824c3506dcb5f892991e"
+      "bytes": 3440,
+      "sha256": "5e39bbd8a2bac61b3ffe6a948d0cb677d06ff0af0b3f6c66e4c2344881055e21"
     },
     {
       "path": "CITATION.cff",
@@ -474,8 +474,8 @@
     {
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
-      "bytes": 19186,
-      "sha256": "c08a4134de9d169c0953002a028a84a15ee579c94e60573cdd642033113eb5f4"
+      "bytes": 19187,
+      "sha256": "3a943717b105fd1e087794d43f285cc89ba2633736e5d7ef092baaed59330455"
     },
     {
       "path": "manuscripts/MANUSCRIPT_EN.md",
@@ -558,14 +558,14 @@
     {
       "path": "README.md",
       "artifact_role": "repository-root",
-      "bytes": 18970,
-      "sha256": "82b1f326f6b7a3759dddeefcfbcfd9c543e7307b0359215458b4a7057f83e609"
+      "bytes": 19406,
+      "sha256": "d769309c64e81c9b0c4914b88a0164e8e3bd0670f1aa53964656a2f69ff6bcaa"
     },
     {
       "path": "README_zh-CN.md",
       "artifact_role": "repository-root",
-      "bytes": 6374,
-      "sha256": "85160a3c01b0110fdc4548809018470ebc45d812796a09641ebfc6b0d1362649"
+      "bytes": 6725,
+      "sha256": "1480ec481b49c3ceac649df5e3378b796cc297230352db42b27af31e5fe6489a"
     },
     {
       "path": "reproducibility/environment.yml",

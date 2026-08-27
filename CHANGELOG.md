@@ -4,8 +4,17 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-08-27
+
+### Added
+
 - Added Chinese and English rapid-review guides that enable quantum-chemistry experts without GitHub, AI, or software-engineering backgrounds to inspect the scientific argument in 10–30 minutes.
 - Made Zhong-Heng Yu's authorship of the assessed monograph prominent across project-background and review entry points, and added the public contact email for Xiao Chen.
+- Added a clear AI-assistance disclosure for OpenAI Codex (GPT-5.6), while retaining Xiao Chen as the sole project author and scientific-responsibility holder.
+
+### Scientific status
+
+- No P01-P14 scientific value, classification, protocol, or evidence boundary changed from `v0.1.0`.
 
 ## [0.1.0] - 2026-08-26
 
