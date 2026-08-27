@@ -1,0 +1,33 @@
+name: Documentation correction
+description: Report an outdated link, unclear explanation, typo, or evidence mismatch.
+title: "[Documentation]: short description"
+body:
+  - type: input
+    id: location
+    attributes:
+      label: File or page
+      placeholder: README.md, evidence/P01-P14/P08/report.md, or a GitHub URL
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Describe the incorrect, outdated, ambiguous, or inaccessible content.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction
+      description: Provide corrected wording or a valid destination when possible.
+  - type: dropdown
+    id: scientific_impact
+    attributes:
+      label: Does this affect a frozen scientific value or classification?
+      options:
+        - No — documentation only
+        - Possibly — requires scientific review
+        - Yes — supporting evidence attached
+    validations:
+      required: true

@@ -10,6 +10,36 @@
       "sha256": "23302dd90b8bb74b44d365fafef8df20f809b61cb347023951ecf60a88a29651"
     },
     {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "artifact_role": "continuous-integration",
+      "bytes": 451,
+      "sha256": "7fee84fc2345d79d27d20d8f7d0282f75c4b04ef0d0d885831b78be96ba1c84b"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/documentation-correction.yml",
+      "artifact_role": "continuous-integration",
+      "bytes": 1051,
+      "sha256": "4abe8f0ff2e4b88045fdd1b7176e675977a4e8c2daef43ff9de088d9a0fec2d9"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/independent-reproduction.yml",
+      "artifact_role": "continuous-integration",
+      "bytes": 2243,
+      "sha256": "cbe634c83a85715c6a118d2360bc023982f7f604eaf496592c8f310d5cff568f"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/new-molecular-test.yml",
+      "artifact_role": "continuous-integration",
+      "bytes": 1647,
+      "sha256": "5e9dbbc6ecc40bf420ab4be8d5e5e2eac9df87e5a9b505d61b6abc0608d2151f"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/scientific-disagreement.yml",
+      "artifact_role": "continuous-integration",
+      "bytes": 1786,
+      "sha256": "b496e191786b9bbe75f35604734b2a9868dbaa2854b5eef650235651d24dc6bc"
+    },
+    {
       "path": ".github/workflows/validate.yml",
       "artifact_role": "continuous-integration",
       "bytes": 1583,
@@ -66,8 +96,8 @@
     {
       "path": "CHANGELOG.md",
       "artifact_role": "repository-root",
-      "bytes": 3440,
-      "sha256": "5e39bbd8a2bac61b3ffe6a948d0cb677d06ff0af0b3f6c66e4c2344881055e21"
+      "bytes": 3605,
+      "sha256": "8fe762188bbd1bb9b7eb2b7b046c723c3d69f707ea5c584f0661195d2bab0bfb"
     },
     {
       "path": "CITATION.cff",
@@ -462,8 +492,14 @@
     {
       "path": "figures/README.md",
       "artifact_role": "project-figure",
-      "bytes": 231,
-      "sha256": "5242081eb3a31e485d398fb33eed00217e89edfab03561ba03408a2ea60c7efd"
+      "bytes": 592,
+      "sha256": "4cd88675c2d8580e83aed97dc54063bd966df62bdf0419834aca57feb31428f2"
+    },
+    {
+      "path": "figures/social-preview.png",
+      "artifact_role": "project-figure",
+      "bytes": 1273242,
+      "sha256": "9f0d9ab3f77ed1fd3ef94b05e62cfedf5e2803c93d72ce9a469360594b9ba199"
     },
     {
       "path": "LICENSE",
@@ -474,8 +510,8 @@
     {
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
-      "bytes": 19187,
-      "sha256": "3a943717b105fd1e087794d43f285cc89ba2633736e5d7ef092baaed59330455"
+      "bytes": 20085,
+      "sha256": "9951e6f27f982c522e8269ac7693e9ab9a5159b95c5aaf53c47e03ab4ac6b451"
     },
     {
       "path": "manuscripts/MANUSCRIPT_EN.md",
@@ -558,14 +594,14 @@
     {
       "path": "README.md",
       "artifact_role": "repository-root",
-      "bytes": 19406,
-      "sha256": "d769309c64e81c9b0c4914b88a0164e8e3bd0670f1aa53964656a2f69ff6bcaa"
+      "bytes": 20869,
+      "sha256": "85f282119201cff6b3b7d8bae0b03410ab43b3184e9be93e7be2e9a4290b94a0"
     },
     {
       "path": "README_zh-CN.md",
       "artifact_role": "repository-root",
-      "bytes": 6725,
-      "sha256": "1480ec481b49c3ceac649df5e3378b796cc297230352db42b27af31e5fe6489a"
+      "bytes": 8125,
+      "sha256": "e1097a281fb8f15fee03045a362be3a3d47b4edabe38c72d0a975ceb7603566e"
     },
     {
       "path": "reproducibility/environment.yml",

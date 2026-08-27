@@ -4,6 +4,8 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 
 ## [Unreleased]
 
+- Added GitHub-native discoverability and community-review assets: repository badges, structured issue forms, Discussions entry points, and a social-preview asset.
+
 ## [0.1.1] - 2026-08-27
 
 ### Added

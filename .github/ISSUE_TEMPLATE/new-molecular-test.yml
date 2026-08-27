@@ -1,0 +1,48 @@
+name: New molecular test proposal
+description: Propose a bounded molecule, geometry, or protocol that could test a proposition.
+title: "[New test]: molecule/system — target proposition"
+body:
+  - type: input
+    id: proposition
+    attributes:
+      label: Target proposition
+      placeholder: P04, P08, P09, or a clearly stated extension
+    validations:
+      required: true
+  - type: textarea
+    id: system
+    attributes:
+      label: Molecular system and geometry source
+      description: Give identifiers, charge, multiplicity, conformer definition, and a public geometry source.
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Scientific rationale
+      description: Explain why this test adds information beyond the existing frozen domain.
+    validations:
+      required: true
+  - type: textarea
+    id: protocol
+    attributes:
+      label: Proposed protocol
+      description: Define method, basis, state construction, estimand, comparison, and computational cost.
+    validations:
+      required: true
+  - type: textarea
+    id: falsification
+    attributes:
+      label: Preregistered decision rule
+      description: State the result that would support, contradict, or leave the proposal inconclusive.
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope checks
+      options:
+        - label: This proposal does not request changing frozen P01-P14 records before new evidence is evaluated.
+          required: true
+        - label: All proposed inputs and references can be shared publicly.
+          required: true

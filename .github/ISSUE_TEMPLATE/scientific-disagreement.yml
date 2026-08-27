@@ -1,0 +1,51 @@
+name: Scientific disagreement
+description: Submit a scoped, evidence-backed disagreement with a published result or interpretation.
+title: "[Scientific disagreement]: PXX — short claim"
+body:
+  - type: markdown
+    attributes:
+      value: Scientific disagreement is welcome. Identify the exact proposition, estimand, protocol, and reproducible evidence.
+  - type: input
+    id: proposition
+    attributes:
+      label: Proposition or document section
+      placeholder: P11-B, a result.json field, or a direct repository link
+    validations:
+      required: true
+  - type: textarea
+    id: published_claim
+    attributes:
+      label: Exact published claim
+      description: Quote or link to the precise scoped statement being challenged.
+    validations:
+      required: true
+  - type: textarea
+    id: disagreement
+    attributes:
+      label: Disagreement
+      description: State what is incorrect, incomplete, or over-interpreted and why.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Reproducible evidence
+      description: Provide calculations, data, primary references, uncertainty, and public artifacts.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction or falsification criterion
+      description: Explain what result would resolve the disagreement.
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundaries
+    attributes:
+      label: Scope checks
+      options:
+        - label: I distinguish a proposition-level contradiction from a historical-reproduction limitation.
+          required: true
+        - label: I have removed credentials, private data, and copyright-restricted material.
+          required: true

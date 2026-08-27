@@ -1,5 +1,12 @@
 # AI4OrgChem
 
+[![Release](https://img.shields.io/github/v/release/CCcolab/AI4OrgChem?display_name=tag&sort=semver)](https://github.com/CCcolab/AI4OrgChem/releases/latest)
+[![Validation](https://github.com/CCcolab/AI4OrgChem/actions/workflows/validate.yml/badge.svg)](https://github.com/CCcolab/AI4OrgChem/actions/workflows/validate.yml)
+[![License](https://img.shields.io/github/license/CCcolab/AI4OrgChem)](LICENSE)
+[![Evidence](https://img.shields.io/badge/evidence-P01--P14%20validated-2ea44f)](evidence/P01-P14/README.md)
+[![WSL2](https://img.shields.io/badge/WSL2-Ubuntu%2024.04%20verified-0078D4)](reproducibility/wsl/README.md)
+[![AI assistance](https://img.shields.io/badge/AI%20assistance-OpenAI%20Codex%20GPT--5.6-6f42c1)](AUTHORS.md)
+
 [中文说明](README_zh-CN.md)
 
 AI4OrgChem is an **AI for Science (AI4S) Agent** for independent computational reconstruction and evidence assessment of counter-traditional propositions in organic structure theory. The project was motivated by Zhong-Heng Yu's monograph, ***Questioning Fundamental Principles of Organic Chemistry*** (2024), and was implemented without using the monograph's program code.
@@ -37,6 +44,10 @@ These results support a bounded methodological conclusion: several textbook heur
 See the [P01-P14 evidence matrix](manuscripts/P01-P14_evidence_matrix_zh-CN.md) and the [evidence collection](evidence/P01-P14/README.md).
 
 Quantum-chemistry experts who do not work with GitHub, AI, or software engineering can begin with the [Rapid Review Guide for Quantum-Chemistry Experts](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md): understand the overall argument in 10 minutes and audit any single proposition in 30 minutes without reading code first.
+
+## Community review
+
+Independent reproduction, falsification, and scoped scientific disagreement are welcome. Use the repository's structured issue forms to submit an [independent reproduction](https://github.com/CCcolab/AI4OrgChem/issues/new?template=independent-reproduction.yml), [scientific disagreement](https://github.com/CCcolab/AI4OrgChem/issues/new?template=scientific-disagreement.yml), [documentation correction](https://github.com/CCcolab/AI4OrgChem/issues/new?template=documentation-correction.yml), or [new molecular test proposal](https://github.com/CCcolab/AI4OrgChem/issues/new?template=new-molecular-test.yml). Broader questions belong in [GitHub Discussions](https://github.com/CCcolab/AI4OrgChem/discussions).
 
 ## AI4S Agent engineering
 

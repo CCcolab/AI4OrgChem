@@ -1,5 +1,12 @@
 # AI4OrgChem
 
+[![Release](https://img.shields.io/github/v/release/CCcolab/AI4OrgChem?display_name=tag&sort=semver)](https://github.com/CCcolab/AI4OrgChem/releases/latest)
+[![Validation](https://github.com/CCcolab/AI4OrgChem/actions/workflows/validate.yml/badge.svg)](https://github.com/CCcolab/AI4OrgChem/actions/workflows/validate.yml)
+[![License](https://img.shields.io/github/license/CCcolab/AI4OrgChem)](LICENSE)
+[![Evidence](https://img.shields.io/badge/evidence-P01--P14%20validated-2ea44f)](evidence/P01-P14/README_zh-CN.md)
+[![WSL2](https://img.shields.io/badge/WSL2-Ubuntu%2024.04%20verified-0078D4)](reproducibility/wsl/README.md)
+[![AI辅助](https://img.shields.io/badge/AI%20assistance-OpenAI%20Codex%20GPT--5.6-6f42c1)](AUTHORS.md)
+
 [English](README.md)
 
 AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评估的 **AI for Science（AI4S）Agent**。项目以虞忠衡教授的学术专著《Questioning Fundamental Principles of Organic Chemistry》（2024）提出的反传统命题为科学起点，完全不使用原著程序代码进行独立实现。
@@ -37,6 +44,10 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 详见[P01–P14总证据矩阵](manuscripts/P01-P14_evidence_matrix_zh-CN.md)和[中文命题证据导航](evidence/P01-P14/README_zh-CN.md)。
 
 如果您是量子化学领域专家，但不熟悉GitHub、AI或软件工程，可直接阅读[面向量子化学专家的快速审阅指南](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md)：10分钟理解总体论证，30分钟核查任意一项命题，无需先阅读代码。
+
+## 社区复核
+
+项目欢迎独立复现、可证伪检验和有边界的科学异议。请使用结构化Issue表单提交[独立复现报告](https://github.com/CCcolab/AI4OrgChem/issues/new?template=independent-reproduction.yml)、[科学异议](https://github.com/CCcolab/AI4OrgChem/issues/new?template=scientific-disagreement.yml)、[文档修正](https://github.com/CCcolab/AI4OrgChem/issues/new?template=documentation-correction.yml)或[新分子测试建议](https://github.com/CCcolab/AI4OrgChem/issues/new?template=new-molecular-test.yml)。一般性问题和解释讨论请使用[GitHub Discussions](https://github.com/CCcolab/AI4OrgChem/discussions)。
 
 ## AI4S Agent工程成果
 

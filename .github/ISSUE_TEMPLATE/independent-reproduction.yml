@@ -1,0 +1,61 @@
+name: Independent reproduction report
+description: Report an independent attempt to reproduce one frozen proposition result.
+title: "[Reproduction]: PXX — short description"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for independently testing AI4OrgChem. A reproduction may support, contradict, or refine the published result. Do not include credentials, copyrighted source files, or private data.
+  - type: dropdown
+    id: proposition
+    attributes:
+      label: Proposition
+      options: [P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14]
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Software and environment
+      description: Operating system, electronic-structure program, version, method, basis set, and relevant hardware.
+    validations:
+      required: true
+  - type: textarea
+    id: protocol
+    attributes:
+      label: Protocol and commands
+      description: Describe the geometry source, state definition, convergence settings, commands, and every deviation from the frozen protocol.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Numerical result
+      description: Provide values, units, signs, tolerances, and relevant output hashes or public links.
+    validations:
+      required: true
+  - type: dropdown
+    id: comparison
+    attributes:
+      label: Comparison with the published scoped result
+      options:
+        - Reproduces within the declared tolerance
+        - Same sign but outside the declared tolerance
+        - Opposite sign or classification
+        - Inconclusive
+    validations:
+      required: true
+  - type: textarea
+    id: artifacts
+    attributes:
+      label: Public artifacts
+      description: Link to coordinates, inputs, processed outputs, scripts, or an archived dataset when available.
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Submission checks
+      options:
+        - label: I have described all known deviations from the frozen protocol.
+          required: true
+        - label: I have removed credentials, private data, and copyright-restricted source material.
+          required: true

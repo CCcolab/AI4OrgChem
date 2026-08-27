@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Scientific discussion
+    url: https://github.com/CCcolab/AI4OrgChem/discussions
+    about: Ask broader scientific questions or discuss interpretation before opening a formal issue.
+  - name: Rapid review guide
+    url: https://github.com/CCcolab/AI4OrgChem/blob/main/REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md
+    about: Review the evidence-navigation method before reporting a scientific disagreement.
