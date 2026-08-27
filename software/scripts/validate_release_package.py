@@ -160,6 +160,19 @@ def validate_workflow(failures: list[str]) -> None:
         if token in text:
             failures.append(f"GitHub workflow contains forbidden operation: {token}")
 
+    allowed_actions = {"actions/checkout", "actions/setup-python"}
+    pinned_action = re.compile(
+        r"^\s*uses:\s*([^@\s]+)@([0-9a-f]{40})(?:\s+#.*)?$",
+        re.MULTILINE,
+    )
+    uses_lines = [line.strip() for line in text.splitlines() if line.strip().startswith("uses:")]
+    pinned_lines = pinned_action.findall(text)
+    if len(pinned_lines) != len(uses_lines):
+        failures.append("every GitHub Action must be pinned to a full 40-character commit SHA")
+    for action, _sha in pinned_lines:
+        if action not in allowed_actions:
+            failures.append(f"GitHub workflow uses an unapproved action: {action}")
+
 
 def validate_computation_guide(failures: list[str]) -> None:
     readme = ROOT / "README.md"

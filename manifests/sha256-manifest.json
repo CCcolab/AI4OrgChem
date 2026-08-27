@@ -40,10 +40,16 @@
       "sha256": "b496e191786b9bbe75f35604734b2a9868dbaa2854b5eef650235651d24dc6bc"
     },
     {
+      "path": ".github/SECURITY.md",
+      "artifact_role": "continuous-integration",
+      "bytes": 2459,
+      "sha256": "66884bef7bfd8b028093d91aaeac11237735a553584ff2dbdacaa57f4a930ef2"
+    },
+    {
       "path": ".github/workflows/validate.yml",
       "artifact_role": "continuous-integration",
-      "bytes": 1583,
-      "sha256": "997ee70d284779d736c63df0514a179d50a44c6c5ab42cdc98809fdfc42ae03f"
+      "bytes": 1669,
+      "sha256": "d2723e92b66a6feef92bcad824a674bb95058d73cd767c7ee837ef4cefe7a08a"
     },
     {
       "path": ".gitignore",
@@ -510,8 +516,8 @@
     {
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
-      "bytes": 20085,
-      "sha256": "9951e6f27f982c522e8269ac7693e9ab9a5159b95c5aaf53c47e03ab4ac6b451"
+      "bytes": 20212,
+      "sha256": "0b844fe50e74d6b8ca3dbc0bac76219efd2177cccce08bc9bed44e64c52596b4"
     },
     {
       "path": "manuscripts/MANUSCRIPT_EN.md",
@@ -702,8 +708,8 @@
     {
       "path": "software/scripts/validate_release_package.py",
       "artifact_role": "software-or-test",
-      "bytes": 9332,
-      "sha256": "829d6e2101ada00cba1fa67397f7d3afa9eacae42e6540b51de933d7fa75db4a"
+      "bytes": 9971,
+      "sha256": "b2920188b86e09d24b4af8b794a9f06f388505d6fd312c5760b0406ac2a66f5e"
     },
     {
       "path": "software/scripts/validate_wsl_release.py",

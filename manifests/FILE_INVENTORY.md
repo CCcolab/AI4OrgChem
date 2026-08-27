@@ -2,7 +2,7 @@
 
 本清单记录GitHub洁净仓库中的实质内容文件。生成型SHA清单和本文件自身不反向列入表格。
 
-- 实质内容文件：144
+- 实质内容文件：145
 - 状态：版本化发布快照；内容变更后必须重新生成并验证
 
 | 文件 | 角色 | 字节 | SHA-256 |
@@ -13,7 +13,8 @@
 | `.github/ISSUE_TEMPLATE/independent-reproduction.yml` | continuous-integration | 2243 | `cbe634c83a85715c6a118d2360bc023982f7f604eaf496592c8f310d5cff568f` |
 | `.github/ISSUE_TEMPLATE/new-molecular-test.yml` | continuous-integration | 1647 | `5e9dbbc6ecc40bf420ab4be8d5e5e2eac9df87e5a9b505d61b6abc0608d2151f` |
 | `.github/ISSUE_TEMPLATE/scientific-disagreement.yml` | continuous-integration | 1786 | `b496e191786b9bbe75f35604734b2a9868dbaa2854b5eef650235651d24dc6bc` |
-| `.github/workflows/validate.yml` | continuous-integration | 1583 | `997ee70d284779d736c63df0514a179d50a44c6c5ab42cdc98809fdfc42ae03f` |
+| `.github/SECURITY.md` | continuous-integration | 2459 | `66884bef7bfd8b028093d91aaeac11237735a553584ff2dbdacaa57f4a930ef2` |
+| `.github/workflows/validate.yml` | continuous-integration | 1669 | `d2723e92b66a6feef92bcad824a674bb95058d73cd767c7ee837ef4cefe7a08a` |
 | `.gitignore` | repository-root | 552 | `d8ff66910bd19c5d3f852f72162264b78897d09e523fe32800c506da0b75aaf4` |
 | `ai4s-agent/CAPABILITIES_AND_RESULTS_zh-CN.md` | agent-delivery | 1325 | `aa79dc262647dea30360b744e12fd5f048b23c17ec863aaabce02003786ea540` |
 | `ai4s-agent/EVALUATION_SUMMARY.json` | agent-delivery | 1193 | `19420e6698a7503ab90840e81c45f64d7476260baa827a18b96e015e5384d887` |
@@ -122,7 +123,7 @@
 | `software/scripts/refresh_release_snapshot.py` | software-or-test | 3642 | `fec2bea043be692038b7f66fd38bcb6a79d9cdc96fbd5b943b3d80099e414ba2` |
 | `software/scripts/validate_evidence_navigation.py` | software-or-test | 5445 | `74eb7062fc0999df2baad7265273f61987332f22c2b2ef6df9801a884cdf1984` |
 | `software/scripts/validate_public_evidence.py` | software-or-test | 3272 | `11eab02c7302e7fd6ed2ae8c7d2b62ae6ca43e76c7345595ec45e74a4ad32061` |
-| `software/scripts/validate_release_package.py` | software-or-test | 9332 | `829d6e2101ada00cba1fa67397f7d3afa9eacae42e6540b51de933d7fa75db4a` |
+| `software/scripts/validate_release_package.py` | software-or-test | 9971 | `b2920188b86e09d24b4af8b794a9f06f388505d6fd312c5760b0406ac2a66f5e` |
 | `software/scripts/validate_wsl_release.py` | software-or-test | 3690 | `9ef2ef7ffe4fc654751268474142c54e0d79f695684a9167b267dbbe3646dcd6` |
 | `software/src/ai4orgchem/lfmo/__init__.py` | software-or-test | 1385 | `6fb72d30002525c94773ee7fb0a2a6ee73f38388e204de6c18817df95d88a438` |
 | `software/src/ai4orgchem/lfmo/conditional_scf.py` | software-or-test | 6432 | `403377e08ea59b0076d99f56a2db2317a94db54dec71d7854236c568400d4b33` |
