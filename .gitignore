@@ -2,8 +2,27 @@
 .env
 .env.*
 !.env.example
+.envrc
+.netrc
+.npmrc
+.pypirc
 *.pem
 *.key
+*.p12
+*.pfx
+*.jks
+*.kdbx
+*.token
+.credentials/
+credentials*.json
+service-account*.json
+
+# Private or source-only project trees
+/WSL2/
+/implementation/
+/project_closure/
+/publication/
+/最终成果/
 
 # Python
 __pycache__/
@@ -11,6 +30,8 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 .mypy_cache/
+.cache/
+.ipynb_checkpoints/
 .coverage
 htmlcov/
 build/
@@ -35,6 +56,11 @@ artifacts/
 outputs/
 tmp/
 scratch/
+*.log
+*.out
+*.pid
+*.sqlite
+*.sqlite3
 *.chk
 *.gbw
 *.wfn
@@ -48,6 +74,22 @@ scratch/
 *.ckpt
 wandb/
 
-# Copyright-restricted source containers
+# Copyright-restricted source containers and unreviewed archives
+*.pdf
+*.doc
+*.docx
+*.rtf
 *.epub
 *.mobi
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+# Unreviewed native binaries
+*.exe
+*.dll
+*.so
+*.dylib

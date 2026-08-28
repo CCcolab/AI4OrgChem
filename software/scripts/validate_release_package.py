@@ -17,6 +17,10 @@ INVENTORY = ROOT / "manifests" / "FILE_INVENTORY.md"
 
 FORBIDDEN_NAMES = {
     ".env",
+    ".envrc",
+    ".netrc",
+    ".npmrc",
+    ".pypirc",
     "RELEASE_STATUS.json",
     "PUBLISH_POLICY.md",
     "publish-allowlist-v0.1.yaml",
@@ -24,8 +28,30 @@ FORBIDDEN_NAMES = {
 }
 FORBIDDEN_SUFFIXES = {
     ".pdf",
+    ".doc",
+    ".docx",
+    ".rtf",
     ".epub",
     ".mobi",
+    ".zip",
+    ".7z",
+    ".rar",
+    ".tar",
+    ".gz",
+    ".tgz",
+    ".p12",
+    ".pfx",
+    ".jks",
+    ".kdbx",
+    ".token",
+    ".exe",
+    ".dll",
+    ".so",
+    ".dylib",
+    ".sqlite",
+    ".sqlite3",
+    ".log",
+    ".out",
     ".chk",
     ".gbw",
     ".wfn",
@@ -40,6 +66,9 @@ FORBIDDEN_SUFFIXES = {
 FORBIDDEN_DIRECTORIES = {
     "publication",
     "WSL2",
+    "implementation",
+    "project_closure",
+    "最终成果",
     "runs",
     "artifacts",
     "tmp",
@@ -62,8 +91,12 @@ TEXT_SUFFIXES = {
     "",
 }
 SECRET = re.compile(
-    r"sk-[A-Za-z0-9_-]{12,}|Bearer\s+[A-Za-z0-9._-]{16,}|"
-    r"BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY"
+    r"sk-[A-Za-z0-9_-]{12,}|gh[pousr]_[A-Za-z0-9_]{20,}|"
+    r"AKIA[0-9A-Z]{16}|AIza[0-9A-Za-z_-]{35}|"
+    r"xox[baprs]-[A-Za-z0-9-]{10,}|Bearer\s+[A-Za-z0-9._-]{16,}|"
+    r"BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY|"
+    r"(?:api[_-]?key|secret|password|token)\s*[:=]\s*[\"'][^\"']{12,}[\"']",
+    re.IGNORECASE,
 )
 LOCAL_PATH = re.compile(
     r"[A-Za-z]:\\(?:Users|AI4Science)\\|/home/[A-Za-z0-9._-]+|localhost:\d+"
@@ -147,6 +180,7 @@ def validate_workflow(failures: list[str]) -> None:
     text = workflow.read_text(encoding="utf-8")
     required = (
         "permissions:\n  contents: read",
+        "persist-credentials: false",
         "validate_release_package.py",
         "validate_public_evidence.py",
         "validate_evidence_navigation.py",
@@ -156,7 +190,18 @@ def validate_workflow(failures: list[str]) -> None:
     for token in required:
         if token not in text:
             failures.append(f"GitHub workflow missing required gate: {token}")
-    for token in ("secrets.", "OPENAI_API_KEY", "curl ", "wget ", "sudo "):
+    for token in (
+        "secrets.",
+        "OPENAI_API_KEY",
+        "curl ",
+        "wget ",
+        "sudo ",
+        "pull_request_target",
+        "workflow_run:",
+        "contents: write",
+        "id-token: write",
+        "persist-credentials: true",
+    ):
         if token in text:
             failures.append(f"GitHub workflow contains forbidden operation: {token}")
 
