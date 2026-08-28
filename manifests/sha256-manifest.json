@@ -48,14 +48,14 @@
     {
       "path": ".github/workflows/validate.yml",
       "artifact_role": "continuous-integration",
-      "bytes": 1669,
-      "sha256": "d2723e92b66a6feef92bcad824a674bb95058d73cd767c7ee837ef4cefe7a08a"
+      "bytes": 1720,
+      "sha256": "12a3a1f6946dee10501699b2b9f44ad96a2a342bf04d185987076a0569d57469"
     },
     {
       "path": ".gitignore",
       "artifact_role": "repository-root",
-      "bytes": 552,
-      "sha256": "d8ff66910bd19c5d3f852f72162264b78897d09e523fe32800c506da0b75aaf4"
+      "bytes": 986,
+      "sha256": "a5658870a99a5f1575368ad438b7f9ebef7aa7f4c94e446095bb921f11ab6deb"
     },
     {
       "path": "ai4s-agent/CAPABILITIES_AND_RESULTS_zh-CN.md",
@@ -516,8 +516,8 @@
     {
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
-      "bytes": 20212,
-      "sha256": "6de5dadda9e9fc95057879794b7b365976137e13b27d7eff6f6b67f4630079a1"
+      "bytes": 20213,
+      "sha256": "7c4d142081ac06cfc518acb79eba757a48fcf3765a0427f906e0385f4be37928"
     },
     {
       "path": "manuscripts/MANUSCRIPT_EN.md",
@@ -708,8 +708,8 @@
     {
       "path": "software/scripts/validate_release_package.py",
       "artifact_role": "software-or-test",
-      "bytes": 9971,
-      "sha256": "b2920188b86e09d24b4af8b794a9f06f388505d6fd312c5760b0406ac2a66f5e"
+      "bytes": 10808,
+      "sha256": "ec56205d77718af604ae16967a96e77ad73043bcaf678a39dd5483be0827327d"
     },
     {
       "path": "software/scripts/validate_wsl_release.py",
