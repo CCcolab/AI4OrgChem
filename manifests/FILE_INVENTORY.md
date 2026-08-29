@@ -103,8 +103,8 @@
 | `project/README.md` | project-narrative | 809 | `e986ba347f1a20150af4770a5fec2e8b0cec52ac6dcb3776a8dbea2b6ea7ba05` |
 | `project/RESEARCH_ITEMS_zh-CN.md` | project-narrative | 1939 | `508c64832f3b075a9d073e33badd35be764012eebb94624fc7966fa2b03b143f` |
 | `project/RESEARCH_VALUE_zh-CN.md` | project-narrative | 1319 | `7308230ee6f5dd7009de88e0483b3ff298baa2a438d8f99fc010103e24b80c5b` |
-| `README.md` | repository-root | 20911 | `67d397a496712661da161015b52d77e68ee5014d879325b57dba65defc06a9f0` |
-| `README_zh-CN.md` | repository-root | 8170 | `d82c59c3e0cfe03ce629139ccc3ecc19d7f9c24411c395be9e7acfdd6adb62cf` |
+| `README.md` | repository-root | 20810 | `af2f16ede2f5572865c294824439b50d174503b45440f95313f6075899698bdf` |
+| `README_zh-CN.md` | repository-root | 8057 | `feda694dd19779975bc2d048100f9ed565ef5f1b3d16d4f70665ffa8393e3956` |
 | `reproducibility/environment.yml` | reproducibility | 190 | `10612a5f9b274c2eaf69e43190e7d239f77dfbe3b5a00672cca544ec315e011a` |
 | `reproducibility/PLATFORM_MATRIX_EN.md` | reproducibility | 1963 | `1ea2cc5909ef145c93c5dcdc9c3bfaefb1726bc4c51ea47f57134fefcb5141cd` |
 | `reproducibility/PLATFORM_MATRIX_zh-CN.md` | reproducibility | 1773 | `60cd3af1c440d40f30ef58b54b35bec5c7ae764faec54ef9dbc70bb32863fa88` |
@@ -121,7 +121,7 @@
 | `software/scripts/refresh_release_snapshot.py` | software-or-test | 3642 | `fec2bea043be692038b7f66fd38bcb6a79d9cdc96fbd5b943b3d80099e414ba2` |
 | `software/scripts/validate_evidence_navigation.py` | software-or-test | 5445 | `74eb7062fc0999df2baad7265273f61987332f22c2b2ef6df9801a884cdf1984` |
 | `software/scripts/validate_public_evidence.py` | software-or-test | 3272 | `11eab02c7302e7fd6ed2ae8c7d2b62ae6ca43e76c7345595ec45e74a4ad32061` |
-| `software/scripts/validate_release_package.py` | software-or-test | 10808 | `ec56205d77718af604ae16967a96e77ad73043bcaf678a39dd5483be0827327d` |
+| `software/scripts/validate_release_package.py` | software-or-test | 11077 | `d452feda05aaa1ffc2d02ab50f86bf28cfd3e426d1e548b0479ce330272e83bc` |
 | `software/scripts/validate_wsl_release.py` | software-or-test | 3690 | `9ef2ef7ffe4fc654751268474142c54e0d79f695684a9167b267dbbe3646dcd6` |
 | `software/src/ai4orgchem/lfmo/__init__.py` | software-or-test | 1385 | `6fb72d30002525c94773ee7fb0a2a6ee73f38388e204de6c18817df95d88a438` |
 | `software/src/ai4orgchem/lfmo/conditional_scf.py` | software-or-test | 6432 | `403377e08ea59b0076d99f56a2db2317a94db54dec71d7854236c568400d4b33` |
