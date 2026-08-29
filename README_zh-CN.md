@@ -68,7 +68,7 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 | [`REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md`](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md) | 非计算机/AI专业量子化学专家快速审阅路线 |
 | [`project/`](project/README.md) | 项目背景、研究项、研究价值、成果和命题总表 |
 | [`evidence/P01-P14/`](evidence/P01-P14/README_zh-CN.md) | 冻结数据卡、协议、处理后结果和范围化报告 |
-| [`manuscripts/`](manuscripts/README.md) | 中英文论文、证据矩阵和发布定位 |
+| [`manuscripts/`](manuscripts/README.md) | 证据矩阵和双语发布定位 |
 | [`ai4s-agent/`](ai4s-agent/README.md) | Agent架构、能力、评估、证据治理和限制 |
 | [`software/`](software/README.md) | LFMO/条件SCF公开核心实现和64项测试 |
 | [`reproducibility/`](reproducibility/README.md) | 复现说明和WSL 2平台边界 |
@@ -106,10 +106,10 @@ python -m pytest -p no:cacheprovider
 - AI模型输出属于工程证据，不是新的量子化学标签，也不替代科学命题论证；
 - 模型、私有运行目录、缓存、API凭据和受版权保护材料不进入本发布版本。
 
-## 论文稿件
+## 证据矩阵与发布定位
 
-- [英文论文](manuscripts/MANUSCRIPT_EN.md)
-- [中文论文](manuscripts/MANUSCRIPT_zh-CN.md)
+- [十四项总证据矩阵](manuscripts/P01-P14_evidence_matrix_zh-CN.md)
+- [英文发布定位](manuscripts/PUBLICATION_POSITIONING_EN.md)
 - [中文发布定位](manuscripts/PUBLICATION_POSITIONING_zh-CN.md)
 
 ## 许可证

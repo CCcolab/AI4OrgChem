@@ -2,7 +2,7 @@
 
 本清单记录GitHub洁净仓库中的实质内容文件。生成型SHA清单和本文件自身不反向列入表格。
 
-- 实质内容文件：145
+- 实质内容文件：143
 - 状态：版本化发布快照；内容变更后必须重新生成并验证
 
 | 文件 | 角色 | 字节 | SHA-256 |
@@ -92,21 +92,19 @@
 | `figures/README.md` | project-figure | 592 | `4cd88675c2d8580e83aed97dc54063bd966df62bdf0419834aca57feb31428f2` |
 | `figures/social-preview.png` | project-figure | 1273242 | `9f0d9ab3f77ed1fd3ef94b05e62cfedf5e2803c93d72ce9a469360594b9ba199` |
 | `LICENSE` | repository-root | 11357 | `4135cedb444c19860a53c85dc984b9c0a9644cba632c8ef44c45cbb1f88699b2` |
-| `manuscripts/MANUSCRIPT_EN.md` | manuscript | 7431 | `87263fc52e654a002f20b187971304952014fdb3fad79ab19b738eeccea2e332` |
-| `manuscripts/MANUSCRIPT_zh-CN.md` | manuscript | 5685 | `7b2a2c6cb684497f4993a9e0ba5e717a1099043850a8afbc26eefda976305d2f` |
 | `manuscripts/P01-P14_evidence_matrix_zh-CN.md` | manuscript | 4191 | `3083551cb08c5636c95b89b27bdc8e95df3b3141552ff6674a496d2c82da2773` |
-| `manuscripts/PUBLICATION_POSITIONING_EN.md` | manuscript | 2061 | `23245c67ad9992cea3bae9f458aff505bab0799290329fee3749ed1746aa5357` |
-| `manuscripts/PUBLICATION_POSITIONING_zh-CN.md` | manuscript | 1738 | `4e9ca4a4342e5a223ee8ba86a83259535968ec657c84c581ff46ed2f6c61f979` |
-| `manuscripts/README.md` | manuscript | 316 | `823a2ba0460c463742c63dc794f4c6bef7d27066b781eff7248a9ec8f33f6bdd` |
+| `manuscripts/PUBLICATION_POSITIONING_EN.md` | manuscript | 1806 | `3fe4bd994df13b569067530ea8cf02739a04ed943e09e566a257687b5a6c86dc` |
+| `manuscripts/PUBLICATION_POSITIONING_zh-CN.md` | manuscript | 1443 | `5fa231a564c089dc118bcef34f28a9bdc7d31e311649de895089186b93652ce9` |
+| `manuscripts/README.md` | manuscript | 236 | `f7b32245c124593d8d28fc8ecb199c650c0213b9e3ae18cb4728dfe88215447a` |
 | `NOTICE` | repository-root | 553 | `e69701cabf2f671467e0c5d1aa48c396cd991c4ece443d9983f2b08a3c8c714d` |
 | `project/ACHIEVEMENTS_zh-CN.md` | project-narrative | 1677 | `14db0a3262bb60f1bb9c9397c119d1a2a07b7241aec85b7bdf75fcb244bc67db` |
 | `project/P01-P14_MASTER_TABLE_zh-CN.md` | project-narrative | 11428 | `c84c6aa5e85cf09461465a3a140fb8349ec673343e7efd42b6a84aa710ff3eff` |
 | `project/PROJECT_BACKGROUND_zh-CN.md` | project-narrative | 1077 | `376edd3d1e88e520c1924f7f2d4ce1d6c6c0433168096005e4a54d17bb1e1f21` |
-| `project/README.md` | project-narrative | 736 | `091d42eeeb3f9eeb22dc473dbe9789fd9ad28f8ad40ab8777002ccfee2cc26c7` |
+| `project/README.md` | project-narrative | 809 | `e986ba347f1a20150af4770a5fec2e8b0cec52ac6dcb3776a8dbea2b6ea7ba05` |
 | `project/RESEARCH_ITEMS_zh-CN.md` | project-narrative | 1939 | `508c64832f3b075a9d073e33badd35be764012eebb94624fc7966fa2b03b143f` |
 | `project/RESEARCH_VALUE_zh-CN.md` | project-narrative | 1319 | `7308230ee6f5dd7009de88e0483b3ff298baa2a438d8f99fc010103e24b80c5b` |
-| `README.md` | repository-root | 20858 | `33d9f4cabf0a6b4cb65352d10e14bc1d060ee6dd39f188438cb605b5b3038d8b` |
-| `README_zh-CN.md` | repository-root | 8123 | `88834dc1cf6385a2c1c8c6c37a4930bb5b8a4bf55b918ab8cade5d557d023944` |
+| `README.md` | repository-root | 20911 | `67d397a496712661da161015b52d77e68ee5014d879325b57dba65defc06a9f0` |
+| `README_zh-CN.md` | repository-root | 8170 | `d82c59c3e0cfe03ce629139ccc3ecc19d7f9c24411c395be9e7acfdd6adb62cf` |
 | `reproducibility/environment.yml` | reproducibility | 190 | `10612a5f9b274c2eaf69e43190e7d239f77dfbe3b5a00672cca544ec315e011a` |
 | `reproducibility/PLATFORM_MATRIX_EN.md` | reproducibility | 1963 | `1ea2cc5909ef145c93c5dcdc9c3bfaefb1726bc4c51ea47f57134fefcb5141cd` |
 | `reproducibility/PLATFORM_MATRIX_zh-CN.md` | reproducibility | 1773 | `60cd3af1c440d40f30ef58b54b35bec5c7ae764faec54ef9dbc70bb32863fa88` |
@@ -116,8 +114,8 @@
 | `reproducibility/wsl/activate-ai4orgchem-public.sh` | reproducibility | 1475 | `5361fab00ebc6c614dfc191fffb4fb5c1eb0690ab862ad27000359347709cb2e` |
 | `reproducibility/wsl/ai4orgchem-verify` | reproducibility | 929 | `7eec73ec0269e9549a238707c6edf792a3bbae8161b72d714ba84abe3c43dc92` |
 | `reproducibility/wsl/README.md` | reproducibility | 1742 | `afb4d76e6f525e4b55036a446867d6ecc47b1657d7f17f6303062f4031ad832c` |
-| `REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md` | repository-root | 12187 | `98c2fc548da6772c231d7121c92860af364bf9f496dc44b769f3c262a37a90ce` |
-| `REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md` | repository-root | 10040 | `498f5588fa66daa0d28e1a49223d8cc9aa688597b1286cfed50586882ea123a9` |
+| `REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md` | repository-root | 12205 | `14b39b9f3b6c15a5ff210b98c725db6f4d5a213f05ef653160aaae87f3426c73` |
+| `REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md` | repository-root | 10056 | `a5a7dfd5e6c02e73e12f0f958a86d111355e2b9d4f1f92e303fc32e16ad65d7d` |
 | `software/pyproject.toml` | software-or-test | 643 | `21dfdbe31ca58d3103ca520910f6d0321e8f818519e765afbb1686048e311abe` |
 | `software/README.md` | software-or-test | 1834 | `5363f63e95b566e7210b4bb8301dd2248d1f6b5e7a556a24171a4f77aa749704` |
 | `software/scripts/refresh_release_snapshot.py` | software-or-test | 3642 | `fec2bea043be692038b7f66fd38bcb6a79d9cdc96fbd5b943b3d80099e414ba2` |

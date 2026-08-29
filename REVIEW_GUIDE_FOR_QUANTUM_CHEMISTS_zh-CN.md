@@ -169,6 +169,6 @@ python software/scripts/validate_release_package.py
 - [中文首页](README_zh-CN.md)
 - [十四项总证据矩阵](manuscripts/P01-P14_evidence_matrix_zh-CN.md)
 - [P01–P14逐项证据导航](evidence/P01-P14/README_zh-CN.md)
-- [中文论文稿](manuscripts/MANUSCRIPT_zh-CN.md)
+- [中文发布定位](manuscripts/PUBLICATION_POSITIONING_zh-CN.md)
 - [复现与平台边界](reproducibility/README.md)
 - [作者、贡献和利益冲突](AUTHORS.md)
