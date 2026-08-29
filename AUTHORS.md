@@ -22,6 +22,12 @@ Xiao Chen：概念化；方法学；软件；验证；研究实施；数据管�
 
 **OpenAI Codex（GPT-5.6）** 为软件实现、计算流程组织、证据整理、验证、文档编制和可复现发布准备提供了AI辅助研究与工程支持。所有科学命题、协议决策、结果解释及发布责任均由Xiao Chen承担。OpenAI是AI工具提供方，不作为项目作者、科学认证机构、同行评审方或机构背书方。
 
+### GitHub attribution / GitHub归属说明
+
+GitHub may display the verified `chatgpt-codex-connector[bot]` identity as a commit co-author to record Codex's technical contribution. This repository-level attribution does not change the sole human authorship stated above and does not imply that OpenAI certifies the scientific conclusions.
+
+GitHub可将经平台识别的`chatgpt-codex-connector[bot]`身份显示为提交共同作者，用于记录Codex的技术贡献。该仓库级归属不改变上述唯一人类作者声明，也不表示OpenAI认证本项目的科学结论。
+
 ## Competing interests / 利益冲突
 
 The author declares no financial or non-financial competing interests.

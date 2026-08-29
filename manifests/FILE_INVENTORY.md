@@ -22,7 +22,7 @@
 | `ai4s-agent/LIMITATIONS_zh-CN.md` | agent-delivery | 649 | `8a59ffbdb909d742bc1ba261a193d75139b633ded35ec05c776f98137bdc330e` |
 | `ai4s-agent/README.md` | agent-delivery | 553 | `76daec0d2baba625555fc38d388d3e76ea0a1205af42c30e9aa735ca084d99c9` |
 | `ai4s-agent/SYSTEM_ARCHITECTURE_zh-CN.md` | agent-delivery | 1114 | `c767a97c2fca2abdb13540dfc6b6e8983952dbc9f3cfd5f119017da2dd830a8a` |
-| `AUTHORS.md` | repository-root | 1832 | `fbd54169acfc3cda59bca64932fad4fce3027ce768d02d3c7e78618096cb7884` |
+| `AUTHORS.md` | repository-root | 2416 | `148d3f76aea865f1ed862c9b65ea980e92d170d3b95a598cba626250cd681df2` |
 | `CHANGELOG.md` | repository-root | 4550 | `a3627973b4670feeed1f5ab04e2e229f018f0e052911ee71ac59ff3231953dcc` |
 | `CITATION.cff` | repository-root | 910 | `59b796c8930f15fe958b99b48e2a74fd529da780fead82dda9999b35397068c9` |
 | `configs/qm/p09_exchange_integral_classes_v0.1.yaml` | public-configuration | 7326 | `324c2e7988be48ed8898a5e9b04a87d40386ca8a8f7eb603d9a697d3ac6a6ee2` |
