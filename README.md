@@ -159,7 +159,7 @@ AI4OrgChem/
 ├─ software/                # LFMO/条件SCF核心、64项测试、验证与刷新入口
 ├─ reproducibility/         # 双语运行手册、平台矩阵、环境与WSL入口
 ├─ configs/qm/              # 可公开的冻结量化配置
-├─ manuscripts/             # 中英文论文稿、证据矩阵、发布定位
+├─ manuscripts/             # Evidence matrix and publication positioning
 ├─ ai4s-agent/              # AI工程能力、评估、治理与限制
 ├─ figures/                 # 项目自行生成的图
 ├─ manifests/               # 实质文件清单与SHA-256快照
@@ -250,11 +250,11 @@ The canonical scientific runtime is **WSL 2 / Ubuntu 24.04**. Native Windows is 
 - AI model outputs are engineering evidence, not new quantum-chemical labels or independent proof of the scientific propositions.
 - Models, private run directories, caches, API credentials, and copyrighted source materials are excluded from this release.
 
-## Manuscripts
+## Evidence matrix and publication positioning
 
-- [English manuscript](manuscripts/MANUSCRIPT_EN.md)
-- [Chinese manuscript](manuscripts/MANUSCRIPT_zh-CN.md)
+- [Evidence matrix](manuscripts/P01-P14_evidence_matrix_zh-CN.md)
 - [Publication positioning](manuscripts/PUBLICATION_POSITIONING_EN.md)
+- [中文发布定位](manuscripts/PUBLICATION_POSITIONING_zh-CN.md)
 
 ## License
 

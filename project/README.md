@@ -9,4 +9,4 @@ GitHub 首页和项目材料围绕四个核心部分组织：
 3. **研究价值**：可证伪化、LFMO证据链、经典启发式范围检验和AI4S方法学；
 4. **项目成就（成果）**：十四项结论、关键数值、独立软件、AI泛化和证据Agent。
 
-本目录保存上述四部分的当前中文正式文本及P01–P14主表；英文总论见 `../manuscripts/MANUSCRIPT_EN.md`。
+本目录保存上述四部分的当前中文正式文本及P01–P14主表；双语发布定位见 `../manuscripts/PUBLICATION_POSITIONING_EN.md` 和 `../manuscripts/PUBLICATION_POSITIONING_zh-CN.md`。

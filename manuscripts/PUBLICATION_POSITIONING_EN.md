@@ -23,8 +23,3 @@ Without using the monograph's original program code, AI4OrgChem used AI-assisted
 - “all conjugation is destabilizing”;
 - “the complete historical code and coordinate environment was reproduced”;
 - “a learned model is itself an independent quantum-chemical proof.”
-
-## Release stack
-
-ChemRxiv preprint; peer-reviewed submission; versioned GitHub repository; Zenodo code/data snapshot with DOI; bilingual project site; proposition-level supplementary information linking protocols, evidence, validators and limitations.
-

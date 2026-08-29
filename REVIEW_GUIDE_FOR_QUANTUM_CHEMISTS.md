@@ -166,6 +166,6 @@ Without independently rerunning every historical computation, the strongest defe
 - [English home page](README.md)
 - [P01–P14 evidence index](evidence/P01-P14/README.md)
 - [Evidence matrix](manuscripts/P01-P14_evidence_matrix_zh-CN.md)
-- [English manuscript](manuscripts/MANUSCRIPT_EN.md)
+- [Publication positioning](manuscripts/PUBLICATION_POSITIONING_EN.md)
 - [Reproducibility and platform boundaries](reproducibility/README.md)
 - [Authorship, contributions, and competing interests](AUTHORS.md)
