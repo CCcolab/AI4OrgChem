@@ -47,7 +47,7 @@ Quantum-chemistry experts who do not work with GitHub, AI, or software engineeri
 
 ## Community review
 
-Independent reproduction, falsification, and scoped scientific disagreement are welcome. Use the repository's structured issue forms to submit an [independent reproduction](https://github.com/CCcolab/AI4OrgChem/issues/new?template=independent-reproduction.yml), [scientific disagreement](https://github.com/CCcolab/AI4OrgChem/issues/new?template=scientific-disagreement.yml), [documentation correction](https://github.com/CCcolab/AI4OrgChem/issues/new?template=documentation-correction.yml), or [new molecular test proposal](https://github.com/CCcolab/AI4OrgChem/issues/new?template=new-molecular-test.yml). Broader questions belong in [GitHub Discussions](https://github.com/CCcolab/AI4OrgChem/discussions).
+Independent reproduction, falsification, and scoped scientific disagreement are welcome. Use the repository's structured issue forms to submit an [independent reproduction](https://github.com/CCcolab/AI4OrgChem/issues/new?template=independent-reproduction.yml), [scientific disagreement](https://github.com/CCcolab/AI4OrgChem/issues/new?template=scientific-disagreement.yml), [documentation correction](https://github.com/CCcolab/AI4OrgChem/issues/new?template=documentation-correction.yml), or [new molecular test proposal](https://github.com/CCcolab/AI4OrgChem/issues/new?template=new-molecular-test.yml).
 
 ## AI4S Agent engineering
 

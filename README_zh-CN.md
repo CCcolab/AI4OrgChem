@@ -47,7 +47,7 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 
 ## 社区复核
 
-项目欢迎独立复现、可证伪检验和有边界的科学异议。请使用结构化Issue表单提交[独立复现报告](https://github.com/CCcolab/AI4OrgChem/issues/new?template=independent-reproduction.yml)、[科学异议](https://github.com/CCcolab/AI4OrgChem/issues/new?template=scientific-disagreement.yml)、[文档修正](https://github.com/CCcolab/AI4OrgChem/issues/new?template=documentation-correction.yml)或[新分子测试建议](https://github.com/CCcolab/AI4OrgChem/issues/new?template=new-molecular-test.yml)。一般性问题和解释讨论请使用[GitHub Discussions](https://github.com/CCcolab/AI4OrgChem/discussions)。
+项目欢迎独立复现、可证伪检验和有边界的科学异议。请使用结构化Issue表单提交[独立复现报告](https://github.com/CCcolab/AI4OrgChem/issues/new?template=independent-reproduction.yml)、[科学异议](https://github.com/CCcolab/AI4OrgChem/issues/new?template=scientific-disagreement.yml)、[文档修正](https://github.com/CCcolab/AI4OrgChem/issues/new?template=documentation-correction.yml)或[新分子测试建议](https://github.com/CCcolab/AI4OrgChem/issues/new?template=new-molecular-test.yml)。
 
 ## AI4S Agent工程成果
 

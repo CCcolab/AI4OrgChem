@@ -101,6 +101,11 @@ SECRET = re.compile(
 LOCAL_PATH = re.compile(
     r"[A-Za-z]:\\(?:Users|AI4Science)\\|/home/[A-Za-z0-9._-]+|localhost:\d+"
 )
+SIBLING_REPOSITORY_LINK = re.compile(
+    r"https?://(?:www\.)?github\.com/CCcolab/"
+    r"(?:AI4S-OrgChem|AI4S-AI4OrgChem)(?:[/#?]|$)",
+    re.IGNORECASE,
+)
 MARKDOWN_LINK = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
 INVENTORY_ROW = re.compile(r"^\| `([^`]+)` \|", re.MULTILINE)
 MAX_FILE_BYTES = 25 * 1024 * 1024
@@ -136,6 +141,8 @@ def validate_text_file(path: Path, failures: list[str]) -> None:
         failures.append(f"secret-like content: {relative}")
     if LOCAL_PATH.search(text):
         failures.append(f"local path or localhost content: {relative}")
+    if SIBLING_REPOSITORY_LINK.search(text):
+        failures.append(f"cross-project GitHub link: {relative}")
     if b"\r\n" in path.read_bytes():
         failures.append(f"CRLF text would change across Git platforms: {relative}")
 

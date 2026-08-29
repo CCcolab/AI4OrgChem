@@ -517,7 +517,7 @@
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
       "bytes": 19962,
-      "sha256": "e46c9220a8ca56856f181f1c836ca97bc8aab3ac678c0cce0c9d5d371806bd4b"
+      "sha256": "ee03e50fd74cdddba103be9906ebd7df90153ceecb4f1b2e5221001488544cd7"
     },
     {
       "path": "manuscripts/P01-P14_evidence_matrix_zh-CN.md",
@@ -588,14 +588,14 @@
     {
       "path": "README.md",
       "artifact_role": "repository-root",
-      "bytes": 20911,
-      "sha256": "67d397a496712661da161015b52d77e68ee5014d879325b57dba65defc06a9f0"
+      "bytes": 20810,
+      "sha256": "af2f16ede2f5572865c294824439b50d174503b45440f95313f6075899698bdf"
     },
     {
       "path": "README_zh-CN.md",
       "artifact_role": "repository-root",
-      "bytes": 8170,
-      "sha256": "d82c59c3e0cfe03ce629139ccc3ecc19d7f9c24411c395be9e7acfdd6adb62cf"
+      "bytes": 8057,
+      "sha256": "feda694dd19779975bc2d048100f9ed565ef5f1b3d16d4f70665ffa8393e3956"
     },
     {
       "path": "reproducibility/environment.yml",
@@ -696,8 +696,8 @@
     {
       "path": "software/scripts/validate_release_package.py",
       "artifact_role": "software-or-test",
-      "bytes": 10808,
-      "sha256": "ec56205d77718af604ae16967a96e77ad73043bcaf678a39dd5483be0827327d"
+      "bytes": 11077,
+      "sha256": "d452feda05aaa1ffc2d02ab50f86bf28cfd3e426d1e548b0479ce330272e83bc"
     },
     {
       "path": "software/scripts/validate_wsl_release.py",
