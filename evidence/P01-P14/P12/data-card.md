@@ -31,5 +31,6 @@ historical program reproduction, production label dataset, MACE training set,
 or proof that the exact N=16/N=18 onset is estimator-independent.
 
 Final classification: **partially consistent**. The qualitative large-ring
-limit is consistent with the monograph; the exact onset is inconsistent across
-the source CESE and independent ASE estimators (`N=16/18` versus `N>30`).
+limit is consistent with the monograph. The exact onset values from the source
+CESE and independent ASE estimators (`N=16/18` versus `N>30`) are not directly
+comparable and are not treated as a same-estimand inconsistency.

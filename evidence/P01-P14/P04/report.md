@@ -1,6 +1,6 @@
 > **公开版说明（2026-08-26）：** 本文是命题关闭时形成的冻结证据快照。其中“未启动/禁用”等阶段性措辞只描述当时的任务边界，不代表项目当前进度；当前总状态以 `project/P01-P14_MASTER_TABLE_zh-CN.md` 和 `ai4s-agent/EVALUATION_SUMMARY.json` 为准。
 
-# Target C tested-domain scientific conclusion
+# Target C tested-domain sign-regularity conclusion
 
 - Valid tested points: `11`
 - Endpoint verdict: **source_proxy_endpoint_destabilization_supported_across_all_valid_tested_points**
@@ -24,13 +24,13 @@
 
 ## Scientific conclusion
 
-Under the source-directed convention `E_FUD-E_DSI3 > 0`, every technically valid point in the tested source-proxy domain has a destabilizing total endpoint. This supports a tested-domain endpoint destabilization law.
+Under the source-directed convention `E_FUD-E_DSI3 > 0`, every technically valid point in the tested source-proxy domain has a destabilizing total endpoint. This supports a tested-domain endpoint sign regularity.
 
 The stronger statement that the pi-pi direct term is always destabilizing is rejected: divinyl imine at 0 degrees has a negative direct term and a larger positive response, while its endpoint remains positive. Orbital response is likewise geometry- and family-dependent.
 
 ## Boundary
 
 - Excluded point: `divinyl_imine:17.0` because `non_square_lfmo_basis_no_scientific_value_emitted`.
-- The law is final for the tested valid source-proxy domain, not a theorem for all molecules or all geometries.
+- The sign regularity is final for the tested valid source-proxy points, not a law or theorem for all molecules or all geometries.
 - Production and AI-training eligibility remain false.
 - Every released record carries geometry, LFMO/state-contract, source-artifact, engine, method, basis, resource-profile, and Git provenance.

@@ -3,7 +3,7 @@
 [![Release](https://img.shields.io/github/v/release/CCcolab/AI4OrgChem?display_name=tag&sort=semver)](https://github.com/CCcolab/AI4OrgChem/releases/latest)
 [![Validation](https://github.com/CCcolab/AI4OrgChem/actions/workflows/validate.yml/badge.svg)](https://github.com/CCcolab/AI4OrgChem/actions/workflows/validate.yml)
 [![License](https://img.shields.io/github/license/CCcolab/AI4OrgChem)](LICENSE)
-[![Evidence](https://img.shields.io/badge/evidence-P01--P14%20validated-2ea44f)](evidence/P01-P14/README_zh-CN.md)
+[![Evidence](https://img.shields.io/badge/evidence-P01--P14%20internally%20checked-2ea44f)](evidence/P01-P14/README_zh-CN.md)
 [![WSL2](https://img.shields.io/badge/WSL2-Ubuntu%2024.04%20verified-0078D4)](reproducibility/wsl/README.md)
 [![AI辅助](https://img.shields.io/badge/AI%20assistance-OpenAI%20Codex%20GPT--5.6-6f42c1)](AUTHORS.md)
 
@@ -26,7 +26,7 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 十四项命题均形成确定性分类：
 
 - **12项一致或范围化一致**；
-- **2项部分一致**：P11保留取代苯诱导分量异号，P12保留轮烯精确尺寸起点的跨估计量差异；
+- **2项部分一致**：P11保留取代苯诱导分量异号；P12保留不同估计量下起始尺寸不可直接比较的边界；
 - **整体不一致0项，未知0项**。
 
 代表性冻结结果如下：
@@ -40,6 +40,8 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 | 应变芳香C12H6端点 | +67.086899 kcal/mol |
 
 这些结果支持一个有边界的方法论结论：若干教科书启发式不能自动成为普遍充分的机制解释。项目不据此宣称传统有机化学整体错误，不建立“共轭必然去稳定化”的反向普遍定律，也不把本项目描述为对原著的机构认证。
+
+十四项属于分层、可审计证据链，并非十四次同等级量子化学复现；独立QM、source-aligned/source-proxy重构、发表值复分析和图论/文献旁证的证据身份分别保留。
 
 详见[P01–P14总证据矩阵](manuscripts/P01-P14_evidence_matrix_zh-CN.md)和[中文命题证据导航](evidence/P01-P14/README_zh-CN.md)。
 

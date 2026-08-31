@@ -3,7 +3,7 @@
 [![Release](https://img.shields.io/github/v/release/CCcolab/AI4OrgChem?display_name=tag&sort=semver)](https://github.com/CCcolab/AI4OrgChem/releases/latest)
 [![Validation](https://github.com/CCcolab/AI4OrgChem/actions/workflows/validate.yml/badge.svg)](https://github.com/CCcolab/AI4OrgChem/actions/workflows/validate.yml)
 [![License](https://img.shields.io/github/license/CCcolab/AI4OrgChem)](LICENSE)
-[![Evidence](https://img.shields.io/badge/evidence-P01--P14%20validated-2ea44f)](evidence/P01-P14/README.md)
+[![Evidence](https://img.shields.io/badge/evidence-P01--P14%20internally%20checked-2ea44f)](evidence/P01-P14/README.md)
 [![WSL2](https://img.shields.io/badge/WSL2-Ubuntu%2024.04%20verified-0078D4)](reproducibility/wsl/README.md)
 [![AI assistance](https://img.shields.io/badge/AI%20assistance-OpenAI%20Codex%20GPT--5.6-6f42c1)](AUTHORS.md)
 
@@ -26,7 +26,7 @@ The project asks whether independently reconstructed quantum-chemical evidence s
 All fourteen propositions received determinate classifications within their declared tested domains:
 
 - **12 consistent or scope-consistent** with the corresponding monograph proposition;
-- **2 partially consistent**: P11 retains an opposite-sign inductive component, and P12 retains a cross-estimator disagreement in the exact annulene onset;
+- **2 partially consistent**: P11 retains an opposite-sign inductive component, while P12 retains the boundary that onset sizes from different estimands are not directly comparable;
 - **0 globally inconsistent and 0 unknown**.
 
 Representative frozen results are:
@@ -40,6 +40,8 @@ Representative frozen results are:
 | Strained-aromatic C12H6 endpoint | +67.086899 kcal/mol |
 
 These results support a bounded methodological conclusion: several textbook heuristics do not automatically provide universally sufficient mechanistic explanations. They do **not** establish that traditional organic chemistry is globally wrong, do not create a universal opposite law of conjugative destabilization, and do not constitute institutional certification of the monograph.
+
+The fourteen propositions form a layered, auditable evidence chain rather than fourteen equal-status quantum-chemistry reproductions. Independent QM, source-aligned/source-proxy reconstruction, published-value reanalysis, and graph/literature evidence retain distinct identities.
 
 See the [P01-P14 evidence matrix](manuscripts/P01-P14_evidence_matrix_zh-CN.md) and the [evidence collection](evidence/P01-P14/README.md).
 
@@ -68,7 +70,7 @@ The dataset is too small for industrial or universal molecular generalization. D
 | [`REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md`](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md) | Rapid scientific review route for quantum-chemistry experts without a computing or AI background |
 | [`project/`](project/README.md) | Background, research questions, value, achievements, and master proposition table |
 | [`evidence/P01-P14/`](evidence/P01-P14/README.md) | Frozen data cards, protocols, processed results, and scoped reports |
-| [`manuscripts/`](manuscripts/README.md) | English and Chinese manuscripts, evidence matrix, and publication positioning |
+| [`manuscripts/`](manuscripts/README.md) | Evidence matrix and bilingual publication positioning; no pre-submission manuscript drafts are included |
 | [`ai4s-agent/`](ai4s-agent/README.md) | Agent architecture, capabilities, evaluation, governance, and limitations |
 | [`software/`](software/README.md) | Public LFMO/conditional-SCF implementation and 64 focused tests |
 | [`reproducibility/`](reproducibility/README.md) | Runtime instructions and WSL 2 platform boundaries |
