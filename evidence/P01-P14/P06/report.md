@@ -6,6 +6,7 @@
 - 命题：P06 非键σ–σ条件态能量差应独立分析
 - 判定：**P06_SCOPED_NONBONDED_SIGMA_SIGMA_DESTABILIZATION_SUPPORTED_AT_BOTH_POINTS**
 - 范围：parent N-benzylideneaniline source-geometry candidate，0°/17°，RHF/STO-3G
+- 证据身份：**同一分子的两个source-proxy端点，不是跨分子或连续角度序列**
 
 | 角度 | E_FUL (Eh) | E_PDSI (Eh) | E_PDSI-E_FUL (Eh) | kcal/mol | Table 5-19 (Eh) | 误差 (Eh) | 标签 |
 |---:|---:|---:|---:|---:|---:|---:|---|
@@ -14,7 +15,7 @@
 
 ## 结论
 
-在FUL到PDSI只释放bonded-σ A/P隔离的source定义下，0°和17°的 `E_PDSI-E_FUL` 均为正。因此，两个冻结Table 5-19 source-proxy端点中的非键σ–σ条件态效应均表现为去稳定化。17°端点比0°低 `0.005203479422 Eh`（`3.265233 kcal/mol`），说明扭转后该正端点幅度减小。
+在FUL到PDSI只释放bonded-σ A/P隔离的source定义下，同一分子0°和17°的 `E_PDSI-E_FUL` 均为正。因此，两个冻结Table 5-19 source-proxy端点中的非键σ–σ条件态效应均表现为去稳定化。17°端点比0°低 `0.005203479422 Eh`（`3.265233 kcal/mol`），说明在这两个采样端点之间正端点幅度减小；不据此推断完整扭转曲线。
 
 ## 边界
 

@@ -60,14 +60,14 @@
     {
       "path": "ai4s-agent/CAPABILITIES_AND_RESULTS_zh-CN.md",
       "artifact_role": "agent-delivery",
-      "bytes": 1325,
-      "sha256": "aa79dc262647dea30360b744e12fd5f048b23c17ec863aaabce02003786ea540"
+      "bytes": 1385,
+      "sha256": "3fcdd3033621c2924dabac432c2c565b457397b51a86212c66a0a6d704c29fef"
     },
     {
       "path": "ai4s-agent/EVALUATION_SUMMARY.json",
       "artifact_role": "agent-delivery",
-      "bytes": 1193,
-      "sha256": "19420e6698a7503ab90840e81c45f64d7476260baa827a18b96e015e5384d887"
+      "bytes": 1293,
+      "sha256": "a67095314e17d093f02a840268958e6ce69879bbb99138d03516eacb67a1130a"
     },
     {
       "path": "ai4s-agent/EVIDENCE_GOVERNANCE_zh-CN.md",
@@ -84,8 +84,8 @@
     {
       "path": "ai4s-agent/README.md",
       "artifact_role": "agent-delivery",
-      "bytes": 553,
-      "sha256": "76daec0d2baba625555fc38d388d3e76ea0a1205af42c30e9aa735ca084d99c9"
+      "bytes": 875,
+      "sha256": "0c70035829d114db9a1e7584d8ede6db16d5130479db4c7e58534802eac7ddd7"
     },
     {
       "path": "ai4s-agent/SYSTEM_ARCHITECTURE_zh-CN.md",
@@ -132,8 +132,8 @@
     {
       "path": "evidence/P01-P14/P01/report.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 2115,
-      "sha256": "2b462a53d1d075452a9457a3e05329de01886ed24c6de99d9531678a0d06713a"
+      "bytes": 2295,
+      "sha256": "ae2aeabdf0903514050e9fb00e4381a1b880a2abc48e0150dc1d4bfe1d551eca"
     },
     {
       "path": "evidence/P01-P14/P01/result.json",
@@ -156,8 +156,8 @@
     {
       "path": "evidence/P01-P14/P02/report.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 2422,
-      "sha256": "aeadf629b40933b60d81eb36a83cd2777e1fa3c83c8087717b097ce9a00fb974"
+      "bytes": 2579,
+      "sha256": "c97f8a26d28d6304c3b179c99ce0d6d43327ca29b298be9c9044dc554e1e033c"
     },
     {
       "path": "evidence/P01-P14/P02/result.json",
@@ -180,8 +180,8 @@
     {
       "path": "evidence/P01-P14/P03/report.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 2060,
-      "sha256": "dc69800b1043b7dd39633ae9f699d53ac2a17d51a2bc7f226186c2b3e32fea9c"
+      "bytes": 2315,
+      "sha256": "d06b8de077005cec5c48b092b55544b83182a25588cd73069e7ba0dab3f3e037"
     },
     {
       "path": "evidence/P01-P14/P03/result.json",
@@ -204,8 +204,8 @@
     {
       "path": "evidence/P01-P14/P04/report.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 2647,
-      "sha256": "8ffc54a118bff95c5822831e80954973efae272c66fb683b4a5a832027663b47"
+      "bytes": 2667,
+      "sha256": "b60247cc8f38a0ef745669c4db3692189f7e72231da62ab2788d99259f3eb769"
     },
     {
       "path": "evidence/P01-P14/P04/result.jsonl",
@@ -228,8 +228,8 @@
     {
       "path": "evidence/P01-P14/P05/report.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 1738,
-      "sha256": "8cfef4127f4e3b22bce5ea43b32f686533151d55ec76f1ba13bd8d4159648cf3"
+      "bytes": 1956,
+      "sha256": "ca338f4ab3f3e47fc70a49f2f2002a3d2f2ff102f8421ce17aa8e657bbb59571"
     },
     {
       "path": "evidence/P01-P14/P05/result.jsonl",
@@ -252,8 +252,8 @@
     {
       "path": "evidence/P01-P14/P06/report.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 1912,
-      "sha256": "d9ea895828d0ade7e862811a34b9be2b5ef8e01178e4a469d7f34d2ab1cc1e68"
+      "bytes": 2078,
+      "sha256": "8509949a47c3306e0b99da151f54b7d9b82a6e0b3d4317f61256ed7c10ca7057"
     },
     {
       "path": "evidence/P01-P14/P06/result.jsonl",
@@ -276,8 +276,8 @@
     {
       "path": "evidence/P01-P14/P07/report.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 2300,
-      "sha256": "289b2ebd84c432b7525bbf7a43980b031005fd3b1f4b134fc4ea712deb65d046"
+      "bytes": 2385,
+      "sha256": "c9d0d351567469b3cea81170d02cd50d832806af8431401e3a35116c32c2a261"
     },
     {
       "path": "evidence/P01-P14/P07/result.json",
@@ -300,8 +300,8 @@
     {
       "path": "evidence/P01-P14/P08/report.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 2339,
-      "sha256": "1bd97a28eeb96ddafcbc657d5c06600d1ef315005ba0c12a63a7708682e2d6ef"
+      "bytes": 2643,
+      "sha256": "2ee189b5662edabae9940924273546da939376cb6c77b9d90ec7db36e0245258"
     },
     {
       "path": "evidence/P01-P14/P08/result.json",
@@ -324,8 +324,8 @@
     {
       "path": "evidence/P01-P14/P09/report.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 2829,
-      "sha256": "0648865a754c0ab49e935abac77d726b4233392590fefcd6f52cefe4790e44bb"
+      "bytes": 3179,
+      "sha256": "8b95454773a910e15e4052ab83124f38482d41a9cb2c7c928f8cee800d93921f"
     },
     {
       "path": "evidence/P01-P14/P09/result.json",
@@ -336,20 +336,20 @@
     {
       "path": "evidence/P01-P14/P10/data-card.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 2304,
-      "sha256": "750458ac216eed2eadd4b97385bd4b7fd4efb4e8740fbdd92633896c5f4000c4"
+      "bytes": 2370,
+      "sha256": "d5c50749b4b8ee10e5df46dcdf4d1ce6625b46e4d30ec11485c749df2eab426e"
     },
     {
       "path": "evidence/P01-P14/P10/protocol.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 3270,
-      "sha256": "98f882fff1d9c5c2d510eaddb573813c63170753ca384785c4f666a714b43fa2"
+      "bytes": 3351,
+      "sha256": "b4f29a2109594658e6a80423e21d3f6d6db07e7c62a5aa28ef4b001bda141d47"
     },
     {
       "path": "evidence/P01-P14/P10/report.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 2293,
-      "sha256": "64a4f642dd75ef4d82c2b832042e2b595a3b98085471c808465b168963ac71f2"
+      "bytes": 2410,
+      "sha256": "7ec4e21eac802e593e27a029cce3d533c2e84505b7814481e8097990f97d43c9"
     },
     {
       "path": "evidence/P01-P14/P10/result.json",
@@ -372,8 +372,8 @@
     {
       "path": "evidence/P01-P14/P11/furan-report.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 2497,
-      "sha256": "d3b057ea8dec7149036733a22e40131ba55ed30431d680263a9efc8672bc8111"
+      "bytes": 2652,
+      "sha256": "d04b13b6619228108ff4f70540b531af6d532ea8d35a829449332745c0fdabc4"
     },
     {
       "path": "evidence/P01-P14/P11/furan-result.json",
@@ -396,8 +396,8 @@
     {
       "path": "evidence/P01-P14/P11/substituent-report.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 1936,
-      "sha256": "eb2fe2844783c65cf9ce586eb8a2416a51714636736e0786ff54c1f838851c37"
+      "bytes": 2034,
+      "sha256": "c7ad6de00a1e2534320f3a5df8d6af70d6abfc6997cd63117cd43c76cee282cc"
     },
     {
       "path": "evidence/P01-P14/P11/substituent-result.json",
@@ -408,8 +408,8 @@
     {
       "path": "evidence/P01-P14/P12/data-card.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 1718,
-      "sha256": "00f3ba3d358c11e280bc0987e5de313d86a37db3ba0c2dce8a9118e3070a7479"
+      "bytes": 1788,
+      "sha256": "e46f62fbda0137ce735fabd2a5970d9a6ac2a5d9270ce5ac4cb6ca5fd9244d2b"
     },
     {
       "path": "evidence/P01-P14/P12/protocol.md",
@@ -420,14 +420,14 @@
     {
       "path": "evidence/P01-P14/P12/report.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 3069,
-      "sha256": "c39ad15917616c302e75082e292df3154d19e2cbf2bc1c3bad8d7ae997542e80"
+      "bytes": 3302,
+      "sha256": "a177f47cde930216c9673e5d897e945004f46e2518f41cb0350d5f2fc60fc401"
     },
     {
       "path": "evidence/P01-P14/P12/result.json",
       "artifact_role": "scientific-evidence",
-      "bytes": 7523,
-      "sha256": "4e435559b2b77025d130bab08c4c26084437686aa67268bf210dfd9a15c2a6a7"
+      "bytes": 7755,
+      "sha256": "cb49690f3fb9f3def17415d6769498454c81652c5c4b45fe10150e6f111e55d7"
     },
     {
       "path": "evidence/P01-P14/P13/data-card.md",
@@ -444,8 +444,8 @@
     {
       "path": "evidence/P01-P14/P13/report.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 2859,
-      "sha256": "70d392e4c9522fea6dd404abb6a5457e2a7067c1f85a009e13966dfa611f2e75"
+      "bytes": 3169,
+      "sha256": "bf29ae1f7855cb7c4a8d259342e1078f134e3ab2d5c09ca7ac204556d4bac3af"
     },
     {
       "path": "evidence/P01-P14/P13/result.json",
@@ -468,8 +468,8 @@
     {
       "path": "evidence/P01-P14/P14/report.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 1603,
-      "sha256": "bbddde7a4665d045bf7c34c6221ba4a0860a4c82fe34a7741bdcfe3cc9c6e48e"
+      "bytes": 1844,
+      "sha256": "ede762edcf5e2d41368f839f70a751bfe6eedd51a02165f24c4262e47ba6ea24"
     },
     {
       "path": "evidence/P01-P14/P14/result.json",
@@ -480,14 +480,14 @@
     {
       "path": "evidence/P01-P14/README.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 7297,
-      "sha256": "12a7e955ad26a2e16b6c29bcc90859d2977364d4f94b6a752b4fb1226a773210"
+      "bytes": 7610,
+      "sha256": "929efec8ecc299c62cfdfdd5f0b9f1b74f637f1429b6d6ce69af4529b90e1b01"
     },
     {
       "path": "evidence/P01-P14/README_zh-CN.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 6894,
-      "sha256": "21498ab3314e5c9ed43a66db39392551920b120c0b77e5db76f8666118771e7f"
+      "bytes": 7229,
+      "sha256": "e3de27392bcaae2a5f9658c7187b9dfe18178b281a0663601e1abfe876aeaebe"
     },
     {
       "path": "figures/P01-P14_overview_zh-CN.png",
@@ -517,13 +517,13 @@
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
       "bytes": 19962,
-      "sha256": "ee03e50fd74cdddba103be9906ebd7df90153ceecb4f1b2e5221001488544cd7"
+      "sha256": "71384191dcedac81368b6b77dfcc17d0d95662a03dfcebe0b45aa6ba80166c29"
     },
     {
       "path": "manuscripts/P01-P14_evidence_matrix_zh-CN.md",
       "artifact_role": "manuscript",
-      "bytes": 4191,
-      "sha256": "3083551cb08c5636c95b89b27bdc8e95df3b3141552ff6674a496d2c82da2773"
+      "bytes": 4530,
+      "sha256": "6b0e8b2ede529f97e4257a5bd41007f9d64b67d33565e68da00486b5dd22d87e"
     },
     {
       "path": "manuscripts/PUBLICATION_POSITIONING_EN.md",
@@ -558,8 +558,8 @@
     {
       "path": "project/P01-P14_MASTER_TABLE_zh-CN.md",
       "artifact_role": "project-narrative",
-      "bytes": 11428,
-      "sha256": "c84c6aa5e85cf09461465a3a140fb8349ec673343e7efd42b6a84aa710ff3eff"
+      "bytes": 11547,
+      "sha256": "aacab208a490430ea2f7b9dba5c59edb3657e58765909ee9a507fbe2725ab594"
     },
     {
       "path": "project/PROJECT_BACKGROUND_zh-CN.md",
@@ -588,14 +588,14 @@
     {
       "path": "README.md",
       "artifact_role": "repository-root",
-      "bytes": 20810,
-      "sha256": "af2f16ede2f5572865c294824439b50d174503b45440f95313f6075899698bdf"
+      "bytes": 21154,
+      "sha256": "2daa0ceaeb5f9bbb769b10d52c00924f8dfa7e5adfbd835bc86783b163d5e1b8"
     },
     {
       "path": "README_zh-CN.md",
       "artifact_role": "repository-root",
-      "bytes": 8057,
-      "sha256": "feda694dd19779975bc2d048100f9ed565ef5f1b3d16d4f70665ffa8393e3956"
+      "bytes": 8289,
+      "sha256": "3a0d50eff4ddd9f42758e59ff04ae89d8ba90d8e447b37208a360fe68780182a"
     },
     {
       "path": "reproducibility/environment.yml",
@@ -684,14 +684,14 @@
     {
       "path": "software/scripts/validate_evidence_navigation.py",
       "artifact_role": "software-or-test",
-      "bytes": 5445,
-      "sha256": "74eb7062fc0999df2baad7265273f61987332f22c2b2ef6df9801a884cdf1984"
+      "bytes": 5440,
+      "sha256": "e0adde68da83b7fcc25cc4fa40383c61e1bbc664f09c52fde35623bb963a9249"
     },
     {
       "path": "software/scripts/validate_public_evidence.py",
       "artifact_role": "software-or-test",
-      "bytes": 3272,
-      "sha256": "11eab02c7302e7fd6ed2ae8c7d2b62ae6ca43e76c7345595ec45e74a4ad32061"
+      "bytes": 3267,
+      "sha256": "1df8ed5544ec7b092324ece6a7ec1d7d1f7fe60b4d1ecbf57ae77dd30157b4d6"
     },
     {
       "path": "software/scripts/validate_release_package.py",

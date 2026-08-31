@@ -32,8 +32,10 @@
     "universal_law_claim": false
   },
   "interactive_delivery": {
+    "evaluation_identity": "internal_delivery_validation",
     "validation_checks_passed": 9,
     "validation_checks_total": 9,
+    "external_benchmark_claimed": false,
     "new_scientific_label_generation_allowed": false
   },
   "industrial_generalization_claim": false

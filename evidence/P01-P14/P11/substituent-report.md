@@ -8,7 +8,7 @@ P11-B在单一氰基苯、Figure 7重原子键长source proxy、PySCF `B3LYPG/6-
 
 `P11B_CONJUGATIVE_CONSISTENT_INDUCTIVE_INCONSISTENT_UNDER_SOURCE_PROXY`
 
-即原著的共轭贡献得到支持；诱导贡献在冻结Figure 7 source-proxy下与原著异号，判为不一致。
+即原著的共轭贡献得到支持；诱导贡献在冻结Figure 7 source-proxy下与原著异号，判为该子分量不一致。与P11-A合并后，P11总命题保持“部分一致”，不改为整体不一致。
 
 ## 数值
 

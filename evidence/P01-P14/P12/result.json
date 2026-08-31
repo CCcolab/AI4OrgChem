@@ -156,8 +156,11 @@
   ],
   "source_internal_verdict": "SOURCE_TABLES_SUPPORT_N16_N18_BOUNDARY_LOGIC",
   "independent_trend_verdict": "QUALITATIVE_TREND_SUPPORTED_EXACT_ONSET_DIFFERS",
-  "scientific_verdict": "P12_PARTIALLY_CONSISTENT_QUALITATIVE_BOUNDARY_CONSISTENT_EXACT_ONSET_CROSS_ESTIMATOR_INCONSISTENT",
-  "relation_to_monograph": "partially_consistent_qualitative_boundary_consistent_exact_onset_cross_estimator_inconsistent",
+  "scientific_verdict": "P12_PARTIALLY_CONSISTENT_QUALITATIVE_BOUNDARY_CONSISTENT_EXACT_ONSET_NOT_DIRECTLY_COMPARABLE",
+  "relation_to_monograph": "partially_consistent_qualitative_boundary_consistent_exact_onset_not_directly_comparable",
+  "legacy_scientific_verdict_v0_1": "P12_PARTIALLY_CONSISTENT_QUALITATIVE_BOUNDARY_CONSISTENT_EXACT_ONSET_CROSS_ESTIMATOR_INCONSISTENT",
+  "cross_estimator_relation": "not_directly_comparable",
+  "same_estimand_inconsistency_claimed": false,
   "independent_boundary_statement": "N_greater_than_30",
   "acceptance_checks": {
     "six_point_panel_complete": true,

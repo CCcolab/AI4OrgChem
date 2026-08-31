@@ -5,6 +5,7 @@
 - 日期：2026-08-20
 - 判定：**P07_SCOPED_MULTI_COMPONENT_MECHANISM_SUPPORTED_WITHOUT_CROSS_PROTOCOL_ENERGY_SUM**
 - 整合方式：命题级证据矩阵；未执行跨协议能量求和
+- 证据身份：**P04–P06的命题级综合，不包含新增量子化学计算**
 
 | 命题 | 条件态可观测量 | 协议 | 已冻结结果 | 对P07的作用 |
 |---|---|---|---|---|
