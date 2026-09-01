@@ -102,8 +102,8 @@
     {
       "path": "CHANGELOG.md",
       "artifact_role": "repository-root",
-      "bytes": 5325,
-      "sha256": "901086589efc262d2c04bb284c1f3e0b25cd3027c016f455d7c4e9948dc9ba1a"
+      "bytes": 5705,
+      "sha256": "37742302a8970c7509e20555b430e5837b444ca7ebf5a8059f0ab30e2ad80b5d"
     },
     {
       "path": "CITATION.cff",
@@ -571,7 +571,7 @@
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
       "bytes": 22946,
-      "sha256": "f7ee3f7fa382bdf7526ac5eb1c979b0f9da738b84bd8f0c5115cd4e98c0bea12"
+      "sha256": "8a3adb502d8ab4e848e0b7ea1dac1ab5ab77bb27f6e4806338c2262bab943990"
     },
     {
       "path": "manuscripts/P01-P14_evidence_matrix_zh-CN.md",
@@ -618,8 +618,8 @@
     {
       "path": "project/POST_REMEDIATION_RESPONSE_2026-09-01_zh-CN.md",
       "artifact_role": "project-narrative",
-      "bytes": 2637,
-      "sha256": "b6e668a7440025cdb9048773ddf29d770af63f502f0bc137439ade833616b09a"
+      "bytes": 4722,
+      "sha256": "3cafb55b155d901e40957d8788b193b96b58913ad88fe691cdbc58f494c221fa"
     },
     {
       "path": "project/PROJECT_BACKGROUND_zh-CN.md",
