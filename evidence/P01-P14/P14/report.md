@@ -14,6 +14,13 @@
 3. 原著层级独立固定几何端点：`+67.086899 kcal/mol`；原著 `+67.080000 kcal/mol`；残差 `+0.006899 kcal/mol`。
 4. 内存收缩实现与参考实现总能差：`2.274e-13 Eh`。
 
+## 公开底层闭合
+
+- 4个底层JSON和确定性分类JSON已公开在[`processed/`](processed/)；
+- G/PLG source-proxy输入坐标已公开在[`inputs/`](inputs/README.md)；
+- `software/scripts/validate_p14_evidence.py`检查Draft 2020-12 Schema、重复键、引用、SHA-256和坐标，并从底层记录重算全部判据；
+- 该门禁不重跑昂贵QM，因此`PASS`表示公开底层证据与冻结判定闭合，不表示19分子面板或全部十四项端到端QM重跑。
+
 ## 判定
 
 四项预设判据全部通过：PLG显著削弱键长交替；独立优化响应方向相同；dΔr幅度落入0.03 Å容差；B3LYPG/6-31G(d)能量端点落入5 kcal/mol容差。因此P14在冻结的C12H6最小体系和PLG操作定义下与原著一致。

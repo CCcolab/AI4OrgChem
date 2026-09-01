@@ -4,7 +4,20 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 
 ## [Unreleased]
 
-No unreleased changes.
+### Added
+
+- Published the four lower-level P14 evidence records, deterministic classification record, and two source-proxy XYZ inputs.
+- Added dedicated P14 calculation entry points, a Draft 2020-12 JSON Schema, and a deterministic P14 evidence validator.
+- Added a redacted explicit Conda-layer lock for the historical canonical WSL environment.
+
+### Changed
+
+- Global JSON validation now rejects duplicate keys and CI rebuilds the P14 decision from lower-level evidence.
+- Agent maturity is explicitly M1+ rather than externally replayable M2; P07 is marked `DERIVED` and P12 exact-onset comparison `INCOMPARABLE`.
+
+### Scientific status
+
+- No P01-P14 numerical value or proposition-level classification changed. P14 remains consistent only within the frozen single-C12H6 source-proxy protocol.
 
 ## [0.1.2] - 2026-08-28
 

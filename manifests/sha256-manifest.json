@@ -48,8 +48,8 @@
     {
       "path": ".github/workflows/validate.yml",
       "artifact_role": "continuous-integration",
-      "bytes": 1720,
-      "sha256": "12a3a1f6946dee10501699b2b9f44ad96a2a342bf04d185987076a0569d57469"
+      "bytes": 1882,
+      "sha256": "d8fa5436d306699c3ea77b433dfeb4c034b98b1bd608197d3cfc7f28f7267786"
     },
     {
       "path": ".gitignore",
@@ -66,14 +66,14 @@
     {
       "path": "ai4s-agent/EVALUATION_SUMMARY.json",
       "artifact_role": "agent-delivery",
-      "bytes": 1293,
-      "sha256": "a67095314e17d093f02a840268958e6ce69879bbb99138d03516eacb67a1130a"
+      "bytes": 1464,
+      "sha256": "cef62d08396f651345503ebc74d6a0b1d855bfd00064d706f2e019f85282cb11"
     },
     {
       "path": "ai4s-agent/EVIDENCE_GOVERNANCE_zh-CN.md",
       "artifact_role": "agent-delivery",
-      "bytes": 601,
-      "sha256": "f16efef41a8e5c9f1a7d45cb964117b959b24bc2307fe0264e4faf20c04cc2d2"
+      "bytes": 1535,
+      "sha256": "288ce1fff8e7380fc9c43319beac98a991b2a5ad5a4f528bb49cbce3432e82b0"
     },
     {
       "path": "ai4s-agent/LIMITATIONS_zh-CN.md",
@@ -84,8 +84,8 @@
     {
       "path": "ai4s-agent/README.md",
       "artifact_role": "agent-delivery",
-      "bytes": 875,
-      "sha256": "0c70035829d114db9a1e7584d8ede6db16d5130479db4c7e58534802eac7ddd7"
+      "bytes": 1119,
+      "sha256": "676c7fdbc6b97f4790eac5aa2d3b43e3fe2fe7ed07a90a687fe210595d102301"
     },
     {
       "path": "ai4s-agent/SYSTEM_ARCHITECTURE_zh-CN.md",
@@ -102,8 +102,8 @@
     {
       "path": "CHANGELOG.md",
       "artifact_role": "repository-root",
-      "bytes": 4550,
-      "sha256": "a3627973b4670feeed1f5ab04e2e229f018f0e052911ee71ac59ff3231953dcc"
+      "bytes": 5325,
+      "sha256": "901086589efc262d2c04bb284c1f3e0b25cd3027c016f455d7c4e9948dc9ba1a"
     },
     {
       "path": "CITATION.cff",
@@ -116,6 +116,12 @@
       "artifact_role": "public-configuration",
       "bytes": 7326,
       "sha256": "324c2e7988be48ed8898a5e9b04a87d40386ca8a8f7eb603d9a697d3ac6a6ee2"
+    },
+    {
+      "path": "configs/qm/p14_strained_aromatic_pi_distortivity_v0.1.yaml",
+      "artifact_role": "public-configuration",
+      "bytes": 5615,
+      "sha256": "b9d22368f133c4bfd1f69a1939b905032741ab99b71aed59525472853b7b4b04"
     },
     {
       "path": "evidence/P01-P14/P01/data-card.md",
@@ -276,14 +282,14 @@
     {
       "path": "evidence/P01-P14/P07/report.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 2385,
-      "sha256": "c9d0d351567469b3cea81170d02cd50d832806af8431401e3a35116c32c2a261"
+      "bytes": 2463,
+      "sha256": "bc6d7d0b3f3ef63c0c32df1b443da0f072894825484bb4978ae9088547a7099b"
     },
     {
       "path": "evidence/P01-P14/P07/result.json",
       "artifact_role": "scientific-evidence",
-      "bytes": 6099,
-      "sha256": "a78551fd1de62c056b2f95962b4efe578a304fe331f74c41fe48610f3a6db304"
+      "bytes": 6175,
+      "sha256": "b0e24635c8d1e7394ffa09510b5ae8e330f2edf543a385196b35ba06eab296b4"
     },
     {
       "path": "evidence/P01-P14/P08/data-card.md",
@@ -426,8 +432,8 @@
     {
       "path": "evidence/P01-P14/P12/result.json",
       "artifact_role": "scientific-evidence",
-      "bytes": 7755,
-      "sha256": "cb49690f3fb9f3def17415d6769498454c81652c5c4b45fe10150e6f111e55d7"
+      "bytes": 7834,
+      "sha256": "df9b94baf5adf27dc591dd838dd5325132a474c39b4ace4df644691a3829cebb"
     },
     {
       "path": "evidence/P01-P14/P13/data-card.md",
@@ -456,38 +462,86 @@
     {
       "path": "evidence/P01-P14/P14/data-card.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 1564,
-      "sha256": "cd0c1662ad90912d4e12642a33c30432e2db3e740b1fc55bba9da5665dc980bd"
+      "bytes": 2177,
+      "sha256": "4b1ed068e02ed4f6fc6011d8b8fb56b6cfa4bc16ff8c531ee881ba1e5e177a2a"
+    },
+    {
+      "path": "evidence/P01-P14/P14/inputs/README.md",
+      "artifact_role": "scientific-evidence",
+      "bytes": 742,
+      "sha256": "ae9d84bb1d5e79b2db4ac113b624a2b7be8b90eadff4b2a850c99bb080bb9631"
+    },
+    {
+      "path": "evidence/P01-P14/P14/inputs/source_proxy_G.xyz",
+      "artifact_role": "scientific-evidence",
+      "bytes": 1014,
+      "sha256": "fa2b0a1c88d467bd51fec6e140a07a65f74a64ad7e63fbf550d611b3b60c571c"
+    },
+    {
+      "path": "evidence/P01-P14/P14/inputs/source_proxy_PLG.xyz",
+      "artifact_role": "scientific-evidence",
+      "bytes": 1016,
+      "sha256": "0fd8593ebdf93b59642abbb8b9a84336e30de74d5fc3f4a8721cb2412d3fbcc7"
+    },
+    {
+      "path": "evidence/P01-P14/P14/processed/p14_benzotricyclobutadiene_fixed_geometry_smoke_v0.1.json",
+      "artifact_role": "scientific-evidence",
+      "bytes": 11481,
+      "sha256": "ce98a4d3e4a297a7edfa14de636757dbd7ea98c36bb66de65d01a241034b3803"
+    },
+    {
+      "path": "evidence/P01-P14/P14/processed/p14_C12H6_five_parameter_pilot_v0.1.json",
+      "artifact_role": "scientific-evidence",
+      "bytes": 36593,
+      "sha256": "af0ccf538452e91c449870a63002fc0a8c57c9219e9ba8da0e307816b5fd89c0"
+    },
+    {
+      "path": "evidence/P01-P14/P14/processed/p14_C12H6_source_level_fixed_geometry_v0.1.json",
+      "artifact_role": "scientific-evidence",
+      "bytes": 12889,
+      "sha256": "c515423789a2f813693d3845db1e97c463c6c8552d2dcef185227ca507d953ba"
+    },
+    {
+      "path": "evidence/P01-P14/P14/processed/p14_memory_controlled_eri_equivalence_v0.1.json",
+      "artifact_role": "scientific-evidence",
+      "bytes": 3550,
+      "sha256": "7b52849e48c7b451b9e2cb689c099c73684f2cf354ebed2b8a2b8685bb8f81bf"
+    },
+    {
+      "path": "evidence/P01-P14/P14/processed/p14_strained_aromatic_pi_distortivity_classification_v0.1.json",
+      "artifact_role": "scientific-evidence",
+      "bytes": 4170,
+      "sha256": "b91a9b0c6ce031aa85185aca066fea6e7b8a610d387630693b50e084f922df6f"
     },
     {
       "path": "evidence/P01-P14/P14/protocol.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 2495,
-      "sha256": "641ca4b13bbd82d2bab18f409affbd7417879358326451f3a479e53bbcf92b46"
+      "bytes": 2688,
+      "sha256": "ce4be385f8c4ec462b419323c86d3575a22c2043d91d7f53a6df209d793de303"
     },
     {
       "path": "evidence/P01-P14/P14/report.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 1844,
-      "sha256": "ede762edcf5e2d41368f839f70a751bfe6eedd51a02165f24c4262e47ba6ea24"
+      "bytes": 2332,
+      "sha256": "755d45a5dc606b9475f02b6733b556adcb343d4a39ad381a1eb9a83c0ea06858"
     },
     {
       "path": "evidence/P01-P14/P14/result.json",
       "artifact_role": "scientific-evidence",
-      "bytes": 2347,
-      "sha256": "7fed818435a682bcd156da401e9b21e4f52a3c69bc9764d019ac642257ea5b85"
+      "bytes": 4257,
+      "sha256": "4d7880532ae78121325db576c1cbd42611bebc3f3fbb02d03207c84b7a9377ea"
     },
     {
       "path": "evidence/P01-P14/README.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 7610,
-      "sha256": "929efec8ecc299c62cfdfdd5f0b9f1b74f637f1429b6d6ce69af4529b90e1b01"
+      "bytes": 7902,
+      "sha256": "8e1fcdc3abc2f18f77c24d976478452d19344196b55810542c6464287cc4a11e"
     },
     {
       "path": "evidence/P01-P14/README_zh-CN.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 7229,
-      "sha256": "e3de27392bcaae2a5f9658c7187b9dfe18178b281a0663601e1abfe876aeaebe"
+      "bytes": 7490,
+      "sha256": "902c169df639d99123b8bf633b6f855f02392c631b16cb9ab2412e0ea031a754"
     },
     {
       "path": "figures/P01-P14_overview_zh-CN.png",
@@ -516,14 +570,14 @@
     {
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
-      "bytes": 19962,
-      "sha256": "71384191dcedac81368b6b77dfcc17d0d95662a03dfcebe0b45aa6ba80166c29"
+      "bytes": 22946,
+      "sha256": "f7ee3f7fa382bdf7526ac5eb1c979b0f9da738b84bd8f0c5115cd4e98c0bea12"
     },
     {
       "path": "manuscripts/P01-P14_evidence_matrix_zh-CN.md",
       "artifact_role": "manuscript",
-      "bytes": 4530,
-      "sha256": "6b0e8b2ede529f97e4257a5bd41007f9d64b67d33565e68da00486b5dd22d87e"
+      "bytes": 4581,
+      "sha256": "929a8cf4097a021246392b653296186be591bb3e66f37c1a559c80a6526d42aa"
     },
     {
       "path": "manuscripts/PUBLICATION_POSITIONING_EN.md",
@@ -558,8 +612,14 @@
     {
       "path": "project/P01-P14_MASTER_TABLE_zh-CN.md",
       "artifact_role": "project-narrative",
-      "bytes": 11547,
-      "sha256": "aacab208a490430ea2f7b9dba5c59edb3657e58765909ee9a507fbe2725ab594"
+      "bytes": 11564,
+      "sha256": "0605409805dddf84541b9edb983e1c9bc6016b6845f8fed1ba4d0b1cb6994a43"
+    },
+    {
+      "path": "project/POST_REMEDIATION_RESPONSE_2026-09-01_zh-CN.md",
+      "artifact_role": "project-narrative",
+      "bytes": 2637,
+      "sha256": "b6e668a7440025cdb9048773ddf29d770af63f502f0bc137439ade833616b09a"
     },
     {
       "path": "project/PROJECT_BACKGROUND_zh-CN.md",
@@ -570,8 +630,8 @@
     {
       "path": "project/README.md",
       "artifact_role": "project-narrative",
-      "bytes": 809,
-      "sha256": "e986ba347f1a20150af4770a5fec2e8b0cec52ac6dcb3776a8dbea2b6ea7ba05"
+      "bytes": 991,
+      "sha256": "be06a297b397413853c61dcd21e3d6744579ea84d57c345a924ed065a2a159ff"
     },
     {
       "path": "project/RESEARCH_ITEMS_zh-CN.md",
@@ -588,20 +648,26 @@
     {
       "path": "README.md",
       "artifact_role": "repository-root",
-      "bytes": 21154,
-      "sha256": "2daa0ceaeb5f9bbb769b10d52c00924f8dfa7e5adfbd835bc86783b163d5e1b8"
+      "bytes": 21510,
+      "sha256": "1a82f533875d173f19b5e1a472b4a72014fcea7c2df7607cdf31d88805ffbd28"
     },
     {
       "path": "README_zh-CN.md",
       "artifact_role": "repository-root",
-      "bytes": 8289,
-      "sha256": "3a0d50eff4ddd9f42758e59ff04ae89d8ba90d8e447b37208a360fe68780182a"
+      "bytes": 8558,
+      "sha256": "661abe2225c11897073c3764349644ca578b7850fcce87a843ef20e71ce3d731"
+    },
+    {
+      "path": "reproducibility/conda-linux-64.explicit.txt",
+      "artifact_role": "reproducibility",
+      "bytes": 18332,
+      "sha256": "543abce03ee369526d83016126d7a0b7a82de48e0ef3356d3877289af90f5637"
     },
     {
       "path": "reproducibility/environment.yml",
       "artifact_role": "reproducibility",
-      "bytes": 190,
-      "sha256": "10612a5f9b274c2eaf69e43190e7d239f77dfbe3b5a00672cca544ec315e011a"
+      "bytes": 214,
+      "sha256": "13ae5c398dd95bf2d841fe89c4180cdd98d6d8360618de98ac3f68df27be50a6"
     },
     {
       "path": "reproducibility/PLATFORM_MATRIX_EN.md",
@@ -618,20 +684,20 @@
     {
       "path": "reproducibility/README.md",
       "artifact_role": "reproducibility",
-      "bytes": 872,
-      "sha256": "c79cebd836f74a13c8186c18a4795a095ecb49fed038170a49747c9ffa2de15e"
+      "bytes": 1054,
+      "sha256": "176c783f5614c0f0bf2d61f42a02fc1dce2f782980120ab9cd0320ca81b03274"
     },
     {
       "path": "reproducibility/RUNBOOK_EN.md",
       "artifact_role": "reproducibility",
-      "bytes": 2286,
-      "sha256": "6911c0104cf6650111e89697017e72ef168d96728d1d3df0039e39f49969b7c3"
+      "bytes": 2854,
+      "sha256": "2c7831ca9ee5f18ca597c66897f2f5d5e79cf766157442ee7d8e19706b5c9335"
     },
     {
       "path": "reproducibility/RUNBOOK_zh-CN.md",
       "artifact_role": "reproducibility",
-      "bytes": 2672,
-      "sha256": "4d5a029091ccef7b5d48a6a6b93bae0f87ff7b6ea8404143abe1b2a9969989e1"
+      "bytes": 3133,
+      "sha256": "eeb5267031e04c8bc3f3585a2934000773c0ea966395c146c0c8a5a2fe7a43e8"
     },
     {
       "path": "reproducibility/wsl/activate-ai4orgchem-public.sh",
@@ -666,14 +732,26 @@
     {
       "path": "software/pyproject.toml",
       "artifact_role": "software-or-test",
-      "bytes": 643,
-      "sha256": "21dfdbe31ca58d3103ca520910f6d0321e8f818519e765afbb1686048e311abe"
+      "bytes": 668,
+      "sha256": "0cbd49364ad254f4b7891b86c416e0ce72cfef94b24a5664f19f2846a14ab6a8"
     },
     {
       "path": "software/README.md",
       "artifact_role": "software-or-test",
-      "bytes": 1834,
-      "sha256": "5363f63e95b566e7210b4bb8301dd2248d1f6b5e7a556a24171a4f77aa749704"
+      "bytes": 2249,
+      "sha256": "3e28802377ba1bac1eb6d876c60497bf41815cf257fb4f3407b25fceefa7a761"
+    },
+    {
+      "path": "software/schemas/p14-result.schema.json",
+      "artifact_role": "software-or-test",
+      "bytes": 3708,
+      "sha256": "db38bbf25097692c11c8f8eb81c106852e62218405b8fe545e83afa4c9e300f8"
+    },
+    {
+      "path": "software/scripts/classify_p14_strained_aromatic_pi_distortivity.py",
+      "artifact_role": "software-or-test",
+      "bytes": 11680,
+      "sha256": "8b247a3f62c3007205db327b406659ba80d415c8dc2a29485b16790d94d0a2f3"
     },
     {
       "path": "software/scripts/refresh_release_snapshot.py",
@@ -682,10 +760,40 @@
       "sha256": "fec2bea043be692038b7f66fd38bcb6a79d9cdc96fbd5b943b3d80099e414ba2"
     },
     {
+      "path": "software/scripts/run_p14_benzotricyclobutadiene_five_parameter_pilot.py",
+      "artifact_role": "software-or-test",
+      "bytes": 16302,
+      "sha256": "94fe84c830194029e682bdd7e6f57d72797f5a366fe77210957bd6c07c9eb31c"
+    },
+    {
+      "path": "software/scripts/run_p14_benzotricyclobutadiene_smoke.py",
+      "artifact_role": "software-or-test",
+      "bytes": 14296,
+      "sha256": "4a9ef67b13ce43d6fef1ff23d060c1675bc8e356766e5ecb8c449eaa644abf0b"
+    },
+    {
+      "path": "software/scripts/run_p14_benzotricyclobutadiene_source_level_fixed_geometry.py",
+      "artifact_role": "software-or-test",
+      "bytes": 11861,
+      "sha256": "8af0e6f7f7907a028d6c692c8d37b5b7187cd2b9de674941cf8c5de8a3cd93da"
+    },
+    {
       "path": "software/scripts/validate_evidence_navigation.py",
       "artifact_role": "software-or-test",
       "bytes": 5440,
       "sha256": "e0adde68da83b7fcc25cc4fa40383c61e1bbc664f09c52fde35623bb963a9249"
+    },
+    {
+      "path": "software/scripts/validate_p14_evidence.py",
+      "artifact_role": "software-or-test",
+      "bytes": 6585,
+      "sha256": "8468504e8da8be56b62407299f5cf2939707bcc84dfff05cea16c2625d9ffb68"
+    },
+    {
+      "path": "software/scripts/validate_p14_memory_controlled_conditional_scf.py",
+      "artifact_role": "software-or-test",
+      "bytes": 7217,
+      "sha256": "4ae13c258052395142c8c0f2b24271ee63d51535c2c4dff181d29f93fce8e655"
     },
     {
       "path": "software/scripts/validate_public_evidence.py",
@@ -696,8 +804,8 @@
     {
       "path": "software/scripts/validate_release_package.py",
       "artifact_role": "software-or-test",
-      "bytes": 11077,
-      "sha256": "d452feda05aaa1ffc2d02ab50f86bf28cfd3e426d1e548b0479ce330272e83bc"
+      "bytes": 11591,
+      "sha256": "b6f81af87d8f13126cb7de515956d04c276becbbca10a286078cb79d5938dfb7"
     },
     {
       "path": "software/scripts/validate_wsl_release.py",

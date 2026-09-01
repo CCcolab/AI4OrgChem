@@ -118,6 +118,8 @@
     "universal_all_molecules_law": false
   },
   "generated_date": "2026-08-20",
+  "evidence_state": "DERIVED",
+  "counts_as_independent_validation": false,
   "integrated_findings": {
     "all_source_defined_components_and_orbital_responses_require_separate_evaluation": true,
     "endpoint_sign_inferable_from_direct_term_alone": false,

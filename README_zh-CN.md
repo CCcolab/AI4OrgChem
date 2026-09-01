@@ -43,6 +43,8 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 
 十四项属于分层、可审计证据链，并非十四次同等级量子化学复现；独立QM、source-aligned/source-proxy重构、发表值复分析和图论/文献旁证的证据身份分别保留。
 
+这里的12+2是**命题级分类统计**，不是14条相互独立的量子化学验证计数；其中P07是P04-P06的`DERIVED`综合，不新增QM证据。P14现已公开底层记录、source-proxy坐标和确定性重算门禁，但仍只覆盖单一C12H6体系。
+
 详见[P01–P14总证据矩阵](manuscripts/P01-P14_evidence_matrix_zh-CN.md)和[中文命题证据导航](evidence/P01-P14/README_zh-CN.md)。
 
 如果您是量子化学领域专家，但不熟悉GitHub、AI或软件工程，可直接阅读[面向量子化学专家的快速审阅指南](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md)：10分钟理解总体论证，30分钟核查任意一项命题，无需先阅读代码。

@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/CCcolab/AI4OrgChem/software/schemas/p14-result.schema.json",
+  "title": "AI4OrgChem P14 public decision record",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "protocol_id",
+    "proposition_id",
+    "classification",
+    "scope",
+    "source_calculation_git_commit",
+    "runtime_provenance",
+    "quantitative_evidence",
+    "decision_checks",
+    "decision_verdict",
+    "evidence_files",
+    "evidence_sha256",
+    "input_files",
+    "input_sha256",
+    "geometry_sha256",
+    "limitations",
+    "production_label",
+    "training_eligible"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "protocol_id": {"const": "p14-strained-aromatic-pi-distortivity/0.1"},
+    "proposition_id": {"const": "P14"},
+    "proposition": {"type": "string", "minLength": 20},
+    "classification": {"enum": ["consistent", "partially_consistent", "inconsistent"]},
+    "classification_zh": {"type": "string", "minLength": 2},
+    "scope": {"const": "benzotricyclobutadiene_10_12_C12H6_frozen_source_proxy_protocol"},
+    "source_calculation_git_commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+    "runtime_provenance": {
+      "type": "object",
+      "required": ["platform", "python_version", "pyscf_version", "numpy_version", "status"],
+      "properties": {
+        "platform": {"const": "WSL_2_Ubuntu_24_04"},
+        "python_version": {"type": "string"},
+        "pyscf_version": {"type": "string"},
+        "numpy_version": {"type": "string"},
+        "status": {"const": "project_environment_snapshot_not_embedded_in_original_per_job_record"}
+      },
+      "additionalProperties": false
+    },
+    "quantitative_evidence": {
+      "type": "object",
+      "required": [
+        "source_G_delta_r_angstrom",
+        "source_PLG_delta_r_angstrom",
+        "source_d_delta_r_GP_angstrom",
+        "pilot_G_delta_r_angstrom",
+        "pilot_PLG_delta_r_angstrom",
+        "pilot_d_delta_r_GP_angstrom",
+        "source_level_endpoint_kcal_mol",
+        "memory_implementation_energy_difference_hartree"
+      ],
+      "additionalProperties": {"type": "number"}
+    },
+    "decision_checks": {
+      "type": "object",
+      "minProperties": 10,
+      "additionalProperties": {"type": "boolean"}
+    },
+    "decision_verdict": {"enum": ["PASS", "PARTIAL_OR_FAIL"]},
+    "evidence_files": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^evidence/P01-P14/P14/processed/.+\\.json$"}
+    },
+    "evidence_sha256": {"$ref": "#/$defs/hashMap"},
+    "input_files": {
+      "type": "object",
+      "required": ["source_proxy_G", "source_proxy_PLG"],
+      "additionalProperties": {"type": "string", "pattern": "^evidence/P01-P14/P14/inputs/.+\\.xyz$"}
+    },
+    "input_sha256": {"$ref": "#/$defs/hashMap"},
+    "geometry_sha256": {
+      "type": "object",
+      "required": ["source_proxy_G_atoms", "source_proxy_PLG_atoms", "optimized_G_atoms", "optimized_PLG_atoms"],
+      "additionalProperties": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+    },
+    "limitations": {"type": "array", "minItems": 4, "items": {"type": "string"}},
+    "scientific_label": {"type": "string"},
+    "publishable_scientific_classification": {"type": "boolean"},
+    "production_label": {"const": false},
+    "training_eligible": {"const": false},
+    "public_result_role": {"const": "navigation_copy_of_deterministically_rebuilt_classification"}
+  },
+  "$defs": {
+    "hashMap": {
+      "type": "object",
+      "minProperties": 2,
+      "additionalProperties": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+    }
+  }
+}

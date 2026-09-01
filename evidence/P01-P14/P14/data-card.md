@@ -18,11 +18,13 @@
 
 ## 证据文件
 
-- `data/processed/p14_benzotricyclobutadiene_fixed_geometry_smoke_v0.1.json`
-- `data/processed/p14_C12H6_five_parameter_pilot_v0.1.json`
-- `data/processed/p14_memory_controlled_eri_equivalence_v0.1.json`
-- `data/processed/p14_C12H6_source_level_fixed_geometry_v0.1.json`
-- `data/processed/p14_strained_aromatic_pi_distortivity_classification_v0.1.json`
+- [`processed/p14_benzotricyclobutadiene_fixed_geometry_smoke_v0.1.json`](processed/p14_benzotricyclobutadiene_fixed_geometry_smoke_v0.1.json)
+- [`processed/p14_C12H6_five_parameter_pilot_v0.1.json`](processed/p14_C12H6_five_parameter_pilot_v0.1.json)
+- [`processed/p14_memory_controlled_eri_equivalence_v0.1.json`](processed/p14_memory_controlled_eri_equivalence_v0.1.json)
+- [`processed/p14_C12H6_source_level_fixed_geometry_v0.1.json`](processed/p14_C12H6_source_level_fixed_geometry_v0.1.json)
+- [`processed/p14_strained_aromatic_pi_distortivity_classification_v0.1.json`](processed/p14_strained_aromatic_pi_distortivity_classification_v0.1.json)
+
+公开输入坐标见[`inputs/`](inputs/README.md)。计算入口位于`software/scripts/run_p14_*.py`，确定性底层重算入口为`software/scripts/classify_p14_strained_aromatic_pi_distortivity.py`。GitHub CI不自动运行高成本QM，只从以上冻结底层记录重算P14判据并核对文件哈希。
 
 ## 适用与禁用
 

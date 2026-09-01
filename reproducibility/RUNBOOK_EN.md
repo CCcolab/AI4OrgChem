@@ -19,6 +19,14 @@ python software/scripts/validate_release_package.py
 
 The checks validate packaged P01-P14 results, bilingual evidence navigation, and WSL release boundaries. They do not rerun expensive quantum chemistry.
 
+P14 also has a lower-level deterministic evidence gate:
+
+```bash
+python software/scripts/validate_p14_evidence.py
+```
+
+It validates four published lower-level JSON records, two source-proxy XYZ inputs, the JSON Schema, duplicate keys, and SHA-256 hashes, then rebuilds the BLA and energy decision. It still does not rerun expensive PySCF jobs.
+
 ## 2. Create the isolated public review environment
 
 Enter the installed distribution from PowerShell:
@@ -54,5 +62,6 @@ CPU execution is sufficient for the focused tests. Full historical calculations 
 
 - The Shell entry points auto-detect a GitHub clone and also support `/opt/ai4orgchem/publication` deployments.
 - `environment.yml` is a minimal CPU review environment, not a machine image.
+- `conda-linux-64.explicit.txt` locks the Conda package layer of the historical canonical WSL environment by URL and hash. It does not include the pip-installed PySCF layer or claim to lock later isolated GPU environments.
 - Historical MACE and NequIP runs used isolated environments with incompatible `e3nn` requirements; those GPU environments are not silently reconstructed here.
 - Monograph files, copyrighted full text, private paths, caches, model weights, and credentials are excluded.

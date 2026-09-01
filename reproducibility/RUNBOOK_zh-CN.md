@@ -16,6 +16,14 @@ python software/scripts/validate_public_evidence.py
 
 预期输出为 `status: PASS`、`propositions_checked: 14`。这项检查验证P01–P14处理后结果的文件完整性与冻结判定，不重新运行昂贵量子化学计算。
 
+P14另有底层证据重算门禁：
+
+```bash
+python software/scripts/validate_p14_evidence.py
+```
+
+它检查四个底层JSON、两个source-proxy输入坐标、JSON Schema、重复键和SHA-256，并重新计算P14的BLA/能量判据；仍不重新运行高成本PySCF任务。
+
 ## 2. 安装并测试公开核心软件
 
 建议先从Windows PowerShell进入已安装的WSL发行版，再在克隆目录内操作：
@@ -40,6 +48,7 @@ python -m pytest -p no:cacheprovider
 ## 3. 环境边界
 
 - `environment.yml`提供WSL/Linux优先的CPU复核环境，不是本地机器镜像，也不包含MACE与NequIP的相互冲突运行时；
+- `conda-linux-64.explicit.txt`保存历史权威WSL环境的Conda层精确URL与哈希；它不包含pip安装的PySCF层，也不声称锁定后续MACE/NequIP/PySR隔离环境；
 - MACE、NequIP、PySR训练结果在Agent评估摘要中披露，但模型、缓存和内部运行目录不进入首版GitHub包；
 - 原著、预印本、扫描件及受版权保护的全文材料不随项目发布。
 

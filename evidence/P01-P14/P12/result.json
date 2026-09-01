@@ -2,6 +2,8 @@
   "schema_version": 1,
   "protocol_id": "p12-annulene-size-boundary/0.1",
   "proposition_id": "P12",
+  "evidence_state": "PARTIAL",
+  "exact_onset_evidence_state": "INCOMPARABLE",
   "generated_date": "2026-08-22",
   "implementation": "independent_published_numeric_ledger_reconstruction",
   "original_program_code_used": false,
