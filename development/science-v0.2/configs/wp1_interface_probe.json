@@ -1,6 +1,8 @@
 {
   "schema_version": "1.0",
   "probe_date": "2026-09-01",
+  "authorization_scope": "HISTORICAL_STATE_AT_INTERFACE_PROBE",
+  "current_authorization_record": "configs/science_v0.2/wp_authorizations.json",
   "environment": "ai4orgchem-v02-qm-open",
   "classification": "INTERFACE_PROBE_ONLY_NO_MOLECULE_NO_ENERGY",
   "pyscf_version": "2.14.0",
@@ -27,5 +29,6 @@
     "license": "AGPL-3.0",
     "distribution_boundary": "external local program; do not vendor source or binaries into the Apache-2.0 project release"
   },
-  "gate_effect": "This PySCF-only probe still does not provide the primary anchor. The separately isolated Quantum Package implementation is now provisioned and non-CBD-smoke-verified, but WP1 remains HOLD because no CBD scientific calculation is authorized."
+  "gate_effect_at_probe_time": "This PySCF-only probe did not provide the primary anchor. The separately isolated Quantum Package implementation was provisioned and non-CBD-smoke-verified; WP1 was still HOLD at this probe time.",
+  "current_effect": "Gate V2-0 later passed and WP1 is now AUTHORIZED_TO_START under the separate authorization record. This interface probe remains non-scientific historical evidence."
 }

@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0",
   "gate_id": "V2-0",
-  "status": "IN_PROGRESS_NOT_PASSED",
+  "status": "PASSED",
   "as_of": "2026-09-01",
   "execution_authority": {
-    "WP0": "APPROVED_TO_START",
-    "QP22_CIPSI_ENVIRONMENT_CREATION": "AUTHORIZED",
-    "WP1": "HOLD",
-    "WP2": "HOLD",
-    "WP3": "HOLD",
-    "WP4": "HOLD",
+    "WP0": "COMPLETED_GATE_PASSED",
+    "QP22_CIPSI_ENVIRONMENT_CREATION": "COMPLETED_AND_VERIFIED",
+    "WP1": "AUTHORIZED_TO_START",
+    "WP2": "HOLD_ORCA_AND_CROSS_PROGRAM_SMOKE",
+    "WP3": "AUTHORIZED_TO_START_INCLUDING_HESSIAN",
+    "WP4": "HOLD_PENDING_SEPARATE_AUTHORIZATION",
     "WP5": "SCHEMA_ONLY",
     "WP6": "HOLD"
   },
@@ -18,13 +18,13 @@
     {"id":"dual_axis_schema","status":"PASS"},
     {"id":"claim_estimand_split","status":"PASS"},
     {"id":"blind_bundle_schema","status":"NON_SCIENTIFIC_SEAL_AND_NAMESPACE_ISOLATION_DRILL_PASS"},
-    {"id":"wp1_primary_anchor","status":"ACCEPTED_QP22_CIPSI_PT2_ENVIRONMENT_PROVISIONED_NON_CBD_SMOKE_PASS_WP1_NOT_AUTHORIZED"},
-    {"id":"wp2_core_anchor_table","status":"FROZEN_PENDING_PROGRAM_AVAILABILITY"},
-    {"id":"wp3_modes_and_intervention","status":"SEED_AT_V2_0_ACCEPTED_HESSIAN_DEFERRED_TO_V2_3_NOT_AUTHORIZED"},
-    {"id":"wp4_primary_estimand","status":"FROZEN_PENDING_SPECIALIST_REVIEW"},
-    {"id":"agent_audit_schema","status":"SAMPLE_BUNDLE_PASS_EXTERNAL_REPLAY_PENDING"},
-    {"id":"dedicated_environments","status":"OPEN_QM_AND_QP22_CIPSI_CREATED_ORCA_PENDING"},
-    {"id":"separate_wp_authorizations","status":"NOT_GRANTED"}
+    {"id":"wp1_primary_anchor","status":"PASS_QP22_CIPSI_PT2_ENVIRONMENT_VERIFIED_WP1_AUTHORIZED"},
+    {"id":"wp2_core_anchor_table","status":"PASS_TABLE_FROZEN_EXECUTION_HELD_SEPARATELY"},
+    {"id":"wp3_modes_and_intervention","status":"PASS_SEED_AND_INTERVENTION_FROZEN_WP3_AUTHORIZED"},
+    {"id":"wp4_primary_estimand","status":"PASS_PROTOCOL_FROZEN_EXECUTION_HELD_SEPARATELY"},
+    {"id":"agent_audit_schema","status":"PASS_INTERNAL_SAMPLE_EXTERNAL_REPLAY_NON_GATE_MATURITY_ITEM"},
+    {"id":"dedicated_environments","status":"PASS_FOR_AUTHORIZED_WP1_WP3_ORCA_REMAINS_WP2_ONLY"},
+    {"id":"separate_wp_authorizations","status":"PASS_WP1_WP3_GRANTED_WP2_WP4_HOLD"}
   ],
   "automatic_next_stage": false
 }

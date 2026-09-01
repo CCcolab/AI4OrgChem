@@ -1,8 +1,9 @@
 # Science V0.2 WP0 基线与执行边界
 
-- 状态：`IN_PROGRESS_NOT_PASSED`
+- 预注册时点状态：`IN_PROGRESS_NOT_PASSED`
+- 当前状态入口：`configs/science_v0.2/wp0_gate_final_decision.json`（Gate 已通过）与 `configs/science_v0.2/wp_authorizations.json`（WP1/WP3 已单独授权）
 - 日期：2026-09-01
-- 当前授权：只执行 WP0；WP1–WP4、WP6 保持 HOLD；WP5 只设计审计 Schema。
+- 本文件记录预注册时点授权：当时只执行WP0。当前授权以后续`wp0_gate_final_decision.json`和`wp_authorizations.json`为准。
 - V0.1 维护基线：公开仓库 `main@032027e80edc779fdd0860df869272b36aaf660e`。
 
 ## 1. 本次实际实施内容
@@ -28,6 +29,6 @@ V0.1 的 15 个结果文件（P11 含两个子结果）、公开清单、历史�
 3. 本条记录的是预注册时点状态：当时 Psi4、ORCA 和 selected-CI 主锚点尚未配置；当前状态以后续 WP0 环境报告为准，其中 Psi4 与 Quantum Package/CIPSI 环境已建立，ORCA 仍未配置；
 4. WP3 模式向量生成器尚未通过对称性与质量加权测试；
 5. WP1、WP3、WP4 专项协议仍需复审；
-6. WP1–WP4 尚无单独启动授权。
+6. 本条为预注册时点事实；后续WP1、WP3已获独立启动授权，WP2、WP4仍HOLD。
 
-因此 Gate V2-0 目前不能写为 PASS。
+因此在本预注册快照形成时Gate V2-0不能写为PASS；后续最终判定已在全部门禁证据闭合后另行登记，不回写本文件的历史语义。

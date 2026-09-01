@@ -15,7 +15,7 @@ AI4OrgChem is an **AI for Science (AI4S) Agent** for independent computational r
 
 > **Release status:** security-hardened curated release `v0.1.2`. The associated manuscript has not yet undergone peer review.
 
-> **V0.2 development:** a [Gate V2-0 public development snapshot](development/science-v0.2/README.md) is available for audit. It adds no CBD or Hessian scientific result and does not change the frozen P01-P14 classifications.
+> **V0.2 development:** [Gate V2-0 has passed](development/science-v0.2/README.md), and WP1/WP3 are separately authorized to start but have not started. The public development snapshot adds no CBD or Hessian scientific result and does not change the frozen P01-P14 classifications.
 
 ## Why this project exists
 
@@ -79,7 +79,7 @@ The dataset is too small for industrial or universal molecular generalization. D
 | [`software/`](software/README.md) | Public LFMO/conditional-SCF implementation and 64 focused tests |
 | [`reproducibility/`](reproducibility/README.md) | Runtime instructions and WSL 2 platform boundaries |
 | [`figures/`](figures/README.md) | Project-authored overview figure |
-| [`development/science-v0.2/`](development/science-v0.2/README.md) | Auditable Gate V2-0 development snapshot; no new scientific release |
+| [`development/science-v0.2/`](development/science-v0.2/README.md) | Auditable Gate V2-0 PASS and WP1/WP3 start-authorization snapshot; no new scientific result or release |
 | [`manifests/`](manifests/FILE_INVENTORY.md) | File inventory and SHA-256 release manifest |
 
 ## Detailed computation guide (WSL 2) / 详细计算介绍

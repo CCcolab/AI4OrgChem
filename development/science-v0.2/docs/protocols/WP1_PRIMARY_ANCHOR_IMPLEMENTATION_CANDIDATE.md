@@ -1,6 +1,6 @@
 # WP1 主高等级锚点实现决定与环境记录
 
-状态：`ACCEPTED / ENVIRONMENT_PROVISIONED / NON_CBD_SMOKE_PASS / WP1_NOT_AUTHORIZED`  
+状态：`ACCEPTED / ENVIRONMENT_PROVISIONED / NON_CBD_SMOKE_PASS / WP1_AUTHORIZED_NOT_STARTED`
 日期：2026-09-01
 
 ## 决策建议
@@ -35,14 +35,14 @@ Quantum Package 2.2 使用 AGPL-3.0。它只安装在独立 WSL 环境或容器�
 
 专用环境已锁定 GCC/GFortran 13.4.0、OCaml 4.14.2、OPAM 2.1.3、OpenBLAS 0.3.34、ZeroMQ 4.3.5、f77_zmq 4.3.3 和 TREXIO 2.3.2。构建使用只处理依赖固定的可审计补丁，不修改科学算法。既有 `ai4orgchem`、`ai4orgchem-nequip` 和 `ai4orgchem-v02-qm-open` 未被修改。
 
-环境验证不等于科学协议验证。CBD 输入、活动空间、根跟踪、CIPSI/PT2 外推序列和 WP1 结果均未运行；只有获得 WP1 独立授权后才能进入这些步骤。
+环境验证不等于科学协议验证。WP1现已获得独立启动授权，但CBD输入、活动空间、根跟踪、CIPSI/PT2外推序列和WP1结果仍未运行；首个作业前必须先冻结并密封科学输入包。
 
 ## 已记录决定
 
 1. Quantum Package CIPSI+PT2：`ACCEPTED_AS_UNIQUE_PRIMARY_HIGH_LEVEL_ANCHOR_IMPLEMENTATION`；
 2. Dice/SHCI：仅为未来可选交叉检查，不是 WP1 必做支路；
 3. PySCF CASSCF/SC-NEVPT2：敏感性与诊断支路，不承担主锚点身份；
-4. WP1 科学计算：`NOT_AUTHORIZED`。
+4. WP1 科学计算：`AUTHORIZED_TO_START / NOT_STARTED`。
 
 ## 官方依据
 

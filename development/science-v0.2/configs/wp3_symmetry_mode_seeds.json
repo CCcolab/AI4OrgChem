@@ -634,7 +634,8 @@
     "hydrogen_rule": "hydrogens follow the generated seed vector; no separate manual C-H adjustment"
   },
   "hessian_comparison_rule_for_gate_v2_3": {
-    "authorization": "NOT_AUTHORIZED_AT_GATE_V2_0",
+    "authorization_at_seed_generation": "NOT_AUTHORIZED_AT_GATE_V2_0",
+    "current_authorization_record": "configs/science_v0.2/wp_authorizations.json",
     "one_dimensional_irreps": "compare absolute mass-weighted vector overlap after rigid-body projection; sign is arbitrary",
     "degenerate_or_near_degenerate_irreps": "compare subspaces using singular values/principal angles; never require vector-by-vector identity",
     "minimum_accepted_overlap_or_singular_value": 0.9,

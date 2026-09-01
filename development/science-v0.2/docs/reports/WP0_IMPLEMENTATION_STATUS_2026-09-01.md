@@ -1,7 +1,7 @@
 # Science V0.2 WP0 实施状态
 
 - 日期：2026-09-01
-- 总状态：`IN_PROGRESS_NOT_PASSED`
+- 总状态：`PASSED`
 - 科学作业：`0`
 - V0.1 改写：`0`
 
@@ -31,25 +31,27 @@
 
 ```text
 validator_status = PASS
-gate_status      = IN_PROGRESS_NOT_PASSED
+gate_status      = PASSED
 science_jobs     = 0
-unit_tests       = 9 PASS
-validator_checks = 23 PASS
+unit_tests       = 10 PASS
+validator_checks = 24 PASS
 ```
 
-验证器 PASS 只说明当前基线、Schema、协议、样例和哈希自洽，不代表 Gate V2-0 已经通过，更不授权 WP1–WP4 科学作业。
+Gate V2-0已在机器验证通过后由项目负责人完成最终判定。WP1和WP3另行获得`AUTHORIZED_TO_START`；WP2、WP4仍保持HOLD。Gate通过不代表任何科学结果已经产生。
 
-## 未闭合项
+## Gate后仍保留的约束
 
 | 项目 | 当前状态 | 为什么不能由内部实现直接关闭 |
 |---|---|---|
-| WP1 主高等级锚点环境 | `QP22_CIPSI_PROVISIONED / NON_CBD_SMOKE_PASS` | 仅关闭实现与运行时缺口；CBD 协议和科学结果尚未获授权 |
+| WP1 主高等级锚点环境 | `QP22_CIPSI_PROVISIONED / NON_CBD_SMOKE_PASS` | 环境与启动授权已闭合；CBD科学结果尚未运行 |
 | ORCA 支路 | `NOT_FOUND_LICENSE_REQUIRED` | 需要用户依法取得并安装受许可二进制；不得由项目分发 |
-| WP3 模式身份 | `V2_0_SEED_ACCEPTED / V2_3_HESSIAN_NOT_AUTHORIZED` | 当前向量是冻结的对称适配种子；不得称为 Hessian 本征正常模，也不得事后替换 |
-| 剩余科学合同专项复审 | `PENDING` | 已接受 WP1 实现与 WP3 Gate 拆分；WP4 及其余合同项仍须按门禁完成 |
+| WP3 模式身份 | `V2_0_SEED_ACCEPTED / V2_3_HESSIAN_AUTHORIZED_NOT_RUN` | 当前向量是冻结的对称适配种子；不得称为 Hessian 本征正常模，也不得事后替换 |
 | 外部洁净重放 | `NOT_REPLAYED` | 当前仅有内部脱敏样例，不能宣称 M2 |
-| WP1–WP4 启动授权 | `NOT_GRANTED` | Gate 通过也不自动授权后续科学计算 |
+| WP1启动授权 | `AUTHORIZED_TO_START` | 尚未建立CBD密封输入包，科学作业数仍为0 |
+| WP3启动授权 | `AUTHORIZED_TO_START` | 包括Hessian；执行前仍须冻结D6h坐标、方法和密封输入包 |
+| WP2启动授权 | `HOLD` | ORCA许可/二进制与三程序功能烟测未闭合 |
+| WP4启动授权 | `HOLD` | Gate已接受协议，但昂贵成对先导计算尚未单独批准 |
 
 ## 下一步
 
-继续完成剩余 Gate V2-0 合同和跨程序就绪项。Quantum Package/CIPSI 环境建立已完成，但不得据此启动 CBD。当前仍不安装或分发受许可 ORCA，不运行 CBD、苯 Hessian/干预或大轮烯科学计算；WP1、WP3 和其他后续工作包均需独立授权。
+Gate V2-0已经通过。下一步只为已授权的WP1和WP3分别建立密封科学输入包、冻结Cartesian坐标和运行合同，然后按单作业资源上限启动首轮计算。WP2和WP4不得随之自动启动。

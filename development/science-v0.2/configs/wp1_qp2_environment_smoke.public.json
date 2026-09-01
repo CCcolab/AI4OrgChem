@@ -9,6 +9,8 @@
     "wp1_scientific_calculation": "NOT_AUTHORIZED",
     "wp3_hessian_calculation": "NOT_AUTHORIZED"
   },
+  "authorization_scope": "HISTORICAL_STATE_AT_SMOKE_EXECUTION",
+  "current_authorization_record": "wp_authorizations.json",
   "scientific_energy_calculation": false,
   "contains_cyclobutadiene_input": false,
   "implementation": {
