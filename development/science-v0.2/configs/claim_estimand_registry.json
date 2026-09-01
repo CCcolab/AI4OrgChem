@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "status": "PREREGISTERED_NOT_RUN",
+  "frozen_on": "2026-09-01",
+  "rules": {
+    "contradiction_encoding": "SAME_ESTIMAND + OPPOSED",
+    "scientific_grade_axis": ["R1", "R2", "R3"],
+    "replay_status_axis": ["NOT_REPLAYED", "INTERNAL_CLEAN_REPLAY", "EXTERNAL_CLEAN_REPLAY"],
+    "agent_maturity_axis": ["M1_PLUS", "M2"],
+    "automatic_parent_claim_upgrade": false
+  },
+  "records": [
+    {
+      "schema_version": "1.0",
+      "claim_id": "P09-A",
+      "estimand_id": "P09A_CBD_SOURCE_ALIGNED_ADE",
+      "relation_to_v0_1": "SAME_ESTIMAND",
+      "comparison_outcome": "NOT_APPLICABLE",
+      "conclusion_state": "NOT_RUN",
+      "scientific_grade": null,
+      "replay_status": "NOT_REPLAYED",
+      "agent_maturity": "M1_PLUS",
+      "endpoint": {
+        "role": "PRIMARY", "observable": "cyclobutadiene adiabatic delocalization energy",
+        "formula": "E_G(optimized ordinary state) - E_GL(optimized source-localized conditional state)",
+        "unit": "kcal/mol", "reference_state_id": "CBD_GL_SOURCE_2011",
+        "sign_convention": "positive is destabilizing", "temperature_k": null,
+        "standard_state": "gas-phase electronic energy", "method": "Gaussian-style B3LYP",
+        "basis": "6-31G(d)", "geometry_protocol": "P09 v0.1 G/GL source-aligned optimization contract",
+        "numerical_tolerance": {"energy_path_closure_hartree": 1e-8, "rerun_difference_hartree": 1e-8},
+        "scientific_equivalence_interval": {"absolute_difference_kcal_mol": 5.0, "sign_indeterminate_kcal_mol": 1.0},
+        "conclusion_flip_condition": "A clean-room SAME_ESTIMAND result is stably negative by more than 1.0 kcal/mol."
+      },
+      "evidence_paths": ["github-release/AI4OrgChem/evidence/P01-P14/P09/result.json"],
+      "limitations": ["WP1 ordinary-state multireference results cannot upgrade this claim unless a clean-room conditional estimand is implemented."]
+    },
+    {
+      "schema_version": "1.0", "claim_id": "P09-B", "estimand_id": "P09B_CBD_PHYSICAL_AUTOMERIZATION",
+      "relation_to_v0_1": "COMPLEMENTARY", "comparison_outcome": "NOT_APPLICABLE", "conclusion_state": "NOT_RUN",
+      "scientific_grade": null, "replay_status": "NOT_REPLAYED", "agent_maturity": "M1_PLUS",
+      "endpoint": {
+        "role": "PRIMARY", "observable": "singlet cyclobutadiene automerization barrier",
+        "formula": "E_S0(D4h stationary point) - E_S0(D2h minimum)", "unit": "kcal/mol",
+        "reference_state_id": "CBD_D2H_LOWEST_SINGLET", "sign_convention": "positive means D4h lies above D2h",
+        "temperature_k": null, "standard_state": "gas-phase electronic energy, frozen-core unless the anchor protocol says otherwise",
+        "method": "extrapolated selected configuration interaction primary anchor; CASSCF/SC-NEVPT2 sensitivity ladder",
+        "basis": "cc-pVDZ primary high-level anchor", "geometry_protocol": "D2h/D4h and continuous automerization path frozen before execution",
+        "numerical_tolerance": {"independent_rerun_kcal_mol": 0.05, "SCI_extrapolation_uncertainty_kcal_mol": 0.30},
+        "scientific_equivalence_interval": {"minimum_meaningful_effect_kcal_mol": 1.0},
+        "conclusion_flip_condition": "The sign of the converged multireference barrier reverses and its uncertainty interval excludes zero."
+      },
+      "evidence_paths": [], "limitations": ["Complementary to P09-A; no automatic change to source-aligned ADE/VDE."]
+    },
+    {
+      "schema_version": "1.0", "claim_id": "P10-A", "estimand_id": "P10A_BENZENE_B2U_PATH_LEDGER",
+      "relation_to_v0_1": "SAME_ESTIMAND", "comparison_outcome": "NOT_APPLICABLE", "conclusion_state": "NOT_RUN",
+      "scientific_grade": null, "replay_status": "NOT_REPLAYED", "agent_maturity": "M1_PLUS",
+      "endpoint": {
+        "role": "PRIMARY", "observable": "B2u BLA curvature ledger",
+        "formula": "k_tot = d2E_tot/dQ_B2u2 = k_e + k_N", "unit": "hartree/(mass-weighted-coordinate)^2",
+        "reference_state_id": "BENZENE_D6H_RKS_G", "sign_convention": "positive curvature favors D6h along B2u",
+        "temperature_k": null, "standard_state": "gas-phase electronic energy", "method": "Gaussian-style B3LYP in PySCF/ORCA/Psi4",
+        "basis": "6-31G(d)", "geometry_protocol": "mass-weighted B2u positive/negative displacements around frozen D6h geometry",
+        "numerical_tolerance": {"relative_energy_kcal_mol": 0.05, "gradient_rms_hartree_per_bohr": 5e-5},
+        "scientific_equivalence_interval": {"direction_deadband_kcal_mol": 0.5},
+        "conclusion_flip_condition": "Across aligned programs k_tot is negative outside the deadband, or k_N no longer exceeds the opposing k_e contribution."
+      },
+      "evidence_paths": ["github-release/AI4OrgChem/evidence/P01-P14/P10/result.json"], "limitations": ["This path ledger does not alone establish causal primacy."]
+    },
+    {
+      "schema_version": "1.0", "claim_id": "P10-B", "estimand_id": "P10B_PI_INTERVENTION_CAUSAL_RESPONSE",
+      "relation_to_v0_1": "COMPLEMENTARY", "comparison_outcome": "NOT_APPLICABLE", "conclusion_state": "NOT_RUN",
+      "scientific_grade": null, "replay_status": "NOT_REPLAYED", "agent_maturity": "M1_PLUS",
+      "endpoint": {
+        "role": "PRIMARY", "observable": "electronic curvature change under frozen pi-localization intervention",
+        "formula": "Delta_k_e = k_e(pi-localized conditional state) - k_e(ordinary RKS)",
+        "unit": "hartree/(mass-weighted-coordinate)^2", "reference_state_id": "BENZENE_D6H_MATCHED_GEOMETRY_PAIR",
+        "sign_convention": "positive Delta_k_e means ordinary pi response is more B2u-distortive",
+        "temperature_k": null, "standard_state": "gas-phase electronic energy",
+        "method": "ordinary RKS versus frozen P09 three-Kekule-fragment conditional-SCF intervention",
+        "basis": "6-31G(d)", "geometry_protocol": "matched B2u/A1g/E2g displacement grids with maximum-overlap subspace tracking",
+        "numerical_tolerance": {"curvature_fit_relative": 0.05, "positive_negative_displacement_asymmetry_relative": 0.02},
+        "scientific_equivalence_interval": {"Delta_k_e_relative_to_abs_k_tot": 0.10},
+        "conclusion_flip_condition": "Delta_k_e has the opposite preregistered sign, exceeds 10% of |k_tot|, and is stable across methods and step sizes."
+      },
+      "evidence_paths": [], "limitations": ["P10-B may earn R3 for itself but cannot automatically upgrade P10-A."]
+    },
+    {
+      "schema_version": "1.0", "claim_id": "P12-A", "estimand_id": "P12A_SOURCE_CESE_BOUNDARY",
+      "relation_to_v0_1": "SAME_ESTIMAND", "comparison_outcome": "NOT_APPLICABLE", "conclusion_state": "NOT_RUN",
+      "scientific_grade": null, "replay_status": "NOT_REPLAYED", "agent_maturity": "M1_PLUS",
+      "endpoint": {
+        "role": "PRIMARY", "observable": "source-aligned corrected extra stabilization energy",
+        "formula": "CESE = Delta_EA - sum(Delta_EAm) - sum(Delta_EnAm)", "unit": "kcal/mol",
+        "reference_state_id": "ANNULENE_SOURCE_CESE_LEDGER", "sign_convention": "source convention retained per series",
+        "temperature_k": null, "standard_state": "source electronic-energy ledger",
+        "method": "source-aligned conditional-state construction", "basis": "source-specified per frozen table",
+        "geometry_protocol": "source-aligned lane only; never mixed with low-energy physical conformers",
+        "numerical_tolerance": {"printed_table_closure_kcal_mol": 0.02, "normalized_closure_kcal_mol_per_electron": 0.01},
+        "scientific_equivalence_interval": {"relative_CESE_small": 0.10},
+        "conclusion_flip_condition": "A SAME_ESTIMAND reconstruction fails the N=16/18 source boundary tests outside printed-precision tolerance."
+      },
+      "evidence_paths": ["github-release/AI4OrgChem/evidence/P01-P14/P12/result.json"], "limitations": ["Never combine numerically with P12-B ISE-II ASE."]
+    },
+    {
+      "schema_version": "1.0", "claim_id": "P12-B", "estimand_id": "P12B_PHYSICAL_ISEII_ASE_0K",
+      "relation_to_v0_1": "INCOMPARABLE", "comparison_outcome": "NOT_APPLICABLE", "conclusion_state": "NOT_RUN",
+      "scientific_grade": null, "replay_status": "NOT_REPLAYED", "agent_maturity": "M1_PLUS",
+      "endpoint": {
+        "role": "PRIMARY", "observable": "zero-point corrected ISE-II aromatic stabilization energy",
+        "formula": "ASE_0K = (E0_C + E0_D) - (E0_A + E0_B) for the frozen A+B->C+D anti-syn-corrected hyperhomodesmotic reaction",
+        "unit": "kcal/mol", "reference_state_id": "ANNULENE_ISEII_A_B_C_D_LOWEST_CONF",
+        "sign_convention": "positive is aromatic stabilization; negative is antiaromatic destabilization",
+        "temperature_k": 0.0, "standard_state": "gas phase; electronic energy plus ZPVE; one lowest verified minimum per A/B/C/D species for the primary endpoint",
+        "method": "B3LYP", "basis": "6-31G(d)",
+        "geometry_protocol": "unconstrained minima, no imaginary frequencies, paired pilot N=8/10,16/18,32/34; conformer ensemble retained as sensitivity analysis",
+        "numerical_tolerance": {"reaction_energy_rerun_kcal_mol": 0.10, "frequency_threshold_cm-1": 20.0},
+        "scientific_equivalence_interval": {"energetically_nonaromatic_kcal_mol": [-2.0, 2.0]},
+        "conclusion_flip_condition": "The paired 4n/4n+2 ASE contrast remains outside +/-2.0 kcal/mol at N=32/34 after conformer and method sensitivity, opposing loss of energetic aromatic distinction."
+      },
+      "evidence_paths": [], "limitations": ["P12-B is a physical-state claim and cannot overwrite the CESE onset at N=16/18.", "298.15 K free energies and other aromaticity descriptors are secondary endpoints."]
+    }
+  ]
+}

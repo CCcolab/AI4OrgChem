@@ -14,6 +14,8 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 - Published the four lower-level P14 evidence records, deterministic classification record, and two source-proxy XYZ inputs.
 - Added dedicated P14 calculation entry points, a Draft 2020-12 JSON Schema, and a deterministic P14 evidence validator.
 - Added a redacted explicit Conda-layer lock for the historical canonical WSL environment.
+- Prepared an explicitly non-release `development/science-v0.2` Gate V2-0 snapshot with preregistration, contracts, machine-readable gate state, privacy-sanitized environment locks, and bounded Quantum Package H2/B2 smoke records.
+- Added CI validation that prevents the V0.2 WP0 snapshot from claiming CBD/Hessian science, mutating V0.1, exposing private host paths, or bundling restricted archives and binaries.
 
 ### Changed
 
@@ -23,6 +25,7 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 ### Scientific status
 
 - No P01-P14 numerical value or proposition-level classification changed. P14 remains consistent only within the frozen single-C12H6 source-proxy protocol.
+- The V0.2 WP0 snapshot is engineering and preregistration evidence only; Gate V2-0 remains `IN_PROGRESS_NOT_PASSED` and WP1/WP3 scientific calculations remain unauthorized.
 
 ## [0.1.2] - 2026-08-28
 

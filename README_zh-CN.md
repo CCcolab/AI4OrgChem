@@ -15,6 +15,8 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 
 > **发布状态：** 安全加固精选版本 `v0.1.2`。相关论文稿尚未经过同行评审。
 
+> **V0.2开发状态：** 已提供可审计的 [Gate V2-0公开开发快照](development/science-v0.2/README.md)。其中没有新增CBD或Hessian科学结果，也不改变已冻结的P01–P14十四项判定。
+
 ## 项目背景与目标
 
 共轭稳定化、共轭促平面化、位阻去稳定化和芳香稳定化是有机化学中非常有用的经验启发式。问题在于，经验趋势不能自动获得无条件因果定律的地位。AI4OrgChem将原著十四项主要命题转化为可证伪计算任务，冻结分子体系、状态定义、符号约定、机器结果和适用边界。
@@ -77,6 +79,7 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 | [`software/`](software/README.md) | LFMO/条件SCF公开核心实现和64项测试 |
 | [`reproducibility/`](reproducibility/README.md) | 复现说明和WSL 2平台边界 |
 | [`figures/`](figures/README.md) | 项目自行生成的总览图 |
+| [`development/science-v0.2/`](development/science-v0.2/README.md) | Gate V2-0可审计开发快照；不是新的科学发布 |
 | [`manifests/`](manifests/FILE_INVENTORY.md) | 文件清单和SHA-256清单 |
 
 ## 快速验证

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "snapshot_date": "2026-09-01",
+  "repository": "https://github.com/CCcolab/AI4OrgChem",
+  "branch": "main",
+  "maintenance_commit": "032027e80edc779fdd0860df869272b36aaf660e",
+  "manifest": {
+    "path": "manifests/sha256-manifest.json",
+    "sha256": "6bb49d4e0da10607ed072d1d751946fe1fe989ae58440e92ba3a71e1d5693ea1"
+  },
+  "tags": {
+    "v0.1.0-rc1": "892b381737da4dfd521c003ee58d06e4668f8378",
+    "v0.1.0-rc2": "f99a7a3b56bc34748d45b65c6233e63bff6894f6",
+    "v0.1.0-rc3": "073b476c8d812b6be6fdc5c3404b027de9c3817c",
+    "v0.1.0": "2929af7f3bf8c7a07e64def4a1b843e11223c9ee",
+    "v0.1.1": "f33cf929bb367fc392fe49f140022dbc67c2bcc2",
+    "v0.1.2": "8f74ad6e9753339c259f8c8857f8eb9811d6e4f3"
+  },
+  "result_files": [
+    {"path":"evidence/P01-P14/P01/result.json","sha256":"e76a8f10d4775e11e45cc7ca240f12d15d1a1378fc33785a0c3b3701c291556e","bytes":4957},
+    {"path":"evidence/P01-P14/P02/result.json","sha256":"ea7611aa54c0103cb3622ab4968bbe4dd6f1e2d7f0ad5de0ba532e412d23d74b","bytes":11860},
+    {"path":"evidence/P01-P14/P03/result.json","sha256":"0498f24cc0a82b79dad29e91c0821a1b051189f18c5b154ebfb65c78ba993f55","bytes":32947},
+    {"path":"evidence/P01-P14/P04/result.jsonl","sha256":"37fed066c8d27225d00bce526451142a21eebd382241e8ea8ae37ba6745b17a1","bytes":58192},
+    {"path":"evidence/P01-P14/P05/result.jsonl","sha256":"638e8b94e000262a0fbd7378d2bc32b2487a7fc694b8ba40bc1b32a0ba9fcb54","bytes":11744},
+    {"path":"evidence/P01-P14/P06/result.jsonl","sha256":"8934755936f3ea109cfb776922d69dcd5dab2384dc05fcc11aa9cabbdebee293","bytes":13397},
+    {"path":"evidence/P01-P14/P07/result.json","sha256":"b0e24635c8d1e7394ffa09510b5ae8e330f2edf543a385196b35ba06eab296b4","bytes":6175},
+    {"path":"evidence/P01-P14/P08/result.json","sha256":"a707a595ef7eeb5669fd704a1967a8f4f92f5405912af7641e91975daff9e420","bytes":138415},
+    {"path":"evidence/P01-P14/P09/result.json","sha256":"578bb7c5f84f468b4eaf41869c5770597d8b8f9db9267d6e583ee673991f636b","bytes":1324},
+    {"path":"evidence/P01-P14/P10/result.json","sha256":"77b94c66aec10efa139814f955c311ba7c3588780b62faf229aee3f462dcf159","bytes":1507},
+    {"path":"evidence/P01-P14/P11/furan-result.json","sha256":"6f9dac189f0a2325d51fc9d6be3554a333f44d0c1307852819eadd8378558292","bytes":1290},
+    {"path":"evidence/P01-P14/P11/substituent-result.json","sha256":"7a87b7f56adc4fe6dd0e3088778763aba546c063fe85c1fcac10cfe1f433ade9","bytes":1816},
+    {"path":"evidence/P01-P14/P12/result.json","sha256":"df9b94baf5adf27dc591dd838dd5325132a474c39b4ace4df644691a3829cebb","bytes":7834},
+    {"path":"evidence/P01-P14/P13/result.json","sha256":"cd18f4b777df8c1054cf9fe1aa741d4f0c9e012b89fc91ae4cc921174a9222e6","bytes":12058},
+    {"path":"evidence/P01-P14/P14/result.json","sha256":"4d7880532ae78121325db576c1cbd42611bebc3f3fbb02d03207c84b7a9377ea","bytes":4257}
+  ],
+  "contract": {
+    "read_only": true,
+    "v0.2_may_append_evidence": true,
+    "v0.2_may_overwrite_v0.1": false
+  }
+}

@@ -48,8 +48,8 @@
     {
       "path": ".github/workflows/validate.yml",
       "artifact_role": "continuous-integration",
-      "bytes": 1882,
-      "sha256": "d8fa5436d306699c3ea77b433dfeb4c034b98b1bd608197d3cfc7f28f7267786"
+      "bytes": 2016,
+      "sha256": "bdce7e222b97bad5ab63f484ca0b106aa15be1d6812a41391cc786bbc0b2e7cf"
     },
     {
       "path": ".gitignore",
@@ -102,8 +102,8 @@
     {
       "path": "CHANGELOG.md",
       "artifact_role": "repository-root",
-      "bytes": 5705,
-      "sha256": "37742302a8970c7509e20555b430e5837b444ca7ebf5a8059f0ab30e2ad80b5d"
+      "bytes": 6293,
+      "sha256": "570dc44473cc357a4fcce6cfe4f761a6bdf9f6ada4a02186a50b3f4bf92b34f8"
     },
     {
       "path": "CITATION.cff",
@@ -122,6 +122,168 @@
       "artifact_role": "public-configuration",
       "bytes": 5615,
       "sha256": "b9d22368f133c4bfd1f69a1939b905032741ab99b71aed59525472853b7b4b04"
+    },
+    {
+      "path": "development/science-v0.2/configs/agent_run_bundle.schema.json",
+      "artifact_role": "development-snapshot",
+      "bytes": 2722,
+      "sha256": "aa46286cc01b24cda839664d1e660f5849962586748ee03007c257834dd9e96d"
+    },
+    {
+      "path": "development/science-v0.2/configs/blind_bundle.schema.json",
+      "artifact_role": "development-snapshot",
+      "bytes": 1521,
+      "sha256": "e95784f19fc17a16995373d3d92742c084b2c5936f66b8fbeb4941210e136152"
+    },
+    {
+      "path": "development/science-v0.2/configs/claim_estimand_registry.json",
+      "artifact_role": "development-snapshot",
+      "bytes": 9646,
+      "sha256": "105c0ba488fd1000f746e32e248e7a383f88a30587113b2755276c7d5b685ecf"
+    },
+    {
+      "path": "development/science-v0.2/configs/evidence_record.schema.json",
+      "artifact_role": "development-snapshot",
+      "bytes": 2719,
+      "sha256": "28bfb0fee8199a976398dcef04d3e46a87c19d367fd2a6f15e44cad7775c2bd8"
+    },
+    {
+      "path": "development/science-v0.2/configs/v0.1_baseline.json",
+      "artifact_role": "development-snapshot",
+      "bytes": 2974,
+      "sha256": "759e16d9e4f4e8d0c45e49e30b5ee667dc02364074faa559ac0826cc8144e4b0"
+    },
+    {
+      "path": "development/science-v0.2/configs/wp0_gate.json",
+      "artifact_role": "development-snapshot",
+      "bytes": 1295,
+      "sha256": "2b71e8113d2c1f1d074cad1d17463f877a48b1f73e3c228f84d6e525e3fc90f5"
+    },
+    {
+      "path": "development/science-v0.2/configs/wp0_readiness.json",
+      "artifact_role": "development-snapshot",
+      "bytes": 1991,
+      "sha256": "c35e11266dc4e0592f3c15cf4efd30214f28baf03a475febab991509f76a31e2"
+    },
+    {
+      "path": "development/science-v0.2/configs/wp1_interface_probe.json",
+      "artifact_role": "development-snapshot",
+      "bytes": 1549,
+      "sha256": "b306216660717d5988be58b8e8df6f796ad921b45762aeee8ae7de357fba40c0"
+    },
+    {
+      "path": "development/science-v0.2/configs/wp1_qp2_environment_smoke.public.json",
+      "artifact_role": "development-snapshot",
+      "bytes": 4543,
+      "sha256": "29d862b5bdbbc486dd7fbb8a8c4a5a13f80be2a2a3c6571fb2a39c8ee8647af9"
+    },
+    {
+      "path": "development/science-v0.2/configs/wp2_core_anchors.json",
+      "artifact_role": "development-snapshot",
+      "bytes": 3285,
+      "sha256": "6731f6e2939f06d8757c862d4cea160827bd4231dc420493fcd516211230a194"
+    },
+    {
+      "path": "development/science-v0.2/configs/wp3_symmetry_mode_seeds.json",
+      "artifact_role": "development-snapshot",
+      "bytes": 12991,
+      "sha256": "33826da619ed461cf1e3a5034414ea13776ce4a69e6f30dad5005234e1abaa1b"
+    },
+    {
+      "path": "development/science-v0.2/docs/preregistration/BLIND_AND_AGENT_AUDIT_PROTOCOL.md",
+      "artifact_role": "development-snapshot",
+      "bytes": 2106,
+      "sha256": "40d281b354492fde12464d36ee61b125f079d1aa996fe0f095a1a1e544660b2b"
+    },
+    {
+      "path": "development/science-v0.2/docs/preregistration/RESOURCE_BUDGET_AND_GO_NO_GO.md",
+      "artifact_role": "development-snapshot",
+      "bytes": 1308,
+      "sha256": "30da31f287dff0bb323abb9207dc7c813f504a56fbcb7cddac720f464fd9dc2c"
+    },
+    {
+      "path": "development/science-v0.2/docs/preregistration/WP0_BASELINE_AND_BOUNDARY.md",
+      "artifact_role": "development-snapshot",
+      "bytes": 2038,
+      "sha256": "23648d12f59543f57e71a9d8195231e1d847445ba6b1cafcbeeee6618fbb9a09"
+    },
+    {
+      "path": "development/science-v0.2/docs/protocols/WP1_PRIMARY_ANCHOR_IMPLEMENTATION_CANDIDATE.md",
+      "artifact_role": "development-snapshot",
+      "bytes": 3759,
+      "sha256": "be8337226e931dabe2df7c0f54b87a8dc49b146dd18b31aa99d48690f1ea4f55"
+    },
+    {
+      "path": "development/science-v0.2/docs/protocols/WP1_WP4_EXECUTION_CONTRACTS.md",
+      "artifact_role": "development-snapshot",
+      "bytes": 6069,
+      "sha256": "6d61d333ac7c1969da623aea471fa5b5fadc9b08f6cc550b55841f2111684fb0"
+    },
+    {
+      "path": "development/science-v0.2/docs/reports/WP0_AGENT_REPLAY_SAMPLE_2026-09-01.md",
+      "artifact_role": "development-snapshot",
+      "bytes": 1196,
+      "sha256": "a95727ebdb8d6c8a4845dcb9a826ad2457e6094542b5a1e64477c0857ff65978"
+    },
+    {
+      "path": "development/science-v0.2/docs/reports/WP0_BLIND_DRILL_2026-09-01.md",
+      "artifact_role": "development-snapshot",
+      "bytes": 1606,
+      "sha256": "c63b47c59fd1433bb4adfcb4739fb86df48d50f9a0bf14bc6fac87ce4a2c47c8"
+    },
+    {
+      "path": "development/science-v0.2/docs/reports/WP0_IMPLEMENTATION_STATUS_2026-09-01.md",
+      "artifact_role": "development-snapshot",
+      "bytes": 3778,
+      "sha256": "d3b2d2b604efbe23e213eb3ca056cdcef57472a79c87997fa9582f187d6bce01"
+    },
+    {
+      "path": "development/science-v0.2/docs/reports/WP0_OPEN_QM_ENVIRONMENT_2026-09-01.md",
+      "artifact_role": "development-snapshot",
+      "bytes": 995,
+      "sha256": "bb5ba1456e96da48d94835cb66c0037e31f5d5a2af9d7719e7d77a1c99810176"
+    },
+    {
+      "path": "development/science-v0.2/docs/reports/WP0_QP22_CIPSI_ENVIRONMENT_2026-09-01.md",
+      "artifact_role": "development-snapshot",
+      "bytes": 3835,
+      "sha256": "b0caa0519fa17521f96a21a92a0f7a6c067fefd9542a0c2c64f8648033093644"
+    },
+    {
+      "path": "development/science-v0.2/docs/reports/WP0_SPECIALIST_REVIEW_REQUEST_2026-09-01.md",
+      "artifact_role": "development-snapshot",
+      "bytes": 3626,
+      "sha256": "19276c6016ba63889035ad1cef4a39fb3c629e5db884d3bf13605af6454292ed"
+    },
+    {
+      "path": "development/science-v0.2/docs/reports/WP0_WP1_INTERFACE_PROBE_2026-09-01.md",
+      "artifact_role": "development-snapshot",
+      "bytes": 950,
+      "sha256": "87443868c755afb4518ec23643b7494081949c122489d8424fe5da16bf1d2f99"
+    },
+    {
+      "path": "development/science-v0.2/docs/reports/WP0_WP3_SYMMETRY_MODE_SEEDS_2026-09-01.md",
+      "artifact_role": "development-snapshot",
+      "bytes": 1769,
+      "sha256": "f391308a697849a7a6349f2bc32219c66afb9f9b5b51bca9d0e2b5f4e63db4ac"
+    },
+    {
+      "path": "development/science-v0.2/README.md",
+      "artifact_role": "development-snapshot",
+      "bytes": 2190,
+      "sha256": "8554fd913c5b76d61f9328ec2fa52cd7a8d62a6b7422072b2ab1d0357d3019a0"
+    },
+    {
+      "path": "development/science-v0.2/reproducibility/ai4orgchem-v02-cipsi.conda-explicit.txt",
+      "artifact_role": "development-snapshot",
+      "bytes": 8048,
+      "sha256": "4513bf5ef6d9d3f3979b1bf9a999456b53927d5ec5a9e58be9cbda6ecbb84caa"
+    },
+    {
+      "path": "development/science-v0.2/reproducibility/ai4orgchem-v02-cipsi.environment.yml",
+      "artifact_role": "development-snapshot",
+      "bytes": 3287,
+      "sha256": "e7daf388bf9c306a4a805e1ca17ab660a3cecca41de5ce85ee3e0695d541466a"
     },
     {
       "path": "evidence/P01-P14/P01/data-card.md",
@@ -570,8 +732,8 @@
     {
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
-      "bytes": 22946,
-      "sha256": "8a3adb502d8ab4e848e0b7ea1dac1ab5ab77bb27f6e4806338c2262bab943990"
+      "bytes": 27773,
+      "sha256": "1b91d8f443624b98d9f844a5ed9f369e21a68990a03b8f9812980e072823048f"
     },
     {
       "path": "manuscripts/P01-P14_evidence_matrix_zh-CN.md",
@@ -600,8 +762,8 @@
     {
       "path": "NOTICE",
       "artifact_role": "repository-root",
-      "bytes": 553,
-      "sha256": "e69701cabf2f671467e0c5d1aa48c396cd991c4ece443d9983f2b08a3c8c714d"
+      "bytes": 908,
+      "sha256": "782f9e250566e483860e03f6802a961adbf241839271d1c5bb5992e25dab8198"
     },
     {
       "path": "project/ACHIEVEMENTS_zh-CN.md",
@@ -648,14 +810,14 @@
     {
       "path": "README.md",
       "artifact_role": "repository-root",
-      "bytes": 21510,
-      "sha256": "1a82f533875d173f19b5e1a472b4a72014fcea7c2df7607cdf31d88805ffbd28"
+      "bytes": 21877,
+      "sha256": "2bd925dd97a22a55c3127193bf8a03fa2784f91258df16b9e128aa9940baa072"
     },
     {
       "path": "README_zh-CN.md",
       "artifact_role": "repository-root",
-      "bytes": 8558,
-      "sha256": "661abe2225c11897073c3764349644ca578b7850fcce87a843ef20e71ce3d731"
+      "bytes": 8903,
+      "sha256": "447283c9bfe8d736356acdb535b205c4bcbe7824ebf4da9e176503551f2476a3"
     },
     {
       "path": "reproducibility/conda-linux-64.explicit.txt",
@@ -756,8 +918,8 @@
     {
       "path": "software/scripts/refresh_release_snapshot.py",
       "artifact_role": "software-or-test",
-      "bytes": 3642,
-      "sha256": "fec2bea043be692038b7f66fd38bcb6a79d9cdc96fbd5b943b3d80099e414ba2"
+      "bytes": 3689,
+      "sha256": "2e050aad58c86f71649c40d6f2187e981e5df9a4c06fd1ce183b2eb3c5e17194"
     },
     {
       "path": "software/scripts/run_p14_benzotricyclobutadiene_five_parameter_pilot.py",
@@ -806,6 +968,12 @@
       "artifact_role": "software-or-test",
       "bytes": 11591,
       "sha256": "b6f81af87d8f13126cb7de515956d04c276becbbca10a286078cb79d5938dfb7"
+    },
+    {
+      "path": "software/scripts/validate_science_v02_wp0_public.py",
+      "artifact_role": "software-or-test",
+      "bytes": 4349,
+      "sha256": "ad8a3192d402882f7136b8bfae42e2b067dd3411a13ca42ed0a8235ccd0d66c7"
     },
     {
       "path": "software/scripts/validate_wsl_release.py",

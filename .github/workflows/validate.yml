@@ -48,6 +48,9 @@ jobs:
       - name: Validate WSL release boundaries
         run: python software/scripts/validate_wsl_release.py
 
+      - name: Validate Science V0.2 WP0 development snapshot
+        run: python software/scripts/validate_science_v02_wp0_public.py
+
       - name: Check WSL shell syntax
         run: |
           bash -n reproducibility/wsl/activate-ai4orgchem-public.sh
