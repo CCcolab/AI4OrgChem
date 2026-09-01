@@ -4,6 +4,11 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 
 ## [Unreleased]
 
+### Review disposition
+
+- Recorded that the 2026-09-01 third-party AI4OrgChem audit was fixed at `36fdfd4`, while the reported P14 public-evidence gap was closed in PR #8 / `bf0c323`.
+- Classified remaining recommendations as closed governance items, explicitly partial environment locking, or future P1 calculations that do not change the frozen 12+2 proposition-level results.
+
 ### Added
 
 - Published the four lower-level P14 evidence records, deterministic classification record, and two source-proxy XYZ inputs.

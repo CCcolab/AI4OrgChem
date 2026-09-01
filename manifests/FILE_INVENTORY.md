@@ -23,7 +23,7 @@
 | `ai4s-agent/README.md` | agent-delivery | 1119 | `676c7fdbc6b97f4790eac5aa2d3b43e3fe2fe7ed07a90a687fe210595d102301` |
 | `ai4s-agent/SYSTEM_ARCHITECTURE_zh-CN.md` | agent-delivery | 1114 | `c767a97c2fca2abdb13540dfc6b6e8983952dbc9f3cfd5f119017da2dd830a8a` |
 | `AUTHORS.md` | repository-root | 2416 | `148d3f76aea865f1ed862c9b65ea980e92d170d3b95a598cba626250cd681df2` |
-| `CHANGELOG.md` | repository-root | 5325 | `901086589efc262d2c04bb284c1f3e0b25cd3027c016f455d7c4e9948dc9ba1a` |
+| `CHANGELOG.md` | repository-root | 5705 | `37742302a8970c7509e20555b430e5837b444ca7ebf5a8059f0ab30e2ad80b5d` |
 | `CITATION.cff` | repository-root | 910 | `59b796c8930f15fe958b99b48e2a74fd529da780fead82dda9999b35397068c9` |
 | `configs/qm/p09_exchange_integral_classes_v0.1.yaml` | public-configuration | 7326 | `324c2e7988be48ed8898a5e9b04a87d40386ca8a8f7eb603d9a697d3ac6a6ee2` |
 | `configs/qm/p14_strained_aromatic_pi_distortivity_v0.1.yaml` | public-configuration | 5615 | `b9d22368f133c4bfd1f69a1939b905032741ab99b71aed59525472853b7b4b04` |
@@ -108,7 +108,7 @@
 | `NOTICE` | repository-root | 553 | `e69701cabf2f671467e0c5d1aa48c396cd991c4ece443d9983f2b08a3c8c714d` |
 | `project/ACHIEVEMENTS_zh-CN.md` | project-narrative | 1677 | `14db0a3262bb60f1bb9c9397c119d1a2a07b7241aec85b7bdf75fcb244bc67db` |
 | `project/P01-P14_MASTER_TABLE_zh-CN.md` | project-narrative | 11564 | `0605409805dddf84541b9edb983e1c9bc6016b6845f8fed1ba4d0b1cb6994a43` |
-| `project/POST_REMEDIATION_RESPONSE_2026-09-01_zh-CN.md` | project-narrative | 2637 | `b6e668a7440025cdb9048773ddf29d770af63f502f0bc137439ade833616b09a` |
+| `project/POST_REMEDIATION_RESPONSE_2026-09-01_zh-CN.md` | project-narrative | 4722 | `3cafb55b155d901e40957d8788b193b96b58913ad88fe691cdbc58f494c221fa` |
 | `project/PROJECT_BACKGROUND_zh-CN.md` | project-narrative | 1077 | `376edd3d1e88e520c1924f7f2d4ce1d6c6c0433168096005e4a54d17bb1e1f21` |
 | `project/README.md` | project-narrative | 991 | `be06a297b397413853c61dcd21e3d6744579ea84d57c345a924ed065a2a159ff` |
 | `project/RESEARCH_ITEMS_zh-CN.md` | project-narrative | 1939 | `508c64832f3b075a9d073e33badd35be764012eebb94624fc7966fa2b03b143f` |
