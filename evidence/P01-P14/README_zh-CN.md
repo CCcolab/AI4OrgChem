@@ -19,14 +19,14 @@
 | P04 | LFMO定义下π–π端点可以为去稳定化。 | **一致** | 12个尝试点中11个技术有效，11个有效source-proxy端点均为去稳定化方向；这是受测域符号规律，不是普遍定律。 | [数据卡](P04/data-card.md) · [协议](P04/protocol.md) · [机器结果](P04/result.jsonl) · [报告](P04/report.md) |
 | P05 | π–σ源端点可以为去稳定化。 | **范围化一致** | Table 5-15 source-proxy的17°端点为正；0°点在容差内不能定号。 | [数据卡](P05/data-card.md) · [协议](P05/protocol.md) · [机器结果](P05/result.jsonl) · [报告](P05/report.md) |
 | P06 | 非键σ–σ必须按明确条件态分析，不能自动等同经典位阻能。 | **一致** | 同一分子0°/17°两个source-proxy端点在PDSI/FUL状态对下均为去稳定化；不代表连续角度或跨分子规律。 | [数据卡](P06/data-card.md) · [协议](P06/protocol.md) · [机器结果](P06/result.jsonl) · [报告](P06/report.md) |
-| P07 | “共轭稳定化—位阻去稳定化”二项叙事不足以解释受测机制。 | **范围化一致** | P04–P06的命题级综合，不含新增QM计算；不同状态合同的能量禁止求和。 | [数据卡](P07/data-card.md) · [协议](P07/protocol.md) · [机器结果](P07/result.json) · [报告](P07/report.md) |
+| P07 | “共轭稳定化—位阻去稳定化”二项叙事不足以解释受测机制。 | **范围化一致** | `DERIVED`：P04–P06命题级综合，不含新增独立QM计算；不同状态合同的能量禁止求和。 | [数据卡](P07/data-card.md) · [协议](P07/protocol.md) · [机器结果](P07/result.json) · [报告](P07/report.md) |
 | P08 | GL定义的丁二烯共轭能可以为正，氢化热参照不能确定唯一符号。 | **一致** | 冻结GL(2014)结果为 **+1.575676 kcal/mol**；属于source-aligned独立代码重构，不冒充历史程序身份或正交估计量验证。 | [数据卡](P08/data-card.md) · [协议](P08/protocol.md) · [机器结果](P08/result.json) · [报告](P08/report.md) |
 | P09 | 芳香/反芳香能可以由理论局域/虚拟参照构造。 | **一致** | 环丁二烯ADE为 **+53.822467 kcal/mol**，苯ESE为 **-37.412764 kcal/mol**；属于冻结source-aligned估计量，环丁二烯多参考稳健性另列V0.2通道。 | [数据卡](P09/data-card.md) · [协议](P09/protocol.md) · [机器结果](P09/result.json) · [报告](P09/report.md) |
 | P10 | 在受测苯键长交替坐标上，核排斥变化是绝对幅度较大的反向分量。 | **一致** | 沿冻结坐标电子能与核排斥能反向变化；这是路径账本，不把核排斥描述为脱离电子结构的孤立原因。 | [数据卡](P10/data-card.md) · [协议](P10/protocol.md) · [机器结果](P10/result.json) · [报告](P10/report.md) |
 | P11 | 呋喃需用LDE处理；取代苯应分离共轭与诱导分量。 | **部分一致** | P11-A呋喃LDE一致。P11-B共轭项 **+1.180928**，与原著 **+1.2 kcal/mol**一致；但两种诱导诊断均为负（**-0.335714**、**-0.580151**），原著为 **+0.49**。完整历史氰基苯Cartesian坐标未公开。 | 呋喃：[数据卡](P11/furan-data-card.md) · [协议](P11/furan-protocol.md) · [结果](P11/furan-result.json) · [报告](P11/furan-report.md)。取代基：[数据卡](P11/substituent-data-card.md) · [协议](P11/substituent-protocol.md) · [结果](P11/substituent-result.json) · [报告](P11/substituent-report.md) |
 | P12 | 大轮烯趋近多烯能量行为，但精确尺寸边界依赖估计量。 | **部分一致** | 大环定性趋势一致；原著CESE的 **N=16/18** 与独立ASE的 **N>30** 是不同估计量下的起始尺寸，不能直接比较。 | [数据卡](P12/data-card.md) · [协议](P12/protocol.md) · [机器结果](P12/result.json) · [报告](P12/report.md) |
 | P13 | 多环苯系需要受测GL/位置/能量规则层级，不能只依赖简单局域计数。 | **一致** | 独立图枚举和公开能量账本支持范围化规则层级；不是所有候选结构的独立量子化学重优化。 | [数据卡](P13/data-card.md) · [协议](P13/protocol.md) · [机器结果](P13/result.json) · [报告](P13/report.md) |
-| P14 | π相互作用可参与应变芳香体系的结构扭曲。 | **一致** | 单一C12H6 source-proxy端点为 **+67.086899 kcal/mol**；不等同于完整19分子应变芳香面板复现。 | [数据卡](P14/data-card.md) · [协议](P14/protocol.md) · [机器结果](P14/result.json) · [报告](P14/report.md) |
+| P14 | π相互作用可参与应变芳香体系的结构扭曲。 | **一致** | 单一C12H6 source-proxy端点为 **+67.086899 kcal/mol**；底层记录和输入已公开，但不等同完整19分子面板复现。 | [数据卡](P14/data-card.md) · [协议](P14/protocol.md) · [机器结果](P14/result.json) · [底层记录](P14/processed/) · [输入](P14/inputs/README.md) · [报告](P14/report.md) |
 
 ## P11为何只能判“部分一致”
 
@@ -42,9 +42,10 @@ P11包含两个子命题。呋喃LDE的方向和幅度通过；氰基苯共轭�
 
 ```bash
 python software/scripts/validate_public_evidence.py
+python software/scripts/validate_p14_evidence.py
 ```
 
-验证器必须返回`status: PASS`并检查14项机器结果。跨命题总矩阵见[`manuscripts/P01-P14_evidence_matrix_zh-CN.md`](../../manuscripts/P01-P14_evidence_matrix_zh-CN.md)。
+第一个验证器检查14项打包结果；第二个验证器从4个公开底层JSON重算P14的BLA/能量判据并检查输入和哈希。二者均不重跑高成本QM。跨命题总矩阵见[`manuscripts/P01-P14_evidence_matrix_zh-CN.md`](../../manuscripts/P01-P14_evidence_matrix_zh-CN.md)。
 
 ## 证据边界
 

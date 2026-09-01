@@ -1,0 +1,1363 @@
+{
+  "schema_version": 1,
+  "protocol_id": "p14-strained-aromatic-pi-distortivity/0.1",
+  "proposition_id": "P14",
+  "stage": "five_parameter_D3h_STO3G_technical_pilot",
+  "scientific_classification_allowed": false,
+  "method": {
+    "engine": "PySCF_plus_SciPy",
+    "pyscf_xc": "B3LYPG",
+    "basis": "sto-3g",
+    "parameter_order": [
+      "rendo_angstrom",
+      "rexo_angstrom",
+      "rside_angstrom",
+      "router_angstrom",
+      "rCH_angstrom"
+    ],
+    "original_program_code_used": false,
+    "fit_to_published_values": false
+  },
+  "optimized_G_geometry": {
+    "parameters_angstrom": [
+      1.534260191855123,
+      1.3454530357708234,
+      1.5050950606793567,
+      1.3772218401067242,
+      1.097410984398103
+    ],
+    "atoms_angstrom": [
+      [
+        "C",
+        1.4398566138129734,
+        -0.05450393119509959,
+        0.0
+      ],
+      [
+        "C",
+        0.6727265178854122,
+        1.2742043709666238,
+        0.0
+      ],
+      [
+        "C",
+        -0.6727265178854112,
+        1.274204370966624,
+        0.0
+      ],
+      [
+        "C",
+        -1.4398566138129734,
+        -0.0545039311950987,
+        0.0
+      ],
+      [
+        "C",
+        -0.7671300959275615,
+        -1.2197004397715248,
+        0.0
+      ],
+      [
+        "C",
+        0.7671300959275615,
+        -1.2197004397715248,
+        0.0
+      ],
+      [
+        "C",
+        2.7022726423510672,
+        0.7650184373656995,
+        0.0
+      ],
+      [
+        "C",
+        2.013661722297705,
+        1.9577275375448728,
+        0.0
+      ],
+      [
+        "C",
+        -2.013661722297704,
+        1.9577275375448744,
+        0.0
+      ],
+      [
+        "C",
+        -2.702272642351067,
+        0.7650184373657012,
+        0.0
+      ],
+      [
+        "C",
+        -0.6886109200533621,
+        -2.7227459749105747,
+        0.0
+      ],
+      [
+        "C",
+        0.6886109200533621,
+        -2.7227459749105747,
+        0.0
+      ],
+      [
+        "H",
+        3.7693406440838606,
+        0.5087436856721375,
+        0.0
+      ],
+      [
+        "H",
+        2.325255277848928,
+        3.0099729104577504,
+        0.0
+      ],
+      [
+        "H",
+        -2.3252552778489264,
+        3.009972910457752,
+        0.0
+      ],
+      [
+        "H",
+        -3.7693406440838606,
+        0.5087436856721397,
+        0.0
+      ],
+      [
+        "H",
+        -1.4440853662349324,
+        -3.5187165961298903,
+        0.0
+      ],
+      [
+        "H",
+        1.4440853662349324,
+        -3.5187165961298903,
+        0.0
+      ]
+    ],
+    "metrics": {
+      "rendo_angstrom": 1.5342601918551229,
+      "rexo_angstrom": 1.345453035770823,
+      "delta_r_angstrom": 0.18880715608429988,
+      "rside_angstrom": 1.5050950606793565,
+      "router_angstrom": 1.3772218401067242,
+      "maximum_out_of_plane_angstrom": 0.0,
+      "rCH_angstrom": 1.097410984398103
+    }
+  },
+  "G_state": {
+    "converged": true,
+    "total_energy_hartree": -454.95794317584114,
+    "electronic_energy_hartree": -1023.4340476928235,
+    "nuclear_repulsion_hartree": 568.4761045169823,
+    "physical_metric_electron_count": 77.99999999999991
+  },
+  "G_optimizer": {
+    "success": true,
+    "status": 0,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "iterations": 3,
+    "function_evaluations": 30,
+    "gradient_hartree_per_angstrom": [
+      -0.0035156213763819395,
+      -0.0005042632970857394,
+      0.0008313637318645397,
+      -0.003221191334858681,
+      -0.003015875667509504
+    ],
+    "gradient_max_abs_hartree_per_angstrom": 0.0035156213763819395,
+    "active_bounds": [],
+    "bounds_angstrom": [
+      [
+        1.2,
+        1.7
+      ],
+      [
+        1.2,
+        1.7
+      ],
+      [
+        1.25,
+        1.7
+      ],
+      [
+        1.2,
+        1.55
+      ],
+      [
+        0.95,
+        1.2
+      ]
+    ],
+    "evaluations": [
+      {
+        "evaluation": 1,
+        "parameters_angstrom": [
+          1.515,
+          1.338,
+          1.473,
+          1.374,
+          1.08
+        ],
+        "delta_r_angstrom": 0.17699999999999982,
+        "energy_hartree": -454.9514538258454,
+        "scf_cycles": 0,
+        "metric_electron_count": 78.00000000000011
+      },
+      {
+        "evaluation": 2,
+        "parameters_angstrom": [
+          1.5157574999999999,
+          1.338,
+          1.473,
+          1.374,
+          1.08
+        ],
+        "delta_r_angstrom": 0.1777574999999998,
+        "energy_hartree": -454.95151872834253,
+        "scf_cycles": 0,
+        "metric_electron_count": 78.00000000000014
+      },
+      {
+        "evaluation": 3,
+        "parameters_angstrom": [
+          1.515,
+          1.338669,
+          1.473,
+          1.374,
+          1.08
+        ],
+        "delta_r_angstrom": 0.1763309999999998,
+        "energy_hartree": -454.9514987180464,
+        "scf_cycles": 0,
+        "metric_electron_count": 78.00000000000009
+      },
+      {
+        "evaluation": 4,
+        "parameters_angstrom": [
+          1.515,
+          1.338,
+          1.4737365,
+          1.374,
+          1.08
+        ],
+        "delta_r_angstrom": 0.17699999999999982,
+        "energy_hartree": -454.9516287327888,
+        "scf_cycles": 0,
+        "metric_electron_count": 78.00000000000006
+      },
+      {
+        "evaluation": 5,
+        "parameters_angstrom": [
+          1.515,
+          1.338,
+          1.473,
+          1.3746870000000002,
+          1.08
+        ],
+        "delta_r_angstrom": 0.17699999999999982,
+        "energy_hartree": -454.95148963293616,
+        "scf_cycles": 0,
+        "metric_electron_count": 77.99999999999991
+      },
+      {
+        "evaluation": 6,
+        "parameters_angstrom": [
+          1.515,
+          1.338,
+          1.473,
+          1.374,
+          1.08054
+        ],
+        "delta_r_angstrom": 0.17699999999999982,
+        "energy_hartree": -454.9515423362159,
+        "scf_cycles": 0,
+        "metric_electron_count": 78.00000000000004
+      },
+      {
+        "evaluation": 7,
+        "parameters_angstrom": [
+          1.6006798641786528,
+          1.4051034394673763,
+          1.7,
+          1.426120947219179,
+          1.2
+        ],
+        "delta_r_angstrom": 0.19557642471127656,
+        "energy_hartree": -454.7920754258017,
+        "scf_cycles": 0,
+        "metric_electron_count": 78.00000000000011
+      },
+      {
+        "evaluation": 8,
+        "parameters_angstrom": [
+          1.601480204110742,
+          1.4051034394673763,
+          1.7,
+          1.426120947219179,
+          1.2
+        ],
+        "delta_r_angstrom": 0.19637676464336584,
+        "energy_hartree": -454.7918522526827,
+        "scf_cycles": 0,
+        "metric_electron_count": 78.0
+      },
+      {
+        "evaluation": 9,
+        "parameters_angstrom": [
+          1.6006798641786528,
+          1.40580599118711,
+          1.7,
+          1.426120947219179,
+          1.2
+        ],
+        "delta_r_angstrom": 0.1948738729915429,
+        "energy_hartree": -454.7918237904805,
+        "scf_cycles": 0,
+        "metric_electron_count": 77.99999999999993
+      },
+      {
+        "evaluation": 10,
+        "parameters_angstrom": [
+          1.6006798641786528,
+          1.4051034394673763,
+          1.69915,
+          1.426120947219179,
+          1.2
+        ],
+        "delta_r_angstrom": 0.19557642471127656,
+        "energy_hartree": -454.7928006017181,
+        "scf_cycles": 0,
+        "metric_electron_count": 78.00000000000011
+      },
+      {
+        "evaluation": 11,
+        "parameters_angstrom": [
+          1.6006798641786528,
+          1.4051034394673763,
+          1.7,
+          1.4268340076927886,
+          1.2
+        ],
+        "delta_r_angstrom": 0.19557642471127656,
+        "energy_hartree": -454.7918012335481,
+        "scf_cycles": 0,
+        "metric_electron_count": 78.00000000000009
+      },
+      {
+        "evaluation": 12,
+        "parameters_angstrom": [
+          1.6006798641786528,
+          1.4051034394673763,
+          1.7,
+          1.426120947219179,
+          1.1994
+        ],
+        "delta_r_angstrom": 0.19557642471127656,
+        "energy_hartree": -454.7924877891479,
+        "scf_cycles": 0,
+        "metric_electron_count": 78.00000000000013
+      },
+      {
+        "evaluation": 13,
+        "parameters_angstrom": [
+          1.5277433885319893,
+          1.3479804686802792,
+          1.5067622990476486,
+          1.3817520837297825,
+          1.0978479113908275
+        ],
+        "delta_r_angstrom": 0.1797629198517101,
+        "energy_hartree": -454.9578029272301,
+        "scf_cycles": 0,
+        "metric_electron_count": 78.00000000000006
+      },
+      {
+        "evaluation": 14,
+        "parameters_angstrom": [
+          1.5285072602262553,
+          1.3479804686802792,
+          1.5067622990476486,
+          1.3817520837297825,
+          1.0978479113908275
+        ],
+        "delta_r_angstrom": 0.18052679154597606,
+        "energy_hartree": -454.95781864001833,
+        "scf_cycles": 0,
+        "metric_electron_count": 78.00000000000021
+      },
+      {
+        "evaluation": 15,
+        "parameters_angstrom": [
+          1.5277433885319893,
+          1.3486544589146194,
+          1.5067622990476486,
+          1.3817520837297825,
+          1.0978479113908275
+        ],
+        "delta_r_angstrom": 0.17908892961736989,
+        "energy_hartree": -454.9577955679903,
+        "scf_cycles": 0,
+        "metric_electron_count": 78.00000000000006
+      },
+      {
+        "evaluation": 16,
+        "parameters_angstrom": [
+          1.5277433885319893,
+          1.3479804686802792,
+          1.5075156801971723,
+          1.3817520837297825,
+          1.0978479113908275
+        ],
+        "delta_r_angstrom": 0.1797629198517101,
+        "energy_hartree": -454.95779355529226,
+        "scf_cycles": 0,
+        "metric_electron_count": 77.9999999999999
+      },
+      {
+        "evaluation": 17,
+        "parameters_angstrom": [
+          1.5277433885319893,
+          1.3479804686802792,
+          1.5067622990476486,
+          1.3824429597716474,
+          1.0978479113908275
+        ],
+        "delta_r_angstrom": 0.1797629198517101,
+        "energy_hartree": -454.95778516767825,
+        "scf_cycles": 0,
+        "metric_electron_count": 77.99999999999997
+      },
+      {
+        "evaluation": 18,
+        "parameters_angstrom": [
+          1.5277433885319893,
+          1.3479804686802792,
+          1.5067622990476486,
+          1.3817520837297825,
+          1.098396835346523
+        ],
+        "delta_r_angstrom": 0.1797629198517101,
+        "energy_hartree": -454.9578024942797,
+        "scf_cycles": 0,
+        "metric_electron_count": 77.99999999999997
+      },
+      {
+        "evaluation": 19,
+        "parameters_angstrom": [
+          1.530347079145052,
+          1.3466760385662786,
+          1.5054275247630695,
+          1.3786081109909294,
+          1.0980320807796082
+        ],
+        "delta_r_angstrom": 0.18367104057877337,
+        "energy_hartree": -454.95790768742927,
+        "scf_cycles": 0,
+        "metric_electron_count": 77.99999999999991
+      },
+      {
+        "evaluation": 20,
+        "parameters_angstrom": [
+          1.5311122526846246,
+          1.3466760385662786,
+          1.5054275247630695,
+          1.3786081109909294,
+          1.0980320807796082
+        ],
+        "delta_r_angstrom": 0.184436214118346,
+        "energy_hartree": -454.9579185221703,
+        "scf_cycles": 0,
+        "metric_electron_count": 78.0
+      },
+      {
+        "evaluation": 21,
+        "parameters_angstrom": [
+          1.530347079145052,
+          1.3473493765855618,
+          1.5054275247630695,
+          1.3786081109909294,
+          1.0980320807796082
+        ],
+        "delta_r_angstrom": 0.18299770255949022,
+        "energy_hartree": -454.95790446849423,
+        "scf_cycles": 0,
+        "metric_electron_count": 78.0
+      },
+      {
+        "evaluation": 22,
+        "parameters_angstrom": [
+          1.530347079145052,
+          1.3466760385662786,
+          1.506180238525451,
+          1.3786081109909294,
+          1.0980320807796082
+        ],
+        "delta_r_angstrom": 0.18367104057877337,
+        "energy_hartree": -454.95790610688255,
+        "scf_cycles": 0,
+        "metric_electron_count": 78.00000000000009
+      },
+      {
+        "evaluation": 23,
+        "parameters_angstrom": [
+          1.530347079145052,
+          1.3466760385662786,
+          1.5054275247630695,
+          1.3792974150464248,
+          1.0980320807796082
+        ],
+        "delta_r_angstrom": 0.18367104057877337,
+        "energy_hartree": -454.95790387347813,
+        "scf_cycles": 0,
+        "metric_electron_count": 78.0
+      },
+      {
+        "evaluation": 24,
+        "parameters_angstrom": [
+          1.530347079145052,
+          1.3466760385662786,
+          1.5054275247630695,
+          1.3786081109909294,
+          1.098581096819998
+        ],
+        "delta_r_angstrom": 0.18367104057877337,
+        "energy_hartree": -454.957906203648,
+        "scf_cycles": 0,
+        "metric_electron_count": 78.00000000000003
+      },
+      {
+        "evaluation": 25,
+        "parameters_angstrom": [
+          1.534260191855123,
+          1.3454530357708234,
+          1.5050950606793567,
+          1.3772218401067242,
+          1.097410984398103
+        ],
+        "delta_r_angstrom": 0.18880715608429965,
+        "energy_hartree": -454.9579431758398,
+        "scf_cycles": 0,
+        "metric_electron_count": 77.99999999999989
+      },
+      {
+        "evaluation": 26,
+        "parameters_angstrom": [
+          1.5350273219510506,
+          1.3454530357708234,
+          1.5050950606793567,
+          1.3772218401067242,
+          1.097410984398103
+        ],
+        "delta_r_angstrom": 0.1895742861802272,
+        "energy_hartree": -454.95794587277874,
+        "scf_cycles": 0,
+        "metric_electron_count": 78.00000000000009
+      },
+      {
+        "evaluation": 27,
+        "parameters_angstrom": [
+          1.534260191855123,
+          1.3461257622887088,
+          1.5050950606793567,
+          1.3772218401067242,
+          1.097410984398103
+        ],
+        "delta_r_angstrom": 0.18813442956641424,
+        "energy_hartree": -454.95794351507107,
+        "scf_cycles": 0,
+        "metric_electron_count": 78.00000000000011
+      },
+      {
+        "evaluation": 28,
+        "parameters_angstrom": [
+          1.534260191855123,
+          1.3454530357708234,
+          1.5058476082096963,
+          1.3772218401067242,
+          1.097410984398103
+        ],
+        "delta_r_angstrom": 0.18880715608429965,
+        "energy_hartree": -454.95794255019905,
+        "scf_cycles": 0,
+        "metric_electron_count": 78.00000000000003
+      },
+      {
+        "evaluation": 29,
+        "parameters_angstrom": [
+          1.534260191855123,
+          1.3454530357708234,
+          1.5050950606793567,
+          1.3779104510267777,
+          1.097410984398103
+        ],
+        "delta_r_angstrom": 0.18880715608429965,
+        "energy_hartree": -454.9579453939873,
+        "scf_cycles": 0,
+        "metric_electron_count": 78.00000000000003
+      },
+      {
+        "evaluation": 30,
+        "parameters_angstrom": [
+          1.534260191855123,
+          1.3454530357708234,
+          1.5050950606793567,
+          1.3772218401067242,
+          1.0979596898903021
+        ],
+        "delta_r_angstrom": 0.18880715608429965,
+        "energy_hartree": -454.9579448306673,
+        "scf_cycles": 0,
+        "metric_electron_count": 78.00000000000027
+      }
+    ]
+  },
+  "optimized_PLG_geometry": {
+    "parameters_angstrom": [
+      1.420238266600964,
+      1.399513342016183,
+      1.505324798188872,
+      1.3488867565766285,
+      1.096153828735858
+    ],
+    "atoms_angstrom": [
+      [
+        "C",
+        1.4098758043085737,
+        -0.005982770393979431,
+        0.0
+      ],
+      [
+        "C",
+        0.699756671008092,
+        1.2239796479092317,
+        0.0
+      ],
+      [
+        "C",
+        -0.6997566710080909,
+        1.223979647909232,
+        0.0
+      ],
+      [
+        "C",
+        -1.4098758043085737,
+        -0.005982770393978765,
+        0.0
+      ],
+      [
+        "C",
+        -0.7101191333004822,
+        -1.2179968775152528,
+        0.0
+      ],
+      [
+        "C",
+        0.7101191333004819,
+        -1.2179968775152528,
+        0.0
+      ],
+      [
+        "C",
+        2.695321277194879,
+        0.7773643329251504,
+        0.0
+      ],
+      [
+        "C",
+        2.020877898906565,
+        1.945534530948907,
+        0.0
+      ],
+      [
+        "C",
+        -2.020877898906564,
+        1.9455345309489078,
+        0.0
+      ],
+      [
+        "C",
+        -2.6953212771948785,
+        0.7773643329251517,
+        0.0
+      ],
+      [
+        "C",
+        -0.6744433782883145,
+        -2.7228988638740588,
+        0.0
+      ],
+      [
+        "C",
+        0.674443378288314,
+        -2.7228988638740588,
+        0.0
+      ],
+      [
+        "H",
+        3.757412323245882,
+        0.5062263124437585,
+        0.0
+      ],
+      [
+        "H",
+        2.317111008263357,
+        3.000901368201759,
+        0.0
+      ],
+      [
+        "H",
+        -2.3171110082633546,
+        3.0009013682017605,
+        0.0
+      ],
+      [
+        "H",
+        -3.757412323245881,
+        0.5062263124437605,
+        0.0
+      ],
+      [
+        "H",
+        -1.4403013149825266,
+        -3.5071276806455196,
+        0.0
+      ],
+      [
+        "H",
+        1.4403013149825261,
+        -3.5071276806455196,
+        0.0
+      ]
+    ],
+    "metrics": {
+      "rendo_angstrom": 1.420238266600964,
+      "rexo_angstrom": 1.399513342016183,
+      "delta_r_angstrom": 0.020724924584781146,
+      "rside_angstrom": 1.5053247981888722,
+      "router_angstrom": 1.3488867565766283,
+      "maximum_out_of_plane_angstrom": 0.0,
+      "rCH_angstrom": 1.096153828735858
+    }
+  },
+  "PLG_state": {
+    "converged": true,
+    "cycles": 12,
+    "total_energy_hartree": -455.0113621577849,
+    "electronic_energy_hartree": -1028.5308795309008,
+    "nuclear_repulsion_hartree": 573.519517373116,
+    "one_electron_energy_hartree": -1753.6262016249707,
+    "coulomb_energy_hartree": 792.2982417161215,
+    "exact_exchange_energy_hartree": -12.854713434361429,
+    "semilocal_xc_energy_hartree": -54.34820618769024,
+    "energy_component_closure_residual_hartree": 0.0,
+    "grid_electron_count": 78.00002833403092,
+    "masked_metric_electron_count": 77.99999999999999,
+    "physical_metric_electron_count": 77.99999999999999,
+    "masked_overlap_minimum_eigenvalue": 0.16334437107145613,
+    "masked_overlap_condition_number": 16.106495780848068,
+    "masked_overlap_cross_pi_max_abs": 0.0,
+    "conditional_fock_cross_pi_max_abs": 0.0,
+    "deleted_eri_count": 1275264,
+    "total_eri_count": 18974736,
+    "deleted_eri_fraction": 0.06720852400792296,
+    "exact_exchange_fraction": 0.2,
+    "final_commutator_frobenius_norm": 3.1723264604039697e-09,
+    "closed_shell_idempotency_relative_residual": 2.749750484607335e-15,
+    "occupied_virtual_gap_hartree": 0.28187216257045733,
+    "history": [
+      {
+        "cycle": 1.0,
+        "total_energy_hartree": -454.76370362092155,
+        "energy_change_hartree": Infinity,
+        "density_residual": 0.17745097740584906,
+        "commutator_frobenius_norm": 0.8477500851945576,
+        "masked_metric_electron_count": 77.59381303772565,
+        "physical_metric_electron_count": 77.82761937751026
+      },
+      {
+        "cycle": 2.0,
+        "total_energy_hartree": -454.95681746946786,
+        "energy_change_hartree": 0.19311384854631797,
+        "density_residual": 0.04278928963241209,
+        "commutator_frobenius_norm": 0.18824694268779127,
+        "masked_metric_electron_count": 77.91876260754515,
+        "physical_metric_electron_count": 77.96552387550207
+      },
+      {
+        "cycle": 3.0,
+        "total_energy_hartree": -455.0000343627827,
+        "energy_change_hartree": 0.04321689331482048,
+        "density_residual": 0.011847253733038894,
+        "commutator_frobenius_norm": 0.04185324014380889,
+        "masked_metric_electron_count": 77.98375252150905,
+        "physical_metric_electron_count": 77.99310477510043
+      },
+      {
+        "cycle": 4.0,
+        "total_energy_hartree": -455.011334349634,
+        "energy_change_hartree": 0.011299986851327048,
+        "density_residual": 0.0015846633671524962,
+        "commutator_frobenius_norm": 0.007582042326193197,
+        "masked_metric_electron_count": 78.00000000000001,
+        "physical_metric_electron_count": 78.00000000000001
+      },
+      {
+        "cycle": 5.0,
+        "total_energy_hartree": -455.01135945708063,
+        "energy_change_hartree": 2.5107446617766982e-05,
+        "density_residual": 0.0005815251509667104,
+        "commutator_frobenius_norm": 0.002420233809511241,
+        "masked_metric_electron_count": 77.99999999999996,
+        "physical_metric_electron_count": 77.99999999999996
+      },
+      {
+        "cycle": 6.0,
+        "total_energy_hartree": -455.0113615640124,
+        "energy_change_hartree": 2.1069317881483585e-06,
+        "density_residual": 0.00021128410934825287,
+        "commutator_frobenius_norm": 0.0014728857767986215,
+        "masked_metric_electron_count": 78.00000000000001,
+        "physical_metric_electron_count": 78.00000000000001
+      },
+      {
+        "cycle": 7.0,
+        "total_energy_hartree": -455.01136203151543,
+        "energy_change_hartree": 4.6750301407882944e-07,
+        "density_residual": 7.507160401360079e-05,
+        "commutator_frobenius_norm": 0.000712473267497159,
+        "masked_metric_electron_count": 78.0,
+        "physical_metric_electron_count": 78.0
+      },
+      {
+        "cycle": 8.0,
+        "total_energy_hartree": -455.0113621571551,
+        "energy_change_hartree": 1.256396444659913e-07,
+        "density_residual": 9.353763162471721e-06,
+        "commutator_frobenius_norm": 4.7452444120173016e-05,
+        "masked_metric_electron_count": 78.00000000000001,
+        "physical_metric_electron_count": 78.00000000000001
+      },
+      {
+        "cycle": 9.0,
+        "total_energy_hartree": -455.01136215738586,
+        "energy_change_hartree": 2.3078428057488054e-10,
+        "density_residual": 4.507173722540804e-06,
+        "commutator_frobenius_norm": 3.7389193011946965e-05,
+        "masked_metric_electron_count": 77.99999999999999,
+        "physical_metric_electron_count": 77.99999999999999
+      },
+      {
+        "cycle": 10.0,
+        "total_energy_hartree": -455.01136215778286,
+        "energy_change_hartree": 3.969944373238832e-10,
+        "density_residual": 5.616373957290382e-07,
+        "commutator_frobenius_norm": 3.4445527900608382e-06,
+        "masked_metric_electron_count": 77.99999999999999,
+        "physical_metric_electron_count": 77.99999999999999
+      },
+      {
+        "cycle": 11.0,
+        "total_energy_hartree": -455.0113621577849,
+        "energy_change_hartree": 2.0463630789890885e-12,
+        "density_residual": 1.9688459444506805e-07,
+        "commutator_frobenius_norm": 1.7964318320339954e-06,
+        "masked_metric_electron_count": 77.99999999999999,
+        "physical_metric_electron_count": 77.99999999999999
+      },
+      {
+        "cycle": 12.0,
+        "total_energy_hartree": -455.01136215778513,
+        "energy_change_hartree": 2.2737367544323206e-13,
+        "density_residual": 6.0664508003598775e-09,
+        "commutator_frobenius_norm": 3.1784416679734155e-08,
+        "masked_metric_electron_count": 78.00000000000003,
+        "physical_metric_electron_count": 78.00000000000003
+      }
+    ]
+  },
+  "PLG_optimizer": {
+    "success": true,
+    "status": 0,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "iterations": 3,
+    "function_evaluations": 30,
+    "gradient_hartree_per_angstrom": [
+      -0.0068089920995400375,
+      0.00881764221171446,
+      0.0015591148653526664,
+      -0.00018031504519821332,
+      -0.0027873909406967625
+    ],
+    "gradient_max_abs_hartree_per_angstrom": 0.00881764221171446,
+    "active_bounds": [],
+    "bounds_angstrom": [
+      [
+        1.2,
+        1.7
+      ],
+      [
+        1.2,
+        1.7
+      ],
+      [
+        1.25,
+        1.7
+      ],
+      [
+        1.2,
+        1.55
+      ],
+      [
+        0.95,
+        1.2
+      ]
+    ],
+    "evaluations": [
+      {
+        "evaluation": 1,
+        "parameters_angstrom": [
+          1.393,
+          1.395,
+          1.445,
+          1.346,
+          1.08
+        ],
+        "delta_r_angstrom": -0.0020000000000000018,
+        "energy_hartree": -454.9936390141522,
+        "scf_cycles": 12,
+        "metric_electron_count": 78.0
+      },
+      {
+        "evaluation": 2,
+        "parameters_angstrom": [
+          1.3936965000000001,
+          1.395,
+          1.445,
+          1.346,
+          1.08
+        ],
+        "delta_r_angstrom": -0.001303499999999902,
+        "energy_hartree": -454.9937262577391,
+        "scf_cycles": 12,
+        "metric_electron_count": 78.00000000000003
+      },
+      {
+        "evaluation": 3,
+        "parameters_angstrom": [
+          1.393,
+          1.3956975,
+          1.445,
+          1.346,
+          1.08
+        ],
+        "delta_r_angstrom": -0.0026975000000000193,
+        "energy_hartree": -454.99367646622807,
+        "scf_cycles": 12,
+        "metric_electron_count": 78.0
+      },
+      {
+        "evaluation": 4,
+        "parameters_angstrom": [
+          1.393,
+          1.395,
+          1.4457225,
+          1.346,
+          1.08
+        ],
+        "delta_r_angstrom": -0.0020000000000000018,
+        "energy_hartree": -454.99400189021856,
+        "scf_cycles": 12,
+        "metric_electron_count": 78.00000000000001
+      },
+      {
+        "evaluation": 5,
+        "parameters_angstrom": [
+          1.393,
+          1.395,
+          1.445,
+          1.346673,
+          1.08
+        ],
+        "delta_r_angstrom": -0.0020000000000000018,
+        "energy_hartree": -454.99365479843857,
+        "scf_cycles": 12,
+        "metric_electron_count": 78.00000000000001
+      },
+      {
+        "evaluation": 6,
+        "parameters_angstrom": [
+          1.393,
+          1.395,
+          1.445,
+          1.346,
+          1.08054
+        ],
+        "delta_r_angstrom": -0.0020000000000000018,
+        "energy_hartree": -454.9937185896706,
+        "scf_cycles": 12,
+        "metric_electron_count": 77.99999999999999
+      },
+      {
+        "evaluation": 7,
+        "parameters_angstrom": [
+          1.5182599955551164,
+          1.4486947323930561,
+          1.7,
+          1.3694536201297174,
+          1.2
+        ],
+        "delta_r_angstrom": 0.06956526316206024,
+        "energy_hartree": -454.8447345442763,
+        "scf_cycles": 13,
+        "metric_electron_count": 78.0
+      },
+      {
+        "evaluation": 8,
+        "parameters_angstrom": [
+          1.519019125552894,
+          1.4486947323930561,
+          1.7,
+          1.3694536201297174,
+          1.2
+        ],
+        "delta_r_angstrom": 0.07032439315983785,
+        "energy_hartree": -454.844481388964,
+        "scf_cycles": 13,
+        "metric_electron_count": 78.00000000000003
+      },
+      {
+        "evaluation": 9,
+        "parameters_angstrom": [
+          1.5182599955551164,
+          1.4494190797592525,
+          1.7,
+          1.3694536201297174,
+          1.2
+        ],
+        "delta_r_angstrom": 0.06884091579586382,
+        "energy_hartree": -454.8444948805444,
+        "scf_cycles": 13,
+        "metric_electron_count": 78.0
+      },
+      {
+        "evaluation": 10,
+        "parameters_angstrom": [
+          1.5182599955551164,
+          1.4486947323930561,
+          1.69915,
+          1.3694536201297174,
+          1.2
+        ],
+        "delta_r_angstrom": 0.06956526316206024,
+        "energy_hartree": -454.84547819591535,
+        "scf_cycles": 13,
+        "metric_electron_count": 77.99999999999997
+      },
+      {
+        "evaluation": 11,
+        "parameters_angstrom": [
+          1.5182599955551164,
+          1.4486947323930561,
+          1.7,
+          1.3701383469397823,
+          1.2
+        ],
+        "delta_r_angstrom": 0.06956526316206024,
+        "energy_hartree": -454.8446268096236,
+        "scf_cycles": 13,
+        "metric_electron_count": 77.99999999999997
+      },
+      {
+        "evaluation": 12,
+        "parameters_angstrom": [
+          1.5182599955551164,
+          1.4486947323930561,
+          1.7,
+          1.3694536201297174,
+          1.1994
+        ],
+        "delta_r_angstrom": 0.06956526316206024,
+        "energy_hartree": -454.84515221069194,
+        "scf_cycles": 13,
+        "metric_electron_count": 78.0
+      },
+      {
+        "evaluation": 13,
+        "parameters_angstrom": [
+          1.4204571319150463,
+          1.4067699457350733,
+          1.5008962868177336,
+          1.3511410599124898,
+          1.1063041349730511
+        ],
+        "delta_r_angstrom": 0.013687186179972999,
+        "energy_hartree": -455.01068888008047,
+        "scf_cycles": 12,
+        "metric_electron_count": 78.00000000000001
+      },
+      {
+        "evaluation": 14,
+        "parameters_angstrom": [
+          1.4211673604810038,
+          1.4067699457350733,
+          1.5008962868177336,
+          1.3511410599124898,
+          1.1063041349730511
+        ],
+        "delta_r_angstrom": 0.014397414745930481,
+        "energy_hartree": -455.0106843579737,
+        "scf_cycles": 12,
+        "metric_electron_count": 78.00000000000003
+      },
+      {
+        "evaluation": 15,
+        "parameters_angstrom": [
+          1.4204571319150463,
+          1.4074733307079408,
+          1.5008962868177336,
+          1.3511410599124898,
+          1.1063041349730511
+        ],
+        "delta_r_angstrom": 0.012983801207105516,
+        "energy_hartree": -455.01066004901315,
+        "scf_cycles": 12,
+        "metric_electron_count": 78.0
+      },
+      {
+        "evaluation": 16,
+        "parameters_angstrom": [
+          1.4204571319150463,
+          1.4067699457350733,
+          1.5016467349611424,
+          1.3511410599124898,
+          1.1063041349730511
+        ],
+        "delta_r_angstrom": 0.013687186179972999,
+        "energy_hartree": -455.0107133507414,
+        "scf_cycles": 12,
+        "metric_electron_count": 77.99999999999999
+      },
+      {
+        "evaluation": 17,
+        "parameters_angstrom": [
+          1.4204571319150463,
+          1.4067699457350733,
+          1.5008962868177336,
+          1.351816630442446,
+          1.1063041349730511
+        ],
+        "delta_r_angstrom": 0.013687186179972999,
+        "energy_hartree": -455.01067856152486,
+        "scf_cycles": 12,
+        "metric_electron_count": 78.0
+      },
+      {
+        "evaluation": 18,
+        "parameters_angstrom": [
+          1.4204571319150463,
+          1.4067699457350733,
+          1.5008962868177336,
+          1.3511410599124898,
+          1.1068572870405378
+        ],
+        "delta_r_angstrom": 0.013687186179972999,
+        "energy_hartree": -455.0106402877309,
+        "scf_cycles": 12,
+        "metric_electron_count": 77.99999999999999
+      },
+      {
+        "evaluation": 19,
+        "parameters_angstrom": [
+          1.4193692675341594,
+          1.4017501633055651,
+          1.5051015713849532,
+          1.3492614476131537,
+          1.0956432066644928
+        ],
+        "delta_r_angstrom": 0.01761910422859425,
+        "energy_hartree": -455.01132523554907,
+        "scf_cycles": 12,
+        "metric_electron_count": 77.99999999999996
+      },
+      {
+        "evaluation": 20,
+        "parameters_angstrom": [
+          1.4200789521679265,
+          1.4017501633055651,
+          1.5051015713849532,
+          1.3492614476131537,
+          1.0956432066644928
+        ],
+        "delta_r_angstrom": 0.018328788862361334,
+        "energy_hartree": -455.01133012516743,
+        "scf_cycles": 12,
+        "metric_electron_count": 78.00000000000001
+      },
+      {
+        "evaluation": 21,
+        "parameters_angstrom": [
+          1.4193692675341594,
+          1.402451038387218,
+          1.5051015713849532,
+          1.3492614476131537,
+          1.0956432066644928
+        ],
+        "delta_r_angstrom": 0.01691822914694141,
+        "energy_hartree": -455.01131307743105,
+        "scf_cycles": 12,
+        "metric_electron_count": 78.0
+      },
+      {
+        "evaluation": 22,
+        "parameters_angstrom": [
+          1.4193692675341594,
+          1.4017501633055651,
+          1.5058541221706456,
+          1.3492614476131537,
+          1.0956432066644928
+        ],
+        "delta_r_angstrom": 0.01761910422859425,
+        "energy_hartree": -455.0113251268025,
+        "scf_cycles": 12,
+        "metric_electron_count": 78.0
+      },
+      {
+        "evaluation": 23,
+        "parameters_angstrom": [
+          1.4193692675341594,
+          1.4017501633055651,
+          1.5051015713849532,
+          1.3499360783369603,
+          1.0956432066644928
+        ],
+        "delta_r_angstrom": 0.01761910422859425,
+        "energy_hartree": -455.0113234616391,
+        "scf_cycles": 12,
+        "metric_electron_count": 77.99999999999997
+      },
+      {
+        "evaluation": 24,
+        "parameters_angstrom": [
+          1.4193692675341594,
+          1.4017501633055651,
+          1.5051015713849532,
+          1.3492614476131537,
+          1.096191028267825
+        ],
+        "delta_r_angstrom": 0.01761910422859425,
+        "energy_hartree": -455.0113293029377,
+        "scf_cycles": 12,
+        "metric_electron_count": 77.99999999999997
+      },
+      {
+        "evaluation": 25,
+        "parameters_angstrom": [
+          1.420238266600964,
+          1.399513342016183,
+          1.505324798188872,
+          1.3488867565766285,
+          1.096153828735858
+        ],
+        "delta_r_angstrom": 0.020724924584781146,
+        "energy_hartree": -455.01136215778536,
+        "scf_cycles": 12,
+        "metric_electron_count": 77.99999999999997
+      },
+      {
+        "evaluation": 26,
+        "parameters_angstrom": [
+          1.4209483857342646,
+          1.399513342016183,
+          1.505324798188872,
+          1.3488867565766285,
+          1.096153828735858
+        ],
+        "delta_r_angstrom": 0.021435043718081692,
+        "energy_hartree": -455.0113669929809,
+        "scf_cycles": 12,
+        "metric_electron_count": 77.99999999999999
+      },
+      {
+        "evaluation": 27,
+        "parameters_angstrom": [
+          1.420238266600964,
+          1.400213098687191,
+          1.505324798188872,
+          1.3488867565766285,
+          1.096153828735858
+        ],
+        "delta_r_angstrom": 0.020025167913773068,
+        "energy_hartree": -455.0113559875814,
+        "scf_cycles": 12,
+        "metric_electron_count": 78.00000000000003
+      },
+      {
+        "evaluation": 28,
+        "parameters_angstrom": [
+          1.420238266600964,
+          1.399513342016183,
+          1.5060774605879663,
+          1.3488867565766285,
+          1.096153828735858
+        ],
+        "delta_r_angstrom": 0.020724924584781146,
+        "energy_hartree": -455.0113609842982,
+        "scf_cycles": 12,
+        "metric_electron_count": 78.00000000000003
+      },
+      {
+        "evaluation": 29,
+        "parameters_angstrom": [
+          1.420238266600964,
+          1.399513342016183,
+          1.505324798188872,
+          1.3495611999549169,
+          1.096153828735858
+        ],
+        "delta_r_angstrom": 0.020724924584781146,
+        "energy_hartree": -455.01136227939764,
+        "scf_cycles": 12,
+        "metric_electron_count": 78.00000000000003
+      },
+      {
+        "evaluation": 30,
+        "parameters_angstrom": [
+          1.420238266600964,
+          1.399513342016183,
+          1.505324798188872,
+          1.3488867565766285,
+          1.096701905650226
+        ],
+        "delta_r_angstrom": 0.020724924584781146,
+        "energy_hartree": -455.01136368549,
+        "scf_cycles": 12,
+        "metric_electron_count": 77.99999999999999
+      }
+    ]
+  },
+  "d_delta_r_GP_angstrom": 0.16808223149951873,
+  "technical_endpoint_kcal_mol": 33.52091726451775,
+  "acceptance_checks": {
+    "G_optimizer_success": true,
+    "G_no_active_bound": true,
+    "G_state_converged": true,
+    "G_78_electrons": true,
+    "PLG_optimizer_success": true,
+    "PLG_no_active_bound": true,
+    "PLG_state_converged": true,
+    "PLG_78_electrons": true,
+    "PLG_energy_components_close": true,
+    "PLG_commutator_closed": true,
+    "PLG_density_idempotent": true,
+    "scientific_classification_disabled": true,
+    "memory_within_pilot_limit": true
+  },
+  "pilot_gate_verdict": "PASS",
+  "wall_time_seconds": 229.497243652,
+  "peak_rss_mib": 696.75390625,
+  "thread_count": 8,
+  "production_label": false,
+  "training_eligible": false
+}

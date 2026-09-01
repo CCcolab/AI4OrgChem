@@ -1,6 +1,5 @@
 {
   "schema_version": 1,
-  "public_result_role": "navigation_copy_of_deterministically_rebuilt_classification",
   "protocol_id": "p14-strained-aromatic-pi-distortivity/0.1",
   "proposition_id": "P14",
   "proposition": "strained-aromatic bond-length distortion requires an independently identifiable pi-distortivity contribution beyond angle strain alone",

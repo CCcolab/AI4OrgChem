@@ -88,6 +88,8 @@ TEXT_SUFFIXES = {
     ".cff",
     ".toml",
     ".sh",
+    ".txt",
+    ".xyz",
     "",
 }
 SECRET = re.compile(
@@ -109,6 +111,19 @@ SIBLING_REPOSITORY_LINK = re.compile(
 MARKDOWN_LINK = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
 INVENTORY_ROW = re.compile(r"^\| `([^`]+)` \|", re.MULTILINE)
 MAX_FILE_BYTES = 25 * 1024 * 1024
+
+
+def reject_duplicate_keys(pairs: list[tuple[str, object]]) -> dict[str, object]:
+    result: dict[str, object] = {}
+    for key, value in pairs:
+        if key in result:
+            raise ValueError(f"duplicate JSON key: {key}")
+        result[key] = value
+    return result
+
+
+def strict_json_loads(text: str) -> object:
+    return json.loads(text, object_pairs_hook=reject_duplicate_keys)
 
 
 def digest(path: Path) -> str:
@@ -153,14 +168,14 @@ def validate_text_file(path: Path, failures: list[str]) -> None:
         elif suffix == ".py":
             ast.parse(text, filename=relative)
         elif suffix == ".json":
-            json.loads(text)
+            strict_json_loads(text)
         elif suffix == ".jsonl":
             for number, line in enumerate(text.splitlines(), start=1):
                 if line.strip():
                     try:
-                        json.loads(line)
-                    except json.JSONDecodeError:
-                        failures.append(f"JSONL syntax error: {relative}:{number}")
+                        strict_json_loads(line)
+                    except (json.JSONDecodeError, ValueError) as exc:
+                        failures.append(f"JSONL syntax error: {relative}:{number}: {exc}")
         elif suffix in {".yaml", ".yml", ".cff"}:
             parsed = yaml.safe_load(text)
             if suffix == ".cff":
@@ -175,7 +190,7 @@ def validate_text_file(path: Path, failures: list[str]) -> None:
                     for author in parsed["authors"]
                 ):
                     failures.append(f"CFF author name fields incomplete: {relative}")
-    except (SyntaxError, json.JSONDecodeError, yaml.YAMLError) as exc:
+    except (SyntaxError, json.JSONDecodeError, ValueError, yaml.YAMLError) as exc:
         failures.append(f"syntax error: {relative}: {exc}")
 
 
@@ -190,6 +205,7 @@ def validate_workflow(failures: list[str]) -> None:
         "persist-credentials: false",
         "validate_release_package.py",
         "validate_public_evidence.py",
+        "validate_p14_evidence.py",
         "validate_evidence_navigation.py",
         "validate_wsl_release.py",
         "pytest",
@@ -285,7 +301,7 @@ def main() -> int:
     if not MANIFEST.is_file():
         failures.append("SHA-256 manifest missing")
     else:
-        manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+        manifest = strict_json_loads(MANIFEST.read_text(encoding="utf-8"))
         rows = {row["path"]: row for row in manifest.get("files", [])}
         manifest_rows = len(rows)
         actual = {

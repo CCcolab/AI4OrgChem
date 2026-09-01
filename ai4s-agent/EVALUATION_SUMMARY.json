@@ -3,6 +3,12 @@
   "system": "AI4OrgChem AI4S Agent",
   "snapshot_date": "2026-08-26",
   "status": "completed_bounded_engineering_evaluation",
+  "agent_maturity": {
+    "level": "M1_plus",
+    "meaning": "auditable_evidence_workflow",
+    "externally_replayable_agent_runtime": false,
+    "M2_claimed": false
+  },
   "evidence_scope": "summary of frozen local engineering reports; models, caches, and private run directories are excluded from the first GitHub package",
   "scientific_propositions": {
     "total": 14,

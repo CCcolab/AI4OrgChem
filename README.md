@@ -43,6 +43,8 @@ These results support a bounded methodological conclusion: several textbook heur
 
 The fourteen propositions form a layered, auditable evidence chain rather than fourteen equal-status quantum-chemistry reproductions. Independent QM, source-aligned/source-proxy reconstruction, published-value reanalysis, and graph/literature evidence retain distinct identities.
 
+The 12+2 numbers are **proposition-level classifications**, not a count of fourteen mutually independent quantum-chemistry validations. P07 is a `DERIVED` synthesis of P04-P06 and adds no new QM evidence. P14 now publishes its lower-level records, source-proxy coordinates, and deterministic decision rebuild, while remaining limited to one C12H6 system.
+
 See the [P01-P14 evidence matrix](manuscripts/P01-P14_evidence_matrix_zh-CN.md) and the [evidence collection](evidence/P01-P14/README.md).
 
 Quantum-chemistry experts who do not work with GitHub, AI, or software engineering can begin with the [Rapid Review Guide for Quantum-Chemistry Experts](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md): understand the overall argument in 10 minutes and audit any single proposition in 30 minutes without reading code first.
