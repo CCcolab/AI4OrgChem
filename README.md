@@ -13,9 +13,9 @@ AI4OrgChem is an **AI for Science (AI4S) Agent** for independent computational r
 
 > **AI-assisted research and engineering:** **OpenAI Codex (GPT-5.6)**. Project authorship, scientific decisions, interpretations, and publication responsibility remain with Xiao Chen; OpenAI is not presented as a project author, scientific certifier, peer reviewer, or institutional endorser.
 
-> **Release status:** security-hardened curated release `v0.1.2`. The associated manuscript has not yet undergone peer review.
+> **Release status:** Science Enhancement Release `v0.2.0`. The associated manuscript has not yet undergone peer review.
 
-> **V0.2 development:** [Gate V2-0 has passed](development/science-v0.2/README.md), and WP1/WP3 are separately authorized to start but have not started. The public development snapshot adds no CBD or Hessian scientific result and does not change the frozen P01-P14 classifications.
+> **Science V0.2:** [the self-contained evidence package](science-v0.2/README.md) adds completed WP1 cyclobutadiene multireference evidence and WP3 benzene-mechanism intervention, an auditable WP2 backend-contract failure, an explicit unresolved WP4 outcome, and an internal clean evidence replay. The frozen V0.1 P01-P14 classifications are unchanged.
 
 ## Why this project exists
 
@@ -79,7 +79,7 @@ The dataset is too small for industrial or universal molecular generalization. D
 | [`software/`](software/README.md) | Public LFMO/conditional-SCF implementation and 64 focused tests |
 | [`reproducibility/`](reproducibility/README.md) | Runtime instructions and WSL 2 platform boundaries |
 | [`figures/`](figures/README.md) | Project-authored overview figure |
-| [`development/science-v0.2/`](development/science-v0.2/README.md) | Auditable Gate V2-0 PASS and WP1/WP3 start-authorization snapshot; no new scientific result or release |
+| [`science-v0.2/`](science-v0.2/README.md) | Self-contained V0.2 configurations, selected machine results, decisions, reports, rebuild scripts, tests, and hashes |
 | [`manifests/`](manifests/FILE_INVENTORY.md) | File inventory and SHA-256 release manifest |
 
 ## Detailed computation guide (WSL 2) / 详细计算介绍

@@ -1,5 +1,9 @@
 # Science V0.2 development track / 科学增强开发线
 
+> **Historical WP0 snapshot / 历史WP0快照：** This directory preserves the preregistration and authorization state before WP1/WP3 scientific execution. It is not the current V0.2 status. See the released self-contained package at [`../../science-v0.2/`](../../science-v0.2/README.md).
+
+> 本目录保留WP1/WP3科学执行前的预注册与授权时点，仅用于历史审计，不代表当前V0.2状态。当前发布证据见[`../../science-v0.2/`](../../science-v0.2/README.md)。
+
 This directory is a **development snapshot**, not a new scientific release. It preserves the
 Gate V2-0 contracts, machine-readable records, environment identity, final Gate decision, and
 separate work-package authorizations for the planned V0.2 evidence-strengthening work. The

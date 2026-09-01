@@ -1,0 +1,494 @@
+{
+  "schema_version": "1.0",
+  "work_package": "WP1",
+  "claim_id": "P09-B",
+  "estimand_id": "P09B_CBD_PHYSICAL_AUTOMERIZATION",
+  "config_sha256": "33666bdc59367880a79f8cf02ab9cb1d3e71f4dab6ca7e7cb1f135ba84213115",
+  "scientific_energy_calculation": true,
+  "stage_requested": "endpoints",
+  "started_epoch": 1788256481.6582983,
+  "status": "PASS",
+  "failures": [],
+  "optimized_endpoints": {
+    "D2h": {
+      "kind": "D2h",
+      "optimizer_success": true,
+      "optimizer_status": 0,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "parameters_angstrom": [
+        0.7906348327560778,
+        0.6694308905869713,
+        1.5600966622589263,
+        1.4420476511460016
+      ],
+      "geometry_atoms_angstrom": [
+        [
+          "C",
+          -0.7906348327560778,
+          -0.6694308905869713,
+          0.0
+        ],
+        [
+          "C",
+          -0.7906348327560778,
+          0.6694308905869713,
+          0.0
+        ],
+        [
+          "C",
+          0.7906348327560778,
+          0.6694308905869713,
+          0.0
+        ],
+        [
+          "C",
+          0.7906348327560778,
+          -0.6694308905869713,
+          0.0
+        ],
+        [
+          "H",
+          -1.5600966622589263,
+          -1.4420476511460016,
+          0.0
+        ],
+        [
+          "H",
+          -1.5600966622589263,
+          1.4420476511460016,
+          0.0
+        ],
+        [
+          "H",
+          1.5600966622589263,
+          1.4420476511460016,
+          0.0
+        ],
+        [
+          "H",
+          1.5600966622589263,
+          -1.4420476511460016,
+          0.0
+        ]
+      ],
+      "energy_hartree": -154.68664887517355,
+      "evaluations": [
+        {
+          "parameters_angstrom": [
+            0.7891946513,
+            0.6673841147,
+            1.550188781,
+            1.4392126457
+          ],
+          "energy_hartree": -154.68648055298627,
+          "projected_gradient_hartree_per_angstrom": [
+            0.01582304585983743,
+            -0.01529726837886397,
+            -0.026767908840719824,
+            -0.022673582189853495
+          ],
+          "gradient_rms_hartree_per_bohr": 0.0022366395106386385
+        },
+        {
+          "parameters_angstrom": [
+            0.7733716054401626,
+            0.6826813830788641,
+            1.5769566898407197,
+            1.4618862278898537
+          ],
+          "energy_hartree": -154.68183940748224,
+          "projected_gradient_hartree_per_angstrom": [
+            -0.24146772778875056,
+            0.12674031314936773,
+            0.10767992519035505,
+            0.09312818146934565
+          ],
+          "gradient_rms_hartree_per_bohr": 0.016614885933187787
+        },
+        {
+          "parameters_angstrom": [
+            0.7871238382276969,
+            0.6693861175766956,
+            1.5536919836094467,
+            1.4421800105683447
+          ],
+          "energy_hartree": -154.686592387629,
+          "projected_gradient_hartree_per_angstrom": [
+            -0.017930083672980084,
+            0.004402747686701548,
+            -0.008051889576766415,
+            -0.005904721182726411
+          ],
+          "gradient_rms_hartree_per_bohr": 0.0011336352574947129
+        },
+        {
+          "parameters_angstrom": [
+            0.7885661581322979,
+            0.669336159536272,
+            1.5552426497785696,
+            1.443398303477113
+          ],
+          "energy_hartree": -154.6866278715588,
+          "projected_gradient_hartree_per_angstrom": [
+            -0.010644339708982391,
+            0.0001496803258646546,
+            -0.004727281536958681,
+            -0.00210073914813884
+          ],
+          "gradient_rms_hartree_per_bohr": 0.0006392354014838608
+        },
+        {
+          "parameters_angstrom": [
+            0.7909646097705568,
+            0.6703329264835568,
+            1.557540230689003,
+            1.444548684405506
+          ],
+          "energy_hartree": -154.68663622796493,
+          "projected_gradient_hartree_per_angstrom": [
+            0.006815688830139449,
+            0.0181151350633253,
+            -0.004526931292600736,
+            -0.001959407145450046
+          ],
+          "gradient_rms_hartree_per_bohr": 0.001078751837329604
+        },
+        {
+          "parameters_angstrom": [
+            0.7908079965040902,
+            0.66926585381267,
+            1.5581012930136116,
+            1.4448592758668355
+          ],
+          "energy_hartree": -154.68664403183058,
+          "projected_gradient_hartree_per_angstrom": [
+            0.00021515011016851081,
+            -0.006109419183359261,
+            0.0006596001527672946,
+            0.0035463691414620267
+          ],
+          "gradient_rms_hartree_per_bohr": 0.00038336102179009927
+        },
+        {
+          "parameters_angstrom": [
+            0.7905531832323471,
+            0.6694975639310596,
+            1.5576989662602474,
+            1.4445070643477904
+          ],
+          "energy_hartree": -154.68664562612838,
+          "projected_gradient_hartree_per_angstrom": [
+            0.00022568770422467095,
+            -0.0001481162341986228,
+            -0.0011061417741008168,
+            0.0015764938908006017
+          ],
+          "gradient_rms_hartree_per_bohr": 0.00010502973435863904
+        },
+        {
+          "parameters_angstrom": [
+            0.7905374040593868,
+            0.669509850067633,
+            1.5577699146710042,
+            1.4443779908912144
+          ],
+          "energy_hartree": -154.6866459004138,
+          "projected_gradient_hartree_per_angstrom": [
+            0.000208242171778969,
+            0.0002559295405670523,
+            -0.001184805330095018,
+            0.0013710868143628114
+          ],
+          "gradient_rms_hartree_per_bohr": 9.947774266475026e-05
+        },
+        {
+          "parameters_angstrom": [
+            0.7904742873675453,
+            0.6695589946139263,
+            1.5580537083140316,
+            1.4438616970649105
+          ],
+          "energy_hartree": -154.6866467359787,
+          "projected_gradient_hartree_per_angstrom": [
+            0.00013825621949646342,
+            0.0018710727009042109,
+            -0.0014994480683166622,
+            0.0005501009675160125
+          ],
+          "gradient_rms_hartree_per_bohr": 0.00013307456027444574
+        },
+        {
+          "parameters_angstrom": [
+            0.7905073010516845,
+            0.6695383130194681,
+            1.5592625962364386,
+            1.4425921922722142
+          ],
+          "energy_hartree": -154.68664842651123,
+          "projected_gradient_hartree_per_angstrom": [
+            4.7393076939258165e-05,
+            0.002269462287331409,
+            -0.001017152410832531,
+            -0.00034542901552337416
+          ],
+          "gradient_rms_hartree_per_bohr": 0.0001356325836156803
+        },
+        {
+          "parameters_angstrom": [
+            0.7906345661157265,
+            0.6694406345817621,
+            1.560089394584733,
+            1.4420470542144637
+          ],
+          "energy_hartree": -154.68664887397256,
+          "projected_gradient_hartree_per_angstrom": [
+            4.3405932557714687e-05,
+            0.0002164091095764909,
+            -4.357701320443063e-05,
+            -4.5059781707579225e-05
+          ],
+          "gradient_rms_hartree_per_bohr": 1.2392231461144111e-05
+        },
+        {
+          "parameters_angstrom": [
+            0.790632944923209,
+            0.6694305232539386,
+            1.5600968564094821,
+            1.4420438909043187
+          ],
+          "energy_hartree": -154.6866488751504,
+          "projected_gradient_hartree_per_angstrom": [
+            -1.1924165800444508e-05,
+            -2.200472541658022e-06,
+            -2.000637055584856e-06,
+            -5.460857900105983e-06
+          ],
+          "gradient_rms_hartree_per_bohr": 7.263172627969395e-07
+        },
+        {
+          "parameters_angstrom": [
+            0.7906348327560778,
+            0.6694308905869713,
+            1.5600966622589263,
+            1.4420476511460016
+          ],
+          "energy_hartree": -154.68664887517355,
+          "projected_gradient_hartree_per_angstrom": [
+            -5.337618453227033e-07,
+            2.3628999116093512e-07,
+            -5.368638052492816e-08,
+            -6.070403197286837e-07
+          ],
+          "gradient_rms_hartree_per_bohr": 4.557645435748959e-08
+        }
+      ]
+    },
+    "D4h": {
+      "kind": "D4h",
+      "optimizer_success": true,
+      "optimizer_status": 0,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "parameters_angstrom": [
+        0.7224801525897071,
+        1.4922937403690755
+      ],
+      "geometry_atoms_angstrom": [
+        [
+          "C",
+          -0.7224801525897071,
+          -0.7224801525897071,
+          0.0
+        ],
+        [
+          "C",
+          -0.7224801525897071,
+          0.7224801525897071,
+          0.0
+        ],
+        [
+          "C",
+          0.7224801525897071,
+          0.7224801525897071,
+          0.0
+        ],
+        [
+          "C",
+          0.7224801525897071,
+          -0.7224801525897071,
+          0.0
+        ],
+        [
+          "H",
+          -1.4922937403690755,
+          -1.4922937403690755,
+          0.0
+        ],
+        [
+          "H",
+          -1.4922937403690755,
+          1.4922937403690755,
+          0.0
+        ],
+        [
+          "H",
+          1.4922937403690755,
+          1.4922937403690755,
+          0.0
+        ],
+        [
+          "H",
+          1.4922937403690755,
+          -1.4922937403690755,
+          0.0
+        ]
+      ],
+      "energy_hartree": -154.64535470230302,
+      "evaluations": [
+        {
+          "parameters_angstrom": [
+            0.7282893916,
+            1.494785477
+          ],
+          "energy_hartree": -154.6449025333402,
+          "projected_gradient_hartree_per_angstrom": [
+            0.16942374094890064,
+            -0.03493043032100425
+          ],
+          "gradient_rms_hartree_per_bohr": 0.05168862254248633
+        },
+        {
+          "parameters_angstrom": [
+            0.67,
+            1.5297159073210043
+          ],
+          "energy_hartree": -154.57313483462724,
+          "projected_gradient_hartree_per_angstrom": [
+            -2.275163581300792,
+            0.6510209949144468
+          ],
+          "gradient_rms_hartree_per_bohr": 0.11023535126599163
+        },
+        {
+          "parameters_angstrom": [
+            0.7243712884174688,
+            1.4971334347750114
+          ],
+          "energy_hartree": -154.64526603852806,
+          "projected_gradient_hartree_per_angstrom": [
+            0.014115711283184057,
+            0.03098776458193484
+          ],
+          "gradient_rms_hartree_per_bohr": 0.05199648635676092
+        },
+        {
+          "parameters_angstrom": [
+            0.724097330473399,
+            1.496223230573104
+          ],
+          "energy_hartree": -154.64529512016904,
+          "projected_gradient_hartree_per_angstrom": [
+            0.0142236395610298,
+            0.024378840636616383
+          ],
+          "gradient_rms_hartree_per_bohr": 0.05203413542880084
+        },
+        {
+          "parameters_angstrom": [
+            0.7224630062719855,
+            1.492249392736536
+          ],
+          "energy_hartree": -154.64535469496607,
+          "projected_gradient_hartree_per_angstrom": [
+            -0.00012364452062032624,
+            -0.00028631493317507635
+          ],
+          "gradient_rms_hartree_per_bohr": 0.05228918197714487
+        },
+        {
+          "parameters_angstrom": [
+            0.7224801525897071,
+            1.4922937403690755
+          ],
+          "energy_hartree": -154.64535470230302,
+          "projected_gradient_hartree_per_angstrom": [
+            2.0553788912051105e-07,
+            2.9197178794586018e-06
+          ],
+          "gradient_rms_hartree_per_bohr": 0.052286397703245724
+        }
+      ]
+    }
+  },
+  "single_reference": {
+    "D2h": {
+      "rks": {
+        "converged": true,
+        "energy_hartree": -154.68664887517355,
+        "stability": {
+          "checked": true,
+          "internally_stable": true,
+          "error": null
+        }
+      },
+      "broken_symmetry_singlets": [
+        {
+          "seed_angle_degree": 20.0,
+          "converged": true,
+          "energy_hartree": -154.68664887515587,
+          "s2": 1.4593156905107207e-08,
+          "multiplicity": 1.0000000291863134
+        },
+        {
+          "seed_angle_degree": 35.0,
+          "converged": true,
+          "energy_hartree": -154.68664887517212,
+          "s2": 1.1186109816208045e-09,
+          "multiplicity": 1.000000002237222
+        }
+      ],
+      "triplet": {
+        "converged": true,
+        "energy_hartree": -154.63759518120258,
+        "s2": 2.0043762672502936,
+        "multiplicity": 3.0029160942326003,
+        "singlet_triplet_gap_kcal_mol": 30.781657704570232
+      }
+    },
+    "D4h": {
+      "rks": {
+        "converged": true,
+        "energy_hartree": -154.64535470230055,
+        "stability": {
+          "checked": true,
+          "internally_stable": true,
+          "error": null
+        }
+      },
+      "broken_symmetry_singlets": [
+        {
+          "seed_angle_degree": 20.0,
+          "converged": true,
+          "energy_hartree": -154.68479977136394,
+          "s2": 1.0542711073129247,
+          "multiplicity": 2.2840937873151574
+        },
+        {
+          "seed_angle_degree": 35.0,
+          "converged": true,
+          "energy_hartree": -154.6847997713657,
+          "s2": 1.05427057738709,
+          "multiplicity": 2.2840933233010334
+        }
+      ],
+      "triplet": {
+        "converged": true,
+        "energy_hartree": -154.6784561948184,
+        "s2": 2.004317096070869,
+        "multiplicity": 3.0028766848279793,
+        "singlet_triplet_gap_kcal_mol": -20.771500160584637
+      }
+    }
+  },
+  "finished_epoch": 1788256588.7640922,
+  "wall_seconds": 107.1057939529419
+}

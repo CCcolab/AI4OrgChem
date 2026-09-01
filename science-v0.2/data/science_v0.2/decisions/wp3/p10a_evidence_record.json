@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "P10-A",
+  "estimand_id": "P10A_BENZENE_B2U_PATH_LEDGER",
+  "relation_to_v0_1": "SAME_ESTIMAND",
+  "comparison_outcome": "CONSISTENT",
+  "conclusion_state": "SUPPORTED",
+  "scientific_grade": "R2",
+  "replay_status": "NOT_REPLAYED",
+  "agent_maturity": "M1_PLUS",
+  "endpoint": {
+    "role": "PRIMARY",
+    "observable": "B2u BLA curvature ledger",
+    "formula": "k_tot = d2E_tot/dQ_B2u2 = k_e + k_N",
+    "unit": "hartree/(mass-weighted-coordinate)^2",
+    "reference_state_id": "BENZENE_D6H_RKS_G",
+    "sign_convention": "positive curvature favors D6h along B2u",
+    "temperature_k": null,
+    "standard_state": "gas-phase electronic energy",
+    "method": "Gaussian-style B3LYP in PySCF/ORCA/Psi4",
+    "basis": "6-31G(d)",
+    "geometry_protocol": "mass-weighted B2u positive/negative displacements around frozen D6h geometry",
+    "numerical_tolerance": {
+      "relative_energy_kcal_mol": 0.05,
+      "gradient_rms_hartree_per_bohr": 5e-05
+    },
+    "scientific_equivalence_interval": {
+      "direction_deadband_kcal_mol": 0.5
+    },
+    "conclusion_flip_condition": "Across aligned programs k_tot is negative outside the deadband, or k_N no longer exceeds the opposing k_e contribution."
+  },
+  "evidence_paths": [
+    "data/science_v0.2/raw/wp3/wp3_hessian_mixing.json",
+    "data/science_v0.2/raw/wp3/wp3_grid.json",
+    "github-release/AI4OrgChem/evidence/P01-P14/P10/result.json"
+  ],
+  "limitations": [
+    "P10-A is a path ledger. Its electronic/nuclear decomposition does not alone prove causal primacy.",
+    "The E2g seed is a mixture of multiple Hessian eigenspaces; the original seed was retained and the minimal covering eigensubspace was reported."
+  ]
+}

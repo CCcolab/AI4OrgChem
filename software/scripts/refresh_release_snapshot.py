@@ -27,6 +27,7 @@ def artifact_role(relative: str) -> str:
         "configs": "public-configuration",
         "figures": "project-figure",
         "development": "development-snapshot",
+        "science-v0.2": "science-v0.2-evidence",
         ".github": "continuous-integration",
     }.get(top, "repository-root")
 

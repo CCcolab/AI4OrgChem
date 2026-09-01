@@ -1,0 +1,61 @@
+{
+  "schema_version": "science-v0.2-wp1-decision-1",
+  "work_package": "WP1",
+  "gate": "V2-1",
+  "gate_status": "PASS_WITH_METHOD_SENSITIVITY",
+  "claim_id": "P09-B",
+  "relation_to_v0_1": "COMPLEMENTARY",
+  "conclusion_state": "PARTIALLY_SUPPORTED",
+  "scientific_grade": "R2",
+  "barriers_kcal_mol": {
+    "B3LYP_RKS_kcal_mol": 25.912484697246366,
+    "CAS_4_4_SC_NEVPT2_kcal_mol": 8.08290498839788,
+    "CAS_12_12_SC_NEVPT2_kcal_mol": 7.399597544200833,
+    "QP_CIPSI_Evar_plus_PT2_kcal_mol": 48.40730823101301,
+    "QP_reported_extrapolation_subset_kcal_mol": 46.36902819440302
+  },
+  "method_spread_kcal_mol": 41.00771068681218,
+  "sign_consistency": "ALL_POSITIVE",
+  "multireference_diagnostics": {
+    "cas4_d4h_singlet_frontier_noons": [
+      1.905746601507278,
+      1.0000376918661202,
+      0.9999623081654092,
+      0.09425339846119242
+    ],
+    "cas12_d4h_singlet_frontier_noons": [
+      1.9859954785519163,
+      1.9746228776514876,
+      1.9746218573704055,
+      1.971435073908557,
+      1.9156508208772491,
+      0.9997144688796086,
+      0.9991988055484146,
+      0.08600278050221567,
+      0.02569966085626387,
+      0.02569762660347285,
+      0.020899005931602092,
+      0.020461543314954162
+    ],
+    "qp_final_n_det": {
+      "D2H": 53059,
+      "D4H": 71578
+    },
+    "qp_final_pt2_statistical_error_hartree": {
+      "D2H": 0.0001749,
+      "D4H": 0.00015867
+    },
+    "qp_final_variance_hartree2": {
+      "D2H": 0.4481960273554685,
+      "D4H": 0.4048603848974994
+    }
+  },
+  "source_hashes": {
+    "data/science_v0.2/raw/wp1/wp1_endpoints.json": "7b978c4d2907147ddf7d5ecd7a8bf7cbdf86f8cb61bd74c29dc837e7cf76f2a0",
+    "data/science_v0.2/raw/wp1/wp1_cas4_path.json": "5d2e874be6eaa90539c272fd2aca9946c5f51f81854eeb783e39f31025aa5b2a",
+    "data/science_v0.2/raw/wp1/wp1_cas12_endpoints.json": "14dd2fbb4c8a1f7a7c260dca405c168eac686784dc30482a0e4236088edf1962",
+    "data/science_v0.2/processed/wp1/wp1_qp2_cipsi_result.json": "71ac0ff180e0a80670a65956d138350cf7a8db6b415b8a7f28cd83374df3dc56"
+  },
+  "raw_metadata_note": "The archived CAS(12,12) raw record has a stale descriptive orbital_initialization string saying carbon-pz ranking; active_orbital_selection_mode and the code path correctly show total carbon-2p ranking. The live runner label is corrected without editing raw data.",
+  "interpretation": "Independent ordinary-state calculations consistently place D4h above D2h and confirm strong D4h multireference character. They support P09-B qualitatively, but do not yield a method-independent quantitative barrier and do not directly test P09-A."
+}

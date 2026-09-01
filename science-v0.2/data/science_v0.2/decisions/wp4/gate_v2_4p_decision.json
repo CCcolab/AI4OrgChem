@@ -1,0 +1,38 @@
+{
+  "schema_version": "science-v0.2-wp4-decision-1",
+  "work_package": "WP4",
+  "gate": "V2-4P",
+  "gate_status": "NOT_PASSED",
+  "scientific_status": "INDETERMINATE_INPUT_DEFINITION_INCOMPLETE",
+  "scientific_calculation_started": false,
+  "required_input_contract": {
+    "paired_N": [
+      8,
+      10,
+      16,
+      18,
+      32,
+      34
+    ],
+    "species_per_N": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "cartesian_coordinates": true,
+    "two_independent_conformer_sources": true,
+    "frequency_verified_minima": true,
+    "zpe_corrected_energies": true,
+    "closed_shell_and_broken_symmetry_for_4n": true
+  },
+  "candidate_input_files_found": [],
+  "complete_frozen_A_B_C_D_set_present": false,
+  "estimand": "P12B_PHYSICAL_ISEII_ASE_0K",
+  "relation_to_p12_a": "INCOMPARABLE",
+  "v0_1_p12_a_changed": false,
+  "reason": "The frozen protocol names the ISE-II species roles but the repository does not contain exact, versioned A/B/C/D identities and Cartesian conformer sets for all six paired N values. Running guessed structures would change the estimand.",
+  "external_definition_note": "The 2025 source states that B/D electronic energies and ZPVE are inherited from an earlier reference, so the present repository cannot reconstruct the complete reaction solely from the high-level description.",
+  "registry_sha256": "105c0ba488fd1000f746e32e248e7a383f88a30587113b2755276c7d5b685ecf",
+  "contract_sha256": "05b52f8e6c5ae1b18427bd8c88d8d49ec25424fcf69ec2e80c14bcfc03570bb2"
+}

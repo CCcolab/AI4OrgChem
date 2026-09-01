@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "authorization_date": "2026-09-01",
+  "gate_dependency": "GATE_V2_0_PASSED",
+  "authorizing_role": "PROJECT_LEAD",
+  "resource_concurrency_rule": "One medium/high-memory quantum-chemistry job at a time",
+  "work_packages": {
+    "WP1": {
+      "status": "COMPLETED_GATE_V2_1_PASS_WITH_METHOD_SENSITIVITY",
+      "scientific_scope": "P09-B ordinary physical-state cyclobutadiene multireference robustness",
+      "permitted_methods": [
+        "RKS stability analysis",
+        "UKS and broken-symmetry branches",
+        "two-root equal-weight SA-CASSCF",
+        "SC-NEVPT2 sensitivity lane",
+        "Quantum Package v2.2.2 CIPSI+PT2 primary high-level anchor"
+      ],
+      "required_systems": [
+        "D2h minimum",
+        "D4h stationary point",
+        "continuous automerization path"
+      ],
+      "pre_run_conditions": [
+        "Freeze reviewed Cartesian inputs and hashes",
+        "Seal a blind calculation bundle without V0.1 target values or signs",
+        "Record charge, multiplicity, basis, frozen core, orbitals, roots, weights, thresholds and random seeds",
+        "Apply the WP1 24-hour/12-GiB/40-GiB first-run resource limits"
+      ],
+      "prohibitions": [
+        "Do not use WP1 to automatically upgrade P09-A",
+        "Do not choose methods or roots by proximity to the monograph value",
+        "Do not discard failed roots or convergence attempts"
+      ],
+      "next_gate": "V2-1",
+      "execution_started": true,
+      "current_stage": "COMPLETED",
+      "execution_started_date": "2026-09-01",
+      "blind_input_manifest": "data/science_v0.2/inputs/wp1/wp1_blind_input_manifest.json",
+      "decision_record": "data/science_v0.2/decisions/wp1/gate_v2_1_decision.json",
+      "completion_date": "2026-09-01"
+    },
+    "WP2": {
+      "status": "COMPLETED_BACKEND_DIAGNOSIS_GATE_V2_2_NOT_PASSED",
+      "execution_started": true,
+      "completion_date": "2026-09-01",
+      "decision_record": "data/science_v0.2/decisions/wp2/gate_v2_2_decision.json",
+      "boundary": "The functional energy smoke passed, but Psi4 DIRECT DFT executed a DF backend and exact PK was resource-inappropriate for the largest anchor; ORCA is absent. No eight-anchor completion is claimed."
+    },
+    "WP3": {
+      "status": "COMPLETED_GATE_V2_3_PASSED",
+      "scientific_scope": "P10-B benzene D6h mechanism discrimination",
+      "permitted_methods": [
+        "Ordinary closed-shell RKS Hessian and force projections",
+        "Hessian eigensubspace identification and principal-angle comparison",
+        "Frozen three-Kekule-fragment conditional-SCF intervention",
+        "Matched B2u/A1g/E2g displacement-grid curvature analysis"
+      ],
+      "pre_run_conditions": [
+        "Retain the frozen Gate V2-0 seeds and hashes",
+        "Freeze D6h Cartesian geometry, displacement grid and method before the first energy",
+        "Seal a blind calculation bundle without V0.1 target signs",
+        "Apply singular-value and root-overlap failure thresholds of 0.90",
+        "Apply the WP3 2-hour-per-displacement and 48-hour-grid first-run limits"
+      ],
+      "prohibitions": [
+        "Do not replace or rotate the preregistered seed after seeing Hessian results",
+        "Do not force one-to-one eigenvector matching in degenerate or near-degenerate subspaces",
+        "Do not claim nuclear-repulsion dominance from E_N magnitude alone",
+        "Do not automatically upgrade P10-A from a P10-B result"
+      ],
+      "next_gate": "V2-3",
+      "hessian_calculation": "AUTHORIZED",
+      "execution_started": true,
+      "execution_started_date": "2026-09-01",
+      "current_stage": "COMPLETED",
+      "decision_record": "data/science_v0.2/decisions/wp3/gate_v2_3_decision.json",
+      "completion_date": "2026-09-01"
+    },
+    "WP4": {
+      "status": "COMPLETED_READINESS_ASSESSMENT_GATE_V2_4P_NOT_PASSED",
+      "scientific_calculation_started": false,
+      "completion_date": "2026-09-01",
+      "decision_record": "data/science_v0.2/decisions/wp4/gate_v2_4p_decision.json",
+      "boundary": "Exact frozen ISE-II A/B/C/D structures are incomplete; guessed structures were not calculated."
+    },
+    "WP5": {
+      "status": "COMPLETED_INTERNAL_CLEAN_REPLAY_M1_PLUS",
+      "completion_date": "2026-09-01",
+      "replay_record": "runs/science_v0.2/wp5_internal_clean_replay/replay_result.json",
+      "boundary": "Decision/report assembly replay only; not external wavefunction recomputation and not M2."
+    },
+    "WP6": {
+      "status": "COMPLETED_RELEASE_PACKAGE_READY",
+      "completion_date": "2026-09-01",
+      "target_version": "v0.2.0",
+      "release_notes": "docs/releases/science_v0.2/V0.2_RELEASE_NOTES.md"
+    }
+  }
+}

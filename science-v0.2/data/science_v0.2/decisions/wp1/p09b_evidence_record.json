@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "P09-B",
+  "estimand_id": "P09B_CBD_PHYSICAL_AUTOMERIZATION",
+  "relation_to_v0_1": "COMPLEMENTARY",
+  "comparison_outcome": "NOT_APPLICABLE",
+  "conclusion_state": "PARTIALLY_SUPPORTED",
+  "scientific_grade": "R2",
+  "replay_status": "NOT_REPLAYED",
+  "agent_maturity": "M1_PLUS",
+  "endpoint": {
+    "role": "PRIMARY",
+    "observable": "singlet cyclobutadiene automerization barrier",
+    "formula": "E_S0(D4h stationary point) - E_S0(D2h minimum)",
+    "unit": "kcal/mol",
+    "reference_state_id": "CBD_D2H_LOWEST_SINGLET",
+    "sign_convention": "positive means D4h lies above D2h",
+    "temperature_k": null,
+    "standard_state": "gas-phase electronic energy, frozen-core unless the anchor protocol says otherwise",
+    "method": "extrapolated selected configuration interaction primary anchor; CASSCF/SC-NEVPT2 sensitivity ladder",
+    "basis": "cc-pVDZ primary high-level anchor",
+    "geometry_protocol": "D2h/D4h and continuous automerization path frozen before execution",
+    "numerical_tolerance": {
+      "independent_rerun_kcal_mol": 0.05,
+      "SCI_extrapolation_uncertainty_kcal_mol": 0.3
+    },
+    "scientific_equivalence_interval": {
+      "minimum_meaningful_effect_kcal_mol": 1.0
+    },
+    "conclusion_flip_condition": "The sign of the converged multireference barrier reverses and its uncertainty interval excludes zero."
+  },
+  "evidence_paths": [
+    "data/science_v0.2/raw/wp1/wp1_endpoints.json",
+    "data/science_v0.2/raw/wp1/wp1_cas4_path.json",
+    "data/science_v0.2/raw/wp1/wp1_cas12_endpoints.json",
+    "data/science_v0.2/processed/wp1/wp1_qp2_cipsi_result.json"
+  ],
+  "limitations": [
+    "P09-B is COMPLEMENTARY to P09-A and cannot automatically change the source-aligned ADE/VDE conclusion.",
+    "All tested barriers are positive, but the method spread is 41.01 kcal/mol; the quantitative barrier is method-sensitive.",
+    "The QP PT2 residual magnitude remains large at the preregistered determinant ceiling; the reported extrapolation is retained as sensitivity evidence, not treated as an exact FCI limit."
+  ]
+}

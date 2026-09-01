@@ -1,0 +1,106 @@
+{
+  "schema_version": "science-v0.2-wp5-internal-clean-replay-1",
+  "timestamp_utc": "2026-09-01T12:27:11.782837+00:00",
+  "replay_status": "INTERNAL_CLEAN_REPLAY",
+  "agent_maturity": "M1_PLUS",
+  "external_replayer": false,
+  "fresh_temporary_workspace": true,
+  "scientific_calculations_rerun": false,
+  "scope": "Deterministic regeneration of WP1-WP4 decisions and reports from frozen machine results.",
+  "commands": [
+    {
+      "command": "python3 scripts/science_v0.2/evaluate_wp1.py",
+      "exit_code": 0,
+      "stdout_sha256": "f43ab5e32891f1f6e527f716cde27221492349ffb856414dce53c2e5fe551bba",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": "python3 scripts/science_v0.2/evaluate_wp2.py",
+      "exit_code": 0,
+      "stdout_sha256": "b99c599a436e3fc361bfc85b291f3f23ab4ea639331fbf76d35ee059f52f442e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": "python3 scripts/science_v0.2/evaluate_wp3.py",
+      "exit_code": 0,
+      "stdout_sha256": "6de646d21169ff156f2b4d8433407c6fc4db356c11e88e396c75ffb6cead8a64",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": "python3 scripts/science_v0.2/evaluate_wp4_readiness.py",
+      "exit_code": 0,
+      "stdout_sha256": "416edcb0751aa69df30f16f8a243454e466bb760156b5b1d68bf3560981da773",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "artifact_comparisons": [
+    {
+      "path": "data/science_v0.2/decisions/wp1/gate_v2_1_decision.json",
+      "original_sha256": "53dac34d3d372fd3bf34ead173c86188c1521ebda7afb7052a23245789a8c5a0",
+      "replayed_sha256": "53dac34d3d372fd3bf34ead173c86188c1521ebda7afb7052a23245789a8c5a0",
+      "byte_identical": true
+    },
+    {
+      "path": "data/science_v0.2/decisions/wp1/p09b_evidence_record.json",
+      "original_sha256": "0779ff03401d8356772e696df0343b24862d04dc180e9d6675f154e376be09a3",
+      "replayed_sha256": "0779ff03401d8356772e696df0343b24862d04dc180e9d6675f154e376be09a3",
+      "byte_identical": true
+    },
+    {
+      "path": "docs/releases/science_v0.2/reports/WP1_GATE_V2_1_REPORT.md",
+      "original_sha256": "6e1ffb838252f61be40e8b4365cc9bccc1b57e39a904fab642ed12f7ce1e4312",
+      "replayed_sha256": "6e1ffb838252f61be40e8b4365cc9bccc1b57e39a904fab642ed12f7ce1e4312",
+      "byte_identical": true
+    },
+    {
+      "path": "data/science_v0.2/decisions/wp2/gate_v2_2_decision.json",
+      "original_sha256": "5f35eb2247e86da6d6f05c279cf2376a63b6a8752f4aa4c22f3c1b86324e94ec",
+      "replayed_sha256": "5f35eb2247e86da6d6f05c279cf2376a63b6a8752f4aa4c22f3c1b86324e94ec",
+      "byte_identical": true
+    },
+    {
+      "path": "docs/releases/science_v0.2/reports/WP2_GATE_V2_2_REPORT.md",
+      "original_sha256": "efca666ff4ee97cb5e6e38c2e31cca2a390d67cd837c62137362e754eff6ea24",
+      "replayed_sha256": "efca666ff4ee97cb5e6e38c2e31cca2a390d67cd837c62137362e754eff6ea24",
+      "byte_identical": true
+    },
+    {
+      "path": "data/science_v0.2/decisions/wp3/gate_v2_3_decision.json",
+      "original_sha256": "44b63569936423996362dd8ce1d9d90ff12849fb8329378b6206ad32f82ca2af",
+      "replayed_sha256": "44b63569936423996362dd8ce1d9d90ff12849fb8329378b6206ad32f82ca2af",
+      "byte_identical": true
+    },
+    {
+      "path": "data/science_v0.2/decisions/wp3/p10a_evidence_record.json",
+      "original_sha256": "5598747e625996a1efb45ae9c01add5336b7b06a5901a9e0f906d262a44eaacd",
+      "replayed_sha256": "5598747e625996a1efb45ae9c01add5336b7b06a5901a9e0f906d262a44eaacd",
+      "byte_identical": true
+    },
+    {
+      "path": "data/science_v0.2/decisions/wp3/p10b_evidence_record.json",
+      "original_sha256": "4ca7a31b8d4fdd35284f8da32f99a0edaf1ca148c43be7ebffc99a7b2c4c809e",
+      "replayed_sha256": "4ca7a31b8d4fdd35284f8da32f99a0edaf1ca148c43be7ebffc99a7b2c4c809e",
+      "byte_identical": true
+    },
+    {
+      "path": "docs/releases/science_v0.2/reports/WP3_GATE_V2_3_REPORT.md",
+      "original_sha256": "8df290143c5fd17a6ecace7d49e18e833bc3e0bece7188f7bf68a4c936dd5b45",
+      "replayed_sha256": "8df290143c5fd17a6ecace7d49e18e833bc3e0bece7188f7bf68a4c936dd5b45",
+      "byte_identical": true
+    },
+    {
+      "path": "data/science_v0.2/decisions/wp4/gate_v2_4p_decision.json",
+      "original_sha256": "225d174e282e6185246f34062f05b28c17c395cd99fc51255086bd71389250eb",
+      "replayed_sha256": "225d174e282e6185246f34062f05b28c17c395cd99fc51255086bd71389250eb",
+      "byte_identical": true
+    },
+    {
+      "path": "docs/releases/science_v0.2/reports/WP4_GATE_V2_4P_REPORT.md",
+      "original_sha256": "bdf9a792d5c1196dd7c124994000b355edb1ac5a27cb421ab975df5a861b1244",
+      "replayed_sha256": "bdf9a792d5c1196dd7c124994000b355edb1ac5a27cb421ab975df5a861b1244",
+      "byte_identical": true
+    }
+  ],
+  "pass": true,
+  "boundary": "This replay verifies deterministic evidence assembly, not independent recomputation of the underlying quantum-chemistry wavefunctions; it therefore does not qualify as EXTERNAL_CLEAN_REPLAY or M2."
+}

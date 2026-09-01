@@ -2,7 +2,7 @@
 
 All notable changes to AI4OrgChem public releases are recorded in this file.
 
-## [Unreleased]
+## [0.2.0] - 2026-09-01
 
 ### Review disposition
 
@@ -14,9 +14,12 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 - Published the four lower-level P14 evidence records, deterministic classification record, and two source-proxy XYZ inputs.
 - Added dedicated P14 calculation entry points, a Draft 2020-12 JSON Schema, and a deterministic P14 evidence validator.
 - Added a redacted explicit Conda-layer lock for the historical canonical WSL environment.
-- Prepared an explicitly non-release `development/science-v0.2` Gate V2-0 snapshot with preregistration, contracts, machine-readable gate state, privacy-sanitized environment locks, and bounded Quantum Package H2/B2 smoke records.
-- Recorded the final Gate V2-0 `PASSED` decision and separate WP1/WP3 `AUTHORIZED_TO_START / NOT_STARTED` execution decisions; WP2 and WP4 remain `HOLD`.
-- Added CI validation that prevents the V0.2 WP0 snapshot from claiming CBD/Hessian science, mutating V0.1, exposing private host paths, or bundling restricted archives and binaries.
+- Published the self-contained `science-v0.2` package with preregistration, contracts, selected machine results, decisions, reports, rebuild scripts, tests, environment locks, and SHA-256 inventory.
+- Added WP1 CBD multireference evidence (`PASS_WITH_METHOD_SENSITIVITY`, P09-B `PARTIALLY_SUPPORTED / R2`) and WP3 benzene mechanism intervention (P10-B `SUPPORTED / R3`).
+- Completed the WP2 functional smoke and backend diagnosis: Psi4 1.11 entered a DF backend despite a DIRECT request, exact PK was resource-inappropriate for the largest anchor, and licensed ORCA was unavailable. Gate V2-2 remains `NOT_PASSED`; no eight-anchor completion is claimed.
+- Recorded WP4/P12-B as `INDETERMINATE_INPUT_DEFINITION_INCOMPLETE` rather than calculating guessed ISE-II A/B/C/D structures.
+- Added deterministic internal clean replay of WP1-WP4 decision/report assembly (`INTERNAL_CLEAN_REPLAY / M1_PLUS`).
+- Added CI validation that prevents V0.2 from changing V0.1, overstating WP2/WP4, exposing private host paths, or bundling restricted archives and binaries.
 
 ### Changed
 
@@ -26,7 +29,7 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 ### Scientific status
 
 - No P01-P14 numerical value or proposition-level classification changed. P14 remains consistent only within the frozen single-C12H6 source-proxy protocol.
-- The V0.2 WP0 snapshot remains engineering, preregistration, and authorization evidence only. Gate V2-0 is `PASSED`; WP1/WP3 are authorized but no CBD or Hessian scientific job has started, and no V0.1 conclusion has changed.
+- V0.2 strengthens evidence without changing any frozen V0.1 P01-P14 value or proposition-level classification. WP1 and WP3 add completed scientific evidence; WP2 and WP4 retain explicit non-passing outcomes.
 
 ## [0.1.2] - 2026-08-28
 

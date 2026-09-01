@@ -1,0 +1,326 @@
+{
+  "schema_version": "1.0",
+  "release": "v0.2.0",
+  "files": [
+    {
+      "path": "configs/science_v0.2/agent_run_bundle.schema.json",
+      "bytes": 2722,
+      "sha256": "aa46286cc01b24cda839664d1e660f5849962586748ee03007c257834dd9e96d"
+    },
+    {
+      "path": "configs/science_v0.2/blind_bundle.schema.json",
+      "bytes": 1521,
+      "sha256": "e95784f19fc17a16995373d3d92742c084b2c5936f66b8fbeb4941210e136152"
+    },
+    {
+      "path": "configs/science_v0.2/claim_estimand_registry.json",
+      "bytes": 9646,
+      "sha256": "105c0ba488fd1000f746e32e248e7a383f88a30587113b2755276c7d5b685ecf"
+    },
+    {
+      "path": "configs/science_v0.2/evidence_record.schema.json",
+      "bytes": 2719,
+      "sha256": "28bfb0fee8199a976398dcef04d3e46a87c19d367fd2a6f15e44cad7775c2bd8"
+    },
+    {
+      "path": "configs/science_v0.2/v0.1_baseline.json",
+      "bytes": 2974,
+      "sha256": "759e16d9e4f4e8d0c45e49e30b5ee667dc02364074faa559ac0826cc8144e4b0"
+    },
+    {
+      "path": "configs/science_v0.2/v0.2_release_status.json",
+      "bytes": 1831,
+      "sha256": "3a61235b8839552daa92f13f7be8a8fc8ad9762f7cbf492a7121fd693c27110e"
+    },
+    {
+      "path": "configs/science_v0.2/wp0_gate.json",
+      "bytes": 1427,
+      "sha256": "24de2597e8c17b8f05eed276ba0a72d6515bee9f21bb4ce8c41d548db6d76d2e"
+    },
+    {
+      "path": "configs/science_v0.2/wp0_gate_final_decision.json",
+      "bytes": 2759,
+      "sha256": "d33314dc112f9ceaa6931b9e8ac198462e3bcd23b255e61d1d38c34466d1756e"
+    },
+    {
+      "path": "configs/science_v0.2/wp0_readiness.json",
+      "bytes": 2104,
+      "sha256": "e5654418aa2b34e3017ad37e7ceb66143229f9e67fe963bd00d6cf78381226b6"
+    },
+    {
+      "path": "configs/science_v0.2/wp1_execution.json",
+      "bytes": 3814,
+      "sha256": "1990364f62ffd7ddb83b179b4077d5b1057d9c872ccf7b91f113404b94cc7588"
+    },
+    {
+      "path": "configs/science_v0.2/wp1_interface_probe.json",
+      "bytes": 1850,
+      "sha256": "defb5a15cdf73d8a9397f097f7a404e4b48f7798c1d80abdab2a8abc88529c0b"
+    },
+    {
+      "path": "configs/science_v0.2/wp1_qp2_environment_smoke.json",
+      "bytes": 4468,
+      "sha256": "9a288aa3aa303adf0b663a06e14cd471dd360d7831ec542f9ccafb96949da143"
+    },
+    {
+      "path": "configs/science_v0.2/wp2_core_anchors.json",
+      "bytes": 3285,
+      "sha256": "6731f6e2939f06d8757c862d4cea160827bd4231dc420493fcd516211230a194"
+    },
+    {
+      "path": "configs/science_v0.2/wp3_execution.json",
+      "bytes": 2832,
+      "sha256": "1f466eff2d289d5c8a157408f54c958dff9cdfcb49a908bd71748f95cbaefdcf"
+    },
+    {
+      "path": "configs/science_v0.2/wp3_symmetry_mode_seeds.json",
+      "bytes": 13093,
+      "sha256": "3549c7d4eb6b6fb0eeac7d0e03a2548c3029326f521afd3a6fb7f1c6a3a3ae07"
+    },
+    {
+      "path": "configs/science_v0.2/wp_authorizations.json",
+      "bytes": 4711,
+      "sha256": "90a94cfeee519f1524bd3215a173a1297e56536e35b9edab6735088c04f0f50a"
+    },
+    {
+      "path": "data/science_v0.2/decisions/wp1/gate_v2_1_decision.json",
+      "bytes": 2594,
+      "sha256": "53dac34d3d372fd3bf34ead173c86188c1521ebda7afb7052a23245789a8c5a0"
+    },
+    {
+      "path": "data/science_v0.2/decisions/wp1/p09b_evidence_record.json",
+      "bytes": 2104,
+      "sha256": "0779ff03401d8356772e696df0343b24862d04dc180e9d6675f154e376be09a3"
+    },
+    {
+      "path": "data/science_v0.2/decisions/wp2/gate_v2_2_decision.json",
+      "bytes": 1062,
+      "sha256": "5f35eb2247e86da6d6f05c279cf2376a63b6a8752f4aa4c22f3c1b86324e94ec"
+    },
+    {
+      "path": "data/science_v0.2/decisions/wp3/gate_v2_3_decision.json",
+      "bytes": 4311,
+      "sha256": "44b63569936423996362dd8ce1d9d90ff12849fb8329378b6206ad32f82ca2af"
+    },
+    {
+      "path": "data/science_v0.2/decisions/wp3/p10a_evidence_record.json",
+      "bytes": 1723,
+      "sha256": "5598747e625996a1efb45ae9c01add5336b7b06a5901a9e0f906d262a44eaacd"
+    },
+    {
+      "path": "data/science_v0.2/decisions/wp3/p10b_evidence_record.json",
+      "bytes": 1837,
+      "sha256": "4ca7a31b8d4fdd35284f8da32f99a0edaf1ca148c43be7ebffc99a7b2c4c809e"
+    },
+    {
+      "path": "data/science_v0.2/decisions/wp4/gate_v2_4p_decision.json",
+      "bytes": 1510,
+      "sha256": "225d174e282e6185246f34062f05b28c17c395cd99fc51255086bd71389250eb"
+    },
+    {
+      "path": "data/science_v0.2/processed/wp1/wp1_qp2_cipsi_result.json",
+      "bytes": 35986,
+      "sha256": "3cca59b4c62391554aee4e5f25914c2cb02f7bc12da4db966fe6f435fc39752b"
+    },
+    {
+      "path": "data/science_v0.2/raw/wp1/wp1_cas12_endpoints.json",
+      "bytes": 32910,
+      "sha256": "14dd2fbb4c8a1f7a7c260dca405c168eac686784dc30482a0e4236088edf1962"
+    },
+    {
+      "path": "data/science_v0.2/raw/wp1/wp1_cas4_path.json",
+      "bytes": 27744,
+      "sha256": "5d2e874be6eaa90539c272fd2aca9946c5f51f81854eeb783e39f31025aa5b2a"
+    },
+    {
+      "path": "data/science_v0.2/raw/wp1/wp1_endpoints.json",
+      "bytes": 13974,
+      "sha256": "7b978c4d2907147ddf7d5ecd7a8bf7cbdf86f8cb61bd74c29dc837e7cf76f2a0"
+    },
+    {
+      "path": "data/science_v0.2/raw/wp2/wp2_attempt_history.json",
+      "bytes": 1768,
+      "sha256": "c61bb66e959404d683003ed6b0f48de10d0a18dd5c494ee6f9256f5e8c4a1583"
+    },
+    {
+      "path": "data/science_v0.2/raw/wp2/wp2_functional_alignment_smoke.json",
+      "bytes": 1281,
+      "sha256": "652f3579306f48352f95f9d64f4e970fde7dee4abe0ede43e28e29f9f44a782f"
+    },
+    {
+      "path": "data/science_v0.2/raw/wp2/wp2_open_program_anchors.json",
+      "bytes": 2029,
+      "sha256": "1fa0c478a5acd312a06d63af2eeae7f0c95694107eae0eeb40ecfa3275e10c10"
+    },
+    {
+      "path": "data/science_v0.2/raw/wp3/wp3_grid.json",
+      "bytes": 58149,
+      "sha256": "7ba91c08ea2761eda222dff5cb74cd3dea20d0875748e42df56224a9f7a2aa3d"
+    },
+    {
+      "path": "data/science_v0.2/raw/wp3/wp3_hessian_mixing.json",
+      "bytes": 3162,
+      "sha256": "d7e550dd5d36cbb56d9b6566760b8faa3fca7edd682443e6fd33aceec2831bad"
+    },
+    {
+      "path": "docs/releases/science_v0.2/preregistration/BLIND_AND_AGENT_AUDIT_PROTOCOL.md",
+      "bytes": 2125,
+      "sha256": "59b6f2ae15089c3de344829f754e5fb448d8055cf26efa0af792d388c024fd91"
+    },
+    {
+      "path": "docs/releases/science_v0.2/preregistration/RESOURCE_BUDGET_AND_GO_NO_GO.md",
+      "bytes": 1308,
+      "sha256": "30da31f287dff0bb323abb9207dc7c813f504a56fbcb7cddac720f464fd9dc2c"
+    },
+    {
+      "path": "docs/releases/science_v0.2/preregistration/WP0_BASELINE_AND_BOUNDARY.md",
+      "bytes": 2862,
+      "sha256": "671afa6d0bb64a9a9e7e04b5167b252119be1f913c2637ddd01b41b629e9df17"
+    },
+    {
+      "path": "docs/releases/science_v0.2/protocols/WP1_PRIMARY_ANCHOR_IMPLEMENTATION_CANDIDATE.md",
+      "bytes": 3817,
+      "sha256": "584e1c481040d988dea4423bd9bdf2540093dfa41c460d1caf9af8640d39bc43"
+    },
+    {
+      "path": "docs/releases/science_v0.2/protocols/WP1_WP4_EXECUTION_CONTRACTS.md",
+      "bytes": 6340,
+      "sha256": "23d7c83b353814ae3fdc5990b31c38b3bda1b0703acbc87ba6b1a9eff9fb3c41"
+    },
+    {
+      "path": "docs/releases/science_v0.2/reports/GATE_V2_0_FINAL_DECISION_AND_WP1_WP3_AUTHORIZATION_2026-09-01.md",
+      "bytes": 2127,
+      "sha256": "b46cdb3ea170487bf9bb2891a198b7b50187d01c0fe0b6e022e68156782515c0"
+    },
+    {
+      "path": "docs/releases/science_v0.2/reports/WP0_IMPLEMENTATION_STATUS_2026-09-01.md",
+      "bytes": 3898,
+      "sha256": "86fdbdbd47efb8cda6e4725a9b5049e17e6bbb11788d2ddbe67fac8bd62fbb6a"
+    },
+    {
+      "path": "docs/releases/science_v0.2/reports/WP0_OPEN_QM_ENVIRONMENT_2026-09-01.md",
+      "bytes": 1003,
+      "sha256": "4b56eb296f5299a2c43a918116368457c5263c629e0ebefb9341d0b5ddace4c7"
+    },
+    {
+      "path": "docs/releases/science_v0.2/reports/WP0_QP22_CIPSI_ENVIRONMENT_2026-09-01.md",
+      "bytes": 4070,
+      "sha256": "4dea9177b6b7457ec4979e082f444f97710857ee15418ef276c2bd7586dcb09c"
+    },
+    {
+      "path": "docs/releases/science_v0.2/reports/WP1_GATE_V2_1_REPORT.md",
+      "bytes": 1367,
+      "sha256": "6e1ffb838252f61be40e8b4365cc9bccc1b57e39a904fab642ed12f7ce1e4312"
+    },
+    {
+      "path": "docs/releases/science_v0.2/reports/WP2_GATE_V2_2_REPORT.md",
+      "bytes": 1020,
+      "sha256": "efca666ff4ee97cb5e6e38c2e31cca2a390d67cd837c62137362e754eff6ea24"
+    },
+    {
+      "path": "docs/releases/science_v0.2/reports/WP3_GATE_V2_3_REPORT.md",
+      "bytes": 1317,
+      "sha256": "8df290143c5fd17a6ecace7d49e18e833bc3e0bece7188f7bf68a4c936dd5b45"
+    },
+    {
+      "path": "docs/releases/science_v0.2/reports/WP4_GATE_V2_4P_REPORT.md",
+      "bytes": 1003,
+      "sha256": "bdf9a792d5c1196dd7c124994000b355edb1ac5a27cb421ab975df5a861b1244"
+    },
+    {
+      "path": "docs/releases/science_v0.2/V0.2_RELEASE_NOTES.md",
+      "bytes": 4092,
+      "sha256": "699b7efec89c27adea79a0049ab3ab1b6aad7d086e0cbc957ad52b02835c073c"
+    },
+    {
+      "path": "locks/science_v0.2/ai4orgchem-v02-cipsi.environment.yml",
+      "bytes": 3286,
+      "sha256": "8a9e008b17a2090e54bab7b69dd9c693dbdc160a24e92d932ece384ad2401a8a"
+    },
+    {
+      "path": "locks/science_v0.2/ai4orgchem-v02-cipsi.explicit.txt",
+      "bytes": 8088,
+      "sha256": "d3fddf94e089389d48c775342624441be9d95cf358acf0be2de857a67e2035b6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2178,
+      "sha256": "820fb93cc038ddae06a7e9077fc61ae82fa9e30dc663c441e980cbdb61cdf1c1"
+    },
+    {
+      "path": "runs/science_v0.2/wp5_internal_clean_replay/replay_result.json",
+      "bytes": 5156,
+      "sha256": "235bdfac2e6a4fbb8e264d877991c543657b5a14b7ea8b21ddf019ca5cad6c5d"
+    },
+    {
+      "path": "scripts/science_v0.2/evaluate_wp1.py",
+      "bytes": 7144,
+      "sha256": "aca70938013d254d81a4a01c1a5f0a3b0248af80be6d3d5b5acb6527a97f29a2"
+    },
+    {
+      "path": "scripts/science_v0.2/evaluate_wp2.py",
+      "bytes": 4400,
+      "sha256": "346999c6c299701fb46c674c6cbcc0d216bc565fea90127d88bcc171b0c9095f"
+    },
+    {
+      "path": "scripts/science_v0.2/evaluate_wp3.py",
+      "bytes": 6895,
+      "sha256": "4500814f77feb134354c0cbeb052af4561795995b9563fd1a1864b695923c24f"
+    },
+    {
+      "path": "scripts/science_v0.2/evaluate_wp4_readiness.py",
+      "bytes": 4146,
+      "sha256": "6db1e9a370084319794eb387f8d4cad1f34b53eee9d76b4c865f345275525386"
+    },
+    {
+      "path": "scripts/science_v0.2/generate_wp3_symmetry_modes.py",
+      "bytes": 12423,
+      "sha256": "b44086bfa23c117aa5085689d9a6a1b8fa201c75b0cb67d2e1c85e0cb14fe88b"
+    },
+    {
+      "path": "scripts/science_v0.2/parse_wp1_qp2_cipsi.py",
+      "bytes": 6867,
+      "sha256": "82c978e56eb91d77183f50a51c54f22ecd80ff027553a9539fde8c4ea63a045d"
+    },
+    {
+      "path": "scripts/science_v0.2/run_wp1_pyscf.py",
+      "bytes": 21225,
+      "sha256": "1bd71060f17edbd5259c7b5bdb33a7c1625296081bdc3c9123659452863e209d"
+    },
+    {
+      "path": "scripts/science_v0.2/run_wp1_qp2_cipsi.sh",
+      "bytes": 2767,
+      "sha256": "cfb5c9d1a4da360d4bcdfaa342d7b5a59017fd9cf0e0844727392d870e072e80"
+    },
+    {
+      "path": "scripts/science_v0.2/run_wp2_alignment_smoke.py",
+      "bytes": 3700,
+      "sha256": "18f519acce2fa0522c8059cce58006bf1b9b8cfc5d3e9e74533b44e0f4175f3c"
+    },
+    {
+      "path": "scripts/science_v0.2/run_wp2_open_program_anchors.py",
+      "bytes": 12516,
+      "sha256": "bbdeb06b31d6cfff25771bf90467406ceec1dc721d089d72035cd1e79e8a4eee"
+    },
+    {
+      "path": "scripts/science_v0.2/run_wp3_benzene_mechanism.py",
+      "bytes": 14877,
+      "sha256": "dd4e28223e1b2bfc93fe33494ecde181f9540077090563d4139390eb7a2069c4"
+    },
+    {
+      "path": "scripts/science_v0.2/run_wp5_internal_clean_replay.py",
+      "bytes": 4913,
+      "sha256": "c5233f5b0ce44d10b3ecb190475aa2db51cd83b5cf70f949303439dea14c382b"
+    },
+    {
+      "path": "scripts/science_v0.2/wp1_geometry.py",
+      "bytes": 691,
+      "sha256": "b1de7d677a521900b0eaac86eac226d7bccdf8fc4d348eee70ad971c5bd4df09"
+    },
+    {
+      "path": "tests/science_v0.2/test_v02_release_contract.py",
+      "bytes": 2083,
+      "sha256": "7a90729167589f462739a8fd1c19c365c01b7e8590759d43d6d2f778b871f116"
+    }
+  ]
+}

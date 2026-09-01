@@ -285,7 +285,11 @@ def main() -> int:
             failures.append(f"forbidden file: {relative}")
         if path.suffix.lower() in FORBIDDEN_SUFFIXES:
             failures.append(f"forbidden suffix: {relative}")
-        if any(part in FORBIDDEN_DIRECTORIES for part in relative_path.parts):
+        curated_replay_record = (
+            relative
+            == "science-v0.2/runs/science_v0.2/wp5_internal_clean_replay/replay_result.json"
+        )
+        if any(part in FORBIDDEN_DIRECTORIES for part in relative_path.parts) and not curated_replay_record:
             failures.append(f"forbidden directory component: {relative}")
         if path.stat().st_size == 0:
             failures.append(f"zero-byte file: {relative}")
@@ -294,9 +298,18 @@ def main() -> int:
         if path.suffix.lower() in TEXT_SUFFIXES:
             validate_text_file(path, failures)
 
+    allowed_historical_duplicate_groups = 0
     for paths in by_hash.values():
-        if len(paths) > 1:
-            failures.append(f"exact duplicate files: {', '.join(paths)}")
+        if len(paths) <= 1:
+            continue
+        historical = [path for path in paths if path.startswith("development/science-v0.2/")]
+        released = [path for path in paths if path.startswith("science-v0.2/")]
+        if len(paths) == 2 and len(historical) == 1 and len(released) == 1:
+            # The development tree is a frozen WP0 provenance snapshot.  An exact
+            # copy may also occur in the self-contained V0.2 evidence package.
+            allowed_historical_duplicate_groups += 1
+            continue
+        failures.append(f"exact duplicate files: {', '.join(paths)}")
 
     if not MANIFEST.is_file():
         failures.append("SHA-256 manifest missing")
@@ -332,6 +345,7 @@ def main() -> int:
         "repository_files": len(files),
         "manifest_rows": manifest_rows,
         "duplicate_groups": sum(1 for paths in by_hash.values() if len(paths) > 1),
+        "allowed_historical_duplicate_groups": allowed_historical_duplicate_groups,
         "workflow_uses_secrets": False,
         "expensive_quantum_chemistry_in_ci": False,
         "failure_count": len(failures),

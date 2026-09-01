@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "P10-B",
+  "estimand_id": "P10B_PI_INTERVENTION_CAUSAL_RESPONSE",
+  "relation_to_v0_1": "COMPLEMENTARY",
+  "comparison_outcome": "NOT_APPLICABLE",
+  "conclusion_state": "SUPPORTED",
+  "scientific_grade": "R3",
+  "replay_status": "NOT_REPLAYED",
+  "agent_maturity": "M1_PLUS",
+  "endpoint": {
+    "role": "PRIMARY",
+    "observable": "electronic curvature change under frozen pi-localization intervention",
+    "formula": "Delta_k_e = k_e(pi-localized conditional state) - k_e(ordinary RKS)",
+    "unit": "hartree/(mass-weighted-coordinate)^2",
+    "reference_state_id": "BENZENE_D6H_MATCHED_GEOMETRY_PAIR",
+    "sign_convention": "positive Delta_k_e means ordinary pi response is more B2u-distortive",
+    "temperature_k": null,
+    "standard_state": "gas-phase electronic energy",
+    "method": "ordinary RKS versus frozen P09 three-Kekule-fragment conditional-SCF intervention",
+    "basis": "6-31G(d)",
+    "geometry_protocol": "matched B2u/A1g/E2g displacement grids with maximum-overlap subspace tracking",
+    "numerical_tolerance": {
+      "curvature_fit_relative": 0.05,
+      "positive_negative_displacement_asymmetry_relative": 0.02
+    },
+    "scientific_equivalence_interval": {
+      "Delta_k_e_relative_to_abs_k_tot": 0.1
+    },
+    "conclusion_flip_condition": "Delta_k_e has the opposite preregistered sign, exceeds 10% of |k_tot|, and is stable across methods and step sizes."
+  },
+  "evidence_paths": [
+    "data/science_v0.2/raw/wp3/wp3_hessian_mixing.json",
+    "data/science_v0.2/raw/wp3/wp3_grid.json"
+  ],
+  "limitations": [
+    "P10-B is a new complementary mechanism claim and does not automatically upgrade P10-A.",
+    "The causal intervention uses the frozen project conditional-SCF definition; external independent implementation remains a replay objective."
+  ]
+}

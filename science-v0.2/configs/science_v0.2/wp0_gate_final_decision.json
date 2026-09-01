@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "decision_id": "GATE-V2-0-FINAL-20260901",
+  "decision_date": "2026-09-01",
+  "gate_id": "V2-0",
+  "gate_status": "PASSED",
+  "authority_record": {
+    "role": "PROJECT_LEAD",
+    "basis": "Explicit user directive to complete Gate V2-0 and authorize WP1/WP3 scientific calculations",
+    "independent_specialist_signature_claimed": false,
+    "plan_rule": "Gate review may be accepted by an expert or project lead; work packages still require separate authorization"
+  },
+  "gate_checks": [
+    {"id": "V0_1_HASH_REGRESSION", "status": "PASS", "evidence": "configs/science_v0.2/v0.1_baseline.json"},
+    {"id": "COMPOSITE_CLAIM_SPLIT", "status": "PASS", "evidence": "configs/science_v0.2/claim_estimand_registry.json"},
+    {"id": "EVIDENCE_AND_AGENT_AXES", "status": "PASS", "evidence": "configs/science_v0.2/evidence_record.schema.json"},
+    {"id": "ESTIMAND_REFERENCE_SIGN_GEOMETRY_UNITS", "status": "PASS", "evidence": "configs/science_v0.2/claim_estimand_registry.json"},
+    {"id": "NUMERICAL_AND_SCIENTIFIC_TOLERANCES", "status": "PASS", "evidence": "configs/science_v0.2/claim_estimand_registry.json"},
+    {"id": "BLIND_ROLE_AND_SEAL_DRILL", "status": "PASS", "evidence": "configs/science_v0.2/blind_drill_manifest.json"},
+    {"id": "NETWORK_AND_REPOSITORY_ISOLATION_DRILL", "status": "PASS", "evidence": "runs/science_v0.2/wp0_blind_isolation/isolation_record.json"},
+    {"id": "WP1_WP2_WP3_WP4_CONTRACTS_FROZEN", "status": "PASS", "evidence": "docs/releases/science_v0.2/protocols/WP1_WP4_EXECUTION_CONTRACTS.md"},
+    {"id": "SPECIALIST_OR_PROJECT_LEAD_PROTOCOL_REVIEW", "status": "PASS", "evidence": "docs/releases/science_v0.2/reports/WP0_SPECIALIST_REVIEW_REQUEST_2026-09-01.md"},
+    {"id": "OUTPUT_LOG_FAILURE_AGENT_RESOURCE_RULES", "status": "PASS", "evidence": "docs/releases/science_v0.2/preregistration/RESOURCE_BUDGET_AND_GO_NO_GO.md"},
+    {"id": "SEPARATE_WORK_PACKAGE_AUTHORIZATION", "status": "PASS_FOR_WP1_AND_WP3", "evidence": "configs/science_v0.2/wp_authorizations.json"}
+  ],
+  "review_decisions": {
+    "RQ_1_WP1_PRIMARY_ANCHOR": "ACCEPTED_QP_V2_2_2_CIPSI_PT2",
+    "RQ_2_WP3_GATE_SPLIT": "ACCEPTED_SEED_AT_V2_0_HESSIAN_AT_V2_3",
+    "RQ_3_WP3_ELECTRONIC_INTERVENTION": "ACCEPTED_FROZEN_THREE_KEKULE_FRAGMENT_CONDITIONAL_SCF",
+    "RQ_4_WP4_DUAL_LANE_PROTOCOL": "ACCEPTED_FOR_GATE_DEFINITION_WP4_EXECUTION_NOT_AUTHORIZED"
+  },
+  "non_gate_constraints": {
+    "ORCA": "NOT_FOUND_LICENSE_REQUIRED_WP2_ONLY",
+    "external_clean_replay": "NOT_REPLAYED_AGENT_MATURITY_M1_PLUS_ONLY",
+    "WP4": "SEPARATE_EXECUTION_AUTHORIZATION_NOT_GRANTED",
+    "WP6": "RELEASE_CANDIDATE_NOT_AUTHORIZED"
+  },
+  "science_jobs_started_at_decision": false,
+  "v0_1_mutated": false,
+  "automatic_next_stage": false
+}
