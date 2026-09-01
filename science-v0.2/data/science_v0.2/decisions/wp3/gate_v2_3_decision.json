@@ -1,0 +1,134 @@
+{
+  "schema_version": "science-v0.2-wp3-decision-1",
+  "work_package": "WP3",
+  "gate": "V2-3",
+  "gate_status": "PASS",
+  "p10a_conclusion": "SUPPORTED",
+  "p10a_grade": "R2",
+  "p10b_conclusion": "SUPPORTED",
+  "p10b_grade": "R3",
+  "ordinary_curvatures_hartree_per_angstrom2": {
+    "B2u_BLA": {
+      "total": 17.632434552934278,
+      "electronic": -202.34799644513157,
+      "nuclear": 219.98043099673694
+    },
+    "A1g_breathing": {
+      "total": 18.33781263640928,
+      "electronic": -162.264010396212,
+      "nuclear": 180.60182303129238
+    },
+    "E2g_bend_cos": {
+      "total": 11.23210239626942,
+      "electronic": 3.0266094417360603,
+      "nuclear": 8.205492955122931
+    },
+    "E2g_bend_sin": {
+      "total": 14.441945371239745,
+      "electronic": 3.8908377974459185,
+      "nuclear": 10.551107575256296
+    }
+  },
+  "delta_k_e_hartree_per_angstrom2": {
+    "B2u_BLA": 10.175138957905517,
+    "A1g_breathing": -0.5229263132666802,
+    "E2g_bend_cos": 0.16769474954734997,
+    "E2g_bend_sin": 0.21570836794824366
+  },
+  "b2u_to_largest_control_selectivity": 19.458074110561032,
+  "maximum_energy_ledger_closure_residual": 1.462469256807708e-09,
+  "all_ordinary_points_converged": true,
+  "all_conditional_points_converged": true,
+  "hessian_mode_checks": {
+    "eigenvalues_hartree_per_bohr2_per_amu": [
+      -4.834972491749069e-06,
+      -4.3325730723871275e-06,
+      -2.782968331138669e-06,
+      -1.3656592817699859e-06,
+      3.228803810438141e-06,
+      3.5316781442036457e-06,
+      0.006512202237280458,
+      0.0065141526164987935,
+      0.014607430525663524,
+      0.014608151687775715,
+      0.018276671923741068,
+      0.019506347472897697,
+      0.0283091847129584,
+      0.02830956911169634,
+      0.03557008547302139,
+      0.0355707466688551,
+      0.03869315760501115,
+      0.039267403629124904,
+      0.039405137762288996,
+      0.043240195966423506,
+      0.04324040878083237,
+      0.05316122460622074,
+      0.05516933365928591,
+      0.05516979245545474,
+      0.06960695460672038,
+      0.07287031119183486,
+      0.08873174596482687,
+      0.08873292734720815,
+      0.10369942421285541,
+      0.10370362773094748,
+      0.3816871183234443,
+      0.3840117818018477,
+      0.38401200604622415,
+      0.38786131642157523,
+      0.38786154436883585,
+      0.3904632776995168
+    ],
+    "comparisons": {
+      "B2u_BLA": {
+        "best_eigenmode_index": 24,
+        "absolute_overlap": 0.9624213329000665,
+        "eigenvalue_hartree_per_bohr2_per_amu": 0.06960695460672038
+      },
+      "A1g_breathing": {
+        "best_eigenmode_index": 18,
+        "absolute_overlap": 0.9535826928184542,
+        "eigenvalue_hartree_per_bohr2_per_amu": 0.039405137762288996
+      },
+      "E2g": {
+        "best_eigenmode_indices": [
+          8,
+          9
+        ],
+        "principal_singular_values": [
+          0.7133870430250934,
+          0.7133777923393183
+        ],
+        "eigenvalues_hartree_per_bohr2_per_amu": [
+          0.014607430525663524,
+          0.014608151687775715
+        ],
+        "minimum_mixed_eigensubspace_indices": [
+          9,
+          8,
+          29,
+          28
+        ],
+        "mixed_eigensubspace_principal_singular_values": [
+          0.9576225211877764,
+          0.9576220641390668
+        ],
+        "mixed_eigensubspace_eigenvalues_hartree_per_bohr2_per_amu": [
+          0.014608151687775715,
+          0.014607430525663524,
+          0.10370362773094748,
+          0.10369942421285541
+        ],
+        "mode_mixing_detected": true
+      }
+    },
+    "minimum_required_overlap": 0.9,
+    "one_dimensional_modes_pass": true,
+    "e2g_subspace_pass": false,
+    "e2g_mixed_subspace_pass": true
+  },
+  "source_hashes": {
+    "data/science_v0.2/raw/wp3/wp3_hessian_mixing.json": "d7e550dd5d36cbb56d9b6566760b8faa3fca7edd682443e6fd33aceec2831bad",
+    "data/science_v0.2/raw/wp3/wp3_grid.json": "7ba91c08ea2761eda222dff5cb74cd3dea20d0875748e42df56224a9f7a2aa3d"
+  },
+  "interpretation": "The ordinary electronic response is strongly B2u-distortive while nuclear repulsion is more strongly restoring. The frozen pi-localization intervention selectively reduces the B2u electronic distortion response, discriminating the preregistered mechanism predictions in favor of a nuclear-repulsion-led balance within this protocol."
+}

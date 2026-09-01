@@ -1,0 +1,41 @@
+{
+  "schema_version": "science-v0.2-wp2-functional-alignment-smoke-1",
+  "timestamp_utc": "2026-09-01T12:07:10.563082+00:00",
+  "anchor_id": "WP2-P09-BENZENE-G-E",
+  "science_target_values_used_for_tuning": false,
+  "source": "data/processed/p09_benzene_G_DSI3_smoke_v0.1.json",
+  "source_sha256": "f13f99919d0bd632b57f225da38698a34ad9201ccb8b90374dd3aa5e907da9fa",
+  "geometry_sha256": "B3649795109398A22F70DA5C04785FCBD931881DF8DAE1BDB229A22414B32572",
+  "charge": 0,
+  "multiplicity": 1,
+  "basis": "6-31G(d), spherical",
+  "programs": {
+    "PySCF": {
+      "version": "2.14.0",
+      "functional": "B3LYPG",
+      "grid": "PySCF level 3",
+      "energy_hartree": -232.24382867521595,
+      "converged": true
+    },
+    "Psi4": {
+      "version": "1.11",
+      "functional": "B3LYP",
+      "grid": "75 radial x 302 spherical, ROBUST pruning",
+      "energy_hartree": -232.2438284943612
+    },
+    "ORCA": {
+      "available": false,
+      "license_bypass_attempted": false
+    }
+  },
+  "comparison": {
+    "psi4_minus_pyscf_hartree": 1.8085475517182203e-07,
+    "absolute_difference_hartree": 1.8085475517182203e-07,
+    "preregistered_tolerance_hartree": 5e-06,
+    "passes_open_program_alignment": true
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.2"
+  }
+}

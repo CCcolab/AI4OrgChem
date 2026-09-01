@@ -1,0 +1,45 @@
+{
+  "schema_version": "science-v0.2-wp2-backend-contract-result-1",
+  "science_target_values_used_for_tuning": false,
+  "functional_energy_alignment_smoke_pass": true,
+  "functional_energy_alignment_absolute_difference_hartree": 1.8085475517182203e-07,
+  "backend_contract": {
+    "density_fitting_permitted": false,
+    "psi4_direct_requested": true,
+    "psi4_density_fitted_backend_observed": true,
+    "psi4_pk_exact_backend_observed": true,
+    "psi4_pk_resource_appropriate_for_largest_anchor": false,
+    "pass": false
+  },
+  "programs": {
+    "PySCF": "2.14.0",
+    "Psi4": "1.11",
+    "ORCA_available": false
+  },
+  "anchors": [],
+  "anchors_completed": 0,
+  "anchors_required": 8,
+  "open_program_lane_pass": false,
+  "three_program_core_contract_pass": false,
+  "status": "INDETERMINATE_PSI4_BACKEND_CONTRACT_AND_ORCA_UNAVAILABLE",
+  "failure_rule_applied": "No settings were tuned against V0.1 target values. The first core anchor was stopped when the requested exact backend was not the backend actually executed.",
+  "evidence": {
+    "smoke": {
+      "path": "data/science_v0.2/raw/wp2/wp2_functional_alignment_smoke.json",
+      "sha256": "652f3579306f48352f95f9d64f4e970fde7dee4abe0ede43e28e29f9f44a782f"
+    },
+    "attempt_history": {
+      "path": "data/science_v0.2/raw/wp2/wp2_attempt_history.json",
+      "sha256": "c61bb66e959404d683003ed6b0f48de10d0a18dd5c494ee6f9256f5e8c4a1583"
+    },
+    "direct_backend_log": {
+      "path": "data/science_v0.2/raw/wp2/retained_failures/wp2_p03_direct_energy_df_backend_abort_r6.psi4.log",
+      "sha256": "a4207991f6b6b46b0da86512a032ad9807bd15b3c3360a71ffd0ac62e1d8b0af"
+    },
+    "pk_resource_log": {
+      "path": "data/science_v0.2/raw/wp2/retained_failures/wp2_p03_pk_resource_abort_r1.psi4.log",
+      "sha256": "ceec7964b31e7c7d2cee86cac9f0cbb9e2942c1c10ae0e171dbd4c102b34fabe"
+    }
+  },
+  "publication_boundary": "Raw logs are retained locally for audit but are not distributed in the curated GitHub release; hashes and the machine decision are public."
+}

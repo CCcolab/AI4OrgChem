@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "status": "FROZEN_NOT_AUTHORIZED",
+  "programs_required_for_every_core_anchor": ["PySCF", "ORCA", "Psi4"],
+  "alignment_contract": {
+    "same_cartesian_geometry": true,
+    "same_charge_multiplicity": true,
+    "same_spherical_cartesian_basis_convention": true,
+    "gaussian_style_b3lyp_identity_must_be_proved_before_science_run": true,
+    "density_fitting": false,
+    "dispersion": "none",
+    "scf_energy_tolerance_hartree": 1e-10,
+    "absolute_energy_cross_program_tolerance_hartree": 5e-6,
+    "relative_energy_cross_program_tolerance_kcal_mol": 0.05,
+    "gradient_rms_cross_program_tolerance_hartree_per_bohr": 5e-5,
+    "failure_rule": "Any program outside tolerance is retained and the anchor becomes INDETERMINATE; settings may not be tuned against V0.1 targets."
+  },
+  "anchors": [
+    {
+      "anchor_id": "WP2-P03-NBA-000-EF", "claim_id": "P03", "geometry_id": "P03_NBA_RELAXED_PES_000_DEG",
+      "geometry_source": "data/processed/p03_parent_nba_relaxed_pes_evidence_v0.1.json",
+      "energy_or_force": ["total_energy", "constrained_dihedral_force"], "method": "Gaussian-style B3LYP", "basis": "6-311G(d,p)"
+    },
+    {
+      "anchor_id": "WP2-P03-NBA-060-E", "claim_id": "P03", "geometry_id": "P03_NBA_RELAXED_PES_060_DEG",
+      "geometry_source": "data/processed/p03_parent_nba_relaxed_pes_evidence_v0.1.json",
+      "energy_or_force": ["total_energy"], "method": "Gaussian-style B3LYP", "basis": "6-311G(d,p)"
+    },
+    {
+      "anchor_id": "WP2-P08-BUTADIENE-G-EG", "claim_id": "P08", "geometry_id": "P08_BUTADIENE_ORDINARY_G",
+      "geometry_source": "data/processed/p08_butadiene_gl2014_evidence_v0.1.json",
+      "energy_or_force": ["total_energy", "cartesian_gradient"], "method": "Gaussian-style B3LYP", "basis": "6-31G(d)"
+    },
+    {
+      "anchor_id": "WP2-P09-BENZENE-G-E", "claim_id": "P09", "geometry_id": "P09_BENZENE_D6H_G",
+      "geometry_source": "data/processed/p09_benzene_G_DSI3_smoke_v0.1.json",
+      "energy_or_force": ["total_energy"], "method": "Gaussian-style B3LYP", "basis": "6-31G(d)"
+    },
+    {
+      "anchor_id": "WP2-P09-CBD-G-E", "claim_id": "P09", "geometry_id": "P09_CBD_D2H_G",
+      "geometry_source": "data/processed/p09_cyclobutadiene_G_DSI_VDE_v0.1.json",
+      "energy_or_force": ["total_energy"], "method": "Gaussian-style B3LYP", "basis": "6-31G(d)"
+    },
+    {
+      "anchor_id": "WP2-P10-BENZENE-B2U-Q0-EF", "claim_id": "P10-A", "geometry_id": "P10_BENZENE_B2U_Q0",
+      "geometry_source": "data/processed/p10_benzene_nuclear_repulsion_v0.1.json",
+      "energy_or_force": ["total_energy", "B2u_projected_force"], "method": "Gaussian-style B3LYP", "basis": "6-31G(d)"
+    },
+    {
+      "anchor_id": "WP2-P10-BENZENE-B2U-QPLUS-E", "claim_id": "P10-A", "geometry_id": "P10_BENZENE_B2U_POSITIVE_PRIMARY_STEP",
+      "geometry_source": "data/processed/p10_benzene_nuclear_repulsion_v0.1.json",
+      "energy_or_force": ["total_energy"], "method": "Gaussian-style B3LYP", "basis": "6-31G(d)"
+    },
+    {
+      "anchor_id": "WP2-P11-FURAN-G-E", "claim_id": "P11", "geometry_id": "P11_FURAN_ORDINARY_G",
+      "geometry_source": "data/processed/p11_furan_LDE_v0.1.json",
+      "energy_or_force": ["total_energy"], "method": "Gaussian-style B3LYP", "basis": "6-31G(d)"
+    }
+  ]
+}

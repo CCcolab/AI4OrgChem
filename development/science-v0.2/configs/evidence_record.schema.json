@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/CCcolab/AI4OrgChem/schemas/science-v0.2-evidence-record.json",
+  "title": "AI4OrgChem science_v0.2 evidence record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "claim_id", "estimand_id", "relation_to_v0_1",
+    "comparison_outcome", "conclusion_state", "scientific_grade",
+    "replay_status", "agent_maturity", "endpoint"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "claim_id": {"type": "string", "pattern": "^P(09|10|12)-[AB]$"},
+    "estimand_id": {"type": "string", "minLength": 3},
+    "relation_to_v0_1": {"enum": ["SAME_ESTIMAND", "COMPLEMENTARY", "INCOMPARABLE"]},
+    "comparison_outcome": {"enum": ["CONSISTENT", "PARTIALLY_CONSISTENT", "OPPOSED", "NOT_APPLICABLE"]},
+    "conclusion_state": {"enum": ["NOT_RUN", "SUPPORTED", "PARTIALLY_SUPPORTED", "OPPOSED", "INDETERMINATE"]},
+    "scientific_grade": {"enum": [null, "R1", "R2", "R3"]},
+    "replay_status": {"enum": ["NOT_REPLAYED", "INTERNAL_CLEAN_REPLAY", "EXTERNAL_CLEAN_REPLAY"]},
+    "agent_maturity": {"enum": ["M1_PLUS", "M2"]},
+    "endpoint": {"$ref": "#/$defs/endpoint"},
+    "evidence_paths": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "limitations": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+  },
+  "$defs": {
+    "endpoint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "role", "observable", "formula", "unit", "reference_state_id",
+        "sign_convention", "temperature_k", "standard_state", "method",
+        "basis", "geometry_protocol", "numerical_tolerance",
+        "scientific_equivalence_interval", "conclusion_flip_condition"
+      ],
+      "properties": {
+        "role": {"enum": ["PRIMARY", "SECONDARY", "EXPLORATORY"]},
+        "observable": {"type": "string", "minLength": 2},
+        "formula": {"type": "string", "minLength": 2},
+        "unit": {"type": "string", "minLength": 1},
+        "reference_state_id": {"type": "string", "minLength": 2},
+        "sign_convention": {"type": "string", "minLength": 2},
+        "temperature_k": {"type": ["number", "null"], "minimum": 0},
+        "standard_state": {"type": "string", "minLength": 2},
+        "method": {"type": "string", "minLength": 2},
+        "basis": {"type": "string", "minLength": 2},
+        "geometry_protocol": {"type": "string", "minLength": 2},
+        "numerical_tolerance": {"type": "object", "minProperties": 1},
+        "scientific_equivalence_interval": {"type": "object", "minProperties": 1},
+        "conclusion_flip_condition": {"type": "string", "minLength": 8}
+      }
+    }
+  }
+}

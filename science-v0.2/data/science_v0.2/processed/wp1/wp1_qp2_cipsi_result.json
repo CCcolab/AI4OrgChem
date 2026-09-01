@@ -1,0 +1,1046 @@
+{
+  "schema_version": "science-v0.2-wp1-qp2-cipsi-result-1",
+  "generated_at_utc": "2026-09-01T10:53:45.200939+00:00",
+  "work_package": "WP1",
+  "role": "PRIMARY_HIGH_LEVEL_ANCHOR",
+  "implementation": "Quantum Package v2.2.2 CIPSI+PT2",
+  "run_root": "data\\science_v0.2\\raw\\wp1\\qp2-cipsi-r6",
+  "status": "PASS",
+  "endpoints": [
+    {
+      "endpoint": "D2H",
+      "status": "PASS",
+      "hf_energy_hartree": -153.655252172618,
+      "e_var_hartree": -154.131045303318,
+      "e_var_plus_pt2_hartree": -154.222434959144,
+      "n_det": 53059,
+      "iteration_series": [
+        {
+          "n_det": 1,
+          "e_var_hartree": -153.65525217,
+          "e_pt2_hartree": -0.67227648,
+          "e_var_plus_pt2_hartree": -154.32752865,
+          "pt2_statistical_error_hartree": 0.0,
+          "variance_hartree2": 1.5646267522308273,
+          "variance_statistical_error_hartree2": 0.0,
+          "fci_extrapolation_points": []
+        },
+        {
+          "n_det": 10,
+          "e_var_hartree": -153.6962125,
+          "e_pt2_hartree": -0.588173,
+          "e_var_plus_pt2_hartree": -154.2843855,
+          "pt2_statistical_error_hartree": 0.0,
+          "variance_hartree2": 1.5038968363141045,
+          "variance_statistical_error_hartree2": 0.0,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.4798,
+              "extrapolated_energy_hartree": -154.75448666
+            }
+          ]
+        },
+        {
+          "n_det": 22,
+          "e_var_hartree": -153.70903757,
+          "e_pt2_hartree": -0.56225112,
+          "e_var_plus_pt2_hartree": -154.27128869,
+          "pt2_statistical_error_hartree": 0.0,
+          "variance_hartree2": 1.4768330410433532,
+          "variance_statistical_error_hartree2": 0.0,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.4619,
+              "extrapolated_energy_hartree": -154.16435444
+            },
+            {
+              "minimum_pt2_hartree": -0.4798,
+              "extrapolated_energy_hartree": -154.51983049
+            }
+          ]
+        },
+        {
+          "n_det": 48,
+          "e_var_hartree": -153.72084842,
+          "e_pt2_hartree": -0.5425777,
+          "e_var_plus_pt2_hartree": -154.26342612000002,
+          "pt2_statistical_error_hartree": 0.0,
+          "variance_hartree2": 1.452220360864046,
+          "variance_statistical_error_hartree2": 0.0,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.4493,
+              "extrapolated_energy_hartree": -154.20346556
+            },
+            {
+              "minimum_pt2_hartree": -0.4619,
+              "extrapolated_energy_hartree": -154.18210755
+            },
+            {
+              "minimum_pt2_hartree": -0.4798,
+              "extrapolated_energy_hartree": -154.41544945
+            }
+          ]
+        },
+        {
+          "n_det": 99,
+          "e_var_hartree": -153.73243292,
+          "e_pt2_hartree": -0.5248964,
+          "e_var_plus_pt2_hartree": -154.25732932,
+          "pt2_statistical_error_hartree": 0.0,
+          "variance_hartree2": 1.4289373758140131,
+          "variance_statistical_error_hartree2": 0.0,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.4385,
+              "extrapolated_energy_hartree": -154.2329164
+            },
+            {
+              "minimum_pt2_hartree": -0.4493,
+              "extrapolated_energy_hartree": -154.217651
+            },
+            {
+              "minimum_pt2_hartree": -0.4619,
+              "extrapolated_energy_hartree": -154.19778399
+            },
+            {
+              "minimum_pt2_hartree": -0.4798,
+              "extrapolated_energy_hartree": -154.36077621
+            }
+          ]
+        },
+        {
+          "n_det": 204,
+          "e_var_hartree": -153.75005239,
+          "e_pt2_hartree": -0.49946947,
+          "e_var_plus_pt2_hartree": -154.24952186000002,
+          "pt2_statistical_error_hartree": 0.0,
+          "variance_hartree2": 1.390499421367219,
+          "variance_statistical_error_hartree2": 0.0,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.4286,
+              "extrapolated_energy_hartree": -154.22801385
+            },
+            {
+              "minimum_pt2_hartree": -0.4385,
+              "extrapolated_energy_hartree": -154.22973932
+            },
+            {
+              "minimum_pt2_hartree": -0.4493,
+              "extrapolated_energy_hartree": -154.22348846
+            },
+            {
+              "minimum_pt2_hartree": -0.4619,
+              "extrapolated_energy_hartree": -154.2098918
+            },
+            {
+              "minimum_pt2_hartree": -0.4798,
+              "extrapolated_energy_hartree": -154.3169879
+            }
+          ]
+        },
+        {
+          "n_det": 411,
+          "e_var_hartree": -153.77494433,
+          "e_pt2_hartree": -0.46548732,
+          "e_var_plus_pt2_hartree": -154.24043165,
+          "pt2_statistical_error_hartree": 0.0,
+          "variance_hartree2": 1.3421817218718366,
+          "variance_statistical_error_hartree2": 0.0,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.4134,
+              "extrapolated_energy_hartree": -154.24297442
+            },
+            {
+              "minimum_pt2_hartree": -0.4286,
+              "extrapolated_energy_hartree": -154.23724904
+            },
+            {
+              "minimum_pt2_hartree": -0.4385,
+              "extrapolated_energy_hartree": -154.23572271
+            },
+            {
+              "minimum_pt2_hartree": -0.4493,
+              "extrapolated_energy_hartree": -154.23118805
+            },
+            {
+              "minimum_pt2_hartree": -0.4619,
+              "extrapolated_energy_hartree": -154.22162881
+            },
+            {
+              "minimum_pt2_hartree": -0.4798,
+              "extrapolated_energy_hartree": -154.28730092
+            }
+          ]
+        },
+        {
+          "n_det": 827,
+          "e_var_hartree": -153.8084755,
+          "e_pt2_hartree": -0.4212272,
+          "e_var_plus_pt2_hartree": -154.2297027,
+          "pt2_statistical_error_hartree": 0.0,
+          "variance_hartree2": 1.2722713982957905,
+          "variance_statistical_error_hartree2": 0.0,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.3925,
+              "extrapolated_energy_hartree": -154.2259922
+            },
+            {
+              "minimum_pt2_hartree": -0.4134,
+              "extrapolated_energy_hartree": -154.23227436
+            },
+            {
+              "minimum_pt2_hartree": -0.4286,
+              "extrapolated_energy_hartree": -154.23251937
+            },
+            {
+              "minimum_pt2_hartree": -0.4385,
+              "extrapolated_energy_hartree": -154.23262123
+            },
+            {
+              "minimum_pt2_hartree": -0.4493,
+              "extrapolated_energy_hartree": -154.23075235
+            },
+            {
+              "minimum_pt2_hartree": -0.4619,
+              "extrapolated_energy_hartree": -154.22547062
+            },
+            {
+              "minimum_pt2_hartree": -0.4798,
+              "extrapolated_energy_hartree": -154.26469318
+            }
+          ]
+        },
+        {
+          "n_det": 1656,
+          "e_var_hartree": -153.85275872,
+          "e_pt2_hartree": -0.36719248,
+          "e_var_plus_pt2_hartree": -154.2199512,
+          "pt2_statistical_error_hartree": 0.00048003,
+          "variance_hartree2": 1.179943839891836,
+          "variance_statistical_error_hartree2": 0.0017591736339204918,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.3633,
+              "extrapolated_energy_hartree": -154.2296645
+            },
+            {
+              "minimum_pt2_hartree": -0.3925,
+              "extrapolated_energy_hartree": -154.22826497
+            },
+            {
+              "minimum_pt2_hartree": -0.4134,
+              "extrapolated_energy_hartree": -154.23050842
+            },
+            {
+              "minimum_pt2_hartree": -0.4286,
+              "extrapolated_energy_hartree": -154.23095915
+            },
+            {
+              "minimum_pt2_hartree": -0.4385,
+              "extrapolated_energy_hartree": -154.23122033
+            },
+            {
+              "minimum_pt2_hartree": -0.4493,
+              "extrapolated_energy_hartree": -154.23036163
+            },
+            {
+              "minimum_pt2_hartree": -0.4619,
+              "extrapolated_energy_hartree": -154.22740766
+            }
+          ]
+        },
+        {
+          "n_det": 3313,
+          "e_var_hartree": -153.90722244,
+          "e_pt2_hartree": -0.30585169,
+          "e_var_plus_pt2_hartree": -154.21307413,
+          "pt2_statistical_error_hartree": 0.00036584,
+          "variance_hartree2": 1.0574060705746149,
+          "variance_statistical_error_hartree2": 0.0010597320830279312,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.3251,
+              "extrapolated_energy_hartree": -154.23079542
+            },
+            {
+              "minimum_pt2_hartree": -0.3633,
+              "extrapolated_energy_hartree": -154.23035494
+            },
+            {
+              "minimum_pt2_hartree": -0.3925,
+              "extrapolated_energy_hartree": -154.22952325
+            },
+            {
+              "minimum_pt2_hartree": -0.4134,
+              "extrapolated_energy_hartree": -154.2304246
+            },
+            {
+              "minimum_pt2_hartree": -0.4286,
+              "extrapolated_energy_hartree": -154.23067874
+            },
+            {
+              "minimum_pt2_hartree": -0.4385,
+              "extrapolated_energy_hartree": -154.23085357
+            },
+            {
+              "minimum_pt2_hartree": -0.4493,
+              "extrapolated_energy_hartree": -154.23039264
+            }
+          ]
+        },
+        {
+          "n_det": 6628,
+          "e_var_hartree": -153.97092098,
+          "e_pt2_hartree": -0.24146838,
+          "e_var_plus_pt2_hartree": -154.21238935999997,
+          "pt2_statistical_error_hartree": 0.00041242,
+          "variance_hartree2": 0.9138085178536243,
+          "variance_statistical_error_hartree2": 0.0022922658782049293,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.2783,
+              "extrapolated_energy_hartree": -154.24302205
+            },
+            {
+              "minimum_pt2_hartree": -0.3251,
+              "extrapolated_energy_hartree": -154.23812084
+            },
+            {
+              "minimum_pt2_hartree": -0.3633,
+              "extrapolated_energy_hartree": -154.23587626
+            },
+            {
+              "minimum_pt2_hartree": -0.3925,
+              "extrapolated_energy_hartree": -154.23434912
+            },
+            {
+              "minimum_pt2_hartree": -0.4134,
+              "extrapolated_energy_hartree": -154.23416119
+            },
+            {
+              "minimum_pt2_hartree": -0.4286,
+              "extrapolated_energy_hartree": -154.23390972
+            },
+            {
+              "minimum_pt2_hartree": -0.4385,
+              "extrapolated_energy_hartree": -154.23375785
+            }
+          ]
+        },
+        {
+          "n_det": 13262,
+          "e_var_hartree": -154.03628667,
+          "e_pt2_hartree": -0.1787836,
+          "e_var_plus_pt2_hartree": -154.21507027,
+          "pt2_statistical_error_hartree": 0.00035545,
+          "variance_hartree2": 0.7440207460827503,
+          "variance_statistical_error_hartree2": 0.001599390000965633,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.2255,
+              "extrapolated_energy_hartree": -154.2400185
+            },
+            {
+              "minimum_pt2_hartree": -0.2783,
+              "extrapolated_energy_hartree": -154.24124463
+            },
+            {
+              "minimum_pt2_hartree": -0.3251,
+              "extrapolated_energy_hartree": -154.23936874
+            },
+            {
+              "minimum_pt2_hartree": -0.3633,
+              "extrapolated_energy_hartree": -154.23790462
+            },
+            {
+              "minimum_pt2_hartree": -0.3925,
+              "extrapolated_energy_hartree": -154.23672674
+            },
+            {
+              "minimum_pt2_hartree": -0.4134,
+              "extrapolated_energy_hartree": -154.2363518
+            },
+            {
+              "minimum_pt2_hartree": -0.4286,
+              "extrapolated_energy_hartree": -154.23601479
+            }
+          ]
+        },
+        {
+          "n_det": 26527,
+          "e_var_hartree": -154.09443443,
+          "e_pt2_hartree": -0.12458677,
+          "e_var_plus_pt2_hartree": -154.21902120000001,
+          "pt2_statistical_error_hartree": 0.0002335,
+          "variance_hartree2": 0.5695748081026129,
+          "variance_statistical_error_hartree2": 0.0013481327910614654,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.1707,
+              "extrapolated_energy_hartree": -154.23587756
+            },
+            {
+              "minimum_pt2_hartree": -0.2255,
+              "extrapolated_energy_hartree": -154.2376598
+            },
+            {
+              "minimum_pt2_hartree": -0.2783,
+              "extrapolated_energy_hartree": -154.23899463
+            },
+            {
+              "minimum_pt2_hartree": -0.3251,
+              "extrapolated_energy_hartree": -154.23843457
+            },
+            {
+              "minimum_pt2_hartree": -0.3633,
+              "extrapolated_energy_hartree": -154.23771291
+            },
+            {
+              "minimum_pt2_hartree": -0.3925,
+              "extrapolated_energy_hartree": -154.23700599
+            },
+            {
+              "minimum_pt2_hartree": -0.4134,
+              "extrapolated_energy_hartree": -154.23674253
+            }
+          ]
+        },
+        {
+          "n_det": 53059,
+          "e_var_hartree": -154.1310453,
+          "e_pt2_hartree": -0.09138966,
+          "e_var_plus_pt2_hartree": -154.22243496000002,
+          "pt2_statistical_error_hartree": 0.0001749,
+          "variance_hartree2": 0.4481960273554685,
+          "variance_statistical_error_hartree2": 0.0010491845580276632,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.121,
+              "extrapolated_energy_hartree": -154.23544749
+            },
+            {
+              "minimum_pt2_hartree": -0.1707,
+              "extrapolated_energy_hartree": -154.23568133
+            },
+            {
+              "minimum_pt2_hartree": -0.2255,
+              "extrapolated_energy_hartree": -154.23682012
+            },
+            {
+              "minimum_pt2_hartree": -0.2783,
+              "extrapolated_energy_hartree": -154.23787399
+            },
+            {
+              "minimum_pt2_hartree": -0.3251,
+              "extrapolated_energy_hartree": -154.23770103
+            },
+            {
+              "minimum_pt2_hartree": -0.3633,
+              "extrapolated_energy_hartree": -154.23730509
+            },
+            {
+              "minimum_pt2_hartree": -0.3925,
+              "extrapolated_energy_hartree": -154.23685348
+            }
+          ]
+        }
+      ],
+      "iteration_series_parse_status": "PASS",
+      "artifacts": [
+        {
+          "path": "d2h\\create_ezfio.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "d2h\\scf.log",
+          "sha256": "92282af60a047c4bd7da32049e656ac99f1ac16a910fd0cd64efeb0f06530bc5"
+        },
+        {
+          "path": "d2h\\frozen_core.log",
+          "sha256": "8e671e7d7cb95aff615c2f8c6aecfe41ff4a958d79df4476ed22028b566241c4"
+        },
+        {
+          "path": "d2h\\cipsi.log",
+          "sha256": "419afeb4cc9aa8ab1110325079e1c0720bf40ece598ec0a5865ed12696713e9e"
+        },
+        {
+          "path": "d2h\\hf_energy.txt",
+          "sha256": "700a38db42d185e3cbbe35992598ceff8e2443e9dbc2e8a404301d9097589195"
+        },
+        {
+          "path": "d2h\\variational_energy.txt",
+          "sha256": "854089733d97baa7b423696883b51f728041608f5b47eb6d38beb1e52a125015"
+        },
+        {
+          "path": "d2h\\variational_plus_pt2_energy.txt",
+          "sha256": "458a65cb3a00a79e0397a6b1e64af70beab9b5bbd37814c53489bf07a6e4452b"
+        },
+        {
+          "path": "d2h\\n_det.txt",
+          "sha256": "ec6952d193418fcf783f1a93f7f63425f95602047623deebaa7d0aac4bb84b91"
+        }
+      ]
+    },
+    {
+      "endpoint": "D4H",
+      "status": "PASS",
+      "hf_energy_hartree": -153.594483908211,
+      "e_var_hartree": -154.065690022484,
+      "e_var_plus_pt2_hartree": -154.145293003147,
+      "n_det": 71578,
+      "iteration_series": [
+        {
+          "n_det": 1,
+          "e_var_hartree": -153.59448391,
+          "e_pt2_hartree": -0.63701019,
+          "e_var_plus_pt2_hartree": -154.23149410000002,
+          "pt2_statistical_error_hartree": 0.0,
+          "variance_hartree2": 1.5358969362738886,
+          "variance_statistical_error_hartree2": 0.0,
+          "fci_extrapolation_points": []
+        },
+        {
+          "n_det": 4,
+          "e_var_hartree": -153.61418583,
+          "e_pt2_hartree": -0.59856693,
+          "e_var_plus_pt2_hartree": -154.21275276,
+          "pt2_statistical_error_hartree": 0.0,
+          "variance_hartree2": 1.5063521726708784,
+          "variance_statistical_error_hartree2": 0.0,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.4767,
+              "extrapolated_energy_hartree": -154.23695822
+            }
+          ]
+        },
+        {
+          "n_det": 8,
+          "e_var_hartree": -153.62007441,
+          "e_pt2_hartree": -0.58915513,
+          "e_var_plus_pt2_hartree": -154.20922954,
+          "pt2_statistical_error_hartree": 0.0,
+          "variance_hartree2": 1.4994591999244498,
+          "variance_statistical_error_hartree2": 0.0,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.4621,
+              "extrapolated_energy_hartree": -155.80079177
+            },
+            {
+              "minimum_pt2_hartree": -0.4767,
+              "extrapolated_energy_hartree": -154.31035662
+            }
+          ]
+        },
+        {
+          "n_det": 16,
+          "e_var_hartree": -153.62777575,
+          "e_pt2_hartree": -0.57737689,
+          "e_var_plus_pt2_hartree": -154.20515264000002,
+          "pt2_statistical_error_hartree": 0.0,
+          "variance_hartree2": 1.4905059285704276,
+          "variance_statistical_error_hartree2": 0.0,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.4609,
+              "extrapolated_energy_hartree": -154.40689715
+            },
+            {
+              "minimum_pt2_hartree": -0.4621,
+              "extrapolated_energy_hartree": -154.6258064
+            },
+            {
+              "minimum_pt2_hartree": -0.4767,
+              "extrapolated_energy_hartree": -154.35443999
+            }
+          ]
+        },
+        {
+          "n_det": 34,
+          "e_var_hartree": -153.63540641,
+          "e_pt2_hartree": -0.56356772,
+          "e_var_plus_pt2_hartree": -154.19897413,
+          "pt2_statistical_error_hartree": 0.0,
+          "variance_hartree2": 1.4715189958671304,
+          "variance_statistical_error_hartree2": 0.0,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.4564,
+              "extrapolated_energy_hartree": -154.09556104
+            },
+            {
+              "minimum_pt2_hartree": -0.4609,
+              "extrapolated_energy_hartree": -154.20005236
+            },
+            {
+              "minimum_pt2_hartree": -0.4621,
+              "extrapolated_energy_hartree": -154.30898835
+            },
+            {
+              "minimum_pt2_hartree": -0.4767,
+              "extrapolated_energy_hartree": -154.31612586
+            }
+          ]
+        },
+        {
+          "n_det": 68,
+          "e_var_hartree": -153.64721511,
+          "e_pt2_hartree": -0.54356189,
+          "e_var_plus_pt2_hartree": -154.190777,
+          "pt2_statistical_error_hartree": 0.0,
+          "variance_hartree2": 1.4444808732024745,
+          "variance_statistical_error_hartree2": 0.0,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.4489,
+              "extrapolated_energy_hartree": -154.12381309
+            },
+            {
+              "minimum_pt2_hartree": -0.4564,
+              "extrapolated_energy_hartree": -154.11333964
+            },
+            {
+              "minimum_pt2_hartree": -0.4609,
+              "extrapolated_energy_hartree": -154.15415027
+            },
+            {
+              "minimum_pt2_hartree": -0.4621,
+              "extrapolated_energy_hartree": -154.21018591
+            },
+            {
+              "minimum_pt2_hartree": -0.4767,
+              "extrapolated_energy_hartree": -154.25496376
+            }
+          ]
+        },
+        {
+          "n_det": 137,
+          "e_var_hartree": -153.66510594,
+          "e_pt2_hartree": -0.51551286,
+          "e_var_plus_pt2_hartree": -154.1806188,
+          "pt2_statistical_error_hartree": 0.0,
+          "variance_hartree2": 1.405177721728763,
+          "variance_statistical_error_hartree2": 0.0,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.4381,
+              "extrapolated_energy_hartree": -154.14151244
+            },
+            {
+              "minimum_pt2_hartree": -0.4489,
+              "extrapolated_energy_hartree": -154.13501835
+            },
+            {
+              "minimum_pt2_hartree": -0.4564,
+              "extrapolated_energy_hartree": -154.12761671
+            },
+            {
+              "minimum_pt2_hartree": -0.4609,
+              "extrapolated_energy_hartree": -154.14475214
+            },
+            {
+              "minimum_pt2_hartree": -0.4621,
+              "extrapolated_energy_hartree": -154.17425312
+            },
+            {
+              "minimum_pt2_hartree": -0.4767,
+              "extrapolated_energy_hartree": -154.20839859
+            }
+          ]
+        },
+        {
+          "n_det": 276,
+          "e_var_hartree": -153.69123031,
+          "e_pt2_hartree": -0.4772698,
+          "e_var_plus_pt2_hartree": -154.16850011,
+          "pt2_statistical_error_hartree": 0.0,
+          "variance_hartree2": 1.3509705473325069,
+          "variance_statistical_error_hartree2": 0.0,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.4222,
+              "extrapolated_energy_hartree": -154.14431207
+            },
+            {
+              "minimum_pt2_hartree": -0.4381,
+              "extrapolated_energy_hartree": -154.1432933
+            },
+            {
+              "minimum_pt2_hartree": -0.4489,
+              "extrapolated_energy_hartree": -154.14003887
+            },
+            {
+              "minimum_pt2_hartree": -0.4564,
+              "extrapolated_energy_hartree": -154.13561362
+            },
+            {
+              "minimum_pt2_hartree": -0.4609,
+              "extrapolated_energy_hartree": -154.14332328
+            },
+            {
+              "minimum_pt2_hartree": -0.4621,
+              "extrapolated_energy_hartree": -154.15919164
+            },
+            {
+              "minimum_pt2_hartree": -0.4767,
+              "extrapolated_energy_hartree": -154.18006029
+            }
+          ]
+        },
+        {
+          "n_det": 555,
+          "e_var_hartree": -153.72364828,
+          "e_pt2_hartree": -0.43321238,
+          "e_var_plus_pt2_hartree": -154.15686065999998,
+          "pt2_statistical_error_hartree": 0.0,
+          "variance_hartree2": 1.2819337625988811,
+          "variance_statistical_error_hartree2": 0.0,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.3992,
+              "extrapolated_energy_hartree": -154.14859554
+            },
+            {
+              "minimum_pt2_hartree": -0.4222,
+              "extrapolated_energy_hartree": -154.14683696
+            },
+            {
+              "minimum_pt2_hartree": -0.4381,
+              "extrapolated_energy_hartree": -154.14567824
+            },
+            {
+              "minimum_pt2_hartree": -0.4489,
+              "extrapolated_energy_hartree": -154.14355938
+            },
+            {
+              "minimum_pt2_hartree": -0.4564,
+              "extrapolated_energy_hartree": -154.14068671
+            },
+            {
+              "minimum_pt2_hartree": -0.4609,
+              "extrapolated_energy_hartree": -154.14453387
+            },
+            {
+              "minimum_pt2_hartree": -0.4621,
+              "extrapolated_energy_hartree": -154.15369859
+            }
+          ]
+        },
+        {
+          "n_det": 1115,
+          "e_var_hartree": -153.76729881,
+          "e_pt2_hartree": -0.3786919,
+          "e_var_plus_pt2_hartree": -154.14599071,
+          "pt2_statistical_error_hartree": 6.288e-05,
+          "variance_hartree2": 1.1909810963498777,
+          "variance_statistical_error_hartree2": 0.0007215115768431896,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.3709,
+              "extrapolated_energy_hartree": -154.15185655
+            },
+            {
+              "minimum_pt2_hartree": -0.3992,
+              "extrapolated_energy_hartree": -154.150631
+            },
+            {
+              "minimum_pt2_hartree": -0.4222,
+              "extrapolated_energy_hartree": -154.14925299
+            },
+            {
+              "minimum_pt2_hartree": -0.4381,
+              "extrapolated_energy_hartree": -154.14818896
+            },
+            {
+              "minimum_pt2_hartree": -0.4489,
+              "extrapolated_energy_hartree": -154.14668795
+            },
+            {
+              "minimum_pt2_hartree": -0.4564,
+              "extrapolated_energy_hartree": -154.14474308
+            },
+            {
+              "minimum_pt2_hartree": -0.4609,
+              "extrapolated_energy_hartree": -154.14666768
+            }
+          ]
+        },
+        {
+          "n_det": 2233,
+          "e_var_hartree": -153.82236917,
+          "e_pt2_hartree": -0.31662338,
+          "e_var_plus_pt2_hartree": -154.13899255,
+          "pt2_statistical_error_hartree": 0.00016332,
+          "variance_hartree2": 1.0685928162793557,
+          "variance_statistical_error_hartree2": 0.0009294885552435646,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.3331,
+              "extrapolated_energy_hartree": -154.15942394
+            },
+            {
+              "minimum_pt2_hartree": -0.3709,
+              "extrapolated_energy_hartree": -154.15648878
+            },
+            {
+              "minimum_pt2_hartree": -0.3992,
+              "extrapolated_energy_hartree": -154.15470343
+            },
+            {
+              "minimum_pt2_hartree": -0.4222,
+              "extrapolated_energy_hartree": -154.15318635
+            },
+            {
+              "minimum_pt2_hartree": -0.4381,
+              "extrapolated_energy_hartree": -154.15203416
+            },
+            {
+              "minimum_pt2_hartree": -0.4489,
+              "extrapolated_energy_hartree": -154.15076904
+            },
+            {
+              "minimum_pt2_hartree": -0.4564,
+              "extrapolated_energy_hartree": -154.14930168
+            }
+          ]
+        },
+        {
+          "n_det": 4472,
+          "e_var_hartree": -153.88306741,
+          "e_pt2_hartree": -0.25149484,
+          "e_var_plus_pt2_hartree": -154.13456225,
+          "pt2_statistical_error_hartree": 0.00030991,
+          "variance_hartree2": 0.9270245969317101,
+          "variance_statistical_error_hartree2": 0.0022510512068250202,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.2863,
+              "extrapolated_energy_hartree": -154.15253923
+            },
+            {
+              "minimum_pt2_hartree": -0.3331,
+              "extrapolated_energy_hartree": -154.15531496
+            },
+            {
+              "minimum_pt2_hartree": -0.3709,
+              "extrapolated_energy_hartree": -154.1550562
+            },
+            {
+              "minimum_pt2_hartree": -0.3992,
+              "extrapolated_energy_hartree": -154.15440265
+            },
+            {
+              "minimum_pt2_hartree": -0.4222,
+              "extrapolated_energy_hartree": -154.1536055
+            },
+            {
+              "minimum_pt2_hartree": -0.4381,
+              "extrapolated_energy_hartree": -154.1528908
+            },
+            {
+              "minimum_pt2_hartree": -0.4489,
+              "extrapolated_energy_hartree": -154.15206293
+            }
+          ]
+        },
+        {
+          "n_det": 8946,
+          "e_var_hartree": -153.94453887,
+          "e_pt2_hartree": -0.1906449,
+          "e_var_plus_pt2_hartree": -154.13518377,
+          "pt2_statistical_error_hartree": 0.00035496,
+          "variance_hartree2": 0.7671033025180747,
+          "variance_statistical_error_hartree2": 0.0017347672845058441,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.2337,
+              "extrapolated_energy_hartree": -154.1563619
+            },
+            {
+              "minimum_pt2_hartree": -0.2863,
+              "extrapolated_energy_hartree": -154.15473556
+            },
+            {
+              "minimum_pt2_hartree": -0.3331,
+              "extrapolated_energy_hartree": -154.15547821
+            },
+            {
+              "minimum_pt2_hartree": -0.3709,
+              "extrapolated_energy_hartree": -154.15530154
+            },
+            {
+              "minimum_pt2_hartree": -0.3992,
+              "extrapolated_energy_hartree": -154.1548844
+            },
+            {
+              "minimum_pt2_hartree": -0.4222,
+              "extrapolated_energy_hartree": -154.15434691
+            },
+            {
+              "minimum_pt2_hartree": -0.4381,
+              "extrapolated_energy_hartree": -154.15383759
+            }
+          ]
+        },
+        {
+          "n_det": 17893,
+          "e_var_hartree": -154.00189545,
+          "e_pt2_hartree": -0.13635361,
+          "e_var_plus_pt2_hartree": -154.13824906,
+          "pt2_statistical_error_hartree": 0.00027236,
+          "variance_hartree2": 0.6016910926383746,
+          "variance_statistical_error_hartree2": 0.0017765924683575077,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.1811,
+              "extrapolated_energy_hartree": -154.15540984
+            },
+            {
+              "minimum_pt2_hartree": -0.2337,
+              "extrapolated_energy_hartree": -154.15581733
+            },
+            {
+              "minimum_pt2_hartree": -0.2863,
+              "extrapolated_energy_hartree": -154.15515149
+            },
+            {
+              "minimum_pt2_hartree": -0.3331,
+              "extrapolated_energy_hartree": -154.15547862
+            },
+            {
+              "minimum_pt2_hartree": -0.3709,
+              "extrapolated_energy_hartree": -154.15537208
+            },
+            {
+              "minimum_pt2_hartree": -0.3992,
+              "extrapolated_energy_hartree": -154.15510215
+            },
+            {
+              "minimum_pt2_hartree": -0.4222,
+              "extrapolated_energy_hartree": -154.15473577
+            }
+          ]
+        },
+        {
+          "n_det": 35787,
+          "e_var_hartree": -154.0456335,
+          "e_pt2_hartree": -0.09673406,
+          "e_var_plus_pt2_hartree": -154.14236756,
+          "pt2_statistical_error_hartree": 0.00019134,
+          "variance_hartree2": 0.4663015884727686,
+          "variance_statistical_error_hartree2": 0.0012787705429267706,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.1319,
+              "extrapolated_energy_hartree": -154.15694167
+            },
+            {
+              "minimum_pt2_hartree": -0.1811,
+              "extrapolated_energy_hartree": -154.15619722
+            },
+            {
+              "minimum_pt2_hartree": -0.2337,
+              "extrapolated_energy_hartree": -154.15616195
+            },
+            {
+              "minimum_pt2_hartree": -0.2863,
+              "extrapolated_energy_hartree": -154.15567155
+            },
+            {
+              "minimum_pt2_hartree": -0.3331,
+              "extrapolated_energy_hartree": -154.15578714
+            },
+            {
+              "minimum_pt2_hartree": -0.3709,
+              "extrapolated_energy_hartree": -154.15567501
+            },
+            {
+              "minimum_pt2_hartree": -0.3992,
+              "extrapolated_energy_hartree": -154.15546104
+            }
+          ]
+        },
+        {
+          "n_det": 71578,
+          "e_var_hartree": -154.06569002,
+          "e_pt2_hartree": -0.07960298,
+          "e_var_plus_pt2_hartree": -154.145293,
+          "pt2_statistical_error_hartree": 0.00015867,
+          "variance_hartree2": 0.4048603848974994,
+          "variance_statistical_error_hartree2": 0.0010248660401789304,
+          "fci_extrapolation_points": [
+            {
+              "minimum_pt2_hartree": -0.0947,
+              "extrapolated_energy_hartree": -154.16155374
+            },
+            {
+              "minimum_pt2_hartree": -0.1319,
+              "extrapolated_energy_hartree": -154.15846183
+            },
+            {
+              "minimum_pt2_hartree": -0.1811,
+              "extrapolated_energy_hartree": -154.1572908
+            },
+            {
+              "minimum_pt2_hartree": -0.2337,
+              "extrapolated_energy_hartree": -154.15695356
+            },
+            {
+              "minimum_pt2_hartree": -0.2863,
+              "extrapolated_energy_hartree": -154.1564313
+            },
+            {
+              "minimum_pt2_hartree": -0.3331,
+              "extrapolated_energy_hartree": -154.15640222
+            },
+            {
+              "minimum_pt2_hartree": -0.3709,
+              "extrapolated_energy_hartree": -154.15624947
+            }
+          ]
+        }
+      ],
+      "iteration_series_parse_status": "PASS",
+      "artifacts": [
+        {
+          "path": "d4h\\create_ezfio.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "d4h\\scf.log",
+          "sha256": "38923eb1226c49db70f25a17d08091801d9ff152a974b8a4573bc35bdadc90ff"
+        },
+        {
+          "path": "d4h\\frozen_core.log",
+          "sha256": "8e671e7d7cb95aff615c2f8c6aecfe41ff4a958d79df4476ed22028b566241c4"
+        },
+        {
+          "path": "d4h\\cipsi.log",
+          "sha256": "9eb4b4a716671647c8f932d6b4e0da01bc2b5be2a4e277e8699c9814d215e005"
+        },
+        {
+          "path": "d4h\\hf_energy.txt",
+          "sha256": "0882825da429cca5dedc618f86657c8004f875a6b86c4a3067f9b91bb319b0ab"
+        },
+        {
+          "path": "d4h\\variational_energy.txt",
+          "sha256": "d45e91c411e6997f6a137107ff76543719f433422c401a12b6c066690730ac54"
+        },
+        {
+          "path": "d4h\\variational_plus_pt2_energy.txt",
+          "sha256": "cc2ddd9570caf8791fb9332c78cd71330a28ba3c737ed9f81bac93cfad514cb3"
+        },
+        {
+          "path": "d4h\\n_det.txt",
+          "sha256": "a5ba899ca1bafce91cad31f3fffd32ef724edef3e3c3fb0d4de7496b37283380"
+        }
+      ]
+    }
+  ],
+  "interpretation_boundary": "Ordinary physical-state anchor for P09-B; it is COMPLEMENTARY to, and does not automatically upgrade, the P09-A conditional-state estimand."
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "science-v0.2-wp2-decision-1",
+  "work_package": "WP2",
+  "gate": "V2-2",
+  "gate_status": "NOT_PASSED",
+  "scientific_status": "INDETERMINATE_PSI4_BACKEND_CONTRACT_AND_ORCA_UNAVAILABLE",
+  "open_program_lane": "FAIL",
+  "psi4_backend_contract": "FAIL",
+  "three_program_core_lane": "NOT_ESTABLISHED",
+  "orca_available": false,
+  "orca_substitute_used": false,
+  "v0_1_claims_changed": false,
+  "relation_to_v0_1_claims": "COMPLEMENTARY",
+  "raw_result": "data/science_v0.2/raw/wp2/wp2_open_program_anchors.json",
+  "raw_sha256": "1fa0c478a5acd312a06d63af2eeae7f0c95694107eae0eeb40ecfa3275e10c10",
+  "limitations": [
+    "PySCF/Psi4 ordinary-state agreement cannot be relabeled as a clean-room reconstruction of custom LFMO/DSI/FUD states.",
+    "The preregistered three-program core requires licensed ORCA results for every anchor.",
+    "The P03 constrained-dihedral observable is implemented as a deterministic rigid-fragment tangent projection on the frozen source axis, not as a program-specific optimizer Lagrange multiplier."
+  ]
+}

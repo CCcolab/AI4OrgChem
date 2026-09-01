@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "record_id": "WP0-QP22-CIPSI-ENV-SMOKE-20260901",
+  "publication_profile": "PUBLIC_PRIVACY_SANITIZED_WP0_RECORD",
+  "classification": "ENVIRONMENT_AND_NON_CBD_TOY_SMOKE_ONLY",
+  "status": "PASS",
+  "authorization": {
+    "environment_creation": "AUTHORIZED",
+    "wp1_scientific_calculation": "NOT_AUTHORIZED",
+    "wp3_hessian_calculation": "NOT_AUTHORIZED"
+  },
+  "authorization_scope": "HISTORICAL_STATE_AT_SMOKE_EXECUTION",
+  "current_authorization_record": "wp_authorizations.json",
+  "scientific_energy_calculation": false,
+  "contains_cyclobutadiene_input": false,
+  "implementation": {
+    "program": "Quantum Package",
+    "requested_release": "v2.2.2",
+    "git_commit": "0f320db735bfdbdf9861c9cad9f3f64175cc8c3c",
+    "source_internal_version": "2.3.1",
+    "source_archive_sha256": "10cc6e0860092b937cd9b142b60a22b057632f013f7ef68b54164ef12e03e307",
+    "unpatched_source_tree_sha256": "5820e7fdfa2f5ef8e243e75966e45a7d46210a897cbe771038c3dca088798559",
+    "license": "AGPL-3.0",
+    "license_sha256": "8dc904300bf83c05e1add1752cc0493be6d9b2b1964b63c18acab27f01327d5a",
+    "ezfio_commit": "dba01c4fe0ff7b84c5ecfb1c7c77ec68781311b3",
+    "irpf90_commit": "4ab1b175fc7ed0d96c1912f13dc53579b24157a6",
+    "qp2_dependencies_gitlink": "e0d0e02e9f5ece138d1520106954a881ab0b8db2"
+  },
+  "build": {
+    "wsl_distribution": "Ubuntu-24.04",
+    "wsl_release": "Ubuntu 24.04.4 LTS",
+    "environment_name": "ai4orgchem-v02-cipsi",
+    "gcc": "13.4.0",
+    "gfortran": "13.4.0",
+    "ocaml": "4.14.2",
+    "opam": "2.1.3",
+    "python": "3.10.21",
+    "openblas": "0.3.34",
+    "zeromq": "4.3.5",
+    "f77_zmq": "4.3.3",
+    "trexio": "2.3.2",
+    "compiler_config_sha256": "9155d96874eb1e3bf5f7d54d8bfa8ad14f0beeb16824dda039fabffbab29fc2b",
+    "build_patch_sha256": "ae00973f85082a6bcfacfc6e1e05c854d99436879b8b8463697cebe01c2d70c5",
+    "build_patch_scope": "dependency pinning and offline build only; no scientific algorithm modified",
+    "fci_binary_sha256": "bdb1a32e81e5ece5ca7609c8be477f3406a7174ef98c0fa50173f05f32de613f",
+    "scf_binary_sha256": "68a0f9f7dbb9e56149d50efe6b6d92fbbe7071c400b639ae2d8c26c5826f54f6",
+    "qp_run_sha256": "2a742dcb9b9a6b7cdd3f0b119be8a238a48b8612749423a649afba07ac700ae7"
+  },
+  "local_environment_lock_hashes": [
+    {
+      "artifact": "ai4orgchem-v02-cipsi.environment.yml",
+      "sha256": "468207fd036cbd9690290403f29d113d8cd7860e148665f3b70febe804c0b8cc"
+    },
+    {
+      "artifact": "ai4orgchem-v02-cipsi.explicit.txt",
+      "sha256": "6e7d266dc2c2414d18ab55eed1ce8cfa88a3fb0ded89e0439768de2819f6b01c"
+    },
+    {
+      "artifact": "ai4orgchem-v02-cipsi.opam-switch.export",
+      "sha256": "3469cdfc1933f9e58929e0a0d877d2bdeb9aeec4fa5045426dda7ebc8f176ce3"
+    },
+    {
+      "artifact": "ai4orgchem-v02-cipsi.pip-freeze.txt",
+      "sha256": "2507b146346dd985f2535eb4244e418195d21954d71d6eb8fc8eff36bf6a2b57"
+    }
+  ],
+  "smoke_tests": [
+    {
+      "id": "UPSTREAM_H2_1",
+      "molecule": "H2",
+      "source": "official Quantum Package upstream Bats fixture",
+      "checks": [
+        "EZFIO_CREATE",
+        "HF",
+        "FCI_CIPSI_PT2"
+      ],
+      "status": "PASS",
+      "hf_energy_hartree": -1.00592496328853,
+      "variational_energy_hartree": -1.0641525520843,
+      "variational_plus_pt2_hartree": -1.0641525520843,
+      "n_determinants": 32,
+      "pt2_max_hartree": 0.0
+    },
+    {
+      "id": "UPSTREAM_B_B",
+      "molecule": "stretched B2",
+      "source": "official Quantum Package upstream Bats fixture",
+      "checks": [
+        "EZFIO_CREATE",
+        "HF",
+        "FCI_CIPSI_PT2"
+      ],
+      "status": "PASS",
+      "hf_energy_hartree": -48.9950585433336,
+      "variational_energy_hartree": -49.1407763998013,
+      "variational_plus_pt2_hartree": -49.1409947621282,
+      "upstream_reference_corrected_energy_hartree": -49.14103054419,
+      "upstream_tolerance_hartree": 0.0003,
+      "n_determinants": 12067,
+      "pt2_max_hartree": 0.0001
+    }
+  ],
+  "stochastic_policy": {
+    "observed_source_initialization": "seed(i)=i",
+    "source_file": "src/cipsi/pt2_stoch_routines.irp.f",
+    "wp1_future_requirement": "record every stochastic seed and PT2 statistical error"
+  },
+  "result_interpretation": "The isolated implementation can build and execute HF and CIPSI+PT2 on official non-CBD fixtures. This does not create a WP1 result, validate a CBD protocol, or authorize scientific calculations.",
+  "publication_boundary": "Quantum Package source, binaries, the local build patch, raw run directories, and host-specific lock paths are not distributed in this Apache-2.0 repository. Their recorded hashes retain local audit identity."
+}

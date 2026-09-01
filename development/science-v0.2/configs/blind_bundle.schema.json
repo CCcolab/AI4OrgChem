@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Sealed blind input bundle manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "bundle_id", "calculator_role", "evaluator_role", "network_policy", "repository_policy", "allowed_inputs", "forbidden_content", "seal"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "bundle_id": {"type": "string", "pattern": "^[A-Za-z0-9._-]+$"},
+    "calculator_role": {"const": "BLINDED_CALCULATION_AGENT"},
+    "evaluator_role": {"const": "UNBLINDED_EVALUATOR"},
+    "network_policy": {"const": "DENY"},
+    "repository_policy": {"const": "BUNDLE_ONLY_NO_FULL_REPOSITORY"},
+    "allowed_inputs": {
+      "type": "array", "minItems": 1,
+      "items": {"type": "object", "required": ["path", "sha256", "purpose"], "properties": {"path": {"type": "string"}, "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}, "purpose": {"type": "string"}}}
+    },
+    "forbidden_content": {"type": "array", "contains": {"const": "V0.1_TARGET_VALUES"}},
+    "seal": {
+      "type": "object", "required": ["bundle_sha256", "script_sha256_before_run", "first_result_sha256_before_unblind"],
+      "properties": {
+        "bundle_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+        "script_sha256_before_run": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+        "first_result_sha256_before_unblind": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"}
+      }
+    }
+  }
+}

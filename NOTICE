@@ -11,3 +11,9 @@ Zhong-Heng Yu, Questioning Fundamental Principles of Organic Chemistry (2024),
 Figshare DOI 10.6084/m9.figshare.27261243.v1, source license reported as
 CC BY 4.0. The source PDF and any original program code are not distributed as
 part of AI4OrgChem.
+
+Quantum Package is referenced as an external local implementation for a
+development-only CIPSI+PT2 environment smoke test. Quantum Package source and
+binaries are not distributed here and remain governed by the upstream
+AGPL-3.0 license. The public WP0 snapshot contains only project-authored
+contracts, metadata, hashes, and bounded smoke-test records.

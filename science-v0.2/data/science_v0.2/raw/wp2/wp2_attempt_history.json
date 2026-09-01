@@ -1,0 +1,38 @@
+{
+  "schema_version": "science-v0.2-wp2-attempt-history-1",
+  "science_target_values_used_for_tuning": false,
+  "attempts": [
+    {
+      "attempt": "r1",
+      "status": "ABORTED_BEFORE_RESULT",
+      "reason": "Psi4 PK integral indexing was resource-inappropriate for the 318-function NBA anchor.",
+      "retained_log": "data/science_v0.2/raw/wp2/retained_failures/wp2_p03_pk_resource_abort_r1.psi4.log"
+    },
+    {
+      "attempt": "r2",
+      "status": "ABORTED_BEFORE_RESULT",
+      "reason": "Psi4 analytic DFT gradient invoked a MemDFJK response backend despite a DIRECT SCF energy, violating the no-RI/DF contract.",
+      "retained_log": "data/science_v0.2/raw/wp2/retained_failures/wp2_p03_direct_analytic_gradient_df_response_abort_r2.psi4.log"
+    },
+    {
+      "attempt": "r3",
+      "status": "ABORTED_BEFORE_RESULT",
+      "reason": "The run calculated unnecessary full PySCF gradients for anchors requiring only a projected force; the observable was narrowed to the frozen contract."
+    },
+    {
+      "attempt": "r4",
+      "status": "ABORTED_BEFORE_RESULT",
+      "reason": "Cross-checking the frozen V0.1 source protocols showed that all anchor families use PySCF grid level 3 rather than the provisional level 4."
+    },
+    {
+      "attempt": "r5",
+      "status": "ABORTED_BEFORE_RESULT",
+      "reason": "The P03 projection tangent was found to use the wrong fragment axis; it was corrected to frozen axis [0,6] and rotating atoms [1,2,3,4,5,14,15,16,17,18]."
+    },
+    {
+      "attempt": "r6",
+      "status": "FINAL_PROTOCOL_RUN",
+      "reason": "Frozen source grid, exact DIRECT Psi4 energies, finite-difference projected/full gradients, and the source-defined P03 rotation axis are all fixed before results are evaluated."
+    }
+  ]
+}

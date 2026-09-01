@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "work_package": "WP1",
+  "claim_id": "P09-B",
+  "estimand_id": "P09B_CBD_PHYSICAL_AUTOMERIZATION",
+  "authorization_record": "configs/science_v0.2/wp_authorizations.json",
+  "target_values_present": false,
+  "system": {
+    "name": "cyclobutadiene",
+    "charge": 0,
+    "singlet_spin_2s": 0,
+    "triplet_spin_2s": 2,
+    "atom_order": ["C1", "C2", "C3", "C4", "H1", "H2", "H3", "H4"]
+  },
+  "initial_geometries": {
+    "D2h": {
+      "role": "deterministic start from frozen V0.1 ordinary-G optimized geometry; reoptimized under this WP1 contract",
+      "source": "data/processed/p09_cyclobutadiene_G_DSI_VDE_v0.1.json",
+      "parameters_angstrom": [0.7891946513, 0.6673841147, 1.5501887810, 1.4392126457]
+    },
+    "D4h": {
+      "role": "deterministic square start derived before execution from the mean D2h C-C side and mean C-H length",
+      "parameters_angstrom": [0.7282893916, 1.4947854770]
+    }
+  },
+  "endpoint_optimization": {
+    "method": "B3LYPG",
+    "basis": "cc-pVDZ",
+    "grid_level": 4,
+    "scf_tolerance_hartree": 1e-10,
+    "gradient_tolerance_hartree_per_bohr": 3e-4,
+    "optimizer": "L-BFGS-B analytic-gradient symmetry-parameter optimization",
+    "maximum_iterations": 30,
+    "D2h_bounds_angstrom": [[0.68, 0.86], [0.60, 0.76], [1.40, 1.66], [1.31, 1.56]],
+    "D4h_bounds_angstrom": [[0.67, 0.80], [1.40, 1.60]]
+  },
+  "single_reference": {
+    "functional": "B3LYPG",
+    "basis": "cc-pVDZ",
+    "grid_level": 4,
+    "scf_tolerance_hartree": 1e-10,
+    "maximum_cycles": 150,
+    "broken_symmetry_seed_angles_degree": [20.0, 35.0],
+    "retain_all_converged_solutions": true,
+    "triplet_required": true
+  },
+  "multireference": {
+    "orbital_reference": "RHF/cc-pVDZ",
+    "state_average_roots": 2,
+    "state_average_weights": [0.5, 0.5],
+    "minimum_active_space": {"electrons": 4, "orbitals": 4, "selection": "four highest carbon-pz-character orbitals"},
+    "extended_active_space": {"electrons": 12, "orbitals": 12, "selection": "six occupied and six virtual orbitals ranked by carbon-2p character with deterministic index tie-break"},
+    "post_casscf": "SC-NEVPT2",
+    "frozen_core": "implicit through active-space electron count; carbon 1s excluded",
+    "casscf_convergence_tolerance": 1e-8,
+    "maximum_macro_cycles": 60,
+    "minimum_active_subspace_singular_value": 0.90
+  },
+  "path": {
+    "definition": "linear interpolation between the optimized D2h and D4h symmetry parameters",
+    "lambda_values": [0.0, 0.25, 0.5, 0.75, 1.0],
+    "hydrogen_rule": "interpolate Cartesian endpoint coordinates without relaxation",
+    "root_tracking": "two-root equal-weight SA-CASSCF; active-subspace singular values and root-resolved NOON continuity retained"
+  },
+  "primary_anchor": {
+    "program": "Quantum Package",
+    "requested_release": "v2.2.2",
+    "git_commit": "0f320db735bfdbdf9861c9cad9f3f64175cc8c3c",
+    "source_internal_version": "2.3.1",
+    "method": "CIPSI+PT2 with multi-point FCI extrapolation",
+    "basis": "cc-pVDZ",
+    "systems": ["optimized_D2h", "optimized_D4h"],
+    "state_strategy": "state-specific lowest singlet",
+    "expected_s2": 0.0,
+    "spin_eigenfunction_completion": true,
+    "frozen_core": "small core; one carbon 1s orbital per carbon",
+    "n_states": 1,
+    "n_det_max": 50000,
+    "pt2_stop_hartree": 0.0002,
+    "davidson_threshold": 1e-10,
+    "retain_full_iteration_series": true,
+    "random_seed_policy": "record every run seed; do not select by agreement with any target",
+    "target_values_present": false
+  },
+  "resource_limits": {
+    "threads": 8,
+    "memory_mb": 12000,
+    "single_job_walltime_hours": 24,
+    "scratch_gib": 40,
+    "concurrency": 1
+  },
+  "failure_policy": "retain all failures, roots and solutions; never tune against monograph or V0.1 target values"
+}

@@ -1,0 +1,1262 @@
+{
+  "schema_version": "1.0",
+  "work_package": "WP3",
+  "claim_id": "P10-B",
+  "estimand_id": "P10B_BENZENE_D6H_MECHANISM",
+  "config_sha256": "1f466eff2d289d5c8a157408f54c958dff9cdfcb49a908bd71748f95cbaefdcf",
+  "geometry_source_sha256": "f13f99919d0bd632b57f225da38698a34ad9201ccb8b90374dd3aa5e907da9fa",
+  "mode_seed_sha256": "763c90770760cf94efdea0e9b2b9fc452c8e11c3827d749789fd479d168b26bd",
+  "scientific_energy_calculation": true,
+  "status": "PASS",
+  "failures": [],
+  "reference_ordinary_state": {
+    "converged": true,
+    "total_energy_hartree": -232.2438210113772,
+    "electronic_energy_hartree": -435.39002025637586,
+    "nuclear_repulsion_hartree": 203.14619924499866
+  },
+  "hessian": {
+    "eigenvalues_hartree_per_bohr2_per_amu": [
+      -4.8349723989587374e-06,
+      -4.332573005626676e-06,
+      -2.7829683068712935e-06,
+      -1.365659302568486e-06,
+      3.2288038082212117e-06,
+      3.531678089323233e-06,
+      0.006512202237360136,
+      0.006514152616521624,
+      0.014607430525622052,
+      0.014608151687818935,
+      0.018276671923756867,
+      0.019506347472969372,
+      0.02830918471298935,
+      0.028309569111711157,
+      0.03557008547305432,
+      0.0355707466688611,
+      0.03869315760502869,
+      0.03926740362914129,
+      0.03940513776231369,
+      0.043240195966452455,
+      0.04324040878084078,
+      0.0531612246062046,
+      0.055169333659255304,
+      0.05516979245544538,
+      0.06960695460671067,
+      0.07287031119182115,
+      0.08873174596490796,
+      0.08873292734724493,
+      0.10369942421277317,
+      0.10370362773093135,
+      0.3816871183234522,
+      0.3840117818018629,
+      0.38401200604623503,
+      0.38786131642161836,
+      0.38786154436897474,
+      0.39046327769951444
+    ],
+    "comparisons": {
+      "B2u_BLA": {
+        "best_eigenmode_index": 24,
+        "absolute_overlap": 0.9624213328999132,
+        "eigenvalue_hartree_per_bohr2_per_amu": 0.06960695460671067
+      },
+      "A1g_breathing": {
+        "best_eigenmode_index": 18,
+        "absolute_overlap": 0.9535826928184126,
+        "eigenvalue_hartree_per_bohr2_per_amu": 0.03940513776231369
+      },
+      "E2g": {
+        "best_eigenmode_indices": [
+          8,
+          9
+        ],
+        "principal_singular_values": [
+          0.7133870430247847,
+          0.713377792339307
+        ],
+        "eigenvalues_hartree_per_bohr2_per_amu": [
+          0.014607430525622052,
+          0.014608151687818935
+        ]
+      }
+    },
+    "minimum_required_overlap": 0.9,
+    "one_dimensional_modes_pass": true,
+    "e2g_subspace_pass": false
+  },
+  "wall_seconds_this_run": 868.2621309757233,
+  "displacement_modes": {
+    "B2u_BLA": {
+      "points": [
+        {
+          "amplitude_angstrom": -0.02,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24027657483367,
+            "electronic_energy_hartree": -435.4304957519221,
+            "nuclear_repulsion_hartree": 203.1902191770884
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 10,
+            "total_energy_hartree": -232.20906420347825,
+            "electronic_energy_hartree": -435.39928338056666,
+            "nuclear_repulsion_hartree": 203.1902191770884,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000097166681,
+            "masked_metric_electron_count": 41.999999999999986,
+            "physical_metric_electron_count": 41.999999999999986,
+            "masked_overlap_minimum_eigenvalue": 0.0005321898794081965,
+            "masked_overlap_condition_number": 10560.245964552147,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.3820542972944932e-08,
+            "closed_shell_idempotency_relative_residual": 3.922261028193004e-15,
+            "occupied_virtual_gap_hartree": 0.26325906869487065
+          }
+        },
+        {
+          "amplitude_angstrom": -0.01,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24293950149104,
+            "electronic_energy_hartree": -435.4001376200591,
+            "nuclear_repulsion_hartree": 203.1571981185681
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 10,
+            "total_energy_hartree": -232.20284111588154,
+            "electronic_energy_hartree": -435.36003923444963,
+            "nuclear_repulsion_hartree": 203.1571981185681,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.000001074582315,
+            "masked_metric_electron_count": 42.00000000000002,
+            "physical_metric_electron_count": 42.00000000000002,
+            "masked_overlap_minimum_eigenvalue": 0.0005354708465220791,
+            "masked_overlap_condition_number": 10495.980623475469,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 4.878244723960207e-09,
+            "closed_shell_idempotency_relative_residual": 2.1411641847350566e-15,
+            "occupied_virtual_gap_hartree": 0.25655968950342517
+          }
+        },
+        {
+          "amplitude_angstrom": -0.005,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24360092231976,
+            "electronic_energy_hartree": -435.3925495040754,
+            "nuclear_repulsion_hartree": 203.14894858175566
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 10,
+            "total_energy_hartree": -232.19868162716566,
+            "electronic_energy_hartree": -435.3476302089213,
+            "nuclear_repulsion_hartree": 203.14894858175566,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000111167926,
+            "masked_metric_electron_count": 42.000000000000036,
+            "physical_metric_electron_count": 42.00000000000003,
+            "masked_overlap_minimum_eigenvalue": 0.0005362950419690755,
+            "masked_overlap_condition_number": 10479.959845488758,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.5228465582232493e-08,
+            "closed_shell_idempotency_relative_residual": 3.894703533264708e-15,
+            "occupied_virtual_gap_hartree": 0.2532687742651928
+          }
+        },
+        {
+          "amplitude_angstrom": -0.0025,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24376600715308,
+            "electronic_energy_hartree": -435.390652562492,
+            "nuclear_repulsion_hartree": 203.1468865553389
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 10,
+            "total_energy_hartree": -232.19634098395014,
+            "electronic_energy_hartree": -435.34322753928905,
+            "nuclear_repulsion_hartree": 203.1468865553389,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000112587392,
+            "masked_metric_electron_count": 41.99999999999999,
+            "physical_metric_electron_count": 41.99999999999999,
+            "masked_overlap_minimum_eigenvalue": 0.0005365013390930027,
+            "masked_overlap_condition_number": 10475.957491525889,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.74847271828114e-08,
+            "closed_shell_idempotency_relative_residual": 2.774822054737585e-15,
+            "occupied_virtual_gap_hartree": 0.2516378138761816
+          }
+        },
+        {
+          "amplitude_angstrom": 0.0,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24382101137653,
+            "electronic_energy_hartree": -435.3900202563752,
+            "nuclear_repulsion_hartree": 203.14619924499866
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 10,
+            "total_energy_hartree": -232.19382660562744,
+            "electronic_energy_hartree": -435.3400258506261,
+            "nuclear_repulsion_hartree": 203.14619924499866,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.000001137050056,
+            "masked_metric_electron_count": 41.999999999999986,
+            "physical_metric_electron_count": 41.999999999999986,
+            "masked_overlap_minimum_eigenvalue": 0.0005365701268979993,
+            "masked_overlap_condition_number": 10474.623625868613,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.8666063897345014e-08,
+            "closed_shell_idempotency_relative_residual": 2.6679074555505642e-15,
+            "occupied_virtual_gap_hartree": 0.25001645106508785
+          }
+        },
+        {
+          "amplitude_angstrom": 0.0025,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24376600715343,
+            "electronic_energy_hartree": -435.39065256249296,
+            "nuclear_repulsion_hartree": 203.14688655533953
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 10,
+            "total_energy_hartree": -232.1911385389711,
+            "electronic_energy_hartree": -435.33802509431064,
+            "nuclear_repulsion_hartree": 203.14688655533953,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.0000011452115,
+            "masked_metric_electron_count": 42.0,
+            "physical_metric_electron_count": 42.0,
+            "masked_overlap_minimum_eigenvalue": 0.000536501339093453,
+            "masked_overlap_condition_number": 10475.957491523237,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.9448930905459932e-08,
+            "closed_shell_idempotency_relative_residual": 2.544425109433557e-15,
+            "occupied_virtual_gap_hartree": 0.24840463107108213
+          }
+        },
+        {
+          "amplitude_angstrom": 0.005,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24360092231768,
+            "electronic_energy_hartree": -435.3925495040748,
+            "nuclear_repulsion_hartree": 203.1489485817571
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 10,
+            "total_energy_hartree": -232.18827674983754,
+            "electronic_energy_hartree": -435.33722533159465,
+            "nuclear_repulsion_hartree": 203.1489485817571,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.000001150435715,
+            "masked_metric_electron_count": 42.000000000000014,
+            "physical_metric_electron_count": 42.000000000000014,
+            "masked_overlap_minimum_eigenvalue": 0.0005362950419677946,
+            "masked_overlap_condition_number": 10479.959845494825,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 2.0166968074868164e-08,
+            "closed_shell_idempotency_relative_residual": 3.837938540379955e-15,
+            "occupied_virtual_gap_hartree": 0.24680229913653218
+          }
+        },
+        {
+          "amplitude_angstrom": 0.01,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24293950149104,
+            "electronic_energy_hartree": -435.40013762006174,
+            "nuclear_repulsion_hartree": 203.1571981185707
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 11,
+            "total_energy_hartree": -232.18203146353994,
+            "electronic_energy_hartree": -435.33922958211065,
+            "nuclear_repulsion_hartree": 203.1571981185707,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000115273523,
+            "masked_metric_electron_count": 42.000000000000014,
+            "physical_metric_electron_count": 42.000000000000014,
+            "masked_overlap_minimum_eigenvalue": 0.0005354708465203326,
+            "masked_overlap_condition_number": 10495.980623481008,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.448876185866965e-08,
+            "closed_shell_idempotency_relative_residual": 2.085504786053848e-15,
+            "occupied_virtual_gap_hartree": 0.24362587926607715
+          }
+        },
+        {
+          "amplitude_angstrom": 0.02,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24027657483373,
+            "electronic_energy_hartree": -435.43049575192754,
+            "nuclear_repulsion_hartree": 203.1902191770938
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 10,
+            "total_energy_hartree": -232.16744575734344,
+            "electronic_energy_hartree": -435.35766493443725,
+            "nuclear_repulsion_hartree": 203.1902191770938,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000113275817,
+            "masked_metric_electron_count": 42.000000000000014,
+            "physical_metric_electron_count": 42.000000000000014,
+            "masked_overlap_minimum_eigenvalue": 0.0005321898794069611,
+            "masked_overlap_condition_number": 10560.245964560318,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 2.3947670705364673e-08,
+            "closed_shell_idempotency_relative_residual": 2.7602049516530648e-15,
+            "occupied_virtual_gap_hartree": 0.2373844756860226
+          }
+        }
+      ],
+      "curvatures_hartree_per_angstrom2": {
+        "ordinary": {
+          "total": 17.632434552934278,
+          "electronic": -202.34799644513157,
+          "nuclear": 219.98043099673694
+        },
+        "conditional_electronic": -192.17285748722605,
+        "delta_k_e_conditional_minus_ordinary": 10.175138957905517,
+        "ordinary_closure_residual": 1.3289138678374002e-09
+      }
+    },
+    "A1g_breathing": {
+      "points": [
+        {
+          "amplitude_angstrom": -0.02,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24013583395504,
+            "electronic_energy_hartree": -437.3290171551444,
+            "nuclear_repulsion_hartree": 205.08888132118938
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 10,
+            "total_energy_hartree": -232.19173405579744,
+            "electronic_energy_hartree": -437.2806153769868,
+            "nuclear_repulsion_hartree": 205.08888132118938,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.000001704918205,
+            "masked_metric_electron_count": 42.00000000000002,
+            "physical_metric_electron_count": 42.00000000000002,
+            "masked_overlap_minimum_eigenvalue": 0.0004733043621861108,
+            "masked_overlap_condition_number": 12074.447437830306,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.7764555435264074e-08,
+            "closed_shell_idempotency_relative_residual": 3.1827238554265744e-15,
+            "occupied_virtual_gap_hartree": 0.2564460563944868
+          }
+        },
+        {
+          "amplitude_angstrom": -0.01,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24290104003987,
+            "electronic_energy_hartree": -436.35128482133155,
+            "nuclear_repulsion_hartree": 204.10838378129168
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 10,
+            "total_energy_hartree": -232.19367570711867,
+            "electronic_energy_hartree": -436.30205948841035,
+            "nuclear_repulsion_hartree": 204.10838378129168,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000142579529,
+            "masked_metric_electron_count": 41.999999999999986,
+            "physical_metric_electron_count": 41.999999999999986,
+            "masked_overlap_minimum_eigenvalue": 0.0005040211617856492,
+            "masked_overlap_condition_number": 11244.179334582685,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.8747737889781147e-08,
+            "closed_shell_idempotency_relative_residual": 3.2088911338467577e-15,
+            "occupied_virtual_gap_hartree": 0.25320872322753507
+          }
+        },
+        {
+          "amplitude_angstrom": -0.005,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24359084602273,
+            "electronic_energy_hartree": -435.86860933530534,
+            "nuclear_repulsion_hartree": 203.6250184892826
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 10,
+            "total_energy_hartree": -232.1939743057453,
+            "electronic_energy_hartree": -435.8189927950279,
+            "nuclear_repulsion_hartree": 203.6250184892826,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000128242239,
+            "masked_metric_electron_count": 42.0,
+            "physical_metric_electron_count": 42.0,
+            "masked_overlap_minimum_eigenvalue": 0.000520060634215514,
+            "masked_overlap_condition_number": 10852.109429991682,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.8795918315851153e-08,
+            "closed_shell_idempotency_relative_residual": 2.277112141514943e-15,
+            "occupied_virtual_gap_hartree": 0.25160701071858704
+          }
+        },
+        {
+          "amplitude_angstrom": -0.0025,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24376329648794,
+            "electronic_energy_hartree": -435.62880587708594,
+            "nuclear_repulsion_hartree": 203.385042580598
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 10,
+            "total_energy_hartree": -232.1939561727903,
+            "electronic_energy_hartree": -435.5789987533883,
+            "nuclear_repulsion_hartree": 203.385042580598,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000120996017,
+            "masked_metric_electron_count": 42.0,
+            "physical_metric_electron_count": 42.0,
+            "masked_overlap_minimum_eigenvalue": 0.0005282558680510958,
+            "masked_overlap_condition_number": 10661.579263578908,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.8749046652067856e-08,
+            "closed_shell_idempotency_relative_residual": 2.3414711257784787e-15,
+            "occupied_virtual_gap_hartree": 0.2508103436984824
+          }
+        },
+        {
+          "amplitude_angstrom": 0.0,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.243821011376,
+            "electronic_energy_hartree": -435.39002025637467,
+            "nuclear_repulsion_hartree": 203.14619924499866
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 10,
+            "total_energy_hartree": -232.1938266056271,
+            "electronic_energy_hartree": -435.34002585062575,
+            "nuclear_repulsion_hartree": 203.14619924499866,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000113705009,
+            "masked_metric_electron_count": 42.00000000000003,
+            "physical_metric_electron_count": 42.00000000000003,
+            "masked_overlap_minimum_eigenvalue": 0.0005365701268979993,
+            "masked_overlap_condition_number": 10474.623625868613,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.8666018665695196e-08,
+            "closed_shell_idempotency_relative_residual": 3.2392863237445568e-15,
+            "occupied_virtual_gap_hartree": 0.2500164510651044
+          }
+        },
+        {
+          "amplitude_angstrom": 0.0025,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24376414104378,
+            "electronic_energy_hartree": -435.15224874604036,
+            "nuclear_repulsion_hartree": 202.90848460499657
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 10,
+            "total_energy_hartree": -232.1935857210042,
+            "electronic_energy_hartree": -435.1020703260008,
+            "nuclear_repulsion_hartree": 202.90848460499657,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000106374716,
+            "masked_metric_electron_count": 42.00000000000001,
+            "physical_metric_electron_count": 42.00000000000001,
+            "masked_overlap_minimum_eigenvalue": 0.0005450049463098118,
+            "masked_overlap_condition_number": 10291.172906109243,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.8553834464367485e-08,
+            "closed_shell_idempotency_relative_residual": 3.131480165693223e-15,
+            "occupied_virtual_gap_hartree": 0.2492253191462529
+          }
+        },
+        {
+          "amplitude_angstrom": 0.005,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24359281646866,
+            "electronic_energy_hartree": -434.91548764841787,
+            "nuclear_repulsion_hartree": 202.6718948319492
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 10,
+            "total_energy_hartree": -232.19323361668518,
+            "electronic_energy_hartree": -434.8651284486344,
+            "nuclear_repulsion_hartree": 202.6718948319492,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000099011005,
+            "masked_metric_electron_count": 41.99999999999999,
+            "physical_metric_electron_count": 41.99999999999999,
+            "masked_overlap_minimum_eigenvalue": 0.0005535618740097527,
+            "masked_overlap_condition_number": 10111.158960689583,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.8418188412815073e-08,
+            "closed_shell_idempotency_relative_residual": 2.488211593698833e-15,
+            "occupied_virtual_gap_hartree": 0.24843693439174094
+          }
+        },
+        {
+          "amplitude_angstrom": 0.01,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.2429072315141,
+            "electronic_energy_hartree": -434.4449820467562,
+            "nuclear_repulsion_hartree": 202.2020748152421
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 10,
+            "total_energy_hartree": -232.19219604495964,
+            "electronic_energy_hartree": -434.39427086020174,
+            "nuclear_repulsion_hartree": 202.2020748152421,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000084208934,
+            "masked_metric_electron_count": 42.000000000000014,
+            "physical_metric_electron_count": 42.000000000000014,
+            "masked_overlap_minimum_eigenvalue": 0.0005710483041741653,
+            "masked_overlap_condition_number": 9761.175954251627,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.8095858033443567e-08,
+            "closed_shell_idempotency_relative_residual": 2.5677421870448815e-15,
+            "occupied_virtual_gap_hartree": 0.24686835277554212
+          }
+        },
+        {
+          "amplitude_angstrom": 0.02,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24016621976142,
+            "electronic_energy_hartree": -433.51593632306566,
+            "nuclear_repulsion_hartree": 201.27577010330424
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 10,
+            "total_energy_hartree": -232.1887884550154,
+            "electronic_energy_hartree": -433.46455855831965,
+            "nuclear_repulsion_hartree": 201.27577010330424,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000054512412,
+            "masked_metric_electron_count": 42.00000000000002,
+            "physical_metric_electron_count": 42.00000000000002,
+            "masked_overlap_minimum_eigenvalue": 0.0006075558390339353,
+            "masked_overlap_condition_number": 9099.608108923321,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.7346627595697185e-08,
+            "closed_shell_idempotency_relative_residual": 2.3281759636705783e-15,
+            "occupied_virtual_gap_hartree": 0.24376357247047103
+          }
+        }
+      ],
+      "curvatures_hartree_per_angstrom2": {
+        "ordinary": {
+          "total": 18.33781263640928,
+          "electronic": -162.264010396212,
+          "nuclear": 180.60182303129238
+        },
+        "conditional_electronic": -162.78693670947868,
+        "delta_k_e_conditional_minus_ordinary": -0.5229263132666802,
+        "ordinary_closure_residual": 1.3288854461279698e-09
+      }
+    },
+    "E2g_bend_cos": {
+      "points": [
+        {
+          "amplitude_angstrom": -0.02,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24152731913915,
+            "electronic_energy_hartree": -435.38969747820846,
+            "nuclear_repulsion_hartree": 203.1481701590693
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 11,
+            "total_energy_hartree": -232.1914970083057,
+            "electronic_energy_hartree": -435.339667167375,
+            "nuclear_repulsion_hartree": 203.1481701590693,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.000000658347055,
+            "masked_metric_electron_count": 42.000000000000014,
+            "physical_metric_electron_count": 42.000000000000014,
+            "masked_overlap_minimum_eigenvalue": 0.0005378765732940577,
+            "masked_overlap_condition_number": 10449.066972949908,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.3326887308250703e-08,
+            "closed_shell_idempotency_relative_residual": 1.9688466269367094e-15,
+            "occupied_virtual_gap_hartree": 0.24657441861700333
+          }
+        },
+        {
+          "amplitude_angstrom": -0.01,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24325352126314,
+            "electronic_energy_hartree": -435.3899040419149,
+            "nuclear_repulsion_hartree": 203.14665052065178
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 11,
+            "total_energy_hartree": -232.1932504346495,
+            "electronic_energy_hartree": -435.3399009553013,
+            "nuclear_repulsion_hartree": 203.14665052065178,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000088847492,
+            "masked_metric_electron_count": 42.0,
+            "physical_metric_electron_count": 42.0,
+            "masked_overlap_minimum_eigenvalue": 0.0005368949888592059,
+            "masked_overlap_condition_number": 10468.256043899919,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.1858960524924505e-08,
+            "closed_shell_idempotency_relative_residual": 2.2169214429790045e-15,
+            "occupied_virtual_gap_hartree": 0.2483142863658492
+          }
+        },
+        {
+          "amplitude_angstrom": -0.005,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24367987076982,
+            "electronic_energy_hartree": -435.38998678004185,
+            "nuclear_repulsion_hartree": 203.14630690927203
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 11,
+            "total_energy_hartree": -232.1936833308544,
+            "electronic_energy_hartree": -435.33999024012644,
+            "nuclear_repulsion_hartree": 203.14630690927203,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000101178355,
+            "masked_metric_electron_count": 41.99999999999999,
+            "physical_metric_electron_count": 42.0,
+            "masked_overlap_minimum_eigenvalue": 0.000536651109555908,
+            "masked_overlap_condition_number": 10473.035443121362,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.0614737165830453e-08,
+            "closed_shell_idempotency_relative_residual": 2.4279004040276226e-15,
+            "occupied_virtual_gap_hartree": 0.249170181181127
+          }
+        },
+        {
+          "amplitude_angstrom": -0.0025,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24378581516478,
+            "electronic_energy_hartree": -435.3900113336237,
+            "nuclear_repulsion_hartree": 203.14622551845892
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 11,
+            "total_energy_hartree": -232.19379088005454,
+            "electronic_energy_hartree": -435.34001639851346,
+            "nuclear_repulsion_hartree": 203.14622551845892,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000107434684,
+            "masked_metric_electron_count": 42.000000000000014,
+            "physical_metric_electron_count": 42.000000000000014,
+            "masked_overlap_minimum_eigenvalue": 0.0005365903426051313,
+            "masked_overlap_condition_number": 10474.227106516259,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 9.694957531387469e-09,
+            "closed_shell_idempotency_relative_residual": 2.6702355987713044e-15,
+            "occupied_virtual_gap_hartree": 0.2495945604593988
+          }
+        },
+        {
+          "amplitude_angstrom": 0.0,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24382101137664,
+            "electronic_energy_hartree": -435.3900202563753,
+            "nuclear_repulsion_hartree": 203.14619924499866
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 10,
+            "total_energy_hartree": -232.19382660562738,
+            "electronic_energy_hartree": -435.34002585062603,
+            "nuclear_repulsion_hartree": 203.14619924499866,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.000001137050084,
+            "masked_metric_electron_count": 42.000000000000014,
+            "physical_metric_electron_count": 42.000000000000014,
+            "masked_overlap_minimum_eigenvalue": 0.0005365701268979993,
+            "masked_overlap_condition_number": 10474.623625868613,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.8665987572115728e-08,
+            "closed_shell_idempotency_relative_residual": 2.276664413681735e-15,
+            "occupied_virtual_gap_hartree": 0.2500164510650794
+          }
+        },
+        {
+          "amplitude_angstrom": 0.0025,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24378601027834,
+            "electronic_energy_hartree": -435.39001024707835,
+            "nuclear_repulsion_hartree": 203.1462242368
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 11,
+            "total_energy_hartree": -232.19379108597744,
+            "electronic_energy_hartree": -435.34001532277745,
+            "nuclear_repulsion_hartree": 203.1462242368,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000119954338,
+            "masked_metric_electron_count": 41.99999999999999,
+            "physical_metric_electron_count": 41.99999999999999,
+            "masked_overlap_minimum_eigenvalue": 0.0005365902810201825,
+            "masked_overlap_condition_number": 10474.228281761538,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 9.561376123142003e-09,
+            "closed_shell_idempotency_relative_residual": 3.730612772533933e-15,
+            "occupied_virtual_gap_hartree": 0.24917699327270398
+          }
+        },
+        {
+          "amplitude_angstrom": 0.005,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24368136027886,
+            "electronic_energy_hartree": -435.38997801620553,
+            "nuclear_repulsion_hartree": 203.14629665592668
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 11,
+            "total_energy_hartree": -232.19368489690436,
+            "electronic_energy_hartree": -435.33998155283103,
+            "nuclear_repulsion_hartree": 203.14629665592668,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.000001261483774,
+            "masked_metric_electron_count": 42.0,
+            "physical_metric_electron_count": 42.0,
+            "masked_overlap_minimum_eigenvalue": 0.0005366506169510931,
+            "masked_overlap_condition_number": 10473.044841515006,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.0572185048026897e-08,
+            "closed_shell_idempotency_relative_residual": 2.624630991284826e-15,
+            "occupied_virtual_gap_hartree": 0.24834160285055654
+          }
+        },
+        {
+          "amplitude_angstrom": 0.01,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24326529508647,
+            "electronic_energy_hartree": -435.3898337917683,
+            "nuclear_repulsion_hartree": 203.14656849668182
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 11,
+            "total_energy_hartree": -232.19326280093213,
+            "electronic_energy_hartree": -435.33983129761396,
+            "nuclear_repulsion_hartree": 203.14656849668182,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000138240378,
+            "masked_metric_electron_count": 42.000000000000014,
+            "physical_metric_electron_count": 42.000000000000014,
+            "masked_overlap_minimum_eigenvalue": 0.0005368910500768031,
+            "masked_overlap_condition_number": 10468.331122076841,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.1818505181408521e-08,
+            "closed_shell_idempotency_relative_residual": 2.981674360755963e-15,
+            "occupied_virtual_gap_hartree": 0.24668305132805712
+          }
+        },
+        {
+          "amplitude_angstrom": 0.02,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24162124347066,
+            "electronic_energy_hartree": -435.38913531050247,
+            "nuclear_repulsion_hartree": 203.1475140670318
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 11,
+            "total_energy_hartree": -232.19159563212304,
+            "electronic_energy_hartree": -435.33910969915485,
+            "nuclear_repulsion_hartree": 203.1475140670318,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000160462234,
+            "masked_metric_electron_count": 42.000000000000014,
+            "physical_metric_electron_count": 42.000000000000014,
+            "masked_overlap_minimum_eigenvalue": 0.0005378451288672139,
+            "masked_overlap_condition_number": 10449.664130889174,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.142085090069866e-08,
+            "closed_shell_idempotency_relative_residual": 2.5030411508362513e-15,
+            "occupied_virtual_gap_hartree": 0.2434144250654045
+          }
+        }
+      ],
+      "curvatures_hartree_per_angstrom2": {
+        "ordinary": {
+          "total": 11.23210239626942,
+          "electronic": 3.0266094417360603,
+          "nuclear": 8.205492955122931
+        },
+        "conditional_electronic": 3.1943041912834103,
+        "delta_k_e_conditional_minus_ordinary": 0.16769474954734997,
+        "ordinary_closure_residual": -5.895710586401037e-10
+      }
+    },
+    "E2g_bend_sin": {
+      "points": [
+        {
+          "amplitude_angstrom": -0.02,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.2409321177344,
+            "electronic_energy_hartree": -435.3892445037042,
+            "nuclear_repulsion_hartree": 203.14831238596983
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 13,
+            "total_energy_hartree": -232.19089454352215,
+            "electronic_energy_hartree": -435.339206929492,
+            "nuclear_repulsion_hartree": 203.14831238596983,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.000001179325125,
+            "masked_metric_electron_count": 41.99999999999999,
+            "physical_metric_electron_count": 41.99999999999999,
+            "masked_overlap_minimum_eigenvalue": 0.0005382292157351263,
+            "masked_overlap_condition_number": 10442.179249387622,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.20332354217619e-07,
+            "closed_shell_idempotency_relative_residual": 1.975469125314659e-15,
+            "occupied_virtual_gap_hartree": 0.24348518606364064
+          }
+        },
+        {
+          "amplitude_angstrom": -0.01,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24309891723632,
+            "electronic_energy_hartree": -435.3898256995715,
+            "nuclear_repulsion_hartree": 203.14672678233515
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 13,
+            "total_energy_hartree": -232.1930937262397,
+            "electronic_energy_hartree": -435.33982050857486,
+            "nuclear_repulsion_hartree": 203.14672678233515,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000114988942,
+            "masked_metric_electron_count": 42.00000000000001,
+            "physical_metric_electron_count": 42.00000000000001,
+            "masked_overlap_minimum_eigenvalue": 0.0005369852486069442,
+            "masked_overlap_condition_number": 10466.486903375118,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 4.7025519925982945e-08,
+            "closed_shell_idempotency_relative_residual": 2.6770911853467297e-15,
+            "occupied_virtual_gap_hartree": 0.24673094640978172
+          }
+        },
+        {
+          "amplitude_angstrom": -0.005,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.2436404959143,
+            "electronic_energy_hartree": -435.3899715784858,
+            "nuclear_repulsion_hartree": 203.14633108257152
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 12,
+            "total_energy_hartree": -232.19364339429166,
+            "electronic_energy_hartree": -435.3399744768632,
+            "nuclear_repulsion_hartree": 203.14633108257152,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000114040792,
+            "masked_metric_electron_count": 42.0,
+            "physical_metric_electron_count": 42.0,
+            "masked_overlap_minimum_eigenvalue": 0.0005366739291659053,
+            "masked_overlap_condition_number": 10472.587837647723,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 2.660307299208653e-08,
+            "closed_shell_idempotency_relative_residual": 2.7350304504032772e-15,
+            "occupied_virtual_gap_hartree": 0.24836876307771588
+          }
+        },
+        {
+          "amplitude_angstrom": -0.0025,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24377588301246,
+            "electronic_energy_hartree": -435.3900080844922,
+            "nuclear_repulsion_hartree": 203.14623220147973
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 12,
+            "total_energy_hartree": -232.19378080332484,
+            "electronic_energy_hartree": -435.3400130048046,
+            "nuclear_repulsion_hartree": 203.14623220147973,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000113789888,
+            "masked_metric_electron_count": 42.0,
+            "physical_metric_electron_count": 41.99999999999999,
+            "masked_overlap_minimum_eigenvalue": 0.0005365960788271153,
+            "masked_overlap_condition_number": 10474.114578254863,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 9.741456130295944e-09,
+            "closed_shell_idempotency_relative_residual": 2.2626649792494176e-15,
+            "occupied_virtual_gap_hartree": 0.24919140623795036
+          }
+        },
+        {
+          "amplitude_angstrom": 0.0,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24382101137573,
+            "electronic_energy_hartree": -435.3900202563744,
+            "nuclear_repulsion_hartree": 203.14619924499866
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 10,
+            "total_energy_hartree": -232.19382660562732,
+            "electronic_energy_hartree": -435.340025850626,
+            "nuclear_repulsion_hartree": 203.14619924499866,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.000001137050084,
+            "masked_metric_electron_count": 42.000000000000014,
+            "physical_metric_electron_count": 42.000000000000014,
+            "masked_overlap_minimum_eigenvalue": 0.0005365701268979993,
+            "masked_overlap_condition_number": 10474.623625868613,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.8666055072814652e-08,
+            "closed_shell_idempotency_relative_residual": 3.2461155790910425e-15,
+            "occupied_virtual_gap_hartree": 0.2500164510650888
+          }
+        },
+        {
+          "amplitude_angstrom": 0.0025,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24377588301405,
+            "electronic_energy_hartree": -435.39000808444393,
+            "nuclear_repulsion_hartree": 203.14623220142988
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 12,
+            "total_energy_hartree": -232.19378080332478,
+            "electronic_energy_hartree": -435.34001300475467,
+            "nuclear_repulsion_hartree": 203.14623220142988,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000113789888,
+            "masked_metric_electron_count": 42.00000000000001,
+            "physical_metric_electron_count": 42.00000000000001,
+            "masked_overlap_minimum_eigenvalue": 0.0005365960788303818,
+            "masked_overlap_condition_number": 10474.114578216495,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 9.74085627920669e-09,
+            "closed_shell_idempotency_relative_residual": 2.5580356885972756e-15,
+            "occupied_virtual_gap_hartree": 0.24919140623784375
+          }
+        },
+        {
+          "amplitude_angstrom": 0.005,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.2436404959141,
+            "electronic_energy_hartree": -435.3899715783862,
+            "nuclear_repulsion_hartree": 203.14633108247213
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 12,
+            "total_energy_hartree": -232.19364339429134,
+            "electronic_energy_hartree": -435.3399744767635,
+            "nuclear_repulsion_hartree": 203.14633108247213,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.000001140407946,
+            "masked_metric_electron_count": 42.000000000000014,
+            "physical_metric_electron_count": 42.000000000000014,
+            "masked_overlap_minimum_eigenvalue": 0.0005366739291697191,
+            "masked_overlap_condition_number": 10472.58783757384,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 2.6603040951784466e-08,
+            "closed_shell_idempotency_relative_residual": 2.576114423991732e-15,
+            "occupied_virtual_gap_hartree": 0.24836876307751055
+          }
+        },
+        {
+          "amplitude_angstrom": 0.01,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24309891723686,
+            "electronic_energy_hartree": -435.3898256993729,
+            "nuclear_repulsion_hartree": 203.14672678213606
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 13,
+            "total_energy_hartree": -232.19309372624048,
+            "electronic_energy_hartree": -435.33982050837653,
+            "nuclear_repulsion_hartree": 203.14672678213606,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000114988941,
+            "masked_metric_electron_count": 42.00000000000001,
+            "physical_metric_electron_count": 42.000000000000014,
+            "masked_overlap_minimum_eigenvalue": 0.0005369852486150897,
+            "masked_overlap_condition_number": 10466.486903220579,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 4.7025537200447013e-08,
+            "closed_shell_idempotency_relative_residual": 2.6825849919652014e-15,
+            "occupied_virtual_gap_hartree": 0.24673094640937615
+          }
+        },
+        {
+          "amplitude_angstrom": 0.02,
+          "ordinary": {
+            "converged": true,
+            "total_energy_hartree": -232.24093211773496,
+            "electronic_energy_hartree": -435.3892445033069,
+            "nuclear_repulsion_hartree": 203.14831238557193
+          },
+          "conditional": {
+            "converged": true,
+            "cycles": 13,
+            "total_energy_hartree": -232.19089454352255,
+            "electronic_energy_hartree": -435.3392069290945,
+            "nuclear_repulsion_hartree": 203.14831238557193,
+            "energy_component_closure_residual_hartree": 0.0,
+            "grid_electron_count": 42.00000117932513,
+            "masked_metric_electron_count": 42.0,
+            "physical_metric_electron_count": 42.00000000000001,
+            "masked_overlap_minimum_eigenvalue": 0.0005382292157483518,
+            "masked_overlap_condition_number": 10442.179249080582,
+            "masked_overlap_cross_pi_max_abs": 0.0,
+            "conditional_fock_cross_pi_max_abs": 0.0,
+            "deleted_eri_count": 12091392,
+            "total_eri_count": 84934656,
+            "deleted_eri_fraction": 0.1423611111111111,
+            "eri_storage_mode": "single_tensor_inplace_category_mask",
+            "final_commutator_frobenius_norm": 1.2033245759141975e-07,
+            "closed_shell_idempotency_relative_residual": 2.9139806493973544e-15,
+            "occupied_virtual_gap_hartree": 0.24348518606283154
+          }
+        }
+      ],
+      "curvatures_hartree_per_angstrom2": {
+        "ordinary": {
+          "total": 14.441945371239745,
+          "electronic": 3.8908377974459185,
+          "nuclear": 10.551107575256296
+        },
+        "conditional_electronic": 4.106546165394162,
+        "delta_k_e_conditional_minus_ordinary": 0.21570836794824366,
+        "ordinary_closure_residual": -1.462469256807708e-09
+      }
+    }
+  }
+}

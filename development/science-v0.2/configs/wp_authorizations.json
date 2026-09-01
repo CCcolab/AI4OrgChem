@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "authorization_date": "2026-09-01",
+  "gate_dependency": "GATE_V2_0_PASSED",
+  "authorizing_role": "PROJECT_LEAD",
+  "resource_concurrency_rule": "One medium/high-memory quantum-chemistry job at a time",
+  "work_packages": {
+    "WP1": {
+      "status": "AUTHORIZED_TO_START",
+      "scientific_scope": "P09-B ordinary physical-state cyclobutadiene multireference robustness",
+      "permitted_methods": [
+        "RKS stability analysis",
+        "UKS and broken-symmetry branches",
+        "two-root equal-weight SA-CASSCF",
+        "SC-NEVPT2 sensitivity lane",
+        "Quantum Package v2.2.2 CIPSI+PT2 primary high-level anchor"
+      ],
+      "required_systems": ["D2h minimum", "D4h stationary point", "continuous automerization path"],
+      "pre_run_conditions": [
+        "Freeze reviewed Cartesian inputs and hashes",
+        "Seal a blind calculation bundle without V0.1 target values or signs",
+        "Record charge, multiplicity, basis, frozen core, orbitals, roots, weights, thresholds and random seeds",
+        "Apply the WP1 24-hour/12-GiB/40-GiB first-run resource limits"
+      ],
+      "prohibitions": [
+        "Do not use WP1 to automatically upgrade P09-A",
+        "Do not choose methods or roots by proximity to the monograph value",
+        "Do not discard failed roots or convergence attempts"
+      ],
+      "next_gate": "V2-1",
+      "execution_started": false
+    },
+    "WP2": {
+      "status": "HOLD",
+      "reason": "ORCA licensed binary and three-program functional smoke alignment remain unavailable"
+    },
+    "WP3": {
+      "status": "AUTHORIZED_TO_START",
+      "scientific_scope": "P10-B benzene D6h mechanism discrimination",
+      "permitted_methods": [
+        "Ordinary closed-shell RKS Hessian and force projections",
+        "Hessian eigensubspace identification and principal-angle comparison",
+        "Frozen three-Kekule-fragment conditional-SCF intervention",
+        "Matched B2u/A1g/E2g displacement-grid curvature analysis"
+      ],
+      "pre_run_conditions": [
+        "Retain the frozen Gate V2-0 seeds and hashes",
+        "Freeze D6h Cartesian geometry, displacement grid and method before the first energy",
+        "Seal a blind calculation bundle without V0.1 target signs",
+        "Apply singular-value and root-overlap failure thresholds of 0.90",
+        "Apply the WP3 2-hour-per-displacement and 48-hour-grid first-run limits"
+      ],
+      "prohibitions": [
+        "Do not replace or rotate the preregistered seed after seeing Hessian results",
+        "Do not force one-to-one eigenvector matching in degenerate or near-degenerate subspaces",
+        "Do not claim nuclear-repulsion dominance from E_N magnitude alone",
+        "Do not automatically upgrade P10-A from a P10-B result"
+      ],
+      "next_gate": "V2-3",
+      "hessian_calculation": "AUTHORIZED",
+      "execution_started": false
+    },
+    "WP4": {
+      "status": "HOLD",
+      "reason": "Protocol accepted for Gate V2-0, but separate expensive paired-pilot authorization not granted"
+    },
+    "WP5": {
+      "status": "SCHEMA_AND_INTERNAL_SAMPLE_ONLY",
+      "reason": "External clean replay not yet performed"
+    },
+    "WP6": {
+      "status": "HOLD",
+      "reason": "V0.2 scientific release candidate is not authorized"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "science-v0.2-release-status-1",
+  "version": "0.2.0",
+  "status": "RELEASE_PACKAGE_READY",
+  "release_date": "2026-09-01",
+  "v0_1_p01_p14_mutated": false,
+  "work_packages": {
+    "WP0": "PASSED",
+    "WP1": "PASS_WITH_METHOD_SENSITIVITY",
+    "WP2": "INDETERMINATE_PSI4_BACKEND_CONTRACT_AND_ORCA_UNAVAILABLE",
+    "WP3": "PASS",
+    "WP4": "INDETERMINATE_INPUT_DEFINITION_INCOMPLETE",
+    "WP5": "INTERNAL_CLEAN_REPLAY",
+    "WP6": "RELEASE_PACKAGE_READY"
+  },
+  "release_contract_checks": {
+    "WP1_completed": true,
+    "WP2_backend_failure_recorded": true,
+    "WP2_three_program_not_overstated": true,
+    "WP3_completed": true,
+    "WP4_not_overstated": true,
+    "WP5_internal_replay": true
+  },
+  "records": {
+    "WP1": {
+      "path": "data/science_v0.2/decisions/wp1/gate_v2_1_decision.json",
+      "sha256": "53dac34d3d372fd3bf34ead173c86188c1521ebda7afb7052a23245789a8c5a0"
+    },
+    "WP2": {
+      "path": "data/science_v0.2/decisions/wp2/gate_v2_2_decision.json",
+      "sha256": "5f35eb2247e86da6d6f05c279cf2376a63b6a8752f4aa4c22f3c1b86324e94ec"
+    },
+    "WP3": {
+      "path": "data/science_v0.2/decisions/wp3/gate_v2_3_decision.json",
+      "sha256": "44b63569936423996362dd8ce1d9d90ff12849fb8329378b6206ad32f82ca2af"
+    },
+    "WP4": {
+      "path": "data/science_v0.2/decisions/wp4/gate_v2_4p_decision.json",
+      "sha256": "225d174e282e6185246f34062f05b28c17c395cd99fc51255086bd71389250eb"
+    },
+    "WP5": {
+      "path": "runs/science_v0.2/wp5_internal_clean_replay/replay_result.json",
+      "sha256": "235bdfac2e6a4fbb8e264d877991c543657b5a14b7ea8b21ddf019ca5cad6c5d"
+    }
+  },
+  "scientific_scope_statement": "V0.2 completes the declared release package while retaining explicit non-passing outcomes for WP2 and WP4; it does not claim that every scientific gate passed."
+}

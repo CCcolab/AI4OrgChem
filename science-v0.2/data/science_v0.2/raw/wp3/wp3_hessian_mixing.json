@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "work_package": "WP3",
+  "claim_id": "P10-B",
+  "estimand_id": "P10B_BENZENE_D6H_MECHANISM",
+  "config_sha256": "1f466eff2d289d5c8a157408f54c958dff9cdfcb49a908bd71748f95cbaefdcf",
+  "geometry_source_sha256": "f13f99919d0bd632b57f225da38698a34ad9201ccb8b90374dd3aa5e907da9fa",
+  "mode_seed_sha256": "763c90770760cf94efdea0e9b2b9fc452c8e11c3827d749789fd479d168b26bd",
+  "scientific_energy_calculation": true,
+  "status": "PASS",
+  "failures": [],
+  "reference_ordinary_state": {
+    "converged": true,
+    "total_energy_hartree": -232.24382101137624,
+    "electronic_energy_hartree": -435.3900202563749,
+    "nuclear_repulsion_hartree": 203.14619924499866
+  },
+  "hessian": {
+    "eigenvalues_hartree_per_bohr2_per_amu": [
+      -4.834972491749069e-06,
+      -4.3325730723871275e-06,
+      -2.782968331138669e-06,
+      -1.3656592817699859e-06,
+      3.228803810438141e-06,
+      3.5316781442036457e-06,
+      0.006512202237280458,
+      0.0065141526164987935,
+      0.014607430525663524,
+      0.014608151687775715,
+      0.018276671923741068,
+      0.019506347472897697,
+      0.0283091847129584,
+      0.02830956911169634,
+      0.03557008547302139,
+      0.0355707466688551,
+      0.03869315760501115,
+      0.039267403629124904,
+      0.039405137762288996,
+      0.043240195966423506,
+      0.04324040878083237,
+      0.05316122460622074,
+      0.05516933365928591,
+      0.05516979245545474,
+      0.06960695460672038,
+      0.07287031119183486,
+      0.08873174596482687,
+      0.08873292734720815,
+      0.10369942421285541,
+      0.10370362773094748,
+      0.3816871183234443,
+      0.3840117818018477,
+      0.38401200604622415,
+      0.38786131642157523,
+      0.38786154436883585,
+      0.3904632776995168
+    ],
+    "comparisons": {
+      "B2u_BLA": {
+        "best_eigenmode_index": 24,
+        "absolute_overlap": 0.9624213329000665,
+        "eigenvalue_hartree_per_bohr2_per_amu": 0.06960695460672038
+      },
+      "A1g_breathing": {
+        "best_eigenmode_index": 18,
+        "absolute_overlap": 0.9535826928184542,
+        "eigenvalue_hartree_per_bohr2_per_amu": 0.039405137762288996
+      },
+      "E2g": {
+        "best_eigenmode_indices": [
+          8,
+          9
+        ],
+        "principal_singular_values": [
+          0.7133870430250934,
+          0.7133777923393183
+        ],
+        "eigenvalues_hartree_per_bohr2_per_amu": [
+          0.014607430525663524,
+          0.014608151687775715
+        ],
+        "minimum_mixed_eigensubspace_indices": [
+          9,
+          8,
+          29,
+          28
+        ],
+        "mixed_eigensubspace_principal_singular_values": [
+          0.9576225211877764,
+          0.9576220641390668
+        ],
+        "mixed_eigensubspace_eigenvalues_hartree_per_bohr2_per_amu": [
+          0.014608151687775715,
+          0.014607430525663524,
+          0.10370362773094748,
+          0.10369942421285541
+        ],
+        "mode_mixing_detected": true
+      }
+    },
+    "minimum_required_overlap": 0.9,
+    "one_dimensional_modes_pass": true,
+    "e2g_subspace_pass": false,
+    "e2g_mixed_subspace_pass": true
+  },
+  "wall_seconds_this_run": 159.62700057029724
+}

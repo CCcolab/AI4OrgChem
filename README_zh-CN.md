@@ -13,7 +13,9 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 
 > **AI辅助研究与工程支持：** **OpenAI Codex（GPT-5.6）**。项目作者身份、科学决策、结果解释和发布责任均由Xiao Chen承担；OpenAI不作为项目作者、科学认证机构、同行评审方或机构背书方。
 
-> **发布状态：** 安全加固精选版本 `v0.1.2`。相关论文稿尚未经过同行评审。
+> **发布状态：** 科学增强版本 `v0.2.0`。相关论文稿尚未经过同行评审。
+
+> **Science V0.2：** [自包含证据包](science-v0.2/README.md)新增已完成的WP1环丁二烯多参考证据和WP3苯机制干预、可审计的WP2后端合同失败、明确未决的WP4状态，以及内部洁净证据重放；已冻结的V0.1 P01–P14十四项判定保持不变。
 
 ## 项目背景与目标
 
@@ -77,6 +79,7 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 | [`software/`](software/README.md) | LFMO/条件SCF公开核心实现和64项测试 |
 | [`reproducibility/`](reproducibility/README.md) | 复现说明和WSL 2平台边界 |
 | [`figures/`](figures/README.md) | 项目自行生成的总览图 |
+| [`science-v0.2/`](science-v0.2/README.md) | 自包含V0.2配置、精选机器结果、判定、报告、重建脚本、测试与哈希 |
 | [`manifests/`](manifests/FILE_INVENTORY.md) | 文件清单和SHA-256清单 |
 
 ## 快速验证

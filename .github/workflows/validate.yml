@@ -31,7 +31,7 @@ jobs:
           cache-dependency-path: software/pyproject.toml
 
       - name: Install validation dependencies
-        run: python -m pip install --disable-pip-version-check "PyYAML>=6,<7" "jsonschema>=4.23,<5"
+        run: python -m pip install --disable-pip-version-check "PyYAML>=6,<7" "jsonschema>=4.23,<5" "pytest>=8,<9"
 
       - name: Validate release integrity and security boundaries
         run: python software/scripts/validate_release_package.py
@@ -47,6 +47,12 @@ jobs:
 
       - name: Validate WSL release boundaries
         run: python software/scripts/validate_wsl_release.py
+
+      - name: Validate Science V0.2 release evidence
+        run: python software/scripts/validate_science_v02_wp0_public.py
+
+      - name: Run Science V0.2 release-contract tests
+        run: python -m pytest -p no:cacheprovider science-v0.2/tests/science_v0.2
 
       - name: Check WSL shell syntax
         run: |
