@@ -1,0 +1,44 @@
+{
+  "schema_version": "science-v0.3-wp2-open-three-program-anchor-1",
+  "timestamp_utc": "2026-09-02T01:21:10.179643+00:00",
+  "anchor_id": "WP2-P11-FURAN-G-E",
+  "source": "data/processed/p11_furan_LDE_v0.1.json",
+  "source_sha256": "9d98cfe660d33f0aa65e0bd572ab78eaa6db6e700eff39671c753d90d0ea7023",
+  "contract": "configs/science_v0.3/wp2_open_three_program_contract.json",
+  "contract_sha256": "0792b685deaa26f2cd683d3fbcec52df43dbb9c1375e6d05ddf7742495254fb5",
+  "basis": "6-31G*",
+  "geometry_unit": "bohr",
+  "geometry_sha256": "00d90fa6e79770b4c17c0d847b4e6920e2c641ce7822373e9903541c0f738397",
+  "atom_count": 9,
+  "programs": {
+    "PySCF": {
+      "energy_hartree": -230.01637046505374,
+      "converged": true,
+      "retained_grid_points": 1993992,
+      "version": "2.14.0"
+    },
+    "Psi4": {
+      "energy_hartree": -230.0163704647063,
+      "converged": true,
+      "wavefunction_energy_hartree": -230.0163704647063,
+      "version": "1.11"
+    },
+    "NWChem": {
+      "energy_hartree": -230.016370476214,
+      "converged": true,
+      "input_sha256": "261ece267f644545f12d3864f0c693860f6071cf0c758814edd416861d3cf491",
+      "output_sha256": "15090ebc881021849cade2ea0786a6e7bf2d2f61961a11612f47e6b05d984e9b",
+      "grid_adoption_proved": true,
+      "banner_version": "7.3.0",
+      "revision": "3272822"
+    }
+  },
+  "comparison": {
+    "program_count": 3,
+    "required_program_count": 3,
+    "pairwise_span_hartree": 1.1507694352985709e-08,
+    "threshold_hartree": 5e-06,
+    "energy_pass": true,
+    "pass": true
+  }
+}

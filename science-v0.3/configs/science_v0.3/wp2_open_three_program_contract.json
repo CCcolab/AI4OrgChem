@@ -1,0 +1,104 @@
+{
+  "schema_version": "science-v0.3-wp2-open-three-program-contract-1",
+  "status": "FROZEN_FOR_CALIBRATION",
+  "supersedes_scientific_results": false,
+  "preserves_release": "v0.2.0",
+  "scope": "WP2 cross-program reproducibility remediation only",
+  "lanes": {
+    "original_orca_lane": {
+      "programs": ["PySCF", "Psi4", "ORCA"],
+      "status": "NOT_ESTABLISHED",
+      "reason": "No licensed ORCA executable is available locally; no substitute is represented as ORCA."
+    },
+    "open_three_program_lane": {
+      "programs": ["PySCF", "Psi4", "NWChem"],
+      "status": "AUTHORIZED_FOR_CALIBRATION",
+      "relationship_to_original_orca_lane": "COMPLEMENTARY",
+      "program_identity_rule": "NWChem is an independent open-source third implementation, not an ORCA replacement or ORCA-equivalent claim."
+    }
+  },
+  "estimand": {
+    "relation_type": "SAME_ESTIMAND",
+    "definition": "Gaussian-style B3LYP total electronic energy or its Cartesian/projected first derivative at a frozen Cartesian geometry, spherical Gaussian basis, no empirical dispersion and no density fitting.",
+    "functional_identity": {
+      "components": "0.20 HF exchange + 0.80 Slater exchange + 0.72 B88 nonlocal exchange + 0.19 VWN_1_RPA local correlation + 0.81 LYP correlation",
+      "PySCF": "B3LYPG",
+      "Psi4": "B3LYP",
+      "NWChem": "xc b3lyp",
+      "NWChem_official_reference": "https://nwchemgit.github.io/Density-Functional-Theory-for-Molecules.html"
+    }
+  },
+  "geometry_contract": {
+    "source_coordinates": "V0.1 processed evidence geometries",
+    "internal_unit_for_all_program_inputs": "bohr",
+    "angstrom_to_bohr_constant": "divide by 0.52917721092",
+    "charge": 0,
+    "multiplicity": 1,
+    "symmetry": "disabled/C1",
+    "reorientation_or_recentering": false,
+    "geometry_hash_required": true
+  },
+  "basis_contract": {
+    "representation": "spherical",
+    "P03": "6-311G(d,p)",
+    "all_other_core_anchors": "6-31G(d)"
+  },
+  "numerical_contract": {
+    "density_fitting": false,
+    "two_electron_integrals": "exact/direct; no RI/DF approximation",
+    "dispersion": "none",
+    "scf_energy_tolerance_hartree": 1e-10,
+    "max_scf_iterations": 200,
+    "grid_convergence_policy": "Use the frozen high grids below. Output must prove the requested grid was actually adopted.",
+    "PySCF": {
+      "atom_grid": {
+        "H": [300, 1202],
+        "C": [300, 1454],
+        "N": [300, 1454],
+        "O": [300, 1454]
+      },
+      "pruning": "nwchem_prune"
+    },
+    "Psi4": {
+      "radial_points": 300,
+      "spherical_points": 1454,
+      "pruning_scheme": "ROBUST",
+      "scf_type": "DIRECT",
+      "df_scf_guess": false,
+      "integral_screening_tolerance": 1e-12
+    },
+    "NWChem": {
+      "grid": "huge",
+      "direct": true,
+      "tolerances": "tight",
+      "accepted_banner_version": "7.3.0",
+      "accepted_revision": "3272822",
+      "binary_sha256": "f0906ec8ce5468354d254172a145ca53ef0ca2eb0362c786737ceb9ca08d9674"
+    }
+  },
+  "derivative_contract": {
+    "analytic_where_exact_backend_is_available": true,
+    "finite_difference_fallback": {
+      "allowed": true,
+      "step_bohr": 0.001,
+      "stencil": "central two-point",
+      "require_step_sensitivity_check": true
+    },
+    "full_cartesian_gradient_comparison": "RMS over all 3N Cartesian components in hartree/bohr",
+    "projected_force_comparison": "same normalized frozen tangent and same signed convention in all programs"
+  },
+  "acceptance_thresholds": {
+    "absolute_energy_cross_program_hartree": 5e-6,
+    "relative_energy_cross_program_kcal_mol": 0.05,
+    "gradient_rms_cross_program_hartree_per_bohr": 5e-5
+  },
+  "calibration_evidence": {
+    "benzene_record": "runs/science_v0.3/wp2/nwchem_smoke/benzene_high_grid_calibration.json",
+    "maximum_pairwise_high_grid_energy_difference_hartree": 1.7427055354346521e-9,
+    "passes_energy_threshold": true,
+    "note": "The initial Psi4 calibration used DIRECT with its default DF pre-iteration guess. Production and final calibration disable that guess with DF_SCF_GUESS=false.",
+    "science_target_values_used_for_tuning": false
+  },
+  "failure_rule": "Retain every failed run. Do not tune settings against V0.1 proposition outcomes. Any core anchor outside tolerance is INDETERMINATE for the open-three-program lane.",
+  "gate_rule": "The open-three-program lane can pass only after all eight frozen core anchors and required energy/force observables pass. The original ORCA lane remains NOT_ESTABLISHED until licensed ORCA results exist."
+}

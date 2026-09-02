@@ -1,0 +1,44 @@
+{
+  "schema_version": "science-v0.3-wp2-open-three-program-anchor-1",
+  "timestamp_utc": "2026-09-02T01:16:07.503022+00:00",
+  "anchor_id": "WP2-P10-BENZENE-B2U-QPLUS-E",
+  "source": "data/processed/p10_benzene_nuclear_repulsion_v0.1.json",
+  "source_sha256": "acee808d4013e0695539253c19b00116cea63c6996cb24086be5f42ede6f3250",
+  "contract": "configs/science_v0.3/wp2_open_three_program_contract.json",
+  "contract_sha256": "0792b685deaa26f2cd683d3fbcec52df43dbb9c1375e6d05ddf7742495254fb5",
+  "basis": "6-31G*",
+  "geometry_unit": "bohr",
+  "geometry_sha256": "d8f56948331ce3193a2156de5830b0c854e1071f18eafeec4d828433153eef90",
+  "atom_count": 12,
+  "programs": {
+    "PySCF": {
+      "energy_hartree": -232.24348544582296,
+      "converged": true,
+      "retained_grid_points": 2643192,
+      "version": "2.14.0"
+    },
+    "Psi4": {
+      "energy_hartree": -232.24348544637726,
+      "converged": true,
+      "wavefunction_energy_hartree": -232.24348544637726,
+      "version": "1.11"
+    },
+    "NWChem": {
+      "energy_hartree": -232.243485446922,
+      "converged": true,
+      "input_sha256": "7a93cc31ed2a2ffafd13525b9dd6a60fd16c4adbb4d4574b3700dd96c4027404",
+      "output_sha256": "71053490aada55b23582d641c01dadf63dc039837062c9244285e93af3037c7f",
+      "grid_adoption_proved": true,
+      "banner_version": "7.3.0",
+      "revision": "3272822"
+    }
+  },
+  "comparison": {
+    "program_count": 3,
+    "required_program_count": 3,
+    "pairwise_span_hartree": 1.0990390819642926e-09,
+    "threshold_hartree": 5e-06,
+    "energy_pass": true,
+    "pass": true
+  }
+}

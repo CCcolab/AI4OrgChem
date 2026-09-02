@@ -1,0 +1,44 @@
+{
+  "schema_version": "science-v0.3-wp2-open-three-program-anchor-1",
+  "timestamp_utc": "2026-09-02T01:13:52.244047+00:00",
+  "anchor_id": "WP2-P09-CBD-G-E",
+  "source": "data/processed/p09_cyclobutadiene_G_DSI_VDE_v0.1.json",
+  "source_sha256": "ba7be343a0e5012f27fefb9c4736d81ef9af9b262696468689409b9efc7fb5b8",
+  "contract": "configs/science_v0.3/wp2_open_three_program_contract.json",
+  "contract_sha256": "0792b685deaa26f2cd683d3fbcec52df43dbb9c1375e6d05ddf7742495254fb5",
+  "basis": "6-31G*",
+  "geometry_unit": "bohr",
+  "geometry_sha256": "bf0ac6fb9c07f2bf78a670ec7cf02df66b2791a47c1c3bcb77391df0da30b0e2",
+  "atom_count": 8,
+  "programs": {
+    "PySCF": {
+      "energy_hartree": -154.6723159188906,
+      "converged": true,
+      "retained_grid_points": 1762128,
+      "version": "2.14.0"
+    },
+    "Psi4": {
+      "energy_hartree": -154.67231591926105,
+      "converged": true,
+      "wavefunction_energy_hartree": -154.67231591926105,
+      "version": "1.11"
+    },
+    "NWChem": {
+      "energy_hartree": -154.672315911752,
+      "converged": true,
+      "input_sha256": "1f5bd940106988348e1180730eb9c730d7032b7f15f523cca9c8a6836ca83cd2",
+      "output_sha256": "b916c3ba029bf1a639205b4600a71c291fb4f0fa1f1fe97ea29316c78e659aeb",
+      "grid_adoption_proved": true,
+      "banner_version": "7.3.0",
+      "revision": "3272822"
+    }
+  },
+  "comparison": {
+    "program_count": 3,
+    "required_program_count": 3,
+    "pairwise_span_hartree": 7.509044053222169e-09,
+    "threshold_hartree": 5e-06,
+    "energy_pass": true,
+    "pass": true
+  }
+}

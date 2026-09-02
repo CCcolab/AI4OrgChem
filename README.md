@@ -17,6 +17,8 @@ AI4OrgChem is an **AI for Science (AI4S) Agent** for independent computational r
 
 > **Science V0.2:** [the self-contained evidence package](science-v0.2/README.md) adds completed WP1 cyclobutadiene multireference evidence and WP3 benzene-mechanism intervention, an auditable WP2 backend-contract failure, an explicit unresolved WP4 outcome, and an internal clean evidence replay. The frozen V0.1 P01-P14 classifications are unchanged.
 
+> **Post-V0.2 WP2 update:** [Science V0.3 WP2 incremental evidence](science-v0.3/README.md) closes the open-source cross-program reproducibility question across PySCF, Psi4, and NWChem: 8/8 frozen anchors and 2/2 relative-energy pairs pass. The historical ORCA-specific lane remains unexecuted, and no V0.1 proposition classification or V0.2 artifact is changed.
+
 ## Why this project exists
 
 Textbook ideas such as conjugative stabilization, conjugation-driven planarization, steric destabilization, and aromatic stabilization are useful chemical heuristics. Problems arise when a heuristic is promoted to an unconditional mechanistic law. AI4OrgChem converts fourteen major propositions into falsifiable computational tasks with frozen systems, state definitions, sign conventions, numerical outputs, and explicit scope boundaries.
@@ -80,6 +82,7 @@ The dataset is too small for industrial or universal molecular generalization. D
 | [`reproducibility/`](reproducibility/README.md) | Runtime instructions and WSL 2 platform boundaries |
 | [`figures/`](figures/README.md) | Project-authored overview figure |
 | [`science-v0.2/`](science-v0.2/README.md) | Self-contained V0.2 configurations, selected machine results, decisions, reports, rebuild scripts, tests, and hashes |
+| [`science-v0.3/`](science-v0.3/README.md) | Incremental WP2 open three-program reproducibility evidence; preserves V0.1 and V0.2 unchanged |
 | [`manifests/`](manifests/FILE_INVENTORY.md) | File inventory and SHA-256 release manifest |
 
 ## Detailed computation guide (WSL 2) / 详细计算介绍
