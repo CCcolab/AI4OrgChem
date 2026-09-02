@@ -1,0 +1,46 @@
+{
+  "schema_version": "science-v0.3-wp2-open-three-program-anchor-1",
+  "timestamp_utc": "2026-09-02T00:19:54.578079+00:00",
+  "anchor_id": "WP2-P03-NBA-060-E",
+  "source": "data/processed/p03_parent_nba_relaxed_pes_evidence_v0.1.json",
+  "source_sha256": "0498f24cc0a82b79dad29e91c0821a1b051189f18c5b154ebfb65c78ba993f55",
+  "contract": "configs/science_v0.3/wp2_open_three_program_contract.json",
+  "contract_sha256": "0792b685deaa26f2cd683d3fbcec52df43dbb9c1375e6d05ddf7742495254fb5",
+  "basis": "6-311G**",
+  "geometry_unit": "bohr",
+  "geometry_sha256": "49b8a6b636c5463c42e4edf84e106a26c14fce8fa908f781dd46775562c31d7d",
+  "atom_count": 25,
+  "programs": {
+    "PySCF": {
+      "energy_hartree": -556.8864296138665,
+      "converged": true,
+      "retained_grid_points": 5542632,
+      "version": "2.14.0"
+    },
+    "Psi4": {
+      "energy_hartree": -556.8864296314733,
+      "converged": true,
+      "wavefunction_energy_hartree": -556.8864296314733,
+      "version": "1.11"
+    },
+    "NWChem": {
+      "energy_hartree": -556.886429615362,
+      "converged": true,
+      "input_sha256": "9ba7d031549ea97b00e77863dfcca88129112d50c016d844c1e5362d3c53f812",
+      "output_sha256": "c0388daff5ab69a8cde1832c7dd13b1cdbfb0d36536332590ad67cd25b6af413",
+      "grid_adoption_proved": true,
+      "banner_version": "7.3.0",
+      "revision": "3272822"
+    }
+  },
+  "resume_provenance": {
+    "previous_contract_sha256": "fe1a04b7abec4cc3cab75f71bd75e943171736a6205fb6dbeb02a97d9bc9bc1d",
+    "current_contract_sha256": "0792b685deaa26f2cd683d3fbcec52df43dbb9c1375e6d05ddf7742495254fb5",
+    "reuse_rule": "Only results from programs whose frozen settings were unchanged by the amendment are retained."
+  },
+  "comparison": {
+    "pairwise_span_hartree": 1.7606794244784396e-08,
+    "threshold_hartree": 5e-06,
+    "pass": true
+  }
+}

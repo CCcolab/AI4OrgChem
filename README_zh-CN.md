@@ -17,6 +17,8 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 
 > **Science V0.2：** [自包含证据包](science-v0.2/README.md)新增已完成的WP1环丁二烯多参考证据和WP3苯机制干预、可审计的WP2后端合同失败、明确未决的WP4状态，以及内部洁净证据重放；已冻结的V0.1 P01–P14十四项判定保持不变。
 
+> **V0.2之后的WP2更新：** [Science V0.3 WP2增量证据](science-v0.3/README.md)已在PySCF、Psi4和NWChem开源三程序支路关闭跨程序复算问题：8/8冻结锚点和2/2相对能量对全部通过。历史ORCA专用支路仍未执行，V0.1十四项判定和V0.2文件均不改动。
+
 ## 项目背景与目标
 
 共轭稳定化、共轭促平面化、位阻去稳定化和芳香稳定化是有机化学中非常有用的经验启发式。问题在于，经验趋势不能自动获得无条件因果定律的地位。AI4OrgChem将原著十四项主要命题转化为可证伪计算任务，冻结分子体系、状态定义、符号约定、机器结果和适用边界。
@@ -80,6 +82,7 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 | [`reproducibility/`](reproducibility/README.md) | 复现说明和WSL 2平台边界 |
 | [`figures/`](figures/README.md) | 项目自行生成的总览图 |
 | [`science-v0.2/`](science-v0.2/README.md) | 自包含V0.2配置、精选机器结果、判定、报告、重建脚本、测试与哈希 |
+| [`science-v0.3/`](science-v0.3/README.md) | WP2开源三程序复算增量证据；保持V0.1与V0.2不变 |
 | [`manifests/`](manifests/FILE_INVENTORY.md) | 文件清单和SHA-256清单 |
 
 ## 快速验证

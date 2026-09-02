@@ -102,8 +102,8 @@
     {
       "path": "CHANGELOG.md",
       "artifact_role": "repository-root",
-      "bytes": 6977,
-      "sha256": "91a5b06e1cd2188dd2a5823406fe0a84e7ee021f283e0fe60c49e61fd3facfb1"
+      "bytes": 7780,
+      "sha256": "92634570df1505b879fc6b1e794d9eccc734e2523a77a7ad7ae20f158f90ca70"
     },
     {
       "path": "CITATION.cff",
@@ -750,8 +750,8 @@
     {
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
-      "bytes": 39446,
-      "sha256": "f87ee9df2138eefb1a69d38bef05940440e21ea6a11dbcb1b07ff172f0a09cb0"
+      "bytes": 42805,
+      "sha256": "50bc4424781ddd399842ab3bb46def24ce1d61924b9fb99ccbd70da4dfb56f87"
     },
     {
       "path": "manuscripts/P01-P14_evidence_matrix_zh-CN.md",
@@ -828,14 +828,14 @@
     {
       "path": "README.md",
       "artifact_role": "repository-root",
-      "bytes": 22023,
-      "sha256": "32b5d6ff21f3810cdb48731da9ea816c4bf12961e18a006e71659d252c5751b6"
+      "bytes": 22530,
+      "sha256": "456895f23800f965177cbff1ef32b5fcc9836d6543d9e1d69f7b9dc60977ba91"
     },
     {
       "path": "README_zh-CN.md",
       "artifact_role": "repository-root",
-      "bytes": 8984,
-      "sha256": "90337388718ece99e7cfb053172a1935dc0c08f52bc495c550a9eb49d9ea8bc9"
+      "bytes": 9396,
+      "sha256": "6dae86a847f03adde3aeb8df4485707bd4d9fc155bfb1b72cbbcd8350d85138a"
     },
     {
       "path": "reproducibility/conda-linux-64.explicit.txt",
@@ -1298,6 +1298,126 @@
       "artifact_role": "science-v0.2-evidence",
       "bytes": 2083,
       "sha256": "7a90729167589f462739a8fd1c19c365c01b7e8590759d43d6d2f778b871f116"
+    },
+    {
+      "path": "science-v0.3/configs/science_v0.3/wp2_open_three_program_contract.json",
+      "artifact_role": "repository-root",
+      "bytes": 4524,
+      "sha256": "0792b685deaa26f2cd683d3fbcec52df43dbb9c1375e6d05ddf7742495254fb5"
+    },
+    {
+      "path": "science-v0.3/data/science_v0.3/decisions/wp2/gate_v2_2_open_lane_decision.json",
+      "artifact_role": "repository-root",
+      "bytes": 1259,
+      "sha256": "8e001906bb140b9793cdfcd9c14b3349a882562cfa4897fbaad1152b0994629d"
+    },
+    {
+      "path": "science-v0.3/data/science_v0.3/processed/wp2/wp2_open_three_program_summary.json",
+      "artifact_role": "repository-root",
+      "bytes": 6228,
+      "sha256": "66617b47a56246b78e31cbfa8386ca7cded24164a0f8e0c2ec0a2bef9eafe04e"
+    },
+    {
+      "path": "science-v0.3/data/science_v0.3/raw/wp2/anchors/WP2-P03-NBA-000-EF.json",
+      "artifact_role": "repository-root",
+      "bytes": 10482,
+      "sha256": "9ba029ea08610913a798d2d13e20dfe3c91ae1bee6adfeb2f5bb6f7b13bcd875"
+    },
+    {
+      "path": "science-v0.3/data/science_v0.3/raw/wp2/anchors/WP2-P03-NBA-060-E.json",
+      "artifact_role": "repository-root",
+      "bytes": 1833,
+      "sha256": "f2d96561d7f3100d2f263d473a39410f18563473cb8e3d845882022d69f21a18"
+    },
+    {
+      "path": "science-v0.3/data/science_v0.3/raw/wp2/anchors/WP2-P08-BUTADIENE-G-EG.json",
+      "artifact_role": "repository-root",
+      "bytes": 5242,
+      "sha256": "875e5f2dbb45758059648cb50e76c9e01297ea692520eefd056e92d3f3802f08"
+    },
+    {
+      "path": "science-v0.3/data/science_v0.3/raw/wp2/anchors/WP2-P09-BENZENE-G-E.json",
+      "artifact_role": "repository-root",
+      "bytes": 1563,
+      "sha256": "f1b670ce6ce3067a55106f117df47811bbcaaff5b5973596331728c57da70640"
+    },
+    {
+      "path": "science-v0.3/data/science_v0.3/raw/wp2/anchors/WP2-P09-CBD-G-E.json",
+      "artifact_role": "repository-root",
+      "bytes": 1560,
+      "sha256": "ed67642556bdfba710bd8d7ccf00a5213b1ff53b116d020dc3da73b3dfc9589d"
+    },
+    {
+      "path": "science-v0.3/data/science_v0.3/raw/wp2/anchors/WP2-P10-BENZENE-B2U-Q0-EF.json",
+      "artifact_role": "repository-root",
+      "bytes": 6382,
+      "sha256": "0b4b137959d340e365fc43484e595a21ea12275a450bdf45d457c7145ee32700"
+    },
+    {
+      "path": "science-v0.3/data/science_v0.3/raw/wp2/anchors/WP2-P10-BENZENE-B2U-QPLUS-E.json",
+      "artifact_role": "repository-root",
+      "bytes": 1576,
+      "sha256": "0b682ce05819369aafcb91ce356f309f919db2b20c323529ed69fc6d59afcf39"
+    },
+    {
+      "path": "science-v0.3/data/science_v0.3/raw/wp2/anchors/WP2-P11-FURAN-G-E.json",
+      "artifact_role": "repository-root",
+      "bytes": 1547,
+      "sha256": "abc46addbaadd6abad0e516bef243f06cfe9187840d758660f2e2ac1897c02db"
+    },
+    {
+      "path": "science-v0.3/docs/releases/science_v0.3/reports/WP2_GATE_V2_2_OPEN_THREE_PROGRAM_REPORT.md",
+      "artifact_role": "repository-root",
+      "bytes": 5155,
+      "sha256": "cbd2bf50477faa608c0ade1e1c1d4e03b38a1e9c65283514ea8280b6f5a94be0"
+    },
+    {
+      "path": "science-v0.3/locks/science_v0.3/ai4orgchem-v02-wp2.environment.yml",
+      "artifact_role": "repository-root",
+      "bytes": 2904,
+      "sha256": "cb4f5c473d46add32ecbc82a68cd281ec7d356e023b9283089f0c38b6fe15422"
+    },
+    {
+      "path": "science-v0.3/locks/science_v0.3/ai4orgchem-v02-wp2.explicit.txt",
+      "artifact_role": "repository-root",
+      "bytes": 5971,
+      "sha256": "36b4a498b27fb51a0d4e809c9a4e4965c3862fe3e976f6e4a84009d57911f6c8"
+    },
+    {
+      "path": "science-v0.3/README.md",
+      "artifact_role": "repository-root",
+      "bytes": 3607,
+      "sha256": "5eb01347c295fa580a53ae662d01922d216086a4cdc50c36026a0602a635d6a3"
+    },
+    {
+      "path": "science-v0.3/scripts/science_v0.3/calibrate_wp2_benzene_grids.py",
+      "artifact_role": "repository-root",
+      "bytes": 4795,
+      "sha256": "58f4616ab4ddf85d6223c4f7f38364c215c5e4f0aa4e73e22bf0163dfb48588e"
+    },
+    {
+      "path": "science-v0.3/scripts/science_v0.3/run_wp2_open_three_program_lane.py",
+      "artifact_role": "repository-root",
+      "bytes": 14189,
+      "sha256": "7c3ea6b3461ac7adbb5396747cca248e2bc7c2373ae7a4622e4145d0d73435a3"
+    },
+    {
+      "path": "science-v0.3/scripts/science_v0.3/summarize_wp2_open_three_program_gate.py",
+      "artifact_role": "repository-root",
+      "bytes": 6942,
+      "sha256": "33426fe97acfc1315ea72f6e74968748158793c132dd2591bda4cc35edd3a441"
+    },
+    {
+      "path": "science-v0.3/sha256-manifest.json",
+      "artifact_role": "repository-root",
+      "bytes": 3887,
+      "sha256": "17f3692ceb54a7b7dc90077c20f358238a55063bcafe93cf67d522143bc453b1"
+    },
+    {
+      "path": "science-v0.3/tests/science_v0.3/test_wp2_open_lane.py",
+      "artifact_role": "repository-root",
+      "bytes": 2156,
+      "sha256": "cca3870da7c6b53177f7d698067d1cbc1b9d3d119a0367121b1907631a97b336"
     },
     {
       "path": "software/pyproject.toml",

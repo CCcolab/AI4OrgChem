@@ -2,7 +2,7 @@
 
 本清单记录GitHub洁净仓库中的实质内容文件。生成型SHA清单和本文件自身不反向列入表格。
 
-- 实质内容文件：257
+- 实质内容文件：277
 - 状态：版本化发布快照；内容变更后必须重新生成并验证
 
 | 文件 | 角色 | 字节 | SHA-256 |
@@ -23,7 +23,7 @@
 | `ai4s-agent/README.md` | agent-delivery | 1119 | `676c7fdbc6b97f4790eac5aa2d3b43e3fe2fe7ed07a90a687fe210595d102301` |
 | `ai4s-agent/SYSTEM_ARCHITECTURE_zh-CN.md` | agent-delivery | 1114 | `c767a97c2fca2abdb13540dfc6b6e8983952dbc9f3cfd5f119017da2dd830a8a` |
 | `AUTHORS.md` | repository-root | 2416 | `148d3f76aea865f1ed862c9b65ea980e92d170d3b95a598cba626250cd681df2` |
-| `CHANGELOG.md` | repository-root | 6977 | `91a5b06e1cd2188dd2a5823406fe0a84e7ee021f283e0fe60c49e61fd3facfb1` |
+| `CHANGELOG.md` | repository-root | 7780 | `92634570df1505b879fc6b1e794d9eccc734e2523a77a7ad7ae20f158f90ca70` |
 | `CITATION.cff` | repository-root | 910 | `67e12d5f91eeda001e58f5ab9683a9fc19542900b23bde7521bb50ac6b14b27e` |
 | `configs/qm/p09_exchange_integral_classes_v0.1.yaml` | public-configuration | 7326 | `324c2e7988be48ed8898a5e9b04a87d40386ca8a8f7eb603d9a697d3ac6a6ee2` |
 | `configs/qm/p14_strained_aromatic_pi_distortivity_v0.1.yaml` | public-configuration | 5615 | `b9d22368f133c4bfd1f69a1939b905032741ab99b71aed59525472853b7b4b04` |
@@ -143,8 +143,8 @@
 | `project/README.md` | project-narrative | 991 | `be06a297b397413853c61dcd21e3d6744579ea84d57c345a924ed065a2a159ff` |
 | `project/RESEARCH_ITEMS_zh-CN.md` | project-narrative | 1939 | `508c64832f3b075a9d073e33badd35be764012eebb94624fc7966fa2b03b143f` |
 | `project/RESEARCH_VALUE_zh-CN.md` | project-narrative | 1319 | `7308230ee6f5dd7009de88e0483b3ff298baa2a438d8f99fc010103e24b80c5b` |
-| `README.md` | repository-root | 22023 | `32b5d6ff21f3810cdb48731da9ea816c4bf12961e18a006e71659d252c5751b6` |
-| `README_zh-CN.md` | repository-root | 8984 | `90337388718ece99e7cfb053172a1935dc0c08f52bc495c550a9eb49d9ea8bc9` |
+| `README.md` | repository-root | 22530 | `456895f23800f965177cbff1ef32b5fcc9836d6543d9e1d69f7b9dc60977ba91` |
+| `README_zh-CN.md` | repository-root | 9396 | `6dae86a847f03adde3aeb8df4485707bd4d9fc155bfb1b72cbbcd8350d85138a` |
 | `reproducibility/conda-linux-64.explicit.txt` | reproducibility | 18332 | `543abce03ee369526d83016126d7a0b7a82de48e0ef3356d3877289af90f5637` |
 | `reproducibility/environment.yml` | reproducibility | 214 | `13ae5c398dd95bf2d841fe89c4180cdd98d6d8360618de98ac3f68df27be50a6` |
 | `reproducibility/PLATFORM_MATRIX_EN.md` | reproducibility | 1963 | `1ea2cc5909ef145c93c5dcdc9c3bfaefb1726bc4c51ea47f57134fefcb5141cd` |
@@ -222,6 +222,26 @@
 | `science-v0.2/scripts/science_v0.2/wp1_geometry.py` | science-v0.2-evidence | 691 | `b1de7d677a521900b0eaac86eac226d7bccdf8fc4d348eee70ad971c5bd4df09` |
 | `science-v0.2/sha256-manifest.json` | science-v0.2-evidence | 12025 | `7a2c4d2aed6b298b755d16f93feaa6c8b58b993dca243ca71020cb9dbf0d5727` |
 | `science-v0.2/tests/science_v0.2/test_v02_release_contract.py` | science-v0.2-evidence | 2083 | `7a90729167589f462739a8fd1c19c365c01b7e8590759d43d6d2f778b871f116` |
+| `science-v0.3/configs/science_v0.3/wp2_open_three_program_contract.json` | repository-root | 4524 | `0792b685deaa26f2cd683d3fbcec52df43dbb9c1375e6d05ddf7742495254fb5` |
+| `science-v0.3/data/science_v0.3/decisions/wp2/gate_v2_2_open_lane_decision.json` | repository-root | 1259 | `8e001906bb140b9793cdfcd9c14b3349a882562cfa4897fbaad1152b0994629d` |
+| `science-v0.3/data/science_v0.3/processed/wp2/wp2_open_three_program_summary.json` | repository-root | 6228 | `66617b47a56246b78e31cbfa8386ca7cded24164a0f8e0c2ec0a2bef9eafe04e` |
+| `science-v0.3/data/science_v0.3/raw/wp2/anchors/WP2-P03-NBA-000-EF.json` | repository-root | 10482 | `9ba029ea08610913a798d2d13e20dfe3c91ae1bee6adfeb2f5bb6f7b13bcd875` |
+| `science-v0.3/data/science_v0.3/raw/wp2/anchors/WP2-P03-NBA-060-E.json` | repository-root | 1833 | `f2d96561d7f3100d2f263d473a39410f18563473cb8e3d845882022d69f21a18` |
+| `science-v0.3/data/science_v0.3/raw/wp2/anchors/WP2-P08-BUTADIENE-G-EG.json` | repository-root | 5242 | `875e5f2dbb45758059648cb50e76c9e01297ea692520eefd056e92d3f3802f08` |
+| `science-v0.3/data/science_v0.3/raw/wp2/anchors/WP2-P09-BENZENE-G-E.json` | repository-root | 1563 | `f1b670ce6ce3067a55106f117df47811bbcaaff5b5973596331728c57da70640` |
+| `science-v0.3/data/science_v0.3/raw/wp2/anchors/WP2-P09-CBD-G-E.json` | repository-root | 1560 | `ed67642556bdfba710bd8d7ccf00a5213b1ff53b116d020dc3da73b3dfc9589d` |
+| `science-v0.3/data/science_v0.3/raw/wp2/anchors/WP2-P10-BENZENE-B2U-Q0-EF.json` | repository-root | 6382 | `0b4b137959d340e365fc43484e595a21ea12275a450bdf45d457c7145ee32700` |
+| `science-v0.3/data/science_v0.3/raw/wp2/anchors/WP2-P10-BENZENE-B2U-QPLUS-E.json` | repository-root | 1576 | `0b682ce05819369aafcb91ce356f309f919db2b20c323529ed69fc6d59afcf39` |
+| `science-v0.3/data/science_v0.3/raw/wp2/anchors/WP2-P11-FURAN-G-E.json` | repository-root | 1547 | `abc46addbaadd6abad0e516bef243f06cfe9187840d758660f2e2ac1897c02db` |
+| `science-v0.3/docs/releases/science_v0.3/reports/WP2_GATE_V2_2_OPEN_THREE_PROGRAM_REPORT.md` | repository-root | 5155 | `cbd2bf50477faa608c0ade1e1c1d4e03b38a1e9c65283514ea8280b6f5a94be0` |
+| `science-v0.3/locks/science_v0.3/ai4orgchem-v02-wp2.environment.yml` | repository-root | 2904 | `cb4f5c473d46add32ecbc82a68cd281ec7d356e023b9283089f0c38b6fe15422` |
+| `science-v0.3/locks/science_v0.3/ai4orgchem-v02-wp2.explicit.txt` | repository-root | 5971 | `36b4a498b27fb51a0d4e809c9a4e4965c3862fe3e976f6e4a84009d57911f6c8` |
+| `science-v0.3/README.md` | repository-root | 3607 | `5eb01347c295fa580a53ae662d01922d216086a4cdc50c36026a0602a635d6a3` |
+| `science-v0.3/scripts/science_v0.3/calibrate_wp2_benzene_grids.py` | repository-root | 4795 | `58f4616ab4ddf85d6223c4f7f38364c215c5e4f0aa4e73e22bf0163dfb48588e` |
+| `science-v0.3/scripts/science_v0.3/run_wp2_open_three_program_lane.py` | repository-root | 14189 | `7c3ea6b3461ac7adbb5396747cca248e2bc7c2373ae7a4622e4145d0d73435a3` |
+| `science-v0.3/scripts/science_v0.3/summarize_wp2_open_three_program_gate.py` | repository-root | 6942 | `33426fe97acfc1315ea72f6e74968748158793c132dd2591bda4cc35edd3a441` |
+| `science-v0.3/sha256-manifest.json` | repository-root | 3887 | `17f3692ceb54a7b7dc90077c20f358238a55063bcafe93cf67d522143bc453b1` |
+| `science-v0.3/tests/science_v0.3/test_wp2_open_lane.py` | repository-root | 2156 | `cca3870da7c6b53177f7d698067d1cbc1b9d3d119a0367121b1907631a97b336` |
 | `software/pyproject.toml` | software-or-test | 668 | `0cbd49364ad254f4b7891b86c416e0ce72cfef94b24a5664f19f2846a14ab6a8` |
 | `software/README.md` | software-or-test | 2249 | `3e28802377ba1bac1eb6d876c60497bf41815cf257fb4f3407b25fceefa7a761` |
 | `software/schemas/p14-result.schema.json` | software-or-test | 3708 | `db38bbf25097692c11c8f8eb81c106852e62218405b8fe545e83afa4c9e300f8` |

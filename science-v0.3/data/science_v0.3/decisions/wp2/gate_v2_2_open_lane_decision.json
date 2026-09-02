@@ -1,0 +1,23 @@
+{
+  "schema_version": "science-v0.3-gate-v2-2-open-lane-decision-1",
+  "timestamp_utc": "2026-09-02T02:37:38.953174+00:00",
+  "gate": "Gate V2-2",
+  "work_package": "WP2",
+  "status": "PASSED_OPEN_THREE_PROGRAM",
+  "scientific_question_status": "RESOLVED_WITHIN_FROZEN_OPEN_THREE_PROGRAM_ESTIMAND",
+  "summary": "data/science_v0.3/processed/wp2/wp2_open_three_program_summary.json",
+  "summary_sha256": "66617b47a56246b78e31cbfa8386ca7cded24164a0f8e0c2ec0a2bef9eafe04e",
+  "decision_basis": {
+    "eight_of_eight_core_anchors_pass": true,
+    "two_of_two_relative_energy_pairs_pass": true,
+    "functional_identity_aligned": true,
+    "frozen_bohr_geometries": true,
+    "high_grid_convergence_aligned": true,
+    "density_fitting_disabled": true,
+    "exact_direct_integrals": true
+  },
+  "scope_statement": "This closes the scientific cross-program reproducibility question with PySCF, Psi4, and NWChem. It does not claim that NWChem is ORCA or that the original ORCA-specific lane has been executed.",
+  "original_orca_lane_status": "NOT_ESTABLISHED_NO_LICENSED_EXECUTABLE",
+  "effect_on_v0_1_fourteen_propositions": "NO_CHANGE; WP2 raises independent reproducibility evidence only.",
+  "effect_on_v0_2_release": "NO_MUTATION; v0.2.0 remains immutable."
+}

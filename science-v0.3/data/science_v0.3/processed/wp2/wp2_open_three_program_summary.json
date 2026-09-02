@@ -1,0 +1,143 @@
+{
+  "schema_version": "science-v0.3-wp2-open-three-program-summary-1",
+  "timestamp_utc": "2026-09-02T02:37:38.953174+00:00",
+  "contract": "configs/science_v0.3/wp2_open_three_program_contract.json",
+  "contract_sha256": "0792b685deaa26f2cd683d3fbcec52df43dbb9c1375e6d05ddf7742495254fb5",
+  "programs": {
+    "PySCF": "2.14.0",
+    "Psi4": "1.11",
+    "NWChem": {
+      "banner_version": "7.3.0",
+      "revision": "3272822"
+    }
+  },
+  "anchor_count": 8,
+  "anchors": [
+    {
+      "anchor_id": "WP2-P03-NBA-000-EF",
+      "result": "data/science_v0.3/raw/wp2/anchors/WP2-P03-NBA-000-EF.json",
+      "result_sha256": "9ba029ea08610913a798d2d13e20dfe3c91ae1bee6adfeb2f5bb6f7b13bcd875",
+      "local_run_source": "runs/science_v0.3/wp2/open_three_program/WP2-P03-NBA-000-EF/result.json",
+      "program_count": 3,
+      "energy_span_hartree": 1.723844889056636e-08,
+      "gradient_pairwise_rms_hartree_per_bohr": null,
+      "projected_derivative_span_hartree_per_bohr": 1.7853576585458877e-14,
+      "pass": true
+    },
+    {
+      "anchor_id": "WP2-P03-NBA-060-E",
+      "result": "data/science_v0.3/raw/wp2/anchors/WP2-P03-NBA-060-E.json",
+      "result_sha256": "f2d96561d7f3100d2f263d473a39410f18563473cb8e3d845882022d69f21a18",
+      "local_run_source": "runs/science_v0.3/wp2/open_three_program/WP2-P03-NBA-060-E/result.json",
+      "program_count": 3,
+      "energy_span_hartree": 1.7606794244784396e-08,
+      "gradient_pairwise_rms_hartree_per_bohr": null,
+      "projected_derivative_span_hartree_per_bohr": null,
+      "pass": true
+    },
+    {
+      "anchor_id": "WP2-P08-BUTADIENE-G-EG",
+      "result": "data/science_v0.3/raw/wp2/anchors/WP2-P08-BUTADIENE-G-EG.json",
+      "result_sha256": "875e5f2dbb45758059648cb50e76c9e01297ea692520eefd056e92d3f3802f08",
+      "local_run_source": "runs/science_v0.3/wp2/open_three_program/WP2-P08-BUTADIENE-G-EG/result.json",
+      "program_count": 3,
+      "energy_span_hartree": 1.8994825268237037e-08,
+      "gradient_pairwise_rms_hartree_per_bohr": {
+        "PySCF_vs_Psi4": 2.3514173032940775e-07,
+        "PySCF_vs_NWChem": 3.7021645363443873e-07,
+        "Psi4_vs_NWChem": 2.414667353464943e-07
+      },
+      "projected_derivative_span_hartree_per_bohr": null,
+      "pass": true
+    },
+    {
+      "anchor_id": "WP2-P09-BENZENE-G-E",
+      "result": "data/science_v0.3/raw/wp2/anchors/WP2-P09-BENZENE-G-E.json",
+      "result_sha256": "f1b670ce6ce3067a55106f117df47811bbcaaff5b5973596331728c57da70640",
+      "local_run_source": "runs/science_v0.3/wp2/open_three_program/WP2-P09-BENZENE-G-E/result.json",
+      "program_count": 3,
+      "energy_span_hartree": 1.7377885797031922e-09,
+      "gradient_pairwise_rms_hartree_per_bohr": null,
+      "projected_derivative_span_hartree_per_bohr": null,
+      "pass": true
+    },
+    {
+      "anchor_id": "WP2-P09-CBD-G-E",
+      "result": "data/science_v0.3/raw/wp2/anchors/WP2-P09-CBD-G-E.json",
+      "result_sha256": "ed67642556bdfba710bd8d7ccf00a5213b1ff53b116d020dc3da73b3dfc9589d",
+      "local_run_source": "runs/science_v0.3/wp2/open_three_program/WP2-P09-CBD-G-E/result.json",
+      "program_count": 3,
+      "energy_span_hartree": 7.509044053222169e-09,
+      "gradient_pairwise_rms_hartree_per_bohr": null,
+      "projected_derivative_span_hartree_per_bohr": null,
+      "pass": true
+    },
+    {
+      "anchor_id": "WP2-P10-BENZENE-B2U-Q0-EF",
+      "result": "data/science_v0.3/raw/wp2/anchors/WP2-P10-BENZENE-B2U-Q0-EF.json",
+      "result_sha256": "0b4b137959d340e365fc43484e595a21ea12275a450bdf45d457c7145ee32700",
+      "local_run_source": "runs/science_v0.3/wp2/open_three_program/WP2-P10-BENZENE-B2U-Q0-EF/result.json",
+      "program_count": 3,
+      "energy_span_hartree": 1.7057288914656965e-09,
+      "gradient_pairwise_rms_hartree_per_bohr": null,
+      "projected_derivative_span_hartree_per_bohr": 1.3626555116908377e-13,
+      "pass": true
+    },
+    {
+      "anchor_id": "WP2-P10-BENZENE-B2U-QPLUS-E",
+      "result": "data/science_v0.3/raw/wp2/anchors/WP2-P10-BENZENE-B2U-QPLUS-E.json",
+      "result_sha256": "0b682ce05819369aafcb91ce356f309f919db2b20c323529ed69fc6d59afcf39",
+      "local_run_source": "runs/science_v0.3/wp2/open_three_program/WP2-P10-BENZENE-B2U-QPLUS-E/result.json",
+      "program_count": 3,
+      "energy_span_hartree": 1.0990390819642926e-09,
+      "gradient_pairwise_rms_hartree_per_bohr": null,
+      "projected_derivative_span_hartree_per_bohr": null,
+      "pass": true
+    },
+    {
+      "anchor_id": "WP2-P11-FURAN-G-E",
+      "result": "data/science_v0.3/raw/wp2/anchors/WP2-P11-FURAN-G-E.json",
+      "result_sha256": "abc46addbaadd6abad0e516bef243f06cfe9187840d758660f2e2ac1897c02db",
+      "local_run_source": "runs/science_v0.3/wp2/open_three_program/WP2-P11-FURAN-G-E/result.json",
+      "program_count": 3,
+      "energy_span_hartree": 1.1507694352985709e-08,
+      "gradient_pairwise_rms_hartree_per_bohr": null,
+      "projected_derivative_span_hartree_per_bohr": null,
+      "pass": true
+    }
+  ],
+  "relative_energy_pairs": [
+    {
+      "pair_id": "P03_60_MINUS_0",
+      "definition": "WP2-P03-NBA-060-E minus WP2-P03-NBA-000-EF",
+      "values_kcal_mol": {
+        "PySCF": -0.6313133505942817,
+        "Psi4": -0.6313344170972978,
+        "NWChem": -0.6313251062849529
+      },
+      "cross_program_span_kcal_mol": 2.1066503016031746e-05,
+      "threshold_kcal_mol": 0.05,
+      "pass": true
+    },
+    {
+      "pair_id": "P10_QPLUS_MINUS_Q0",
+      "definition": "WP2-P10-BENZENE-B2U-QPLUS-E minus WP2-P10-BENZENE-B2U-Q0-EF",
+      "values_kcal_mol": {
+        "PySCF": 0.2111054349761069,
+        "Psi4": 0.21110476814733228,
+        "NWChem": 0.211105496684833
+      },
+      "cross_program_span_kcal_mol": 7.285375007159978e-07,
+      "threshold_kcal_mol": 0.05,
+      "pass": true
+    }
+  ],
+  "maximum_absolute_energy_span_hartree": 1.8994825268237037e-08,
+  "maximum_gradient_pairwise_rms_hartree_per_bohr": 3.7021645363443873e-07,
+  "maximum_projected_derivative_span_hartree_per_bohr": 1.3626555116908377e-13,
+  "anchors_pass": true,
+  "relative_energy_pairs_pass": true,
+  "open_three_program_lane_pass": true,
+  "original_orca_lane_status": "NOT_ESTABLISHED_NO_LICENSED_EXECUTABLE",
+  "science_target_values_used_for_tuning": false
+}
