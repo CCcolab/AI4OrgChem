@@ -1193,7 +1193,7 @@
       "sha256": "3c833c6a7aa817f1abba3a0871e90378fe9dfae3be81c10f06114a211e635792"
     },
     {
-      "path": "docs/project/AI4OrgChem_V0.3\u79d1\u5b66\u95ed\u5408\u6267\u884c\u8868.md",
+      "path": "docs/project/AI4OrgChem_V0.3科学闭合执行表.md",
       "bytes": 2000,
       "sha256": "46fe3bb425bceef1c6c5f9734e9bf05906a9f2aab8cd27034e6546b4cccbc972"
     },
@@ -1244,8 +1244,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2469,
-      "sha256": "2e03d52ead44b51e7237890f1b2a95e9e6da892f3ae6b8f509e3a1c66a455f50"
+      "bytes": 2502,
+      "sha256": "8f4e36e4188c47b2d3bb9c27b1a91f6ad83a9478a020e0e3db91e7ef93916104"
     },
     {
       "path": "runs/science_v0.3/wp5_external_replay/retained/wp5-external-20260907T121810Z/agent_run_bundle.json",

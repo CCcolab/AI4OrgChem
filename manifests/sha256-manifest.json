@@ -751,7 +751,7 @@
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
       "bytes": 85571,
-      "sha256": "6de35df2ff17dc96519c0f8b6b45a0c166cc7ef6e508c072960fd0bf9837e6a4"
+      "sha256": "4354b9c61adbbdc4dfc72fbe1924f39dc16780b4337f5694898909af473fa9b2"
     },
     {
       "path": "manuscripts/P01-P14_evidence_matrix_zh-CN.md",
@@ -828,14 +828,14 @@
     {
       "path": "README.md",
       "artifact_role": "repository-root",
-      "bytes": 22768,
-      "sha256": "48ca85cc5e08d55b950c5ac1cecdca2e9e92db262d466059097ad66d8819eb01"
+      "bytes": 22796,
+      "sha256": "e53b0a27fae3aff3696dcefd5df3b115496ab477edd87e3c184ebf6509798708"
     },
     {
       "path": "README_zh-CN.md",
       "artifact_role": "repository-root",
-      "bytes": 9678,
-      "sha256": "46272cdb392c0f7e55d0237a61853d095c1be17731f38bdace503485c6bb6234"
+      "bytes": 9706,
+      "sha256": "649dcea7e0d686f6769e84812a0a83261dc21ba19dc9f153e01e0b9803b6e628"
     },
     {
       "path": "reproducibility/conda-linux-64.explicit.txt",
@@ -2790,8 +2790,8 @@
     {
       "path": "science-v0.3/README.md",
       "artifact_role": "repository-root",
-      "bytes": 2469,
-      "sha256": "2e03d52ead44b51e7237890f1b2a95e9e6da892f3ae6b8f509e3a1c66a455f50"
+      "bytes": 2502,
+      "sha256": "8f4e36e4188c47b2d3bb9c27b1a91f6ad83a9478a020e0e3db91e7ef93916104"
     },
     {
       "path": "science-v0.3/runs/science_v0.3/wp5_external_replay/retained/wp5-external-20260907T121810Z/agent_run_bundle.json",
@@ -2976,8 +2976,8 @@
     {
       "path": "science-v0.3/sha256-manifest.json",
       "artifact_role": "repository-root",
-      "bytes": 51988,
-      "sha256": "8487412b30f39dabe662a60d8c9c6941dbcde14b7cf5b76243171dbba909d3a5"
+      "bytes": 51967,
+      "sha256": "2568e8527b47c4b6ccf2db2366fcfb620bbbefb000b2f8e2e035767e93e475f2"
     },
     {
       "path": "science-v0.3/tests/science_v0.3/test_wp2_open_lane.py",
