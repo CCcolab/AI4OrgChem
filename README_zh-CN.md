@@ -15,6 +15,8 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 
 > **发布状态：** 科学闭合版本 [`v0.3.0`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0)。相关论文稿尚未经过同行评审。
 
+> **下载与引用：** GitHub的 **Code → Download ZIP** 下载的是当前`main`分支快照，后续维护可能使其变化。需要开展可复现科学复核或正式引用时，请下载不可变的[`v0.3.0` Release完整包](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0)，并核对公开的SHA-256校验值。
+
 > **Science `v0.2.0`：** [版本化的`v0.2.0`证据包](science-v0.2/README.md)作为历史发布基线继续保留；冻结的`v0.1.x` P01–P14十四项判定保持不变。
 
 > **Science `v0.3.0`科学闭合版：** [完整`v0.3.0`证据包](science-v0.3/README.md)按序闭合七项增强任务，包括多参考与机制证据、开源三程序8/8锚点和2/2相对能量对、相互隔离的source-aligned CESE与physical-state 0 K ASE支路，以及M2外部Agent洁净重放。最终提交、`v0.3.0`标签、GitHub Release、完整ZIP、SHA-256附件、CI和标签后洁净克隆复验均已完成。本版不改写P01-P14、不合并不可比估计量、不宣称普遍轮烯尺寸定律，也不把尚未执行的ORCA专用支路写成已完成。
