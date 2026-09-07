@@ -15,9 +15,9 @@ AI4OrgChem is an **AI for Science (AI4S) Agent** for independent computational r
 
 > **Release status:** Science Closure Release [`v0.3.0`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0). The associated manuscript has not yet undergone peer review.
 
-> **Science V0.2:** [the versioned `v0.2.0` evidence package](science-v0.2/README.md) is retained as a historical release baseline. The frozen V0.1 P01-P14 classifications remain unchanged.
+> **Science `v0.2.0`:** [the versioned `v0.2.0` evidence package](science-v0.2/README.md) is retained as a historical release baseline. The frozen `v0.1.x` P01-P14 classifications remain unchanged.
 
-> **Science V0.3.0 scientific closure:** [the complete V0.3 package](science-v0.3/README.md) closes seven ordered enhancement tasks: multireference and mechanism evidence, 8/8 open-three-program anchors plus 2/2 relative-energy pairs, separate source-aligned CESE and physical-state 0 K ASE branches, and an external clean Agent replay at M2. The final commit, `v0.3.0` tag, GitHub Release, complete ZIP, SHA-256 assets, CI, and post-tag clean-clone verification are complete. It does not change P01-P14, merge incomparable estimands, claim a universal annulene-size law, or represent the unexecuted ORCA-specific lane as complete.
+> **Science `v0.3.0` scientific closure:** [the complete `v0.3.0` package](science-v0.3/README.md) closes seven ordered enhancement tasks: multireference and mechanism evidence, 8/8 open-three-program anchors plus 2/2 relative-energy pairs, separate source-aligned CESE and physical-state 0 K ASE branches, and an external clean Agent replay at M2. The final commit, `v0.3.0` tag, GitHub Release, complete ZIP, SHA-256 assets, CI, and post-tag clean-clone verification are complete. It does not change P01-P14, merge incomparable estimands, claim a universal annulene-size law, or represent the unexecuted ORCA-specific lane as complete.
 
 ## Why this project exists
 
@@ -81,8 +81,8 @@ The dataset is too small for industrial or universal molecular generalization. D
 | [`software/`](software/README.md) | Public LFMO/conditional-SCF implementation and 64 focused tests |
 | [`reproducibility/`](reproducibility/README.md) | Runtime instructions and WSL 2 platform boundaries |
 | [`figures/`](figures/README.md) | Project-authored overview figure |
-| [`science-v0.2/`](science-v0.2/README.md) | Self-contained V0.2 configurations, selected machine results, decisions, reports, rebuild scripts, tests, and hashes |
-| [`science-v0.3/`](science-v0.3/README.md) | Published seven-work-package V0.3.0 scientific-closure package; preserves V0.1, V0.2, and P01-P14 unchanged |
+| [`science-v0.2/`](science-v0.2/README.md) | Self-contained `v0.2.0` configurations, selected machine results, decisions, reports, rebuild scripts, tests, and hashes |
+| [`science-v0.3/`](science-v0.3/README.md) | Published seven-work-package `v0.3.0` scientific-closure package; preserves `v0.1.x`, `v0.2.0`, and P01-P14 unchanged |
 | [`manifests/`](manifests/FILE_INVENTORY.md) | File inventory and SHA-256 release manifest |
 
 ## Detailed computation guide (WSL 2) / 详细计算介绍
