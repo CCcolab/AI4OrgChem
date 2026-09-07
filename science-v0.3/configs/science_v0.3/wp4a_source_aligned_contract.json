@@ -1,0 +1,17 @@
+{
+  "schema_version": "science-v0.3-wp4a-source-aligned-contract-1",
+  "work_package": "WP4-A",
+  "claim_id": "P12-A",
+  "status": "FROZEN_AND_EXECUTED",
+  "estimand": {
+    "id": "P12A_SOURCE_ALIGNED_CESE",
+    "formula": "CESE = delta_EA - sum(delta_EAm) - sum(delta_EnAm)",
+    "relation_to_v0_1_p12": "SAME_ESTIMAND",
+    "relation_to_wp4b": "INCOMPARABLE"
+  },
+  "source_evidence": "data/processed/p12_annulene_boundary_v0.1.json",
+  "required_N": [12, 14, 16, 18, 20, 22],
+  "allowed_conclusion": "The published source ledger is arithmetically self-consistent and supports its own N=16/N=18 boundary logic.",
+  "forbidden_upgrade": "This lane is not an independent historical quantum-chemistry reproduction and cannot be upgraded above R1 from source arithmetic alone.",
+  "preserves_releases": ["v0.1.0", "v0.2.0"]
+}

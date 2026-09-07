@@ -4,16 +4,22 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-09-08
+
 ### Added
 
-- Added the `science-v0.3` incremental WP2 evidence package with a frozen open three-program estimand, eight compact anchor records, two relative-energy comparisons, deterministic Gate V2-2 assembly, environment locks, and integrity tests.
+- Added the complete `science-v0.3` scientific-closure candidate covering all seven ordered enhancement work packages.
 - Established cross-program agreement across PySCF 2.14.0, Psi4 1.11, and NWChem 7.3.0: 8/8 anchors and 2/2 relative-energy pairs pass the frozen thresholds.
+- Added the separate WP4-A source-aligned CESE and WP4-B six-point physical-state 0 K ASE branches, plus the M2 external clean Agent replay.
+- Added the local release package, SHA-256 manifest, release-boundary review, and credential/private-path/restricted-material/executable scans.
 
 ### Scientific status
 
 - The open-source WP2 lane is `PASSED_OPEN_THREE_PROGRAM`; NWChem is explicitly complementary and is not represented as ORCA or an ORCA-equivalent substitute.
 - The original ORCA-specific lane remains `NOT_ESTABLISHED_NO_LICENSED_EXECUTABLE`.
+- WP4-A and WP4-B remain `INCOMPARABLE`; neither overwrites P12-A or establishes a universal annulene-size law.
 - No frozen V0.1 P01-P14 value or classification changes, and the immutable V0.2.0 package is not rewritten.
+- The local package is ready; the final commit, remote `v0.3.0` tag/GitHub Release, and post-tag clean-clone verification are not yet claimed.
 
 ## [0.2.0] - 2026-09-01
 

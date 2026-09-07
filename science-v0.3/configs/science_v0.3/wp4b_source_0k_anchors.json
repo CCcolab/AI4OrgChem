@@ -1,0 +1,29 @@
+{
+  "schema_version": "science-v0.3-wp4b-source-anchors-1",
+  "source": {
+    "citation": "Van Nyvel, Alonso and Sola, Chemical Science 2025, DOI 10.1039/D4SC08225G",
+    "table": "Supporting Information Table S17",
+    "method": "Gaussian 16 B3LYP/6-31G(d), unconstrained neutral singlets, no imaginary frequencies",
+    "formula": "ASE_0K = (C+D)-(A+B)",
+    "coordinate_archive_md5": "cd7c7bde08e17b93536da49fda597807",
+    "supporting_pdf_md5": "c2d4c225233092c8053eb91c920b62a7"
+  },
+  "records": [
+    {"N": 16, "species": "A", "electronic_hartree": -734.688824207, "e0_hartree": -734.379855},
+    {"N": 16, "species": "B", "electronic_hartree": -735.911105672, "e0_hartree": -735.580202},
+    {"N": 16, "species": "C", "electronic_hartree": -734.690430143, "e0_hartree": -734.381804},
+    {"N": 16, "species": "D", "electronic_hartree": -735.921351988, "e0_hartree": -735.589802},
+    {"N": 18, "species": "A", "electronic_hartree": -812.157311178, "e0_hartree": -811.815412},
+    {"N": 18, "species": "B", "electronic_hartree": -813.342390437, "e0_hartree": -812.977433},
+    {"N": 18, "species": "C", "electronic_hartree": -812.133859828, "e0_hartree": -811.791917},
+    {"N": 18, "species": "D", "electronic_hartree": -813.349668582, "e0_hartree": -812.984442},
+    {"N": 32, "species": "A", "electronic_hartree": -1354.00747610, "e0_hartree": -1353.429610},
+    {"N": 32, "species": "B", "electronic_hartree": -1355.20042879, "e0_hartree": -1354.600132},
+    {"N": 32, "species": "C", "electronic_hartree": -1353.99426973, "e0_hartree": -1353.417439},
+    {"N": 32, "species": "D", "electronic_hartree": -1355.21388789, "e0_hartree": -1354.613137},
+    {"N": 34, "species": "A", "electronic_hartree": -1431.42016328, "e0_hartree": -1430.809335},
+    {"N": 34, "species": "B", "electronic_hartree": -1432.60884930, "e0_hartree": -1431.974913},
+    {"N": 34, "species": "C", "electronic_hartree": -1431.40277650, "e0_hartree": -1430.792322},
+    {"N": 34, "species": "D", "electronic_hartree": -1432.62182868, "e0_hartree": -1431.987464}
+  ]
+}

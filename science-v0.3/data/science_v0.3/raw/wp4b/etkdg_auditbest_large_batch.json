@@ -1,0 +1,123 @@
+{
+  "schema_version": "science-v0.3-wp4b-small-batch-1",
+  "workers": 1,
+  "threads_per_job": 4,
+  "excluded": [],
+  "n_values": [
+    32,
+    34
+  ],
+  "sources": [
+    "auditbest",
+    "etkdg"
+  ],
+  "results": [
+    {
+      "id": "N32_A_auditbest",
+      "status": "SKIPPED_EXISTING",
+      "returncode": 0
+    },
+    {
+      "id": "N32_A_etkdg",
+      "status": "SKIPPED_EXISTING",
+      "returncode": 0
+    },
+    {
+      "id": "N32_B_auditbest",
+      "status": "SKIPPED_EXISTING",
+      "returncode": 0
+    },
+    {
+      "id": "N32_B_etkdg",
+      "status": "SKIPPED_EXISTING",
+      "returncode": 0
+    },
+    {
+      "id": "N32_C_auditbest",
+      "status": "SKIPPED_EXISTING",
+      "returncode": 0
+    },
+    {
+      "id": "N32_C_etkdg",
+      "status": "SKIPPED_EXISTING",
+      "returncode": 0
+    },
+    {
+      "id": "N32_D_auditbest",
+      "status": "SKIPPED_EXISTING",
+      "returncode": 0
+    },
+    {
+      "id": "N32_D_etkdg",
+      "status": "COMPLETED",
+      "returncode": 0,
+      "elapsed_seconds": 4911.982721464,
+      "output": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N32_D_etkdg.json",
+      "log": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N32_D_etkdg.log"
+    },
+    {
+      "id": "N34_A_auditbest",
+      "status": "COMPLETED",
+      "returncode": 0,
+      "elapsed_seconds": 11788.929417364001,
+      "output": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N34_A_auditbest.json",
+      "log": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N34_A_auditbest.log"
+    },
+    {
+      "id": "N34_A_etkdg",
+      "status": "COMPLETED",
+      "returncode": 0,
+      "elapsed_seconds": 5831.857982822003,
+      "output": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N34_A_etkdg.json",
+      "log": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N34_A_etkdg.log"
+    },
+    {
+      "id": "N34_B_auditbest",
+      "status": "COMPLETED",
+      "returncode": 0,
+      "elapsed_seconds": 8701.954194481998,
+      "output": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N34_B_auditbest.json",
+      "log": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N34_B_auditbest.log"
+    },
+    {
+      "id": "N34_B_etkdg",
+      "status": "COMPLETED",
+      "returncode": 0,
+      "elapsed_seconds": 14326.881244589997,
+      "output": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N34_B_etkdg.json",
+      "log": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N34_B_etkdg.log"
+    },
+    {
+      "id": "N34_C_auditbest",
+      "status": "COMPLETED",
+      "returncode": 0,
+      "elapsed_seconds": 17851.301152759,
+      "output": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N34_C_auditbest.json",
+      "log": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N34_C_auditbest.log"
+    },
+    {
+      "id": "N34_C_etkdg",
+      "status": "COMPLETED",
+      "returncode": 0,
+      "elapsed_seconds": 8768.128266295003,
+      "output": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N34_C_etkdg.json",
+      "log": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N34_C_etkdg.log"
+    },
+    {
+      "id": "N34_D_auditbest",
+      "status": "COMPLETED",
+      "returncode": 0,
+      "elapsed_seconds": 8886.267861462999,
+      "output": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N34_D_auditbest.json",
+      "log": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N34_D_auditbest.log"
+    },
+    {
+      "id": "N34_D_etkdg",
+      "status": "COMPLETED",
+      "returncode": 0,
+      "elapsed_seconds": 6285.365245437002,
+      "output": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N34_D_etkdg.json",
+      "log": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N34_D_etkdg.log"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": "science-v0.3-wp4b-small-batch-1",
+  "workers": 1,
+  "threads_per_job": 4,
+  "excluded": [],
+  "n_values": [
+    16,
+    18
+  ],
+  "sources": [
+    "auditbest",
+    "etkdg"
+  ],
+  "results": [
+    {
+      "id": "N16_A_auditbest",
+      "status": "SKIPPED_EXISTING",
+      "returncode": 0
+    },
+    {
+      "id": "N16_A_etkdg",
+      "status": "SKIPPED_EXISTING",
+      "returncode": 0
+    },
+    {
+      "id": "N16_B_auditbest",
+      "status": "SKIPPED_EXISTING",
+      "returncode": 0
+    },
+    {
+      "id": "N16_B_etkdg",
+      "status": "SKIPPED_EXISTING",
+      "returncode": 0
+    },
+    {
+      "id": "N16_C_auditbest",
+      "status": "SKIPPED_EXISTING",
+      "returncode": 0
+    },
+    {
+      "id": "N16_C_etkdg",
+      "status": "SKIPPED_EXISTING",
+      "returncode": 0
+    },
+    {
+      "id": "N16_D_auditbest",
+      "status": "SKIPPED_EXISTING",
+      "returncode": 0
+    },
+    {
+      "id": "N16_D_etkdg",
+      "status": "SKIPPED_EXISTING",
+      "returncode": 0
+    },
+    {
+      "id": "N18_A_auditbest",
+      "status": "SKIPPED_EXISTING",
+      "returncode": 0
+    },
+    {
+      "id": "N18_A_etkdg",
+      "status": "SKIPPED_EXISTING",
+      "returncode": 0
+    },
+    {
+      "id": "N18_B_auditbest",
+      "status": "SKIPPED_EXISTING",
+      "returncode": 0
+    },
+    {
+      "id": "N18_B_etkdg",
+      "status": "SKIPPED_EXISTING",
+      "returncode": 0
+    },
+    {
+      "id": "N18_C_auditbest",
+      "status": "SKIPPED_EXISTING",
+      "returncode": 0
+    },
+    {
+      "id": "N18_C_etkdg",
+      "status": "SKIPPED_EXISTING",
+      "returncode": 0
+    },
+    {
+      "id": "N18_D_auditbest",
+      "status": "SKIPPED_EXISTING",
+      "returncode": 0
+    },
+    {
+      "id": "N18_D_etkdg",
+      "status": "SKIPPED_EXISTING",
+      "returncode": 0
+    }
+  ]
+}

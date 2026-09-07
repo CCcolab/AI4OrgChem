@@ -1,0 +1,19 @@
+{
+  "schema_version": "science-v0.3-gate-v2-4a-decision-1",
+  "gate": "V2-4A",
+  "status": "CLOSED_SOURCE_ALIGNED_R1",
+  "claim_id": "P12-A",
+  "estimand_id": "P12A_SOURCE_ALIGNED_CESE",
+  "estimand_relation_to_v0_1_p12": "SAME_ESTIMAND",
+  "estimand_relation_to_wp4b": "INCOMPARABLE",
+  "checks": {
+    "six_source_rows_present": true,
+    "printed_precision_energy_identities_close": true,
+    "source_internal_boundary_logic_supported": true,
+    "historical_quantum_program_reproduced": false,
+    "independent_physical_state_claimed": false
+  },
+  "evidence_level": "R1",
+  "conclusion": "支持原著公开CESE账本内部的N=16/N=18边界逻辑；不宣称历史量化程序独立复现。",
+  "does_not_modify": ["v0.1.0", "v0.2.0", "WP4-B"]
+}

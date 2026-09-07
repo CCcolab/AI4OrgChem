@@ -1,0 +1,38 @@
+{
+  "schema_version": "science-v0.3-gate-v2-4p-decision-1",
+  "gate": "V2-4P",
+  "status": "PASSED",
+  "criteria": {
+    "all_six_N_defined": {
+      "pass": true
+    },
+    "A_B_C_D_each_N": {
+      "pass": true
+    },
+    "two_conformer_sources_and_identity_manifest": {
+      "pass": true
+    },
+    "both_conformer_sources_actually_evaluated": {
+      "pass": true
+    },
+    "runtime_failure_discovery_statistics": {
+      "pass": true
+    },
+    "0K_ASE_all_six_N": {
+      "pass": true
+    },
+    "lowest_verified_conformer_0K_all_six_N": {
+      "pass": true
+    },
+    "closed_shell_and_BS_checks_for_4n_A_C": {
+      "pass": true
+    }
+  },
+  "decision": "ELIGIBLE_FOR_SEPARATE_EXPANSION_APPROVAL",
+  "does_not_modify": [
+    "v0.1.0",
+    "v0.2.0",
+    "P12-A"
+  ],
+  "summary": "data/science_v0.3/processed/wp4b/wp4b_paired_pilot_summary.json"
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "science-v0.3-wp4b-small-batch-1",
+  "workers": 1,
+  "threads_per_job": 4,
+  "excluded": [],
+  "n_values": [
+    18,
+    32
+  ],
+  "sources": [
+    "crest"
+  ],
+  "results": [
+    {
+      "id": "N18_B_crest",
+      "status": "COMPLETED",
+      "returncode": 0,
+      "elapsed_seconds": 1210.0156974700076,
+      "output": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N18_B_crest.json",
+      "log": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N18_B_crest.log"
+    },
+    {
+      "id": "N18_C_crest",
+      "status": "COMPLETED",
+      "returncode": 0,
+      "elapsed_seconds": 1003.4216856509884,
+      "output": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N18_C_crest.json",
+      "log": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N18_C_crest.log"
+    },
+    {
+      "id": "N32_C_crest",
+      "status": "COMPLETED",
+      "returncode": 0,
+      "elapsed_seconds": 4994.174477770008,
+      "output": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N32_C_crest.json",
+      "log": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N32_C_crest.log"
+    }
+  ]
+}

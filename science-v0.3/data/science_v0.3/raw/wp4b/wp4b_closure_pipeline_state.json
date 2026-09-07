@@ -1,0 +1,152 @@
+{
+  "schema_version": "science-v0.3-wp4b-closure-pipeline-state-1",
+  "started_utc": "2026-09-06T02:44:28.059316+00:00",
+  "status": "COMPLETED_AFTER_INTERFACE_REPAIR",
+  "stages": [
+    {
+      "name": "medium_auditbest_dft",
+      "status": "COMPLETED",
+      "started_utc": "2026-09-06T02:44:28.059327+00:00",
+      "command": [
+        "${PROJECT_ROOT}/micromamba/envs/ai4orgchem/bin/python",
+        "${PROJECT_ROOT}/scripts/science_v0.3/run_wp4b_small_batch.py",
+        "--project",
+        "${PROJECT_ROOT}",
+        "--n-values",
+        "16,18",
+        "--sources",
+        "etkdg,auditbest",
+        "--workers",
+        "1",
+        "--threads-per-job",
+        "4",
+        "--summary-name",
+        "etkdg_auditbest_medium_batch.json"
+      ],
+      "returncode": 0,
+      "finished_utc": "2026-09-06T02:44:28.202784+00:00"
+    },
+    {
+      "name": "large_auditbest_dft",
+      "status": "COMPLETED",
+      "started_utc": "2026-09-06T02:44:28.205819+00:00",
+      "command": [
+        "${PROJECT_ROOT}/micromamba/envs/ai4orgchem/bin/python",
+        "${PROJECT_ROOT}/scripts/science_v0.3/run_wp4b_small_batch.py",
+        "--project",
+        "${PROJECT_ROOT}",
+        "--n-values",
+        "32,34",
+        "--sources",
+        "etkdg,auditbest",
+        "--workers",
+        "1",
+        "--threads-per-job",
+        "4",
+        "--summary-name",
+        "etkdg_auditbest_large_batch.json"
+      ],
+      "returncode": 0,
+      "finished_utc": "2026-09-07T03:00:21.096267+00:00"
+    },
+    {
+      "name": "crest_best_dft",
+      "status": "COMPLETED",
+      "started_utc": "2026-09-07T03:00:21.109939+00:00",
+      "command": [
+        "${PROJECT_ROOT}/micromamba/envs/ai4orgchem/bin/python",
+        "${PROJECT_ROOT}/scripts/science_v0.3/run_wp4b_small_batch.py",
+        "--project",
+        "${PROJECT_ROOT}",
+        "--n-values",
+        "18,32",
+        "--sources",
+        "crest",
+        "--workers",
+        "1",
+        "--threads-per-job",
+        "4",
+        "--summary-name",
+        "crest_best_dft_batch.json"
+      ],
+      "returncode": 0,
+      "finished_utc": "2026-09-07T05:00:28.837180+00:00"
+    },
+    {
+      "name": "paired_selection",
+      "status": "COMPLETED",
+      "started_utc": "2026-09-07T05:00:28.841989+00:00",
+      "command": [
+        "${PROJECT_ROOT}/micromamba/envs/ai4orgchem/bin/python",
+        "${PROJECT_ROOT}/scripts/science_v0.3/select_wp4b_small_minima.py",
+        "--project",
+        "${PROJECT_ROOT}",
+        "--n-values",
+        "8,10,16,18,32,34",
+        "--secondary-sources",
+        "etkdg,auditbest,crest"
+      ],
+      "returncode": 0,
+      "finished_utc": "2026-09-07T05:00:29.526152+00:00"
+    },
+    {
+      "name": "selected_hessians",
+      "status": "COMPLETED",
+      "started_utc": "2026-09-07T05:00:29.529202+00:00",
+      "command": [
+        "${PROJECT_ROOT}/micromamba/envs/ai4orgchem/bin/python",
+        "${PROJECT_ROOT}/scripts/science_v0.3/run_wp4b_selected_hessians.py",
+        "--project",
+        "${PROJECT_ROOT}",
+        "--workers",
+        "1",
+        "--threads-per-job",
+        "4",
+        "--selection-name",
+        "paired_conformer_selection.json",
+        "--summary-name",
+        "paired_selected_hessian_batch.json"
+      ],
+      "returncode": 0,
+      "finished_utc": "2026-09-07T12:17:49.906558+00:00"
+    },
+    {
+      "name": "gate_summary",
+      "status": "COMPLETED",
+      "started_utc": "2026-09-07T12:17:49.910301+00:00",
+      "command": [
+        "${PROJECT_ROOT}/micromamba/envs/ai4orgchem/bin/python",
+        "${PROJECT_ROOT}/scripts/science_v0.3/summarize_wp4b_paired_pilot.py",
+        "--project",
+        "${PROJECT_ROOT}"
+      ],
+      "returncode": 0,
+      "finished_utc": "2026-09-07T12:17:50.539481+00:00"
+    },
+    {
+      "name": "gate_validation",
+      "status": "FAILED",
+      "started_utc": "2026-09-07T12:17:50.541973+00:00",
+      "command": [
+        "${PROJECT_ROOT}/micromamba/envs/ai4orgchem/bin/python",
+        "${PROJECT_ROOT}/scripts/science_v0.3/validate_wp4b_paired_pilot.py",
+        "--project",
+        "${PROJECT_ROOT}"
+      ],
+      "returncode": 1,
+      "finished_utc": "2026-09-07T12:17:50.661511+00:00"
+    }
+  ],
+  "initial_failed_stage": "gate_validation",
+  "initial_finished_utc": "2026-09-07T12:17:50.663650+00:00",
+  "recovery": {
+    "status": "COMPLETED",
+    "finished_utc": "2026-09-07T12:37:37.426624+00:00",
+    "validator_result": "WP4B_VALIDATION_OK",
+    "scientific_recalculation_performed": false,
+    "repairs": [
+      "derive source-anchor ZPVE as e0_hartree minus electronic_hartree",
+      "remove invalid molecule-size-independent 0.5 Eh source-anchor ZPVE ceiling"
+    ]
+  }
+}

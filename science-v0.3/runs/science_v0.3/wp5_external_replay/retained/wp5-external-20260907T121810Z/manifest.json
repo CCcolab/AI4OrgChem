@@ -1,0 +1,23 @@
+{
+  "schema_version": "science-v0.3-wp5-sealed-manifest-1",
+  "contract_sha256": "f69071f82e8a691ed182b02a70e4e4603ddc8e4399c9a7d9c236fcfe925465b4",
+  "source_geometry_sha256": "f13f99919d0bd632b57f225da38698a34ad9201ccb8b90374dd3aa5e907da9fa",
+  "reference_energy_present": false,
+  "files": [
+    {
+      "path": "agent_task.txt",
+      "sha256": "f6203f271c876558712b766f0fecb5de49ae4638c34fa9acc12ed09240227a15",
+      "bytes": 300
+    },
+    {
+      "path": "runner.py",
+      "sha256": "2ff03a9082fb93b896ee10270c215e23d4f8fe364187e4e6496f458525f81d2d",
+      "bytes": 1603
+    },
+    {
+      "path": "task.json",
+      "sha256": "9f676dd1a88ffafc6ad2d6752bd3edb4381314d305082c1984c5d1656b77a3da",
+      "bytes": 1613
+    }
+  ]
+}

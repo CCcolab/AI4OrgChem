@@ -1,0 +1,4128 @@
+{
+  "schema_version": "science-v0.3-wp4b-input-manifest-1",
+  "archive_md5": "cd7c7bde08e17b93536da49fda597807",
+  "paired_N": [
+    8,
+    10,
+    16,
+    18,
+    32,
+    34
+  ],
+  "records": [
+    {
+      "N": 8,
+      "series": "4n",
+      "species": "A",
+      "formula": "C11H10",
+      "ring_sizes": [
+        5,
+        8
+      ],
+      "canonical_smiles": "C1=CC=C2C=CCC2=CC=C1",
+      "graph_sha256": "e23ca96f9e9fac718082d0ee433f0fd2bf35822e4c62a8ed8567de5dcfc59913",
+      "primary": {
+        "path": "N08_A_source.xyz",
+        "method": "parent_graph_contraction+MMFF94s",
+        "sha256": "b29b7dd3e5c553323e3cf9cbf1ab7ca8a79a2ff15601a24078501d6a40762a03",
+        "parent_or_source_sha256": "0ca2fa7427c663fefa886b5408740c1b6ee53b59d8581ee1f7811b7455e45074",
+        "ez_sequence": [
+          {
+            "bond": [
+              2,
+              0
+            ],
+            "torsion_deg": 4.093193,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              3,
+              1
+            ],
+            "torsion_deg": 6.65302,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              6,
+              4
+            ],
+            "torsion_deg": -1.621863,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              7,
+              5
+            ],
+            "torsion_deg": -1.520516,
+            "geometry_label": "Z"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N08_A_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 1,
+        "lowest_prescreen_energy": 48.712050645889164,
+        "sha256": "11f685b5e990bacbeaa8bce9132f92279fd1de5f32b8814d27027b2b02fd27c8",
+        "ez_sequence": [
+          {
+            "bond": [
+              2,
+              0
+            ],
+            "torsion_deg": -4.093222,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              3,
+              1
+            ],
+            "torsion_deg": -6.653143,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              6,
+              4
+            ],
+            "torsion_deg": 1.622885,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              7,
+              5
+            ],
+            "torsion_deg": 1.520411,
+            "geometry_label": "Z"
+          }
+        ]
+      }
+    },
+    {
+      "N": 8,
+      "series": "4n",
+      "species": "B",
+      "formula": "C11H12",
+      "ring_sizes": [
+        5,
+        8
+      ],
+      "canonical_smiles": "C1=CC2=CCC=C2C=CCC1",
+      "graph_sha256": "91ddb10c34aa8cf05596aa614c5e585f837a23850d7c87bb024dc62fba55f541",
+      "primary": {
+        "path": "N08_B_source.xyz",
+        "method": "parent_graph_contraction+MMFF94s",
+        "sha256": "bb9d82a0a689045d82a1a918eb390ea55bb75bf5158a18f5489ac44f35fc7ce0",
+        "parent_or_source_sha256": "aff8551122c954de7d5d63bbba0463f0dbcc1875b833da2fd2417623de903344",
+        "ez_sequence": [
+          {
+            "bond": [
+              6,
+              4
+            ],
+            "torsion_deg": 1.94111,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              7,
+              5
+            ],
+            "torsion_deg": -2.759618,
+            "geometry_label": "Z"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N08_B_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 1,
+        "lowest_prescreen_energy": 27.04842157402208,
+        "sha256": "ac7d47abb4f70b254e625dd460f2fd2a700defacc4c9399566005ddeee5c736b",
+        "ez_sequence": [
+          {
+            "bond": [
+              6,
+              4
+            ],
+            "torsion_deg": 2.759668,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              7,
+              5
+            ],
+            "torsion_deg": -1.941271,
+            "geometry_label": "Z"
+          }
+        ]
+      }
+    },
+    {
+      "N": 8,
+      "series": "4n",
+      "species": "C",
+      "formula": "C11H10",
+      "ring_sizes": [
+        5,
+        8
+      ],
+      "canonical_smiles": "C1=CC=CC2=CCC=C2C=C1",
+      "graph_sha256": "77bd1b0269b9e5313551225c5685b7f2cbac5d1a701fe2d9eff5153d8b89a64e",
+      "primary": {
+        "path": "N08_C_source.xyz",
+        "method": "parent_graph_contraction+MMFF94s",
+        "sha256": "acba2b921debc728bb76c2a0476d6dcb1dbb4661048fd4e54db745cc2a6ee34c",
+        "parent_or_source_sha256": "4415309f9fae34e6fe8e9bef16610bd36c2b3308bddd49dbda52e5890d90615b",
+        "ez_sequence": [
+          {
+            "bond": [
+              5,
+              2
+            ],
+            "torsion_deg": 0.000455,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              6,
+              3
+            ],
+            "torsion_deg": -7.5e-05,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              7,
+              4
+            ],
+            "torsion_deg": -0.000161,
+            "geometry_label": "Z"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N08_C_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 1,
+        "lowest_prescreen_energy": 61.290818396015496,
+        "sha256": "d306eaa3fa116a8456fbc23e9f94f3a3aa14f3e05809e5861f672c1aedd171f2",
+        "ez_sequence": [
+          {
+            "bond": [
+              5,
+              2
+            ],
+            "torsion_deg": -3.3e-05,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              6,
+              3
+            ],
+            "torsion_deg": -5e-06,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              7,
+              4
+            ],
+            "torsion_deg": 1.7e-05,
+            "geometry_label": "Z"
+          }
+        ]
+      }
+    },
+    {
+      "N": 8,
+      "series": "4n",
+      "species": "D",
+      "formula": "C11H12",
+      "ring_sizes": [
+        5,
+        8
+      ],
+      "canonical_smiles": "C1=CC2=C(C=CCC1)CC=C2",
+      "graph_sha256": "162f42dcce8b3d33f16b89a6e28ae56e47f2e1f3a460ba99cbe4435afc89932c",
+      "primary": {
+        "path": "N08_D_source.xyz",
+        "method": "parent_graph_contraction+MMFF94s",
+        "sha256": "9ef82312750b20d20a0173f7d46f3840d26a9cd70db39ea6bc39542604c609f0",
+        "parent_or_source_sha256": "6669ee2200bc91ef6a4b8820357d283190a0354e9b44da58951230737a779dfa",
+        "ez_sequence": [
+          {
+            "bond": [
+              1,
+              0
+            ],
+            "torsion_deg": 3.729411,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              4,
+              2
+            ],
+            "torsion_deg": 0.544641,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              5,
+              3
+            ],
+            "torsion_deg": 1.415145,
+            "geometry_label": "Z"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N08_D_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 1,
+        "lowest_prescreen_energy": 41.275199137420394,
+        "sha256": "4fa3a7ca2a27a710dd9856697877ed2f69d5512b2d27c4ffb0d3359413eb054a",
+        "ez_sequence": [
+          {
+            "bond": [
+              1,
+              0
+            ],
+            "torsion_deg": -3.7287,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              4,
+              2
+            ],
+            "torsion_deg": -0.544858,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              5,
+              3
+            ],
+            "torsion_deg": -1.415075,
+            "geometry_label": "Z"
+          }
+        ]
+      }
+    },
+    {
+      "N": 10,
+      "series": "4n+2",
+      "species": "A",
+      "formula": "C13H12",
+      "ring_sizes": [
+        5,
+        10
+      ],
+      "canonical_smiles": "C1=Cc2ccccccccc2C1",
+      "graph_sha256": "e59b1c32e34d35f4ca3722141832138165898bc08d35eb21175d3a8890790cd7",
+      "primary": {
+        "path": "N10_A_source.xyz",
+        "method": "parent_graph_contraction+MMFF94s",
+        "sha256": "1186978e09ce09a4ff26af03cb9325e1de4aa4d7d25eaad143cec2aef1d26d76",
+        "parent_or_source_sha256": "0ca2fa7427c663fefa886b5408740c1b6ee53b59d8581ee1f7811b7455e45074",
+        "ez_sequence": [
+          {
+            "bond": [
+              2,
+              0
+            ],
+            "torsion_deg": 31.575869,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              3,
+              1
+            ],
+            "torsion_deg": -17.126753,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              6,
+              4
+            ],
+            "torsion_deg": -162.812856,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              7,
+              5
+            ],
+            "torsion_deg": -15.647581,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              9,
+              8
+            ],
+            "torsion_deg": 29.951728,
+            "geometry_label": "Z"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N10_A_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 4,
+        "lowest_prescreen_energy": 179.13716055696167,
+        "sha256": "d189ff05f08c970f48b101b76d7b8c42d42f76265becfc6f57934d6361456904",
+        "ez_sequence": [
+          {
+            "bond": [
+              2,
+              0
+            ],
+            "torsion_deg": 17.737283,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              3,
+              1
+            ],
+            "torsion_deg": -30.647169,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              6,
+              4
+            ],
+            "torsion_deg": 15.871984,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              7,
+              5
+            ],
+            "torsion_deg": 162.378933,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              9,
+              8
+            ],
+            "torsion_deg": -30.123198,
+            "geometry_label": "Z"
+          }
+        ]
+      }
+    },
+    {
+      "N": 10,
+      "series": "4n+2",
+      "species": "B",
+      "formula": "C13H14",
+      "ring_sizes": [
+        5,
+        10
+      ],
+      "canonical_smiles": "C1=CCCC=CC2=CCC=C2C=C1",
+      "graph_sha256": "bc706571db13c3af8e1b7c8d464daffa8dfc54ee852db4cb5572ca98b53cebef",
+      "primary": {
+        "path": "N10_B_source.xyz",
+        "method": "parent_graph_contraction+MMFF94s",
+        "sha256": "8d01cdbc90b0782a2cd1c35bebd4ec97ca5bf1df22cf0e95c9e60a2278a266a9",
+        "parent_or_source_sha256": "aff8551122c954de7d5d63bbba0463f0dbcc1875b833da2fd2417623de903344",
+        "ez_sequence": [
+          {
+            "bond": [
+              7,
+              4
+            ],
+            "torsion_deg": -4.475831,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              8,
+              5
+            ],
+            "torsion_deg": -149.739131,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              9,
+              6
+            ],
+            "torsion_deg": 143.544713,
+            "geometry_label": "E"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N10_B_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 5,
+        "lowest_prescreen_energy": 38.791334046265426,
+        "sha256": "f7ab11f0408b952c437e17f9c193e013d05cf1f7a375fe993cafe38610e19c95",
+        "ez_sequence": [
+          {
+            "bond": [
+              7,
+              4
+            ],
+            "torsion_deg": -3.479375,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              8,
+              5
+            ],
+            "torsion_deg": -2.19169,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              9,
+              6
+            ],
+            "torsion_deg": -3.319328,
+            "geometry_label": "Z"
+          }
+        ]
+      }
+    },
+    {
+      "N": 10,
+      "series": "4n+2",
+      "species": "C",
+      "formula": "C13H12",
+      "ring_sizes": [
+        5,
+        10
+      ],
+      "canonical_smiles": "C1=c2ccccccccc2=CC1",
+      "graph_sha256": "3888450956e111230e9a407cd45d8d9a16ac20004c2cfd95316bec81e9582433",
+      "primary": {
+        "path": "N10_C_source.xyz",
+        "method": "parent_graph_contraction+MMFF94s",
+        "sha256": "60688017521e6b212ccf2f837b4c785680219ac4c3b58a2abcdc79fef381a63c",
+        "parent_or_source_sha256": "4415309f9fae34e6fe8e9bef16610bd36c2b3308bddd49dbda52e5890d90615b",
+        "ez_sequence": [
+          {
+            "bond": [
+              6,
+              2
+            ],
+            "torsion_deg": -8.177946,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              7,
+              3
+            ],
+            "torsion_deg": -8.169802,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              8,
+              4
+            ],
+            "torsion_deg": 8.646924,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              9,
+              5
+            ],
+            "torsion_deg": 8.651569,
+            "geometry_label": "Z"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N10_C_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 4,
+        "lowest_prescreen_energy": 51.419728574354025,
+        "sha256": "fe0c0951cdd2e6ac35da8300efa17a10f4b4e884c051729c7e9e9e047d202022",
+        "ez_sequence": [
+          {
+            "bond": [
+              6,
+              2
+            ],
+            "torsion_deg": 3.371703,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              7,
+              3
+            ],
+            "torsion_deg": -6.553812,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              8,
+              4
+            ],
+            "torsion_deg": 7.282988,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              9,
+              5
+            ],
+            "torsion_deg": -144.991518,
+            "geometry_label": "E"
+          }
+        ]
+      }
+    },
+    {
+      "N": 10,
+      "series": "4n+2",
+      "species": "D",
+      "formula": "C13H14",
+      "ring_sizes": [
+        5,
+        10
+      ],
+      "canonical_smiles": "C1=CCCC=CC2=C(C=C1)CC=C2",
+      "graph_sha256": "8c81b2e2bb67f896c39795f5fc2da535391010a2620eb7de8c1a89fec280e954",
+      "primary": {
+        "path": "N10_D_source.xyz",
+        "method": "parent_graph_contraction+MMFF94s",
+        "sha256": "2490087c754762b1e116dcd5d6b90e6e603f338ca74901562fef1d9ca3bf39e4",
+        "parent_or_source_sha256": "6669ee2200bc91ef6a4b8820357d283190a0354e9b44da58951230737a779dfa",
+        "ez_sequence": [
+          {
+            "bond": [
+              1,
+              0
+            ],
+            "torsion_deg": -3.222006,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              4,
+              2
+            ],
+            "torsion_deg": 3.727076,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              5,
+              3
+            ],
+            "torsion_deg": 146.095574,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              7,
+              6
+            ],
+            "torsion_deg": 2.857795,
+            "geometry_label": "Z"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N10_D_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 5,
+        "lowest_prescreen_energy": 53.210631876200964,
+        "sha256": "a6522657dabb3719e27b09e1ac929c9654a396a06738f87a60f14f00ff71810c",
+        "ez_sequence": [
+          {
+            "bond": [
+              1,
+              0
+            ],
+            "torsion_deg": -1.780394,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              4,
+              2
+            ],
+            "torsion_deg": -2.236467,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              5,
+              3
+            ],
+            "torsion_deg": -1.153933,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              7,
+              6
+            ],
+            "torsion_deg": -4.038452,
+            "geometry_label": "Z"
+          }
+        ]
+      }
+    },
+    {
+      "N": 16,
+      "series": "4n",
+      "species": "A",
+      "formula": "C19H18",
+      "ring_sizes": [
+        5,
+        16
+      ],
+      "canonical_smiles": "C1=CC=CC=CC=C2C=CCC2=CC=CC=CC=C1",
+      "graph_sha256": "b36d3af19a931d1907da8e1e782ab7e8b3ae9e3acb0f11b0ca0dfd87b05912b1",
+      "primary": {
+        "path": "N16_A_source.xyz",
+        "method": "published_B3LYP_6-31Gd_unconstrained",
+        "sha256": "353898e9524cf135e367ab0a36d342a10886b9ef556e3407a51cc628b777329d",
+        "parent_or_source_sha256": "a9a246de3c0cbd3ac73f74cce15085f271efd3a1405f3873457db7017361460c",
+        "ez_sequence": [
+          {
+            "bond": [
+              2,
+              0
+            ],
+            "torsion_deg": 9.811887,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              5,
+              3
+            ],
+            "torsion_deg": 148.448371,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              7,
+              1
+            ],
+            "torsion_deg": -163.576039,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              8,
+              4
+            ],
+            "torsion_deg": 157.75341,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              9,
+              6
+            ],
+            "torsion_deg": -173.907085,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              12,
+              10
+            ],
+            "torsion_deg": 5.766459,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              13,
+              11
+            ],
+            "torsion_deg": 150.729026,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              15,
+              14
+            ],
+            "torsion_deg": 156.32924,
+            "geometry_label": "E"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N16_A_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 4,
+        "lowest_prescreen_energy": 81.76704048541141,
+        "sha256": "c05b22515d2b1ccfc4b829815d3b6cbc3752f94cbdb96c61c4036ba3b212c8c2",
+        "ez_sequence": [
+          {
+            "bond": [
+              2,
+              0
+            ],
+            "torsion_deg": 1.04388,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              5,
+              3
+            ],
+            "torsion_deg": 157.0236,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              7,
+              1
+            ],
+            "torsion_deg": -156.697896,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              8,
+              4
+            ],
+            "torsion_deg": 156.549534,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              9,
+              6
+            ],
+            "torsion_deg": 155.499306,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              12,
+              10
+            ],
+            "torsion_deg": -2.637665,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              13,
+              11
+            ],
+            "torsion_deg": 152.636406,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              15,
+              14
+            ],
+            "torsion_deg": 153.833512,
+            "geometry_label": "E"
+          }
+        ]
+      }
+    },
+    {
+      "N": 16,
+      "series": "4n",
+      "species": "B",
+      "formula": "C19H20",
+      "ring_sizes": [
+        5,
+        16
+      ],
+      "canonical_smiles": "C1=CC=CC2=CCC=C2C=CC=CC=CCCC=C1",
+      "graph_sha256": "565a8bed29babe84e809d90222e463771d9b53515189e1326db2f6d59b57e0bf",
+      "primary": {
+        "path": "N16_B_source.xyz",
+        "method": "published_B3LYP_6-31Gd_unconstrained",
+        "sha256": "b278b322c5510247e9e927b50d7f7ea00ab5a39e1d4ba3d338dafa5e647f6f4b",
+        "parent_or_source_sha256": "f36292c7b4cd37abbe72dca7c35c6ab54fd3ea0b9317e106e3694f535f0a4ca3",
+        "ez_sequence": [
+          {
+            "bond": [
+              4,
+              2
+            ],
+            "torsion_deg": 161.032603,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              6,
+              0
+            ],
+            "torsion_deg": -160.613162,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              8,
+              5
+            ],
+            "torsion_deg": 162.871617,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              10,
+              7
+            ],
+            "torsion_deg": 148.991477,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              14,
+              12
+            ],
+            "torsion_deg": -157.575178,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              15,
+              13
+            ],
+            "torsion_deg": -163.151583,
+            "geometry_label": "E"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N16_B_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 6,
+        "lowest_prescreen_energy": 50.32288512510092,
+        "sha256": "79a98beaef178feefbe9a4691d397b98824c2d2a954fa998858cba14fac36d48",
+        "ez_sequence": [
+          {
+            "bond": [
+              4,
+              2
+            ],
+            "torsion_deg": 158.009881,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              6,
+              0
+            ],
+            "torsion_deg": 158.05418,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              8,
+              5
+            ],
+            "torsion_deg": 159.866239,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              10,
+              7
+            ],
+            "torsion_deg": 159.866481,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              14,
+              12
+            ],
+            "torsion_deg": 158.009859,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              15,
+              13
+            ],
+            "torsion_deg": 158.054225,
+            "geometry_label": "E"
+          }
+        ]
+      }
+    },
+    {
+      "N": 16,
+      "series": "4n",
+      "species": "C",
+      "formula": "C19H18",
+      "ring_sizes": [
+        5,
+        16
+      ],
+      "canonical_smiles": "C1=CC=CC=CC=CC2=CCC=C2C=CC=CC=C1",
+      "graph_sha256": "aa26dca5f2aa56b09f2a59965fa35dd1521f381b9d809c1f6ebca006da558f73",
+      "primary": {
+        "path": "N16_C_source.xyz",
+        "method": "published_B3LYP_6-31Gd_unconstrained",
+        "sha256": "2c17ac50b390bc1dfb6098c7cb4ddd7c983c30c59dee9985ee78120438e547bf",
+        "parent_or_source_sha256": "8299f73c8f5c92ee9dc4e4156e493fe80f32b6ddd3ef2cc2aa74332d80456fd8",
+        "ez_sequence": [
+          {
+            "bond": [
+              4,
+              2
+            ],
+            "torsion_deg": -152.797565,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              6,
+              0
+            ],
+            "torsion_deg": -176.701031,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              8,
+              5
+            ],
+            "torsion_deg": -159.043001,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              10,
+              7
+            ],
+            "torsion_deg": -177.631225,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              11,
+              9
+            ],
+            "torsion_deg": 9.484607,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              14,
+              12
+            ],
+            "torsion_deg": 151.389133,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              15,
+              13
+            ],
+            "torsion_deg": 158.094359,
+            "geometry_label": "E"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N16_C_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 3,
+        "lowest_prescreen_energy": 182.29749942718718,
+        "sha256": "8890062586bc47b3bf71e6e73010f7a2954ead233dcee6418a708571c4a926a9",
+        "ez_sequence": [
+          {
+            "bond": [
+              4,
+              2
+            ],
+            "torsion_deg": -134.259538,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              6,
+              0
+            ],
+            "torsion_deg": 152.423213,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              8,
+              5
+            ],
+            "torsion_deg": 136.599795,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              10,
+              7
+            ],
+            "torsion_deg": 158.216896,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              11,
+              9
+            ],
+            "torsion_deg": 8.569709,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              14,
+              12
+            ],
+            "torsion_deg": 138.127693,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              15,
+              13
+            ],
+            "torsion_deg": -155.570477,
+            "geometry_label": "E"
+          }
+        ]
+      }
+    },
+    {
+      "N": 16,
+      "series": "4n",
+      "species": "D",
+      "formula": "C19H20",
+      "ring_sizes": [
+        5,
+        16
+      ],
+      "canonical_smiles": "C1=CC=CC2=C(C=CC=CC=CCCC=C1)CC=C2",
+      "graph_sha256": "20b9cd9fa2ef81a9572ca4602598652d3a4d967ac59eeffd36057a0fab91eb7f",
+      "primary": {
+        "path": "N16_D_source.xyz",
+        "method": "published_B3LYP_6-31Gd_unconstrained",
+        "sha256": "894f74d61817b826a98f722102abea8f8b6126bacf7c5d4f09aad7dc5682e0aa",
+        "parent_or_source_sha256": "eec982b13860d3d117441865c99f8e11b6020ca9dc530a6fc62011d5086dbd1e",
+        "ez_sequence": [
+          {
+            "bond": [
+              3,
+              1
+            ],
+            "torsion_deg": 5.217881,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              4,
+              2
+            ],
+            "torsion_deg": -150.214323,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              6,
+              0
+            ],
+            "torsion_deg": 163.356522,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              8,
+              5
+            ],
+            "torsion_deg": -154.063526,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              10,
+              7
+            ],
+            "torsion_deg": 176.176911,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              14,
+              12
+            ],
+            "torsion_deg": -153.215233,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              15,
+              13
+            ],
+            "torsion_deg": -157.233897,
+            "geometry_label": "E"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N16_D_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 6,
+        "lowest_prescreen_energy": 69.59957495437962,
+        "sha256": "3fd44a3af60974bf30d2a65479f86cea24cfcddb389721df2538baef21fc9760",
+        "ez_sequence": [
+          {
+            "bond": [
+              3,
+              1
+            ],
+            "torsion_deg": 0.106882,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              4,
+              2
+            ],
+            "torsion_deg": 158.48517,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              6,
+              0
+            ],
+            "torsion_deg": 156.593057,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              8,
+              5
+            ],
+            "torsion_deg": -161.320551,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              10,
+              7
+            ],
+            "torsion_deg": 159.259973,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              14,
+              12
+            ],
+            "torsion_deg": 154.681234,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              15,
+              13
+            ],
+            "torsion_deg": 153.25751,
+            "geometry_label": "E"
+          }
+        ]
+      }
+    },
+    {
+      "N": 18,
+      "series": "4n+2",
+      "species": "A",
+      "formula": "C21H20",
+      "ring_sizes": [
+        5,
+        18
+      ],
+      "canonical_smiles": "C1=Cc2ccccccccccccccccc2C1",
+      "graph_sha256": "32545de659f46358fd234c470f44d2ffa5911304b1680967b04311bc94557b97",
+      "primary": {
+        "path": "N18_A_source.xyz",
+        "method": "published_B3LYP_6-31Gd_unconstrained",
+        "sha256": "d30de181569d098a31a3e761174b137d9d22f2a2c62fa16808aca3b605778168",
+        "parent_or_source_sha256": "beca1a9a400ed804aafe6a33abd005dc1613c312d89fe837f3de6845b4efc940",
+        "ez_sequence": [
+          {
+            "bond": [
+              2,
+              1
+            ],
+            "torsion_deg": -180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              4,
+              3
+            ],
+            "torsion_deg": -0.0,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              6,
+              5
+            ],
+            "torsion_deg": 180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              8,
+              7
+            ],
+            "torsion_deg": -180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              10,
+              9
+            ],
+            "torsion_deg": -0.0,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              12,
+              11
+            ],
+            "torsion_deg": -180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              14,
+              13
+            ],
+            "torsion_deg": 180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              16,
+              15
+            ],
+            "torsion_deg": -0.0,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              17,
+              0
+            ],
+            "torsion_deg": -180.0,
+            "geometry_label": "E"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N18_A_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 8,
+        "lowest_prescreen_energy": 167.82740073630885,
+        "sha256": "58aea81b6ececd5461923bbf00110f07fb7fb0ec7c0b827947915d663cd6d7d7",
+        "ez_sequence": [
+          {
+            "bond": [
+              2,
+              1
+            ],
+            "torsion_deg": 179.244048,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              4,
+              3
+            ],
+            "torsion_deg": 13.769101,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              6,
+              5
+            ],
+            "torsion_deg": -169.355348,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              8,
+              7
+            ],
+            "torsion_deg": 172.358265,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              10,
+              9
+            ],
+            "torsion_deg": -19.190215,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              12,
+              11
+            ],
+            "torsion_deg": 167.923344,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              14,
+              13
+            ],
+            "torsion_deg": -13.293458,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              16,
+              15
+            ],
+            "torsion_deg": 1.36078,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              17,
+              0
+            ],
+            "torsion_deg": 25.433042,
+            "geometry_label": "Z"
+          }
+        ]
+      }
+    },
+    {
+      "N": 18,
+      "series": "4n+2",
+      "species": "B",
+      "formula": "C21H22",
+      "ring_sizes": [
+        5,
+        18
+      ],
+      "canonical_smiles": "C1=CC=CC=CC2=CCC=C2C=CC=CCCC=CC=C1",
+      "graph_sha256": "c207496afb6ed3c590a328f0cbc44b6fd6d39253fc146bb408896b0ce9f5c375",
+      "primary": {
+        "path": "N18_B_source.xyz",
+        "method": "published_B3LYP_6-31Gd_unconstrained",
+        "sha256": "b10b1b4d0226d0dadbf539375ca406b9e85d69dc4fddc68dd2e734035a3fb9a2",
+        "parent_or_source_sha256": "b558edfc792821c6e619a53184c27502ab58b761aa7938bdbad5ed35bde9cb77",
+        "ez_sequence": [
+          {
+            "bond": [
+              3,
+              2
+            ],
+            "torsion_deg": 177.561895,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              5,
+              4
+            ],
+            "torsion_deg": 173.583933,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              7,
+              6
+            ],
+            "torsion_deg": -3.145819,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              9,
+              8
+            ],
+            "torsion_deg": -177.188806,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              11,
+              10
+            ],
+            "torsion_deg": -173.781221,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              15,
+              14
+            ],
+            "torsion_deg": -174.481299,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              17,
+              16
+            ],
+            "torsion_deg": 178.091168,
+            "geometry_label": "E"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N18_B_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 8,
+        "lowest_prescreen_energy": 44.271274625024816,
+        "sha256": "464fb40cdaf3b3541bf539886cbb14ca8d2ca6809d552d1564777710e757c51e",
+        "ez_sequence": [
+          {
+            "bond": [
+              3,
+              2
+            ],
+            "torsion_deg": 178.02142,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              5,
+              4
+            ],
+            "torsion_deg": -178.994043,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              7,
+              6
+            ],
+            "torsion_deg": 2.839749,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              9,
+              8
+            ],
+            "torsion_deg": -179.742667,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              11,
+              10
+            ],
+            "torsion_deg": -177.313219,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              15,
+              14
+            ],
+            "torsion_deg": 169.036297,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              17,
+              16
+            ],
+            "torsion_deg": 167.253225,
+            "geometry_label": "E"
+          }
+        ]
+      }
+    },
+    {
+      "N": 18,
+      "series": "4n+2",
+      "species": "C",
+      "formula": "C21H20",
+      "ring_sizes": [
+        5,
+        18
+      ],
+      "canonical_smiles": "C1=c2ccccccccccccccccc2=CC1",
+      "graph_sha256": "190a4d5d72154533f7b87affdf5b2cef4c933cc354ea7c09f8bd31ddd5c45ab9",
+      "primary": {
+        "path": "N18_C_source.xyz",
+        "method": "published_B3LYP_6-31Gd_unconstrained",
+        "sha256": "0994969b1932112bb305604886b5adbf8aaa8be3370c1ab3453cfcfab4e5d947",
+        "parent_or_source_sha256": "76f163c622cc5d74ef4608dd1d72d92cc5051bb186cf0f497540c52d0b0fc527",
+        "ez_sequence": [
+          {
+            "bond": [
+              3,
+              2
+            ],
+            "torsion_deg": 177.655641,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              5,
+              4
+            ],
+            "torsion_deg": 177.095686,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              7,
+              6
+            ],
+            "torsion_deg": -1.453982,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              9,
+              8
+            ],
+            "torsion_deg": -175.423946,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              11,
+              10
+            ],
+            "torsion_deg": -175.423946,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              13,
+              12
+            ],
+            "torsion_deg": -1.453982,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              15,
+              14
+            ],
+            "torsion_deg": 177.095734,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              17,
+              16
+            ],
+            "torsion_deg": 177.655731,
+            "geometry_label": "E"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N18_C_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 8,
+        "lowest_prescreen_energy": 55.78043669277217,
+        "sha256": "da9c57c78c410cc1b9d4ea4786f2bb844b73fcc56804a3e6f95774827ae694f5",
+        "ez_sequence": [
+          {
+            "bond": [
+              3,
+              2
+            ],
+            "torsion_deg": 172.881909,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              5,
+              4
+            ],
+            "torsion_deg": 0.687839,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              7,
+              6
+            ],
+            "torsion_deg": 174.577242,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              9,
+              8
+            ],
+            "torsion_deg": -177.090067,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              11,
+              10
+            ],
+            "torsion_deg": 5.83875,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              13,
+              12
+            ],
+            "torsion_deg": 9.005492,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              15,
+              14
+            ],
+            "torsion_deg": 7.421149,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              17,
+              16
+            ],
+            "torsion_deg": 173.79837,
+            "geometry_label": "E"
+          }
+        ]
+      }
+    },
+    {
+      "N": 18,
+      "series": "4n+2",
+      "species": "D",
+      "formula": "C21H22",
+      "ring_sizes": [
+        5,
+        18
+      ],
+      "canonical_smiles": "C1=CC=CC=CC2=C(C=CC=CCCC=CC=C1)CC=C2",
+      "graph_sha256": "54d2c64c6d31ce9d274a8e46de8646537ad69515ecdebdc819e33199dd61e93d",
+      "primary": {
+        "path": "N18_D_source.xyz",
+        "method": "published_B3LYP_6-31Gd_unconstrained",
+        "sha256": "066c44b386744c7f3b90d02d3d55628871ed583820f2537ea3892ae70ac4e4fd",
+        "parent_or_source_sha256": "b2c0f82ac1a277a19bb12f85a1b510713cdd63dd833e61742e9b720313fb5e6d",
+        "ez_sequence": [
+          {
+            "bond": [
+              2,
+              1
+            ],
+            "torsion_deg": -171.262937,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              4,
+              3
+            ],
+            "torsion_deg": 2.744277,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              6,
+              5
+            ],
+            "torsion_deg": 177.427218,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              8,
+              7
+            ],
+            "torsion_deg": 171.588653,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              12,
+              11
+            ],
+            "torsion_deg": 173.869698,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              14,
+              13
+            ],
+            "torsion_deg": -179.658161,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              16,
+              15
+            ],
+            "torsion_deg": -4.534623,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              17,
+              0
+            ],
+            "torsion_deg": -179.630452,
+            "geometry_label": "E"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N18_D_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 6,
+        "lowest_prescreen_energy": 56.68314071192667,
+        "sha256": "a88d922542c643b94147db2b8cf7ac05b70f7ade29bab1626b0be0dd2420fb10",
+        "ez_sequence": [
+          {
+            "bond": [
+              2,
+              1
+            ],
+            "torsion_deg": -179.192666,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              4,
+              3
+            ],
+            "torsion_deg": -0.922802,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              6,
+              5
+            ],
+            "torsion_deg": 177.671629,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              8,
+              7
+            ],
+            "torsion_deg": 176.632266,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              12,
+              11
+            ],
+            "torsion_deg": 176.573721,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              14,
+              13
+            ],
+            "torsion_deg": 179.529993,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              16,
+              15
+            ],
+            "torsion_deg": -3.230345,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              17,
+              0
+            ],
+            "torsion_deg": -174.935351,
+            "geometry_label": "E"
+          }
+        ]
+      }
+    },
+    {
+      "N": 32,
+      "series": "4n",
+      "species": "A",
+      "formula": "C35H34",
+      "ring_sizes": [
+        5,
+        32
+      ],
+      "canonical_smiles": "C1=CC=CC=CC=CC=CC=CC=CC=CC2=C(C=CC=CC=CC=CC=CC=CC=C1)C=CC2",
+      "graph_sha256": "60cd8e933a0759478c6e1053902fbaf25860b0391acd28a73de9334fe107ad01",
+      "primary": {
+        "path": "N32_A_source.xyz",
+        "method": "published_B3LYP_6-31Gd_unconstrained",
+        "sha256": "1ff8d22f0073ad17454ab479e605d65f8617e2834ac0b9cf977c7b16e2793c5f",
+        "parent_or_source_sha256": "130a8915b6cdbe7e1aa88a02aa21513294f060856365724e355625df353641bb",
+        "ez_sequence": [
+          {
+            "bond": [
+              2,
+              0
+            ],
+            "torsion_deg": -0.0,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              4,
+              3
+            ],
+            "torsion_deg": -180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              6,
+              5
+            ],
+            "torsion_deg": 180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              8,
+              7
+            ],
+            "torsion_deg": 180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              10,
+              9
+            ],
+            "torsion_deg": -0.0,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              12,
+              11
+            ],
+            "torsion_deg": -180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              14,
+              13
+            ],
+            "torsion_deg": -180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              16,
+              15
+            ],
+            "torsion_deg": -180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              18,
+              17
+            ],
+            "torsion_deg": -180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              20,
+              19
+            ],
+            "torsion_deg": -180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              22,
+              21
+            ],
+            "torsion_deg": -0.0,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              24,
+              23
+            ],
+            "torsion_deg": 180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              26,
+              25
+            ],
+            "torsion_deg": 180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              28,
+              27
+            ],
+            "torsion_deg": 180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              30,
+              29
+            ],
+            "torsion_deg": 180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              31,
+              1
+            ],
+            "torsion_deg": -180.0,
+            "geometry_label": "E"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N32_A_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 8,
+        "lowest_prescreen_energy": 75.07770510517739,
+        "sha256": "ce4089dd960de6848db5ca147a19d5cea159e305719a3f36a5582411a3062c70",
+        "ez_sequence": [
+          {
+            "bond": [
+              2,
+              0
+            ],
+            "torsion_deg": -5.318522,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              4,
+              3
+            ],
+            "torsion_deg": -179.005198,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              6,
+              5
+            ],
+            "torsion_deg": -177.442936,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              8,
+              7
+            ],
+            "torsion_deg": 178.228557,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              10,
+              9
+            ],
+            "torsion_deg": -6.365401,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              12,
+              11
+            ],
+            "torsion_deg": 178.178359,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              14,
+              13
+            ],
+            "torsion_deg": -179.592134,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              16,
+              15
+            ],
+            "torsion_deg": -178.166716,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              18,
+              17
+            ],
+            "torsion_deg": -178.360657,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              20,
+              19
+            ],
+            "torsion_deg": 178.297677,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              22,
+              21
+            ],
+            "torsion_deg": -6.247426,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              24,
+              23
+            ],
+            "torsion_deg": -178.199933,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              26,
+              25
+            ],
+            "torsion_deg": 177.960839,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              28,
+              27
+            ],
+            "torsion_deg": 179.822924,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              30,
+              29
+            ],
+            "torsion_deg": 179.495076,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              31,
+              1
+            ],
+            "torsion_deg": -177.975305,
+            "geometry_label": "E"
+          }
+        ]
+      }
+    },
+    {
+      "N": 32,
+      "series": "4n",
+      "species": "B",
+      "formula": "C35H36",
+      "ring_sizes": [
+        5,
+        32
+      ],
+      "canonical_smiles": "C1=CC=CC=CC=CC=CC2=CCC=C2C=CC=CC=CC=CC=CCCC=CC=CC=CC=C1",
+      "graph_sha256": "ef9abca9b892581bf8849ed6eb43cb3ced9c0e6db10d1b8dffaef18bde366a28",
+      "primary": {
+        "path": "N32_B_source.xyz",
+        "method": "published_B3LYP_6-31Gd_unconstrained",
+        "sha256": "014ab9c1c47bb02e681b4b360bbec8b7dd1c84302a4fbebb8b9c522ec1969e10",
+        "parent_or_source_sha256": "2e5010369c751b1073e39f18db9231234792089aa53754291fd2012babf680d8",
+        "ez_sequence": [
+          {
+            "bond": [
+              4,
+              3
+            ],
+            "torsion_deg": 177.621575,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              6,
+              5
+            ],
+            "torsion_deg": 178.538526,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              8,
+              7
+            ],
+            "torsion_deg": 179.848117,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              10,
+              9
+            ],
+            "torsion_deg": 0.595513,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              12,
+              11
+            ],
+            "torsion_deg": -179.997949,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              14,
+              13
+            ],
+            "torsion_deg": 179.671286,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              16,
+              15
+            ],
+            "torsion_deg": -179.903925,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              18,
+              17
+            ],
+            "torsion_deg": -176.159507,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              20,
+              19
+            ],
+            "torsion_deg": -178.771871,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              24,
+              23
+            ],
+            "torsion_deg": 178.968814,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              26,
+              25
+            ],
+            "torsion_deg": 178.604563,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              28,
+              27
+            ],
+            "torsion_deg": 178.136622,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              29,
+              1
+            ],
+            "torsion_deg": 177.274773,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              34,
+              33
+            ],
+            "torsion_deg": 179.798917,
+            "geometry_label": "E"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N32_B_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 8,
+        "lowest_prescreen_energy": 64.42767012708623,
+        "sha256": "74dc90c3a87619ebf828dcaa1bcd36c9f4c0618fc30ebc222ab9590b2ad18785",
+        "ez_sequence": [
+          {
+            "bond": [
+              4,
+              3
+            ],
+            "torsion_deg": -177.984165,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              6,
+              5
+            ],
+            "torsion_deg": -178.984974,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              8,
+              7
+            ],
+            "torsion_deg": 179.471635,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              10,
+              9
+            ],
+            "torsion_deg": -0.52468,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              12,
+              11
+            ],
+            "torsion_deg": 179.36727,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              14,
+              13
+            ],
+            "torsion_deg": -179.555263,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              16,
+              15
+            ],
+            "torsion_deg": -172.699852,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              18,
+              17
+            ],
+            "torsion_deg": -173.718715,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              20,
+              19
+            ],
+            "torsion_deg": -174.11013,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              24,
+              23
+            ],
+            "torsion_deg": 178.544559,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              26,
+              25
+            ],
+            "torsion_deg": 178.656385,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              28,
+              27
+            ],
+            "torsion_deg": 179.425778,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              29,
+              1
+            ],
+            "torsion_deg": 177.994708,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              34,
+              33
+            ],
+            "torsion_deg": 176.390068,
+            "geometry_label": "E"
+          }
+        ]
+      }
+    },
+    {
+      "N": 32,
+      "series": "4n",
+      "species": "C",
+      "formula": "C35H34",
+      "ring_sizes": [
+        5,
+        32
+      ],
+      "canonical_smiles": "C1=CC=CC=CC=CC=CC=CC=CC=CC2=CCC=C2C=CC=CC=CC=CC=CC=CC=C1",
+      "graph_sha256": "b8f178f4ae46c0a6341669f81613cbf467fcd5f87754ff44d33b2010bf941650",
+      "primary": {
+        "path": "N32_C_source.xyz",
+        "method": "published_B3LYP_6-31Gd_unconstrained",
+        "sha256": "893095882ab52f87f4ea3b77d4c4a8abd9b573b9974c6812939dba0b02098312",
+        "parent_or_source_sha256": "7a9d4768ec6e2cfa3d7df68cce9ba73d1b3ca7ddfaf9698b4446e9c48e6f047d",
+        "ez_sequence": [
+          {
+            "bond": [
+              2,
+              0
+            ],
+            "torsion_deg": 0.439693,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              4,
+              3
+            ],
+            "torsion_deg": -179.422339,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              6,
+              5
+            ],
+            "torsion_deg": -179.690456,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              8,
+              7
+            ],
+            "torsion_deg": -179.576101,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              10,
+              9
+            ],
+            "torsion_deg": 0.236344,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              12,
+              11
+            ],
+            "torsion_deg": 179.373306,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              14,
+              13
+            ],
+            "torsion_deg": 179.08361,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              16,
+              15
+            ],
+            "torsion_deg": 179.441132,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              18,
+              17
+            ],
+            "torsion_deg": -177.178675,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              20,
+              19
+            ],
+            "torsion_deg": -179.444717,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              24,
+              23
+            ],
+            "torsion_deg": 179.493363,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              26,
+              25
+            ],
+            "torsion_deg": 179.070009,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              28,
+              27
+            ],
+            "torsion_deg": 178.924784,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              29,
+              1
+            ],
+            "torsion_deg": 178.991407,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              34,
+              33
+            ],
+            "torsion_deg": -179.271873,
+            "geometry_label": "E"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N32_C_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 8,
+        "lowest_prescreen_energy": 158.74156168470387,
+        "sha256": "d7f488ca4db3b23584db03aeaf1faffcaa48ba58460e594da3b2b9a03b4f4f27",
+        "ez_sequence": [
+          {
+            "bond": [
+              2,
+              0
+            ],
+            "torsion_deg": -1.446131,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              4,
+              3
+            ],
+            "torsion_deg": 178.903483,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              6,
+              5
+            ],
+            "torsion_deg": 179.231231,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              8,
+              7
+            ],
+            "torsion_deg": -179.683472,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              10,
+              9
+            ],
+            "torsion_deg": -0.102885,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              12,
+              11
+            ],
+            "torsion_deg": 179.730854,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              14,
+              13
+            ],
+            "torsion_deg": -179.621365,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              16,
+              15
+            ],
+            "torsion_deg": -179.604825,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              18,
+              17
+            ],
+            "torsion_deg": 179.640776,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              20,
+              19
+            ],
+            "torsion_deg": -179.021955,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              24,
+              23
+            ],
+            "torsion_deg": -179.664597,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              26,
+              25
+            ],
+            "torsion_deg": -178.624158,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              28,
+              27
+            ],
+            "torsion_deg": 175.072109,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              29,
+              1
+            ],
+            "torsion_deg": -174.533796,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              34,
+              33
+            ],
+            "torsion_deg": 179.469478,
+            "geometry_label": "E"
+          }
+        ]
+      }
+    },
+    {
+      "N": 32,
+      "series": "4n",
+      "species": "D",
+      "formula": "C35H36",
+      "ring_sizes": [
+        5,
+        32
+      ],
+      "canonical_smiles": "C1=CC=CC=CC=CC=CC2=C(C=CC=CC=CC=CC=CCCC=CC=CC=CC=C1)C=CC2",
+      "graph_sha256": "e62a4e14be3da2592cf3d3f33f216255470c7aadb217e6736ac73ee206dfd003",
+      "primary": {
+        "path": "N32_D_source.xyz",
+        "method": "published_B3LYP_6-31Gd_unconstrained",
+        "sha256": "22a813df7d84463be0673ef3ab3419e00399e033ede9320a38e8528578005a29",
+        "parent_or_source_sha256": "2f766812e65d2a9e46747f9539e0df21c74140c7f6677b66c1dac15c136ef224",
+        "ez_sequence": [
+          {
+            "bond": [
+              4,
+              3
+            ],
+            "torsion_deg": 177.249406,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              6,
+              5
+            ],
+            "torsion_deg": 178.749523,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              8,
+              7
+            ],
+            "torsion_deg": 179.815829,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              10,
+              9
+            ],
+            "torsion_deg": 0.331374,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              12,
+              11
+            ],
+            "torsion_deg": -179.670252,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              14,
+              13
+            ],
+            "torsion_deg": -179.721495,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              16,
+              15
+            ],
+            "torsion_deg": -179.75148,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              18,
+              17
+            ],
+            "torsion_deg": 179.843749,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              20,
+              19
+            ],
+            "torsion_deg": 179.814722,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              22,
+              21
+            ],
+            "torsion_deg": -0.316793,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              24,
+              23
+            ],
+            "torsion_deg": 179.330467,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              26,
+              25
+            ],
+            "torsion_deg": 179.346234,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              28,
+              27
+            ],
+            "torsion_deg": 178.996887,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              30,
+              29
+            ],
+            "torsion_deg": 178.642327,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              31,
+              1
+            ],
+            "torsion_deg": 177.975604,
+            "geometry_label": "E"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N32_D_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 8,
+        "lowest_prescreen_energy": 77.08933961621494,
+        "sha256": "6528e0e682c95401900df986976cb8bd5dee38e9ee7f0abd5f2cdcd62a6ba682",
+        "ez_sequence": [
+          {
+            "bond": [
+              4,
+              3
+            ],
+            "torsion_deg": 176.659024,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              6,
+              5
+            ],
+            "torsion_deg": 176.790933,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              8,
+              7
+            ],
+            "torsion_deg": 179.137491,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              10,
+              9
+            ],
+            "torsion_deg": 7.843125,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              12,
+              11
+            ],
+            "torsion_deg": -178.172376,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              14,
+              13
+            ],
+            "torsion_deg": -179.215367,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              16,
+              15
+            ],
+            "torsion_deg": 173.677646,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              18,
+              17
+            ],
+            "torsion_deg": 178.644576,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              20,
+              19
+            ],
+            "torsion_deg": 178.493783,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              22,
+              21
+            ],
+            "torsion_deg": 1.581128,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              24,
+              23
+            ],
+            "torsion_deg": -179.022034,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              26,
+              25
+            ],
+            "torsion_deg": -178.415431,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              28,
+              27
+            ],
+            "torsion_deg": -178.628754,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              30,
+              29
+            ],
+            "torsion_deg": -178.628428,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              31,
+              1
+            ],
+            "torsion_deg": -178.310331,
+            "geometry_label": "E"
+          }
+        ]
+      }
+    },
+    {
+      "N": 34,
+      "series": "4n+2",
+      "species": "A",
+      "formula": "C37H36",
+      "ring_sizes": [
+        5,
+        34
+      ],
+      "canonical_smiles": "C1=Cc2ccccccccccccccccccccccccccccccccc2C1",
+      "graph_sha256": "994cbac1021cb45c694b5aca6d6339498c9c1a842704a6d22842be6ffcba3b73",
+      "primary": {
+        "path": "N34_A_source.xyz",
+        "method": "published_B3LYP_6-31Gd_unconstrained",
+        "sha256": "ef44fed13d5c4615dbf380f229ad166a370b679bc0f166653484c84e51a454bc",
+        "parent_or_source_sha256": "1230602e530bd7c703abb374d31356a697cdfa10ceb27a737c828f7b0b9351aa",
+        "ez_sequence": [
+          {
+            "bond": [
+              1,
+              0
+            ],
+            "torsion_deg": -180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              3,
+              2
+            ],
+            "torsion_deg": -180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              5,
+              4
+            ],
+            "torsion_deg": -180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              7,
+              6
+            ],
+            "torsion_deg": -180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              10,
+              9
+            ],
+            "torsion_deg": -0.0,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              12,
+              11
+            ],
+            "torsion_deg": -180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              14,
+              13
+            ],
+            "torsion_deg": -0.0,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              16,
+              15
+            ],
+            "torsion_deg": 180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              18,
+              17
+            ],
+            "torsion_deg": 180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              20,
+              19
+            ],
+            "torsion_deg": -180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              22,
+              21
+            ],
+            "torsion_deg": -180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              24,
+              23
+            ],
+            "torsion_deg": -180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              26,
+              25
+            ],
+            "torsion_deg": -0.0,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              28,
+              27
+            ],
+            "torsion_deg": -180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              30,
+              29
+            ],
+            "torsion_deg": -180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              32,
+              31
+            ],
+            "torsion_deg": 180.0,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              33,
+              8
+            ],
+            "torsion_deg": -180.0,
+            "geometry_label": "E"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N34_A_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 8,
+        "lowest_prescreen_energy": 302.06972371579354,
+        "sha256": "36c5e42fc5a4649f418e1720275fa13695f8b88ff268689057544994fdef5a64",
+        "ez_sequence": [
+          {
+            "bond": [
+              1,
+              0
+            ],
+            "torsion_deg": -161.172683,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              3,
+              2
+            ],
+            "torsion_deg": 17.181316,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              5,
+              4
+            ],
+            "torsion_deg": 27.662873,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              7,
+              6
+            ],
+            "torsion_deg": 179.246018,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              10,
+              9
+            ],
+            "torsion_deg": 179.062804,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              12,
+              11
+            ],
+            "torsion_deg": -9.656099,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              14,
+              13
+            ],
+            "torsion_deg": -10.502642,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              16,
+              15
+            ],
+            "torsion_deg": 164.481915,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              18,
+              17
+            ],
+            "torsion_deg": -161.859874,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              20,
+              19
+            ],
+            "torsion_deg": -174.176994,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              22,
+              21
+            ],
+            "torsion_deg": -174.747213,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              24,
+              23
+            ],
+            "torsion_deg": 27.58424,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              26,
+              25
+            ],
+            "torsion_deg": 166.951501,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              28,
+              27
+            ],
+            "torsion_deg": -173.137412,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              30,
+              29
+            ],
+            "torsion_deg": 179.508855,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              32,
+              31
+            ],
+            "torsion_deg": 26.905795,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              33,
+              8
+            ],
+            "torsion_deg": -174.139887,
+            "geometry_label": "E"
+          }
+        ]
+      }
+    },
+    {
+      "N": 34,
+      "series": "4n+2",
+      "species": "B",
+      "formula": "C37H38",
+      "ring_sizes": [
+        5,
+        34
+      ],
+      "canonical_smiles": "C1=CC=CC=CC=CC=CCCC=CC=CC=CC=CC=CC2=CCC=C2C=CC=CC=CC=CC=C1",
+      "graph_sha256": "7222b6502c9f4e63fecd2dec5bfbeb4dfaa6dc0083459d68564a216b7cf6f812",
+      "primary": {
+        "path": "N34_B_source.xyz",
+        "method": "published_B3LYP_6-31Gd_unconstrained",
+        "sha256": "a1034395a48b143f3d8c57787b34017c97edc95c47a27013aec96a9823e803a4",
+        "parent_or_source_sha256": "d8cf5a97f86c41e44e8e6486a2a593b4daf888854aeac531b7221b905c5f98c3",
+        "ez_sequence": [
+          {
+            "bond": [
+              3,
+              0
+            ],
+            "torsion_deg": -0.130714,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              5,
+              2
+            ],
+            "torsion_deg": -179.536553,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              7,
+              4
+            ],
+            "torsion_deg": -179.420984,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              9,
+              8
+            ],
+            "torsion_deg": 177.409778,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              10,
+              6
+            ],
+            "torsion_deg": -179.857393,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              11,
+              1
+            ],
+            "torsion_deg": 179.71277,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              13,
+              12
+            ],
+            "torsion_deg": -179.466446,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              15,
+              14
+            ],
+            "torsion_deg": -177.123663,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              17,
+              16
+            ],
+            "torsion_deg": -178.137424,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              21,
+              20
+            ],
+            "torsion_deg": -178.409538,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              23,
+              22
+            ],
+            "torsion_deg": -178.275811,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              25,
+              24
+            ],
+            "torsion_deg": -178.370187,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              27,
+              26
+            ],
+            "torsion_deg": 177.847871,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              29,
+              28
+            ],
+            "torsion_deg": 179.824836,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              33,
+              32
+            ],
+            "torsion_deg": 179.750803,
+            "geometry_label": "E"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N34_B_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 8,
+        "lowest_prescreen_energy": 69.85832602476916,
+        "sha256": "e5a431faa1d630975d17c7918f4332921fd42c79cda2153e5edd4854b4b4ba76",
+        "ez_sequence": [
+          {
+            "bond": [
+              3,
+              0
+            ],
+            "torsion_deg": -1.971981,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              5,
+              2
+            ],
+            "torsion_deg": 177.034194,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              7,
+              4
+            ],
+            "torsion_deg": -169.749947,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              9,
+              8
+            ],
+            "torsion_deg": 174.435256,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              10,
+              6
+            ],
+            "torsion_deg": 175.982498,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              11,
+              1
+            ],
+            "torsion_deg": 179.539347,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              13,
+              12
+            ],
+            "torsion_deg": 179.923281,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              15,
+              14
+            ],
+            "torsion_deg": 179.505011,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              17,
+              16
+            ],
+            "torsion_deg": 176.456834,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              21,
+              20
+            ],
+            "torsion_deg": 179.191539,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              23,
+              22
+            ],
+            "torsion_deg": 178.286526,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              25,
+              24
+            ],
+            "torsion_deg": -177.815679,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              27,
+              26
+            ],
+            "torsion_deg": -175.933878,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              29,
+              28
+            ],
+            "torsion_deg": -175.113946,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              33,
+              32
+            ],
+            "torsion_deg": 174.659887,
+            "geometry_label": "E"
+          }
+        ]
+      }
+    },
+    {
+      "N": 34,
+      "series": "4n+2",
+      "species": "C",
+      "formula": "C37H36",
+      "ring_sizes": [
+        5,
+        34
+      ],
+      "canonical_smiles": "C1=c2ccccccccccccccccccccccccccccccccc2=CC1",
+      "graph_sha256": "969b8ab912bceaa85532fa364e750c57bb9d07b1988ae7e1cdec3979cedb06a4",
+      "primary": {
+        "path": "N34_C_source.xyz",
+        "method": "published_B3LYP_6-31Gd_unconstrained",
+        "sha256": "913306f889fa26792ba2adda1d240b8cf7c3bfc4b42bbfb460cf5bdf127530a3",
+        "parent_or_source_sha256": "7d0fe27372244d497416afd80c3168b68491f600877aee628b07ea89e9329367",
+        "ez_sequence": [
+          {
+            "bond": [
+              3,
+              0
+            ],
+            "torsion_deg": -0.242299,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              5,
+              2
+            ],
+            "torsion_deg": -179.487939,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              7,
+              4
+            ],
+            "torsion_deg": -179.239157,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              9,
+              8
+            ],
+            "torsion_deg": 177.453475,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              10,
+              6
+            ],
+            "torsion_deg": -179.592033,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              11,
+              1
+            ],
+            "torsion_deg": 179.636866,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              13,
+              12
+            ],
+            "torsion_deg": 179.785947,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              15,
+              14
+            ],
+            "torsion_deg": 179.785947,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              17,
+              16
+            ],
+            "torsion_deg": 179.636866,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              19,
+              18
+            ],
+            "torsion_deg": -0.242299,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              21,
+              20
+            ],
+            "torsion_deg": -179.487939,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              23,
+              22
+            ],
+            "torsion_deg": -179.239157,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              25,
+              24
+            ],
+            "torsion_deg": -179.592033,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              27,
+              26
+            ],
+            "torsion_deg": 177.453475,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              29,
+              28
+            ],
+            "torsion_deg": 179.667809,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              33,
+              32
+            ],
+            "torsion_deg": 179.667809,
+            "geometry_label": "E"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N34_C_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 8,
+        "lowest_prescreen_energy": 95.34008812363598,
+        "sha256": "444f90a3aed428cd2c5777de70b456cdfc2dd855b5b9e64b07d06397c75e1126",
+        "ez_sequence": [
+          {
+            "bond": [
+              3,
+              0
+            ],
+            "torsion_deg": 3.565443,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              5,
+              2
+            ],
+            "torsion_deg": 3.605036,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              7,
+              4
+            ],
+            "torsion_deg": -177.72425,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              9,
+              8
+            ],
+            "torsion_deg": -3.110948,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              10,
+              6
+            ],
+            "torsion_deg": 178.580481,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              11,
+              1
+            ],
+            "torsion_deg": -2.107185,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              13,
+              12
+            ],
+            "torsion_deg": 1.67166,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              15,
+              14
+            ],
+            "torsion_deg": 0.21046,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              17,
+              16
+            ],
+            "torsion_deg": -1.474545,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              19,
+              18
+            ],
+            "torsion_deg": -179.503178,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              21,
+              20
+            ],
+            "torsion_deg": -0.7026,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              23,
+              22
+            ],
+            "torsion_deg": 178.269416,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              25,
+              24
+            ],
+            "torsion_deg": -1.933121,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              27,
+              26
+            ],
+            "torsion_deg": 178.371625,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              29,
+              28
+            ],
+            "torsion_deg": 1.200541,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              33,
+              32
+            ],
+            "torsion_deg": -4.033271,
+            "geometry_label": "Z"
+          }
+        ]
+      }
+    },
+    {
+      "N": 34,
+      "series": "4n+2",
+      "species": "D",
+      "formula": "C37H38",
+      "ring_sizes": [
+        5,
+        34
+      ],
+      "canonical_smiles": "C1=CC=CC=CC=CC=CCCC=CC=CC=CC=CC=CC2=C(C=CC=CC=CC=CC=C1)CC=C2",
+      "graph_sha256": "29b0305d59997a4e441a086c2ac77d01dd0b5b52204070d2a4e16678305736fe",
+      "primary": {
+        "path": "N34_D_source.xyz",
+        "method": "published_B3LYP_6-31Gd_unconstrained",
+        "sha256": "d078ab55ca2202ac2449958687595dc7bf8fe2a067824094a020a71fc4f9eaef",
+        "parent_or_source_sha256": "a274e19c532f04b6be49a8da595df258cce65d214c89f17c2a67fa5352137a4a",
+        "ez_sequence": [
+          {
+            "bond": [
+              5,
+              2
+            ],
+            "torsion_deg": -178.874843,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              7,
+              4
+            ],
+            "torsion_deg": -178.602473,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              9,
+              8
+            ],
+            "torsion_deg": -179.698335,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              10,
+              6
+            ],
+            "torsion_deg": -178.135132,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              11,
+              1
+            ],
+            "torsion_deg": -178.116507,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              13,
+              12
+            ],
+            "torsion_deg": -177.289447,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              15,
+              14
+            ],
+            "torsion_deg": -179.506374,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              17,
+              16
+            ],
+            "torsion_deg": 179.866865,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              19,
+              18
+            ],
+            "torsion_deg": 0.091269,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              21,
+              20
+            ],
+            "torsion_deg": -179.826985,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              23,
+              22
+            ],
+            "torsion_deg": -179.878394,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              25,
+              24
+            ],
+            "torsion_deg": -179.867752,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              27,
+              26
+            ],
+            "torsion_deg": -179.629024,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              29,
+              28
+            ],
+            "torsion_deg": -179.630439,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              31,
+              30
+            ],
+            "torsion_deg": 0.37625,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              33,
+              32
+            ],
+            "torsion_deg": 179.905652,
+            "geometry_label": "E"
+          }
+        ]
+      },
+      "secondary": {
+        "path": "N34_D_etkdg.xyz",
+        "method": "ETKDGv3+MMFF94s",
+        "attempted": 8,
+        "embedded": 8,
+        "lowest_prescreen_energy": 80.39538414058407,
+        "sha256": "c75112ccc6c279ab61e43fdbb352048c0fe6b4970943c628fe87b6126f79a90a",
+        "ez_sequence": [
+          {
+            "bond": [
+              5,
+              2
+            ],
+            "torsion_deg": -176.939738,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              7,
+              4
+            ],
+            "torsion_deg": 176.221513,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              9,
+              8
+            ],
+            "torsion_deg": 173.420921,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              10,
+              6
+            ],
+            "torsion_deg": 174.068356,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              11,
+              1
+            ],
+            "torsion_deg": -176.264529,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              13,
+              12
+            ],
+            "torsion_deg": -178.963172,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              15,
+              14
+            ],
+            "torsion_deg": 179.823172,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              17,
+              16
+            ],
+            "torsion_deg": -178.626001,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              19,
+              18
+            ],
+            "torsion_deg": -2.503924,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              21,
+              20
+            ],
+            "torsion_deg": -178.517102,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              23,
+              22
+            ],
+            "torsion_deg": -177.049904,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              25,
+              24
+            ],
+            "torsion_deg": -174.421921,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              27,
+              26
+            ],
+            "torsion_deg": 174.551815,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              29,
+              28
+            ],
+            "torsion_deg": -177.289837,
+            "geometry_label": "E"
+          },
+          {
+            "bond": [
+              31,
+              30
+            ],
+            "torsion_deg": 1.529664,
+            "geometry_label": "Z"
+          },
+          {
+            "bond": [
+              33,
+              32
+            ],
+            "torsion_deg": 173.081471,
+            "geometry_label": "E"
+          }
+        ]
+      }
+    }
+  ],
+  "record_count": 24,
+  "elapsed_seconds": 7.653480053000003
+}

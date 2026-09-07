@@ -1,0 +1,1 @@
+{"action": "RUN_REGISTERED_REPLAY", "output": "result.json", "protocol_check": "manifest inspected: schema science-v0.3-wp5, ref energy absent, files present with hashes; invoking registered runner", "runner": "runner.py"}

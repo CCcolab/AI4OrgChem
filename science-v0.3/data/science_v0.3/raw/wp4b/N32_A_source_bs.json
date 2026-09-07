@@ -1,0 +1,56 @@
+{
+  "schema_version": "science-v0.3-wp4b-bs-check-1",
+  "N": 32,
+  "species": "A",
+  "geometry_role": "published_source_geometry",
+  "input": "${PROJECT_ROOT}/data/science_v0.3/inputs/wp4b/N32_A_source.xyz",
+  "input_sha256": "1ff8d22f0073ad17454ab479e605d65f8617e2834ac0b9cf977c7b16e2793c5f",
+  "program": "PySCF",
+  "program_version": "2.14.0",
+  "python": "3.12.13",
+  "method": "B3LYPG/6-31G(d)",
+  "grid": {
+    "radial": 75,
+    "angular": 302,
+    "pruning": "nwchem_prune"
+  },
+  "rks_energy_hartree": -1353.979218464829,
+  "rks_converged": true,
+  "trials": [
+    {
+      "theta_rad": 0.1,
+      "converged": true,
+      "energy_hartree": -1353.9792184719395,
+      "delta_from_rks_kcal_mol": -4.461861925142617e-06,
+      "s2": 7.230502617971979e-06,
+      "effective_multiplicity": 1.0000144609006771
+    },
+    {
+      "theta_rad": 0.2,
+      "converged": true,
+      "energy_hartree": -1353.9792184648381,
+      "delta_from_rks_kcal_mol": -5.707165419727062e-09,
+      "s2": 1.061580121586303e-07,
+      "effective_multiplicity": 1.0000002123160017
+    },
+    {
+      "theta_rad": 0.4,
+      "converged": true,
+      "energy_hartree": -1353.9793445836572,
+      "delta_from_rks_kcal_mol": -0.07914075950336515,
+      "s2": 0.23634699618956745,
+      "effective_multiplicity": 1.39477166043703
+    }
+  ],
+  "lowest_converged_uks": {
+    "theta_rad": 0.4,
+    "converged": true,
+    "energy_hartree": -1353.9793445836572,
+    "delta_from_rks_kcal_mol": -0.07914075950336515,
+    "s2": 0.23634699618956745,
+    "effective_multiplicity": 1.39477166043703
+  },
+  "interpretation_rule": "A lower converged UKS solution with nonzero <S^2> flags closed-shell sensitivity; no automatic aromaticity label follows.",
+  "elapsed_seconds": 5507.370971742999,
+  "threads": 4
+}

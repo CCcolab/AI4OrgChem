@@ -1,0 +1,56 @@
+{
+  "schema_version": "science-v0.3-release-status-1",
+  "version": "0.3.0",
+  "status": "RELEASE_PACKAGE_READY",
+  "release_date": "2026-09-08",
+  "v0_1_v0_2_mutated": false,
+  "checks": {
+    "WP1": true,
+    "WP2": true,
+    "WP3": true,
+    "WP4-A": true,
+    "WP4-B": true,
+    "WP5": true,
+    "WP5_EXTERNAL_CLEAN_REPLAY": true,
+    "WP5_M2": true
+  },
+  "records": {
+    "WP1": {
+      "path": "data/science_v0.2/decisions/wp1/gate_v2_1_decision.json",
+      "sha256": "53dac34d3d372fd3bf34ead173c86188c1521ebda7afb7052a23245789a8c5a0",
+      "status": "PASS_WITH_METHOD_SENSITIVITY"
+    },
+    "WP2": {
+      "path": "data/science_v0.3/decisions/wp2/gate_v2_2_open_lane_decision.json",
+      "sha256": "8e001906bb140b9793cdfcd9c14b3349a882562cfa4897fbaad1152b0994629d",
+      "status": "PASSED_OPEN_THREE_PROGRAM"
+    },
+    "WP3": {
+      "path": "data/science_v0.2/decisions/wp3/gate_v2_3_decision.json",
+      "sha256": "44b63569936423996362dd8ce1d9d90ff12849fb8329378b6206ad32f82ca2af",
+      "status": "PASS"
+    },
+    "WP4-A": {
+      "path": "data/science_v0.3/decisions/wp4a/gate_v2_4a_decision.json",
+      "sha256": "d60a27c8ac23b8513373a690f9caa1c3e17f81ffa46bb7dac635981dad84b2a4",
+      "status": "CLOSED_SOURCE_ALIGNED_R1"
+    },
+    "WP4-B": {
+      "path": "data/science_v0.3/decisions/wp4b/gate_v2_4p_decision.json",
+      "sha256": "49ce465a9ab47e91dd16f45ffbbd72a133fb52358c16f8092d2d7ad878e07b51",
+      "status": "PASSED"
+    },
+    "WP5": {
+      "path": "data/science_v0.3/decisions/wp5/gate_v2_5_decision.json",
+      "sha256": "653dca1af8b42c1615dc3692684b9356e47c6ffdf7f1323fa031e0f21b620bca",
+      "status": "PASSED"
+    }
+  },
+  "scientific_scope_statement": "V0.3 closes the seven preregistered enhancement tasks; evidence relations and estimator boundaries remain explicit and no claim is generalized beyond the tested domains.",
+  "local_package_review": "PASSED",
+  "remote_tag_created": false,
+  "github_release_created": false,
+  "post_tag_clean_clone_verified": false,
+  "staging_path": "github-release/AI4OrgChem/science-v0.3",
+  "staged_file_count": 280
+}

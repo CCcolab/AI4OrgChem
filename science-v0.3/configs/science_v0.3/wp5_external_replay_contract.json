@@ -1,0 +1,51 @@
+{
+  "schema_version": "science-v0.3-wp5-external-replay-contract-1",
+  "status": "FROZEN_BLOCKED_BY_GATE_V2_4P",
+  "work_package": "WP5",
+  "purpose": "Independent external-Agent replay of one affordable SAME_ESTIMAND quantum-chemistry endpoint from a sealed clean workspace.",
+  "prerequisite": {
+    "decision": "data/science_v0.3/decisions/wp4b/gate_v2_4p_decision.json",
+    "required_status": "PASSED"
+  },
+  "target": {
+    "anchor_id": "WP2-P09-BENZENE-G-E",
+    "claim": "P09",
+    "relation_type": "SAME_ESTIMAND",
+    "endpoint": "B3LYPG/6-31G(d) total electronic energy at the frozen benzene geometry",
+    "reference_record": "data/science_v0.3/raw/wp2/anchors/WP2-P09-BENZENE-G-E.json",
+    "geometry_source": "data/processed/p09_benzene_G_DSI3_smoke_v0.1.json",
+    "comparison_tolerance_hartree": 5e-6
+  },
+  "blindness": {
+    "sealed_bundle_excludes_reference_energy": true,
+    "external_agent_receives_only_protocol_input_hashes_and_allowed_action_schema": true,
+    "comparison_occurs_only_after_result_hash_is_frozen": true
+  },
+  "agent": {
+    "provider_failover": [
+      {"provider": "DeepSeek", "model": "deepseek-v4-flash"},
+      {"provider": "MiniMax", "model": "MiniMax-M3.0"},
+      {"provider": "Qwen", "model": "qwen-plus"}
+    ],
+    "generated_shell_commands_are_forbidden": true,
+    "allowed_action": "RUN_REGISTERED_REPLAY"
+  },
+  "environment": {
+    "name": "ai4orgchem-v03-replay",
+    "platform": "WSL2 Ubuntu-24.04",
+    "python": "3.12",
+    "pyscf": "2.14.0",
+    "isolation": "unshare user+mount+network namespace; /mnt replaced by private tmpfs during calculation",
+    "network_during_quantum_calculation": "DENY",
+    "full_repository_mounted": false
+  },
+  "gate_v2_5": {
+    "required_replay_status": "EXTERNAL_CLEAN_REPLAY",
+    "required_agent_maturity": "M2",
+    "scientific_grade_is_not_modified": true,
+    "requires_bundle_schema_pass": true,
+    "requires_sensitive_information_scan_pass": true,
+    "requires_converged_quantum_result": true,
+    "requires_reference_comparison_pass": true
+  }
+}

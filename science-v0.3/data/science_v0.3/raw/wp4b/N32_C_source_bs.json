@@ -1,0 +1,41 @@
+{
+  "schema_version": "science-v0.3-wp4b-bs-check-1",
+  "N": 32,
+  "species": "C",
+  "geometry_role": "published_source_geometry",
+  "input": "${PROJECT_ROOT}/data/science_v0.3/inputs/wp4b/N32_C_source.xyz",
+  "input_sha256": "893095882ab52f87f4ea3b77d4c4a8abd9b573b9974c6812939dba0b02098312",
+  "program": "PySCF",
+  "program_version": "2.14.0",
+  "python": "3.12.13",
+  "method": "B3LYPG/6-31G(d)",
+  "grid": {
+    "radial": 75,
+    "angular": 302,
+    "pruning": "nwchem_prune"
+  },
+  "rks_energy_hartree": -1353.96605489904,
+  "rks_converged": true,
+  "trials": [
+    {
+      "theta_rad": 0.4,
+      "converged": true,
+      "energy_hartree": -1353.9660548973138,
+      "delta_from_rks_kcal_mol": 1.0832199966641964e-06,
+      "s2": 7.164510549273473e-07,
+      "effective_multiplicity": 1.0000014329010833
+    }
+  ],
+  "initialization_policy": "N16: 0.10/0.20/0.40 rad; N32: strongest registered 0.40 rad perturbation",
+  "lowest_converged_uks": {
+    "theta_rad": 0.4,
+    "converged": true,
+    "energy_hartree": -1353.9660548973138,
+    "delta_from_rks_kcal_mol": 1.0832199966641964e-06,
+    "s2": 7.164510549273473e-07,
+    "effective_multiplicity": 1.0000014329010833
+  },
+  "interpretation_rule": "A lower converged UKS solution with nonzero <S^2> flags closed-shell sensitivity; no automatic aromaticity label follows.",
+  "elapsed_seconds": 2211.0105881750005,
+  "threads": 4
+}

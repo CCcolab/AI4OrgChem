@@ -1,0 +1,26 @@
+{
+  "schema_version": "science-v0.3-wp4b-conformer-candidate-1",
+  "N": 34,
+  "series": "4n+2",
+  "species": "B",
+  "conformer_source": "etkdg",
+  "input": "${PROJECT_ROOT}/data/science_v0.3/inputs/wp4b/N34_B_etkdg.xyz",
+  "input_sha256": "e5a431faa1d630975d17c7918f4332921fd42c79cda2153e5edd4854b4b4ba76",
+  "program": "PySCF",
+  "program_version": "2.14.0",
+  "method": "B3LYPG/6-31G(d)",
+  "geometry_acceleration": "GFN2-xTB preopt + density-fitted B3LYPG/6-31G(d) 50x194 optimization",
+  "final_grid": {
+    "radial": 75,
+    "angular": 302,
+    "pruning": "nwchem_prune"
+  },
+  "optimization_converged": true,
+  "resumed_from_optimized_checkpoint": false,
+  "scf_converged": true,
+  "electronic_hartree": -1432.5563999086871,
+  "optimized_xyz": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N34_B_etkdg.optimized.xyz",
+  "frequency_status": "NOT_RUN_CONFORMER_SCREEN",
+  "elapsed_seconds": 14323.622323597,
+  "threads": 4
+}

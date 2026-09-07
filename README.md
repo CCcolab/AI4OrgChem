@@ -17,7 +17,7 @@ AI4OrgChem is an **AI for Science (AI4S) Agent** for independent computational r
 
 > **Science V0.2:** [the self-contained evidence package](science-v0.2/README.md) adds completed WP1 cyclobutadiene multireference evidence and WP3 benzene-mechanism intervention, an auditable WP2 backend-contract failure, an explicit unresolved WP4 outcome, and an internal clean evidence replay. The frozen V0.1 P01-P14 classifications are unchanged.
 
-> **Post-V0.2 WP2 update:** [Science V0.3 WP2 incremental evidence](science-v0.3/README.md) closes the open-source cross-program reproducibility question across PySCF, Psi4, and NWChem: 8/8 frozen anchors and 2/2 relative-energy pairs pass. The historical ORCA-specific lane remains unexecuted, and no V0.1 proposition classification or V0.2 artifact is changed.
+> **Science V0.3.0 scientific closure:** [the reviewed V0.3 package](science-v0.3/README.md) closes seven ordered enhancement tasks: multireference and mechanism evidence, 8/8 open-three-program anchors plus 2/2 relative-energy pairs, separate source-aligned CESE and physical-state 0 K ASE branches, and an external clean Agent replay at M2. It does not change P01-P14, merge incomparable estimands, claim a universal annulene-size law, or represent the unexecuted ORCA-specific lane as complete. The local package is ready; the final commit, remote tag/release, and post-tag clean-clone verification remain publication actions.
 
 ## Why this project exists
 
@@ -40,7 +40,7 @@ Representative frozen results are:
 | Technically valid LFMO pi-pi endpoints | 11/11 in the destabilizing direction |
 | GL-defined butadiene conjugation energy | +1.575676 kcal/mol |
 | Cyclobutadiene ADE | +53.822467 kcal/mol |
-| Benzene ESE | -37.412764 kcal/mol |
+| Benzene ESE | -37.412764 kcal/mol (monograph: -36.3; absolute difference 1.112764, about 3.07%) |
 | Strained-aromatic C12H6 endpoint | +67.086899 kcal/mol |
 
 These results support a bounded methodological conclusion: several textbook heuristics do not automatically provide universally sufficient mechanistic explanations. They do **not** establish that traditional organic chemistry is globally wrong, do not create a universal opposite law of conjugative destabilization, and do not constitute institutional certification of the monograph.
@@ -82,7 +82,7 @@ The dataset is too small for industrial or universal molecular generalization. D
 | [`reproducibility/`](reproducibility/README.md) | Runtime instructions and WSL 2 platform boundaries |
 | [`figures/`](figures/README.md) | Project-authored overview figure |
 | [`science-v0.2/`](science-v0.2/README.md) | Self-contained V0.2 configurations, selected machine results, decisions, reports, rebuild scripts, tests, and hashes |
-| [`science-v0.3/`](science-v0.3/README.md) | Incremental WP2 open three-program reproducibility evidence; preserves V0.1 and V0.2 unchanged |
+| [`science-v0.3/`](science-v0.3/README.md) | Reviewed seven-work-package V0.3 scientific-closure candidate; preserves V0.1, V0.2, and P01-P14 unchanged |
 | [`manifests/`](manifests/FILE_INVENTORY.md) | File inventory and SHA-256 release manifest |
 
 ## Detailed computation guide (WSL 2) / 详细计算介绍

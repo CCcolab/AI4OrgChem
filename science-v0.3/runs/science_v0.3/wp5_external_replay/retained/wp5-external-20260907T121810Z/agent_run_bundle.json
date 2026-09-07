@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "run_id": "wp5-external-20260907T121810Z",
+  "model": {
+    "provider": "DeepSeek",
+    "model_id": "deepseek-v4-flash",
+    "version_or_date": "2026-09-07",
+    "reasoning_setting": "temperature=0"
+  },
+  "prompt_record": {
+    "system_prompt_sha256": "fa67f272ca14d6c592cbf73b226879a95cf1bacc74e6927d5755d0821d083b8b",
+    "task_prompt_sha256": "6eab4ef443424da44088c1baa92c080549cde483ab685f30325de5d18e6ff2f2",
+    "public_summary": "External model inspected a sealed no-target-value manifest and selected the only registered replay action.",
+    "sensitive_text_stored": false
+  },
+  "tool_calls": [
+    {
+      "timestamp": "2026-09-07T12:18:14.202867+00:00",
+      "action": "request sealed replay plan from DeepSeek/deepseek-v4-flash",
+      "exit_code": 0,
+      "input_sha256": "36d6610a5a538231f59c7f288dc7f0d482290093426541a1b3244b50fd0566ba",
+      "output_sha256": "29e4afc46f85178f63a7d61bf93c6ad92f17a93151592f68b8e014e207dc9c2a"
+    }
+  ],
+  "commands": [
+    {
+      "timestamp": "2026-09-07T12:18:14.203117+00:00",
+      "action": "execute allowlisted runner in unshare network/mount namespace with the project mount hidden",
+      "working_directory": "/tmp/wp5-external-20260907T121810Z",
+      "exit_code": 0,
+      "input_sha256": "9f676dd1a88ffafc6ad2d6752bd3edb4381314d305082c1984c5d1656b77a3da",
+      "output_sha256": "3592b61b14a0e5b22496d195a67f916eaa45acdd6614bb3157be9a6bd9f35166"
+    }
+  ],
+  "patches": [],
+  "human_interventions": [
+    {
+      "timestamp": "2026-09-07T12:18:42.879711+00:00",
+      "action": "User authorized sequential WP4-B, WP5 and WP6 execution",
+      "exit_code": null
+    }
+  ],
+  "failures_and_retries": [],
+  "evidence_graph": [
+    {
+      "path": "runs/science_v0.3/wp5_external_replay/retained/wp5-external-20260907T121810Z/manifest.json",
+      "sha256": "b4747b59f6cc41f131f15d4fda6be4ff0b28f9d8e9120dd0648322e9ed78181d",
+      "role": "sealed_input_manifest"
+    },
+    {
+      "path": "runs/science_v0.3/wp5_external_replay/retained/wp5-external-20260907T121810Z/external_agent_plan.json",
+      "sha256": "0a9916f70599f918cd77a50405f906f34a9102acafa2dcb47b60982b5ca6927b",
+      "role": "external_agent_plan"
+    },
+    {
+      "path": "runs/science_v0.3/wp5_external_replay/retained/wp5-external-20260907T121810Z/result.json",
+      "sha256": "d431ddeee21eeed526fbdae3a7d87a727de7dcbdd2cddb2e2586726c20375040",
+      "role": "pre_unblind_quantum_result"
+    }
+  ],
+  "environment": {
+    "lock_path": "locks/science_v0.3/ai4orgchem-v03-replay.explicit.txt",
+    "lock_sha256": "ba24bca783d08f0fe1b3c61ef05e1a3c99d156e83bbd4fd3fb9f786383d84013"
+  },
+  "redaction_scan": {
+    "status": "PASS",
+    "scanner": "wp5-local-pattern-scan-v1",
+    "findings": []
+  }
+}
