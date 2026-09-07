@@ -750,8 +750,8 @@
     {
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
-      "bytes": 85571,
-      "sha256": "4354b9c61adbbdc4dfc72fbe1924f39dc16780b4337f5694898909af473fa9b2"
+      "bytes": 85572,
+      "sha256": "3a1586891f3a1f3b470c91086bc5945f596ae3d6555ee414b5d51519e6c6bfe7"
     },
     {
       "path": "manuscripts/P01-P14_evidence_matrix_zh-CN.md",
@@ -828,14 +828,14 @@
     {
       "path": "README.md",
       "artifact_role": "repository-root",
-      "bytes": 22796,
-      "sha256": "e53b0a27fae3aff3696dcefd5df3b115496ab477edd87e3c184ebf6509798708"
+      "bytes": 23149,
+      "sha256": "25d93cfde77b1f19c3bebc2b4c424835657e3e4b97d1098a16b5c87ab4d83445"
     },
     {
       "path": "README_zh-CN.md",
       "artifact_role": "repository-root",
-      "bytes": 9706,
-      "sha256": "649dcea7e0d686f6769e84812a0a83261dc21ba19dc9f153e01e0b9803b6e628"
+      "bytes": 10042,
+      "sha256": "077c216254c5ccb211edbf29a8bd8bd2e071da8a49d5af724c1ee240b2f9cd86"
     },
     {
       "path": "reproducibility/conda-linux-64.explicit.txt",

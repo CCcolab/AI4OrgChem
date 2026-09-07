@@ -15,6 +15,8 @@ AI4OrgChem is an **AI for Science (AI4S) Agent** for independent computational r
 
 > **Release status:** Science Closure Release [`v0.3.0`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0). The associated manuscript has not yet undergone peer review.
 
+> **Download and citation:** GitHub's **Code → Download ZIP** provides a snapshot of the current `main` branch and may change with later maintenance. For reproducible scientific review or citation, download the immutable [`v0.3.0` Release package](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0) and verify its published SHA-256 checksum.
+
 > **Science `v0.2.0`:** [the versioned `v0.2.0` evidence package](science-v0.2/README.md) is retained as a historical release baseline. The frozen `v0.1.x` P01-P14 classifications remain unchanged.
 
 > **Science `v0.3.0` scientific closure:** [the complete `v0.3.0` package](science-v0.3/README.md) closes seven ordered enhancement tasks: multireference and mechanism evidence, 8/8 open-three-program anchors plus 2/2 relative-energy pairs, separate source-aligned CESE and physical-state 0 K ASE branches, and an external clean Agent replay at M2. The final commit, `v0.3.0` tag, GitHub Release, complete ZIP, SHA-256 assets, CI, and post-tag clean-clone verification are complete. It does not change P01-P14, merge incomparable estimands, claim a universal annulene-size law, or represent the unexecuted ORCA-specific lane as complete.
