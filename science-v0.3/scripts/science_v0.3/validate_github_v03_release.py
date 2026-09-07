@@ -51,7 +51,11 @@ def main() -> int:
         assert not PRIVATE.search(text), relative
     status = json.loads((target / "configs/science_v0.3/v0.3_release_status.json").read_text(encoding="utf-8"))
     assert status["version"] == "0.3.0"
-    assert status["status"] in {"RELEASE_PACKAGE_AUTHORIZED_NOT_YET_BUILT", "RELEASE_PACKAGE_READY"}
+    assert status["status"] in {
+        "RELEASE_PACKAGE_AUTHORIZED_NOT_YET_BUILT",
+        "RELEASE_PACKAGE_READY",
+        "COMPLETED_AND_POST_TAG_VERIFIED",
+    }
     assert status["v0_1_v0_2_mutated"] is False
     assert status.get("local_package_review") in {
         "AUTHORIZED_NOT_YET_BUILT",
@@ -59,9 +63,18 @@ def main() -> int:
     }
     if status.get("local_package_review") == "PASSED":
         assert status.get("staged_file_count") == len(actual) + 1
-    assert status.get("remote_tag_created") is False
-    assert status.get("github_release_created") is False
-    assert status.get("post_tag_clean_clone_verified") is False
+    if status["status"] == "COMPLETED_AND_POST_TAG_VERIFIED":
+        assert status.get("remote_tag_created") is True
+        assert status.get("github_release_created") is True
+        assert status.get("post_tag_clean_clone_verified") is True
+        publication = status.get("publication", {})
+        assert publication.get("tag") == "v0.3.0"
+        assert publication.get("tag_commit") == "6f0370e210c6479f947c4a8fe92e8043e1d750e0"
+        assert publication.get("public_download_verified") is True
+    else:
+        assert status.get("remote_tag_created") is False
+        assert status.get("github_release_created") is False
+        assert status.get("post_tag_clean_clone_verified") is False
     required = (
         "docs/releases/science_v0.3/V0.3_RELEASE_NOTES.md",
         "docs/releases/science_v0.3/reports/V0.3_PRE_RELEASE_REVIEW.md",
@@ -77,7 +90,10 @@ def main() -> int:
     assert "因此停止规则尚未满足" not in wp4b_report
     notes = (target / required[0]).read_text(encoding="utf-8")
     assert "does not alter the P01-P14 classification matrix" in notes
-    assert "Remote publication identifiers are intentionally pending" in notes
+    assert (
+        "Remote publication identifiers are intentionally pending" in notes
+        or "COMPLETED_AND_POST_TAG_VERIFIED" in notes
+    )
     print("WP6_V03_RELEASE_VALIDATION_OK")
     return 0
 

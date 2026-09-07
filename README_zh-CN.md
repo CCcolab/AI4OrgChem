@@ -13,11 +13,11 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 
 > **AI辅助研究与工程支持：** **OpenAI Codex（GPT-5.6）**。项目作者身份、科学决策、结果解释和发布责任均由Xiao Chen承担；OpenAI不作为项目作者、科学认证机构、同行评审方或机构背书方。
 
-> **发布状态：** 科学增强版本 `v0.2.0`。相关论文稿尚未经过同行评审。
+> **发布状态：** 科学闭合版本 [`v0.3.0`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0)。相关论文稿尚未经过同行评审。
 
-> **Science V0.2：** [自包含证据包](science-v0.2/README.md)新增已完成的WP1环丁二烯多参考证据和WP3苯机制干预、可审计的WP2后端合同失败、明确未决的WP4状态，以及内部洁净证据重放；已冻结的V0.1 P01–P14十四项判定保持不变。
+> **Science V0.2：** [版本化的`v0.2.0`证据包](science-v0.2/README.md)作为历史发布基线继续保留；冻结的V0.1 P01–P14十四项判定保持不变。
 
-> **Science V0.3.0科学闭合版：** [经复核的V0.3证据包](science-v0.3/README.md)按序闭合七项增强任务，包括多参考与机制证据、开源三程序8/8锚点和2/2相对能量对、相互隔离的source-aligned CESE与physical-state 0 K ASE支路，以及M2外部Agent洁净重放。本版不改写P01-P14、不合并不可比估计量、不宣称普遍轮烯尺寸定律，也不把尚未执行的ORCA专用支路写成已完成。当前本地包已就绪；最终提交、远程标签/Release和标签后洁净克隆复验仍属于发布动作。
+> **Science V0.3.0科学闭合版：** [完整V0.3证据包](science-v0.3/README.md)按序闭合七项增强任务，包括多参考与机制证据、开源三程序8/8锚点和2/2相对能量对、相互隔离的source-aligned CESE与physical-state 0 K ASE支路，以及M2外部Agent洁净重放。最终提交、`v0.3.0`标签、GitHub Release、完整ZIP、SHA-256附件、CI和标签后洁净克隆复验均已完成。本版不改写P01-P14、不合并不可比估计量、不宣称普遍轮烯尺寸定律，也不把尚未执行的ORCA专用支路写成已完成。
 
 ## 项目背景与目标
 
@@ -82,7 +82,7 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 | [`reproducibility/`](reproducibility/README.md) | 复现说明和WSL 2平台边界 |
 | [`figures/`](figures/README.md) | 项目自行生成的总览图 |
 | [`science-v0.2/`](science-v0.2/README.md) | 自包含V0.2配置、精选机器结果、判定、报告、重建脚本、测试与哈希 |
-| [`science-v0.3/`](science-v0.3/README.md) | 经复核的七工作包V0.3科学闭合候选；保持V0.1、V0.2及P01-P14不变 |
+| [`science-v0.3/`](science-v0.3/README.md) | 已发布的七工作包V0.3.0科学闭合包；保持V0.1、V0.2及P01-P14不变 |
 | [`manifests/`](manifests/FILE_INVENTORY.md) | 文件清单和SHA-256清单 |
 
 ## 快速验证
