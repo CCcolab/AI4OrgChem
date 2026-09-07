@@ -9,8 +9,8 @@
     },
     {
       "path": "configs/science_v0.3/v0.3_release_status.json",
-      "bytes": 2103,
-      "sha256": "fa4afaa3c24d9f314488a1eebeb97852378dfe8936528f6c366777f3c9a95ec2"
+      "bytes": 2560,
+      "sha256": "377decd430b09f09919c93c4709d498b1e59ce21c63893635f1d5ef805e87aae"
     },
     {
       "path": "configs/science_v0.3/wp2_open_three_program_contract.json",
@@ -1194,13 +1194,18 @@
     },
     {
       "path": "docs/project/AI4OrgChem_V0.3\u79d1\u5b66\u95ed\u5408\u6267\u884c\u8868.md",
-      "bytes": 1963,
-      "sha256": "e5e724e8f0ec76078486031b91bd606f5903c20e9e85ab9ffa41530e58514639"
+      "bytes": 2000,
+      "sha256": "46fe3bb425bceef1c6c5f9734e9bf05906a9f2aab8cd27034e6546b4cccbc972"
     },
     {
       "path": "docs/releases/science_v0.3/reports/V0.3_PRE_RELEASE_REVIEW.md",
       "bytes": 7178,
       "sha256": "e8a911b7899c5956fb3303e24aa6e07cb912c5e0c5fff0aec064279d5e944da3"
+    },
+    {
+      "path": "docs/releases/science_v0.3/reports/V0.3_PUBLICATION_COMPLETION.md",
+      "bytes": 1856,
+      "sha256": "8970f0c324fe556c785fa6f886d7e2385491b7f520460267b7e1fb9934021c34"
     },
     {
       "path": "docs/releases/science_v0.3/reports/WP2_GATE_V2_2_OPEN_THREE_PROGRAM_REPORT.md",
@@ -1219,8 +1224,8 @@
     },
     {
       "path": "docs/releases/science_v0.3/V0.3_RELEASE_NOTES.md",
-      "bytes": 3726,
-      "sha256": "8803bb0be0fb6d3530a481c023027ef9d44cb90ab479649552cc1c8561e8c20a"
+      "bytes": 3663,
+      "sha256": "f1188ebd7964c92d16d953124ebd7d9042fb4c663a53b7baa134fe9a0737594d"
     },
     {
       "path": "locks/science_v0.3/ai4orgchem-v02-wp2.environment.yml",
@@ -1239,8 +1244,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2370,
-      "sha256": "efe71088261c5ffc06fe06ad112d6b700ca2af85cd4d27a3d2447a9dc0593f0a"
+      "bytes": 2469,
+      "sha256": "2e03d52ead44b51e7237890f1b2a95e9e6da892f3ae6b8f509e3a1c66a455f50"
     },
     {
       "path": "runs/science_v0.3/wp5_external_replay/retained/wp5-external-20260907T121810Z/agent_run_bundle.json",
@@ -1369,8 +1374,8 @@
     },
     {
       "path": "scripts/science_v0.3/validate_github_v03_release.py",
-      "bytes": 3615,
-      "sha256": "8dc326a2263f78706b85edbfaadbede591cc5681fa685fb57b778de26401060a"
+      "bytes": 4278,
+      "sha256": "5cedf41b34eee3457a0d1c86b628357c0ba439e11d60c1f732cc8f44e7e2cb98"
     },
     {
       "path": "scripts/science_v0.3/validate_wp4a_source_aligned.py",

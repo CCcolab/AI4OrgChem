@@ -750,8 +750,8 @@
     {
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
-      "bytes": 85392,
-      "sha256": "8a1afe920200d98435ee61d5f27b8e7071edc6ed3bd6f52164c8ddf670b13383"
+      "bytes": 85571,
+      "sha256": "6de35df2ff17dc96519c0f8b6b45a0c166cc7ef6e508c072960fd0bf9837e6a4"
     },
     {
       "path": "manuscripts/P01-P14_evidence_matrix_zh-CN.md",
@@ -828,14 +828,14 @@
     {
       "path": "README.md",
       "artifact_role": "repository-root",
-      "bytes": 22871,
-      "sha256": "e104092c76d3f665d310cf608d35a15a2ea3f2559f764ea73050f2b1e5b8c6da"
+      "bytes": 22768,
+      "sha256": "48ca85cc5e08d55b950c5ac1cecdca2e9e92db262d466059097ad66d8819eb01"
     },
     {
       "path": "README_zh-CN.md",
       "artifact_role": "repository-root",
-      "bytes": 9737,
-      "sha256": "5e3e669d1f0af0da8749ab20cafc7aed781e078f9686f7b05146ca868a9cde95"
+      "bytes": 9678,
+      "sha256": "46272cdb392c0f7e55d0237a61853d095c1be17731f38bdace503485c6bb6234"
     },
     {
       "path": "reproducibility/conda-linux-64.explicit.txt",
@@ -1308,8 +1308,8 @@
     {
       "path": "science-v0.3/configs/science_v0.3/v0.3_release_status.json",
       "artifact_role": "repository-root",
-      "bytes": 2103,
-      "sha256": "fa4afaa3c24d9f314488a1eebeb97852378dfe8936528f6c366777f3c9a95ec2"
+      "bytes": 2560,
+      "sha256": "377decd430b09f09919c93c4709d498b1e59ce21c63893635f1d5ef805e87aae"
     },
     {
       "path": "science-v0.3/configs/science_v0.3/wp2_open_three_program_contract.json",
@@ -2730,14 +2730,20 @@
     {
       "path": "science-v0.3/docs/project/AI4OrgChem_V0.3科学闭合执行表.md",
       "artifact_role": "repository-root",
-      "bytes": 1963,
-      "sha256": "e5e724e8f0ec76078486031b91bd606f5903c20e9e85ab9ffa41530e58514639"
+      "bytes": 2000,
+      "sha256": "46fe3bb425bceef1c6c5f9734e9bf05906a9f2aab8cd27034e6546b4cccbc972"
     },
     {
       "path": "science-v0.3/docs/releases/science_v0.3/reports/V0.3_PRE_RELEASE_REVIEW.md",
       "artifact_role": "repository-root",
       "bytes": 7178,
       "sha256": "e8a911b7899c5956fb3303e24aa6e07cb912c5e0c5fff0aec064279d5e944da3"
+    },
+    {
+      "path": "science-v0.3/docs/releases/science_v0.3/reports/V0.3_PUBLICATION_COMPLETION.md",
+      "artifact_role": "repository-root",
+      "bytes": 1856,
+      "sha256": "8970f0c324fe556c785fa6f886d7e2385491b7f520460267b7e1fb9934021c34"
     },
     {
       "path": "science-v0.3/docs/releases/science_v0.3/reports/WP2_GATE_V2_2_OPEN_THREE_PROGRAM_REPORT.md",
@@ -2760,8 +2766,8 @@
     {
       "path": "science-v0.3/docs/releases/science_v0.3/V0.3_RELEASE_NOTES.md",
       "artifact_role": "repository-root",
-      "bytes": 3726,
-      "sha256": "8803bb0be0fb6d3530a481c023027ef9d44cb90ab479649552cc1c8561e8c20a"
+      "bytes": 3663,
+      "sha256": "f1188ebd7964c92d16d953124ebd7d9042fb4c663a53b7baa134fe9a0737594d"
     },
     {
       "path": "science-v0.3/locks/science_v0.3/ai4orgchem-v02-wp2.environment.yml",
@@ -2784,8 +2790,8 @@
     {
       "path": "science-v0.3/README.md",
       "artifact_role": "repository-root",
-      "bytes": 2370,
-      "sha256": "efe71088261c5ffc06fe06ad112d6b700ca2af85cd4d27a3d2447a9dc0593f0a"
+      "bytes": 2469,
+      "sha256": "2e03d52ead44b51e7237890f1b2a95e9e6da892f3ae6b8f509e3a1c66a455f50"
     },
     {
       "path": "science-v0.3/runs/science_v0.3/wp5_external_replay/retained/wp5-external-20260907T121810Z/agent_run_bundle.json",
@@ -2940,8 +2946,8 @@
     {
       "path": "science-v0.3/scripts/science_v0.3/validate_github_v03_release.py",
       "artifact_role": "repository-root",
-      "bytes": 3615,
-      "sha256": "8dc326a2263f78706b85edbfaadbede591cc5681fa685fb57b778de26401060a"
+      "bytes": 4278,
+      "sha256": "5cedf41b34eee3457a0d1c86b628357c0ba439e11d60c1f732cc8f44e7e2cb98"
     },
     {
       "path": "science-v0.3/scripts/science_v0.3/validate_wp4a_source_aligned.py",
@@ -2970,8 +2976,8 @@
     {
       "path": "science-v0.3/sha256-manifest.json",
       "artifact_role": "repository-root",
-      "bytes": 51788,
-      "sha256": "1f961e67e7b4ddb80cd278d46ca1dcc34a0014d1062fd313029a128f8a6e1226"
+      "bytes": 51988,
+      "sha256": "8487412b30f39dabe662a60d8c9c6941dbcde14b7cf5b76243171dbba909d3a5"
     },
     {
       "path": "science-v0.3/tests/science_v0.3/test_wp2_open_lane.py",

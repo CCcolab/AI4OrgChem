@@ -13,11 +13,11 @@ AI4OrgChem is an **AI for Science (AI4S) Agent** for independent computational r
 
 > **AI-assisted research and engineering:** **OpenAI Codex (GPT-5.6)**. Project authorship, scientific decisions, interpretations, and publication responsibility remain with Xiao Chen; OpenAI is not presented as a project author, scientific certifier, peer reviewer, or institutional endorser.
 
-> **Release status:** Science Enhancement Release `v0.2.0`. The associated manuscript has not yet undergone peer review.
+> **Release status:** Science Closure Release [`v0.3.0`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0). The associated manuscript has not yet undergone peer review.
 
-> **Science V0.2:** [the self-contained evidence package](science-v0.2/README.md) adds completed WP1 cyclobutadiene multireference evidence and WP3 benzene-mechanism intervention, an auditable WP2 backend-contract failure, an explicit unresolved WP4 outcome, and an internal clean evidence replay. The frozen V0.1 P01-P14 classifications are unchanged.
+> **Science V0.2:** [the versioned `v0.2.0` evidence package](science-v0.2/README.md) is retained as a historical release baseline. The frozen V0.1 P01-P14 classifications remain unchanged.
 
-> **Science V0.3.0 scientific closure:** [the reviewed V0.3 package](science-v0.3/README.md) closes seven ordered enhancement tasks: multireference and mechanism evidence, 8/8 open-three-program anchors plus 2/2 relative-energy pairs, separate source-aligned CESE and physical-state 0 K ASE branches, and an external clean Agent replay at M2. It does not change P01-P14, merge incomparable estimands, claim a universal annulene-size law, or represent the unexecuted ORCA-specific lane as complete. The local package is ready; the final commit, remote tag/release, and post-tag clean-clone verification remain publication actions.
+> **Science V0.3.0 scientific closure:** [the complete V0.3 package](science-v0.3/README.md) closes seven ordered enhancement tasks: multireference and mechanism evidence, 8/8 open-three-program anchors plus 2/2 relative-energy pairs, separate source-aligned CESE and physical-state 0 K ASE branches, and an external clean Agent replay at M2. The final commit, `v0.3.0` tag, GitHub Release, complete ZIP, SHA-256 assets, CI, and post-tag clean-clone verification are complete. It does not change P01-P14, merge incomparable estimands, claim a universal annulene-size law, or represent the unexecuted ORCA-specific lane as complete.
 
 ## Why this project exists
 
@@ -82,7 +82,7 @@ The dataset is too small for industrial or universal molecular generalization. D
 | [`reproducibility/`](reproducibility/README.md) | Runtime instructions and WSL 2 platform boundaries |
 | [`figures/`](figures/README.md) | Project-authored overview figure |
 | [`science-v0.2/`](science-v0.2/README.md) | Self-contained V0.2 configurations, selected machine results, decisions, reports, rebuild scripts, tests, and hashes |
-| [`science-v0.3/`](science-v0.3/README.md) | Reviewed seven-work-package V0.3 scientific-closure candidate; preserves V0.1, V0.2, and P01-P14 unchanged |
+| [`science-v0.3/`](science-v0.3/README.md) | Published seven-work-package V0.3.0 scientific-closure package; preserves V0.1, V0.2, and P01-P14 unchanged |
 | [`manifests/`](manifests/FILE_INVENTORY.md) | File inventory and SHA-256 release manifest |
 
 ## Detailed computation guide (WSL 2) / 详细计算介绍

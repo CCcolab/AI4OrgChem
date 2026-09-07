@@ -12,8 +12,8 @@
 | 4 | WP4-A：source-aligned CESE | 同估计量账本、公式闭合、与WP4-B隔离 | `CLOSED_SOURCE_ALIGNED_R1` | 是 |
 | 5 | WP4-B：physical-state ASE | 8/10、16/18、32/34双来源实际计算、最低构象、0 K ASE、Gate V2-4P | `PASSED`；六点ASE、构象覆盖、最低点、Hessian/ZPVE及BS检查均闭合，机器验证通过 | 是 |
 | 6 | WP5：独立Agent重放 | 外部洁净环境量化重跑、哈希比对、`replay_status`与M2 | `PASSED`；`EXTERNAL_CLEAN_REPLAY / M2`，绝对能量差`2.84e-13 Eh` | 是 |
-| 7 | WP6：V0.3.0整合发布 | 七项状态矩阵、证据清单、复现包、安全检查、Release | `RELEASE_PACKAGE_READY`；280文件本地暂存包、SHA-256清单、安全扫描、23项项目合同测试及3项包内复算测试通过；远程Tag/Release待发布 | 是（仅允许发布） |
+| 7 | WP6：V0.3.0整合发布 | 七项状态矩阵、证据清单、复现包、安全检查、Release | `COMPLETED_AND_POST_TAG_VERIFIED`；PR #12、`v0.3.0`标签、GitHub Release、完整ZIP、SHA-256附件及标签后洁净克隆复验均已完成 | 已完成 |
 
-## 当前唯一执行项
+## 当前执行状态
 
-科学计算和本地发布前全面复核已经结束。当前只允许固定最终提交哈希、创建远程`v0.3.0` Tag与GitHub Release，并执行标签后洁净克隆复验；不得新增分子、尺寸、构象、方法、基组或改写P01-P14既有分类。
+V0.3.0七项工作包及远程发布流程均已完成，目前无待执行项。最终标签提交为`6f0370e210c6479f947c4a8fe92e8043e1d750e0`，公开Release为<https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0>。后续若开展新科学计算，必须作为新版本另行立项；不得回写V0.3.0或改写P01-P14既有分类。

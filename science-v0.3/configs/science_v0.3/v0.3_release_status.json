@@ -1,7 +1,7 @@
 {
   "schema_version": "science-v0.3-release-status-1",
   "version": "0.3.0",
-  "status": "RELEASE_PACKAGE_READY",
+  "status": "COMPLETED_AND_POST_TAG_VERIFIED",
   "release_date": "2026-09-08",
   "v0_1_v0_2_mutated": false,
   "checks": {
@@ -48,9 +48,18 @@
   },
   "scientific_scope_statement": "V0.3 closes the seven preregistered enhancement tasks; evidence relations and estimator boundaries remain explicit and no claim is generalized beyond the tested domains.",
   "local_package_review": "PASSED",
-  "remote_tag_created": false,
-  "github_release_created": false,
-  "post_tag_clean_clone_verified": false,
+  "remote_tag_created": true,
+  "github_release_created": true,
+  "post_tag_clean_clone_verified": true,
   "staging_path": "github-release/AI4OrgChem/science-v0.3",
-  "staged_file_count": 280
+  "staged_file_count": 281,
+  "publication": {
+    "pull_request": "https://github.com/CCcolab/AI4OrgChem/pull/12",
+    "tag": "v0.3.0",
+    "tag_commit": "6f0370e210c6479f947c4a8fe92e8043e1d750e0",
+    "release_url": "https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0",
+    "complete_archive": "AI4OrgChem-v0.3.0-complete.zip",
+    "complete_archive_sha256": "28d920dd30711a4dc3cc5b444fe2ab8c3ee622233dcab038525e080fcef480fa",
+    "public_download_verified": true
+  }
 }

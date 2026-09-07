@@ -8,7 +8,7 @@ Scientific scope: V0.3 does not rewrite P01-P14, does not merge the source-align
 
 科学边界：V0.3不改写P01-P14，不合并source-aligned CESE与physical-state ASE两个估计量，也不宣称普遍轮烯尺寸定律、工业级机器学习泛化、同行评审结论或机构/模型厂商认证。
 
-See `docs/releases/science_v0.3/V0.3_RELEASE_NOTES.md`, `docs/releases/science_v0.3/reports/V0.3_PRE_RELEASE_REVIEW.md`, `configs/science_v0.3/v0.3_release_status.json`, and `sha256-manifest.json` for the release scope, review state, machine decisions, and file hashes.
+See `docs/releases/science_v0.3/V0.3_RELEASE_NOTES.md`, `docs/releases/science_v0.3/reports/V0.3_PRE_RELEASE_REVIEW.md`, `docs/releases/science_v0.3/reports/V0.3_PUBLICATION_COMPLETION.md`, `configs/science_v0.3/v0.3_release_status.json`, and `sha256-manifest.json` for the release scope, pre-release review, publication completion, machine decisions, and file hashes.
 
 ## Fast verification / 快速验证
 
