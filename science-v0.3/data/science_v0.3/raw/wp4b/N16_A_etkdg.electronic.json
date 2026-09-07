@@ -1,0 +1,9 @@
+{
+  "electronic_hartree": -734.6763233196054,
+  "scf_converged": true,
+  "grid": [
+    75,
+    302
+  ],
+  "method": "B3LYPG/6-31G(d)"
+}

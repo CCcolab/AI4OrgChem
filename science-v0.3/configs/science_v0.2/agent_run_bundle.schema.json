@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI4OrgChem Agent run bundle",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "run_id", "model", "prompt_record", "tool_calls", "commands", "patches", "human_interventions", "failures_and_retries", "evidence_graph", "environment", "redaction_scan"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "run_id": {"type": "string", "pattern": "^[A-Za-z0-9._-]+$"},
+    "model": {
+      "type": "object", "additionalProperties": false,
+      "required": ["provider", "model_id", "version_or_date", "reasoning_setting"],
+      "properties": {
+        "provider": {"type": "string"}, "model_id": {"type": "string"},
+        "version_or_date": {"type": "string"}, "reasoning_setting": {"type": "string"}
+      }
+    },
+    "prompt_record": {
+      "type": "object", "additionalProperties": false,
+      "required": ["system_prompt_sha256", "task_prompt_sha256", "public_summary", "sensitive_text_stored"],
+      "properties": {
+        "system_prompt_sha256": {"$ref": "#/$defs/hash"}, "task_prompt_sha256": {"$ref": "#/$defs/hash"},
+        "public_summary": {"type": "string"}, "sensitive_text_stored": {"const": false}
+      }
+    },
+    "tool_calls": {"type": "array", "items": {"$ref": "#/$defs/event"}},
+    "commands": {"type": "array", "items": {"$ref": "#/$defs/event"}},
+    "patches": {"type": "array", "items": {"$ref": "#/$defs/artifact"}},
+    "human_interventions": {"type": "array", "items": {"$ref": "#/$defs/event"}},
+    "failures_and_retries": {"type": "array", "items": {"$ref": "#/$defs/event"}},
+    "evidence_graph": {"type": "array", "items": {"$ref": "#/$defs/artifact"}, "minItems": 1},
+    "environment": {"type": "object", "required": ["lock_path", "lock_sha256"], "properties": {"lock_path": {"type": "string"}, "lock_sha256": {"$ref": "#/$defs/hash"}}},
+    "redaction_scan": {"type": "object", "required": ["status", "scanner", "findings"], "properties": {"status": {"enum": ["PASS", "FAIL"]}, "scanner": {"type": "string"}, "findings": {"type": "array"}}}
+  },
+  "$defs": {
+    "hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "event": {"type": "object", "required": ["timestamp", "action", "exit_code"], "properties": {"timestamp": {"type": "string", "format": "date-time"}, "action": {"type": "string"}, "working_directory": {"type": "string"}, "exit_code": {"type": ["integer", "null"]}, "input_sha256": {"$ref": "#/$defs/hash"}, "output_sha256": {"$ref": "#/$defs/hash"}}},
+    "artifact": {"type": "object", "required": ["path", "sha256"], "properties": {"path": {"type": "string"}, "sha256": {"$ref": "#/$defs/hash"}, "role": {"type": "string"}}}
+  }
+}

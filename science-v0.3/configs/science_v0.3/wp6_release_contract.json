@@ -1,0 +1,30 @@
+{
+  "schema_version": "science-v0.3-wp6-release-contract-1",
+  "version": "0.3.0",
+  "status": "FROZEN_BLOCKED_BY_GATE_V2_5",
+  "preserves_immutable_releases": ["v0.1.0", "v0.2.0"],
+  "prerequisites": [
+    {"work_package": "WP1", "record": "data/science_v0.2/decisions/wp1/gate_v2_1_decision.json", "accepted": ["PASS_WITH_METHOD_SENSITIVITY"]},
+    {"work_package": "WP2", "record": "data/science_v0.3/decisions/wp2/gate_v2_2_open_lane_decision.json", "accepted": ["PASSED_OPEN_THREE_PROGRAM", "PASSED_OPEN_THREE_PROGRAM_LANE", "PASSED"]},
+    {"work_package": "WP3", "record": "data/science_v0.2/decisions/wp3/gate_v2_3_decision.json", "accepted": ["PASS", "PASSED"]},
+    {"work_package": "WP4-A", "record": "data/science_v0.3/decisions/wp4a/gate_v2_4a_decision.json", "accepted": ["CLOSED_SOURCE_ALIGNED_R1"]},
+    {"work_package": "WP4-B", "record": "data/science_v0.3/decisions/wp4b/gate_v2_4p_decision.json", "accepted": ["PASSED"]},
+    {"work_package": "WP5", "record": "data/science_v0.3/decisions/wp5/gate_v2_5_decision.json", "accepted": ["PASSED"]}
+  ],
+  "required_release_components": [
+    "seven-item status matrix",
+    "machine-readable evidence and decisions",
+    "frozen contracts and reconstruction scripts",
+    "external replay record with redaction",
+    "SHA-256 manifest",
+    "secret, private-path, copyright and executable-content scan",
+    "bilingual release notes"
+  ],
+  "publication_boundary": {
+    "monograph_or_third_party_archives": "EXCLUDE",
+    "api_keys_and_dotenv": "EXCLUDE",
+    "raw_scratch_and_large_logs": "EXCLUDE",
+    "historical_v0_1_v0_2_files": "DO_NOT_MUTATE",
+    "github_push_or_release_creation": "SEPARATE_USER_AUTHORIZATION"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": "science-v0.3-wp4b-paired-pilot-contract-1",
+  "status": "FROZEN_FOR_PAIRED_PILOT",
+  "preserves_releases": ["v0.1.0", "v0.2.0"],
+  "changes_existing_p12_a_result": false,
+  "work_package": "WP4-B",
+  "claim_id": "P12-B",
+  "estimand": {
+    "id": "P12B_PHYSICAL_ISEII_ASE_0K",
+    "name": "0 K ZPVE-corrected ISE-II aromatic stabilization energy",
+    "reaction": "A + B -> C + D",
+    "formula_hartree": "(E_C_0K + E_D_0K) - (E_A_0K + E_B_0K)",
+    "sign_convention": "positive_aromatic_negative_antiaromatic_near_zero_nonaromatic",
+    "nonaromatic_interval_kcal_mol": [-2.0, 2.0],
+    "relation_to_p12_a": "INCOMPARABLE"
+  },
+  "system": {
+    "paired_N": [[8, 10], [16, 18], [32, 34]],
+    "species_per_N": ["A", "B", "C", "D"],
+    "charge": 0,
+    "multiplicity": 1,
+    "electronic_branches": {
+      "all": ["closed_shell"],
+      "4n_A_and_C": ["closed_shell", "broken_symmetry_singlet"]
+    }
+  },
+  "identity": {
+    "A": "annulene-fused indene isomer",
+    "B": "dihydro anti-syn correction paired with A",
+    "C": "annulene-fused isoindene isomer",
+    "D": "dihydro anti-syn correction paired with C",
+    "source_equation_figure": "Van Nyvel, Alonso and Sola, Chemical Science 2025, Fig. 2, DOI 10.1039/D4SC08225G"
+  },
+  "geometry_sources": {
+    "N_16_18_32_34_primary": "published B3LYP/6-31G(d) unconstrained neutral-singlet Cartesian coordinates from SC-016-D4SC08225G-s002.zip",
+    "N_8_10_primary": "deterministic graph contraction from each published N=12 A/B/C/D parent; remove the most remote ring S-D-S C2H2 unit, repeat as needed; retain the five-membered fused ring",
+    "independent_secondary": "RDKit ETKDGv3 embeddings with frozen random seeds and MMFF94s/UFF pre-relaxation",
+    "minimum_sources_per_system": 2,
+    "published_archive_md5": "cd7c7bde08e17b93536da49fda597807",
+    "published_supplement_md5": "c2d4c225233092c8053eb91c920b62a7",
+    "redistribution_rule": "Do not commit the third-party supplement archives; record URLs, hashes and derived-input provenance."
+  },
+  "quantum_chemistry": {
+    "program": "PySCF",
+    "version": "2.14.0",
+    "functional": "B3LYPG (LibXC 402; Gaussian-style B3LYP/VWN3)",
+    "basis": "6-31G(d)",
+    "dispersion": "none",
+    "grid": {"radial": 75, "angular": 302, "pruning": "nwchem_prune"},
+    "grid_identity": "Gaussian FineGrid-equivalent numerical alignment; the 2025 source does not report an explicit non-default grid",
+    "scf_energy_tolerance_hartree": 1e-9,
+    "max_scf_cycles": 300,
+    "geometry_optimizer": "geomeTRIC through PySCF",
+    "frequency": "analytic Hessian; minimum requires zero imaginary frequencies",
+    "thermochemistry": ["electronic_energy", "ZPVE", "0K_energy"],
+    "pilot_geometry_acceleration": "GFN2-xTB pre-optimization followed by density-fitted B3LYPG/6-31G(d) geometry optimization on a 50x194 grid; final energy and analytic Hessian use the frozen direct 75x302 protocol",
+    "source_reconstruction_role": "Published B3LYP/6-31G(d) EE+ZPVE values are external anchors, not substitutes for newly calculated N=8/10 values."
+  },
+  "conformer_search": {
+    "etkdg_attempts_per_species": 8,
+    "attempt_semantics": "initial batch size; extend deterministically in batches of 8 only when the preregistered final-four stopping rule is not met",
+    "maximum_etkdg_attempts_per_species": 32,
+    "prune_rms_angstrom": 0.50,
+    "pre_screen": "MMFF94s; UFF fallback",
+    "dft_candidates_per_species": 2,
+    "dedup_heavy_atom_rms_angstrom": 0.35,
+    "near_degenerate_window_kcal_mol": 1.0,
+    "stop_rule": "Both registered sources attempted and no new unique candidate within 1.0 kcal/mol in the final four ETKDG attempts."
+  },
+  "protocol_amendment": {
+    "id": "WP4B-STOP-RULE-EXECUTION-2026-09-05",
+    "reason": "The initial eight-attempt audit showed late qualifying discoveries for multiple systems. Eight is therefore treated as the frozen initial batch, not as permission to declare the stopping rule passed.",
+    "changes_estimand_method_or_threshold": false,
+    "allowed_action": "Append deterministic eight-attempt batches up to 32; retain every attempt and do not select the attempt count by agreement with the monograph."
+  },
+  "search_fallback": {
+    "trigger": "The deterministic ETKDG audit reaches 32 attempts and still finds a new unique candidate within 1.0 kcal/mol in the final four attempts.",
+    "method": "CREST 3.0.2 GFN2-xTB quick conformer search",
+    "scope": "Only triggered N/species identities; the CREST best geometry is evaluated by the same final PySCF protocol and competes with all registered candidates.",
+    "changes_estimand_or_final_qm_method": false,
+    "selection_rule": "Lowest final PySCF electronic energy; CREST prescreen energy never becomes the scientific label."
+  },
+  "gate_v2_4p": {
+    "requires_all_six_N": true,
+    "requires_A_B_C_D_each_N": true,
+    "requires_two_conformer_sources": true,
+    "requires_ez_and_topology_manifest": true,
+    "requires_runtime_failure_and_discovery_statistics": true,
+    "requires_0K_ASE_for_all_six_N": true,
+    "requires_closed_shell_and_broken_symmetry_check_for_4n_A_C": true,
+    "expansion_policy": "No N=8..34 expansion until this paired-pilot gate is passed by generated evidence and a separate post-gate expansion approval is recorded."
+  }
+}

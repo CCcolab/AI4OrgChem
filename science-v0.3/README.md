@@ -1,54 +1,27 @@
-# Science V0.3 — WP2 open three-program reproducibility evidence
+# AI4OrgChem Science V0.3 / 科学闭合版
 
-This directory is an **incremental evidence package**, not a replacement for the immutable [`science-v0.2`](../science-v0.2/README.md) release package.
+V0.3 adds the seven strictly ordered scientific-closure results without modifying V0.1 or V0.2. It contains frozen contracts, machine decisions, selected machine-readable evidence, reconstruction/validation scripts, and the redacted external replay record. It does not redistribute the monograph or third-party supplement archives.
 
-WP2 asks whether ordinary-state Gaussian-style B3LYP energies and first derivatives at eight frozen anchors can be reproduced across independent quantum-chemistry implementations under one estimand. The open-source lane uses PySCF 2.14.0, Psi4 1.11, and NWChem 7.3.0 (revision 3272822; Conda package 7.3.1).
+V0.3 在不改写 V0.1、V0.2 的前提下发布七项严格顺序科学闭合结果，包含冻结合同、机器判定、精选机器证据、重建/验证脚本和脱敏外部重放记录；不再分发原著或第三方补充材料归档。
 
-## Result
+Scientific scope: V0.3 does not rewrite P01-P14, does not merge the source-aligned CESE and physical-state ASE estimands, and does not claim a universal annulene-size law, industrial ML generalization, peer review, or institutional/model-provider certification.
 
-- Gate status: `PASSED_OPEN_THREE_PROGRAM`
-- Core anchors: 8/8 passed
-- Relative-energy pairs: 2/2 passed
-- Maximum absolute-energy span: `1.8994825268237037e-08 Eh`
-- Maximum Cartesian-gradient RMS difference: `3.7021645363443873e-07 Eh/bohr`
-- Effect on frozen V0.1 P01–P14 classifications: **none**
+科学边界：V0.3不改写P01-P14，不合并source-aligned CESE与physical-state ASE两个估计量，也不宣称普遍轮烯尺寸定律、工业级机器学习泛化、同行评审结论或机构/模型厂商认证。
 
-The historical ORCA-specific lane remains `NOT_ESTABLISHED_NO_LICENSED_EXECUTABLE`. NWChem is an independent open-source third implementation and is **not** represented as ORCA or as an ORCA-equivalent substitute.
+See `docs/releases/science_v0.3/V0.3_RELEASE_NOTES.md`, `docs/releases/science_v0.3/reports/V0.3_PRE_RELEASE_REVIEW.md`, `configs/science_v0.3/v0.3_release_status.json`, and `sha256-manifest.json` for the release scope, review state, machine decisions, and file hashes.
 
-## Evidence map
+## Fast verification / 快速验证
 
-| Path | Purpose |
-|---|---|
-| [`configs/science_v0.3/wp2_open_three_program_contract.json`](configs/science_v0.3/wp2_open_three_program_contract.json) | Frozen estimand, grids, basis sets, backend rules, and thresholds |
-| [`data/science_v0.3/raw/wp2/anchors/`](data/science_v0.3/raw/wp2/anchors/) | Eight compact machine-readable anchor records |
-| [`data/science_v0.3/processed/wp2/wp2_open_three_program_summary.json`](data/science_v0.3/processed/wp2/wp2_open_three_program_summary.json) | Cross-program and relative-energy summary |
-| [`data/science_v0.3/decisions/wp2/gate_v2_2_open_lane_decision.json`](data/science_v0.3/decisions/wp2/gate_v2_2_open_lane_decision.json) | Gate decision |
-| [`docs/releases/science_v0.3/reports/WP2_GATE_V2_2_OPEN_THREE_PROGRAM_REPORT.md`](docs/releases/science_v0.3/reports/WP2_GATE_V2_2_OPEN_THREE_PROGRAM_REPORT.md) | Scientific report |
-| [`scripts/science_v0.3/`](scripts/science_v0.3/) | Calibration, run, and deterministic summary entry points |
-| [`locks/science_v0.3/`](locks/science_v0.3/) | Redacted NWChem environment locks |
-| [`sha256-manifest.json`](sha256-manifest.json) | Package integrity inventory |
-
-Large program logs, scratch files, and local run caches are intentionally excluded. The compact records retain energies, gradients where required, geometry/source hashes, program identities, and pass/fail comparisons.
-
-## Verification
-
-From the repository root:
+Run from this `science-v0.3` directory with Python 3.11+ and `pytest`, `PyYAML`, and `jsonschema` available:
 
 ```bash
-python -m unittest science-v0.3/tests/science_v0.3/test_wp2_open_lane.py
+python scripts/science_v0.3/validate_github_v03_release.py --project . --package .
+python scripts/science_v0.3/validate_wp4a_source_aligned.py
+python scripts/science_v0.3/validate_wp4b_paired_pilot.py --project .
+python scripts/science_v0.3/validate_wp5_external_replay.py --project .
+python -m pytest -p no:cacheprovider tests/science_v0.3
 ```
 
-To recompute an anchor, activate environments providing PySCF, Psi4, and the locked NWChem executable, then run from `science-v0.3/`:
+These commands validate published records, hashes, estimand boundaries, replay provenance, and scope statements. They do not launch expensive quantum-chemistry calculations. Full scientific reruns require the separately documented locked environments and computational resources.
 
-```bash
-cd science-v0.3
-python scripts/science_v0.3/run_wp2_open_three_program_lane.py \
-  --anchor WP2-P08-BUTADIENE-G-EG
-python scripts/science_v0.3/summarize_wp2_open_three_program_gate.py
-```
-
-The runner deliberately reads the frozen source geometries and tangent definitions from the sibling `science-v0.2/` package. This dependency preserves historical inputs instead of duplicating or silently modifying them.
-
-## 中文说明
-
-本目录是WP2的**增量科学证据包**，不覆盖不可变的`science-v0.2`历史发布。其开源三程序支路在同一冻结估计量下，以PySCF、Psi4和NWChem复算八个普通态锚点；8/8锚点和2/2相对能量对全部通过。该结果提升跨程序复算证据，但不改动V0.1十四项命题判定，也不宣称NWChem等同或替代ORCA。原ORCA专用支路仍因本机没有获许可可执行文件而保持未建立。
+以上命令验证公开记录、哈希、估计量边界、重放来源和范围声明，不会启动昂贵量子化学计算。完整科学重算仍需使用单独记录的锁定环境和计算资源。

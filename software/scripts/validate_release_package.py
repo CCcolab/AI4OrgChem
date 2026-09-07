@@ -78,6 +78,34 @@ FORBIDDEN_DIRECTORIES = {
     ".pytest_cache",
 }
 IGNORED_DIRECTORIES = {".git"}
+CURATED_REPLAY_RECORDS = {
+    "science-v0.2/runs/science_v0.2/wp5_internal_clean_replay/replay_result.json",
+    "science-v0.3/runs/science_v0.3/wp5_external_replay/retained/wp5-external-20260907T121810Z/agent_run_bundle.json",
+    "science-v0.3/runs/science_v0.3/wp5_external_replay/retained/wp5-external-20260907T121810Z/external_agent_plan.json",
+    "science-v0.3/runs/science_v0.3/wp5_external_replay/retained/wp5-external-20260907T121810Z/manifest.json",
+    "science-v0.3/runs/science_v0.3/wp5_external_replay/retained/wp5-external-20260907T121810Z/result.json",
+}
+ALLOWED_SELF_CONTAINED_V03_DUPLICATES = {
+    frozenset(
+        {
+            "science-v0.2/data/science_v0.2/decisions/wp1/gate_v2_1_decision.json",
+            "science-v0.3/data/science_v0.2/decisions/wp1/gate_v2_1_decision.json",
+        }
+    ),
+    frozenset(
+        {
+            "science-v0.2/data/science_v0.2/decisions/wp3/gate_v2_3_decision.json",
+            "science-v0.3/data/science_v0.2/decisions/wp3/gate_v2_3_decision.json",
+        }
+    ),
+    frozenset(
+        {
+            "development/science-v0.2/configs/agent_run_bundle.schema.json",
+            "science-v0.2/configs/science_v0.2/agent_run_bundle.schema.json",
+            "science-v0.3/configs/science_v0.2/agent_run_bundle.schema.json",
+        }
+    ),
+}
 TEXT_SUFFIXES = {
     ".md",
     ".py",
@@ -285,10 +313,7 @@ def main() -> int:
             failures.append(f"forbidden file: {relative}")
         if path.suffix.lower() in FORBIDDEN_SUFFIXES:
             failures.append(f"forbidden suffix: {relative}")
-        curated_replay_record = (
-            relative
-            == "science-v0.2/runs/science_v0.2/wp5_internal_clean_replay/replay_result.json"
-        )
+        curated_replay_record = relative in CURATED_REPLAY_RECORDS
         if any(part in FORBIDDEN_DIRECTORIES for part in relative_path.parts) and not curated_replay_record:
             failures.append(f"forbidden directory component: {relative}")
         if path.stat().st_size == 0:
@@ -307,6 +332,11 @@ def main() -> int:
         if len(paths) == 2 and len(historical) == 1 and len(released) == 1:
             # The development tree is a frozen WP0 provenance snapshot.  An exact
             # copy may also occur in the self-contained V0.2 evidence package.
+            allowed_historical_duplicate_groups += 1
+            continue
+        if frozenset(paths) in ALLOWED_SELF_CONTAINED_V03_DUPLICATES:
+            # V0.3 is self-contained and carries only the narrowly enumerated
+            # immutable V0.2 prerequisites required by its public validators.
             allowed_historical_duplicate_groups += 1
             continue
         failures.append(f"exact duplicate files: {', '.join(paths)}")

@@ -1,0 +1,65 @@
+{
+  "schema_version": "science-v0.3-wp4b-crest-fallback-1",
+  "triggered_by": "ETKDG_32_ATTEMPT_STOP_RULE_FAILURE",
+  "crest_version_output": "╔════════════════════════════════════════════╗\n       ║            ___ ___ ___ ___ _____           ║\n       ║           / __| _ \\ __/ __|_   _|          ║\n       ║          | (__|   / _|\\__ \\ | |            ║\n       ║           \\___|_|_\\___|___/ |_|            ║\n       ║                                            ║\n       ║  Conformer-Rotamer Ensemble Sampling Tool  ║\n       ║          based on the xTB methods          ║\n       ║                                            ║\n       ╚════════════════════════════════════════════╝\n       Version 3.0.2, Tue, 05 August 16:25:20, 08/05/2025\n       commit (6914a25) compiled by 'usr@b54ea9d7c43e'\n\n crest 3.0.2",
+  "threads": 4,
+  "targets": [
+    [
+      18,
+      "B"
+    ],
+    [
+      18,
+      "C"
+    ],
+    [
+      32,
+      "C"
+    ]
+  ],
+  "results": [
+    {
+      "id": "N18_B_crest",
+      "N": 18,
+      "species": "B",
+      "status": "COMPLETED",
+      "returncode": 0,
+      "elapsed_seconds": 141.67814262799948,
+      "input_sha256": "ddb99e816b96309dbca6dc88aff7c64a1921a0e24a6b24570d72a91ae32d301e",
+      "best_xyz": "data/science_v0.3/inputs/wp4b/N18_B_crest.xyz",
+      "best_sha256": "33e841378082262c9bb45c859b0e5e1e492577780c095fc37929ad180eb7f468",
+      "ensemble_present": true,
+      "ensemble_size_bytes": 42315,
+      "log": "data/science_v0.3/raw/wp4b/crest/N18_B_crest/crest.log"
+    },
+    {
+      "id": "N18_C_crest",
+      "N": 18,
+      "species": "C",
+      "status": "COMPLETED",
+      "returncode": 0,
+      "elapsed_seconds": 156.43996013700053,
+      "input_sha256": "1caa0e458ed53eb96eb151ed9872f2774ccb06d21db1c196d2a4d44b0853666b",
+      "best_xyz": "data/science_v0.3/inputs/wp4b/N18_C_crest.xyz",
+      "best_sha256": "455452439d3795fce40ddf03f9652e12b8f8b5fc5ef4df0319c667a77291a584",
+      "ensemble_present": true,
+      "ensemble_size_bytes": 29601,
+      "log": "data/science_v0.3/raw/wp4b/crest/N18_C_crest/crest.log"
+    },
+    {
+      "id": "N32_C_crest",
+      "N": 32,
+      "species": "C",
+      "status": "COMPLETED",
+      "returncode": 0,
+      "elapsed_seconds": 389.18366163099927,
+      "input_sha256": "0ffaa6f5a40da5a02463a7e22398c86dab595ae24c35bc413cddc517969b3ceb",
+      "best_xyz": "data/science_v0.3/inputs/wp4b/N32_C_crest.xyz",
+      "best_sha256": "ba65ad9f7e8694c8360400cfc99248120276172ed3fa8345771ab33092c6b685",
+      "ensemble_present": true,
+      "ensemble_size_bytes": 18044,
+      "log": "data/science_v0.3/raw/wp4b/crest/N32_C_crest/crest.log"
+    }
+  ],
+  "all_triggered_targets_completed": true
+}

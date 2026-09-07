@@ -1,0 +1,1621 @@
+{
+  "schema_version": "science-v0.3-wp4b-paired-pilot-summary-1",
+  "generated_utc": "2026-09-07T12:17:50.519255+00:00",
+  "claim_id": "P12-B",
+  "estimand_id": "P12B_PHYSICAL_ISEII_ASE_0K",
+  "relation_to_p12_a": "INCOMPARABLE",
+  "six_point_results": [
+    {
+      "N": 8,
+      "series": "4n",
+      "e0_ase_hartree": -0.01306180783626587,
+      "e0_ase_kj_mol": -34.293771765071774,
+      "e0_ase_kcal_mol": -8.196408165648474,
+      "source": "selected paired-pilot minima",
+      "minimum_status": "ALL_A_B_C_D_MINIMUM_IDENTITIES_VERIFIED",
+      "classification": "antiaromatic",
+      "nearest_classification_boundary_kcal_mol": 6.196408165648474,
+      "boundary_sensitive_within_0_1_kcal_mol": false
+    },
+    {
+      "N": 10,
+      "series": "4n+2",
+      "e0_ase_hartree": -0.003232539815542168,
+      "e0_ase_kj_mol": -8.487032120310385,
+      "e0_ase_kcal_mol": -2.028449359538896,
+      "source": "selected paired-pilot minima",
+      "minimum_status": "ALL_A_B_C_D_MINIMUM_IDENTITIES_VERIFIED",
+      "classification": "antiaromatic",
+      "nearest_classification_boundary_kcal_mol": 0.028449359538896157,
+      "boundary_sensitive_within_0_1_kcal_mol": true
+    },
+    {
+      "N": 16,
+      "series": "4n",
+      "e0_ase_hartree": 0.0021932505941322233,
+      "e0_ase_kj_mol": 5.758378644183229,
+      "e0_ase_kcal_mol": 1.3762855268124932,
+      "source": "selected paired-pilot minima",
+      "minimum_status": "ALL_A_B_C_D_MINIMUM_IDENTITIES_VERIFIED",
+      "classification": "nonaromatic_interval",
+      "nearest_classification_boundary_kcal_mol": 0.6237144731875068,
+      "boundary_sensitive_within_0_1_kcal_mol": false
+    },
+    {
+      "N": 18,
+      "series": "4n+2",
+      "e0_ase_hartree": 0.01648600000009992,
+      "e0_ase_kj_mol": 43.28398705672797,
+      "e0_ase_kcal_mol": 10.345121189466967,
+      "source": "selected paired-pilot minima",
+      "minimum_status": "ALL_A_B_C_D_MINIMUM_IDENTITIES_VERIFIED",
+      "classification": "aromatic",
+      "nearest_classification_boundary_kcal_mol": 8.345121189466967,
+      "boundary_sensitive_within_0_1_kcal_mol": false
+    },
+    {
+      "N": 32,
+      "series": "4n",
+      "e0_ase_hartree": -0.0008340000001680892,
+      "e0_ase_kj_mol": -2.1896666997675545,
+      "e0_ase_kcal_mol": -0.523342901474103,
+      "source": "selected paired-pilot minima",
+      "minimum_status": "ALL_A_B_C_D_MINIMUM_IDENTITIES_VERIFIED",
+      "classification": "nonaromatic_interval",
+      "nearest_classification_boundary_kcal_mol": 1.476657098525897,
+      "boundary_sensitive_within_0_1_kcal_mol": false
+    },
+    {
+      "N": 34,
+      "series": "4n+2",
+      "e0_ase_hartree": 0.004461999999875843,
+      "e0_ase_kj_mol": 11.71497939103334,
+      "e0_ase_kcal_mol": 2.7999472731916426,
+      "source": "selected paired-pilot minima",
+      "minimum_status": "ALL_A_B_C_D_MINIMUM_IDENTITIES_VERIFIED",
+      "classification": "aromatic",
+      "nearest_classification_boundary_kcal_mol": 0.7999472731916426,
+      "boundary_sensitive_within_0_1_kcal_mol": false
+    }
+  ],
+  "small_conformer_selection": {
+    "schema_version": "science-v0.3-wp4b-paired-selection-2",
+    "n_values": [
+      8,
+      10,
+      16,
+      18,
+      32,
+      34
+    ],
+    "secondary_sources": [
+      "etkdg",
+      "auditbest",
+      "crest"
+    ],
+    "crest_required": [
+      {
+        "N": 18,
+        "species": "B"
+      },
+      {
+        "N": 18,
+        "species": "C"
+      },
+      {
+        "N": 32,
+        "species": "C"
+      }
+    ],
+    "complete": true,
+    "missing": [],
+    "selections": [
+      {
+        "N": 8,
+        "species": "A",
+        "selected_id": "N08_A_source",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 0.0006670700450374163,
+        "candidates": [
+          {
+            "id": "N08_A_source",
+            "source": "source",
+            "electronic_hartree": -425.0878002452408,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-small-dft-result-1"
+          },
+          {
+            "id": "N08_A_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -425.08779918219705,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N08_A_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -425.08779880738564,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          }
+        ]
+      },
+      {
+        "N": 8,
+        "species": "B",
+        "selected_id": "N08_B_etkdg",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 0.00412838511571119,
+        "candidates": [
+          {
+            "id": "N08_B_source",
+            "source": "source",
+            "electronic_hartree": -426.31644916649236,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-dft-result-2"
+          },
+          {
+            "id": "N08_B_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -426.3164557454928,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-small-dft-result-1"
+          },
+          {
+            "id": "N08_B_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -426.3164488185232,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          }
+        ]
+      },
+      {
+        "N": 8,
+        "species": "C",
+        "selected_id": "N08_C_auditbest",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 0.0027993137732643205,
+        "candidates": [
+          {
+            "id": "N08_C_source",
+            "source": "source",
+            "electronic_hartree": -425.09734802204105,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-small-dft-result-1"
+          },
+          {
+            "id": "N08_C_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -425.09734219076347,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N08_C_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -425.0973524830315,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-dft-result-2"
+          }
+        ]
+      },
+      {
+        "N": 8,
+        "species": "D",
+        "selected_id": "N08_D_source",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 0.007998568008954876,
+        "candidates": [
+          {
+            "id": "N08_D_source",
+            "source": "source",
+            "electronic_hartree": -426.3213602114856,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-small-dft-result-1"
+          },
+          {
+            "id": "N08_D_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -426.3213407213565,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N08_D_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -426.32134746495615,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          }
+        ]
+      },
+      {
+        "N": 10,
+        "species": "A",
+        "selected_id": "N10_A_source",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 0.5765786677058535,
+        "candidates": [
+          {
+            "id": "N10_A_source",
+            "source": "source",
+            "electronic_hartree": -502.46536772843285,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-small-dft-result-1"
+          },
+          {
+            "id": "N10_A_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -502.4644488918391,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N10_A_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -502.45203950538314,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          }
+        ]
+      },
+      {
+        "N": 10,
+        "species": "B",
+        "selected_id": "N10_B_auditbest",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 0.009100611093248145,
+        "candidates": [
+          {
+            "id": "N10_B_source",
+            "source": "source",
+            "electronic_hartree": -503.6932734962578,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N10_B_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -503.6988578543019,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-small-dft-result-1"
+          },
+          {
+            "id": "N10_B_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -503.6988723570488,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-dft-result-2"
+          }
+        ]
+      },
+      {
+        "N": 10,
+        "species": "C",
+        "selected_id": "N10_C_etkdg",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 2.3150517794245995,
+        "candidates": [
+          {
+            "id": "N10_C_source",
+            "source": "source",
+            "electronic_hartree": -502.46237899649327,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N10_C_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -502.4671897643848,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-small-dft-result-1"
+          },
+          {
+            "id": "N10_C_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -502.4635004945409,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-dft-result-2"
+          }
+        ]
+      },
+      {
+        "N": 10,
+        "species": "D",
+        "selected_id": "N10_D_auditbest",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 0.00808582878473331,
+        "candidates": [
+          {
+            "id": "N10_D_source",
+            "source": "source",
+            "electronic_hartree": -503.6969113792751,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N10_D_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -503.7002097746747,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-small-dft-result-1"
+          },
+          {
+            "id": "N10_D_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -503.7002226602631,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-dft-result-2"
+          }
+        ]
+      },
+      {
+        "N": 16,
+        "species": "A",
+        "selected_id": "N16_A_auditbest",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 7.7543803092400285,
+        "candidates": [
+          {
+            "id": "N16_A_source",
+            "source": "source",
+            "electronic_hartree": -734.688824207,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "published-source-anchor-1",
+            "e0_hartree": -734.379855
+          },
+          {
+            "id": "N16_A_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -734.6763233196054,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N16_A_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -734.7011815986089,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          }
+        ]
+      },
+      {
+        "N": 16,
+        "species": "B",
+        "selected_id": "N16_B_auditbest",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 5.260137911414975,
+        "candidates": [
+          {
+            "id": "N16_B_source",
+            "source": "source",
+            "electronic_hartree": -735.911105672,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "published-source-anchor-1",
+            "e0_hartree": -735.580202
+          },
+          {
+            "id": "N16_B_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -735.9169854437948,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N16_B_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -735.9253680071326,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          }
+        ]
+      },
+      {
+        "N": 16,
+        "species": "C",
+        "selected_id": "N16_C_auditbest",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 7.041383908847907,
+        "candidates": [
+          {
+            "id": "N16_C_source",
+            "source": "source",
+            "electronic_hartree": -734.690430143,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "published-source-anchor-1",
+            "e0_hartree": -734.381804
+          },
+          {
+            "id": "N16_C_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -734.6682149739693,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N16_C_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -734.7016513025201,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          }
+        ]
+      },
+      {
+        "N": 16,
+        "species": "D",
+        "selected_id": "N16_D_auditbest",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 0.18588992516141972,
+        "candidates": [
+          {
+            "id": "N16_D_source",
+            "source": "source",
+            "electronic_hartree": -735.921351988,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "published-source-anchor-1",
+            "e0_hartree": -735.589802
+          },
+          {
+            "id": "N16_D_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -735.9174272196894,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N16_D_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -735.921648222452,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          }
+        ]
+      },
+      {
+        "N": 18,
+        "species": "A",
+        "selected_id": "N18_A_source",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 33.48802363452643,
+        "candidates": [
+          {
+            "id": "N18_A_source",
+            "source": "source",
+            "electronic_hartree": -812.157311178,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "published-source-anchor-1",
+            "e0_hartree": -811.815412
+          },
+          {
+            "id": "N18_A_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -812.1030645118785,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N18_A_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -812.1039446153923,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          }
+        ]
+      },
+      {
+        "N": 18,
+        "species": "B",
+        "selected_id": "N18_B_source",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 7.131797597176175,
+        "candidates": [
+          {
+            "id": "N18_B_source",
+            "source": "source",
+            "electronic_hartree": -813.342390437,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "published-source-anchor-1",
+            "e0_hartree": -812.977433
+          },
+          {
+            "id": "N18_B_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -813.3310251940961,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N18_B_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -813.3214159691927,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N18_B_crest",
+            "source": "crest",
+            "electronic_hartree": -813.3280444616769,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          }
+        ]
+      },
+      {
+        "N": 18,
+        "species": "C",
+        "selected_id": "N18_C_source",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 18.663013157036698,
+        "candidates": [
+          {
+            "id": "N18_C_source",
+            "source": "source",
+            "electronic_hartree": -812.133859828,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "published-source-anchor-1",
+            "e0_hartree": -811.791917
+          },
+          {
+            "id": "N18_C_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -812.1041184234023,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N18_C_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -812.0949915768381,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N18_C_crest",
+            "source": "crest",
+            "electronic_hartree": -812.1025510702718,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          }
+        ]
+      },
+      {
+        "N": 18,
+        "species": "D",
+        "selected_id": "N18_D_source",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 7.738383971440542,
+        "candidates": [
+          {
+            "id": "N18_D_source",
+            "source": "source",
+            "electronic_hartree": -813.349668582,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "published-source-anchor-1",
+            "e0_hartree": -812.984442
+          },
+          {
+            "id": "N18_D_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -813.3373366821781,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N18_D_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -813.3284282061318,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          }
+        ]
+      },
+      {
+        "N": 32,
+        "species": "A",
+        "selected_id": "N32_A_source",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 18.5625014120344,
+        "candidates": [
+          {
+            "id": "N32_A_source",
+            "source": "source",
+            "electronic_hartree": -1354.0074761,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "published-source-anchor-1",
+            "e0_hartree": -1353.42961
+          },
+          {
+            "id": "N32_A_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -1353.9778948710637,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N32_A_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -1353.9370425933816,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          }
+        ]
+      },
+      {
+        "N": 32,
+        "species": "B",
+        "selected_id": "N32_B_source",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 21.634152090107044,
+        "candidates": [
+          {
+            "id": "N32_B_source",
+            "source": "source",
+            "electronic_hartree": -1355.20042879,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "published-source-anchor-1",
+            "e0_hartree": -1354.600132
+          },
+          {
+            "id": "N32_B_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -1355.165952574127,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N32_B_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -1355.1578589608166,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          }
+        ]
+      },
+      {
+        "N": 32,
+        "species": "C",
+        "selected_id": "N32_C_source",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 30.96885402119109,
+        "candidates": [
+          {
+            "id": "N32_C_source",
+            "source": "source",
+            "electronic_hartree": -1353.99426973,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "published-source-anchor-1",
+            "e0_hartree": -1353.417439
+          },
+          {
+            "id": "N32_C_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -1353.941672311998,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N32_C_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -1353.9449177197098,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N32_C_crest",
+            "source": "crest",
+            "electronic_hartree": -1353.9381491763843,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          }
+        ]
+      },
+      {
+        "N": 32,
+        "species": "D",
+        "selected_id": "N32_D_source",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 22.33307261200859,
+        "candidates": [
+          {
+            "id": "N32_D_source",
+            "source": "source",
+            "electronic_hartree": -1355.21388789,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "published-source-anchor-1",
+            "e0_hartree": -1354.613137
+          },
+          {
+            "id": "N32_D_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -1355.1782978733786,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N32_D_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -1355.1630760096918,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          }
+        ]
+      },
+      {
+        "N": 34,
+        "species": "A",
+        "selected_id": "N34_A_source",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 74.5544178941251,
+        "candidates": [
+          {
+            "id": "N34_A_source",
+            "source": "source",
+            "electronic_hartree": -1431.42016328,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "published-source-anchor-1",
+            "e0_hartree": -1430.809335
+          },
+          {
+            "id": "N34_A_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -1431.2975419757895,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N34_A_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -1431.3013532524615,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          }
+        ]
+      },
+      {
+        "N": 34,
+        "species": "B",
+        "selected_id": "N34_B_source",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 32.91248995765503,
+        "candidates": [
+          {
+            "id": "N34_B_source",
+            "source": "source",
+            "electronic_hartree": -1432.6088493,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "published-source-anchor-1",
+            "e0_hartree": -1431.974913
+          },
+          {
+            "id": "N34_B_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -1432.5563999086871,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N34_B_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -1432.5397892477176,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          }
+        ]
+      },
+      {
+        "N": 34,
+        "species": "C",
+        "selected_id": "N34_C_source",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 60.839104905817614,
+        "candidates": [
+          {
+            "id": "N34_C_source",
+            "source": "source",
+            "electronic_hartree": -1431.4027765,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "published-source-anchor-1",
+            "e0_hartree": -1430.792322
+          },
+          {
+            "id": "N34_C_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -1431.292412830639,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N34_C_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -1431.3058232149574,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          }
+        ]
+      },
+      {
+        "N": 34,
+        "species": "D",
+        "selected_id": "N34_D_source",
+        "selection_metric": "lowest final electronic energy; published source anchor competes with final PySCF candidates for N>=16",
+        "candidate_gap_kcal_mol": 33.71974744184126,
+        "candidates": [
+          {
+            "id": "N34_D_source",
+            "source": "source",
+            "electronic_hartree": -1432.62182868,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "published-source-anchor-1",
+            "e0_hartree": -1431.987464
+          },
+          {
+            "id": "N34_D_etkdg",
+            "source": "etkdg",
+            "electronic_hartree": -1432.5680928419997,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          },
+          {
+            "id": "N34_D_auditbest",
+            "source": "auditbest",
+            "electronic_hartree": -1432.5476691427266,
+            "scf_converged": true,
+            "optimization_converged": true,
+            "schema_version": "science-v0.3-wp4b-conformer-candidate-1"
+          }
+        ]
+      }
+    ],
+    "selected": [
+      {
+        "N": 8,
+        "species": "A",
+        "id": "N08_A_source"
+      },
+      {
+        "N": 8,
+        "species": "B",
+        "id": "N08_B_etkdg"
+      },
+      {
+        "N": 8,
+        "species": "C",
+        "id": "N08_C_auditbest"
+      },
+      {
+        "N": 8,
+        "species": "D",
+        "id": "N08_D_source"
+      },
+      {
+        "N": 10,
+        "species": "A",
+        "id": "N10_A_source"
+      },
+      {
+        "N": 10,
+        "species": "B",
+        "id": "N10_B_auditbest"
+      },
+      {
+        "N": 10,
+        "species": "C",
+        "id": "N10_C_etkdg"
+      },
+      {
+        "N": 10,
+        "species": "D",
+        "id": "N10_D_auditbest"
+      },
+      {
+        "N": 16,
+        "species": "A",
+        "id": "N16_A_auditbest"
+      },
+      {
+        "N": 16,
+        "species": "B",
+        "id": "N16_B_auditbest"
+      },
+      {
+        "N": 16,
+        "species": "C",
+        "id": "N16_C_auditbest"
+      },
+      {
+        "N": 16,
+        "species": "D",
+        "id": "N16_D_auditbest"
+      },
+      {
+        "N": 18,
+        "species": "A",
+        "id": "N18_A_source"
+      },
+      {
+        "N": 18,
+        "species": "B",
+        "id": "N18_B_source"
+      },
+      {
+        "N": 18,
+        "species": "C",
+        "id": "N18_C_source"
+      },
+      {
+        "N": 18,
+        "species": "D",
+        "id": "N18_D_source"
+      },
+      {
+        "N": 32,
+        "species": "A",
+        "id": "N32_A_source"
+      },
+      {
+        "N": 32,
+        "species": "B",
+        "id": "N32_B_source"
+      },
+      {
+        "N": 32,
+        "species": "C",
+        "id": "N32_C_source"
+      },
+      {
+        "N": 32,
+        "species": "D",
+        "id": "N32_D_source"
+      },
+      {
+        "N": 34,
+        "species": "A",
+        "id": "N34_A_source"
+      },
+      {
+        "N": 34,
+        "species": "B",
+        "id": "N34_B_source"
+      },
+      {
+        "N": 34,
+        "species": "C",
+        "id": "N34_C_source"
+      },
+      {
+        "N": 34,
+        "species": "D",
+        "id": "N34_D_source"
+      }
+    ]
+  },
+  "selected_e0_sources": [
+    {
+      "N": 8,
+      "species": "A",
+      "identity": "N08_A_source",
+      "e0_source": "new_pyscf_hessian"
+    },
+    {
+      "N": 8,
+      "species": "B",
+      "identity": "N08_B_etkdg",
+      "e0_source": "new_pyscf_hessian"
+    },
+    {
+      "N": 8,
+      "species": "C",
+      "identity": "N08_C_auditbest",
+      "e0_source": "new_pyscf_hessian"
+    },
+    {
+      "N": 8,
+      "species": "D",
+      "identity": "N08_D_source",
+      "e0_source": "new_pyscf_hessian"
+    },
+    {
+      "N": 10,
+      "species": "A",
+      "identity": "N10_A_source",
+      "e0_source": "new_pyscf_hessian"
+    },
+    {
+      "N": 10,
+      "species": "B",
+      "identity": "N10_B_auditbest",
+      "e0_source": "new_pyscf_hessian"
+    },
+    {
+      "N": 10,
+      "species": "C",
+      "identity": "N10_C_etkdg",
+      "e0_source": "new_pyscf_hessian"
+    },
+    {
+      "N": 10,
+      "species": "D",
+      "identity": "N10_D_auditbest",
+      "e0_source": "new_pyscf_hessian"
+    },
+    {
+      "N": 16,
+      "species": "A",
+      "identity": "N16_A_auditbest",
+      "e0_source": "new_pyscf_hessian"
+    },
+    {
+      "N": 16,
+      "species": "B",
+      "identity": "N16_B_auditbest",
+      "e0_source": "new_pyscf_hessian"
+    },
+    {
+      "N": 16,
+      "species": "C",
+      "identity": "N16_C_auditbest",
+      "e0_source": "new_pyscf_hessian"
+    },
+    {
+      "N": 16,
+      "species": "D",
+      "identity": "N16_D_auditbest",
+      "e0_source": "new_pyscf_hessian"
+    },
+    {
+      "N": 18,
+      "species": "A",
+      "identity": "N18_A_source",
+      "e0_source": "published_source_anchor"
+    },
+    {
+      "N": 18,
+      "species": "B",
+      "identity": "N18_B_source",
+      "e0_source": "published_source_anchor"
+    },
+    {
+      "N": 18,
+      "species": "C",
+      "identity": "N18_C_source",
+      "e0_source": "published_source_anchor"
+    },
+    {
+      "N": 18,
+      "species": "D",
+      "identity": "N18_D_source",
+      "e0_source": "published_source_anchor"
+    },
+    {
+      "N": 32,
+      "species": "A",
+      "identity": "N32_A_source",
+      "e0_source": "published_source_anchor"
+    },
+    {
+      "N": 32,
+      "species": "B",
+      "identity": "N32_B_source",
+      "e0_source": "published_source_anchor"
+    },
+    {
+      "N": 32,
+      "species": "C",
+      "identity": "N32_C_source",
+      "e0_source": "published_source_anchor"
+    },
+    {
+      "N": 32,
+      "species": "D",
+      "identity": "N32_D_source",
+      "e0_source": "published_source_anchor"
+    },
+    {
+      "N": 34,
+      "species": "A",
+      "identity": "N34_A_source",
+      "e0_source": "published_source_anchor"
+    },
+    {
+      "N": 34,
+      "species": "B",
+      "identity": "N34_B_source",
+      "e0_source": "published_source_anchor"
+    },
+    {
+      "N": 34,
+      "species": "C",
+      "identity": "N34_C_source",
+      "e0_source": "published_source_anchor"
+    },
+    {
+      "N": 34,
+      "species": "D",
+      "identity": "N34_D_source",
+      "e0_source": "published_source_anchor"
+    }
+  ],
+  "candidate_evaluation_coverage": [
+    {
+      "N": 8,
+      "species": "A",
+      "primary_identity": "new_pyscf",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    },
+    {
+      "N": 8,
+      "species": "B",
+      "primary_identity": "new_pyscf",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    },
+    {
+      "N": 8,
+      "species": "C",
+      "primary_identity": "new_pyscf",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    },
+    {
+      "N": 8,
+      "species": "D",
+      "primary_identity": "new_pyscf",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    },
+    {
+      "N": 10,
+      "species": "A",
+      "primary_identity": "new_pyscf",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    },
+    {
+      "N": 10,
+      "species": "B",
+      "primary_identity": "new_pyscf",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    },
+    {
+      "N": 10,
+      "species": "C",
+      "primary_identity": "new_pyscf",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    },
+    {
+      "N": 10,
+      "species": "D",
+      "primary_identity": "new_pyscf",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    },
+    {
+      "N": 16,
+      "species": "A",
+      "primary_identity": "published_0K_anchor",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    },
+    {
+      "N": 16,
+      "species": "B",
+      "primary_identity": "published_0K_anchor",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    },
+    {
+      "N": 16,
+      "species": "C",
+      "primary_identity": "published_0K_anchor",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    },
+    {
+      "N": 16,
+      "species": "D",
+      "primary_identity": "published_0K_anchor",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    },
+    {
+      "N": 18,
+      "species": "A",
+      "primary_identity": "published_0K_anchor",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    },
+    {
+      "N": 18,
+      "species": "B",
+      "primary_identity": "published_0K_anchor",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    },
+    {
+      "N": 18,
+      "species": "C",
+      "primary_identity": "published_0K_anchor",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    },
+    {
+      "N": 18,
+      "species": "D",
+      "primary_identity": "published_0K_anchor",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    },
+    {
+      "N": 32,
+      "species": "A",
+      "primary_identity": "published_0K_anchor",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    },
+    {
+      "N": 32,
+      "species": "B",
+      "primary_identity": "published_0K_anchor",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    },
+    {
+      "N": 32,
+      "species": "C",
+      "primary_identity": "published_0K_anchor",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    },
+    {
+      "N": 32,
+      "species": "D",
+      "primary_identity": "published_0K_anchor",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    },
+    {
+      "N": 34,
+      "species": "A",
+      "primary_identity": "published_0K_anchor",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    },
+    {
+      "N": 34,
+      "species": "B",
+      "primary_identity": "published_0K_anchor",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    },
+    {
+      "N": 34,
+      "species": "C",
+      "primary_identity": "published_0K_anchor",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    },
+    {
+      "N": 34,
+      "species": "D",
+      "primary_identity": "published_0K_anchor",
+      "primary_evaluated": true,
+      "secondary_identity": "new_pyscf_etkdg_and_auditbest",
+      "etkdg_evaluated": true,
+      "auditbest_evaluated": true,
+      "secondary_evaluated": true,
+      "both_sources_evaluated": true
+    }
+  ],
+  "runtime_failure_discovery_statistics": {
+    "expected_new_candidate_evaluations": 59,
+    "completed_new_candidate_evaluations": 59,
+    "failed_or_missing_new_candidate_evaluations": 0,
+    "completion_fraction": 1.0,
+    "manifest_etkdg_attempts": 192,
+    "manifest_etkdg_embedded": 135,
+    "stop_rule_evidence_complete": true,
+    "etkdg_stop_rule_complete": false,
+    "crest_fallback_complete": true,
+    "discovery_audit": "data/science_v0.3/raw/wp4b/etkdg_discovery_audit.json",
+    "note": "The deterministic discovery audit is prescreen evidence and does not replace quantum-chemistry candidate evaluation."
+  },
+  "broken_symmetry_checks": [
+    {
+      "N": 8,
+      "species": "A",
+      "source": "N08_A_source",
+      "complete": true,
+      "result": {
+        "attempted": true,
+        "converged": true,
+        "energy_hartree": -425.0878002454423,
+        "delta_from_rks_kcal_mol": -1.2641371404695443e-07,
+        "s2": 1.809596028579108e-09,
+        "effective_multiplicity": 1.000000003619192,
+        "initial_homo_lumo_rotation_rad": 0.2,
+        "scope": "single-point stability diagnostic at the optimized closed-shell geometry"
+      }
+    },
+    {
+      "N": 8,
+      "species": "C",
+      "source": "N08_C_auditbest",
+      "complete": true,
+      "result": {
+        "attempted": true,
+        "converged": true,
+        "energy_hartree": -425.0973524829134,
+        "delta_from_rks_kcal_mol": 7.412181088870521e-08,
+        "s2": 1.0945882422674913e-08,
+        "effective_multiplicity": 1.0000000218917646,
+        "initial_homo_lumo_rotation_rad": 0.2,
+        "scope": "single-point stability diagnostic at the optimized closed-shell geometry"
+      }
+    },
+    {
+      "N": 16,
+      "species": "A",
+      "source": "N16_A_auditbest",
+      "complete": true,
+      "result": {
+        "attempted": true,
+        "converged": true,
+        "energy_hartree": -734.7011815987762,
+        "delta_from_rks_kcal_mol": -1.0729470989086877e-07,
+        "s2": 3.756056798920326e-09,
+        "effective_multiplicity": 1.0000000075121136,
+        "initial_homo_lumo_rotation_rad": 0.2,
+        "scope": "single-point stability diagnostic at the optimized closed-shell geometry"
+      }
+    },
+    {
+      "N": 16,
+      "species": "C",
+      "source": "N16_C_auditbest",
+      "complete": true,
+      "result": {
+        "attempted": true,
+        "converged": true,
+        "energy_hartree": -734.7016513018036,
+        "delta_from_rks_kcal_mol": 4.5129410556491743e-07,
+        "s2": 4.800212138889037e-08,
+        "effective_multiplicity": 1.0000000960042381,
+        "initial_homo_lumo_rotation_rad": 0.2,
+        "scope": "single-point stability diagnostic at the optimized closed-shell geometry"
+      }
+    },
+    {
+      "N": 32,
+      "species": "A",
+      "source": "N32_A_source_bs.json",
+      "complete": true,
+      "result": {
+        "theta_rad": 0.4,
+        "converged": true,
+        "energy_hartree": -1353.9793445836572,
+        "delta_from_rks_kcal_mol": -0.07914075950336515,
+        "s2": 0.23634699618956745,
+        "effective_multiplicity": 1.39477166043703
+      }
+    },
+    {
+      "N": 32,
+      "species": "C",
+      "source": "N32_C_source_bs.json",
+      "complete": true,
+      "result": {
+        "theta_rad": 0.4,
+        "converged": true,
+        "energy_hartree": -1353.9660548973138,
+        "delta_from_rks_kcal_mol": 1.0832199966641964e-06,
+        "s2": 7.164510549273473e-07,
+        "effective_multiplicity": 1.0000014329010833
+      }
+    }
+  ],
+  "gate_criteria": {
+    "all_six_N_defined": {
+      "pass": true
+    },
+    "A_B_C_D_each_N": {
+      "pass": true
+    },
+    "two_conformer_sources_and_identity_manifest": {
+      "pass": true
+    },
+    "both_conformer_sources_actually_evaluated": {
+      "pass": true
+    },
+    "runtime_failure_discovery_statistics": {
+      "pass": true
+    },
+    "0K_ASE_all_six_N": {
+      "pass": true
+    },
+    "lowest_verified_conformer_0K_all_six_N": {
+      "pass": true
+    },
+    "closed_shell_and_BS_checks_for_4n_A_C": {
+      "pass": true
+    }
+  },
+  "gate_status": "PASSED",
+  "integrity": {
+    "contract_sha256": "e8b7fcf59f61ea5a15a72e7343b396ad8e63b34e5a3cd3574d98c383fdba0378",
+    "anchors_sha256": "bc9ea6ac6447da2595f9a06fc752ba1f0ad0798d02a59d710b6cfa86af2f10ec",
+    "manifest_sha256": "898a85d9cf9c20fda3a52d424766087df544657837ddfd9a1bc29aba1091c4ca"
+  },
+  "scope": "Paired pilot only. Passing this gate makes the registered expansion eligible for a separate approval; it neither authorizes expansion by itself nor establishes a universal size law."
+}

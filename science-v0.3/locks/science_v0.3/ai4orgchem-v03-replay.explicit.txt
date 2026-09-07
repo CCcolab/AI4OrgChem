@@ -1,0 +1,16 @@
+# AI4OrgChem WP5 replay-clean environment lock
+# Environment: ${PROJECT_ROOT}/.virtualenvs/ai4orgchem-v03-replay-clean2
+# Platform: WSL2 Ubuntu-24.04 x86_64
+# Construction: Python --without-pip venv; PySCF cached wheel installed into
+# the isolated prefix; exact local copies of the pinned numeric distributions.
+python==3.12.3
+pyscf==2.14.0
+numpy==2.5.2
+scipy==1.18.0
+h5py==3.16.0
+
+# SHA-256 of installed distribution RECORD files
+pyscf-2.14.0.RECORD=d064ae8d2a246e81256f6bca79e1355b22aef1d576ec0dea70abb7f1b1cfd3d1
+numpy-2.5.2.RECORD=02b1b43c983069fd4e4a688262b5127643fe53d347dcb85b54be460c86cc7bbe
+scipy-1.18.0.RECORD=8845df9d41fa1717a7680e08257cd88c5f08ff56574b63a1357d14cf09e4470e
+h5py-3.16.0.RECORD=cbd9ea6e630dd21ad7b6725d9756c7745bceae84811185292add596cbb586db2

@@ -1,0 +1,41 @@
+{
+  "schema_version": "science-v0.3-wp4b-small-dft-result-1",
+  "N": 10,
+  "series": "4n+2",
+  "species": "D",
+  "conformer_source": "etkdg",
+  "input": "${PROJECT_ROOT}/data/science_v0.3/inputs/wp4b/N10_D_etkdg.xyz",
+  "input_sha256": "a6522657dabb3719e27b09e1ac929c9654a396a06738f87a60f14f00ff71810c",
+  "program": "PySCF",
+  "program_version": "2.14.0",
+  "python": "3.12.13",
+  "host": "chen",
+  "method": "B3LYPG/6-31G(d)",
+  "grid": {
+    "radial": 75,
+    "angular": 302,
+    "pruning": "nwchem_prune"
+  },
+  "geometry_acceleration": "GFN2-xTB preopt + density-fitted B3LYPG/6-31G(d) 50x194 optimization",
+  "xtb_elapsed_seconds": null,
+  "xtb_log": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N10_D_etkdg.xtb.log",
+  "optimization_converged": true,
+  "resumed_from_optimized_checkpoint": true,
+  "scf_converged": true,
+  "electronic_hartree": -503.7002097746747,
+  "zpve_hartree": 0.2303248509167459,
+  "zpve_conversion": "0.5*sum(positive harmonic wavenumbers)/219474.631... cm^-1 per hartree",
+  "e0_hartree": -503.46988492375795,
+  "frequency_count": 75,
+  "minimum": true,
+  "imaginary_frequency_count": 0,
+  "imaginary_magnitudes_cm_minus_1": [],
+  "negative_real_frequencies_cm_minus_1": [],
+  "lowest_real_frequency_cm_minus_1": 62.040383326711016,
+  "broken_symmetry": {
+    "attempted": false
+  },
+  "optimized_xyz": "${PROJECT_ROOT}/data/science_v0.3/raw/wp4b/N10_D_etkdg.optimized.xyz",
+  "elapsed_seconds": 2281.6444990990003,
+  "threads": 4
+}

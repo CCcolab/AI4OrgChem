@@ -29,9 +29,7 @@ NWCHEM_GRADIENT_ROW_RE = re.compile(
 
 
 def load_v02_module():
-    # The public V0.3 package is incremental: frozen source geometries and
-    # tangent definitions remain in the immutable sibling V0.2 package.
-    path = ROOT.parent / "science-v0.2/scripts/science_v0.2/run_wp2_open_program_anchors.py"
+    path = ROOT / "scripts/science_v0.2/run_wp2_open_program_anchors.py"
     spec = importlib.util.spec_from_file_location("wp2_v02_anchor_source", path)
     if spec is None or spec.loader is None:
         raise RuntimeError(f"Cannot import {path}")
@@ -282,7 +280,7 @@ def main() -> None:
     atoms_bohr = to_bohr(spec["atoms"])
     needs_gradient = bool(spec.get("gradient"))
     tangent = tangent_for(spec)
-    source_path = V02.ROOT / spec["source"]
+    source_path = ROOT / spec["source"]
     record: dict[str, Any] = {
         "schema_version": "science-v0.3-wp2-open-three-program-anchor-1",
         "timestamp_utc": datetime.now(timezone.utc).isoformat(),

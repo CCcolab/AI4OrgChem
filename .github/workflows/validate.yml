@@ -54,6 +54,18 @@ jobs:
       - name: Run Science V0.2 release-contract tests
         run: python -m pytest -p no:cacheprovider science-v0.2/tests/science_v0.2
 
+      - name: Validate Science V0.3 package integrity
+        run: python science-v0.3/scripts/science_v0.3/validate_github_v03_release.py --project . --package science-v0.3
+
+      - name: Validate Science V0.3 scientific gates
+        run: |
+          python science-v0.3/scripts/science_v0.3/validate_wp4a_source_aligned.py
+          python science-v0.3/scripts/science_v0.3/validate_wp4b_paired_pilot.py --project science-v0.3
+          python science-v0.3/scripts/science_v0.3/validate_wp5_external_replay.py --project science-v0.3
+
+      - name: Run Science V0.3 release-contract tests
+        run: python -m pytest -p no:cacheprovider science-v0.3/tests/science_v0.3
+
       - name: Check WSL shell syntax
         run: |
           bash -n reproducibility/wsl/activate-ai4orgchem-public.sh

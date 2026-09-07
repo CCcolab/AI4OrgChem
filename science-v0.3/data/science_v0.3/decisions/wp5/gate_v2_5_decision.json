@@ -1,0 +1,24 @@
+{
+  "schema_version": "science-v0.3-gate-v2-5-decision-1",
+  "status": "PASSED",
+  "replay_status": "EXTERNAL_CLEAN_REPLAY",
+  "agent_maturity": "M2",
+  "external_replayer": true,
+  "external_model": {
+    "provider": "DeepSeek",
+    "model_id": "deepseek-v4-flash",
+    "version_or_date": "2026-09-07",
+    "reasoning_setting": "temperature=0"
+  },
+  "bundle_only_filesystem": true,
+  "network_unshared_during_quantum_calculation": true,
+  "scientific_grade_modified": false,
+  "result_sha256_frozen_before_unblinding": "d431ddeee21eeed526fbdae3a7d87a727de7dcbdd2cddb2e2586726c20375040",
+  "reference_energy_hartree": -232.24382186374694,
+  "replay_energy_hartree": -232.24382186374666,
+  "absolute_difference_hartree": 2.8421709430404007e-13,
+  "tolerance_hartree": 5e-06,
+  "comparison_pass": true,
+  "redaction_pass": true,
+  "run_bundle": "runs/science_v0.3/wp5_external_replay/retained/wp5-external-20260907T121810Z/agent_run_bundle.json"
+}
