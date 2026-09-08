@@ -6,14 +6,14 @@
 
 - `src/ai4orgchem/lfmo/`：非正交子空间、反射适配、状态掩码、KOST与GL辅助实现；
 - `src/ai4orgchem/qm/`：AO分类、ERI掩码、条件SCF与独立能量组装；
-- `tests/`：与上述公开模块直接对应的64项测试；
+- `tests/`：与上述公开模块直接对应的69项测试，包括P14证据资格五项回归测试；
 - `scripts/validate_public_evidence.py`：检查P01–P14机器结果与冻结判定；
 - `scripts/validate_p14_evidence.py`：执行P14 Draft 2020-12 JSON Schema、重复键、引用、SHA-256、输入坐标和底层判据确定性重算；不重跑高成本QM；
-- `scripts/validate_evidence_navigation.py`：检查双语14项导航、120个以上证据链接及P11/P12差异数值。
+- `scripts/validate_evidence_navigation.py`：检查双语14项导航、120个以上证据链接、P11/P12部分一致状态及P14合格生产优化后的“一致”状态。
 - `scripts/validate_wsl_release.py`：检查WSL双目录模式、公开环境名、平台边界和无环境变更约束。
 - `scripts/validate_release_package.py`：执行JSON/JSONL/YAML/CFF语法、Markdown链接、SHA清单、敏感信息、路径、大文件和重复文件总门禁。
 - `scripts/refresh_release_snapshot.py`：在授权修改后重建实质文件清单和SHA-256快照；刷新后必须重新运行全部门禁。
-- `scripts/run_p14_*.py`与`classify_p14_strained_aromatic_pi_distortivity.py`：P14专用公开计算入口和从四个底层记录重算分类的确定性解析器；高成本步骤默认写入被Git忽略的`runs/reproduction/p14/`。
+- `scripts/run_p14_*.py`与`classify_p14_strained_aromatic_pi_distortivity.py`：P14专用公开计算入口和从四个底层记录重算分类的确定性解析器；生产优化必须通过授权、方法/基组、SCF、电子数、梯度、终止原因和活动边界门禁，STO-3G技术烟测不得替代。高成本步骤默认写入被Git忽略的`runs/reproduction/p14/`。
 
 ## 验证命令
 
