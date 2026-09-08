@@ -697,7 +697,7 @@
       "path": "evidence/P01-P14/P14/processed/p14_strained_aromatic_pi_distortivity_classification_v0.1.json",
       "artifact_role": "scientific-evidence",
       "bytes": 5884,
-      "sha256": "dd97d731a3e71f97cc76ba5de1f6fa6d1ea123c43d0f46b882d5c749cb0e344f"
+      "sha256": "e9c23f15247259768a31d5b8926cee87d2faf248ac6bd69a0f0f73c57ae05b5d"
     },
     {
       "path": "evidence/P01-P14/P14/protocol.md",
@@ -715,7 +715,7 @@
       "path": "evidence/P01-P14/P14/result.json",
       "artifact_role": "scientific-evidence",
       "bytes": 5797,
-      "sha256": "8872b78bbcaa410b0ebf63d29d2996ecf621044f2dcc92af9f96e1da530628db"
+      "sha256": "bfb71c2fe6a5ed627c9f9968ddb2e6f6e202a57129b2d65be9903b7227db144a"
     },
     {
       "path": "evidence/P01-P14/README.md",
@@ -757,7 +757,7 @@
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
       "bytes": 86251,
-      "sha256": "02548df96e446185979d97da7d0213d5ee1bd8a6ca7b1a7ca43fab0a2827f00d"
+      "sha256": "1f24fb2a229da6f6af0b08f6bcd680002feab99f048dfc232f266bd211bd48fd"
     },
     {
       "path": "manuscripts/P01-P14_evidence_matrix_zh-CN.md",
