@@ -44,7 +44,7 @@ Each file has a distinct evidentiary responsibility:
 
 Read “Scientific assessment” and “Reproducibility and evidence boundaries” on the [English home page](README.md). Retain three statements:
 
-1. Of fourteen propositions, thirteen are consistent within their declared tested domains (P05 and P07 are explicitly scope-qualified), one (P12) is partially consistent, none is globally inconsistent, and none is unknown. P11-B moved from partial to consistent only after the source-2007 state-specific planar restricted optimizations reproduced both CE and IE; the old fixed-geometry result remains visible for audit.
+1. Of fourteen propositions, thirteen are consistent, one (P12) is partially consistent, none is globally inconsistent, and none is unknown. P05 now has a seven-angle continuation in the same molecular system; P07's `DERIVED` evidence identity is reported separately. P11-B moved from partial to consistent only after the source-2007 state-specific planar restricted optimizations reproduced both CE and IE; the old fixed-geometry result remains visible for audit.
 2. The evidence supports a bounded methodological criticism: several textbook heuristics do not automatically become universally sufficient mechanistic explanations.
 3. The project does not claim that traditional organic chemistry is globally wrong and does not propose a reverse universal law that conjugation must always be destabilizing.
 
@@ -122,7 +122,7 @@ Machine learning and the evidence agent form a separate engineering layer. MACE,
 | WP5 | External clean Agent replay | Reaches M2-scoped maturity for one whitelisted replay; it does not expose the full external-model session or automatically raise R1–R3 |
 | WP6 | Fixed tag, complete archive, hashes, CI, and post-tag clean verification | Fixes publication identity without generating a new scientific sign |
 
-See the [`v0.3.0` scientific-closure entry](science-v0.3/README.md) and the [post-release erratum](project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md). The immutable release remains unchanged; current `main` adds the qualified P14 correction and the source-2007 P11-B planar recalculation, and reports thirteen consistent propositions, with P05 and P07 explicitly limited to their tested scopes, plus one partially consistent proposition.
+See the [`v0.3.0` scientific-closure entry](science-v0.3/README.md) and the [post-release erratum](project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md). The immutable release remains unchanged; current `main` adds the qualified P14 correction, the source-2007 P11-B planar recalculation, and the P05 seven-angle continuation, and reports thirteen consistent plus one partially consistent proposition.
 
 ## 5. Examine the P11 correction, the remaining P12 partial result, and the P14 correction
 
@@ -181,7 +181,7 @@ Expected output includes:
 - `status: PASS`;
 - `propositions_checked: 14`;
 - `propositions_navigated: 14`;
-- thirteen consistent within their declared tested domains (P05 and P07 explicitly scope-qualified), one partially consistent, zero globally inconsistent, and zero unknown classifications.
+- thirteen consistent, one partially consistent, zero globally inconsistent, and zero unknown classifications.
 - `WP6_V03_RELEASE_VALIDATION_OK`.
 
 Readers interested only in scientific evidence do not need PySCF, CUDA, MACE, or PySR. Full runtime and WSL 2 information is provided only for software and platform reproduction in the [reproducibility directory](reproducibility/README.md).
@@ -190,7 +190,7 @@ Readers interested only in scientific evidence do not need PySCF, CUDA, MACE, or
 
 For a reviewer who has not independently rerun every historical computation, the strongest defensible summary is:
 
-> AI4OrgChem conducted a layered, auditable evidence assessment of fourteen counter-traditional propositions in organic structure theory and independently reconstructed the computationally testable propositions without using the monograph's program code, under explicitly frozen systems, state definitions, energy differences, and source-proxy boundaries. Current public evidence is consistent with thirteen propositions within their declared tested domains, with P05 and P07 explicitly scope-qualified, and partially consistent with P12. P11 was upgraded only after a source-2007 state-specific all-planar restricted optimization reproduced both CE and IE, while the superseded fixed-geometry result remains public. The aggregate result supports criticism of unconditionally universalizing several classical heuristics, but it does not reject traditional organic chemistry as a whole or establish a universal law in the opposite direction. The release has not undergone peer review.
+> AI4OrgChem conducted a layered, auditable evidence assessment of fourteen counter-traditional propositions in organic structure theory and independently reconstructed the computationally testable propositions without using the monograph's program code under explicitly registered systems, state definitions, energy differences, and source-proxy conditions. Current public evidence is consistent with thirteen propositions and partially consistent with P12. P05 now has a seven-angle continuation in the same system, while P07's `DERIVED` evidence identity remains explicit. P11 was upgraded only after a source-2007 state-specific all-planar restricted optimization reproduced both CE and IE, while the superseded fixed-geometry result remains public. The aggregate result supports criticism of unconditionally universalizing several classical heuristics, but it does not reject traditional organic chemistry as a whole or establish a universal law in the opposite direction. The release has not undergone peer review.
 
 ## 9. Shortest navigation path
 

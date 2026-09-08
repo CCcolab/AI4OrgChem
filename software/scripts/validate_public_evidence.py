@@ -61,6 +61,18 @@ def main() -> None:
         if not rows or any("final_scoped_label" not in row for row in rows):
             failures.append(f"{relative}: missing scoped labels")
 
+    p05 = load_json("P05/seven-angle-result.json")
+    p05_expected_angles = {"0.0", "5.0", "10.0", "17.0", "25.0", "35.0", "45.0"}
+    if (
+        p05.get("decision_verdict") != "PASS_P05_SEVEN_ANGLE_CONTINUATION"
+        or p05.get("scientific_verdict") != "P05_CONSISTENT_WITH_MULTI_ANGLE_SUPPORT"
+        or set(p05.get("points", {})) != p05_expected_angles
+        or not all(p05.get("checks", {}).values())
+        or any(p05.get("angle_labels", {}).get(angle) != "destabilizing" for angle in p05_expected_angles - {"0.0"})
+        or p05.get("angle_labels", {}).get("0.0") != "indeterminate"
+    ):
+        failures.append("P05/seven-angle-result.json: completed continuation evidence changed")
+
     p14 = load_json("P14/result.json")
     if p14.get("classification") != "consistent" or p14.get("decision_verdict") != "PASS":
         failures.append("P14/result.json: frozen classification or decision verdict changed")
