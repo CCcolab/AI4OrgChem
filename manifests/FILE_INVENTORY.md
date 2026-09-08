@@ -155,12 +155,12 @@
 | `NOTICE` | repository-root | 908 | `782f9e250566e483860e03f6802a961adbf241839271d1c5bb5992e25dab8198` |
 | `project/ACHIEVEMENTS_zh-CN.md` | project-narrative | 2346 | `a90ee9f9850faa82a93c72023103004ecaeee21434f3509d4a19937f14738ff0` |
 | `project/P01-P14_MASTER_TABLE_zh-CN.md` | project-narrative | 12786 | `f6a00b0bf80f287eb6bc0b74f44301fb0acab30d35bfc05275b57c9385060f69` |
-| `project/POST_REMEDIATION_RESPONSE_2026-09-01_zh-CN.md` | project-narrative | 5694 | `4943d85a7c13e5002a8a3add1451e08d88bcb17054643fc8c6c767461e4dde3b` |
+| `project/POST_REMEDIATION_RESPONSE_2026-09-01_zh-CN.md` | project-narrative | 5761 | `ef87192b934d360f97121cf283a78059bab3a874a6710810df00942080363abb` |
 | `project/PROJECT_BACKGROUND_zh-CN.md` | project-narrative | 1077 | `376edd3d1e88e520c1924f7f2d4ce1d6c6c0433168096005e4a54d17bb1e1f21` |
 | `project/README.md` | project-narrative | 1093 | `222195347855e94e0aa42cd7e4a6c7912789d4f95fb51d0e2088275a13b612be` |
 | `project/RESEARCH_ITEMS_zh-CN.md` | project-narrative | 1939 | `508c64832f3b075a9d073e33badd35be764012eebb94624fc7966fa2b03b143f` |
 | `project/RESEARCH_VALUE_zh-CN.md` | project-narrative | 1319 | `7308230ee6f5dd7009de88e0483b3ff298baa2a438d8f99fc010103e24b80c5b` |
-| `project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md` | project-narrative | 6713 | `d1bbf72d0bbe57e86d8b89276b853200fb978210f5c8a317320a5472fc2c3b88` |
+| `project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md` | project-narrative | 6873 | `be926e4740b30e1b183b81451a9d7659d29c11859e0254b082815b693d370ac7` |
 | `README.md` | repository-root | 24102 | `324bd5ab415c3ddb889dbadc1c046cd21fbcd2c6f709b758a47851ce2ac07621` |
 | `README_zh-CN.md` | repository-root | 10601 | `f2229ea4cdc9f12ac8b2e822d9bd41f0899ec380edb66fc87a214538a964be11` |
 | `reproducibility/conda-linux-64.explicit.txt` | reproducibility | 18332 | `543abce03ee369526d83016126d7a0b7a82de48e0ef3356d3877289af90f5637` |
