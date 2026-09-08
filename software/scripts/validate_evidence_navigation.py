@@ -53,7 +53,7 @@ AUTHORITATIVE_STATUS_REQUIREMENTS = {
     "manuscripts/P01-P14_evidence_matrix_zh-CN.md": ("一致13项", "七角度连续序列技术门禁全通过", "部分一致1项（P12）", "IE=+0.490079"),
     "manuscripts/PUBLICATION_POSITIONING_EN.md": ("Thirteen are consistent with the monograph", "P05 now includes a seven-angle continuation", "one (P12) is partially consistent"),
     "manuscripts/PUBLICATION_POSITIONING_zh-CN.md": ("十三项一致", "P05已补齐同一体系七角度连续序列", "一项（P12）部分一致"),
-    "ai4s-agent/CAPABILITIES_AND_RESULTS_zh-CN.md": ("十三项一致", "P05七角度增强", "P07派生证据身份", "一项部分一致（P12）"),
+    "ai4s-agent/CAPABILITIES_AND_RESULTS_zh-CN.md": ("十三项一致", "P05七角度增强", "P07同哈密顿量路径审计", "一项部分一致（P12）"),
 }
 
 FORBIDDEN_CURRENT_FRAGMENTS = (
@@ -166,6 +166,7 @@ def main() -> None:
         "verdict_scope_separated": True,
         "partially_consistent": 1,
         "globally_inconsistent": 0,
+        "p07_evidence_identity": "INDEPENDENT_COMPUTATIONAL_AUDIT_PLUS_DERIVED_SYNTHESIS",
     }
     if any(counts.get(key) != value for key, value in expected_count_fields.items()):
         failures.append("AI4S Agent machine-readable proposition counts are not the current 13+1 state")
