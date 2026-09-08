@@ -45,7 +45,7 @@ Representative frozen results are:
 | GL-defined butadiene conjugation energy | +1.575676 kcal/mol |
 | Cyclobutadiene ADE | +53.822467 kcal/mol |
 | Benzene ESE | -37.412764 kcal/mol (monograph: -36.3; absolute difference 1.112764, about 3.07%) |
-| Strained-aromatic C12H6 endpoint | +67.086899 kcal/mol |
+| Strained-aromatic C12H6 endpoints | +67.086899 kcal/mol fixed-geometry source-level anchor; +67.679719 kcal/mol qualified production optimization (`dDelta-r=0.172204 A`) |
 
 These results support a bounded methodological conclusion: several textbook heuristics do not automatically provide universally sufficient mechanistic explanations. They do **not** establish that traditional organic chemistry is globally wrong, do not create a universal opposite law of conjugative destabilization, and do not constitute institutional certification of the monograph.
 
