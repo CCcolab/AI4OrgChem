@@ -155,8 +155,8 @@
 | `reproducibility/wsl/activate-ai4orgchem-public.sh` | reproducibility | 1475 | `5361fab00ebc6c614dfc191fffb4fb5c1eb0690ab862ad27000359347709cb2e` |
 | `reproducibility/wsl/ai4orgchem-verify` | reproducibility | 929 | `7eec73ec0269e9549a238707c6edf792a3bbae8161b72d714ba84abe3c43dc92` |
 | `reproducibility/wsl/README.md` | reproducibility | 1742 | `afb4d76e6f525e4b55036a446867d6ecc47b1657d7f17f6303062f4031ad832c` |
-| `REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md` | repository-root | 12205 | `14b39b9f3b6c15a5ff210b98c725db6f4d5a213f05ef653160aaae87f3426c73` |
-| `REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md` | repository-root | 10056 | `a5a7dfd5e6c02e73e12f0f958a86d111355e2b9d4f1f92e303fc32e16ad65d7d` |
+| `REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md` | repository-root | 15663 | `6e5e3138fe12c5c2067f1907270fe0697eb3b7ef9d875cebc6bc30ebffe08fb0` |
+| `REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md` | repository-root | 13061 | `c5744f06d73bfedcf90e30cb687d02f7b1b9dcb523bbcc8e4aee677983d0d9fa` |
 | `science-v0.2/configs/science_v0.2/agent_run_bundle.schema.json` | science-v0.2-evidence | 2722 | `aa46286cc01b24cda839664d1e660f5849962586748ee03007c257834dd9e96d` |
 | `science-v0.2/configs/science_v0.2/blind_bundle.schema.json` | science-v0.2-evidence | 1521 | `e95784f19fc17a16995373d3d92742c084b2c5936f66b8fbeb4941210e136152` |
 | `science-v0.2/configs/science_v0.2/claim_estimand_registry.json` | science-v0.2-evidence | 9646 | `105c0ba488fd1000f746e32e248e7a383f88a30587113b2755276c7d5b685ecf` |
