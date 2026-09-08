@@ -5,7 +5,7 @@
 - Recomputed all ten cyanobenzene and three benzene G/GL/GE states with state-specific B3LYP/6-31G(d) restricted geometry optimization and hard all-atom planarity constraints.
 - Reproduced `ESE(SB)=-37.352830`, `ESE(Ph)=-38.525952`, `ESE(Bz)=-39.016031`, `CE=+1.173122`, and `IE=+0.490079 kcal/mol`; P11 changes from partially consistent to consistent within this single-system source-2007 domain.
 - Preserved the old `IE=-0.335714 kcal/mol` fixed-geometry proxy as a superseded audit record. The registered `0.001 Å` source-start ring-bond drift diagnostic was not met (`0.002328 Å`, cyanobenzene G) and is disclosed without silently relaxing the threshold.
-- Current proposition totals are 13 consistent/scope-consistent and 1 partially consistent (P12); no universal substituent law or historical-program identity is claimed.
+- Current proposition totals are 13 consistent within their declared tested domains (P05 and P07 explicitly scope-qualified) and 1 partially consistent (P12); no universal substituent law or historical-program identity is claimed.
 
 All notable changes to AI4OrgChem public releases are recorded in this file.
 

@@ -31,7 +31,7 @@ The project asks whether independently reconstructed quantum-chemical evidence s
 
 All fourteen propositions received determinate classifications within their declared tested domains:
 
-- **13 consistent or scope-consistent** with the corresponding monograph proposition;
+- **13 consistent with the corresponding monograph proposition within their declared tested domains**; P05 and P07 carry explicit scope qualifiers;
 - **1 partially consistent**: P12 retains a cross-estimand onset boundary;
 - **0 globally inconsistent and 0 unknown**.
 
