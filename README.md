@@ -13,9 +13,11 @@ AI4OrgChem is an **AI for Science (AI4S) Agent** for independent computational r
 
 > **AI-assisted research and engineering:** **OpenAI Codex (GPT-5.6)**. Project authorship, scientific decisions, interpretations, and publication responsibility remain with Xiao Chen; OpenAI is not presented as a project author, scientific certifier, peer reviewer, or institutional endorser.
 
-> **Release status:** Science Closure Release [`v0.3.0`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0). The associated manuscript has not yet undergone peer review.
+> **Release status:** Post-Review Evidence Maintenance Release [`v0.3.1`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.1). The associated manuscript has not yet undergone peer review.
 
-> **Download and citation:** GitHub's **Code → Download ZIP** provides a snapshot of the current `main` branch and may change with later maintenance. The immutable [`v0.3.0` Release package](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0) remains the historical archive; readers must also consult the current [post-release erratum](project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md), which corrects P14 evidence eligibility pending a `v0.3.1` maintenance release.
+> **Download and citation:** GitHub's **Code → Download ZIP** provides a snapshot of the current `main` branch and may change with later maintenance. Use the immutable [`v0.3.1` Release package](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.1) for the current 13+1 evidence state. The immutable [`v0.3.0` package](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0) remains a historical archive; its [post-release erratum](project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md) is incorporated into `v0.3.1`.
+
+> **Science `v0.3.1` maintenance closure:** This release incorporates the qualified P14 production evidence, the source-2007 state-specific all-planar P11-B recalculation, the P05 same-system seven-angle continuation, and the P07 independent same-Hamiltonian five-state path audit. The current proposition-level classification is **13 consistent and 1 partially consistent (P12)**. Evidence identity, tested scope, and independence remain separate from the verdict label.
 
 > **Science `v0.2.0`:** [the versioned `v0.2.0` evidence package](science-v0.2/README.md) is retained as a historical release baseline. The frozen `v0.1.x` P01-P14 classifications remain unchanged.
 
