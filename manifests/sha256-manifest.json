@@ -450,8 +450,8 @@
     {
       "path": "evidence/P01-P14/P06/report.md",
       "artifact_role": "scientific-evidence",
-      "bytes": 2078,
-      "sha256": "8509949a47c3306e0b99da151f54b7d9b82a6e0b3d4317f61256ed7c10ca7057"
+      "bytes": 2532,
+      "sha256": "56bb23cb3027dc20f0822cff8b886a1bebe4d579cd222b2abc58976296b1d6d3"
     },
     {
       "path": "evidence/P01-P14/P06/result.jsonl",
@@ -871,7 +871,7 @@
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
       "bytes": 89319,
-      "sha256": "2344e60b498f7f7dbd55877a329dda6b58e064a212e165c0682eb50de06e5bc3"
+      "sha256": "097c674fcb1b5978f07fe3eebd03ecfb2064f871ee4fc9b8a96858892a9f53da"
     },
     {
       "path": "manuscripts/P01-P14_evidence_matrix_zh-CN.md",
