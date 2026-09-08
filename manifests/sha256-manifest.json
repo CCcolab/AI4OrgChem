@@ -102,14 +102,14 @@
     {
       "path": "CHANGELOG.md",
       "artifact_role": "repository-root",
-      "bytes": 11492,
-      "sha256": "e6c074e4d4a8aeedf6d1b146c3226be358314fc01091039171121f368afff750"
+      "bytes": 10537,
+      "sha256": "01f57e41ed047c9fdcbf2fcdead14b4cf85c98fba326d7ea0417f62515c01067"
     },
     {
       "path": "CITATION.cff",
       "artifact_role": "repository-root",
       "bytes": 910,
-      "sha256": "6871ec10700723a584f8a7478006fb7691d1202fe0e4d839de23d4d9acfbf507"
+      "sha256": "856d489e9bf1f0ff7fd17d78319b5e11771cf29a8e61a0b492e7d30b0e340903"
     },
     {
       "path": "configs/qm/p09_exchange_integral_classes_v0.1.yaml",
@@ -870,8 +870,8 @@
     {
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
-      "bytes": 89319,
-      "sha256": "1e7775a3d0794a358607a32d4c092e4fa6b0b54f3e5d604774982ee332feea29"
+      "bytes": 89443,
+      "sha256": "ad8c809eb14c98f5db94f32dce7b9e4b0b23aaf6a7953193c05fef278d81b3ab"
     },
     {
       "path": "manuscripts/P01-P14_evidence_matrix_zh-CN.md",
@@ -954,14 +954,20 @@
     {
       "path": "README.md",
       "artifact_role": "repository-root",
-      "bytes": 24549,
-      "sha256": "20e0a04af4cb5e7748728ab237b1146df44596269b3803d4beff7d50d46f3c5d"
+      "bytes": 25086,
+      "sha256": "9dc87d4b3b5f38c89225e43c3781e2d0e3cfbba4d209e75c39ebae2936212c25"
     },
     {
       "path": "README_zh-CN.md",
       "artifact_role": "repository-root",
-      "bytes": 10930,
-      "sha256": "0534060572612382f5ed7755eba4eab1a9b4134e0de8a4589cd65c79273d41ef"
+      "bytes": 11322,
+      "sha256": "45f848ac53c14ae021d81ec8f6366a3a6dc23f830d4a1a117a8531fc5e163bb2"
+    },
+    {
+      "path": "RELEASE_NOTES_v0.3.1.md",
+      "artifact_role": "repository-root",
+      "bytes": 4739,
+      "sha256": "1ff7d081ebf80aff8fd08b670b0117b2f5416268ee08e972572a2942635b56b0"
     },
     {
       "path": "reproducibility/conda-linux-64.explicit.txt",

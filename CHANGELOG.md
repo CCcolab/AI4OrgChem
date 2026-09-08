@@ -1,32 +1,25 @@
 # Changelog
 
-## 2026-09-08 — P05 seven-angle continuation
-
-- Preserved the frozen 0°/17° Table 5-15 anchors and computed five new rigid-twist points at 5°, 10°, 25°, 35°, and 45° under the same diphenyl-imine, RHF/6-31G(d), G/FUD source-defined contract.
-- All seven points passed the technical gates; all six nonzero-angle endpoints are positive, from `+0.000783111342` to `+0.058892182993 Eh`, while 0° remains the zero control.
-- The maximum direct-response-endpoint closure residual is `3.493205724681e-12 Eh`; LFMO root and group dimensions remain constant across the panel.
-- P05 is reported as **consistent with multi-angle support**. Its source-defined nonvariational endpoint identity and non-universal boundary remain explicit in separate evidence fields.
-
-## 2026-09-08 — P11-B source-2007 planar recalculation
-
-- Recomputed all ten cyanobenzene and three benzene G/GL/GE states with state-specific B3LYP/6-31G(d) restricted geometry optimization and hard all-atom planarity constraints.
-- Reproduced `ESE(SB)=-37.352830`, `ESE(Ph)=-38.525952`, `ESE(Bz)=-39.016031`, `CE=+1.173122`, and `IE=+0.490079 kcal/mol`; P11 changes from partially consistent to consistent within this single-system source-2007 domain.
-- Preserved the old `IE=-0.335714 kcal/mol` fixed-geometry proxy as a superseded audit record. The registered `0.001 Å` source-start ring-bond drift diagnostic was not met (`0.002328 Å`, cyanobenzene G) and is disclosed without silently relaxing the threshold.
-- Current proposition totals are 13 consistent and 1 partially consistent (P12); evidence identity, scope, and independence are reported separately from the verdict label.
-
 All notable changes to AI4OrgChem public releases are recorded in this file.
 
 ## [Unreleased]
 
-### Changed
+## [0.3.1] - 2026-09-08
 
-- Corrected the P14 evidence-eligibility gate: the classification-disabled STO-3G technical pilot is no longer accepted as production optimization evidence, and optimizer success no longer overrides an excessive gradient.
-- Temporarily changed P14 from consistent to partially consistent while the ineligible technical pilot was excluded and qualified production evidence was absent; P01-P13 were unchanged.
-- Added a bilingual post-release erratum while preserving the immutable `v0.3.0` tag and assets.
+### Scientific evidence maintenance
+
+- Corrected the P14 evidence-eligibility gate so that the classification-disabled STO-3G technical pilot cannot qualify as production evidence. The same-protocol B3LYPG/6-31G(d) production optimization passed all registered gates and gives `dDelta-r=0.172204 A` and `+67.679719 kcal/mol`; the `+67.086899 kcal/mol` fixed-geometry source-level anchor remains separately identified.
+- Recomputed ten cyanobenzene and three benzene states under the source-2007 state-specific, all-planar restricted protocol. `CE=+1.173122` and `IE=+0.490079 kcal/mol`; P11 changes from partially consistent to consistent. The superseded fixed-geometry opposite-sign result remains available for audit.
+- Extended P05 to the same-system seven-angle sequence at 0°, 5°, 10°, 17°, 25°, 35°, and 45°. All six nonzero endpoints are positive and the maximum closure residual is `3.493205724681e-12 Eh`.
+- Strengthened P07 with an independent same-Hamiltonian five-state path audit of the frozen 0°/17° results. The naive three-term residuals are `0.335760104092/0.333815958695 Eh`; an explicit `E_DSI2-E_PDSI` bridge or path-complete `E_DSI2-E_FUL` sigma term closes both exactly. The earlier proposition synthesis remains separately marked `DERIVED`.
+- The current proposition-level classification is **13 consistent and 1 partially consistent (P12)**, with 0 globally inconsistent and 0 unknown. Evidence identity, scope, and independence remain separate fields.
+
+### Reproducibility and governance
+
+- Added the bilingual P14 post-release erratum and retained the immutable `v0.3.0` tag and assets unchanged.
 - Scoped WP5 maturity as `M2-scoped`: one external-model-selected whitelist replay, not a public full external-model session or generally replayable runtime; R1-R3 scientific grades are unaffected.
-- Added explicit evidence identities and tightened P02, P03, P04-P13 publication language.
-- Added a narrow B3LYPG/6-31G(d) P14 production-optimization runner whose output is scientifically eligible only after every registered gate passes.
-- Completed the qualified P14 production optimization: both G/PLG endpoints passed the registered gradient, termination, boundary, SCF, electron-count and density checks; the optimized distortion and energy endpoint satisfy the preregistered tolerances. P14 was therefore restored to consistent; at that dated P14-remediation stage the totals were 12 consistent/scope-consistent plus 2 partially consistent. The later P11-B source-2007 recalculation recorded above supersedes that aggregate count.
+- Synchronized the master table, evidence navigation, reports, bilingual positioning, README summaries, file inventory, and SHA-256 manifest with the current evidence state.
+- Preserved all superseded and historical records with explicit dates rather than silently rewriting their numerical results.
 
 ## [0.3.0] - 2026-09-08
 

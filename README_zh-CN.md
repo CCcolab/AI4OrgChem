@@ -13,9 +13,11 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 
 > **AI辅助研究与工程支持：** **OpenAI Codex（GPT-5.6）**。项目作者身份、科学决策、结果解释和发布责任均由Xiao Chen承担；OpenAI不作为项目作者、科学认证机构、同行评审方或机构背书方。
 
-> **发布状态：** 科学闭合版本 [`v0.3.0`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0)。相关论文稿尚未经过同行评审。
+> **发布状态：** 复评证据维护版本 [`v0.3.1`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.1)。相关论文稿尚未经过同行评审。
 
-> **下载与引用：** GitHub的 **Code → Download ZIP** 下载的是当前`main`分支快照，后续维护可能使其变化。不可变的[`v0.3.0` Release完整包](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0)继续作为历史归档；阅读时必须同时查看当前的[发布后勘误](project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md)，其中已修正P14证据资格，后续将形成`v0.3.1`维护版。
+> **下载与引用：** GitHub的 **Code → Download ZIP** 下载的是当前`main`分支快照，后续维护可能使其变化。当前13+1证据状态请使用不可变的[`v0.3.1` Release完整包](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.1)。不可变的[`v0.3.0`包](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0)继续作为历史归档；其[发布后勘误](project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md)已经纳入`v0.3.1`。
+
+> **Science `v0.3.1`维护闭合版：** 本版纳入P14合格生产证据、P11-B source-2007逐状态全平面复算、P05同一体系七角度连续序列及P07独立同哈密顿量五状态路径审计。当前命题级分类为**13项一致、1项部分一致（P12）**；证据身份、受测范围和独立性继续与判定标签分列。
 
 > **Science `v0.2.0`：** [版本化的`v0.2.0`证据包](science-v0.2/README.md)作为历史发布基线继续保留；冻结的`v0.1.x` P01–P14十四项判定保持不变。
 

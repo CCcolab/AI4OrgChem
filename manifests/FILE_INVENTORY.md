@@ -2,7 +2,7 @@
 
 本清单记录GitHub洁净仓库中的实质内容文件。生成型SHA清单和本文件自身不反向列入表格。
 
-- 实质内容文件：561
+- 实质内容文件：562
 - 状态：版本化发布快照；内容变更后必须重新生成并验证
 
 | 文件 | 角色 | 字节 | SHA-256 |
@@ -23,8 +23,8 @@
 | `ai4s-agent/README.md` | agent-delivery | 1503 | `c8085485aa8f657404e47941668671e4edfa3dad3cfd143959a2468e7b4ba69e` |
 | `ai4s-agent/SYSTEM_ARCHITECTURE_zh-CN.md` | agent-delivery | 1114 | `c767a97c2fca2abdb13540dfc6b6e8983952dbc9f3cfd5f119017da2dd830a8a` |
 | `AUTHORS.md` | repository-root | 2416 | `148d3f76aea865f1ed862c9b65ea980e92d170d3b95a598cba626250cd681df2` |
-| `CHANGELOG.md` | repository-root | 11492 | `e6c074e4d4a8aeedf6d1b146c3226be358314fc01091039171121f368afff750` |
-| `CITATION.cff` | repository-root | 910 | `6871ec10700723a584f8a7478006fb7691d1202fe0e4d839de23d4d9acfbf507` |
+| `CHANGELOG.md` | repository-root | 10537 | `01f57e41ed047c9fdcbf2fcdead14b4cf85c98fba326d7ea0417f62515c01067` |
+| `CITATION.cff` | repository-root | 910 | `856d489e9bf1f0ff7fd17d78319b5e11771cf29a8e61a0b492e7d30b0e340903` |
 | `configs/qm/p09_exchange_integral_classes_v0.1.yaml` | public-configuration | 7326 | `324c2e7988be48ed8898a5e9b04a87d40386ca8a8f7eb603d9a697d3ac6a6ee2` |
 | `configs/qm/p14_strained_aromatic_pi_distortivity_v0.1.yaml` | public-configuration | 6680 | `f64fed4aeb172deaf5c71e637af367656e24b867570061987a5311fdbe48e06b` |
 | `development/science-v0.2/configs/agent_run_bundle.schema.json` | development-snapshot | 2722 | `aa46286cc01b24cda839664d1e660f5849962586748ee03007c257834dd9e96d` |
@@ -164,8 +164,9 @@
 | `project/RESEARCH_ITEMS_zh-CN.md` | project-narrative | 1939 | `508c64832f3b075a9d073e33badd35be764012eebb94624fc7966fa2b03b143f` |
 | `project/RESEARCH_VALUE_zh-CN.md` | project-narrative | 1319 | `7308230ee6f5dd7009de88e0483b3ff298baa2a438d8f99fc010103e24b80c5b` |
 | `project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md` | project-narrative | 7037 | `2ea92085a7bab6b235f75ca06bb27b97162d00656395f879309da42a48df3c9d` |
-| `README.md` | repository-root | 24549 | `20e0a04af4cb5e7748728ab237b1146df44596269b3803d4beff7d50d46f3c5d` |
-| `README_zh-CN.md` | repository-root | 10930 | `0534060572612382f5ed7755eba4eab1a9b4134e0de8a4589cd65c79273d41ef` |
+| `README.md` | repository-root | 25086 | `9dc87d4b3b5f38c89225e43c3781e2d0e3cfbba4d209e75c39ebae2936212c25` |
+| `README_zh-CN.md` | repository-root | 11322 | `45f848ac53c14ae021d81ec8f6366a3a6dc23f830d4a1a117a8531fc5e163bb2` |
+| `RELEASE_NOTES_v0.3.1.md` | repository-root | 4739 | `1ff7d081ebf80aff8fd08b670b0117b2f5416268ee08e972572a2942635b56b0` |
 | `reproducibility/conda-linux-64.explicit.txt` | reproducibility | 18332 | `543abce03ee369526d83016126d7a0b7a82de48e0ef3356d3877289af90f5637` |
 | `reproducibility/environment.yml` | reproducibility | 214 | `13ae5c398dd95bf2d841fe89c4180cdd98d6d8360618de98ac3f68df27be50a6` |
 | `reproducibility/PLATFORM_MATRIX_EN.md` | reproducibility | 1963 | `1ea2cc5909ef145c93c5dcdc9c3bfaefb1726bc4c51ea47f57134fefcb5141cd` |
