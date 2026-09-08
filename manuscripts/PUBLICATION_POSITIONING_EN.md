@@ -13,7 +13,7 @@ Without using the monograph's original program code, AI4OrgChem used AI-assisted
 1. Fourteen proposition-level, reproducible and falsifiable evidence chains were produced.
 2. Several tested systems contradict the use of conjugative stabilization/planarization and steric destabilization as universally sufficient explanations.
 3. State-specific LFMO comparisons provide an operational analysis distinct from ordinary relaxed RHF total-energy differences.
-4. Three partially consistent outcomes were retained, demonstrating that the workflow was not designed as one-way advocacy.
+4. The partially consistent P12 result, the superseded P11 fixed-geometry result, and the P14 review-defect-and-repair trail remain public, demonstrating that the workflow was not designed as one-way advocacy.
 5. AI assisted protocol execution, data organization, verification, generalization and explanation; the scientific evidence remains quantum-chemical and definition-dependent.
 
 ## Claims not supported

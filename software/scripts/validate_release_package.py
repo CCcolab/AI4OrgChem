@@ -299,6 +299,49 @@ def validate_computation_guide(failures: list[str]) -> None:
         failures.append("README must distinguish canonical runtime from mathematical necessity")
 
 
+def validate_current_release_alignment(failures: list[str]) -> None:
+    current_release = "v0.3.1"
+    release_facing = (
+        ROOT / "README.md",
+        ROOT / "README_zh-CN.md",
+        ROOT / "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md",
+        ROOT / "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md",
+        ROOT / "RELEASE_NOTES_v0.3.1.md",
+    )
+    for path in release_facing:
+        relative = path.relative_to(ROOT).as_posix()
+        if not path.is_file():
+            failures.append(f"release-facing file missing: {relative}")
+            continue
+        if current_release not in path.read_text(encoding="utf-8"):
+            failures.append(f"release-facing file does not name {current_release}: {relative}")
+
+    stale_phrases = {
+        ROOT / "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md": (
+            "Current stable review object:** [`v0.3.0`",
+            "Until `v0.3.1` is released",
+        ),
+        ROOT / "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md": (
+            "当前稳定审阅对象：** [`v0.3.0`",
+            "在`v0.3.1`发布前",
+        ),
+        ROOT / "manuscripts" / "PUBLICATION_POSITIONING_EN.md": (
+            "Three partially consistent outcomes",
+        ),
+    }
+    for path, phrases in stale_phrases.items():
+        text = path.read_text(encoding="utf-8")
+        for phrase in phrases:
+            if phrase in text:
+                failures.append(
+                    f"stale current-release wording in {path.relative_to(ROOT).as_posix()}: {phrase}"
+                )
+
+    citation = yaml.safe_load((ROOT / "CITATION.cff").read_text(encoding="utf-8"))
+    if not isinstance(citation, dict) or str(citation.get("version")) != "0.3.1":
+        failures.append("CITATION.cff version must match current release 0.3.1")
+
+
 def main() -> int:
     failures: list[str] = []
     manifest_rows = 0
@@ -370,6 +413,7 @@ def main() -> int:
 
     validate_workflow(failures)
     validate_computation_guide(failures)
+    validate_current_release_alignment(failures)
     result = {
         "status": "PASS" if not failures else "FAIL",
         "repository_files": len(files),

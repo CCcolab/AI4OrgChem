@@ -8,7 +8,7 @@
 
 > 本项目提供的是“独立计算重构与证据评估”，不是机构认证，也不是用AI投票决定科学结论。AI负责组织协议、追踪证据和辅助工程；能量符号、数值与命题判定来自明确的量子化学定义和冻结计算证据。
 
-> **当前稳定审阅对象：** [`v0.3.0`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0)。GitHub的 **Code → Download ZIP** 是可能随维护变化的`main`分支快照；正式科学复核或引用请使用Release完整包，并核验其中公布的SHA-256。
+> **当前稳定核验对象：** [`v0.3.1`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.1)。GitHub的 **Code → Download ZIP** 是可能随维护变化的`main`分支快照；正式科学复核或引用请使用Release完整包，并核验其中公布的SHA-256。
 
 ## 一、先把项目理解成一篇带有可展开补充材料的论文
 
@@ -125,7 +125,7 @@ report.md：数值如何支持或限制命题
 | WP5 | 外部洁净Agent重放 | 达到单一白名单任务的M2-scoped工程成熟度，不自动提高R1–R3 |
 | WP6 | 固定标签、完整包、哈希、CI与标签后洁净复验 | 固定发布身份，不生成新的科学符号 |
 
-完整状态见[`v0.3.0`科学闭合说明](science-v0.3/README.md)及[发布后勘误](project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md)。不可变发布包保持不变；当前`main`增加P14合格生产优化、P11-B source-2007全平面复算和P05七角度增强，统计为13项一致和1项部分一致。
+当前证据状态见[`v0.3.1`发布说明](RELEASE_NOTES_v0.3.1.md)。[`v0.3.0`科学闭合说明](science-v0.3/README.md)及其[发布后勘误](project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md)继续作为历史记录保留。固定的`v0.3.1`包已经纳入P14合格生产证据、P11-B source-2007全平面复算、P05七角度连续序列和P07同哈密顿量路径审计，统计为13项一致和1项部分一致。
 
 ## 五、重点检查P11复算、仍为部分一致的P12及P14整改
 
@@ -169,7 +169,7 @@ P11说明负面结果不会被隐藏，但在识别并补齐遗漏的源方法�
 
 ## 七、可选：复制五条命令做机器一致性检查
 
-这一步不重算昂贵量子化学，只检查公开证据包是否完整、自洽且未被静默修改。在`v0.3.1`发布前，请克隆或下载当前`main`并同时阅读发布后勘误；不可变的`v0.3.0`包早于本次修正。进入包含`README.md`和`software/`的根目录，使用Python 3.12依次运行：
+这一步不重算昂贵量子化学，只检查公开证据包是否完整、自洽且未被静默修改。请下载固定的[`v0.3.1` Release完整包](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.1)，核验SHA-256后，进入包含`README.md`和`software/`的解压根目录，使用Python 3.12依次运行：
 
 ```bash
 python software/scripts/validate_public_evidence.py
