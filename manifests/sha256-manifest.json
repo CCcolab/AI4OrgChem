@@ -853,7 +853,7 @@
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
       "bytes": 88839,
-      "sha256": "3b04cd727b42c401ac6876ab743250bb514c8cb48a476987d4eb941f93b20d42"
+      "sha256": "41af4436bf0cff9aeb73c52afe88e19a7bd8bf6b5db6a3b0dadca25a7a800226"
     },
     {
       "path": "manuscripts/P01-P14_evidence_matrix_zh-CN.md",
@@ -900,8 +900,8 @@
     {
       "path": "project/POST_REMEDIATION_RESPONSE_2026-09-01_zh-CN.md",
       "artifact_role": "project-narrative",
-      "bytes": 5694,
-      "sha256": "4943d85a7c13e5002a8a3add1451e08d88bcb17054643fc8c6c767461e4dde3b"
+      "bytes": 5761,
+      "sha256": "ef87192b934d360f97121cf283a78059bab3a874a6710810df00942080363abb"
     },
     {
       "path": "project/PROJECT_BACKGROUND_zh-CN.md",
@@ -930,8 +930,8 @@
     {
       "path": "project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md",
       "artifact_role": "project-narrative",
-      "bytes": 6713,
-      "sha256": "d1bbf72d0bbe57e86d8b89276b853200fb978210f5c8a317320a5472fc2c3b88"
+      "bytes": 6873,
+      "sha256": "be926e4740b30e1b183b81451a9d7659d29c11859e0254b082815b693d370ac7"
     },
     {
       "path": "README.md",
