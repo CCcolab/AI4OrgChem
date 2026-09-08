@@ -1,6 +1,15 @@
 > **公开版说明（2026-08-26）：** 本文是命题关闭时形成的冻结证据快照。其中“未启动/禁用”等阶段性措辞只描述当时的任务边界，不代表项目当前进度；当前总状态以 `project/P01-P14_MASTER_TABLE_zh-CN.md` 和 `ai4s-agent/EVALUATION_SUMMARY.json` 为准。
 
-# P07 LFMO核心多分量机制整合数据卡 v0.1
+# P07 LFMO核心多分量机制数据卡 v0.2
+
+## 当前证据身份（2026-09-08）
+
+P07现由两层证据共同支持：
+
+1. P04–P06冻结结论的命题级综合；
+2. 对既有五状态QM结果开展的独立同哈密顿量状态路径审计。
+
+因此当前证据身份为`INDEPENDENT_COMPUTATIONAL_AUDIT_PLUS_DERIVED_SYNTHESIS`，不再是纯`DERIVED`。审计没有启动新QM计算：它在diphenyl imine parent NBA的0°/17°两点上使用同一RHF/STO-3G哈密顿量和`FUL→PDSI→DSI2→FUD→G`状态路径。
 
 ## 用途
 
@@ -9,18 +18,18 @@
 ## 输入
 
 - P04：33条Target C记录，11个有效source-proxy点；
-- P05：6条Target A记录，0°/17°；
+- P05：原冻结0°/17°账本及后续同体系七角度增强；
 - P06：6条Target B记录，0°/17°。
 
 生成器保存三个输入文件的路径、SHA-256、记录数和各自专用验证器判定。任何输入变化都会使P07验证失败。
 
 ## 输出语义
 
-输出是单个JSON机制记录，而不是新的原子/几何训练样本，也不是三项能量之和。其核心判定为：
+旧`result.json`保留P04–P06命题综合；新增`same-hamiltonian-audit-result.json`记录独立路径审计。当前核心判定为：
 
-`P07_SCOPED_MULTI_COMPONENT_MECHANISM_SUPPORTED_WITHOUT_CROSS_PROTOCOL_ENERGY_SUM`
+`P07_CONSISTENT_WITH_INDEPENDENT_SAME_HAMILTONIAN_PATH_AUDIT`
 
-这表示在三个冻结账本的受测域内，端点、直接项和轨道响应存在不同或相反的符号模式，因此各分量必须分别计算，不能仅凭传统二项叙事预判。
+同哈密顿量审计表明，未经桥接定义的π–π、π–σ和`E_PDSI-E_FUL` σ子项相加，在0°/17°分别残留`0.335760104092/0.333815958695 Eh`；加入`E_DSI2-E_PDSI`桥接项，或将σ项改为路径完整的`E_DSI2-E_FUL`后，均严格闭合。因此各分量必须在明确状态路径下分别定义和计算，不能仅凭传统二项叙事预判。
 
 ## 禁止用途
 

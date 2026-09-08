@@ -73,6 +73,23 @@ def main() -> None:
     ):
         failures.append("P05/seven-angle-result.json: completed continuation evidence changed")
 
+    p07_audit = load_json("P07/same-hamiltonian-audit-result.json")
+    if (
+        p07_audit.get("verdict") != "P07_CONSISTENT_WITH_INDEPENDENT_SAME_HAMILTONIAN_PATH_AUDIT"
+        or p07_audit.get("evidence_identity") != "INDEPENDENT_COMPUTATIONAL_AUDIT_PLUS_DERIVED_SYNTHESIS"
+        or p07_audit.get("technical_pass") is not True
+        or set(p07_audit.get("points", {})) != {"0.0", "17.0"}
+        or any(
+            abs(point["naive_three_terms_hartree"]["closure_residual_vs_E_G_minus_E_FUL"]) < 0.30
+            for point in p07_audit.get("points", {}).values()
+        )
+        or any(
+            abs(point["path_complete_three_terms_hartree"]["closure_residual_vs_E_G_minus_E_FUL"]) > 1.0e-9
+            for point in p07_audit.get("points", {}).values()
+        )
+    ):
+        failures.append("P07/same-hamiltonian-audit-result.json: independent path audit changed")
+
     p14 = load_json("P14/result.json")
     if p14.get("classification") != "consistent" or p14.get("decision_verdict") != "PASS":
         failures.append("P14/result.json: frozen classification or decision verdict changed")

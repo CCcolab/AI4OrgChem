@@ -51,7 +51,7 @@ These results support a bounded methodological conclusion: several textbook heur
 
 The fourteen propositions form a layered, auditable evidence chain rather than fourteen equal-status quantum-chemistry reproductions. Independent QM, source-aligned/source-proxy reconstruction, published-value reanalysis, and graph/literature evidence retain distinct identities.
 
-The 13+1 numbers are **proposition-level classifications**, not a count of fourteen mutually independent quantum-chemistry validations. P07 is a `DERIVED` synthesis of P04-P06 and adds no new QM evidence. On 2026-09-08, P11-B was updated after completing the source-2007 state-specific all-planar restricted optimizations: CE and IE now reproduce the source values, while the old fixed-geometry opposite-sign result remains an audit record. Following post-release review, P14's classifier rejects the old STO-3G technical pilot and now relies on a qualified B3LYPG/6-31G(d) production optimization that passed all registered eligibility gates.
+The 13+1 numbers are **proposition-level classifications**, not a claim that all fourteen items have identical evidence identities. P07 now combines an independent same-Hamiltonian five-state path audit with the earlier `DERIVED` P04-P06 synthesis: the unbridged three terms miss the total by about 0.336/0.334 Eh at 0°/17°, while an explicit bridge or path-complete sigma definition closes exactly. No new QM job or cross-protocol sum was introduced. On 2026-09-08, P11-B was updated after completing the source-2007 state-specific all-planar restricted optimizations: CE and IE now reproduce the source values, while the old fixed-geometry opposite-sign result remains an audit record. Following post-release review, P14's classifier rejects the old STO-3G technical pilot and now relies on a qualified B3LYPG/6-31G(d) production optimization that passed all registered eligibility gates.
 
 See the [P01-P14 evidence matrix](manuscripts/P01-P14_evidence_matrix_zh-CN.md) and the [evidence collection](evidence/P01-P14/README.md).
 
@@ -126,7 +126,7 @@ WSL 2不是这些量子化学公式成立的数学前提，但它是本项目**�
 | P04 | 三个分子家族、多个角度的DSI-3/FUD π–π端点和响应诊断 | [protocol](evidence/P01-P14/P04/protocol.md) · [result](evidence/P01-P14/P04/result.jsonl) | PySCF RHF/6-31G(d)、LFMO、11点source-proxy面板 |
 | P05 | 0°–45°七角度G/FUD π–σ端点及直接作用—轨道响应 | [protocol](evidence/P01-P14/P05/protocol.md) · [result](evidence/P01-P14/P05/seven-angle-result.json) | Target A、RHF/6-31G(d)、原著分量公式；六个非零角度均为正 |
 | P06 | 0°/17° FUL/PDSI非键σ–σ条件态能量差 | [protocol](evidence/P01-P14/P06/protocol.md) · [result](evidence/P01-P14/P06/result.jsonl) | Target B、RHF/STO-3G、独立能量组装 |
-| P07 | P04/P05/P06命题矩阵、分量响应和同一Target内闭合检查 | [protocol](evidence/P01-P14/P07/protocol.md) · [result](evidence/P01-P14/P07/result.json) | 状态特异LFMO、多分量机制；禁止跨协议求和 |
+| P07 | 同哈密顿量五状态路径审计＋P04/P05/P06命题综合 | [protocol](evidence/P01-P14/P07/protocol.md) · [audit](evidence/P01-P14/P07/same-hamiltonian-audit-result.json) · [synthesis](evidence/P01-P14/P07/result.json) | 状态特异LFMO；显式桥接/路径完整σ定义；禁止跨协议求和 |
 | P08 | 丁二烯G/GL平面优化、共轭能、中央键差和三种氢化热参照 | [protocol](evidence/P01-P14/P08/protocol.md) · [result](evidence/P01-P14/P08/result.json) | GL(2014) source-aligned、B3LYPG/6-31G(d) |
 | P09 | 环丁二烯VDE/ADE与苯ESE的虚拟参考和独立能量组装 | [protocol](evidence/P01-P14/P09/protocol.md) · [result](evidence/P01-P14/P09/result.json) | G/DSI/GL、G/GL/GE-1/VR、B3LYP/6-31G(d) |
 | P10 | 苯键长交替五点扫描、电子能/核排斥能/总能及曲率 | [protocol](evidence/P01-P14/P10/protocol.md) · [result](evidence/P01-P14/P10/result.json) | B3LYPG/6-31G(d)、独立核间库仑和 |

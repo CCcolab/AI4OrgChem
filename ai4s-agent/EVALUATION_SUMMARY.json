@@ -21,7 +21,8 @@
     "display_classification": "13 consistent; P12 partially consistent",
     "verdict_scope_separated": true,
     "p05_evidence_update": "seven-angle same-system continuation; six nonzero endpoints positive",
-    "p07_evidence_identity": "DERIVED proposition-level synthesis",
+    "p07_evidence_identity": "INDEPENDENT_COMPUTATIONAL_AUDIT_PLUS_DERIVED_SYNTHESIS",
+    "p07_evidence_update": "same-Hamiltonian five-state path audit; explicit bridge or path-complete sigma definition required",
     "partially_consistent": 1,
     "globally_inconsistent": 0
   },
