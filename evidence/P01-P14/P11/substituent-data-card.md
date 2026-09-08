@@ -1,27 +1,30 @@
-> **公开版说明（2026-08-26）：** 本文是命题关闭时形成的冻结证据快照。其中“未启动/禁用”等阶段性措辞只描述当时的任务边界，不代表项目当前进度；当前总状态以 `project/P01-P14_MASTER_TABLE_zh-CN.md` 和 `ai4s-agent/EVALUATION_SUMMARY.json` 为准。
+> **Current-evidence note (2026-09-08):** P11-B was recalculated with the author's 2007 state-specific restricted-optimization method. The earlier fixed-geometry proxy is preserved as a superseded diagnostic, not used for the current classification.
 
-# P11-B 氰基苯取代基效应数据卡 v0.1
+# P11-B 氰基苯取代基效应数据卡 v0.2
 
-## 范围
+## 范围与方法
 
-- 体系：cyanobenzene `C7H5N`与定义所需的同协议benzene锚点。
-- 方法：PySCF `B3LYPG/6-31G(d)`，source-2007 Fock/one-electron/overlap屏蔽，无ERI删除。
-- 几何：氰基苯使用论文Figure 7逐态重原子键长重构；苯使用主文Figure 3和官方Supporting Information的Z-matrix数据。
+- 体系：cyanobenzene `C7H5N`及benzene `C6H6`；
+- 状态：氰基苯10态、苯3态，共13态；
+- 方法：B3LYP/6-31G(d)，source-2007 Fock/overlap条件SCF，不删除ERI，不额外屏蔽hcore；
+- 几何：每一状态独立优化，所有原子`z=0`硬约束；
 - 原著程序代码：未使用。
 
 ## 输出
 
-- `ESE(SB)=-38.399223 kcal/mol`；
-- `ESE(Ph)=-39.580151 kcal/mol`；
-- 共轭贡献`CE=+1.180928 kcal/mol`，与原著`+1.2`一致；
-- 同实现苯锚点`ESE=-39.244437 kcal/mol`；
-- 诱导贡献`IE=-0.335714 kcal/mol`，与原著`+0.49`符号不一致。
+- `ESE(SB)=-37.352830 kcal/mol`（原著约`-37.3`）；
+- `ESE(Ph)=-38.525952 kcal/mol`（原著约`-38.5`）；
+- `ESE(benzene)=-39.016031 kcal/mol`（原著约`-39.0`）；
+- `CE=+1.173122 kcal/mol`（原著约`+1.2`）；
+- `IE=+0.490079 kcal/mol`（原著约`+0.49`）。
 
 ## 质量与判定
 
-- 氰基苯84/84项、苯锚点12/12项计算门禁通过；
-- 专用验证器：`PASS_P11B_SCOPED_SUBSTITUENT_EFFECT_RELEASE`；
-- 科学判定：`P11B_CONJUGATIVE_CONSISTENT_INDUCTIVE_INCONSISTENT_UNDER_SOURCE_PROXY`；
-- 分类：共轭项一致；诱导项在冻结Figure 7 source-proxy下与原著异号，判为不一致；缺失完整历史Cartesian坐标仅限制历史身份声明。
+- 13/13状态通过优化与SCF门禁；
+- 最大面外偏差`5.666e-17 Å`；
+- 科学判定：`P11B_SOURCE2007_PLANAR_RECALCULATION_CONSISTENT`；
+- 分类：在单一氰基苯、source-2007全平面逐态受限优化范围内与原著一致。
+
+预设的起始环键漂移`0.001 Å`诊断未满足，观察最大值`0.002328 Å`来自氰基苯G态；该偏差公开保留且未通过放宽阈值隐藏。旧固定几何代理的`IE=-0.335714 kcal/mol`保留为历史诊断，并由本结果取代用于source-2007 P11-B定判。
 
 本数据不得作为普遍取代基定律、生产标签或AI训练标签。

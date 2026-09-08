@@ -21,7 +21,7 @@ EXPECTED_CLASS = {
     "P08": "consistent",
     "P09": "consistent",
     "P10": "consistent",
-    "P11": "partially-consistent",
+    "P11": "consistent",
     "P12": "partially-consistent",
     "P13": "consistent",
     "P14": "consistent",
@@ -35,7 +35,7 @@ EXPECTED_JSON_VERDICTS = {
     "P09/result.json": "P09_SCOPED_PROPOSITION_SUPPORTED",
     "P10/result.json": "P10_SCOPED_PROPOSITION_SUPPORTED",
     "P11/furan-result.json": "P11A_SCOPED_FURAN_LDE_SUPPORTED",
-    "P11/substituent-result.json": "P11B_CONJUGATIVE_CONSISTENT_INDUCTIVE_INCONSISTENT_UNDER_SOURCE_PROXY",
+    "P11/substituent-result.json": "P11B_SOURCE2007_PLANAR_RECALCULATION_CONSISTENT",
     "P12/result.json": "P12_PARTIALLY_CONSISTENT_QUALITATIVE_BOUNDARY_CONSISTENT_EXACT_ONSET_NOT_DIRECTLY_COMPARABLE",
     "P13/result.json": "P13_CONSISTENT_IN_TESTED_RULE_HIERARCHY_AND_PUBLISHED_LEDGER_SCOPE",
 }
@@ -74,7 +74,7 @@ def main() -> None:
                 failures.append(f"broken {language} evidence link: {target}")
 
         required_fragments = {
-            "P11": ["+1.180928", "+1.2", "-0.335714", "-0.580151", "+0.49"],
+            "P11": ["+1.173122", "+1.2", "+0.490079", "+0.49", "13/13"],
             "P12": ["N=16/18", "N>30"],
         }
         for proposition, fragments in required_fragments.items():
@@ -127,8 +127,8 @@ def main() -> None:
         "bilingual_indexes": 2,
         "navigation_links_checked": link_count,
         "classification_counts": {
-            "consistent_or_scope_consistent": 12,
-            "partially_consistent": 2,
+            "consistent_or_scope_consistent": 13,
+            "partially_consistent": 1,
             "globally_inconsistent": 0,
             "unknown": 0,
         },

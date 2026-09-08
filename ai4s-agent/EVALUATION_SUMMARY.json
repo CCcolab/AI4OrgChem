@@ -17,8 +17,8 @@
   "evidence_scope": "summary of frozen local engineering reports; models, caches, private run directories, the full external-model session, and a general replay runtime are excluded from the public maintenance package",
   "scientific_propositions": {
     "total": 14,
-    "consistent_or_scope_consistent": 12,
-    "partially_consistent": 2,
+    "consistent_or_scope_consistent": 13,
+    "partially_consistent": 1,
     "globally_inconsistent": 0
   },
   "bounded_learning_dataset": {

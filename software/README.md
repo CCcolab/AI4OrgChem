@@ -9,7 +9,7 @@
 - `tests/`：与上述公开模块直接对应的69项测试，包括P14证据资格五项回归测试；
 - `scripts/validate_public_evidence.py`：检查P01–P14机器结果与冻结判定；
 - `scripts/validate_p14_evidence.py`：执行P14 Draft 2020-12 JSON Schema、重复键、引用、SHA-256、输入坐标和底层判据确定性重算；不重跑高成本QM；
-- `scripts/validate_evidence_navigation.py`：检查双语14项导航、120个以上证据链接、P11/P12部分一致状态及P14合格生产优化后的“一致”状态。
+- `scripts/validate_evidence_navigation.py`：检查双语14项导航、120个以上证据链接、P11 source-2007逐态优化后的“一致”、P12“部分一致”及P14合格生产优化后的“一致”状态。
 - `scripts/validate_wsl_release.py`：检查WSL双目录模式、公开环境名、平台边界和无环境变更约束。
 - `scripts/validate_release_package.py`：执行JSON/JSONL/YAML/CFF语法、Markdown链接、SHA清单、敏感信息、路径、大文件和重复文件总门禁。
 - `scripts/refresh_release_snapshot.py`：在授权修改后重建实质文件清单和SHA-256快照；刷新后必须重新运行全部门禁。

@@ -23,7 +23,7 @@ EXPECTED_JSON_VERDICTS = {
     "P09/result.json": "P09_SCOPED_PROPOSITION_SUPPORTED",
     "P10/result.json": "P10_SCOPED_PROPOSITION_SUPPORTED",
     "P11/furan-result.json": "P11A_SCOPED_FURAN_LDE_SUPPORTED",
-    "P11/substituent-result.json": "P11B_CONJUGATIVE_CONSISTENT_INDUCTIVE_INCONSISTENT_UNDER_SOURCE_PROXY",
+    "P11/substituent-result.json": "P11B_SOURCE2007_PLANAR_RECALCULATION_CONSISTENT",
     "P12/result.json": "P12_PARTIALLY_CONSISTENT_QUALITATIVE_BOUNDARY_CONSISTENT_EXACT_ONSET_NOT_DIRECTLY_COMPARABLE",
     "P13/result.json": "P13_CONSISTENT_IN_TESTED_RULE_HIERARCHY_AND_PUBLISHED_LEDGER_SCOPE",
 }
@@ -64,6 +64,14 @@ def main() -> None:
     p14 = load_json("P14/result.json")
     if p14.get("classification") != "consistent" or p14.get("decision_verdict") != "PASS":
         failures.append("P14/result.json: frozen classification or decision verdict changed")
+
+    p11 = load_json("P11/substituent-result.json")
+    if (
+        p11.get("classification") != "consistent"
+        or len(p11.get("state_energies_hartree", {})) != 13
+        or not all(p11.get("acceptance_checks", {}).values())
+    ):
+        failures.append("P11/substituent-result.json: source-2007 planar ledger is incomplete")
 
     result = {
         "status": "PASS" if not failures else "FAIL",
