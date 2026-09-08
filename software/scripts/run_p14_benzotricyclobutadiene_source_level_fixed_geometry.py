@@ -141,7 +141,11 @@ def run(
     protocol = yaml.safe_load(protocol_path.read_text(encoding="utf-8"))
     classes = yaml.safe_load(classes_path.read_text(encoding="utf-8"))
     production = protocol["production_calculation"]
-    if not production["authorized"] or production["current_scope"] != "fixed_source_geometry_endpoint_only":
+    allowed_scopes = {
+        "fixed_source_geometry_endpoint_only",
+        "fixed_source_geometry_endpoint_plus_five_parameter_D3h_optimization",
+    }
+    if not production["authorized"] or production["current_scope"] not in allowed_scopes:
         raise RuntimeError("P14 source-level fixed-geometry calculation is not authorized")
     memory_before = available_memory_mib()
     required = float(production["required_available_memory_mib"])

@@ -6,14 +6,14 @@
 
 ## Central conclusion
 
-Without using the monograph's original program code, AI4OrgChem used AI-assisted engineering and independent quantum-chemical reconstruction to classify fourteen testable propositions. Twelve were consistent or scope-consistent with the monograph and two were partially consistent; none was globally inconsistent. The evidence materially challenges the unconditional generalization of several textbook heuristics, but does not establish that traditional organic chemistry is globally incorrect or that conjugation is universally destabilizing.
+Without using the monograph's original program code, AI4OrgChem used AI-assisted engineering and independent quantum-chemical reconstruction to classify fourteen testable propositions. Twelve are consistent or scope-consistent with the monograph and two are partially consistent; none is globally inconsistent. Post-release review exposed a P14 evidence-eligibility defect. The old STO-3G technical pilot was rejected, the classifier was repaired, and P14 was restored only after B3LYPG/6-31G(d) G/PLG production optimizations passed every registered gate and the structure/energy residuals met preregistered tolerances. The evidence materially challenges the unconditional generalization of several textbook heuristics, but does not establish that traditional organic chemistry is globally incorrect or that conjugation is universally destabilizing.
 
 ## Defensible claims
 
 1. Fourteen proposition-level, reproducible and falsifiable evidence chains were produced.
 2. Several tested systems contradict the use of conjugative stabilization/planarization and steric destabilization as universally sufficient explanations.
 3. State-specific LFMO comparisons provide an operational analysis distinct from ordinary relaxed RHF total-energy differences.
-4. Two partially consistent outcomes were retained, demonstrating that the workflow was not designed as one-way advocacy.
+4. Three partially consistent outcomes were retained, demonstrating that the workflow was not designed as one-way advocacy.
 5. AI assisted protocol execution, data organization, verification, generalization and explanation; the scientific evidence remains quantum-chemical and definition-dependent.
 
 ## Claims not supported

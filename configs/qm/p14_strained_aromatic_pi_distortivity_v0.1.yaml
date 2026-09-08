@@ -1,7 +1,7 @@
 schema_version: 1
 protocol_id: p14-strained-aromatic-pi-distortivity/0.1
 effective_date: 2026-08-22
-status: source_definition_frozen_fixed_geometry_smoke_authorized
+status: v0.3.1_qualification_gate_corrected_production_optimization_passed
 decision: evidence/P01-P14/P14/report.md
 specification: evidence/P01-P14/P14/protocol.md
 source_mapping: evidence/P01-P14/P14/data-card.md
@@ -114,7 +114,7 @@ five_parameter_pilot:
 
 production_calculation:
   authorized: true
-  current_scope: fixed_source_geometry_endpoint_only
+  current_scope: fixed_source_geometry_endpoint_plus_five_parameter_D3h_optimization
   method: B3LYP
   pyscf_xc: B3LYPG
   basis: 6-31g(d)
@@ -136,7 +136,29 @@ production_calculation:
     memory_controlled_eri: true
   optimizer: scipy_L_BFGS_B_five_parameter_D3h
   memory_control_requirement: no_duplicate_full_four_index_ERI_tensor
-  geometry_optimization_authorized: false
+  geometry_optimization_authorized: true
+  geometry_optimizer:
+    scientific_classification_allowed: true
+    fixed_symmetry: planar_D3h
+    parameter_order: [rendo_angstrom, rexo_angstrom, rside_angstrom, router_angstrom, rCH_angstrom]
+    bounds_angstrom:
+      rendo_angstrom: [1.20, 1.70]
+      rexo_angstrom: [1.20, 1.70]
+      rside_angstrom: [1.25, 1.70]
+      router_angstrom: [1.20, 1.55]
+      rCH_angstrom: [0.95, 1.20]
+    method: L-BFGS-B
+    finite_difference_scheme: 2-point
+    finite_difference_relative_step: 5.0e-4
+    maximum_iterations: 40
+    maximum_function_evaluations: 260
+    maximum_line_search_steps: 20
+    function_tolerance: 1.0e-9
+    gradient_tolerance_hartree_per_angstrom: 2.0e-3
+    acceptance:
+      electron_count: 78.0
+      electron_count_tolerance: 1.0e-7
+      maximum_peak_rss_mib: 13000
 
 final_classification:
   classes: [consistent, inconsistent, partially_consistent]
@@ -147,12 +169,16 @@ final_classification:
   result_zh: 与原著一致
   evidence: evidence/P01-P14/P14/processed/p14_strained_aromatic_pi_distortivity_classification_v0.1.json
   publishable_scientific_classification: true
+  maintenance_reason: qualified_B3LYPG_6_31Gd_production_optimization_passed_all_registered_gates
   production_label: false
   training_eligible: false
 
 public_inputs:
   source_proxy_G: evidence/P01-P14/P14/inputs/source_proxy_G.xyz
   source_proxy_PLG: evidence/P01-P14/P14/inputs/source_proxy_PLG.xyz
+
+public_evidence:
+  production_optimization: evidence/P01-P14/P14/processed/p14_C12H6_B3LYPG_6_31Gd_production_optimization_v0.1.json
 
 prohibited:
   - additional_molecules_before_C12H6_verdict

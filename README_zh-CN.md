@@ -15,11 +15,11 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 
 > **发布状态：** 科学闭合版本 [`v0.3.0`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0)。相关论文稿尚未经过同行评审。
 
-> **下载与引用：** GitHub的 **Code → Download ZIP** 下载的是当前`main`分支快照，后续维护可能使其变化。需要开展可复现科学复核或正式引用时，请下载不可变的[`v0.3.0` Release完整包](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0)，并核对公开的SHA-256校验值。
+> **下载与引用：** GitHub的 **Code → Download ZIP** 下载的是当前`main`分支快照，后续维护可能使其变化。不可变的[`v0.3.0` Release完整包](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0)继续作为历史归档；阅读时必须同时查看当前的[发布后勘误](project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md)，其中已修正P14证据资格，后续将形成`v0.3.1`维护版。
 
 > **Science `v0.2.0`：** [版本化的`v0.2.0`证据包](science-v0.2/README.md)作为历史发布基线继续保留；冻结的`v0.1.x` P01–P14十四项判定保持不变。
 
-> **Science `v0.3.0`科学闭合版：** [完整`v0.3.0`证据包](science-v0.3/README.md)按序闭合七项增强任务，包括多参考与机制证据、开源三程序8/8锚点和2/2相对能量对、相互隔离的source-aligned CESE与physical-state 0 K ASE支路，以及M2外部Agent洁净重放。最终提交、`v0.3.0`标签、GitHub Release、完整ZIP、SHA-256附件、CI和标签后洁净克隆复验均已完成。本版不改写P01-P14、不合并不可比估计量、不宣称普遍轮烯尺寸定律，也不把尚未执行的ORCA专用支路写成已完成。
+> **Science `v0.3.0`科学闭合版：** [完整`v0.3.0`证据包](science-v0.3/README.md)按序闭合七项增强任务，包括多参考与机制证据、开源三程序8/8锚点和2/2相对能量对、相互隔离的source-aligned CESE与physical-state 0 K ASE支路，以及一次由外部模型选择白名单计划的 **M2-scoped** 洁净重放。最终提交、`v0.3.0`标签、GitHub Release、完整ZIP、SHA-256附件、CI和标签后洁净克隆复验均已完成。本版不改写P01-P14、不合并不可比估计量、不宣称普遍轮烯尺寸定律，也不把尚未执行的ORCA专用支路写成已完成；完整外部模型会话和一般可重放Agent运行时并未公开。
 
 ## 项目背景与目标
 
@@ -49,7 +49,7 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 
 十四项属于分层、可审计证据链，并非十四次同等级量子化学复现；独立QM、source-aligned/source-proxy重构、发表值复分析和图论/文献旁证的证据身份分别保留。
 
-这里的12+2是**命题级分类统计**，不是14条相互独立的量子化学验证计数；其中P07是P04-P06的`DERIVED`综合，不新增QM证据。P14现已公开底层记录、source-proxy坐标和确定性重算门禁，但仍只覆盖单一C12H6体系。
+这里的12+2是**命题级分类统计**，不是14条相互独立的量子化学验证计数；其中P07是P04-P06的`DERIVED`综合，不新增QM证据。发布后复评修复了P14分类器：旧STO-3G记录只保留为技术烟测，P14现以通过全部注册资格门禁的B3LYPG/6-31G(d)生产优化为定判证据。
 
 详见[P01–P14总证据矩阵](manuscripts/P01-P14_evidence_matrix_zh-CN.md)和[中文命题证据导航](evidence/P01-P14/README_zh-CN.md)。
 
@@ -80,7 +80,7 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 | [`evidence/P01-P14/`](evidence/P01-P14/README_zh-CN.md) | 冻结数据卡、协议、处理后结果和范围化报告 |
 | [`manuscripts/`](manuscripts/README.md) | 证据矩阵和双语发布定位 |
 | [`ai4s-agent/`](ai4s-agent/README.md) | Agent架构、能力、评估、证据治理和限制 |
-| [`software/`](software/README.md) | LFMO/条件SCF公开核心实现和64项测试 |
+| [`software/`](software/README.md) | LFMO/条件SCF公开核心实现和69项测试 |
 | [`reproducibility/`](reproducibility/README.md) | 复现说明和WSL 2平台边界 |
 | [`figures/`](figures/README.md) | 项目自行生成的总览图 |
 | [`science-v0.2/`](science-v0.2/README.md) | 自包含`v0.2.0`配置、精选机器结果、判定、报告、重建脚本、测试与哈希 |

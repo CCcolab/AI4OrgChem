@@ -1,15 +1,20 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "system": "AI4OrgChem AI4S Agent",
-  "snapshot_date": "2026-08-26",
-  "status": "completed_bounded_engineering_evaluation",
+  "snapshot_date": "2026-09-08",
+  "status": "v0.3.1_post_review_maintenance_snapshot",
   "agent_maturity": {
-    "level": "M1_plus",
-    "meaning": "auditable_evidence_workflow",
+    "level": "M2_scoped",
+    "meaning": "external_model_selected_one_whitelisted_registered_replay_action_and_a_local_orchestrator_executed_it_in_a_clean_bundle_only_environment",
+    "replay_status": "EXTERNAL_CLEAN_REPLAY",
     "externally_replayable_agent_runtime": false,
-    "M2_claimed": false
+    "full_M2_claimed": false,
+    "M2_scoped_claimed": true,
+    "M2_claim_scope": "one_registered_whitelist_replay_plan_only",
+    "full_external_model_session_public": false,
+    "scientific_evidence_grade_affected": false
   },
-  "evidence_scope": "summary of frozen local engineering reports; models, caches, and private run directories are excluded from the first GitHub package",
+  "evidence_scope": "summary of frozen local engineering reports; models, caches, private run directories, the full external-model session, and a general replay runtime are excluded from the public maintenance package",
   "scientific_propositions": {
     "total": 14,
     "consistent_or_scope_consistent": 12,

@@ -4,6 +4,16 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 
 ## [Unreleased]
 
+### Changed
+
+- Corrected the P14 evidence-eligibility gate: the classification-disabled STO-3G technical pilot is no longer accepted as production optimization evidence, and optimizer success no longer overrides an excessive gradient.
+- Temporarily changed P14 from consistent to partially consistent while the ineligible technical pilot was excluded and qualified production evidence was absent; P01-P13 were unchanged.
+- Added a bilingual post-release erratum while preserving the immutable `v0.3.0` tag and assets.
+- Scoped WP5 maturity as `M2-scoped`: one external-model-selected whitelist replay, not a public full external-model session or generally replayable runtime; R1-R3 scientific grades are unaffected.
+- Added explicit evidence identities and tightened P02, P03, P04-P13 publication language.
+- Added a narrow B3LYPG/6-31G(d) P14 production-optimization runner whose output is scientifically eligible only after every registered gate passes.
+- Completed the qualified P14 production optimization: both G/PLG endpoints passed the registered gradient, termination, boundary, SCF, electron-count and density checks; the optimized distortion and energy endpoint satisfy the preregistered tolerances. P14 is therefore restored to consistent, and current totals are 12 consistent/scope-consistent plus 2 partially consistent.
+
 ## [0.3.0] - 2026-09-08
 
 ### Added
@@ -19,7 +29,7 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 - The original ORCA-specific lane remains `NOT_ESTABLISHED_NO_LICENSED_EXECUTABLE`.
 - WP4-A and WP4-B remain `INCOMPARABLE`; neither overwrites P12-A or establishes a universal annulene-size law.
 - No frozen V0.1 P01-P14 value or classification changes, and the immutable V0.2.0 package is not rewritten.
-- The local package is ready; the final commit, remote `v0.3.0` tag/GitHub Release, and post-tag clean-clone verification are not yet claimed.
+- The final commit, remote `v0.3.0` tag/GitHub Release, complete archive and checksum assets, CI, and post-tag clean-clone verification were completed; the tag and assets remain immutable after this erratum.
 
 ## [0.2.0] - 2026-09-01
 

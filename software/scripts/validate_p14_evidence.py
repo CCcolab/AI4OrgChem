@@ -112,9 +112,9 @@ def main() -> int:
             failures.append(f"input hash mismatch: {relative}")
 
     if len(evidence_paths) == 4 and all(path.is_file() for path in evidence_paths):
-        smoke, pilot, equivalence, source_level = map(load_json, evidence_paths)
-        if pilot.get("method", {}).get("engine") != "PySCF_plus_SciPy":
-            failures.append("pilot engine identity missing or changed")
+        smoke, optimization, equivalence, source_level = map(load_json, evidence_paths)
+        if optimization.get("method", {}).get("engine") != "PySCF_plus_SciPy":
+            failures.append("optimization engine identity missing or changed")
         if source_level.get("method", {}).get("engine") != "PySCF":
             failures.append("source-level engine identity missing or changed")
         if source_level.get("method", {}).get("basis") != "6-31g(d)":
@@ -144,8 +144,10 @@ def main() -> int:
         )
         for field in (
             "classification",
+            "decision_summary_zh",
             "quantitative_evidence",
             "decision_checks",
+            "optimization_eligibility_checks",
             "decision_verdict",
             "evidence_files",
             "evidence_sha256",
@@ -155,8 +157,12 @@ def main() -> int:
         ):
             if rebuilt.get(field) != result.get(field):
                 failures.append(f"deterministic rebuild mismatch: {field}")
-        if not all(result.get("decision_checks", {}).values()):
-            failures.append("one or more P14 decision checks are false")
+        if result.get("decision_verdict") == "PASS" and not all(result.get("decision_checks", {}).values()):
+            failures.append("P14 PASS verdict contains a false decision check")
+        if result.get("classification") == "consistent" and result.get("decision_verdict") != "PASS":
+            failures.append("P14 consistent classification requires a PASS verdict")
+        if result.get("classification") == "partially_consistent" and result.get("decision_verdict") != "PARTIAL_OR_FAIL":
+            failures.append("P14 partial classification requires a PARTIAL_OR_FAIL verdict")
 
     summary = {
         "status": "PASS" if not failures else "FAIL",

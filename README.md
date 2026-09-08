@@ -15,11 +15,11 @@ AI4OrgChem is an **AI for Science (AI4S) Agent** for independent computational r
 
 > **Release status:** Science Closure Release [`v0.3.0`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0). The associated manuscript has not yet undergone peer review.
 
-> **Download and citation:** GitHub's **Code → Download ZIP** provides a snapshot of the current `main` branch and may change with later maintenance. For reproducible scientific review or citation, download the immutable [`v0.3.0` Release package](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0) and verify its published SHA-256 checksum.
+> **Download and citation:** GitHub's **Code → Download ZIP** provides a snapshot of the current `main` branch and may change with later maintenance. The immutable [`v0.3.0` Release package](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0) remains the historical archive; readers must also consult the current [post-release erratum](project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md), which corrects P14 evidence eligibility pending a `v0.3.1` maintenance release.
 
 > **Science `v0.2.0`:** [the versioned `v0.2.0` evidence package](science-v0.2/README.md) is retained as a historical release baseline. The frozen `v0.1.x` P01-P14 classifications remain unchanged.
 
-> **Science `v0.3.0` scientific closure:** [the complete `v0.3.0` package](science-v0.3/README.md) closes seven ordered enhancement tasks: multireference and mechanism evidence, 8/8 open-three-program anchors plus 2/2 relative-energy pairs, separate source-aligned CESE and physical-state 0 K ASE branches, and an external clean Agent replay at M2. The final commit, `v0.3.0` tag, GitHub Release, complete ZIP, SHA-256 assets, CI, and post-tag clean-clone verification are complete. It does not change P01-P14, merge incomparable estimands, claim a universal annulene-size law, or represent the unexecuted ORCA-specific lane as complete.
+> **Science `v0.3.0` scientific closure:** [the complete `v0.3.0` package](science-v0.3/README.md) closes seven ordered enhancement tasks: multireference and mechanism evidence, 8/8 open-three-program anchors plus 2/2 relative-energy pairs, separate source-aligned CESE and physical-state 0 K ASE branches, and one external-model-selected whitelist replay at **M2-scoped**. The final commit, `v0.3.0` tag, GitHub Release, complete ZIP, SHA-256 assets, CI, and post-tag clean-clone verification are complete. It does not change P01-P14, merge incomparable estimands, claim a universal annulene-size law, or represent the unexecuted ORCA-specific lane as complete. The full external model session and a generally replayable Agent runtime are not public.
 
 ## Why this project exists
 
@@ -32,7 +32,7 @@ The project asks whether independently reconstructed quantum-chemical evidence s
 All fourteen propositions received determinate classifications within their declared tested domains:
 
 - **12 consistent or scope-consistent** with the corresponding monograph proposition;
-- **2 partially consistent**: P11 retains an opposite-sign inductive component, while P12 retains the boundary that onset sizes from different estimands are not directly comparable;
+- **2 partially consistent**: P11 retains an opposite-sign inductive component, while P12 retains a cross-estimand onset boundary;
 - **0 globally inconsistent and 0 unknown**.
 
 Representative frozen results are:
@@ -49,7 +49,7 @@ These results support a bounded methodological conclusion: several textbook heur
 
 The fourteen propositions form a layered, auditable evidence chain rather than fourteen equal-status quantum-chemistry reproductions. Independent QM, source-aligned/source-proxy reconstruction, published-value reanalysis, and graph/literature evidence retain distinct identities.
 
-The 12+2 numbers are **proposition-level classifications**, not a count of fourteen mutually independent quantum-chemistry validations. P07 is a `DERIVED` synthesis of P04-P06 and adds no new QM evidence. P14 now publishes its lower-level records, source-proxy coordinates, and deterministic decision rebuild, while remaining limited to one C12H6 system.
+The 12+2 numbers are **proposition-level classifications**, not a count of fourteen mutually independent quantum-chemistry validations. P07 is a `DERIVED` synthesis of P04-P06 and adds no new QM evidence. Following post-release review, P14's classifier rejects the old STO-3G technical pilot and now relies on a qualified B3LYPG/6-31G(d) production optimization that passed all registered eligibility gates.
 
 See the [P01-P14 evidence matrix](manuscripts/P01-P14_evidence_matrix_zh-CN.md) and the [evidence collection](evidence/P01-P14/README.md).
 
@@ -80,7 +80,7 @@ The dataset is too small for industrial or universal molecular generalization. D
 | [`evidence/P01-P14/`](evidence/P01-P14/README.md) | Frozen data cards, protocols, processed results, and scoped reports |
 | [`manuscripts/`](manuscripts/README.md) | Evidence matrix and bilingual publication positioning; no pre-submission manuscript drafts are included |
 | [`ai4s-agent/`](ai4s-agent/README.md) | Agent architecture, capabilities, evaluation, governance, and limitations |
-| [`software/`](software/README.md) | Public LFMO/conditional-SCF implementation and 64 focused tests |
+| [`software/`](software/README.md) | Public LFMO/conditional-SCF implementation and 69 focused tests |
 | [`reproducibility/`](reproducibility/README.md) | Runtime instructions and WSL 2 platform boundaries |
 | [`figures/`](figures/README.md) | Project-authored overview figure |
 | [`science-v0.2/`](science-v0.2/README.md) | Self-contained `v0.2.0` configurations, selected machine results, decisions, reports, rebuild scripts, tests, and hashes |
@@ -119,8 +119,8 @@ WSL 2不是这些量子化学公式成立的数学前提，但它是本项目**�
 | 项号 | 在WSL 2上算什么 | 定判入口模块 | 主方法 |
 |---|---|---|---|
 | P01 | 同占据空间轨道变换、AO密度与RHF能量不变性、LFMO状态比较 | [protocol](evidence/P01-P14/P01/protocol.md) · [result](evidence/P01-P14/P01/result.json) | canonical/Boys/Pipek–Mezey、LFMO子空间、DSI-3/FUD |
-| P02 | 公开X射线/UV表值、同系线回归、键长和扭转角方向复核 | [protocol](evidence/P01-P14/P02/protocol.md) · [result](evidence/P01-P14/P02/result.json) | 公开数据账本、线性回归、结构序列比较 |
-| P03 | parent NBA弛豫PES及电子能、核排斥能、总能、曲率和扭矩 | [protocol](evidence/P01-P14/P03/protocol.md) · [result](evidence/P01-P14/P03/result.json) | source-aligned PES、`Ee/EN/E`分解 |
+| P02 | 公开X射线/UV表值、同系线回归、键长和扭转角方向复核 | [protocol](evidence/P01-P14/P02/protocol.md) · [result](evidence/P01-P14/P02/result.json) | 单一已发表晶体对的结构—光谱关联；不作因果断言 |
+| P03 | parent NBA弛豫PES及电子能、核排斥能、总能、曲率和扭矩 | [protocol](evidence/P01-P14/P03/protocol.md) · [result](evidence/P01-P14/P03/result.json) | 冻结坐标电子—核账本及抵消；不作第一原因断言 |
 | P04 | 三个分子家族、多个角度的DSI-3/FUD π–π端点和响应诊断 | [protocol](evidence/P01-P14/P04/protocol.md) · [result](evidence/P01-P14/P04/result.jsonl) | PySCF RHF/6-31G(d)、LFMO、11点source-proxy面板 |
 | P05 | 0°/17° G/FUD π–σ端点及直接作用—轨道响应 | [protocol](evidence/P01-P14/P05/protocol.md) · [result](evidence/P01-P14/P05/result.jsonl) | Target A、RHF/6-31G(d)、原著分量公式 |
 | P06 | 0°/17° FUL/PDSI非键σ–σ条件态能量差 | [protocol](evidence/P01-P14/P06/protocol.md) · [result](evidence/P01-P14/P06/result.jsonl) | Target B、RHF/STO-3G、独立能量组装 |
@@ -131,7 +131,7 @@ WSL 2不是这些量子化学公式成立的数学前提，但它是本项目**�
 | P11 | 呋喃LDE；氰基苯共轭/诱导贡献及同实现苯锚点 | [furan protocol](evidence/P01-P14/P11/furan-protocol.md) · [furan result](evidence/P01-P14/P11/furan-result.json) · [substituent result](evidence/P01-P14/P11/substituent-result.json) | source-2007 LDE、Figure 7 source-proxy、ESE差分 |
 | P12 | 六点轮烯源账本恒等式、尺寸阈值和独立ASE趋势比较 | [protocol](evidence/P01-P14/P12/protocol.md) · [result](evidence/P01-P14/P12/result.json) | VDE/ESE/CESE、相对局域增量、跨估计量边界比较 |
 | P13 | Kekulé候选枚举、GL规则优先级、RDKit分子式和PBH账本 | [protocol](evidence/P01-P14/P13/protocol.md) · [result](evidence/P01-P14/P13/result.json) | 图论完美匹配、RDKit、公开数值账本 |
-| P14 | C12H6 PLG条件SCF、五参数D3h优化、内存受控ERI等价和结构响应 | [protocol](evidence/P01-P14/P14/protocol.md) · [result](evidence/P01-P14/P14/result.json) | B3LYPG/6-31G(d)、PLG、条件SCF、source-proxy锚点 |
+| P14 | C12H6 PLG条件SCF、固定几何端点、B3LYPG/6-31G(d)五参数生产优化及证据资格门禁 | [protocol](evidence/P01-P14/P14/protocol.md) · [result](evidence/P01-P14/P14/result.json) | **一致**；G/PLG梯度、终止、边界、SCF、电子数及结构/能量容差全部通过 |
 
 统一机器定判入口为[`validate_public_evidence.py`](software/scripts/validate_public_evidence.py)；双语导航和P11/P12差异由[`validate_evidence_navigation.py`](software/scripts/validate_evidence_navigation.py)复核。定判入口读取冻结结果，不重新伪装成一次完整历史计算。
 
@@ -168,7 +168,7 @@ WSL 2不是这些量子化学公式成立的数学前提，但它是本项目**�
 AI4OrgChem/
 ├─ project/                 # 背景、研究项、价值、成果与十四项总表
 ├─ evidence/P01-P14/        # 每项data-card、protocol、result、report
-├─ software/                # LFMO/条件SCF核心、64项测试、验证与刷新入口
+├─ software/                # LFMO/条件SCF核心、69项测试、验证与刷新入口
 ├─ reproducibility/         # 双语运行手册、平台矩阵、环境与WSL入口
 ├─ configs/qm/              # 可公开的冻结量化配置
 ├─ manuscripts/             # Evidence matrix and publication positioning
@@ -218,7 +218,7 @@ python software/scripts/validate_evidence_navigation.py
 python software/scripts/validate_wsl_release.py
 ```
 
-刷新只重建文件清单和SHA-256快照，不生成量子化学结论；随后必须重新运行64项测试、洁净克隆和Ubuntu入口验证，并创建新提交/不可变版本标签。外部复核者通常只需验证快照，无需刷新。
+刷新只重建文件清单和SHA-256快照，不生成量子化学结论；随后必须重新运行69项测试、洁净克隆和Ubuntu入口验证，并创建新提交/不可变版本标签。外部复核者通常只需验证快照，无需刷新。
 
 ### 相关文档
 
