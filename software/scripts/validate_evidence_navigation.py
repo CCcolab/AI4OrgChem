@@ -43,6 +43,26 @@ EXPECTED_JSON_VERDICTS = {
 LINK = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 ROW = re.compile(r"^\| (P\d{2}) \|.*$", re.MULTILINE)
 
+AUTHORITATIVE_STATUS_REQUIREMENTS = {
+    "README.md": ("13 consistent or scope-consistent", "1 partially consistent", "P12"),
+    "README_zh-CN.md": ("13项一致或范围化一致", "1项部分一致", "P12"),
+    "project/ACHIEVEMENTS_zh-CN.md": ("十三项与原著一致或范围化一致", "P12仍为部分一致"),
+    "project/P01-P14_MASTER_TABLE_zh-CN.md": ("P11", "CE=+1.173122", "IE=+0.490079", "一致4项"),
+    "manuscripts/P01-P14_evidence_matrix_zh-CN.md": ("一致或范围化一致13项", "部分一致1项", "IE=+0.490079"),
+    "manuscripts/PUBLICATION_POSITIONING_EN.md": ("Thirteen are consistent or scope-consistent", "one is partially consistent"),
+    "manuscripts/PUBLICATION_POSITIONING_zh-CN.md": ("十三项一致或范围化一致", "一项部分一致"),
+    "ai4s-agent/CAPABILITIES_AND_RESULTS_zh-CN.md": ("十三项一致或范围化一致", "一项部分一致"),
+}
+
+FORBIDDEN_CURRENT_FRAGMENTS = (
+    "12 consistent or scope-consistent",
+    "2 partially consistent",
+    "十二项一致或范围化一致",
+    "两项部分一致",
+    "P11、P12 为部分一致",
+    "P11B_CONJUGATIVE_CONSISTENT_INDUCTIVE_INCONSISTENT_UNDER_SOURCE_PROXY",
+)
+
 
 def load_json(relative: str) -> dict:
     return json.loads((EVIDENCE / relative).read_text(encoding="utf-8"))
@@ -120,6 +140,29 @@ def main() -> None:
         "pi_sigma_source_endpoint_destabilizing_at_17deg_table_5_15_source_proxy",
     }.issubset(p05_labels):
         failures.append("P05 scoped/indeterminate labels changed")
+
+    for relative, required in AUTHORITATIVE_STATUS_REQUIREMENTS.items():
+        path = PUBLICATION / relative
+        if not path.is_file():
+            failures.append(f"missing authoritative current-status document: {relative}")
+            continue
+        text = path.read_text(encoding="utf-8")
+        for fragment in required:
+            if fragment not in text:
+                failures.append(f"{relative}: missing current-status fragment {fragment!r}")
+        for fragment in FORBIDDEN_CURRENT_FRAGMENTS:
+            if fragment in text:
+                failures.append(f"{relative}: stale current-status fragment {fragment!r}")
+
+    agent_summary = json.loads((PUBLICATION / "ai4s-agent" / "EVALUATION_SUMMARY.json").read_text(encoding="utf-8"))
+    counts = agent_summary.get("scientific_propositions", {})
+    if counts != {
+        "total": 14,
+        "consistent_or_scope_consistent": 13,
+        "partially_consistent": 1,
+        "globally_inconsistent": 0,
+    }:
+        failures.append("AI4S Agent machine-readable proposition counts are not the current 13+1 state")
 
     result = {
         "status": "PASS" if not failures else "FAIL",
