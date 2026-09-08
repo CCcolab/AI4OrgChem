@@ -13,15 +13,11 @@ AI4OrgChem is an **AI for Science (AI4S) Agent** for independent computational r
 
 > **AI-assisted research and engineering:** **OpenAI Codex (GPT-5.6)**. Project authorship, scientific decisions, interpretations, and publication responsibility remain with Xiao Chen; OpenAI is not presented as a project author, scientific certifier, peer reviewer, or institutional endorser.
 
-> **Release status:** Post-Review Evidence Maintenance Release [`v0.3.1`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.1). The associated manuscript has not yet undergone peer review.
+> **Current release:** [`v0.3.1`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.1). The current proposition-level classification is **13 consistent and 1 partially consistent (P12)**. Evidence identity, tested scope, and independence remain separate from the verdict label. The associated manuscript has not yet undergone peer review.
 
-> **Download and citation:** GitHub's **Code → Download ZIP** provides a snapshot of the current `main` branch and may change with later maintenance. Use the immutable [`v0.3.1` Release package](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.1) for the current 13+1 evidence state. The immutable [`v0.3.0` package](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0) remains a historical archive; its [post-release erratum](project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md) is incorporated into `v0.3.1`.
+> **Download and citation:** GitHub's **Code → Download ZIP** provides a changeable snapshot of `main`. For review, reproduction, and citation, use the fixed [`v0.3.1` Release package](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.1), which includes the complete ZIP and SHA-256 verification files.
 
-> **Science `v0.3.1` maintenance closure:** This release incorporates the qualified P14 production evidence, the source-2007 state-specific all-planar P11-B recalculation, the P05 same-system seven-angle continuation, and the P07 independent same-Hamiltonian five-state path audit. The current proposition-level classification is **13 consistent and 1 partially consistent (P12)**. Evidence identity, tested scope, and independence remain separate from the verdict label.
-
-> **Science `v0.2.0`:** [the versioned `v0.2.0` evidence package](science-v0.2/README.md) is retained as a historical release baseline. The frozen `v0.1.x` P01-P14 classifications remain unchanged.
-
-> **Science `v0.3.0` scientific closure:** [the complete `v0.3.0` package](science-v0.3/README.md) closes seven ordered enhancement tasks: multireference and mechanism evidence, 8/8 open-three-program anchors plus 2/2 relative-energy pairs, separate source-aligned CESE and physical-state 0 K ASE branches, and one external-model-selected whitelist replay at **M2-scoped**. The final commit, `v0.3.0` tag, GitHub Release, complete ZIP, SHA-256 assets, CI, and post-tag clean-clone verification are complete. It does not change P01-P14, merge incomparable estimands, claim a universal annulene-size law, or represent the unexecuted ORCA-specific lane as complete. The full external model session and a generally replayable Agent runtime are not public.
+Previous releases and the complete update history remain available under [GitHub Releases](https://github.com/CCcolab/AI4OrgChem/releases) and in the [CHANGELOG](CHANGELOG.md).
 
 ## Why this project exists
 
