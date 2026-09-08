@@ -6,7 +6,7 @@
 
 ## Central conclusion
 
-Without using the monograph's original program code, AI4OrgChem used AI-assisted engineering and independent quantum-chemical reconstruction to classify fourteen testable propositions. Thirteen are consistent or scope-consistent with the monograph and one is partially consistent; none is globally inconsistent. P11 changed only after a source-2007 state-specific all-planar recalculation reproduced both CE and IE, with the old fixed-geometry result retained for audit. Post-release review also exposed and corrected a P14 evidence-eligibility defect. The evidence materially challenges the unconditional generalization of several textbook heuristics, but does not establish that traditional organic chemistry is globally incorrect or that conjugation is universally destabilizing.
+Without using the monograph's original program code, AI4OrgChem used AI-assisted engineering and independent quantum-chemical reconstruction to classify fourteen testable propositions. Thirteen are consistent with the monograph within their declared tested domains—P05 and P07 retain explicit scope qualifiers—and one (P12) is partially consistent; none is globally inconsistent. P11 changed only after a source-2007 state-specific all-planar recalculation reproduced both CE and IE, with the old fixed-geometry result retained for audit. Post-release review also exposed and corrected a P14 evidence-eligibility defect. The evidence materially challenges the unconditional generalization of several textbook heuristics, but does not establish that traditional organic chemistry is globally incorrect or that conjugation is universally destabilizing.
 
 ## Defensible claims
 

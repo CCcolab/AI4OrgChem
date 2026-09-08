@@ -44,14 +44,16 @@ LINK = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 ROW = re.compile(r"^\| (P\d{2}) \|.*$", re.MULTILINE)
 
 AUTHORITATIVE_STATUS_REQUIREMENTS = {
-    "README.md": ("13 consistent or scope-consistent", "1 partially consistent", "P12"),
-    "README_zh-CN.md": ("13项一致或范围化一致", "1项部分一致", "P12"),
-    "project/ACHIEVEMENTS_zh-CN.md": ("十三项与原著一致或范围化一致", "P12仍为部分一致"),
+    "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md": ("thirteen are consistent", "P05 and P07", "one (P12) is partially consistent"),
+    "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md": ("13项一致", "P05、P07", "1项（P12）部分一致"),
+    "README.md": ("13 consistent with the corresponding monograph proposition within their declared tested domains", "P05 and P07", "1 partially consistent", "P12"),
+    "README_zh-CN.md": ("13项一致", "P05、P07", "受测范围内一致", "1项部分一致", "P12"),
+    "project/ACHIEVEMENTS_zh-CN.md": ("十三项与原著一致", "P05、P07", "P12仍为部分一致"),
     "project/P01-P14_MASTER_TABLE_zh-CN.md": ("P11", "CE=+1.173122", "IE=+0.490079", "一致4项"),
-    "manuscripts/P01-P14_evidence_matrix_zh-CN.md": ("一致或范围化一致13项", "部分一致1项", "IE=+0.490079"),
-    "manuscripts/PUBLICATION_POSITIONING_EN.md": ("Thirteen are consistent or scope-consistent", "one is partially consistent"),
-    "manuscripts/PUBLICATION_POSITIONING_zh-CN.md": ("十三项一致或范围化一致", "一项部分一致"),
-    "ai4s-agent/CAPABILITIES_AND_RESULTS_zh-CN.md": ("十三项一致或范围化一致", "一项部分一致"),
+    "manuscripts/P01-P14_evidence_matrix_zh-CN.md": ("一致13项", "P05、P07为受测范围内一致", "部分一致1项（P12）", "IE=+0.490079"),
+    "manuscripts/PUBLICATION_POSITIONING_EN.md": ("Thirteen are consistent with the monograph within their declared tested domains", "P05 and P07", "one (P12) is partially consistent"),
+    "manuscripts/PUBLICATION_POSITIONING_zh-CN.md": ("十三项一致", "P05、P07", "一项（P12）部分一致"),
+    "ai4s-agent/CAPABILITIES_AND_RESULTS_zh-CN.md": ("十三项一致", "P05、P07", "一项部分一致（P12）"),
 }
 
 FORBIDDEN_CURRENT_FRAGMENTS = (
@@ -61,6 +63,8 @@ FORBIDDEN_CURRENT_FRAGMENTS = (
     "两项部分一致",
     "P11、P12 为部分一致",
     "P11B_CONJUGATIVE_CONSISTENT_INDUCTIVE_INCONSISTENT_UNDER_SOURCE_PROXY",
+    "**范围化一致**",
+    "**Scope-consistent**",
 )
 
 
@@ -156,12 +160,15 @@ def main() -> None:
 
     agent_summary = json.loads((PUBLICATION / "ai4s-agent" / "EVALUATION_SUMMARY.json").read_text(encoding="utf-8"))
     counts = agent_summary.get("scientific_propositions", {})
-    if counts != {
+    expected_count_fields = {
         "total": 14,
         "consistent_or_scope_consistent": 13,
+        "scope_qualified_consistent": 2,
+        "scope_qualified_consistent_ids": ["P05", "P07"],
         "partially_consistent": 1,
         "globally_inconsistent": 0,
-    }:
+    }
+    if any(counts.get(key) != value for key, value in expected_count_fields.items()):
         failures.append("AI4S Agent machine-readable proposition counts are not the current 13+1 state")
 
     result = {

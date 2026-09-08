@@ -18,6 +18,9 @@
   "scientific_propositions": {
     "total": 14,
     "consistent_or_scope_consistent": 13,
+    "display_classification": "13 consistent; P05 and P07 explicitly qualified as within tested scope",
+    "scope_qualified_consistent": 2,
+    "scope_qualified_consistent_ids": ["P05", "P07"],
     "partially_consistent": 1,
     "globally_inconsistent": 0
   },
