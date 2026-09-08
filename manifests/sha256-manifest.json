@@ -751,7 +751,7 @@
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
       "bytes": 85572,
-      "sha256": "3a1586891f3a1f3b470c91086bc5945f596ae3d6555ee414b5d51519e6c6bfe7"
+      "sha256": "a2b060395342d900dd477e373f3328aee1c2c83553332fb3990ff98b606e054c"
     },
     {
       "path": "manuscripts/P01-P14_evidence_matrix_zh-CN.md",
@@ -900,14 +900,14 @@
     {
       "path": "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md",
       "artifact_role": "repository-root",
-      "bytes": 12205,
-      "sha256": "14b39b9f3b6c15a5ff210b98c725db6f4d5a213f05ef653160aaae87f3426c73"
+      "bytes": 15663,
+      "sha256": "6e5e3138fe12c5c2067f1907270fe0697eb3b7ef9d875cebc6bc30ebffe08fb0"
     },
     {
       "path": "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md",
       "artifact_role": "repository-root",
-      "bytes": 10056,
-      "sha256": "a5a7dfd5e6c02e73e12f0f958a86d111355e2b9d4f1f92e303fc32e16ad65d7d"
+      "bytes": 13061,
+      "sha256": "c5744f06d73bfedcf90e30cb687d02f7b1b9dcb523bbcc8e4aee677983d0d9fa"
     },
     {
       "path": "science-v0.2/configs/science_v0.2/agent_run_bundle.schema.json",
