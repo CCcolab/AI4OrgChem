@@ -19,7 +19,7 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 - Scoped WP5 maturity as `M2-scoped`: one external-model-selected whitelist replay, not a public full external-model session or generally replayable runtime; R1-R3 scientific grades are unaffected.
 - Added explicit evidence identities and tightened P02, P03, P04-P13 publication language.
 - Added a narrow B3LYPG/6-31G(d) P14 production-optimization runner whose output is scientifically eligible only after every registered gate passes.
-- Completed the qualified P14 production optimization: both G/PLG endpoints passed the registered gradient, termination, boundary, SCF, electron-count and density checks; the optimized distortion and energy endpoint satisfy the preregistered tolerances. P14 is therefore restored to consistent, and current totals are 12 consistent/scope-consistent plus 2 partially consistent.
+- Completed the qualified P14 production optimization: both G/PLG endpoints passed the registered gradient, termination, boundary, SCF, electron-count and density checks; the optimized distortion and energy endpoint satisfy the preregistered tolerances. P14 was therefore restored to consistent; at that dated P14-remediation stage the totals were 12 consistent/scope-consistent plus 2 partially consistent. The later P11-B source-2007 recalculation recorded above supersedes that aggregate count.
 
 ## [0.3.0] - 2026-09-08
 
@@ -43,7 +43,7 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 ### Review disposition
 
 - Recorded that the 2026-09-01 third-party AI4OrgChem audit was fixed at `36fdfd4`, while the reported P14 public-evidence gap was closed in PR #8 / `bf0c323`.
-- Classified remaining recommendations as closed governance items, explicitly partial environment locking, or future P1 calculations that do not change the frozen 12+2 proposition-level results.
+- Classified remaining recommendations as closed governance items, explicitly partial environment locking, or future P1 calculations that did not change the then-frozen `v0.2.0` 12+2 proposition-level snapshot. The current `main` classification is recorded at the top of this changelog.
 
 ### Added
 
