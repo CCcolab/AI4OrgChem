@@ -44,7 +44,7 @@ Each file has a distinct evidentiary responsibility:
 
 Read “Scientific assessment” and “Reproducibility and evidence boundaries” on the [English home page](README.md). Retain three statements:
 
-1. Of fourteen propositions, twelve are consistent or scope-consistent, two are partially consistent, none is globally inconsistent, and none is unknown. Post-release review temporarily lowered P14, after which a qualified production optimization passed every registered gate and restored it to consistent.
+1. Of fourteen propositions, thirteen are consistent or scope-consistent, one (P12) is partially consistent, none is globally inconsistent, and none is unknown. P11-B moved from partial to consistent only after the source-2007 state-specific planar restricted optimizations reproduced both CE and IE; the old fixed-geometry result remains visible for audit.
 2. The evidence supports a bounded methodological criticism: several textbook heuristics do not automatically become universally sufficient mechanistic explanations.
 3. The project does not claim that traditional organic chemistry is globally wrong and does not propose a reverse universal law that conjugation must always be destabilizing.
 
@@ -66,7 +66,7 @@ The final column matters more than the word “consistent.” A result obtained 
 | Can an LFMO pi–pi endpoint have a destabilizing sign? | [P04](evidence/P01-P14/P04/report.md) | It directly tests the conjugation-energy sign at eleven technically valid endpoints. |
 | Why is the butadiene conjugation energy positive? | [P08](evidence/P01-P14/P08/report.md) | It exposes the GL definition, reference construction, and `+1.575676 kcal/mol` result. |
 | Can aromatic and antiaromatic energies be constructed theoretically? | [P09](evidence/P01-P14/P09/report.md) | It permits a direct sign and magnitude check for benzene and cyclobutadiene. |
-| How does the project handle incomplete support? | [P11](evidence/P01-P14/P11/substituent-report.md) or [P12](evidence/P01-P14/P12/report.md) | These preserve an opposite-sign component and a cross-estimator onset difference. |
+| How does the project correct an estimand mismatch and retain incomplete support? | [P11](evidence/P01-P14/P11/substituent-report.md) and [P12](evidence/P01-P14/P12/report.md) | P11 preserves the superseded fixed-geometry result while replacing it with same-method state-specific optimization; P12 retains the cross-estimator onset boundary. |
 
 For one proposition, read the files in this order:
 
@@ -122,18 +122,19 @@ Machine learning and the evidence agent form a separate engineering layer. MACE,
 | WP5 | External clean Agent replay | Reaches M2-scoped maturity for one whitelisted replay; it does not expose the full external-model session or automatically raise R1–R3 |
 | WP6 | Fixed tag, complete archive, hashes, CI, and post-tag clean verification | Fixes publication identity without generating a new scientific sign |
 
-See the [`v0.3.0` scientific-closure entry](science-v0.3/README.md) and the [post-release erratum](project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md). The immutable release added evidence; current `main` corrects P14 evidence eligibility, publishes a qualified production optimization, and reports twelve consistent/scope-consistent plus two partially consistent propositions.
+See the [`v0.3.0` scientific-closure entry](science-v0.3/README.md) and the [post-release erratum](project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md). The immutable release remains unchanged; current `main` adds the qualified P14 correction and the source-2007 P11-B planar recalculation, and reports thirteen consistent/scope-consistent plus one partially consistent proposition.
 
-## 5. Examine the two “partially consistent” results and the P14 correction first
+## 5. Examine the P11 correction, the remaining P12 partial result, and the P14 correction
 
 A credible independent assessment must retain results that do not fully support the source claim.
 
-### P11 — Opposite sign for the substituted-benzene inductive component
+### P11 — Fixed-geometry mismatch corrected by source-2007 state-specific optimization
 
-- The furan LDE result is consistent with the monograph.
-- The cyanobenzene conjugative component is `+1.180928 kcal/mol`, close to the monograph's approximately `+1.2 kcal/mol`.
-- Two frozen inductive diagnostic routes give `-0.335714` and `-0.580151 kcal/mol`, whereas the monograph reports `+0.49 kcal/mol`; they are not described as fully independent software or data sources.
-- Because the complete historical Cartesian coordinates are unavailable, the project classifies P11 as partially consistent rather than claiming a direct refutation of the historical calculation.
+- The furan LDE result remains consistent with the monograph.
+- The old Figure-7 fixed-geometry proxy gave `IE=-0.335714 kcal/mol`; it omitted the 2007 method's state-specific restricted geometry optimization and is retained only as a superseded audit result.
+- Ten cyanobenzene and three benzene G/GL/GE states were then optimized independently at B3LYP/6-31G(d), with every atomic `z` coordinate hard-frozen to zero and the source-2007 Fock/overlap conditional-SCF rule.
+- The recalculation gives `CE=+1.173122` and `IE=+0.490079 kcal/mol`, versus approximately `+1.2` and `+0.49` in the source; all 13 states converged.
+- P11 is therefore consistent within this single-system source-2007 domain. Missing historical Cartesian and hydrogen coordinates still prevent a claim of original-coordinate or historical-program identity.
 
 ### P12 — Same large-annulene trend, different numerical onset
 
@@ -149,7 +150,7 @@ A credible independent assessment must retain results that do not fully support 
 - They give `dΔr=0.172204 Å` versus the source `0.179 Å` and an optimized endpoint of `+67.679719 kcal/mol` versus `+67.08 kcal/mol`; both residuals pass the preregistered tolerances.
 - P14 is therefore restored to consistent, but only for one C12H6 planar-D3h five-parameter source-proxy system; no full-Cartesian frequency, wider-symmetry, nineteen-molecule, or universal-law claim is made.
 
-P11 and P12 remain the direct test that unfavorable and incomparable evidence is preserved. P14 additionally demonstrates that a review-detected eligibility defect is not hidden: it was first downgraded, then restored only after qualified replacement evidence passed the repaired gate.
+P11 demonstrates that an unfavorable result is not hidden but may be superseded when the missing source-defined operation is identified and rerun; P12 retains the remaining incomparable evidence. P14 demonstrates that a review-detected eligibility defect is corrected only after qualified replacement evidence passes the repaired gate.
 
 ## 6. Credibility checks that require no programming
 
@@ -157,7 +158,7 @@ Without running a command, a reviewer can:
 
 1. select three entries in the [English evidence index](evidence/P01-P14/README.md) and confirm that each has a data card, protocol, machine result, and report;
 2. compare the sign definition in `protocol.md` with every use of “stabilizing” or “destabilizing” in `report.md`;
-3. confirm that P11 and P12 retain the opposite sign and estimator difference, and that P14 preserves the missing-coordinate/D3h limitations while exposing the rejected pilot and qualified replacement optimization;
+3. confirm that P11 retains its old opposite-sign proxy as superseded evidence, P12 retains the estimator difference, and P14 exposes both the rejected pilot and qualified replacement optimization;
 4. verify that a source-proxy result is never presented as complete historical-identity reproduction;
 5. verify that AI predictions are never allowed to rewrite a quantum-chemical classification.
 
@@ -180,7 +181,7 @@ Expected output includes:
 - `status: PASS`;
 - `propositions_checked: 14`;
 - `propositions_navigated: 14`;
-- twelve consistent or scope-consistent, two partially consistent, zero globally inconsistent, and zero unknown classifications.
+- thirteen consistent or scope-consistent, one partially consistent, zero globally inconsistent, and zero unknown classifications.
 - `WP6_V03_RELEASE_VALIDATION_OK`.
 
 Readers interested only in scientific evidence do not need PySCF, CUDA, MACE, or PySR. Full runtime and WSL 2 information is provided only for software and platform reproduction in the [reproducibility directory](reproducibility/README.md).
@@ -189,7 +190,7 @@ Readers interested only in scientific evidence do not need PySCF, CUDA, MACE, or
 
 For a reviewer who has not independently rerun every historical computation, the strongest defensible summary is:
 
-> AI4OrgChem conducted a layered, auditable evidence assessment of fourteen counter-traditional propositions in organic structure theory and independently reconstructed the computationally testable propositions without using the monograph's program code, under explicitly frozen systems, state definitions, energy differences, and source-proxy boundaries. Current public evidence is consistent or scope-consistent with twelve propositions and partially consistent with two. Post-release review exposed a P14 evidence-eligibility defect; the project rejected the old technical pilot, repaired the gate, and restored P14 only after a B3LYPG/6-31G(d) production optimization passed every registered criterion. The aggregate result supports criticism of unconditionally universalizing several classical heuristics, but it does not reject traditional organic chemistry as a whole or establish a universal law in the opposite direction. The release has not undergone peer review.
+> AI4OrgChem conducted a layered, auditable evidence assessment of fourteen counter-traditional propositions in organic structure theory and independently reconstructed the computationally testable propositions without using the monograph's program code, under explicitly frozen systems, state definitions, energy differences, and source-proxy boundaries. Current public evidence is consistent or scope-consistent with thirteen propositions and partially consistent with one. P11 was upgraded only after a source-2007 state-specific all-planar restricted optimization reproduced both CE and IE, while the superseded fixed-geometry result remains public. The aggregate result supports criticism of unconditionally universalizing several classical heuristics, but it does not reject traditional organic chemistry as a whole or establish a universal law in the opposite direction. The release has not undergone peer review.
 
 ## 9. Shortest navigation path
 

@@ -31,8 +31,8 @@ The project asks whether independently reconstructed quantum-chemical evidence s
 
 All fourteen propositions received determinate classifications within their declared tested domains:
 
-- **12 consistent or scope-consistent** with the corresponding monograph proposition;
-- **2 partially consistent**: P11 retains an opposite-sign inductive component, while P12 retains a cross-estimand onset boundary;
+- **13 consistent or scope-consistent** with the corresponding monograph proposition;
+- **1 partially consistent**: P12 retains a cross-estimand onset boundary;
 - **0 globally inconsistent and 0 unknown**.
 
 Representative frozen results are:
@@ -49,7 +49,7 @@ These results support a bounded methodological conclusion: several textbook heur
 
 The fourteen propositions form a layered, auditable evidence chain rather than fourteen equal-status quantum-chemistry reproductions. Independent QM, source-aligned/source-proxy reconstruction, published-value reanalysis, and graph/literature evidence retain distinct identities.
 
-The 12+2 numbers are **proposition-level classifications**, not a count of fourteen mutually independent quantum-chemistry validations. P07 is a `DERIVED` synthesis of P04-P06 and adds no new QM evidence. Following post-release review, P14's classifier rejects the old STO-3G technical pilot and now relies on a qualified B3LYPG/6-31G(d) production optimization that passed all registered eligibility gates.
+The 13+1 numbers are **proposition-level classifications**, not a count of fourteen mutually independent quantum-chemistry validations. P07 is a `DERIVED` synthesis of P04-P06 and adds no new QM evidence. On 2026-09-08, P11-B was updated after completing the source-2007 state-specific all-planar restricted optimizations: CE and IE now reproduce the source values, while the old fixed-geometry opposite-sign result remains an audit record. Following post-release review, P14's classifier rejects the old STO-3G technical pilot and now relies on a qualified B3LYPG/6-31G(d) production optimization that passed all registered eligibility gates.
 
 See the [P01-P14 evidence matrix](manuscripts/P01-P14_evidence_matrix_zh-CN.md) and the [evidence collection](evidence/P01-P14/README.md).
 
@@ -128,7 +128,7 @@ WSL 2不是这些量子化学公式成立的数学前提，但它是本项目**�
 | P08 | 丁二烯G/GL平面优化、共轭能、中央键差和三种氢化热参照 | [protocol](evidence/P01-P14/P08/protocol.md) · [result](evidence/P01-P14/P08/result.json) | GL(2014) source-aligned、B3LYPG/6-31G(d) |
 | P09 | 环丁二烯VDE/ADE与苯ESE的虚拟参考和独立能量组装 | [protocol](evidence/P01-P14/P09/protocol.md) · [result](evidence/P01-P14/P09/result.json) | G/DSI/GL、G/GL/GE-1/VR、B3LYP/6-31G(d) |
 | P10 | 苯键长交替五点扫描、电子能/核排斥能/总能及曲率 | [protocol](evidence/P01-P14/P10/protocol.md) · [result](evidence/P01-P14/P10/result.json) | B3LYPG/6-31G(d)、独立核间库仑和 |
-| P11 | 呋喃LDE；氰基苯共轭/诱导贡献及同实现苯锚点 | [furan protocol](evidence/P01-P14/P11/furan-protocol.md) · [furan result](evidence/P01-P14/P11/furan-result.json) · [substituent result](evidence/P01-P14/P11/substituent-result.json) | source-2007 LDE、Figure 7 source-proxy、ESE差分 |
+| P11 | 呋喃LDE；氰基苯/苯13态全平面逐态受限优化与共轭/诱导贡献 | [furan protocol](evidence/P01-P14/P11/furan-protocol.md) · [furan result](evidence/P01-P14/P11/furan-result.json) · [substituent protocol](evidence/P01-P14/P11/substituent-protocol.md) · [substituent result](evidence/P01-P14/P11/substituent-result.json) | source-2007 LDE、Fock/overlap条件SCF、state-specific planar optimization、ESE/CE/IE差分 |
 | P12 | 六点轮烯源账本恒等式、尺寸阈值和独立ASE趋势比较 | [protocol](evidence/P01-P14/P12/protocol.md) · [result](evidence/P01-P14/P12/result.json) | VDE/ESE/CESE、相对局域增量、跨估计量边界比较 |
 | P13 | Kekulé候选枚举、GL规则优先级、RDKit分子式和PBH账本 | [protocol](evidence/P01-P14/P13/protocol.md) · [result](evidence/P01-P14/P13/result.json) | 图论完美匹配、RDKit、公开数值账本 |
 | P14 | C12H6 PLG条件SCF、固定几何端点、B3LYPG/6-31G(d)五参数生产优化及证据资格门禁 | [protocol](evidence/P01-P14/P14/protocol.md) · [result](evidence/P01-P14/P14/result.json) | **一致**；G/PLG梯度、终止、边界、SCF、电子数及结构/能量容差全部通过 |

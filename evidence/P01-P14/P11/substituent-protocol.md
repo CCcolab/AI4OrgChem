@@ -1,77 +1,49 @@
-> **公开版说明（2026-08-26）：** 本文是命题关闭时形成的冻结证据快照。其中“未启动/禁用”等阶段性措辞只描述当时的任务边界，不代表项目当前进度；当前总状态以 `project/P01-P14_MASTER_TABLE_zh-CN.md` 和 `ai4s-agent/EVALUATION_SUMMARY.json` 为准。
+> **Current-evidence note (2026-09-08):** This source-2007 planar restricted-optimization protocol supersedes the earlier fixed-geometry proxy for the P11-B CE/IE classification. The fixed-proxy result remains in project history for audit.
 
-# P11-B 取代苯共轭/诱导效应分离协议 v0.1
+# P11-B 取代苯共轭/诱导效应分离协议 v0.2
 
-- 协议ID：`p11-substituted-benzene-effect/0.1`
-- 日期：2026-08-21
-- 状态：已冻结；只授权单一氰基苯 Figure 7 源几何重构
-- 原著程序代码：不使用
+- 协议ID：`p11-source2007-planar-recalculation/0.2`
+- 对象：单一氰基苯与同协议苯锚点
+- 方法：PySCF B3LYP/6-31G(d)，闭壳层RKS，grid level 3
+- 原著方法版本：Bao–Yu 2007定义
+- 原著程序代码：未使用
 
-2026-08-22补充（在苯锚点计算前冻结）：published `-39.0 kcal/mol`保留为诊断；诱导项主比较使用另算的同引擎、同source-2007语义苯锚点，避免混用不同实现。
+## 1. 可证伪命题与公式
 
-## 1. 可证伪命题
+`ESE(SB) = (E_G-E_GLI) - sum(i=1..3; E_GEi-E_GLI)`
 
-P11-B只检验作者2007年定义的取代基效应分解，不讨论一般Hammett效应，也不把普通取代反应能替代为原著ESE：
+`ESE(Ph) = (E_GE7-E_GLII) - sum(i=4..6; E_GEi-E_GLII)`
 
-`ESE(SB) = ΔEA - (ΔEA1 + ΔEA2 + ΔEA3)`
-
-`ESE(Ph) = ΔEA7 - (ΔEA4 + ΔEA5 + ΔEA6)`
+`ESE(Bz) = (E_G-E_GL) - 3(E_GE1-E_GL)`
 
 `CE = ESE(SB) - ESE(Ph)`
 
-`IE = ESE(Ph) - ESE(benzene)`
+`IE = ESE(Ph) - ESE(Bz)`
 
-其中`CE`为原著定义的共轭贡献，`IE`为原著定义的诱导贡献。对本协议唯一对象氰基苯，原著方向命题为`CE>0`且`IE>0`，即两者都使ESE绝对值减小；原著数值为约`+1.2`和`+0.49 kcal/mol`。
+原著对氰基苯给出的约值为：`ESE(SB)=-37.3`、`ESE(Ph)=-38.5`、`ESE(Bz)=-39.0`、`CE=+1.2`、`IE=+0.49 kcal/mol`。
 
-## 2. 唯一对象与状态拓扑
+## 2. source-2007电子结构语义
 
-- 对象：cyanobenzene（C7H5N），气相、平面、闭壳层单重态；
-- 方法：PySCF `B3LYPG/6-31G(d)`，grid level 3；
-- 条件SCF：source-2007语义，仅屏蔽不同π片段间的AO Fock/one-electron/overlap块，不删除两电子积分；
-- 环编号：`C1-C2-C3-C4-C5-C6-C1`，氰基碳/氮为`C7/N8`；
-- Figure 7(a)片段：`A={C7,N8,C1,C2}`、`B={C3,C4}`、`C={C5,C6}`；
-- Figure 7(b)片段：`X={C7,N8}`、`A={C1,C2}`、`B={C3,C4}`、`C={C5,C6}`。
+- 每次SCF迭代将不同局域π片段之间的AO Fock与overlap块置零；
+- 不删除双电子积分；
+- 保留物理一电子算符，不把hcore额外置零；
+- 氰基苯使用G、GL-I、GE1–GE3、GL-II、GE4–GE7共10态；苯使用G、GL、GE1共3态。
 
-SB分支：
+## 3. 全平面逐状态受限优化
 
-- `G`：普通未屏蔽基态；
-- `GL-I`：A/B/C彼此局域，X与环的π作用保留在A内；
-- `GE1`：只允许A-B；`GE2`：只允许A-C；`GE3`：只允许B-C；
-- `ΔEA=E(G)-E(GL-I)`，`ΔEAn=E(GEn)-E(GL-I)`。
+- 所有13个G/GL/GE状态分别优化，不在同一固定几何上比较；
+- 每个原子的Cartesian `z`均硬冻结为0，只优化平面内自由度；
+- geomeTRIC 1.1.1调用解析conditional-RKS梯度；
+- 收敛阈值：能量`1e-6 Eh`、梯度RMS/最大值`3e-4/4.5e-4 Eh/Bohr`、位移RMS/最大值`1.2e-3/1.8e-3 Å`。
 
-Ph分支：
+氰基苯从Figure 7公开的逐态重原子键长重构结构出发；苯从2007 Supporting Information结构出发。Figure 7未公开完整Cartesian和氢坐标，因此本项目不声称原厂坐标逐点相同。
 
-- `GL-II`：X/A/B/C四组彼此局域；
-- `GE4`：只允许A-B；`GE5`：只允许A-C；`GE6`：只允许B-C；
-- `GE7`：A/B/C合并为完整环π系统，X仍隔离；
-- `ΔEAn=E(GEn)-E(GL-II)`，`n=4,5,6,7`。
+## 4. 验收与已声明诊断偏差
 
-## 3. 几何处置
+阻断条件包括：13态全部优化/SCF收敛、最大面外偏差不超过`1e-10 Å`、三个ESE及CE/IE在冻结容差内、CE/IE为正、`|ESE(Ph)|<|ESE(Bz)|`。
 
-公开论文未给出九个氰基苯状态的完整Cartesian坐标，但Figure 7逐态给出六个环C-C键和C1-C7键。本协议采用明确标注的`Figure-7 heavy-bond source proxy`：
+初始协议另设“任一环键相对Figure 7/SI起始值变化不超过`0.001 Å`”的source-start诊断。观察最大值为`0.002328 Å`（氰基苯G态），故该诊断明确记录为未满足，阈值没有事后放宽。由于输入只含四舍五入的重原子键长而非完整坐标，该诊断用于披露重构敏感性，不替代优化收敛、平面性或ESE/CE/IE估计量验收。
 
-1. 逐态使用Figure 7公开的七个重原子键长，不以公开能量拟合几何；
-2. 平面六元环由“全部六个目标键长优先、内角偏离120度最小”的确定性最小二乘重构；
-3. C-H固定为`1.0866 Å`，C7-N8固定为`1.1600 Å`，均沿局部外角平分线放置；
-4. 不做新的几何优化、基组扫描、泛函扫描或取代基面板扩展。
+## 5. 边界
 
-因此本协议能够检验Figure 7状态拓扑与能量分解的符号/幅度，但不宣称恢复作者未公开的历史Cartesian坐标或原厂程序身份。
-
-## 4. 同协议苯锚点
-
-原著的诱导项以2007年同文、同方法的苯ESE为定义锚点。公开`ESE(benzene)=-39.0 kcal/mol`保留为published-anchor诊断；主判定必须另算同一PySCF、同一source-2007无ERI删除语义的苯G/GL/GE1锚点，以消除实现整体偏差。不得换用P09的2011 ERI删除分支，也不得将P09的`-37.412764 kcal/mol`混入P11-B。
-
-## 5. 验收
-
-- 十个电子态（一个普通G及九个条件态）全部SCF收敛，电子数为54，跨片段π Fock/overlap块为零，两电子积分删除数为零；
-- 六元环源键长最大重构误差不大于`2e-5 Å`；
-- `ΔEA1..3>0`、`ΔEA<0`、`ESE(SB)<0`；
-- `ΔEA4..6>0`、`ΔEA7<0`、`ESE(Ph)<0`；
-- `CE>0`且`IE>0`；
-- 计算封存后，`ESE(SB)`、`ESE(Ph)`相对原著值各不超过`5 kcal/mol`，`CE`与`IE`各不超过`2 kcal/mol`。
-
-若符号失败或计算态不闭合，P11-B直接判为“反对”或“暂不能判定”，不得通过增加取代基、调整方法或改变Figure 7片段定义追逐结论。
-
-## 6. 边界
-
-本协议只完成P11-B最小氰基苯验证。P11-A保持关闭；不得回开P09/P10，不启动P12/P13、生产标签、MACE、NequIP或PySR。
+结论只适用于单一氰基苯、source-2007条件态定义和上述全平面受限优化协议。不外推一般Hammett关系、其他取代基或方法无关定律；不生成AI训练标签。
