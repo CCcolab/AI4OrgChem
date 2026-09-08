@@ -871,7 +871,7 @@
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
       "bytes": 89443,
-      "sha256": "8522d8bfa28ee7435539418b337634f1621eda60bf01c86bda45a4a4b5e16e36"
+      "sha256": "8101ffb75c1e09545f6b76738b770abc20ec3762ee06abbe2d61d72caa7890f6"
     },
     {
       "path": "manuscripts/P01-P14_evidence_matrix_zh-CN.md",
@@ -882,8 +882,8 @@
     {
       "path": "manuscripts/PUBLICATION_POSITIONING_EN.md",
       "artifact_role": "manuscript",
-      "bytes": 2360,
-      "sha256": "a1d53bca4f1ed7962bf194da6d8469d134b7eb50411ae03cade956a6a5bcd276"
+      "bytes": 2446,
+      "sha256": "342cfa1425a65983ef9539968215e63bbb5083922f03ba75ca870ea40ce7f254"
     },
     {
       "path": "manuscripts/PUBLICATION_POSITIONING_zh-CN.md",
@@ -930,8 +930,8 @@
     {
       "path": "project/README.md",
       "artifact_role": "project-narrative",
-      "bytes": 1093,
-      "sha256": "222195347855e94e0aa42cd7e4a6c7912789d4f95fb51d0e2088275a13b612be"
+      "bytes": 1199,
+      "sha256": "62589c9dcb65530f81a797d6ed959ee87b627e5d9b12d3f38a8d802ef0d524b3"
     },
     {
       "path": "project/RESEARCH_ITEMS_zh-CN.md",
@@ -1032,14 +1032,14 @@
     {
       "path": "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md",
       "artifact_role": "repository-root",
-      "bytes": 18321,
-      "sha256": "45b0ab5659df6820720ff0a2502bc4c233e4857a63078bb330d6d0051d2ac802"
+      "bytes": 18449,
+      "sha256": "fd738254907ffad872e178319dbfccd0159f10e5a33ed6c69971d0ebbb369ae2"
     },
     {
       "path": "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md",
       "artifact_role": "repository-root",
-      "bytes": 15182,
-      "sha256": "1c11ba0cb58c6cc489189cbc0df41007ed0a2020333611440285452cd9a05960"
+      "bytes": 15293,
+      "sha256": "46eb9b5f74d88b304f696d09c40e3b23785adfdf8197bd649bae71c4ae438853"
     },
     {
       "path": "science-v0.2/configs/science_v0.2/agent_run_bundle.schema.json",
@@ -3198,8 +3198,8 @@
     {
       "path": "software/scripts/validate_release_package.py",
       "artifact_role": "software-or-test",
-      "bytes": 13931,
-      "sha256": "cecdeee9bd05770ff6ceba9e9e6aad0c53d0d1985d8e36889f7a15aa3837c6f9"
+      "bytes": 15751,
+      "sha256": "0fae21e2f399b430af00e4f91d3422903252fd0bfb6a3c9ee4aa04874c0a40cd"
     },
     {
       "path": "software/scripts/validate_science_v02_wp0_public.py",
