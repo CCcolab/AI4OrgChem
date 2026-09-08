@@ -6,7 +6,7 @@
 
 ## 分类汇总
 
-- 一致：13项（其中P05、P07为受测范围内一致）；
+- 一致：13项；
 - 部分一致：1项，即P12；
 - 整体不一致：0项；
 - 未知：0项。
@@ -17,9 +17,9 @@
 | P02 | 共轭可以伴随而不是阻止分子扭曲。 | **一致** | 单一已发表晶体对的结构—光谱关联支持范围化方向；这不是因果检验，且未重新精修原始CIF。 | [数据卡](P02/data-card.md) · [协议](P02/protocol.md) · [机器结果](P02/result.json) · [报告](P02/report.md) |
 | P03 | 在受测parent NBA路径上，电子能与核排斥能分量反向变化。 | **一致** | 单一source-aligned parent NBA弛豫定扭转PES；40°仅为四个采样点中的最低点，不据此建立普遍因果机制。 | [数据卡](P03/data-card.md) · [协议](P03/protocol.md) · [机器结果](P03/result.json) · [报告](P03/report.md) |
 | P04 | LFMO定义下π–π端点可以为去稳定化。 | **一致** | 12个尝试点中11个技术有效，11个有效source-proxy端点均为去稳定化方向；这是受测域符号规律，不是普遍定律。 | [数据卡](P04/data-card.md) · [协议](P04/protocol.md) · [机器结果](P04/result.jsonl) · [报告](P04/report.md) |
-| P05 | π–σ源端点可以为去稳定化。 | **一致（受测范围内）** | Table 5-15 source-proxy的17°端点为正；0°点在容差内不能定号。 | [数据卡](P05/data-card.md) · [协议](P05/protocol.md) · [机器结果](P05/result.jsonl) · [报告](P05/report.md) |
+| P05 | π–σ源端点可以为去稳定化。 | **一致** | 同一Table 5-15 source-proxy的六个非零角度（5°–45°）端点均为正；0°保持容差内零控制。 | [数据卡](P05/data-card.md) · [协议](P05/protocol.md) · [七角度结果](P05/seven-angle-result.json) · [历史锚点](P05/result.jsonl) · [报告](P05/report.md) |
 | P06 | 非键σ–σ必须按明确条件态分析，不能自动等同经典位阻能。 | **一致** | 同一分子0°/17°两个source-proxy端点在PDSI/FUL状态对下均为去稳定化；不代表连续角度或跨分子规律。 | [数据卡](P06/data-card.md) · [协议](P06/protocol.md) · [机器结果](P06/result.jsonl) · [报告](P06/report.md) |
-| P07 | “共轭稳定化—位阻去稳定化”二项叙事不足以解释受测机制。 | **一致（受测范围内）** | `DERIVED`：P04–P06命题级综合，不含新增独立QM计算；不同状态合同的能量禁止求和。 | [数据卡](P07/data-card.md) · [协议](P07/protocol.md) · [机器结果](P07/result.json) · [报告](P07/report.md) |
+| P07 | “共轭稳定化—位阻去稳定化”二项叙事不足以解释受测机制。 | **一致** | `DERIVED`：P04–P06命题级综合，不含新增独立QM计算；不同状态合同的能量禁止求和。 | [数据卡](P07/data-card.md) · [协议](P07/protocol.md) · [机器结果](P07/result.json) · [报告](P07/report.md) |
 | P08 | GL定义的丁二烯共轭能可以为正，氢化热参照不能确定唯一符号。 | **一致** | 冻结GL(2014)结果为 **+1.575676 kcal/mol**；属于source-aligned独立代码重构，不冒充历史程序身份或正交估计量验证。 | [数据卡](P08/data-card.md) · [协议](P08/protocol.md) · [机器结果](P08/result.json) · [报告](P08/report.md) |
 | P09 | 芳香/反芳香能可以由理论局域/虚拟参照构造。 | **一致** | 环丁二烯ADE为 **+53.822467 kcal/mol**；苯ESE为 **-37.412764 kcal/mol**，相对原著`-36.3`的绝对差为`1.112764 kcal/mol`（约`3.07%`）。普通态符号稳健，但方法跨度达 **41.0077 kcal/mol**，CIPSI支路尚未完全收敛；这是source-aligned支持，不是方法无关或逐位复现。 | [数据卡](P09/data-card.md) · [协议](P09/protocol.md) · [机器结果](P09/result.json) · [报告](P09/report.md) |
 | P10 | 在受测苯键长交替坐标上，核排斥变化是绝对幅度较大的反向分量。 | **一致** | 沿冻结坐标电子能与核排斥能反向变化；这是路径账本，不把核排斥描述为脱离电子结构的孤立原因。 | [数据卡](P10/data-card.md) · [协议](P10/protocol.md) · [机器结果](P10/result.json) · [报告](P10/report.md) |

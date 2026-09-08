@@ -29,11 +29,13 @@ The project asks whether independently reconstructed quantum-chemical evidence s
 
 ## Scientific outcome
 
-All fourteen propositions received determinate classifications within their declared tested domains:
+All fourteen propositions received determinate classifications:
 
-- **13 consistent with the corresponding monograph proposition within their declared tested domains**; P05 and P07 carry explicit scope qualifiers;
+- **13 consistent** with the corresponding monograph propositions;
 - **1 partially consistent**: P12 retains a cross-estimand onset boundary;
 - **0 globally inconsistent and 0 unknown**.
+
+“Consistent” is a proposition-level verdict: evidence produced under the registered protocol supports the corresponding monograph proposition. Scope, evidence identity, and independence are reported separately; a proposition-level result is not automatically generalized into a universal law.
 
 Representative frozen results are:
 
@@ -122,7 +124,7 @@ WSL 2不是这些量子化学公式成立的数学前提，但它是本项目**�
 | P02 | 公开X射线/UV表值、同系线回归、键长和扭转角方向复核 | [protocol](evidence/P01-P14/P02/protocol.md) · [result](evidence/P01-P14/P02/result.json) | 单一已发表晶体对的结构—光谱关联；不作因果断言 |
 | P03 | parent NBA弛豫PES及电子能、核排斥能、总能、曲率和扭矩 | [protocol](evidence/P01-P14/P03/protocol.md) · [result](evidence/P01-P14/P03/result.json) | 冻结坐标电子—核账本及抵消；不作第一原因断言 |
 | P04 | 三个分子家族、多个角度的DSI-3/FUD π–π端点和响应诊断 | [protocol](evidence/P01-P14/P04/protocol.md) · [result](evidence/P01-P14/P04/result.jsonl) | PySCF RHF/6-31G(d)、LFMO、11点source-proxy面板 |
-| P05 | 0°/17° G/FUD π–σ端点及直接作用—轨道响应 | [protocol](evidence/P01-P14/P05/protocol.md) · [result](evidence/P01-P14/P05/result.jsonl) | Target A、RHF/6-31G(d)、原著分量公式 |
+| P05 | 0°–45°七角度G/FUD π–σ端点及直接作用—轨道响应 | [protocol](evidence/P01-P14/P05/protocol.md) · [result](evidence/P01-P14/P05/seven-angle-result.json) | Target A、RHF/6-31G(d)、原著分量公式；六个非零角度均为正 |
 | P06 | 0°/17° FUL/PDSI非键σ–σ条件态能量差 | [protocol](evidence/P01-P14/P06/protocol.md) · [result](evidence/P01-P14/P06/result.jsonl) | Target B、RHF/STO-3G、独立能量组装 |
 | P07 | P04/P05/P06命题矩阵、分量响应和同一Target内闭合检查 | [protocol](evidence/P01-P14/P07/protocol.md) · [result](evidence/P01-P14/P07/result.json) | 状态特异LFMO、多分量机制；禁止跨协议求和 |
 | P08 | 丁二烯G/GL平面优化、共轭能、中央键差和三种氢化热参照 | [protocol](evidence/P01-P14/P08/protocol.md) · [result](evidence/P01-P14/P08/result.json) | GL(2014) source-aligned、B3LYPG/6-31G(d) |

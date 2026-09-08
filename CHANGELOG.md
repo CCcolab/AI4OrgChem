@@ -1,11 +1,18 @@
 # Changelog
 
+## 2026-09-08 — P05 seven-angle continuation
+
+- Preserved the frozen 0°/17° Table 5-15 anchors and computed five new rigid-twist points at 5°, 10°, 25°, 35°, and 45° under the same diphenyl-imine, RHF/6-31G(d), G/FUD source-defined contract.
+- All seven points passed the technical gates; all six nonzero-angle endpoints are positive, from `+0.000783111342` to `+0.058892182993 Eh`, while 0° remains the zero control.
+- The maximum direct-response-endpoint closure residual is `3.493205724681e-12 Eh`; LFMO root and group dimensions remain constant across the panel.
+- P05 is reported as **consistent with multi-angle support**. Its source-defined nonvariational endpoint identity and non-universal boundary remain explicit in separate evidence fields.
+
 ## 2026-09-08 — P11-B source-2007 planar recalculation
 
 - Recomputed all ten cyanobenzene and three benzene G/GL/GE states with state-specific B3LYP/6-31G(d) restricted geometry optimization and hard all-atom planarity constraints.
 - Reproduced `ESE(SB)=-37.352830`, `ESE(Ph)=-38.525952`, `ESE(Bz)=-39.016031`, `CE=+1.173122`, and `IE=+0.490079 kcal/mol`; P11 changes from partially consistent to consistent within this single-system source-2007 domain.
 - Preserved the old `IE=-0.335714 kcal/mol` fixed-geometry proxy as a superseded audit record. The registered `0.001 Å` source-start ring-bond drift diagnostic was not met (`0.002328 Å`, cyanobenzene G) and is disclosed without silently relaxing the threshold.
-- Current proposition totals are 13 consistent within their declared tested domains (P05 and P07 explicitly scope-qualified) and 1 partially consistent (P12); no universal substituent law or historical-program identity is claimed.
+- Current proposition totals are 13 consistent and 1 partially consistent (P12); evidence identity, scope, and independence are reported separately from the verdict label.
 
 All notable changes to AI4OrgChem public releases are recorded in this file.
 

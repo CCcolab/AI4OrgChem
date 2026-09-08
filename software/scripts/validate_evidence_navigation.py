@@ -15,9 +15,9 @@ EXPECTED_CLASS = {
     "P02": "consistent",
     "P03": "consistent",
     "P04": "consistent",
-    "P05": "scope-consistent",
+    "P05": "consistent",
     "P06": "consistent",
-    "P07": "scope-consistent",
+    "P07": "consistent",
     "P08": "consistent",
     "P09": "consistent",
     "P10": "consistent",
@@ -44,16 +44,16 @@ LINK = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 ROW = re.compile(r"^\| (P\d{2}) \|.*$", re.MULTILINE)
 
 AUTHORITATIVE_STATUS_REQUIREMENTS = {
-    "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md": ("thirteen are consistent", "P05 and P07", "one (P12) is partially consistent"),
-    "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md": ("13项一致", "P05、P07", "1项（P12）部分一致"),
-    "README.md": ("13 consistent with the corresponding monograph proposition within their declared tested domains", "P05 and P07", "1 partially consistent", "P12"),
-    "README_zh-CN.md": ("13项一致", "P05、P07", "受测范围内一致", "1项部分一致", "P12"),
-    "project/ACHIEVEMENTS_zh-CN.md": ("十三项与原著一致", "P05、P07", "P12仍为部分一致"),
+    "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md": ("thirteen are consistent", "P05 now has a seven-angle continuation", "one (P12) is partially consistent"),
+    "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md": ("13项一致", "P05已经同一体系七角度连续序列增强", "1项（P12）部分一致"),
+    "README.md": ("13 consistent", "1 partially consistent", "P12"),
+    "README_zh-CN.md": ("13项一致", "1项部分一致", "P12"),
+    "project/ACHIEVEMENTS_zh-CN.md": ("十三项与原著一致", "P05已补齐同一体系七角度连续序列", "一项（P12）部分一致"),
     "project/P01-P14_MASTER_TABLE_zh-CN.md": ("P11", "CE=+1.173122", "IE=+0.490079", "一致4项"),
-    "manuscripts/P01-P14_evidence_matrix_zh-CN.md": ("一致13项", "P05、P07为受测范围内一致", "部分一致1项（P12）", "IE=+0.490079"),
-    "manuscripts/PUBLICATION_POSITIONING_EN.md": ("Thirteen are consistent with the monograph within their declared tested domains", "P05 and P07", "one (P12) is partially consistent"),
-    "manuscripts/PUBLICATION_POSITIONING_zh-CN.md": ("十三项一致", "P05、P07", "一项（P12）部分一致"),
-    "ai4s-agent/CAPABILITIES_AND_RESULTS_zh-CN.md": ("十三项一致", "P05、P07", "一项部分一致（P12）"),
+    "manuscripts/P01-P14_evidence_matrix_zh-CN.md": ("一致13项", "七角度连续序列技术门禁全通过", "部分一致1项（P12）", "IE=+0.490079"),
+    "manuscripts/PUBLICATION_POSITIONING_EN.md": ("Thirteen are consistent with the monograph", "P05 now includes a seven-angle continuation", "one (P12) is partially consistent"),
+    "manuscripts/PUBLICATION_POSITIONING_zh-CN.md": ("十三项一致", "P05已补齐同一体系七角度连续序列", "一项（P12）部分一致"),
+    "ai4s-agent/CAPABILITIES_AND_RESULTS_zh-CN.md": ("十三项一致", "P05七角度增强", "P07派生证据身份", "一项部分一致（P12）"),
 }
 
 FORBIDDEN_CURRENT_FRAGMENTS = (
@@ -162,9 +162,8 @@ def main() -> None:
     counts = agent_summary.get("scientific_propositions", {})
     expected_count_fields = {
         "total": 14,
-        "consistent_or_scope_consistent": 13,
-        "scope_qualified_consistent": 2,
-        "scope_qualified_consistent_ids": ["P05", "P07"],
+        "consistent": 13,
+        "verdict_scope_separated": True,
         "partially_consistent": 1,
         "globally_inconsistent": 0,
     }
@@ -177,7 +176,7 @@ def main() -> None:
         "bilingual_indexes": 2,
         "navigation_links_checked": link_count,
         "classification_counts": {
-            "consistent_or_scope_consistent": 13,
+            "consistent": 13,
             "partially_consistent": 1,
             "globally_inconsistent": 0,
             "unknown": 0,

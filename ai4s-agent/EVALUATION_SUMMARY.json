@@ -17,10 +17,11 @@
   "evidence_scope": "summary of frozen local engineering reports; models, caches, private run directories, the full external-model session, and a general replay runtime are excluded from the public maintenance package",
   "scientific_propositions": {
     "total": 14,
-    "consistent_or_scope_consistent": 13,
-    "display_classification": "13 consistent; P05 and P07 explicitly qualified as within tested scope",
-    "scope_qualified_consistent": 2,
-    "scope_qualified_consistent_ids": ["P05", "P07"],
+    "consistent": 13,
+    "display_classification": "13 consistent; P12 partially consistent",
+    "verdict_scope_separated": true,
+    "p05_evidence_update": "seven-angle same-system continuation; six nonzero endpoints positive",
+    "p07_evidence_identity": "DERIVED proposition-level synthesis",
     "partially_consistent": 1,
     "globally_inconsistent": 0
   },

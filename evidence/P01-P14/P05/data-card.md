@@ -1,40 +1,30 @@
-> **公开版说明（2026-08-26）：** 本文是命题关闭时形成的冻结证据快照。其中“未启动/禁用”等阶段性措辞只描述当时的任务边界，不代表项目当前进度；当前总状态以 `project/P01-P14_MASTER_TABLE_zh-CN.md` 和 `ai4s-agent/EVALUATION_SUMMARY.json` 为准。
-
-# P05 Target A Table 5-15范围化科学标签 v0.1
+# P05 π–σ七角度连续序列数据卡
 
 ## 标识
 
-- 数据：`data/processed/target_a_table_5_15_scoped_scientific_labels_v0.1.jsonl`
-- 生成器：`scripts/generate_target_a_table_5_15_scoped_scientific_conclusion.py`
-- 验证器：`scripts/validate_target_a_scoped_release.py`
-- 协议：`docs/theory/p05_target_a_scoped_protocol_v0.1.md`
-- 状态：最终范围化科学结论，非生产标签
-- 记录：2个固定source-proxy几何点，每点3个分量，共6条
+- 当前结果：`seven-angle-result.json`
+- 冻结协议：`seven-angle-protocol.yaml`
+- 历史锚点：`result.jsonl`（0°/17°，保持不变）
+- 判定：`P05_CONSISTENT_WITH_MULTI_ANGLE_SUPPORT`
+- Gate：`PASS_P05_SEVEN_ANGLE_CONTINUATION`
+- 状态：命题级一致；非生产ML标签
 
-## 科学含义
+## 数据范围
 
-每个点记录：
+- 分子：同一diphenyl imine parent source-proxy；
+- 几何：固定parent刚性扭转，0°、5°、10°、17°、25°、35°、45°；
+- 方法：PySCF RHF/6-31G(d)；
+- 状态：同一G/FUD source-defined条件态合同；
+- 观测量：`E_G-E_FUD`及其直接作用—轨道响应分解。
 
-1. `pi_sigma_source_direct_total`；
-2. `orbital_response_total`；
-3. `source_endpoint_E_G_minus_E_FUD`。
+0°和17°复用2026-08-15冻结锚点；5°、10°、25°、35°、45°为2026-09-08新增量子化学计算。七点均通过SCF、电子数、密度、不正交掩膜、独立能量组装及公式5-12至5-16闭合检查。
 
-三者满足：
+## 结论
 
-`pi_sigma_source_direct_total + orbital_response_total = source_endpoint_E_G_minus_E_FUD`。
+0°为容差内零控制；其余六个非零角度端点全部为正，范围为`+0.000783111342`至`+0.058892182993 Eh`。最大直接项—响应—端点闭合残差为`3.493205724681e-12 Eh`，LFMO根数`[7,41]`及分组维数`[56,162]`在七点保持不变。
 
-0°端点在 `1.0e-8 Eh` 阈值内，标签为 `indeterminate_within_tolerance`。17°端点为正，标签为 `pi_sigma_source_endpoint_destabilizing_at_17deg_table_5_15_source_proxy`。
+因此P05命题“π–σ轨道相互作用可表现为去稳定化”判定为**一致**，并获得同一体系多角度连续序列支持。
 
-## 允许用途
+## 边界
 
-该数据仅用于复核P05在冻结Table 5-15固定source-proxy 17°点的范围化结论，以及分析正直接项被负轨道响应部分抵消的机制。
-
-## 禁止用途
-
-- 不得作为生产ML训练标签；
-- 不得用于MACE、PySR或工业级泛化；
-- 不得宣称所有角度、所有NBA或所有分子的π–σ相互作用均为去稳定化；
-- 不得将source非变分直接项替换为普通物理变分相互作用能。
-
-每条记录均携带几何、LFMO基、源artifact、证书、计算配置、方法、基组、引擎、资源环境和公开来源的哈希或出处信息。
-
+该结果是Table 5-15 source-defined非变分条件态端点，不是普通RHF变分相互作用能；不外推为任意分子或任意电子结构方法的普遍定律，也不作为工业级AI训练标签。
