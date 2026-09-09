@@ -1,4 +1,4 @@
-# 面向量子化学专家的快速审阅指南
+# AI4S快速复算与证据核验指南
 
 [English](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md)
 
@@ -169,7 +169,7 @@ P11说明负面结果不会被隐藏，但在识别并补齐遗漏的源方法�
 
 ## 七、可选：复制五条命令做机器一致性检查
 
-这一步不重算昂贵量子化学，只检查公开证据包是否完整、自洽且未被静默修改。请下载固定的[`v0.3.1` Release完整包](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.1)，核验SHA-256后，进入包含`README.md`和`software/`的解压根目录，使用Python 3.12依次运行：
+这一步不重算昂贵量子化学，只检查公开证据包是否完整、自洽且未被静默修改。请使用本指南顶部链接的固定`v0.3.1`完整包，核验SHA-256后，进入包含`README.md`和`software/`的解压根目录，使用Python 3.12依次运行：
 
 ```bash
 python software/scripts/validate_public_evidence.py
@@ -198,7 +198,6 @@ python science-v0.3/scripts/science_v0.3/validate_github_v03_release.py --projec
 ## 九、最短导航
 
 - [中文首页](README_zh-CN.md)
-- [`v0.3.0`稳定版与正式下载](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0)
 - [十四项总证据矩阵](manuscripts/P01-P14_evidence_matrix_zh-CN.md)
 - [P01–P14逐项证据导航](evidence/P01-P14/README_zh-CN.md)
 - [中文发布定位](manuscripts/PUBLICATION_POSITIONING_zh-CN.md)

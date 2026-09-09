@@ -53,7 +53,7 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 
 详见[P01–P14总证据矩阵](manuscripts/P01-P14_evidence_matrix_zh-CN.md)和[中文命题证据导航](evidence/P01-P14/README_zh-CN.md)。
 
-如果您是量子化学领域专家，但不熟悉GitHub、AI或软件工程，可直接阅读[面向量子化学专家的快速审阅指南](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md)：10分钟理解总体论证，30分钟核查任意一项命题，无需先阅读代码。
+量子化学、计算化学或有机结构理论领域的读者可直接阅读[AI4S快速复算与证据核验指南](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md)：10分钟理解总体论证，30分钟核验任意一项命题，无需先阅读代码。
 
 ## 社区复核
 
@@ -75,7 +75,7 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 
 | 路径 | 内容 |
 |---|---|
-| [`REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md`](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md) | 非计算机/AI专业量子化学专家快速审阅路线 |
+| [`REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md`](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md) | 面向科学读者的AI4S快速复算与证据核验路线 |
 | [`project/`](project/README.md) | 项目背景、研究项、研究价值、成果和命题总表 |
 | [`evidence/P01-P14/`](evidence/P01-P14/README_zh-CN.md) | 冻结数据卡、协议、处理后结果和范围化报告 |
 | [`manuscripts/`](manuscripts/README.md) | 证据矩阵和双语发布定位 |

@@ -53,7 +53,7 @@ The 13+1 numbers are **proposition-level classifications**, not a claim that all
 
 See the [P01-P14 evidence matrix](manuscripts/P01-P14_evidence_matrix_zh-CN.md) and the [evidence collection](evidence/P01-P14/README.md).
 
-Quantum-chemistry experts who do not work with GitHub, AI, or software engineering can begin with the [Rapid Review Guide for Quantum-Chemistry Experts](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md): understand the overall argument in 10 minutes and audit any single proposition in 30 minutes without reading code first.
+Readers in quantum chemistry, computational chemistry, or organic-structure theory can begin with the [AI4S Rapid Reproduction and Evidence Verification Guide](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md): understand the overall argument in 10 minutes and verify any single proposition in 30 minutes without reading code first.
 
 ## Community review
 
@@ -75,7 +75,7 @@ The dataset is too small for industrial or universal molecular generalization. D
 
 | Path | Purpose |
 |---|---|
-| [`REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md`](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md) | Rapid scientific review route for quantum-chemistry experts without a computing or AI background |
+| [`REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md`](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md) | Rapid AI4S reproduction and evidence-verification route for scientific readers |
 | [`project/`](project/README.md) | Background, research questions, value, achievements, and master proposition table |
 | [`evidence/P01-P14/`](evidence/P01-P14/README.md) | Frozen data cards, protocols, processed results, and scoped reports |
 | [`manuscripts/`](manuscripts/README.md) | Evidence matrix and bilingual publication positioning; no pre-submission manuscript drafts are included |
