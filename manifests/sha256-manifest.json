@@ -102,8 +102,8 @@
     {
       "path": "CHANGELOG.md",
       "artifact_role": "repository-root",
-      "bytes": 10986,
-      "sha256": "a349661164dba0e1caddea44941364898df7dfd0d513c27e0a8111708eb6125d"
+      "bytes": 11285,
+      "sha256": "57d1cffb7a5c78eea7c32ae51fe9da81c44716e5d355ddf90e6a0ae3a3e90cdf"
     },
     {
       "path": "CITATION.cff",
@@ -871,7 +871,7 @@
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
       "bytes": 89442,
-      "sha256": "087d5935f8f6b490640c9f3bdf2c782efce5481d25406fa7fe8abd51ea8ccd3c"
+      "sha256": "c88bf28a90ea9669fbfcfb85eba24c4256f31141ce06b09548dd701df87f1f29"
     },
     {
       "path": "manuscripts/P01-P14_evidence_matrix_zh-CN.md",

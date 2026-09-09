@@ -23,7 +23,7 @@
 | `ai4s-agent/README.md` | agent-delivery | 1503 | `c8085485aa8f657404e47941668671e4edfa3dad3cfd143959a2468e7b4ba69e` |
 | `ai4s-agent/SYSTEM_ARCHITECTURE_zh-CN.md` | agent-delivery | 1114 | `c767a97c2fca2abdb13540dfc6b6e8983952dbc9f3cfd5f119017da2dd830a8a` |
 | `AUTHORS.md` | repository-root | 2416 | `148d3f76aea865f1ed862c9b65ea980e92d170d3b95a598cba626250cd681df2` |
-| `CHANGELOG.md` | repository-root | 10986 | `a349661164dba0e1caddea44941364898df7dfd0d513c27e0a8111708eb6125d` |
+| `CHANGELOG.md` | repository-root | 11285 | `57d1cffb7a5c78eea7c32ae51fe9da81c44716e5d355ddf90e6a0ae3a3e90cdf` |
 | `CITATION.cff` | repository-root | 910 | `856d489e9bf1f0ff7fd17d78319b5e11771cf29a8e61a0b492e7d30b0e340903` |
 | `configs/qm/p09_exchange_integral_classes_v0.1.yaml` | public-configuration | 7326 | `324c2e7988be48ed8898a5e9b04a87d40386ca8a8f7eb603d9a697d3ac6a6ee2` |
 | `configs/qm/p14_strained_aromatic_pi_distortivity_v0.1.yaml` | public-configuration | 6680 | `f64fed4aeb172deaf5c71e637af367656e24b867570061987a5311fdbe48e06b` |
