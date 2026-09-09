@@ -1,4 +1,4 @@
-# Rapid Review Guide for Quantum-Chemistry Experts
+# AI4S Rapid Reproduction and Evidence Verification Guide
 
 [中文版](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md)
 
@@ -166,7 +166,7 @@ Failure of any one check is sufficient reason to reject the corresponding strong
 
 ## 7. Optional: five copy-and-paste consistency checks
 
-These commands do not rerun expensive quantum chemistry. Download the fixed [`v0.3.1` Release package](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.1), verify its SHA-256, and enter the extracted root containing `README.md` and `software/`. With Python 3.12, run:
+These commands do not rerun expensive quantum chemistry. Use the fixed `v0.3.1` package linked at the top of this guide, verify its SHA-256, and enter the extracted root containing `README.md` and `software/`. With Python 3.12, run:
 
 ```bash
 python software/scripts/validate_public_evidence.py
@@ -195,7 +195,6 @@ For a reviewer who has not independently rerun every historical computation, the
 ## 9. Shortest navigation path
 
 - [English home page](README.md)
-- [`v0.3.0` stable release and official download](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.0)
 - [P01–P14 evidence index](evidence/P01-P14/README.md)
 - [Evidence matrix](manuscripts/P01-P14_evidence_matrix_zh-CN.md)
 - [Publication positioning](manuscripts/PUBLICATION_POSITIONING_EN.md)

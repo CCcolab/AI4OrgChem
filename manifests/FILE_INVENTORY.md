@@ -23,7 +23,7 @@
 | `ai4s-agent/README.md` | agent-delivery | 1503 | `c8085485aa8f657404e47941668671e4edfa3dad3cfd143959a2468e7b4ba69e` |
 | `ai4s-agent/SYSTEM_ARCHITECTURE_zh-CN.md` | agent-delivery | 1114 | `c767a97c2fca2abdb13540dfc6b6e8983952dbc9f3cfd5f119017da2dd830a8a` |
 | `AUTHORS.md` | repository-root | 2416 | `148d3f76aea865f1ed862c9b65ea980e92d170d3b95a598cba626250cd681df2` |
-| `CHANGELOG.md` | repository-root | 10537 | `01f57e41ed047c9fdcbf2fcdead14b4cf85c98fba326d7ea0417f62515c01067` |
+| `CHANGELOG.md` | repository-root | 10986 | `a349661164dba0e1caddea44941364898df7dfd0d513c27e0a8111708eb6125d` |
 | `CITATION.cff` | repository-root | 910 | `856d489e9bf1f0ff7fd17d78319b5e11771cf29a8e61a0b492e7d30b0e340903` |
 | `configs/qm/p09_exchange_integral_classes_v0.1.yaml` | public-configuration | 7326 | `324c2e7988be48ed8898a5e9b04a87d40386ca8a8f7eb603d9a697d3ac6a6ee2` |
 | `configs/qm/p14_strained_aromatic_pi_distortivity_v0.1.yaml` | public-configuration | 6680 | `f64fed4aeb172deaf5c71e637af367656e24b867570061987a5311fdbe48e06b` |
@@ -164,8 +164,8 @@
 | `project/RESEARCH_ITEMS_zh-CN.md` | project-narrative | 1939 | `508c64832f3b075a9d073e33badd35be764012eebb94624fc7966fa2b03b143f` |
 | `project/RESEARCH_VALUE_zh-CN.md` | project-narrative | 1319 | `7308230ee6f5dd7009de88e0483b3ff298baa2a438d8f99fc010103e24b80c5b` |
 | `project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md` | project-narrative | 7037 | `2ea92085a7bab6b235f75ca06bb27b97162d00656395f879309da42a48df3c9d` |
-| `README.md` | repository-root | 23497 | `7ab6343596c7945f7b7b99171ea41e957b8fe305f82fe6d33c42988958693872` |
-| `README_zh-CN.md` | repository-root | 9921 | `c198181e5cc8f00277d77b8bac736034289c9b820245b7e421c6ab5b795e102d` |
+| `README.md` | repository-root | 23487 | `357775c4f596c2b62e819d2d6ff615e9d97550e21c3d91f2e0adcbf55cda89e5` |
+| `README_zh-CN.md` | repository-root | 9897 | `7e51c54b7b3fdd8b9fd406da18423abd00bdea31d5fbf1775874a91bcce86cc8` |
 | `RELEASE_NOTES_v0.3.1.md` | repository-root | 4739 | `1ff7d081ebf80aff8fd08b670b0117b2f5416268ee08e972572a2942635b56b0` |
 | `reproducibility/conda-linux-64.explicit.txt` | reproducibility | 18332 | `543abce03ee369526d83016126d7a0b7a82de48e0ef3356d3877289af90f5637` |
 | `reproducibility/environment.yml` | reproducibility | 214 | `13ae5c398dd95bf2d841fe89c4180cdd98d6d8360618de98ac3f68df27be50a6` |
@@ -177,8 +177,8 @@
 | `reproducibility/wsl/activate-ai4orgchem-public.sh` | reproducibility | 1475 | `5361fab00ebc6c614dfc191fffb4fb5c1eb0690ab862ad27000359347709cb2e` |
 | `reproducibility/wsl/ai4orgchem-verify` | reproducibility | 929 | `7eec73ec0269e9549a238707c6edf792a3bbae8161b72d714ba84abe3c43dc92` |
 | `reproducibility/wsl/README.md` | reproducibility | 1742 | `afb4d76e6f525e4b55036a446867d6ecc47b1657d7f17f6303062f4031ad832c` |
-| `REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md` | repository-root | 18449 | `fd738254907ffad872e178319dbfccd0159f10e5a33ed6c69971d0ebbb369ae2` |
-| `REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md` | repository-root | 15293 | `46eb9b5f74d88b304f696d09c40e3b23785adfdf8197bd649bae71c4ae438853` |
+| `REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md` | repository-root | 18305 | `e3c49e0611572d599862dc6df98de58093216cca0c145cf73366d508760a2483` |
+| `REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md` | repository-root | 15141 | `fd2ec6c021da2e73a3660d52ca96c951f61e9d8c715c7249269a2fc47570d3fe` |
 | `science-v0.2/configs/science_v0.2/agent_run_bundle.schema.json` | science-v0.2-evidence | 2722 | `aa46286cc01b24cda839664d1e660f5849962586748ee03007c257834dd9e96d` |
 | `science-v0.2/configs/science_v0.2/blind_bundle.schema.json` | science-v0.2-evidence | 1521 | `e95784f19fc17a16995373d3d92742c084b2c5936f66b8fbeb4941210e136152` |
 | `science-v0.2/configs/science_v0.2/claim_estimand_registry.json` | science-v0.2-evidence | 9646 | `105c0ba488fd1000f746e32e248e7a383f88a30587113b2755276c7d5b685ecf` |
