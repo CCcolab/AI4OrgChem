@@ -1,6 +1,6 @@
 # AI4OrgChem
 
-[![Release](https://img.shields.io/github/v/release/CCcolab/AI4OrgChem?display_name=tag&sort=semver)](https://github.com/CCcolab/AI4OrgChem/releases/latest)
+![Release](https://img.shields.io/github/v/release/CCcolab/AI4OrgChem?display_name=tag&sort=semver)
 [![Validation](https://github.com/CCcolab/AI4OrgChem/actions/workflows/validate.yml/badge.svg)](https://github.com/CCcolab/AI4OrgChem/actions/workflows/validate.yml)
 [![License](https://img.shields.io/github/license/CCcolab/AI4OrgChem)](LICENSE)
 [![Evidence](https://img.shields.io/badge/evidence-P01--P14%20internally%20checked-2ea44f)](evidence/P01-P14/README.md)
@@ -13,11 +13,11 @@ AI4OrgChem is an **AI for Science (AI4S) Agent** for independent computational r
 
 > **AI-assisted research and engineering:** **OpenAI Codex (GPT-5.6)**. Project authorship, scientific decisions, interpretations, and publication responsibility remain with Xiao Chen; OpenAI is not presented as a project author, scientific certifier, peer reviewer, or institutional endorser.
 
-> **Current release:** [`v0.3.1`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.1). The current proposition-level classification is **13 consistent and 1 partially consistent (P12)**. Evidence identity, tested scope, and independence remain separate from the verdict label. The associated manuscript has not yet undergone peer review.
+> **Current release:** [`v0.3.1`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.1) — **13 consistent and 1 partially consistent (P12)**. Evidence identity, tested scope, and independence remain separate from the verdict label. The associated manuscript has not yet undergone peer review.
 
-> **Download and citation:** GitHub's **Code → Download ZIP** provides a changeable snapshot of `main`. For review, reproduction, and citation, use the fixed [`v0.3.1` Release package](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.1), which includes the complete ZIP and SHA-256 verification files.
+> Online reading requires no download. For offline reproduction or citation, use the complete ZIP and SHA-256 files under **Assets** on the release page; **Code → Download ZIP** is a changeable snapshot of `main`.
 
-Previous releases and the complete update history remain available under [GitHub Releases](https://github.com/CCcolab/AI4OrgChem/releases) and in the [CHANGELOG](CHANGELOG.md).
+Previous releases and the complete update history are listed in the [CHANGELOG](CHANGELOG.md).
 
 ## Why this project exists
 
