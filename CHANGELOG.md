@@ -8,6 +8,7 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 
 - Simplified the bilingual homepage so each language exposes one canonical `v0.3.1` release-page link and no longer repeats download or release-history links.
 - Retitled the existing bilingual guide as the AI4S rapid reproduction and evidence verification guide, removed its repeated `v0.3.1` link, and removed the obsolete `v0.3.0` “current stable download” entry while preserving file paths for inbound-link compatibility.
+- Simplified the historical `v0.3.0` Release description, corrected its completed publication state, and removed redundant standalone `sha256-manifest.json` assets from `v0.3.1`, `v0.3.0`, and `v0.1.0`; the complete archives, archive checksum files, tags, and in-package manifests remain unchanged.
 
 ## [0.3.1] - 2026-09-08
 
