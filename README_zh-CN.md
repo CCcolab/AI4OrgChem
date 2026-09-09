@@ -1,6 +1,6 @@
 # AI4OrgChem
 
-[![Release](https://img.shields.io/github/v/release/CCcolab/AI4OrgChem?display_name=tag&sort=semver)](https://github.com/CCcolab/AI4OrgChem/releases/latest)
+![Release](https://img.shields.io/github/v/release/CCcolab/AI4OrgChem?display_name=tag&sort=semver)
 [![Validation](https://github.com/CCcolab/AI4OrgChem/actions/workflows/validate.yml/badge.svg)](https://github.com/CCcolab/AI4OrgChem/actions/workflows/validate.yml)
 [![License](https://img.shields.io/github/license/CCcolab/AI4OrgChem)](LICENSE)
 [![Evidence](https://img.shields.io/badge/evidence-P01--P14%20internally%20checked-2ea44f)](evidence/P01-P14/README_zh-CN.md)
@@ -13,11 +13,11 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 
 > **AI辅助研究与工程支持：** **OpenAI Codex（GPT-5.6）**。项目作者身份、科学决策、结果解释和发布责任均由Xiao Chen承担；OpenAI不作为项目作者、科学认证机构、同行评审方或机构背书方。
 
-> **当前正式版：** [`v0.3.1`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.1)。当前命题级分类为**13项一致、1项部分一致（P12）**；证据身份、受测范围和独立性与判定标签分列。相关论文稿尚未经过同行评审。
+> **当前正式版：** [`v0.3.1`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.1)——**13项一致、1项部分一致（P12）**。证据身份、受测范围和独立性与判定标签分列；相关论文稿尚未经过同行评审。
 
-> **下载与引用：** GitHub的 **Code → Download ZIP** 是可能随维护变化的`main`快照。复核、复算和引用请使用固定的[`v0.3.1` Release完整包](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.1)，其中包含完整ZIP及SHA-256校验文件。
+> 在线阅读无需下载。离线复算或引用时，请使用该发布页 **Assets** 中的完整ZIP和SHA-256校验文件；**Code → Download ZIP** 是可能随维护变化的`main`快照。
 
-以往版本及完整更新记录统一保存在[GitHub Releases](https://github.com/CCcolab/AI4OrgChem/releases)和[CHANGELOG](CHANGELOG.md)中。
+以往版本及完整更新记录见[CHANGELOG](CHANGELOG.md)。
 
 ## 项目背景与目标
 
