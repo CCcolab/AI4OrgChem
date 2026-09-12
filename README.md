@@ -30,8 +30,10 @@ The project asks whether independently reconstructed quantum-chemical evidence s
 All fourteen propositions received determinate classifications:
 
 - **13 consistent** with the corresponding monograph propositions;
-- **1 partially consistent**: P12 retains a cross-estimand onset boundary;
+- **1 partially consistent**: P12 retains its published classification while the basis for that label is reviewed;
 - **0 globally inconsistent and 0 unknown**.
+
+**P12 interpretation correction:** “Partially consistent” does **not** mean that one P12 subclaim has been independently verified as correct and another as incorrect. The monograph's six-point CESE ledger has been checked arithmetically, but the independent candidate CESE recalculation and source-method alignment do not yet cover the complete six-point, same-estimand test. The separate ASE trend uses a different estimand: its onset cannot directly contradict the CESE onset. The published label is retained pending formal review of its evidentiary basis; this correction neither changes the frozen results nor automatically upgrades P12 to “consistent.”
 
 “Consistent” is a proposition-level verdict: evidence produced under the registered protocol supports the corresponding monograph proposition. Scope, evidence identity, and independence are reported separately; a proposition-level result is not automatically generalized into a universal law.
 
