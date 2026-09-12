@@ -2,7 +2,7 @@
 
 本清单记录GitHub洁净仓库中的实质内容文件。生成型SHA清单和本文件自身不反向列入表格。
 
-- 实质内容文件：562
+- 实质内容文件：564
 - 状态：版本化发布快照；内容变更后必须重新生成并验证
 
 | 文件 | 角色 | 字节 | SHA-256 |
@@ -164,16 +164,18 @@
 | `project/RESEARCH_ITEMS_zh-CN.md` | project-narrative | 1939 | `508c64832f3b075a9d073e33badd35be764012eebb94624fc7966fa2b03b143f` |
 | `project/RESEARCH_VALUE_zh-CN.md` | project-narrative | 1319 | `7308230ee6f5dd7009de88e0483b3ff298baa2a438d8f99fc010103e24b80c5b` |
 | `project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md` | project-narrative | 7037 | `2ea92085a7bab6b235f75ca06bb27b97162d00656395f879309da42a48df3c9d` |
-| `README.md` | repository-root | 23487 | `357775c4f596c2b62e819d2d6ff615e9d97550e21c3d91f2e0adcbf55cda89e5` |
-| `README_zh-CN.md` | repository-root | 9897 | `7e51c54b7b3fdd8b9fd406da18423abd00bdea31d5fbf1775874a91bcce86cc8` |
+| `README.md` | repository-root | 23700 | `4fc35159d35c2fa78636e8c37c3b3a913ab8e0b111c7f268ebc71dcc0f46f090` |
+| `README_zh-CN.md` | repository-root | 10096 | `410b441037c67283cafa4b170a774ff0437ce620d3143087a6710727d17689bb` |
 | `RELEASE_NOTES_v0.3.1.md` | repository-root | 4739 | `1ff7d081ebf80aff8fd08b670b0117b2f5416268ee08e972572a2942635b56b0` |
 | `reproducibility/conda-linux-64.explicit.txt` | reproducibility | 18332 | `543abce03ee369526d83016126d7a0b7a82de48e0ef3356d3877289af90f5637` |
 | `reproducibility/environment.yml` | reproducibility | 214 | `13ae5c398dd95bf2d841fe89c4180cdd98d6d8360618de98ac3f68df27be50a6` |
 | `reproducibility/PLATFORM_MATRIX_EN.md` | reproducibility | 1963 | `1ea2cc5909ef145c93c5dcdc9c3bfaefb1726bc4c51ea47f57134fefcb5141cd` |
 | `reproducibility/PLATFORM_MATRIX_zh-CN.md` | reproducibility | 1773 | `60cd3af1c440d40f30ef58b54b35bec5c7ae764faec54ef9dbc70bb32863fa88` |
-| `reproducibility/README.md` | reproducibility | 1054 | `176c783f5614c0f0bf2d61f42a02fc1dce2f782980120ab9cd0320ca81b03274` |
+| `reproducibility/README.md` | reproducibility | 1259 | `89117413d55dfeeb8887e444c8bd85715d701a94e4a416cc5c9b579bee73da39` |
 | `reproducibility/RUNBOOK_EN.md` | reproducibility | 2854 | `2c7831ca9ee5f18ca597c66897f2f5d5e79cf766157442ee7d8e19706b5c9335` |
 | `reproducibility/RUNBOOK_zh-CN.md` | reproducibility | 3133 | `eeb5267031e04c8bc3f3585a2934000773c0ea966395c146c0c8a5a2fe7a43e8` |
+| `reproducibility/TYPICAL_PROGRAMS.md` | reproducibility | 8079 | `112593abdaa36bdf8cb598f210f894f3d4533ec1cb64c540b8ea251740f495dd` |
+| `reproducibility/TYPICAL_PROGRAMS_zh-CN.md` | reproducibility | 9696 | `630556aecb43051c26ee03b08a1ca51e9f566b9c528062add50b9b02ab8ed13f` |
 | `reproducibility/wsl/activate-ai4orgchem-public.sh` | reproducibility | 1475 | `5361fab00ebc6c614dfc191fffb4fb5c1eb0690ab862ad27000359347709cb2e` |
 | `reproducibility/wsl/ai4orgchem-verify` | reproducibility | 929 | `7eec73ec0269e9549a238707c6edf792a3bbae8161b72d714ba84abe3c43dc92` |
 | `reproducibility/wsl/README.md` | reproducibility | 1742 | `afb4d76e6f525e4b55036a446867d6ecc47b1657d7f17f6303062f4031ad832c` |
