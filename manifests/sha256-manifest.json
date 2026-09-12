@@ -870,8 +870,8 @@
     {
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
-      "bytes": 89442,
-      "sha256": "c88bf28a90ea9669fbfcfb85eba24c4256f31141ce06b09548dd701df87f1f29"
+      "bytes": 89721,
+      "sha256": "969ef3e554c3388a71138d1c775a8ee6335fcdf08db7c13e08f8ecc3759240bf"
     },
     {
       "path": "manuscripts/P01-P14_evidence_matrix_zh-CN.md",
@@ -954,14 +954,14 @@
     {
       "path": "README.md",
       "artifact_role": "repository-root",
-      "bytes": 23487,
-      "sha256": "357775c4f596c2b62e819d2d6ff615e9d97550e21c3d91f2e0adcbf55cda89e5"
+      "bytes": 23700,
+      "sha256": "4fc35159d35c2fa78636e8c37c3b3a913ab8e0b111c7f268ebc71dcc0f46f090"
     },
     {
       "path": "README_zh-CN.md",
       "artifact_role": "repository-root",
-      "bytes": 9897,
-      "sha256": "7e51c54b7b3fdd8b9fd406da18423abd00bdea31d5fbf1775874a91bcce86cc8"
+      "bytes": 10096,
+      "sha256": "410b441037c67283cafa4b170a774ff0437ce620d3143087a6710727d17689bb"
     },
     {
       "path": "RELEASE_NOTES_v0.3.1.md",
@@ -996,8 +996,8 @@
     {
       "path": "reproducibility/README.md",
       "artifact_role": "reproducibility",
-      "bytes": 1054,
-      "sha256": "176c783f5614c0f0bf2d61f42a02fc1dce2f782980120ab9cd0320ca81b03274"
+      "bytes": 1259,
+      "sha256": "89117413d55dfeeb8887e444c8bd85715d701a94e4a416cc5c9b579bee73da39"
     },
     {
       "path": "reproducibility/RUNBOOK_EN.md",
@@ -1010,6 +1010,18 @@
       "artifact_role": "reproducibility",
       "bytes": 3133,
       "sha256": "eeb5267031e04c8bc3f3585a2934000773c0ea966395c146c0c8a5a2fe7a43e8"
+    },
+    {
+      "path": "reproducibility/TYPICAL_PROGRAMS.md",
+      "artifact_role": "reproducibility",
+      "bytes": 8079,
+      "sha256": "112593abdaa36bdf8cb598f210f894f3d4533ec1cb64c540b8ea251740f495dd"
+    },
+    {
+      "path": "reproducibility/TYPICAL_PROGRAMS_zh-CN.md",
+      "artifact_role": "reproducibility",
+      "bytes": 9696,
+      "sha256": "630556aecb43051c26ee03b08a1ca51e9f566b9c528062add50b9b02ab8ed13f"
     },
     {
       "path": "reproducibility/wsl/activate-ai4orgchem-public.sh",

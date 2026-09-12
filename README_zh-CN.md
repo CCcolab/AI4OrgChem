@@ -81,7 +81,8 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 | [`manuscripts/`](manuscripts/README.md) | 证据矩阵和双语发布定位 |
 | [`ai4s-agent/`](ai4s-agent/README.md) | Agent架构、能力、评估、证据治理和限制 |
 | [`software/`](software/README.md) | LFMO/条件SCF公开核心实现和69项测试 |
-| [`reproducibility/`](reproducibility/README.md) | 复现说明和WSL 2平台边界 |
+| [典型程序复算入口](reproducibility/TYPICAL_PROGRAMS_zh-CN.md) | 按计算难度选择证据核验、条件SCF测试和可下载QM复算，并查看逐步计算说明 |
+| [`reproducibility/`](reproducibility/README.md) | 完整复现说明、运行环境和WSL 2平台边界 |
 | [`figures/`](figures/README.md) | 项目自行生成的总览图 |
 | [`science-v0.2/`](science-v0.2/README.md) | 自包含`v0.2.0`配置、精选机器结果、判定、报告、重建脚本、测试与哈希 |
 | [`science-v0.3/`](science-v0.3/README.md) | 已发布的七工作包`v0.3.0`科学闭合包；保持`v0.1.x`、`v0.2.0`及P01-P14不变 |

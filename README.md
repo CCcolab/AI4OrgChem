@@ -81,7 +81,8 @@ The dataset is too small for industrial or universal molecular generalization. D
 | [`manuscripts/`](manuscripts/README.md) | Evidence matrix and bilingual publication positioning; no pre-submission manuscript drafts are included |
 | [`ai4s-agent/`](ai4s-agent/README.md) | Agent architecture, capabilities, evaluation, governance, and limitations |
 | [`software/`](software/README.md) | Public LFMO/conditional-SCF implementation and 69 focused tests |
-| [`reproducibility/`](reproducibility/README.md) | Runtime instructions and WSL 2 platform boundaries |
+| [Typical reproduction programs](reproducibility/TYPICAL_PROGRAMS.md) | Select evidence checks, conditional-SCF tests, or downloadable QM reruns by cost, with step-by-step computation notes |
+| [`reproducibility/`](reproducibility/README.md) | Full runtime instructions, environments, and WSL 2 platform boundaries |
 | [`figures/`](figures/README.md) | Project-authored overview figure |
 | [`science-v0.2/`](science-v0.2/README.md) | Self-contained `v0.2.0` configurations, selected machine results, decisions, reports, rebuild scripts, tests, and hashes |
 | [`science-v0.3/`](science-v0.3/README.md) | Published seven-work-package `v0.3.0` scientific-closure package; preserves `v0.1.x`, `v0.2.0`, and P01-P14 unchanged |
