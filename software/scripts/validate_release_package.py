@@ -271,11 +271,11 @@ def validate_workflow(failures: list[str]) -> None:
 
 
 def validate_computation_guide(failures: list[str]) -> None:
-    readme = ROOT / "README.md"
-    if not readme.is_file():
-        failures.append("README.md missing")
+    guide = ROOT / "reproducibility" / "DETAILED_COMPUTATION_GUIDE_zh-CN.md"
+    if not guide.is_file():
+        failures.append("detailed computation guide missing")
         return
-    text = readme.read_text(encoding="utf-8")
+    text = guide.read_text(encoding="utf-8")
     required_sections = (
         "为什么本项目把WSL 2作为权威计算平台",
         "硬件与软件栈",
@@ -290,13 +290,16 @@ def validate_computation_guide(failures: list[str]) -> None:
     )
     for section in required_sections:
         if section not in text:
-            failures.append(f"README detailed computation guide missing: {section}")
+            failures.append(f"detailed computation guide missing: {section}")
     rows = re.findall(r"(?m)^\| (P\d{2}) \|", text)
     expected = {f"P{number:02d}" for number in range(1, 15)}
     if len(rows) != 14 or set(rows) != expected:
-        failures.append("README WSL determination table must contain exactly P01-P14")
+        failures.append("detailed guide WSL determination table must contain exactly P01-P14")
     if "WSL 2不是这些量子化学公式成立的数学前提" not in text:
-        failures.append("README must distinguish canonical runtime from mathematical necessity")
+        failures.append("detailed guide must distinguish canonical runtime from mathematical necessity")
+    for homepage in (ROOT / "README.md", ROOT / "README_zh-CN.md"):
+        if "DETAILED_COMPUTATION_GUIDE_zh-CN.md" not in homepage.read_text(encoding="utf-8"):
+            failures.append(f"homepage lacks detailed-guide link: {homepage.name}")
 
 
 def validate_current_release_alignment(failures: list[str]) -> None:
@@ -312,8 +315,6 @@ def validate_current_release_alignment(failures: list[str]) -> None:
     ):
         failures.append("archived v0.3.1 notes lack the bilingual P12 corrigendum notice")
     release_facing = (
-        ROOT / "README.md",
-        ROOT / "README_zh-CN.md",
         ROOT / "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md",
         ROOT / "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md",
         ROOT / "P12_CORRIGENDUM.md",
@@ -368,8 +369,9 @@ def validate_current_release_alignment(failures: list[str]) -> None:
     if not all(fragment in notes for fragment in ("## English", "## 中文", "historical", "历史发布分类", "P12_CORRIGENDUM.md")):
         failures.append("v0.3.2 release notes lack bilingual P12 correction and historical-label boundary")
     for homepage in (ROOT / "README.md", ROOT / "README_zh-CN.md"):
-        if "RELEASE_NOTES_v0.3.2.md" not in homepage.read_text(encoding="utf-8"):
-            failures.append(f"homepage lacks current release-notes link: {homepage.name}")
+        text = homepage.read_text(encoding="utf-8")
+        if "RELEASE_NOTES_v0.3.2.md" in text or "P12_CORRIGENDUM.md" in text:
+            failures.append(f"homepage should remain version-neutral and proposition-neutral: {homepage.name}")
 
 
 def main() -> int:

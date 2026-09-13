@@ -1,6 +1,5 @@
 # AI4OrgChem
 
-![Release](https://img.shields.io/github/v/release/CCcolab/AI4OrgChem?display_name=tag&sort=semver)
 [![Validation](https://github.com/CCcolab/AI4OrgChem/actions/workflows/validate.yml/badge.svg)](https://github.com/CCcolab/AI4OrgChem/actions/workflows/validate.yml)
 [![License](https://img.shields.io/github/license/CCcolab/AI4OrgChem)](LICENSE)
 [![Evidence](https://img.shields.io/badge/evidence-P01--P14%20internally%20checked-2ea44f)](evidence/P01-P14/README_zh-CN.md)
@@ -13,31 +12,24 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 
 > **AI辅助研究与工程支持：** **OpenAI Codex（GPT-5.6）**。项目作者身份、科学决策、结果解释和发布责任均由Xiao Chen承担；OpenAI不作为项目作者、科学认证机构、同行评审方或机构背书方。
 
-> **当前已发布正式版：** [`v0.3.2`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.2)——证据解释维护版。机器记录中的**13项一致、1项部分一致（P12）**沿用`v0.3.1`历史分类，**不是**重新证成的P12判定。[P12勘误](P12_CORRIGENDUM.md)说明旧跨估计量理由为何失效、精确CESE起点为何尚未独立确认。本版不引入新量化结果，也不改判P12。证据身份、受测范围和独立性与标签分列；相关论文稿尚未经过同行评审。
-
-> 在线阅读无需下载。离线复算或引用时，请使用该发布页 **Assets** 中的完整ZIP和SHA-256校验文件；**Code → Download ZIP** 是可能随维护变化的`main`快照。
-
-请阅读[当前v0.3.2发布说明](RELEASE_NOTES_v0.3.2.md)；旧版发布说明归入[历史目录](project/release-history/RELEASE_NOTES_v0.3.1.md)，完整更新记录见[CHANGELOG](CHANGELOG.md)。
+相关论文稿尚未经过同行评审。逐项判定、限定条件与勘误见[总证据矩阵](manuscripts/P01-P14_evidence_matrix_zh-CN.md)及其所链接的命题记录。
 
 ## 项目背景与目标
 
 共轭稳定化、共轭促平面化、位阻去稳定化和芳香稳定化是有机化学中非常有用的经验启发式。问题在于，经验趋势不能自动获得无条件因果定律的地位。AI4OrgChem将原著十四项主要命题转化为可证伪计算任务，冻结分子体系、状态定义、符号约定、机器结果和适用边界。
 
-项目判断独立重构的量子化学证据在受测域内是支持、反对还是部分支持每项命题。AI用于协议管理、证据追踪、有界分子学习、主动采样、符号检验和解释，不负责指定科学符号，也不替代电子结构计算。
+项目关注的是：独立计算与其他可追溯证据在明确的分子和方法范围内能支持命题到什么程度，哪些问题仍缺少充分证据。
+
+## 独立研究方法
+
+- 先定义分子、几何、电子态、哈密顿量、比较量、符号约定和判定边界，再评估命题。
+- 对适用命题独立实现轨道局域化、条件电子结构计算、几何或能量扫描及能量分解；不使用原著程序代码。
+- 区分量子化学计算、已发表数值复分析、图论检查和文献旁证；命题级评估不等于十四项均完成同等级量化复算。
+- AI4S Agent辅助协议管理、证据追踪、有界分子学习、主动采样、符号检验和来源可查的解释；模型预测不替代电子结构结果，也不决定科学符号。
 
 ## 科学论证结果
 
-已发布的`v0.3.1`快照对十四项命题记录了分类：
-
-- **13项一致**；
-- **1项部分一致**：P12暂沿用已发布分类，其分类依据仍需复核；
-- **整体不一致0项，未知0项**。
-
-**P12解释勘误：**“部分一致”**不表示**已独立证实P12的某个子项正确、另一个子项错误。原著六点CESE源账本已经算术核验，但独立候选CESE复算及原著方法条件对齐尚未覆盖完整六点的同估计量检验。另一支路的ASE与CESE不是同一估计量，ASE起始尺寸不能直接反证CESE起始尺寸。已发布标签暂予保留，待正式复核分类依据；本次勘误既不改动冻结结果，也不自动把P12升级为“一致”。
-
-[P12证据勘误](P12_CORRIGENDUM.md)将历史标签与当前证据评估分列；未公开打包的本地候选计算不作为新增可复核发布结果。
-
-“一致”是命题级判定，表示按照登记协议获得的证据支持相应原著命题。适用范围、证据身份和独立性另行列示；单项结果不自动外推为普遍定律。
+项目已为十四项命题建立协议、处理后结果、数据卡和限定范围的报告，并公开可检查这些记录的软件与验证入口。各项结论及其限制详见[命题证据导航](evidence/P01-P14/README_zh-CN.md)和[总证据矩阵](manuscripts/P01-P14_evidence_matrix_zh-CN.md)。
 
 代表性冻结结果如下：
 
@@ -53,7 +45,7 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 
 十四项属于分层、可审计证据链，并非十四次同等级量子化学复现；独立QM、source-aligned/source-proxy重构、发表值复分析和图论/文献旁证的证据身份分别保留。
 
-这里的13+1是**命题级分类统计**，不表示十四项具有完全相同的证据身份。P07现由独立同哈密顿量五状态路径审计与原P04–P06 `DERIVED`综合共同支持：0°/17°下，未经桥接的三项与总端点相差约0.336/0.334 Eh；加入显式桥接或采用路径完整σ定义后严格闭合。本次未启动新QM任务，也未进行跨协议求和。2026-09-08，P11-B补齐source-2007逐状态全平面受限优化后，CE与IE均复现原著；旧固定几何异号仍作为审计记录。发布后复评修复了P14分类器：旧STO-3G记录只保留为技术烟测，P14现以通过全部注册资格门禁的B3LYPG/6-31G(d)生产优化为定判证据。
+其他成果包括同哈密顿量状态路径审计、逐状态平面复算，以及对应变芳香端点的证据资格检查。具体结论与被后续结果取代的旧记录均保留在各命题报告中。
 
 详见[P01–P14总证据矩阵](manuscripts/P01-P14_evidence_matrix_zh-CN.md)和[中文命题证据导航](evidence/P01-P14/README_zh-CN.md)。
 
@@ -88,32 +80,13 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 | [典型程序复算入口](reproducibility/TYPICAL_PROGRAMS_zh-CN.md) | 按计算难度选择证据核验、条件SCF测试和可下载QM复算，并查看逐步计算说明 |
 | [`reproducibility/`](reproducibility/README.md) | 完整复现说明、运行环境和WSL 2平台边界 |
 | [`figures/`](figures/README.md) | 项目自行生成的总览图 |
-| [`science-v0.2/`](science-v0.2/README.md) | 自包含`v0.2.0`配置、精选机器结果、判定、报告、重建脚本、测试与哈希 |
-| [`science-v0.3/`](science-v0.3/README.md) | 已发布的七工作包`v0.3.0`科学闭合包；保持`v0.1.x`、`v0.2.0`及P01-P14不变 |
+| [科学增强证据](science-v0.2/README.md) | 自包含配置、精选结果、判定、报告、测试与哈希 |
+| [科学闭合证据](science-v0.3/README.md) | 七工作包扩展及其独立证据边界 |
 | [`manifests/`](manifests/FILE_INVENTORY.md) | 文件清单和SHA-256清单 |
 
-## 快速验证
+## 阅读与复核
 
-不重新执行昂贵量子化学计算，直接检查P01–P14处理后证据与冻结判定：
-
-```bash
-python software/scripts/validate_public_evidence.py
-python software/scripts/validate_evidence_navigation.py
-python software/scripts/validate_wsl_release.py
-python software/scripts/validate_release_package.py
-```
-
-预期输出包含`"status": "PASS"`、`"propositions_checked": 14`和`"propositions_navigated": 14`。
-
-安装并运行公开核心测试：
-
-```bash
-cd software
-python -m pip install -e ".[science,test]"
-python -m pytest -p no:cacheprovider
-```
-
-权威科学运行平台为 **WSL 2 / Ubuntu 24.04**。原生Windows只支持有限证据复核，不被声明为PySCF量化主线、MACE/NequIP CUDA训练或PySR运行结果的等价环境。详见[中文平台矩阵](reproducibility/PLATFORM_MATRIX_zh-CN.md)、[中文运行手册](reproducibility/RUNBOOK_zh-CN.md)和[可移植WSL入口](reproducibility/wsl/README.md)。
+可从[快速证据核验指南](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md)或[典型程序复算入口](reproducibility/TYPICAL_PROGRAMS_zh-CN.md)开始。[详细计算说明](reproducibility/DETAILED_COMPUTATION_GUIDE_zh-CN.md)、[中文运行手册](reproducibility/RUNBOOK_zh-CN.md)和[平台矩阵](reproducibility/PLATFORM_MATRIX_zh-CN.md)列明命令、硬件要求，以及证据检查与高成本量化复算的区别。
 
 ## 复现与证据边界
 
@@ -121,7 +94,7 @@ python -m pytest -p no:cacheprovider
 - 部分历史Cartesian坐标和程序未公开，相应结果明确标记为source-proxy，不冒充历史身份复现；
 - 不同状态合同的Target禁止跨协议直接求和；
 - AI模型输出属于工程证据，不是新的量子化学标签，也不替代科学命题论证；
-- 模型、私有运行目录、缓存、API凭据和受版权保护材料不进入本发布版本。
+- 模型、私有运行目录、缓存、API凭据和受版权保护材料不进入公共仓库。
 
 ## 证据矩阵与发布定位
 
@@ -135,4 +108,4 @@ python -m pytest -p no:cacheprovider
 
 ## 引用
 
-本项目唯一作者为 **Xiao Chen**。联系方式：[chenxiao0101@gmail.com](mailto:chenxiao0101@gmail.com)。本项目使用 **OpenAI Codex（GPT-5.6）** 提供AI辅助研究与工程支持。作者身份、CRediT贡献、AI辅助披露和利益冲突声明见[`AUTHORS.md`](AUTHORS.md)；机器可读引用信息见[`CITATION.cff`](CITATION.cff)。因未提供机构和ORCID，本版本不填写相关信息。
+本项目唯一作者为 **Xiao Chen**。联系方式：[chenxiao0101@gmail.com](mailto:chenxiao0101@gmail.com)。本项目使用 **OpenAI Codex（GPT-5.6）** 提供AI辅助研究与工程支持。作者身份、CRediT贡献、AI辅助披露和利益冲突声明见[`AUTHORS.md`](AUTHORS.md)；机器可读引用信息见[`CITATION.cff`](CITATION.cff)。因未提供机构和ORCID，目前不填写相关信息。

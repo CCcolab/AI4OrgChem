@@ -83,8 +83,10 @@ def main() -> int:
 
     for readme in ("README.md", "README_zh-CN.md"):
         text = (ROOT / readme).read_text(encoding="utf-8")
-        if "v0.2.0" not in text or "science-v0.2" not in text:
-            failures.append(f"{readme} does not expose V0.2")
+        if "science-v0.2/README.md" not in text:
+            failures.append(f"{readme} does not link the Science V0.2 evidence package")
+    if "V0.2" not in (ROOT / "science-v0.2" / "README.md").read_text(encoding="utf-8"):
+        failures.append("Science V0.2 package README lacks its own version identity")
 
     result = {"status": "PASS" if not failures else "FAIL", "snapshot": "science-v0.2", "files_checked": files_checked, "failure_count": len(failures), "failures": failures}
     print(json.dumps(result, ensure_ascii=False, indent=2))

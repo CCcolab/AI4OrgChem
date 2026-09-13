@@ -46,8 +46,8 @@ ROW = re.compile(r"^\| (P\d{2}) \|.*$", re.MULTILINE)
 AUTHORITATIVE_STATUS_REQUIREMENTS = {
     "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md": ("published `v0.3.1` snapshot", "P05 now has a seven-angle continuation", "P12_CORRIGENDUM.md"),
     "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md": ("`v0.3.1`已发布快照", "P05已经同一体系七角度连续序列增强", "P12_CORRIGENDUM.md"),
-    "README.md": ("13 consistent", "1 partially consistent", "P12"),
-    "README_zh-CN.md": ("13项一致", "1项部分一致", "P12"),
+    "README.md": ("Why this project exists", "Independent method", "Scientific outcome", "AI4S Agent engineering", "Examine and reproduce"),
+    "README_zh-CN.md": ("项目背景与目标", "独立研究方法", "科学论证结果", "AI4S Agent工程成果", "阅读与复核"),
     "project/ACHIEVEMENTS_zh-CN.md": ("十三项与原著一致", "P05已补齐同一体系七角度连续序列", "一项（P12）部分一致"),
     "project/P01-P14_MASTER_TABLE_zh-CN.md": ("P11", "CE=+1.173122", "IE=+0.490079", "一致4项"),
     "manuscripts/P01-P14_evidence_matrix_zh-CN.md": ("一致13项", "七角度连续序列技术门禁全通过", "部分一致1项（P12）", "IE=+0.490079"),
@@ -58,8 +58,6 @@ AUTHORITATIVE_STATUS_REQUIREMENTS = {
 
 CURRENT_P12_REQUIREMENTS = {
     "P12_CORRIGENDUM.md": ("v0.3.2", "historical published classification", "历史分类记录", "not six-point independent", "不是六点独立"),
-    "README.md": ("Current published release", "v0.3.2", "P12_CORRIGENDUM.md"),
-    "README_zh-CN.md": ("当前已发布正式版", "v0.3.2", "P12_CORRIGENDUM.md"),
     "evidence/P01-P14/README.md": ("published v0.3.1 snapshot", "historical label", "P12_CORRIGENDUM.md"),
     "evidence/P01-P14/README_zh-CN.md": ("v0.3.1已发布历史快照", "历史标签", "P12_CORRIGENDUM.md"),
     "manuscripts/P01-P14_evidence_matrix_zh-CN.md": ("v0.3.2", "v0.3.1已发布判定", "旧理由失效", "P12_CORRIGENDUM.md"),
@@ -78,6 +76,16 @@ FORBIDDEN_CURRENT_FRAGMENTS = (
     "**范围化一致**",
     "**Scope-consistent**",
     "P12为何只能判“部分一致”",
+)
+
+HOMEPAGE_DETAIL_FRAGMENTS = (
+    "v0.3.2",
+    "P12",
+    "P12_CORRIGENDUM.md",
+    "P12 interpretation correction",
+    "P12解释勘误",
+    "Current published release",
+    "当前已发布正式版",
 )
 
 
@@ -170,6 +178,12 @@ def main() -> None:
         for fragment in FORBIDDEN_CURRENT_FRAGMENTS:
             if fragment in text:
                 failures.append(f"{relative}: stale current-status fragment {fragment!r}")
+
+    for relative in ("README.md", "README_zh-CN.md"):
+        text = (PUBLICATION / relative).read_text(encoding="utf-8")
+        for fragment in HOMEPAGE_DETAIL_FRAGMENTS:
+            if fragment in text:
+                failures.append(f"{relative}: release/P12 detail belongs in evidence or release documentation: {fragment!r}")
 
     for relative, required in CURRENT_P12_REQUIREMENTS.items():
         path = PUBLICATION / relative
