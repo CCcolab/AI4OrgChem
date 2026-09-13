@@ -8,7 +8,7 @@ This guide is for readers who know quantum chemistry but do not need prior exper
 
 > AI4OrgChem is an independent computational reconstruction and evidence-assessment project, not an institutional certification or an AI vote on scientific truth. AI supports protocol management, evidence tracing, and engineering. Energy signs, numerical results, and classifications come from explicit quantum-chemical definitions and frozen computational evidence.
 
-> **Current stable review object:** [`v0.3.1`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.1). GitHub's **Code → Download ZIP** is a mutable snapshot of the current `main` branch. For reproducible scientific review or citation, use the complete Release package and verify its published SHA-256.
+> **Current stable review object:** [`v0.3.2`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.2). GitHub's **Code → Download ZIP** is a mutable snapshot of the current `main` branch. For reproducible scientific review or citation, use the complete Release package and verify its published SHA-256.
 
 ## 1. Read the repository as a paper with expandable supporting information
 
@@ -122,7 +122,7 @@ Machine learning and the evidence agent form a separate engineering layer. MACE,
 | WP5 | External clean Agent replay | Reaches M2-scoped maturity for one whitelisted replay; it does not expose the full external-model session or automatically raise R1–R3 |
 | WP6 | Fixed tag, complete archive, hashes, CI, and post-tag clean verification | Fixes publication identity without generating a new scientific sign |
 
-See the [`v0.3.1` release notes](RELEASE_NOTES_v0.3.1.md) for the current evidence state. The [`v0.3.0` scientific-closure entry](science-v0.3/README.md) and its [post-release erratum](project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md) remain available as historical records. The fixed `v0.3.1` package incorporates the qualified P14 correction, the source-2007 P11-B planar recalculation, the P05 seven-angle continuation, and the P07 same-Hamiltonian path audit, and reports thirteen consistent plus one partially consistent proposition.
+See the [`v0.3.2` release notes](RELEASE_NOTES_v0.3.2.md) for the current evidence interpretation and the [`v0.3.1` notes](RELEASE_NOTES_v0.3.1.md) for the historical classification. The [`v0.3.0` scientific-closure entry](science-v0.3/README.md) and its [post-release erratum](project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md) remain historical records. The fixed `v0.3.1` package incorporated the qualified P14 correction, source-2007 P11-B planar recalculation, P05 seven-angle continuation, and P07 same-Hamiltonian path audit. Version `v0.3.2` corrects the P12 interpretation without adding a new QM result or whole-proposition verdict.
 
 ## 5. Examine the P11 correction, P12 historical label and evidence corrigendum, and the P14 correction
 
@@ -167,7 +167,7 @@ Failure of any one check is sufficient reason to reject the corresponding strong
 
 ## 7. Optional: five copy-and-paste consistency checks
 
-These commands do not rerun expensive quantum chemistry. Use the fixed `v0.3.1` package linked at the top of this guide, verify its SHA-256, and enter the extracted root containing `README.md` and `software/`. With Python 3.12, run:
+These commands do not rerun expensive quantum chemistry. Use the fixed `v0.3.2` package linked at the top of this guide, verify its SHA-256, and enter the extracted root containing `README.md` and `software/`. With Python 3.12, run:
 
 ```bash
 python software/scripts/validate_public_evidence.py

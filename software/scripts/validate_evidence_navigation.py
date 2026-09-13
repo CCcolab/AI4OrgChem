@@ -57,12 +57,12 @@ AUTHORITATIVE_STATUS_REQUIREMENTS = {
 }
 
 CURRENT_P12_REQUIREMENTS = {
-    "P12_CORRIGENDUM.md": ("historical published classification", "历史分类记录", "not six-point independent", "不是六点独立"),
-    "README.md": ("Current published release", "P12_CORRIGENDUM.md"),
-    "README_zh-CN.md": ("当前已发布正式版", "P12_CORRIGENDUM.md"),
+    "P12_CORRIGENDUM.md": ("v0.3.2", "historical published classification", "历史分类记录", "not six-point independent", "不是六点独立"),
+    "README.md": ("Current published release", "v0.3.2", "P12_CORRIGENDUM.md"),
+    "README_zh-CN.md": ("当前已发布正式版", "v0.3.2", "P12_CORRIGENDUM.md"),
     "evidence/P01-P14/README.md": ("published v0.3.1 snapshot", "historical label", "P12_CORRIGENDUM.md"),
     "evidence/P01-P14/README_zh-CN.md": ("v0.3.1已发布历史快照", "历史标签", "P12_CORRIGENDUM.md"),
-    "manuscripts/P01-P14_evidence_matrix_zh-CN.md": ("v0.3.1已发布判定", "旧理由失效", "P12_CORRIGENDUM.md"),
+    "manuscripts/P01-P14_evidence_matrix_zh-CN.md": ("v0.3.2", "v0.3.1已发布判定", "旧理由失效", "P12_CORRIGENDUM.md"),
     "evidence/P01-P14/P12/data-card.md": ("历史发布标签", "P12_CORRIGENDUM.md"),
     "evidence/P01-P14/P12/report.md": ("历史记录", "P12_CORRIGENDUM.md"),
     "ai4s-agent/EVIDENCE_GOVERNANCE_zh-CN.md": ("`v0.3.1`历史分类标签", "P12_CORRIGENDUM.md"),
