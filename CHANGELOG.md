@@ -7,6 +7,7 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 ### Post-release documentation
 
 - Moved the historical `v0.3.1` release notes out of the repository-root homepage file list, marked their superseded P12 rationale, and linked the current `v0.3.2` notes from both homepages. The `v0.3.2` tag and fixed Release assets remain unchanged.
+- Reframed both repository homepages as version-neutral project overviews of background, goals, independent methods, results, AI4S capabilities, and evidence limits. Release-specific and P12 review details remain in the dedicated notes and evidence records; the long WSL computation guide moved to `reproducibility/` without changing its scientific content.
 
 ## [0.3.2] - 2026-09-13
 

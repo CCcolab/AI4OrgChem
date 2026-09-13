@@ -102,8 +102,8 @@
     {
       "path": "CHANGELOG.md",
       "artifact_role": "repository-root",
-      "bytes": 12029,
-      "sha256": "28311b9e7c971dc9c9e4c36a6c590cdd5bac491b81e392fbb9968b60ef130c28"
+      "bytes": 12387,
+      "sha256": "cf43e26919e4818c20ca363425750a7f37aa683be811ca4e7217b7d2f6bf1286"
     },
     {
       "path": "CITATION.cff",
@@ -870,8 +870,8 @@
     {
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
-      "bytes": 89990,
-      "sha256": "cd2b2da6a45ea73d446eef5be02b6869218b2f590b8b03059d27930de3e41492"
+      "bytes": 90143,
+      "sha256": "adc655f6c761c82e72fbc01e052a5df3af5749b303e66268a943777d05c609af"
     },
     {
       "path": "manuscripts/P01-P14_evidence_matrix_zh-CN.md",
@@ -966,14 +966,14 @@
     {
       "path": "README.md",
       "artifact_role": "repository-root",
-      "bytes": 25251,
-      "sha256": "dbfeca841cb70c19e28ca5f0b843b22d10e7fc061490d21e185c07fd5a4e1f07"
+      "bytes": 10658,
+      "sha256": "073b15d7bc5b68dd9c5ff702cf89ad96e3806c9bebb0707d9999d36be7f3c0e7"
     },
     {
       "path": "README_zh-CN.md",
       "artifact_role": "repository-root",
-      "bytes": 11188,
-      "sha256": "22de96c50c69cf0909155f324a281514f2a0e63f68afff4647dfe0a269580f12"
+      "bytes": 9006,
+      "sha256": "09e235096c0a49c3bc1ecfeaa3f3ce3c8fcc7932cf27760c2eb60e82986ce92c"
     },
     {
       "path": "RELEASE_NOTES_v0.3.2.md",
@@ -986,6 +986,12 @@
       "artifact_role": "reproducibility",
       "bytes": 18332,
       "sha256": "543abce03ee369526d83016126d7a0b7a82de48e0ef3356d3877289af90f5637"
+    },
+    {
+      "path": "reproducibility/DETAILED_COMPUTATION_GUIDE_zh-CN.md",
+      "artifact_role": "reproducibility",
+      "bytes": 12109,
+      "sha256": "f52a6d892e2a2b48ce50c054b5ba568e38827ffff89576d0c8240265cdb77605"
     },
     {
       "path": "reproducibility/environment.yml",
@@ -3198,8 +3204,8 @@
     {
       "path": "software/scripts/validate_evidence_navigation.py",
       "artifact_role": "software-or-test",
-      "bytes": 9902,
-      "sha256": "c66d11aa3aebacbd82ace6a9f543ce58ee5650b0ac39b33a26e408dcbdb6bbd0"
+      "bytes": 10423,
+      "sha256": "be8d5d0a47b07b7facf404e6dc5822ebe6a8e756a72b061557e01b70c06c676e"
     },
     {
       "path": "software/scripts/validate_p14_evidence.py",
@@ -3222,14 +3228,14 @@
     {
       "path": "software/scripts/validate_release_package.py",
       "artifact_role": "software-or-test",
-      "bytes": 17752,
-      "sha256": "9dfe6e8651bc2a88472a3662be4087daaf4becc29f233838630cf46fc4b002e7"
+      "bytes": 18074,
+      "sha256": "2af77dbc7006f8787e1a069ce41afb0ec0c4cf2860efa681bb273f86e80cfdea"
     },
     {
       "path": "software/scripts/validate_science_v02_wp0_public.py",
       "artifact_role": "software-or-test",
-      "bytes": 4620,
-      "sha256": "a19dac553fc29bd92f07e36bde059e7f13777e00654fc4bf45f7084b5f0bb411"
+      "bytes": 4807,
+      "sha256": "e7c57be3642ccbc4001c92c39447cce4a1777c73c2dc199a63562d170ad263db"
     },
     {
       "path": "software/scripts/validate_wsl_release.py",
