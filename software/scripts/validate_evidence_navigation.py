@@ -44,16 +44,28 @@ LINK = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 ROW = re.compile(r"^\| (P\d{2}) \|.*$", re.MULTILINE)
 
 AUTHORITATIVE_STATUS_REQUIREMENTS = {
-    "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md": ("thirteen are consistent", "P05 now has a seven-angle continuation", "one (P12) is partially consistent"),
-    "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md": ("13项一致", "P05已经同一体系七角度连续序列增强", "1项（P12）部分一致"),
+    "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md": ("published `v0.3.1` snapshot", "P05 now has a seven-angle continuation", "P12_CORRIGENDUM.md"),
+    "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md": ("`v0.3.1`已发布快照", "P05已经同一体系七角度连续序列增强", "P12_CORRIGENDUM.md"),
     "README.md": ("13 consistent", "1 partially consistent", "P12"),
     "README_zh-CN.md": ("13项一致", "1项部分一致", "P12"),
     "project/ACHIEVEMENTS_zh-CN.md": ("十三项与原著一致", "P05已补齐同一体系七角度连续序列", "一项（P12）部分一致"),
     "project/P01-P14_MASTER_TABLE_zh-CN.md": ("P11", "CE=+1.173122", "IE=+0.490079", "一致4项"),
     "manuscripts/P01-P14_evidence_matrix_zh-CN.md": ("一致13项", "七角度连续序列技术门禁全通过", "部分一致1项（P12）", "IE=+0.490079"),
-    "manuscripts/PUBLICATION_POSITIONING_EN.md": ("Thirteen are consistent with the monograph", "P05 now includes a seven-angle continuation", "one (P12) is partially consistent"),
-    "manuscripts/PUBLICATION_POSITIONING_zh-CN.md": ("十三项一致", "P05已补齐同一体系七角度连续序列", "一项（P12）部分一致"),
+    "manuscripts/PUBLICATION_POSITIONING_EN.md": ("published `v0.3.1` classification", "P05 now includes a seven-angle continuation", "P12_CORRIGENDUM.md"),
+    "manuscripts/PUBLICATION_POSITIONING_zh-CN.md": ("`v0.3.1`历史分类", "P05已补齐同一体系七角度连续序列", "一项（P12）部分一致"),
     "ai4s-agent/CAPABILITIES_AND_RESULTS_zh-CN.md": ("十三项一致", "P05七角度增强", "P07同哈密顿量路径审计", "一项部分一致（P12）"),
+}
+
+CURRENT_P12_REQUIREMENTS = {
+    "P12_CORRIGENDUM.md": ("historical published classification", "历史分类记录", "not six-point independent", "不是六点独立"),
+    "README.md": ("Current published release", "P12_CORRIGENDUM.md"),
+    "README_zh-CN.md": ("当前已发布正式版", "P12_CORRIGENDUM.md"),
+    "evidence/P01-P14/README.md": ("published v0.3.1 snapshot", "historical label", "P12_CORRIGENDUM.md"),
+    "evidence/P01-P14/README_zh-CN.md": ("v0.3.1已发布历史快照", "历史标签", "P12_CORRIGENDUM.md"),
+    "manuscripts/P01-P14_evidence_matrix_zh-CN.md": ("v0.3.1已发布判定", "旧理由失效", "P12_CORRIGENDUM.md"),
+    "evidence/P01-P14/P12/data-card.md": ("历史发布标签", "P12_CORRIGENDUM.md"),
+    "evidence/P01-P14/P12/report.md": ("历史记录", "P12_CORRIGENDUM.md"),
+    "ai4s-agent/EVIDENCE_GOVERNANCE_zh-CN.md": ("`v0.3.1`历史分类标签", "P12_CORRIGENDUM.md"),
 }
 
 FORBIDDEN_CURRENT_FRAGMENTS = (
@@ -65,6 +77,7 @@ FORBIDDEN_CURRENT_FRAGMENTS = (
     "P11B_CONJUGATIVE_CONSISTENT_INDUCTIVE_INCONSISTENT_UNDER_SOURCE_PROXY",
     "**范围化一致**",
     "**Scope-consistent**",
+    "P12为何只能判“部分一致”",
 )
 
 
@@ -158,6 +171,16 @@ def main() -> None:
             if fragment in text:
                 failures.append(f"{relative}: stale current-status fragment {fragment!r}")
 
+    for relative, required in CURRENT_P12_REQUIREMENTS.items():
+        path = PUBLICATION / relative
+        if not path.is_file():
+            failures.append(f"missing P12 interpretation document: {relative}")
+            continue
+        text = path.read_text(encoding="utf-8")
+        for fragment in required:
+            if fragment not in text:
+                failures.append(f"{relative}: missing P12 interpretation fragment {fragment!r}")
+
     agent_summary = json.loads((PUBLICATION / "ai4s-agent" / "EVALUATION_SUMMARY.json").read_text(encoding="utf-8"))
     counts = agent_summary.get("scientific_propositions", {})
     expected_count_fields = {
@@ -169,7 +192,7 @@ def main() -> None:
         "p07_evidence_identity": "INDEPENDENT_COMPUTATIONAL_AUDIT_PLUS_DERIVED_SYNTHESIS",
     }
     if any(counts.get(key) != value for key, value in expected_count_fields.items()):
-        failures.append("AI4S Agent machine-readable proposition counts are not the current 13+1 state")
+        failures.append("AI4S Agent machine-readable proposition counts differ from the v0.3.1 historical 13+1 snapshot")
 
     result = {
         "status": "PASS" if not failures else "FAIL",
@@ -182,6 +205,7 @@ def main() -> None:
             "globally_inconsistent": 0,
             "unknown": 0,
         },
+        "classification_snapshot": "v0.3.1_published_historical",
         "failures": failures,
     }
     print(json.dumps(result, ensure_ascii=False, indent=2))

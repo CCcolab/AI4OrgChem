@@ -44,7 +44,7 @@ Each file has a distinct evidentiary responsibility:
 
 Read “Scientific assessment” and “Reproducibility and evidence boundaries” on the [English home page](README.md). Retain three statements:
 
-1. Of fourteen propositions, thirteen are consistent, one (P12) is partially consistent, none is globally inconsistent, and none is unknown. P05 now has a seven-angle continuation in the same molecular system. P07 combines an independent same-Hamiltonian five-state path audit with the earlier `DERIVED` synthesis; inspect the bridge identity before interpreting component sums. P11-B moved from partial to consistent only after the source-2007 state-specific planar restricted optimizations reproduced both CE and IE; the old fixed-geometry result remains visible for audit.
+1. The published `v0.3.1` snapshot records thirteen consistent propositions, one historical partially consistent label (P12), none globally inconsistent, and none unknown; [P12's current evidence interpretation](P12_CORRIGENDUM.md) is separate from that label. P05 now has a seven-angle continuation in the same molecular system. P07 combines an independent same-Hamiltonian five-state path audit with the earlier `DERIVED` synthesis; inspect the bridge identity before interpreting component sums. P11-B moved from partial to consistent only after the source-2007 state-specific planar restricted optimizations reproduced both CE and IE; the old fixed-geometry result remains visible for audit.
 2. The evidence supports a bounded methodological criticism: several textbook heuristics do not automatically become universally sufficient mechanistic explanations.
 3. The project does not claim that traditional organic chemistry is globally wrong and does not propose a reverse universal law that conjugation must always be destabilizing.
 
@@ -66,7 +66,7 @@ The final column matters more than the word “consistent.” A result obtained 
 | Can an LFMO pi–pi endpoint have a destabilizing sign? | [P04](evidence/P01-P14/P04/report.md) | It directly tests the conjugation-energy sign at eleven technically valid endpoints. |
 | Why is the butadiene conjugation energy positive? | [P08](evidence/P01-P14/P08/report.md) | It exposes the GL definition, reference construction, and `+1.575676 kcal/mol` result. |
 | Can aromatic and antiaromatic energies be constructed theoretically? | [P09](evidence/P01-P14/P09/report.md) | It permits a direct sign and magnitude check for benzene and cyclobutadiene. |
-| How does the project correct an estimand mismatch and retain incomplete support? | [P11](evidence/P01-P14/P11/substituent-report.md) and [P12](evidence/P01-P14/P12/report.md) | P11 preserves the superseded fixed-geometry result while replacing it with same-method state-specific optimization; P12 retains the cross-estimator onset boundary. |
+| How does the project correct an estimand mismatch and retain incomplete support? | [P11](evidence/P01-P14/P11/substituent-report.md) and [P12](P12_CORRIGENDUM.md) | P11 preserves the superseded fixed-geometry result while replacing it with same-method state-specific optimization; P12 separates a historical label from an unresolved same-estimand onset test. |
 
 For one proposition, read the files in this order:
 
@@ -124,7 +124,7 @@ Machine learning and the evidence agent form a separate engineering layer. MACE,
 
 See the [`v0.3.1` release notes](RELEASE_NOTES_v0.3.1.md) for the current evidence state. The [`v0.3.0` scientific-closure entry](science-v0.3/README.md) and its [post-release erratum](project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md) remain available as historical records. The fixed `v0.3.1` package incorporates the qualified P14 correction, the source-2007 P11-B planar recalculation, the P05 seven-angle continuation, and the P07 same-Hamiltonian path audit, and reports thirteen consistent plus one partially consistent proposition.
 
-## 5. Examine the P11 correction, the remaining P12 partial result, and the P14 correction
+## 5. Examine the P11 correction, P12 historical label and evidence corrigendum, and the P14 correction
 
 A credible independent assessment must retain results that do not fully support the source claim.
 
@@ -136,12 +136,13 @@ A credible independent assessment must retain results that do not fully support 
 - The recalculation gives `CE=+1.173122` and `IE=+0.490079 kcal/mol`, versus approximately `+1.2` and `+0.49` in the source; all 13 states converged.
 - P11 is therefore consistent within this single-system source-2007 domain. Missing historical Cartesian and hydrogen coordinates still prevent a claim of original-coordinate or historical-program identity.
 
-### P12 — Same large-annulene trend, different numerical onset
+### P12 — Compatible broad trend; precise CESE onset not independently confirmed
 
 - The source-aligned CESE ledger in the monograph describes onset near `N=16/18`.
 - A 2025 external study reports an energy boundary around `N>30` under a different ASE estimator; this is literature support, not same-estimand reproduction of the CESE threshold.
 - AI4OrgChem `v0.3.0` WP4-B separately evaluates the paired `8/10`, `16/18`, and `32/34` physical-state 0 K ASE pilot, while remaining isolated from the WP4-A source-aligned CESE lane.
 - The lanes may be compared for the qualitative tendency toward polyene-like behavior, but neither the six-point pilot nor cross-estimator onset values establish a universal annulene-size law.
+- The `v0.3.1` P12 label is historical. Its old cross-estimand opposing-subclaim rationale is rejected; the source six-point arithmetic is not six-point independent QM, and no full same-estimand onset verification is claimed. See the [P12 corrigendum](P12_CORRIGENDUM.md).
 
 ### P14 — Review-detected eligibility defect corrected by qualified production evidence
 
@@ -150,7 +151,7 @@ A credible independent assessment must retain results that do not fully support 
 - They give `dΔr=0.172204 Å` versus the source `0.179 Å` and an optimized endpoint of `+67.679719 kcal/mol` versus `+67.08 kcal/mol`; both residuals pass the preregistered tolerances.
 - P14 is therefore restored to consistent, but only for one C12H6 planar-D3h five-parameter source-proxy system; no full-Cartesian frequency, wider-symmetry, nineteen-molecule, or universal-law claim is made.
 
-P11 demonstrates that an unfavorable result is not hidden but may be superseded when the missing source-defined operation is identified and rerun; P12 retains the remaining incomparable evidence. P14 demonstrates that a review-detected eligibility defect is corrected only after qualified replacement evidence passes the repaired gate.
+P11 demonstrates that an unfavorable result is not hidden but may be superseded when the missing source-defined operation is identified and rerun; P12 retains an explicit same-estimand evidence gap, not a proven contradiction. P14 demonstrates that a review-detected eligibility defect is corrected only after qualified replacement evidence passes the repaired gate.
 
 ## 6. Credibility checks that require no programming
 
@@ -190,7 +191,7 @@ Readers interested only in scientific evidence do not need PySCF, CUDA, MACE, or
 
 For a reviewer who has not independently rerun every historical computation, the strongest defensible summary is:
 
-> AI4OrgChem conducted a layered, auditable evidence assessment of fourteen counter-traditional propositions in organic structure theory and independently reconstructed the computationally testable propositions without using the monograph's program code under explicitly registered systems, state definitions, energy differences, and source-proxy conditions. Current public evidence is consistent with thirteen propositions and partially consistent with P12. P05 now has a seven-angle continuation in the same system; P07 combines an independent same-Hamiltonian state-path audit with a separately identified `DERIVED` synthesis. P11 was upgraded only after a source-2007 state-specific all-planar restricted optimization reproduced both CE and IE, while the superseded fixed-geometry result remains public. The aggregate result supports criticism of unconditionally universalizing several classical heuristics, but it does not reject traditional organic chemistry as a whole or establish a universal law in the opposite direction. The release has not undergone peer review.
+> AI4OrgChem conducted a layered, auditable evidence assessment of fourteen counter-traditional propositions in organic structure theory and independently reconstructed the computationally testable propositions without using the monograph's program code under explicitly registered systems, state definitions, energy differences, and source-proxy conditions. The published `v0.3.1` snapshot classified thirteen as consistent and P12 as partially consistent. A subsequent [P12 evidence corrigendum](P12_CORRIGENDUM.md) rejects the old cross-estimand rationale for that historical label without assigning a new whole-proposition verdict: the broad large-ring direction is compatible, while the precise CESE onset remains independently unconfirmed. P05 now has a seven-angle continuation in the same system; P07 combines an independent same-Hamiltonian state-path audit with a separately identified `DERIVED` synthesis. P11 was upgraded only after a source-2007 state-specific all-planar restricted optimization reproduced both CE and IE, while the superseded fixed-geometry result remains public. The aggregate result supports criticism of unconditionally universalizing several classical heuristics, but it does not reject traditional organic chemistry as a whole or establish a universal law in the opposite direction. The release has not undergone peer review.
 
 ## 9. Shortest navigation path
 

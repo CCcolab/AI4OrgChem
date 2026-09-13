@@ -21,4 +21,4 @@ AI4S Agent采用以下约束防止语言模型输出取代科学证据：
 | `INCOMPARABLE` | 估计量、参考态、符号、构象规则、温度或标准态不同 | 不得投票、平均或互相覆盖 |
 | `DERIVED` | 只由其他命题汇总，没有新增数据 | 不计入独立验证数量 |
 
-P07现由`INDEPENDENT_COMPUTATIONAL_AUDIT_PLUS_DERIVED_SYNTHESIS`两层证据支持：既有同哈密顿量五状态路径审计属于独立计算审计，原P04–P06综合仍单列为`DERIVED`；P12的精确起始尺寸属于跨估计量`INCOMPARABLE`，其总体状态仍为`PARTIAL`。这些状态不改变已冻结的数值，只约束证据身份和对外表述。
+P07现由`INDEPENDENT_COMPUTATIONAL_AUDIT_PLUS_DERIVED_SYNTHESIS`两层证据支持：既有同哈密顿量五状态路径审计属于独立计算审计，原P04–P06综合仍单列为`DERIVED`。P12的CESE/ASE精确起始尺寸跨估计量`INCOMPARABLE`；机器记录中的`PARTIAL`为`v0.3.1`历史分类标签，旧反对子项理由已失效，当前解释见[P12证据勘误](../P12_CORRIGENDUM.md)，不能由此自动改判。这些标记不改变已冻结的数值，只约束证据身份和对外表述。

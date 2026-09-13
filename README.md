@@ -13,7 +13,7 @@ AI4OrgChem is an **AI for Science (AI4S) Agent** for independent computational r
 
 > **AI-assisted research and engineering:** **OpenAI Codex (GPT-5.6)**. Project authorship, scientific decisions, interpretations, and publication responsibility remain with Xiao Chen; OpenAI is not presented as a project author, scientific certifier, peer reviewer, or institutional endorser.
 
-> **Current release:** [`v0.3.1`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.1) — **13 consistent and 1 partially consistent (P12)**. Evidence identity, tested scope, and independence remain separate from the verdict label. The associated manuscript has not yet undergone peer review.
+> **Current published release:** [`v0.3.1`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.1) — its historical classification is **13 consistent and 1 partially consistent (P12)**. The P12 rationale is corrected in the [post-release evidence corrigendum](P12_CORRIGENDUM.md); no v0.3.2 Release or new P12 classification is announced by this `main` update. Evidence identity, tested scope, and independence remain separate from the verdict label. The associated manuscript has not yet undergone peer review.
 
 > Online reading requires no download. For offline reproduction or citation, use the complete ZIP and SHA-256 files under **Assets** on the release page; **Code → Download ZIP** is a changeable snapshot of `main`.
 
@@ -27,13 +27,15 @@ The project asks whether independently reconstructed quantum-chemical evidence s
 
 ## Scientific outcome
 
-All fourteen propositions received determinate classifications:
+The published `v0.3.1` snapshot assigned classifications to all fourteen propositions:
 
 - **13 consistent** with the corresponding monograph propositions;
 - **1 partially consistent**: P12 retains its published classification while the basis for that label is reviewed;
 - **0 globally inconsistent and 0 unknown**.
 
 **P12 interpretation correction:** “Partially consistent” does **not** mean that one P12 subclaim has been independently verified as correct and another as incorrect. The monograph's six-point CESE ledger has been checked arithmetically, but the independent candidate CESE recalculation and source-method alignment do not yet cover the complete six-point, same-estimand test. The separate ASE trend uses a different estimand: its onset cannot directly contradict the CESE onset. The published label is retained pending formal review of its evidentiary basis; this correction neither changes the frozen results nor automatically upgrades P12 to “consistent.”
+
+The [P12 corrigendum](P12_CORRIGENDUM.md) separates the historical label from the current evidence assessment. Its unpublished local candidates are not presented as new reproducible public results.
 
 “Consistent” is a proposition-level verdict: evidence produced under the registered protocol supports the corresponding monograph proposition. Scope, evidence identity, and independence are reported separately; a proposition-level result is not automatically generalized into a universal law.
 
@@ -132,7 +134,7 @@ WSL 2不是这些量子化学公式成立的数学前提，但它是本项目**�
 | P09 | 环丁二烯VDE/ADE与苯ESE的虚拟参考和独立能量组装 | [protocol](evidence/P01-P14/P09/protocol.md) · [result](evidence/P01-P14/P09/result.json) | G/DSI/GL、G/GL/GE-1/VR、B3LYP/6-31G(d) |
 | P10 | 苯键长交替五点扫描、电子能/核排斥能/总能及曲率 | [protocol](evidence/P01-P14/P10/protocol.md) · [result](evidence/P01-P14/P10/result.json) | B3LYPG/6-31G(d)、独立核间库仑和 |
 | P11 | 呋喃LDE；氰基苯/苯13态全平面逐态受限优化与共轭/诱导贡献 | [furan protocol](evidence/P01-P14/P11/furan-protocol.md) · [furan result](evidence/P01-P14/P11/furan-result.json) · [substituent protocol](evidence/P01-P14/P11/substituent-protocol.md) · [substituent result](evidence/P01-P14/P11/substituent-result.json) | source-2007 LDE、Fock/overlap条件SCF、state-specific planar optimization、ESE/CE/IE差分 |
-| P12 | 六点轮烯源账本恒等式、尺寸阈值和独立ASE趋势比较 | [protocol](evidence/P01-P14/P12/protocol.md) · [result](evidence/P01-P14/P12/result.json) | VDE/ESE/CESE、相对局域增量、跨估计量边界比较 |
+| P12 | 六点轮烯源表算术与账本内尺寸变化；不同估计量的ASE趋势仅作旁证 | [protocol](evidence/P01-P14/P12/protocol.md) · [result](evidence/P01-P14/P12/result.json) · [corrigendum](P12_CORRIGENDUM.md) | VDE/ESE/CESE、相对局域增量；不作跨估计量同口径阈值判定 |
 | P13 | Kekulé候选枚举、GL规则优先级、RDKit分子式和PBH账本 | [protocol](evidence/P01-P14/P13/protocol.md) · [result](evidence/P01-P14/P13/result.json) | 图论完美匹配、RDKit、公开数值账本 |
 | P14 | C12H6 PLG条件SCF、固定几何端点、B3LYPG/6-31G(d)五参数生产优化及证据资格门禁 | [protocol](evidence/P01-P14/P14/protocol.md) · [result](evidence/P01-P14/P14/result.json) | **一致**；G/PLG梯度、终止、边界、SCF、电子数及结构/能量容差全部通过 |
 
