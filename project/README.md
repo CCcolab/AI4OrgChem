@@ -9,4 +9,4 @@ GitHub 首页和项目材料围绕四个核心部分组织：
 3. **研究价值**：可证伪化、LFMO证据链、经典启发式范围检验和AI4S方法学；
 4. **项目成就（成果）**：十四项结论、关键数值、独立软件、AI泛化和证据Agent。
 
-本目录保存上述四部分的当前中文文本及P01–P14主表。固定核验对象仍是[`v0.3.1`发布说明](../RELEASE_NOTES_v0.3.1.md)，其中13+1为已发布**历史分类**；P12现行证据解释见[发布后勘误](../P12_CORRIGENDUM.md)，不构成整项改判。2026-09-01整改响应见[`POST_REMEDIATION_RESPONSE_2026-09-01_zh-CN.md`](POST_REMEDIATION_RESPONSE_2026-09-01_zh-CN.md)；2026-09-08的P14发布后勘误见[`V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md`](V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md)，二者均作为历史审计记录保留。双语发布定位见 `../manuscripts/PUBLICATION_POSITIONING_EN.md` 和 `../manuscripts/PUBLICATION_POSITIONING_zh-CN.md`。
+本目录保存上述四部分的当前中文文本及P01–P14主表。当前固定核验对象是[`v0.3.2`发布说明](../RELEASE_NOTES_v0.3.2.md)及其完整包；13+1分类沿用[`v0.3.1`历史发布说明](../RELEASE_NOTES_v0.3.1.md)，P12现行证据解释见[勘误](../P12_CORRIGENDUM.md)，不构成整项改判。2026-09-01整改响应见[`POST_REMEDIATION_RESPONSE_2026-09-01_zh-CN.md`](POST_REMEDIATION_RESPONSE_2026-09-01_zh-CN.md)；2026-09-08的P14发布后勘误见[`V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md`](V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md)，二者均作为历史审计记录保留。双语发布定位见 `../manuscripts/PUBLICATION_POSITIONING_EN.md` 和 `../manuscripts/PUBLICATION_POSITIONING_zh-CN.md`。

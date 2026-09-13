@@ -4,12 +4,15 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 
 ## [Unreleased]
 
+## [0.3.2] - 2026-09-13
+
 ### Documentation
 
-- Added the post-`v0.3.1` P12 evidence-interpretation corrigendum to public `main` as a proposed `v0.3.2` documentation change, without announcing a new Release. The historical 13+1 label remains frozen; the old cross-estimand opposing-subclaim rationale is rejected, while the exact CESE onset remains independently unconfirmed.
+- Released the P12 evidence-interpretation corrigendum. The historical `v0.3.1` 13+1 machine classification remains frozen; the old cross-estimand opposing-subclaim rationale is rejected, while the exact CESE onset remains independently unconfirmed. No new QM result or P12 reclassification is included.
 - Simplified the bilingual homepage so each language exposes one canonical `v0.3.1` release-page link and no longer repeats download or release-history links.
 - Retitled the existing bilingual guide as the AI4S rapid reproduction and evidence verification guide, removed its repeated `v0.3.1` link, and removed the obsolete `v0.3.0` “current stable download” entry while preserving file paths for inbound-link compatibility.
 - Simplified the historical `v0.3.0` Release description, corrected its completed publication state, and removed redundant standalone `sha256-manifest.json` assets from `v0.3.1`, `v0.3.0`, and `v0.1.0`; the complete archives, archive checksum files, tags, and in-package manifests remain unchanged.
+- Added bilingual `v0.3.2` release notes and aligned the current release links, citation metadata, review guides, and release validator; the complete package remains separately checksummed.
 
 ## [0.3.1] - 2026-09-08
 

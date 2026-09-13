@@ -1,6 +1,6 @@
 # P12 evidence-interpretation corrigendum / P12 证据解释勘误
 
-Status: **public `main` correction after v0.3.1; proposed for v0.3.2**. This page does not announce a new Release or change the frozen P12 result.
+Status: **included in the v0.3.2 evidence-interpretation maintenance release**. This corrigendum does not change the frozen P12 result or reclassify the proposition.
 
 ## 中文
 

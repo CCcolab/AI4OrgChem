@@ -300,13 +300,14 @@ def validate_computation_guide(failures: list[str]) -> None:
 
 
 def validate_current_release_alignment(failures: list[str]) -> None:
-    current_release = "v0.3.1"
+    current_release = "v0.3.2"
     release_facing = (
         ROOT / "README.md",
         ROOT / "README_zh-CN.md",
         ROOT / "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md",
         ROOT / "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md",
-        ROOT / "RELEASE_NOTES_v0.3.1.md",
+        ROOT / "P12_CORRIGENDUM.md",
+        ROOT / "RELEASE_NOTES_v0.3.2.md",
     )
     for path in release_facing:
         relative = path.relative_to(ROOT).as_posix()
@@ -317,13 +318,21 @@ def validate_current_release_alignment(failures: list[str]) -> None:
             failures.append(f"release-facing file does not name {current_release}: {relative}")
 
     stale_phrases = {
+        ROOT / "README.md": ("no v0.3.2 Release",),
+        ROOT / "README_zh-CN.md": ("尚未发布v0.3.2", "不表示已经发布v0.3.2"),
+        ROOT / "P12_CORRIGENDUM.md": ("proposed for v0.3.2",),
         ROOT / "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md": (
             "Current stable review object:** [`v0.3.0`",
+            "Current stable review object:** [`v0.3.1`",
             "Until `v0.3.1` is released",
         ),
         ROOT / "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md": (
             "当前稳定审阅对象：** [`v0.3.0`",
+            "当前稳定核验对象：** [`v0.3.1`",
             "在`v0.3.1`发布前",
+        ),
+        ROOT / "manuscripts" / "P01-P14_evidence_matrix_zh-CN.md": (
+            "v0.3.2候选，尚非新Release",
         ),
         ROOT / "manuscripts" / "PUBLICATION_POSITIONING_EN.md": (
             "Three partially consistent outcomes",
@@ -338,8 +347,16 @@ def validate_current_release_alignment(failures: list[str]) -> None:
                 )
 
     citation = yaml.safe_load((ROOT / "CITATION.cff").read_text(encoding="utf-8"))
-    if not isinstance(citation, dict) or str(citation.get("version")) != "0.3.1":
-        failures.append("CITATION.cff version must match current release 0.3.1")
+    if not isinstance(citation, dict) or str(citation.get("version")) != "0.3.2":
+        failures.append("CITATION.cff version must match current release 0.3.2")
+    if not isinstance(citation, dict) or str(citation.get("date-released")) != "2026-09-13":
+        failures.append("CITATION.cff date must match v0.3.2 release date")
+    changelog = (ROOT / "CHANGELOG.md").read_text(encoding="utf-8")
+    if "## [0.3.2] - 2026-09-13" not in changelog:
+        failures.append("CHANGELOG.md lacks the v0.3.2 release entry")
+    notes = (ROOT / "RELEASE_NOTES_v0.3.2.md").read_text(encoding="utf-8")
+    if not all(fragment in notes for fragment in ("## English", "## 中文", "historical", "历史发布分类", "P12_CORRIGENDUM.md")):
+        failures.append("v0.3.2 release notes lack bilingual P12 correction and historical-label boundary")
 
 
 def main() -> int:
