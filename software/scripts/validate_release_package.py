@@ -301,6 +301,16 @@ def validate_computation_guide(failures: list[str]) -> None:
 
 def validate_current_release_alignment(failures: list[str]) -> None:
     current_release = "v0.3.2"
+    historical_notes = ROOT / "project" / "release-history" / "RELEASE_NOTES_v0.3.1.md"
+    if (ROOT / "RELEASE_NOTES_v0.3.1.md").exists():
+        failures.append("historical v0.3.1 notes must not appear in the homepage root file list")
+    if not historical_notes.is_file():
+        failures.append("archived v0.3.1 release notes missing")
+    elif not all(
+        token in historical_notes.read_text(encoding="utf-8")
+        for token in ("Historical record", "历史记录", "P12_CORRIGENDUM.md")
+    ):
+        failures.append("archived v0.3.1 notes lack the bilingual P12 corrigendum notice")
     release_facing = (
         ROOT / "README.md",
         ROOT / "README_zh-CN.md",
@@ -357,6 +367,9 @@ def validate_current_release_alignment(failures: list[str]) -> None:
     notes = (ROOT / "RELEASE_NOTES_v0.3.2.md").read_text(encoding="utf-8")
     if not all(fragment in notes for fragment in ("## English", "## 中文", "historical", "历史发布分类", "P12_CORRIGENDUM.md")):
         failures.append("v0.3.2 release notes lack bilingual P12 correction and historical-label boundary")
+    for homepage in (ROOT / "README.md", ROOT / "README_zh-CN.md"):
+        if "RELEASE_NOTES_v0.3.2.md" not in homepage.read_text(encoding="utf-8"):
+            failures.append(f"homepage lacks current release-notes link: {homepage.name}")
 
 
 def main() -> int:

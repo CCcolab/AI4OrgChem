@@ -4,13 +4,17 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 
 ## [Unreleased]
 
+### Post-release documentation
+
+- Moved the historical `v0.3.1` release notes out of the repository-root homepage file list, marked their superseded P12 rationale, and linked the current `v0.3.2` notes from both homepages. The `v0.3.2` tag and fixed Release assets remain unchanged.
+
 ## [0.3.2] - 2026-09-13
 
 ### Documentation
 
 - Released the P12 evidence-interpretation corrigendum. The historical `v0.3.1` 13+1 machine classification remains frozen; the old cross-estimand opposing-subclaim rationale is rejected, while the exact CESE onset remains independently unconfirmed. No new QM result or P12 reclassification is included.
-- Simplified the bilingual homepage so each language exposes one canonical `v0.3.1` release-page link and no longer repeats download or release-history links.
-- Retitled the existing bilingual guide as the AI4S rapid reproduction and evidence verification guide, removed its repeated `v0.3.1` link, and removed the obsolete `v0.3.0` “current stable download” entry while preserving file paths for inbound-link compatibility.
+- Synchronized the bilingual homepage's current release-page links to `v0.3.2` while preserving the `v0.3.1` machine classification as historical context.
+- Retitled the existing bilingual guide as the AI4S rapid reproduction and evidence verification guide, removed obsolete older-version download wording, and preserved the guide paths for inbound-link compatibility.
 - Simplified the historical `v0.3.0` Release description, corrected its completed publication state, and removed redundant standalone `sha256-manifest.json` assets from `v0.3.1`, `v0.3.0`, and `v0.1.0`; the complete archives, archive checksum files, tags, and in-package manifests remain unchanged.
 - Added bilingual `v0.3.2` release notes and aligned the current release links, citation metadata, review guides, and release validator; the complete package remains separately checksummed.
 

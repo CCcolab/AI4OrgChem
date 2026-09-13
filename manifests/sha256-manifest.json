@@ -102,8 +102,8 @@
     {
       "path": "CHANGELOG.md",
       "artifact_role": "repository-root",
-      "bytes": 11804,
-      "sha256": "49ea5cabe7f79cf48de3fe17c2376f8f7c09d58dd472189f9baead837cda43ff"
+      "bytes": 12029,
+      "sha256": "28311b9e7c971dc9c9e4c36a6c590cdd5bac491b81e392fbb9968b60ef130c28"
     },
     {
       "path": "CITATION.cff",
@@ -870,8 +870,8 @@
     {
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
-      "bytes": 89964,
-      "sha256": "d5f1a31e6243708036003b29c89aea9dbf5b8b204ec7418b4e9d79e561f3a16b"
+      "bytes": 89990,
+      "sha256": "cd2b2da6a45ea73d446eef5be02b6869218b2f590b8b03059d27930de3e41492"
     },
     {
       "path": "manuscripts/P01-P14_evidence_matrix_zh-CN.md",
@@ -936,8 +936,14 @@
     {
       "path": "project/README.md",
       "artifact_role": "project-narrative",
-      "bytes": 1346,
-      "sha256": "198ab6ea5def5ce1770166f771af3b233c091d8eebd5b0fc539916213ce4a4dc"
+      "bytes": 1368,
+      "sha256": "eae514bd90ea8f43678f34498de3941d2ade8837990082a1f9d324c4e13e6ed4"
+    },
+    {
+      "path": "project/release-history/RELEASE_NOTES_v0.3.1.md",
+      "artifact_role": "project-narrative",
+      "bytes": 5689,
+      "sha256": "e5654b2aac27b2069b74b470bbdd6ea58eead64d4bc3b1aaf551b9df32ff962f"
     },
     {
       "path": "project/RESEARCH_ITEMS_zh-CN.md",
@@ -960,20 +966,14 @@
     {
       "path": "README.md",
       "artifact_role": "repository-root",
-      "bytes": 25097,
-      "sha256": "6e72e1a352b36190365946dd6e84bf87aa1ef9c45087821838fbd0addb6af234"
+      "bytes": 25251,
+      "sha256": "dbfeca841cb70c19e28ca5f0b843b22d10e7fc061490d21e185c07fd5a4e1f07"
     },
     {
       "path": "README_zh-CN.md",
       "artifact_role": "repository-root",
-      "bytes": 11050,
-      "sha256": "8984dd9848e4d6b07d0c59b24c82b4b3ac29cacedf801175fb9f3eba63037923"
-    },
-    {
-      "path": "RELEASE_NOTES_v0.3.1.md",
-      "artifact_role": "repository-root",
-      "bytes": 4739,
-      "sha256": "1ff7d081ebf80aff8fd08b670b0117b2f5416268ee08e972572a2942635b56b0"
+      "bytes": 11188,
+      "sha256": "22de96c50c69cf0909155f324a281514f2a0e63f68afff4647dfe0a269580f12"
     },
     {
       "path": "RELEASE_NOTES_v0.3.2.md",
@@ -1056,14 +1056,14 @@
     {
       "path": "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md",
       "artifact_role": "repository-root",
-      "bytes": 19168,
-      "sha256": "f5d2c7b8c89ed90a2e9e433d52c30ddb079cc4055d70b2824e68938223d69783"
+      "bytes": 19201,
+      "sha256": "bfa7b313619bd432b576aea49884d910cfc331995796ece3e132ee1589f913ae"
     },
     {
       "path": "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md",
       "artifact_role": "repository-root",
-      "bytes": 15785,
-      "sha256": "5d6a874690d45083342bfbd430432b9d17daa8558f9c7ba990011a1c637a1da4"
+      "bytes": 15818,
+      "sha256": "d40ac4265190a7560a65b5d4cdc5b28e2907469ccbf5a14f2ee46faf9b5505f4"
     },
     {
       "path": "science-v0.2/configs/science_v0.2/agent_run_bundle.schema.json",
@@ -3222,8 +3222,8 @@
     {
       "path": "software/scripts/validate_release_package.py",
       "artifact_role": "software-or-test",
-      "bytes": 16910,
-      "sha256": "29b0744edb4d6c78bc112099de1f2679df23253a9db97f26d0544268b0ecce05"
+      "bytes": 17752,
+      "sha256": "9dfe6e8651bc2a88472a3662be4087daaf4becc29f233838630cf46fc4b002e7"
     },
     {
       "path": "software/scripts/validate_science_v02_wp0_public.py",

@@ -1,14 +1,18 @@
 # AI4OrgChem v0.3.1 — Post-Review Evidence Maintenance
 
+> **Historical record / 历史记录（2026-09-08）：** This note describes the fixed `v0.3.1` release, not the current release. Its original P12 cross-estimand onset rationale was withdrawn by the later [v0.3.2 P12 corrigendum](../../P12_CORRIGENDUM.md). The historical 13+1 machine classification remains unchanged; no new P12 verdict is implied. For the current release, see the [v0.3.2 notes](../../RELEASE_NOTES_v0.3.2.md).
+>
+> **中文提示：** 本文记录固定的`v0.3.1`历史版本，并非当前发布说明。原 P12 跨估计量起点差理由已由[后续勘误](../../P12_CORRIGENDUM.md)撤回；13+1机器分类仍保留为历史记录，不据此作新的P12判定。当前版本请见[`v0.3.2`发布说明](../../RELEASE_NOTES_v0.3.2.md)。
+
 ## English
 
 `v0.3.1` is a post-review scientific-evidence maintenance release. It preserves the immutable `v0.3.0` scientific-closure package while incorporating qualified evidence and cross-document corrections completed after that release.
 
-### Current scientific state
+### Scientific classification recorded at v0.3.1 publication (historical)
 
 - 14 propositions have determinate proposition-level classifications.
 - 13 are consistent with the corresponding monograph propositions within their registered tested domains.
-- P12 is partially consistent because the qualitative large-annulene trend agrees while the precise size onset is not directly comparable across different estimands.
+- P12 was labeled partially consistent. The original rationale based on comparing size onsets across different estimands is superseded by the v0.3.2 corrigendum; the historical label is retained without a new whole-proposition decision.
 - 0 are globally inconsistent and 0 are unknown.
 
 ### Changes incorporated
@@ -30,11 +34,11 @@
 
 `v0.3.1`是复评后的科学证据维护版本。它保持`v0.3.0`科学闭合包不可变，并纳入其发布后完成的合格证据和跨文档一致性修正。
 
-### 当前科学状态
+### v0.3.1发布时记录的科学分类（历史）
 
 - 十四项命题均已获得确定性命题级分类；
 - 十三项在各自注册受测域内与原著对应命题一致；
-- P12为部分一致：大轮烯最终趋近普通多烯的定性趋势一致，但不同估计量下的精确尺寸起点不能直接比较；
+- P12当时标为部分一致；原先借不同估计量的起点差支持这一标签的理由已由v0.3.2勘误撤回。历史标签继续保留，但不构成新的整项判定；
 - 整体不一致0项，未知0项。
 
 ### 本版纳入的更新
