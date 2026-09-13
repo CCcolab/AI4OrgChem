@@ -17,7 +17,7 @@ AI4OrgChem is an **AI for Science (AI4S) Agent** for independent computational r
 
 > Online reading requires no download. For offline reproduction or citation, use the complete ZIP and SHA-256 files under **Assets** on the release page; **Code → Download ZIP** is a changeable snapshot of `main`.
 
-Previous releases and the complete update history are listed in the [CHANGELOG](CHANGELOG.md).
+Read the [current v0.3.2 release notes](RELEASE_NOTES_v0.3.2.md). Earlier release notes are kept under [project/release-history/](project/release-history/RELEASE_NOTES_v0.3.1.md), and the complete update history is in the [CHANGELOG](CHANGELOG.md).
 
 ## Why this project exists
 

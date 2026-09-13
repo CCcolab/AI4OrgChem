@@ -17,7 +17,7 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 
 > 在线阅读无需下载。离线复算或引用时，请使用该发布页 **Assets** 中的完整ZIP和SHA-256校验文件；**Code → Download ZIP** 是可能随维护变化的`main`快照。
 
-以往版本及完整更新记录见[CHANGELOG](CHANGELOG.md)。
+请阅读[当前v0.3.2发布说明](RELEASE_NOTES_v0.3.2.md)；旧版发布说明归入[历史目录](project/release-history/RELEASE_NOTES_v0.3.1.md)，完整更新记录见[CHANGELOG](CHANGELOG.md)。
 
 ## 项目背景与目标
 
