@@ -14,7 +14,7 @@ WSL 2不是这些量子化学公式成立的数学前提，但它是本项目**�
 |---|---|---|
 | 主机CPU | Intel Core Ultra 9 185H；16物理核、22逻辑处理器 | 默认8线程；重新基准测试前不超过16线程；中高内存QM任务同时只跑1个 |
 | WSL内存 | 可见约15 GiB，swap 4 GiB | 可用内存低于4 GiB停止新作业；swap不作为常规OOM方案 |
-| GPU | NVIDIA GeForce RTX 4060 Laptop GPU，8188 MiB VRAM，compute capability 8.9 | 用于第五期MACE/NequIP；量子化学定判不以GPU模型输出替代 |
+| GPU（仅第五期AI工程支路） | 隔离的CUDA环境；不指定本地主机显卡型号 | MACE/NequIP训练与对照曾使用GPU；P01–P14量子化学定判不以GPU模型输出替代，复核这些判定不要求同型号显卡 |
 | 操作系统 | WSL 2 / Ubuntu 24.04 | 本项目科学与GPU结果的权威平台 |
 | 环境管理 | micromamba；Python 3.12 | 公开复核环境为`ai4orgchem-public`；历史工程环境彼此隔离且不得强制更新 |
 | 量子化学 | PySCF 2.x；RHF、B3LYP及B3LYPG/6-31G(d)、RHF/STO-3G等冻结协议 | 方法、基组、几何和状态合同以每项protocol为准，不跨协议混算 |

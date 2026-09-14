@@ -919,7 +919,7 @@
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
       "bytes": 91729,
-      "sha256": "55ee8ca317cfe94f5cf15c15cb538480b7be04e28796a38fabccdc286cd82867"
+      "sha256": "250e3c01d97c76ecf1061f898e1eebac116c8ce70cc510bd2e68006ae123adbc"
     },
     {
       "path": "manifests/README_EN.md",
@@ -1056,8 +1056,8 @@
     {
       "path": "reproducibility/DETAILED_COMPUTATION_GUIDE_zh-CN.md",
       "artifact_role": "reproducibility",
-      "bytes": 11992,
-      "sha256": "071ea729a2f93fd16e3ef59ab4bff32ceffd0862276b79dd3f65de4136703ce9"
+      "bytes": 12070,
+      "sha256": "7627c827b96180f5c01369306621fecd75870b619d0cf74b218e809bb1e043a0"
     },
     {
       "path": "reproducibility/environment.yml",
