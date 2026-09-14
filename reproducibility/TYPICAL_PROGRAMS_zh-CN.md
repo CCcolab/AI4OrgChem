@@ -13,7 +13,7 @@
 | L0 | P01–P14冻结证据核验 | 否 | 普通Python，数秒 | **可运行** | 所有读者 |
 | L1 | P09条件SCF核心测试 | 小型测试 | CPU，通常数分钟 | **可运行** | 方法与程序审查者 |
 | L2 | P14固定几何技术烟测 | 是，STO-3G | WSL2、8线程 | **可运行** | 首次QM体验 |
-| L3 | P14固定几何科学层级复算 | 是，B3LYPG/6-31G(d) | WSL2、8线程、充足内存 | **可运行** | 量子化学复核 |
+| L3 | P14固定几何科学层级复算 | 是，B3LYPG/6-31G(d) | WSL2、8线程、至少13,000 MiB可用内存 | **可运行** | 量子化学复核 |
 | L4 | P14五参数生产优化 | 是，高成本 | WSL2、8线程、至少13 GiB可用内存 | **可运行；高级** | 深度独立复算 |
 
 P09环丁二烯烟测、P10苯BLA扫描和P09完整芳香能复算是下一批公开封装对象。它们的科学设计已冻结，但在完成独立输出目录、依赖补齐和洁净克隆实跑前，本页不提供可能误导用户的伪命令。
@@ -57,7 +57,7 @@ python software/scripts/validate_evidence_navigation.py
 
 ### 预期输出与判读
 
-预期包含`status: PASS`、`propositions_checked: 14`和`propositions_navigated: 14`。若失败，应先阅读错误指出的具体文件，不得通过修改验证器来迁就结果。
+预期包含`status: PASS`、`propositions_checked: 14`和`propositions_navigated: 14`。其中“13项一致、1项部分一致”是**v0.3.1发布时的历史分类快照**；后续的[P12证据更正](../P12_CORRIGENDUM.md#中文)已否定旧的跨估计量解释，但没有重新给出整项命题判定。若核验失败，应先阅读错误指出的具体文件，不得通过修改验证器来迁就结果。
 
 ### 边界
 
@@ -144,14 +144,19 @@ python software/scripts/run_p14_benzotricyclobutadiene_smoke.py
 
 ### 计算过程
 
-1. 读取并哈希公开G、PLG输入；
-2. 验证五参数重建、原子顺序、平面性和78电子；
+1. 读取登记的公开G、PLG输入并重建五参数几何；
+2. 检查几何及78电子状态；
 3. 计算普通G态；
 4. 计算普通PLG锚点并形成初始密度；
-5. 计算source-aligned条件PLG态；
-6. 独立复核直接实现和内存受控实现的总能等价性；
-7. 组装固定几何端点；
-8. 检查方法、基组、SCF、电子数、能量闭合、对易子、幂等性和内存门禁。
+5. 使用内存受控实现计算source-aligned条件PLG态；
+6. 组装固定几何端点并报告与原著数值的残差；
+7. 检查SCF、电子数、能量闭合、对易子、幂等性和内存模式。
+
+该L3命令本身**不会**计算公开输入文件的SHA-256，也**不会**比较直接实现与内存受控实现；提交复算报告时应另行记录输入文件哈希。下列独立等价性脚本比较的是**STO-3G层级**的两种条件SCF实现，并非L3的B3LYPG/6-31G(d)等价性复算。其输出是最终P14分类器的一项输入，单独`PASS`不具科学定判资格：
+
+```bash
+python software/scripts/validate_p14_memory_controlled_conditional_scf.py
+```
 
 ### 运行
 
@@ -164,6 +169,8 @@ python software/scripts/run_p14_benzotricyclobutadiene_source_level_fixed_geomet
 ### 预期输出与判读
 
 只有全部门禁通过时，该复算才可与冻结固定几何端点比较。小的末位差异应结合PySCF、BLAS和数值积分版本报告，不得静默改写容差。
+
+`anchor_gate_verdict: PASS`只表示L3计算自身的实现与数值资格通过；它**不检查**与原著数值的残差容差，也不是最终P14判定。脚本启动前要求至少13,000 MiB可用内存。
 
 ### 边界
 
@@ -204,6 +211,16 @@ python software/scripts/run_p14_benzotricyclobutadiene_production_optimization.p
 - 优化端点`67.679719 kcal/mol`。
 
 数值接近并不自动等于通过；方法、基组、收敛、梯度、边界、电子数和能量闭合必须全部合格。
+
+反过来，`production_gate_verdict: PASS`也**不表示**结果与原著数值的残差在容差内；它只是生产优化的资格门禁。完成L2–L4及上述STO-3G等价性检查后，应把**本次生成的四份输出文件**显式传给最终分类器。分类器默认读取的是已发布冻结证据；以下命令则对本次复算结果执行原著能量、键长响应残差及资格联合判定，输出留在`runs/reproduction/p14/`，不会改写已发布的P14结论：
+
+```bash
+python software/scripts/classify_p14_strained_aromatic_pi_distortivity.py \
+  --smoke runs/reproduction/p14/p14_benzotricyclobutadiene_fixed_geometry_smoke_v0.1.json \
+  --optimization runs/reproduction/p14/p14_C12H6_production_optimization_v0.1.json \
+  --equivalence runs/reproduction/p14/p14_memory_controlled_eri_equivalence_v0.1.json \
+  --source-level runs/reproduction/p14/p14_C12H6_source_level_fixed_geometry_v0.1.json
+```
 
 ### 边界
 

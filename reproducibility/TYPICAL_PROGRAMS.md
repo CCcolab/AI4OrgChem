@@ -13,7 +13,7 @@ This page gives chemistry, quantum-chemistry, and computational-chemistry reader
 | L0 | Frozen P01–P14 evidence verification | No | Standard Python; seconds | **Runnable** |
 | L1 | P09 conditional-SCF core tests | Small tests | CPU; usually minutes | **Runnable** |
 | L2 | P14 fixed-geometry technical smoke | Yes, STO-3G | WSL2; 8 threads | **Runnable** |
-| L3 | P14 fixed-geometry scientific-level reproduction | Yes, B3LYPG/6-31G(d) | WSL2; 8 threads; adequate memory | **Runnable** |
+| L3 | P14 fixed-geometry scientific-level reproduction | Yes, B3LYPG/6-31G(d) | WSL2; 8 threads; at least 13,000 MiB available memory | **Runnable** |
 | L4 | P14 five-parameter production optimization | Yes; expensive | WSL2; 8 threads; at least 13 GiB available memory | **Runnable; advanced** |
 
 P09 cyclobutadiene smoke, the P10 benzene BLA scan, and the complete P09 aromatic-energy reproduction are the next public packaging targets. They are not shown with pretend commands before isolated output handling, dependency completion, and clean-clone execution pass.
@@ -43,7 +43,7 @@ python software/scripts/validate_public_evidence.py
 python software/scripts/validate_evidence_navigation.py
 ```
 
-Expected output includes `status: PASS`, `propositions_checked: 14`, and `propositions_navigated: 14`. This verifies the published evidence package, not the physical correctness of the underlying calculations or peer-review status.
+Expected output includes `status: PASS`, `propositions_checked: 14`, and `propositions_navigated: 14`. The 13-consistent/1-partially-consistent count is the **historical v0.3.1 classification snapshot**. Read the later [P12 evidence corrigendum](../P12_CORRIGENDUM.md#english): it rejects the old cross-estimand rationale without assigning a new whole-proposition verdict. These commands verify the published evidence package, not the physical correctness of the underlying calculations or peer-review status.
 
 ## L1 — P09 conditional-SCF core tests
 
@@ -78,13 +78,21 @@ Outputs are written under `runs/reproduction/p14/`. `smoke_gate_verdict` should 
 
 Purpose: recompute the P14 fixed-geometry endpoint at B3LYPG/6-31G(d) on the public G/PLG source-proxy geometries and compare it with the frozen `67.086899 kcal/mol` value.
 
-Process: hash public inputs → verify five-parameter reconstruction, atom order, planarity, and 78 electrons → ordinary G state → ordinary PLG density anchor → source-aligned conditional PLG state → direct-versus-memory-controlled energy equivalence → endpoint assembly → method, basis, SCF, electron-count, closure, commutator, idempotency, and memory gates.
+Process: read the registered public inputs → reconstruct the five-parameter G/PLG geometries → ordinary G state → ordinary PLG density anchor → memory-controlled conditional PLG state → assemble the fixed-geometry endpoint and report its residual from the source value → check SCF, electron count, energy closure, commutator, idempotency, and memory mode. Record input-file SHA-256 separately when reporting a reproduction; the L3 calculation command does not hash the inputs or run a direct-versus-memory-controlled comparison.
+
+The **separate implementation-equivalence check** below compares direct and memory-controlled conditional SCF at **STO-3G**, not at the L3 B3LYPG/6-31G(d) level. Its output is one input to the final P14 classifier; its `PASS` does not by itself qualify the scientific endpoint.
+
+```bash
+python software/scripts/validate_p14_memory_controlled_conditional_scf.py
+```
 
 ```bash
 python software/scripts/run_p14_benzotricyclobutadiene_source_level_fixed_geometry.py
 ```
 
 See the [P14 input identity statement (English)](../evidence/P01-P14/P14/inputs/README.md). These are reconstructed source-proxy coordinates because the historical Cartesian coordinates were not published.
+
+The L3 `anchor_gate_verdict: PASS` checks this calculation's implementation and numerical eligibility; it does **not** apply the source-value residual tolerance or establish the final P14 classification. The script requires at least 13,000 MiB of available memory before starting.
 
 ## L4 — P14 five-parameter production optimization
 
@@ -96,7 +104,17 @@ Process: require at least 13 GiB available memory → generate frozen starts →
 python software/scripts/run_p14_benzotricyclobutadiene_production_optimization.py
 ```
 
-Frozen references are `dDelta-r(GP) = 0.172204 Å` and `67.679719 kcal/mol`. Numeric proximity alone is insufficient: method, basis, convergence, gradient, bounds, electron count, and energy closure must all qualify. The calculation covers only the registered planar D3h five-parameter subspace.
+Frozen project references are `dDelta-r(GP) = 0.172204 Å` and `67.679719 kcal/mol`. `production_gate_verdict: PASS` checks the optimization's eligibility (method, basis, convergence, gradient, bounds, electron count, and energy closure), **not** its residual from the monograph's source values. Conversely, numerical proximity alone is insufficient. The calculation covers only the registered planar D3h five-parameter subspace.
+
+After L2–L4 and the separate STO-3G equivalence check, use the classifier with **explicit paths to the newly generated outputs**; its defaults read the published frozen evidence instead. The classifier applies the source-value energy and bond-response tolerances together with all eligibility gates, writes only under `runs/reproduction/p14/`, and does not alter the published P14 verdict:
+
+```bash
+python software/scripts/classify_p14_strained_aromatic_pi_distortivity.py \
+  --smoke runs/reproduction/p14/p14_benzotricyclobutadiene_fixed_geometry_smoke_v0.1.json \
+  --optimization runs/reproduction/p14/p14_C12H6_production_optimization_v0.1.json \
+  --equivalence runs/reproduction/p14/p14_memory_controlled_eri_equivalence_v0.1.json \
+  --source-level runs/reproduction/p14/p14_C12H6_source_level_fixed_geometry_v0.1.json
+```
 
 ## Activation gates for the next entries
 
