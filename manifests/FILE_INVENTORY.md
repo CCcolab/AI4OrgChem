@@ -2,7 +2,7 @@
 
 本清单记录GitHub洁净仓库中的实质内容文件。生成型SHA清单和本文件自身不反向列入表格。
 
-- 实质内容文件：566
+- 实质内容文件：577
 - 状态：版本化发布快照；内容变更后必须重新生成并验证
 
 | 文件 | 角色 | 字节 | SHA-256 |
@@ -16,11 +16,16 @@
 | `.github/SECURITY.md` | continuous-integration | 2459 | `66884bef7bfd8b028093d91aaeac11237735a553584ff2dbdacaa57f4a930ef2` |
 | `.github/workflows/validate.yml` | continuous-integration | 2834 | `26312955dce666f8267433c2eb128d1841fc3d97de430549856c38c8d75d02b3` |
 | `.gitignore` | repository-root | 986 | `a5658870a99a5f1575368ad438b7f9ebef7aa7f4c94e446095bb921f11ab6deb` |
+| `ai4s-agent/CAPABILITIES_AND_RESULTS_EN.md` | agent-delivery | 1843 | `8684b20121b1f0b6f13570c622d08afbed88b761ef448f3b5cb373311536230c` |
 | `ai4s-agent/CAPABILITIES_AND_RESULTS_zh-CN.md` | agent-delivery | 1729 | `0450d877aeea0ed531fb420e9f846f42164936e8c72dbebc5b1b8833897c01e5` |
 | `ai4s-agent/EVALUATION_SUMMARY.json` | agent-delivery | 2291 | `fc7d1f50671b4877d38178f9648f2406da0624a9b0c723df58e4b8e77b3f2236` |
+| `ai4s-agent/EVIDENCE_GOVERNANCE_EN.md` | agent-delivery | 1946 | `f17743a41324ed953e9eeaebf172503149275497962f681fda8b0f221e509389` |
 | `ai4s-agent/EVIDENCE_GOVERNANCE_zh-CN.md` | agent-delivery | 1842 | `46c39dc09446a43f093114dfaa634fb554ead263d97b920a9c7318a7c9ca94c6` |
+| `ai4s-agent/LIMITATIONS_EN.md` | agent-delivery | 829 | `daae051cd3f964582474670ef4898469f04edcfc68f1d8960a754079124f9d8c` |
 | `ai4s-agent/LIMITATIONS_zh-CN.md` | agent-delivery | 649 | `8a59ffbdb909d742bc1ba261a193d75139b633ded35ec05c776f98137bdc330e` |
 | `ai4s-agent/README.md` | agent-delivery | 1503 | `c8085485aa8f657404e47941668671e4edfa3dad3cfd143959a2468e7b4ba69e` |
+| `ai4s-agent/README_EN.md` | agent-delivery | 1051 | `d17ba3aba66decf8c4a33d1e824b0142ad66afc2c5fc3b61a4b96f323f3fe707` |
+| `ai4s-agent/SYSTEM_ARCHITECTURE_EN.md` | agent-delivery | 1029 | `088b80306e941f18200e3bdd13522c7095ceebc9e90f3da623f3ada67c5de4d7` |
 | `ai4s-agent/SYSTEM_ARCHITECTURE_zh-CN.md` | agent-delivery | 1114 | `c767a97c2fca2abdb13540dfc6b6e8983952dbc9f3cfd5f119017da2dd830a8a` |
 | `AUTHORS.md` | repository-root | 2416 | `148d3f76aea865f1ed862c9b65ea980e92d170d3b95a598cba626250cd681df2` |
 | `CHANGELOG.md` | repository-root | 11379 | `2a49076af135c754ae10760e9d0fff30fb3cdf442c58669d90fdaa6a82b856ce` |
@@ -145,16 +150,19 @@
 | `evidence/P01-P14/P14/protocol.md` | scientific-evidence | 3283 | `efeba6a07cacba6b00eca5918dd4928cf4b3ebadf3133df6afc0c6eacc40d73a` |
 | `evidence/P01-P14/P14/report.md` | scientific-evidence | 1595 | `df7caa0c4b68b4c3e2eaea3e9149b202357a14a815c3816332186fb594285f24` |
 | `evidence/P01-P14/P14/result.json` | scientific-evidence | 5797 | `bfb71c2fe6a5ed627c9f9968ddb2e6f6e202a57129b2d65be9903b7227db144a` |
-| `evidence/P01-P14/README.md` | scientific-evidence | 9047 | `7ead82b6a192b9400eda726fbca5b3368b904fa603c5545c894df7b5a4c63718` |
+| `evidence/P01-P14/README.md` | scientific-evidence | 9268 | `2e3f42d17569bd184c6ce2bcd61df8d3639d77a102f312ec00b631c657238981` |
 | `evidence/P01-P14/README_zh-CN.md` | scientific-evidence | 8700 | `ea7be18d6e045afc8d0f20906ec7799dea06a8a19240e43c2b4c37d4eb21ec50` |
 | `figures/P01-P14_overview_zh-CN.png` | project-figure | 1742798 | `127bcb2ca0eae15894f775cd7be97341a2e6e06aee9a47bf37696c0d7aa61645` |
 | `figures/README.md` | project-figure | 592 | `4cd88675c2d8580e83aed97dc54063bd966df62bdf0419834aca57feb31428f2` |
+| `figures/README_EN.md` | project-figure | 590 | `bec6bf096504b7b3cf138d3d0083a9a5f47282a3541993c4e3917af30a8394d7` |
 | `figures/social-preview.png` | project-figure | 1273242 | `9f0d9ab3f77ed1fd3ef94b05e62cfedf5e2803c93d72ce9a469360594b9ba199` |
 | `LICENSE` | repository-root | 11357 | `4135cedb444c19860a53c85dc984b9c0a9644cba632c8ef44c45cbb1f88699b2` |
+| `manuscripts/P01-P14_evidence_matrix_EN.md` | manuscript | 8347 | `75c0c42d57a800d12c53e1288d7c200aa346c3e8d4522532e18ce87846423e92` |
 | `manuscripts/P01-P14_evidence_matrix_zh-CN.md` | manuscript | 6881 | `bbeaa1341de971213853d63c76ce805c7683fb4621204a50656a7d938364528a` |
 | `manuscripts/PUBLICATION_POSITIONING_EN.md` | manuscript | 2673 | `515bde1a1eba2d62ce7993d7b95d7b54c7dc6774388f6ebf15d037029985196f` |
 | `manuscripts/PUBLICATION_POSITIONING_zh-CN.md` | manuscript | 2072 | `a3eb2f5902dea117f2172062398184b293fa5f1eb707909a45c08485325c291a` |
 | `manuscripts/README.md` | manuscript | 236 | `f7b32245c124593d8d28fc8ecb199c650c0213b9e3ae18cb4728dfe88215447a` |
+| `manuscripts/README_EN.md` | manuscript | 542 | `29dfe2d46970eabd4f266dce864ea38b990bfa6c9d5a4437e7266cf9da2dec58` |
 | `NOTICE` | repository-root | 908 | `782f9e250566e483860e03f6802a961adbf241839271d1c5bb5992e25dab8198` |
 | `P12_CORRIGENDUM.md` | repository-root | 3525 | `0878c9a6702a9731f65f0fc5e033823b521a319a1dfb8a345343e852d8fb895c` |
 | `project/ACHIEVEMENTS_zh-CN.md` | project-narrative | 2560 | `a8eb02bee0520fa72ae17fec759763e5e105ee0456f47edc2fe8790c5b9e890a` |
@@ -162,11 +170,12 @@
 | `project/POST_REMEDIATION_RESPONSE_2026-09-01_zh-CN.md` | project-narrative | 5886 | `60b564d21f5d1c8c21a523a276da0ad95a8932bef2ddd14d6bbee53f0673fb8c` |
 | `project/PROJECT_BACKGROUND_zh-CN.md` | project-narrative | 1077 | `376edd3d1e88e520c1924f7f2d4ce1d6c6c0433168096005e4a54d17bb1e1f21` |
 | `project/README.md` | project-narrative | 1357 | `0a05c8b357636ec9ead8fda76f7ca41008ec7d92da4ff627756afb6224062523` |
+| `project/README_EN.md` | project-narrative | 1389 | `d3aa2d921ac90b0b0a4b5d8997d91153ae1b21a2b5b5462cdc486b88e03e823b` |
 | `project/release-history/RELEASE_NOTES_v0.3.1.md` | project-narrative | 5509 | `8b7baf1fed98a81bdcae9056806f188466453473bdab15cd6a04270d6d84155b` |
 | `project/RESEARCH_ITEMS_zh-CN.md` | project-narrative | 1939 | `508c64832f3b075a9d073e33badd35be764012eebb94624fc7966fa2b03b143f` |
 | `project/RESEARCH_VALUE_zh-CN.md` | project-narrative | 1319 | `7308230ee6f5dd7009de88e0483b3ff298baa2a438d8f99fc010103e24b80c5b` |
 | `project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md` | project-narrative | 7037 | `2ea92085a7bab6b235f75ca06bb27b97162d00656395f879309da42a48df3c9d` |
-| `README.md` | repository-root | 10658 | `073b15d7bc5b68dd9c5ff702cf89ad96e3806c9bebb0707d9999d36be7f3c0e7` |
+| `README.md` | repository-root | 10740 | `71ba6cbaf8f0b03a848af589160fc7ce1dedb898c876fa1a1ff9f73089895a15` |
 | `README_zh-CN.md` | repository-root | 9006 | `09e235096c0a49c3bc1ecfeaa3f3ce3c8fcc7932cf27760c2eb60e82986ce92c` |
 | `reproducibility/conda-linux-64.explicit.txt` | reproducibility | 18332 | `543abce03ee369526d83016126d7a0b7a82de48e0ef3356d3877289af90f5637` |
 | `reproducibility/DETAILED_COMPUTATION_GUIDE_zh-CN.md` | reproducibility | 12109 | `f52a6d892e2a2b48ce50c054b5ba568e38827ffff89576d0c8240265cdb77605` |
@@ -174,14 +183,15 @@
 | `reproducibility/PLATFORM_MATRIX_EN.md` | reproducibility | 1963 | `1ea2cc5909ef145c93c5dcdc9c3bfaefb1726bc4c51ea47f57134fefcb5141cd` |
 | `reproducibility/PLATFORM_MATRIX_zh-CN.md` | reproducibility | 1773 | `60cd3af1c440d40f30ef58b54b35bec5c7ae764faec54ef9dbc70bb32863fa88` |
 | `reproducibility/README.md` | reproducibility | 1259 | `89117413d55dfeeb8887e444c8bd85715d701a94e4a416cc5c9b579bee73da39` |
+| `reproducibility/README_EN.md` | reproducibility | 1424 | `4c34e2025915210f4065bd542410cdf4cd3da9acf4af3a1c1667acf768889cee` |
 | `reproducibility/RUNBOOK_EN.md` | reproducibility | 2854 | `2c7831ca9ee5f18ca597c66897f2f5d5e79cf766157442ee7d8e19706b5c9335` |
 | `reproducibility/RUNBOOK_zh-CN.md` | reproducibility | 3133 | `eeb5267031e04c8bc3f3585a2934000773c0ea966395c146c0c8a5a2fe7a43e8` |
-| `reproducibility/TYPICAL_PROGRAMS.md` | reproducibility | 8079 | `112593abdaa36bdf8cb598f210f894f3d4533ec1cb64c540b8ea251740f495dd` |
+| `reproducibility/TYPICAL_PROGRAMS.md` | reproducibility | 8089 | `d1ec8341d698c8cafb0669861f24204ed628ac36ed296208284a94bfc38f09b6` |
 | `reproducibility/TYPICAL_PROGRAMS_zh-CN.md` | reproducibility | 9696 | `630556aecb43051c26ee03b08a1ca51e9f566b9c528062add50b9b02ab8ed13f` |
 | `reproducibility/wsl/activate-ai4orgchem-public.sh` | reproducibility | 1475 | `5361fab00ebc6c614dfc191fffb4fb5c1eb0690ab862ad27000359347709cb2e` |
 | `reproducibility/wsl/ai4orgchem-verify` | reproducibility | 929 | `7eec73ec0269e9549a238707c6edf792a3bbae8161b72d714ba84abe3c43dc92` |
 | `reproducibility/wsl/README.md` | reproducibility | 1742 | `afb4d76e6f525e4b55036a446867d6ecc47b1657d7f17f6303062f4031ad832c` |
-| `REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md` | repository-root | 19225 | `e92674be9af0073250f5884d19617f55891aec7ffef7996fda582daf51b98129` |
+| `REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md` | repository-root | 19403 | `754ed7214159534a60879b30c114a1688924932a226ad55f9ad5eaaa8679cc62` |
 | `REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md` | repository-root | 15886 | `89ad8bce6bb343e9c1e7ebe3340d5e4033cef4696c0db8cce1658d79e87dd6c9` |
 | `science-v0.2/configs/science_v0.2/agent_run_bundle.schema.json` | science-v0.2-evidence | 2722 | `aa46286cc01b24cda839664d1e660f5849962586748ee03007c257834dd9e96d` |
 | `science-v0.2/configs/science_v0.2/blind_bundle.schema.json` | science-v0.2-evidence | 1521 | `e95784f19fc17a16995373d3d92742c084b2c5936f66b8fbeb4941210e136152` |
@@ -531,6 +541,7 @@
 | `science-v0.3/tests/science_v0.3/test_wp2_open_lane.py` | repository-root | 2156 | `cca3870da7c6b53177f7d698067d1cbc1b9d3d119a0367121b1907631a97b336` |
 | `software/pyproject.toml` | software-or-test | 668 | `0cbd49364ad254f4b7891b86c416e0ce72cfef94b24a5664f19f2846a14ab6a8` |
 | `software/README.md` | software-or-test | 2590 | `f5eabf9761507af17b687c47aec85ed51a85874d98ac8d91bd4408fa3e8cdc08` |
+| `software/README_EN.md` | software-or-test | 2287 | `d3b4acc1556617fb27e6164ed25f75911c7e0927e590d33c090f6b66b3b481d2` |
 | `software/schemas/p14-result.schema.json` | software-or-test | 5015 | `31acb5093e373bc142a7285f506cf98efd1b1def56c1a8d040959c7bb8424492` |
 | `software/scripts/classify_p14_strained_aromatic_pi_distortivity.py` | software-or-test | 19498 | `f620b7abd67f9b86d50bf63d2a58614ee8c1c74ba0c57e845838d8cdf6fbb2b1` |
 | `software/scripts/refresh_release_snapshot.py` | software-or-test | 3738 | `ada6fd35f65ad29ed509867f75da0615513ec4fcdef7e6c3d5a1acc28aecdc6e` |
@@ -542,7 +553,7 @@
 | `software/scripts/validate_p14_evidence.py` | software-or-test | 7143 | `247b86aeb91a011df2488e38e11dd400a07d816462aa8bf0188a477424aee732` |
 | `software/scripts/validate_p14_memory_controlled_conditional_scf.py` | software-or-test | 7217 | `4ae13c258052395142c8c0f2b24271ee63d51535c2c4dff181d29f93fce8e655` |
 | `software/scripts/validate_public_evidence.py` | software-or-test | 5172 | `ced1880f597f343bff982604061921a5c351a0a89979018cdb56c2ab3e38a2a2` |
-| `software/scripts/validate_release_package.py` | software-or-test | 16985 | `dbfb22136ccdac28b1a18b60021e8301300ed88f3d1723775f238c74257e1492` |
+| `software/scripts/validate_release_package.py` | software-or-test | 19758 | `1d24c11970b346ab3097161c2d0dfb89564f44d5185c4b04435774c89f1e9c3a` |
 | `software/scripts/validate_science_v02_wp0_public.py` | software-or-test | 4807 | `e7c57be3642ccbc4001c92c39447cce4a1777c73c2dc199a63562d170ad263db` |
 | `software/scripts/validate_wsl_release.py` | software-or-test | 3690 | `9ef2ef7ffe4fc654751268474142c54e0d79f695684a9167b267dbbe3646dcd6` |
 | `software/src/ai4orgchem/lfmo/__init__.py` | software-or-test | 1385 | `6fb72d30002525c94773ee7fb0a2a6ee73f38388e204de6c18817df95d88a438` |

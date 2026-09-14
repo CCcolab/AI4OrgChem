@@ -2,7 +2,7 @@
 
 [中文导航](README_zh-CN.md)
 
-This index connects every scoped scientific determination to its frozen data card, protocol, machine-readable result, and report. “Consistent” means consistent with the corresponding monograph proposition only inside the declared tested domain; it is not an identity reproduction, universal law, or institutional certification. The fourteen propositions form a layered evidence chain, not fourteen equal-status independent QM reproductions.
+This index connects every scoped scientific determination to its frozen data card, protocol, machine-readable result, and report. “Consistent” means consistent with the corresponding monograph proposition only inside the declared tested domain; it is not an identity reproduction, universal law, or institutional certification. The fourteen propositions form a layered evidence chain, not fourteen equal-status independent QM reproductions. The summaries on this page are in English; some linked underlying cards, protocols, and reports are Chinese-language original records, while JSON results are language-neutral. Their language does not change their evidentiary status.
 
 ## Classification summary (published v0.3.1 snapshot)
 
@@ -39,7 +39,7 @@ python software/scripts/validate_public_evidence.py
 python software/scripts/validate_p14_evidence.py
 ```
 
-The first validator checks all fourteen packaged result records. The second rebuilds P14 BLA and energy gates from four published lower-level JSON files and verifies inputs and hashes. Neither reruns expensive QM. The complete cross-proposition matrix is available in [`manuscripts/P01-P14_evidence_matrix_zh-CN.md`](../../manuscripts/P01-P14_evidence_matrix_zh-CN.md).
+The first validator checks all fourteen packaged result records. The second rebuilds P14 BLA and energy gates from four published lower-level JSON files and verifies inputs and hashes. Neither reruns expensive QM. The complete English cross-proposition matrix is available in the [P01–P14 evidence matrix](../../manuscripts/P01-P14_evidence_matrix_EN.md).
 
 ## Evidence boundaries
 

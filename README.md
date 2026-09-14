@@ -12,7 +12,7 @@ AI4OrgChem is an **AI for Science (AI4S) Agent** for independent computational r
 
 > **AI-assisted research and engineering:** **OpenAI Codex (GPT-5.6)**. Project authorship, scientific decisions, interpretations, and publication responsibility remain with Xiao Chen; OpenAI is not presented as a project author, scientific certifier, peer reviewer, or institutional endorser.
 
-The associated manuscript has not yet undergone peer review. Detailed classifications, qualifications, and corrections are recorded in the [evidence matrix](manuscripts/P01-P14_evidence_matrix_zh-CN.md) and linked proposition records.
+The associated manuscript has not yet undergone peer review. Detailed classifications, qualifications, and corrections are recorded in the [evidence matrix](manuscripts/P01-P14_evidence_matrix_EN.md) and linked proposition records.
 
 ## Why this project exists
 
@@ -29,7 +29,7 @@ The project asks how far independent calculations and other traceable evidence s
 
 ## Scientific outcome
 
-The project has assembled protocols, processed results, data cards, and scope-limited reports for fourteen propositions. It also publishes the software and validation paths needed to inspect these records. The [evidence collection](evidence/P01-P14/README.md) and [matrix](manuscripts/P01-P14_evidence_matrix_zh-CN.md) provide the proposition-level findings and their limitations.
+The project has assembled protocols, processed results, data cards, and scope-limited reports for fourteen propositions. It also publishes the software and validation paths needed to inspect these records. The [evidence collection](evidence/P01-P14/README.md) and [matrix](manuscripts/P01-P14_evidence_matrix_EN.md) provide the proposition-level findings and their limitations.
 
 Representative frozen results are:
 
@@ -63,28 +63,28 @@ The completed bounded engineering line connects frozen scientific evidence to ma
 - PySR: the bounded pi-pi blind test passed, while the pi-sigma test failed;
 - evidence agent: answers are restricted to frozen evidence and must expose sources and scope.
 
-The dataset is too small for industrial or universal molecular generalization. Details are provided in the [Agent capabilities and results](ai4s-agent/CAPABILITIES_AND_RESULTS_zh-CN.md), [machine-readable evaluation summary](ai4s-agent/EVALUATION_SUMMARY.json), and [limitations](ai4s-agent/LIMITATIONS_zh-CN.md).
+The dataset is too small for industrial or universal molecular generalization. Details are provided in the [Agent capabilities and results](ai4s-agent/CAPABILITIES_AND_RESULTS_EN.md), [machine-readable evaluation summary](ai4s-agent/EVALUATION_SUMMARY.json), and [limitations](ai4s-agent/LIMITATIONS_EN.md).
 
 ## Repository map
 
 | Path | Purpose |
 |---|---|
 | [`REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md`](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md) | Rapid AI4S reproduction and evidence-verification route for scientific readers |
-| [`project/`](project/README.md) | Background, research questions, value, achievements, and master proposition table |
+| [`project/`](project/README_EN.md) | Background, research questions, value, achievements, and master proposition table |
 | [`evidence/P01-P14/`](evidence/P01-P14/README.md) | Frozen data cards, protocols, processed results, and scoped reports |
-| [`manuscripts/`](manuscripts/README.md) | Evidence matrix and bilingual publication positioning; no pre-submission manuscript drafts are included |
-| [`ai4s-agent/`](ai4s-agent/README.md) | Agent architecture, capabilities, evaluation, governance, and limitations |
-| [`software/`](software/README.md) | Public LFMO/conditional-SCF implementation and 69 focused tests |
+| [`manuscripts/`](manuscripts/README_EN.md) | Evidence matrix and bilingual publication positioning; no pre-submission manuscript drafts are included |
+| [`ai4s-agent/`](ai4s-agent/README_EN.md) | Agent architecture, capabilities, evaluation, governance, and limitations |
+| [`software/`](software/README_EN.md) | Public LFMO/conditional-SCF implementation and 69 focused tests |
 | [Typical reproduction programs](reproducibility/TYPICAL_PROGRAMS.md) | Select evidence checks, conditional-SCF tests, or downloadable QM reruns by cost, with step-by-step computation notes |
-| [`reproducibility/`](reproducibility/README.md) | Full runtime instructions, environments, and WSL 2 platform boundaries |
-| [`figures/`](figures/README.md) | Project-authored overview figure |
-| [Science enhancement evidence](science-v0.2/README.md) | Self-contained configurations, selected results, decisions, reports, tests, and hashes |
-| [Scientific-closure evidence](science-v0.3/README.md) | Seven-work-package extension and its separate evidence boundaries |
-| [`manifests/`](manifests/FILE_INVENTORY.md) | File inventory and SHA-256 release manifest |
+| [`reproducibility/`](reproducibility/README_EN.md) | Full runtime instructions, environments, and WSL 2 platform boundaries |
+| [`figures/`](figures/README_EN.md) | Project-authored overview figure |
+| [Science enhancement evidence (bilingual)](science-v0.2/README.md) | Self-contained configurations, selected results, decisions, reports, tests, and hashes |
+| [Scientific-closure evidence (bilingual)](science-v0.3/README.md) | Seven-work-package extension and its separate evidence boundaries |
+| [`manifests/`](manifests/README_EN.md) | File inventory and SHA-256 release manifest |
 
 ## Examine and reproduce
 
-Start with the [rapid evidence-verification guide](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md) or [typical reproduction programs](reproducibility/TYPICAL_PROGRAMS.md). The [detailed computation guide](reproducibility/DETAILED_COMPUTATION_GUIDE_zh-CN.md), [English runbook](reproducibility/RUNBOOK_EN.md), and [platform matrix](reproducibility/PLATFORM_MATRIX_EN.md) contain commands, hardware requirements, and the distinction between evidence checks and costly quantum-chemical reruns.
+Start with the [rapid evidence-verification guide](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md) or [typical reproduction programs](reproducibility/TYPICAL_PROGRAMS.md). The [English runbook](reproducibility/RUNBOOK_EN.md) and [platform matrix](reproducibility/PLATFORM_MATRIX_EN.md) contain commands, hardware requirements, and the distinction between evidence checks and costly quantum-chemical reruns. A separate [detailed computation guide (Chinese)](reproducibility/DETAILED_COMPUTATION_GUIDE_zh-CN.md) is also available.
 
 ## Reproducibility and evidence boundaries
 
@@ -96,7 +96,7 @@ Start with the [rapid evidence-verification guide](REVIEW_GUIDE_FOR_QUANTUM_CHEM
 
 ## Evidence matrix and publication positioning
 
-- [Evidence matrix](manuscripts/P01-P14_evidence_matrix_zh-CN.md)
+- [Evidence matrix](manuscripts/P01-P14_evidence_matrix_EN.md)
 - [Publication positioning](manuscripts/PUBLICATION_POSITIONING_EN.md)
 - [中文发布定位](manuscripts/PUBLICATION_POSITIONING_zh-CN.md)
 
@@ -106,4 +106,4 @@ Project-authored software and documentation are released under the [Apache Licen
 
 ## Citation
 
-The sole project author is **Xiao Chen**. Contact: [chenxiao0101@gmail.com](mailto:chenxiao0101@gmail.com). AI-assisted research and engineering support was provided through **OpenAI Codex (GPT-5.6)**. Authorship, CRediT contributions, AI-assistance disclosure, and the competing-interests statement are recorded in [`AUTHORS.md`](AUTHORS.md). Machine-readable citation metadata is provided in [`CITATION.cff`](CITATION.cff). Affiliation and ORCID are omitted because they were not supplied.
+The sole project author is **Xiao Chen**. Contact: [chenxiao0101@gmail.com](mailto:chenxiao0101@gmail.com). AI-assisted research and engineering support was provided through **OpenAI Codex (GPT-5.6)**. Authorship, CRediT contributions, AI-assistance disclosure, and the competing-interests statement are recorded in the [bilingual authorship statement](AUTHORS.md). Machine-readable citation metadata is provided in [`CITATION.cff`](CITATION.cff). Affiliation and ORCID are omitted because they were not supplied.

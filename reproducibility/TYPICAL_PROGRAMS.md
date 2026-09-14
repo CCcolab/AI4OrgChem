@@ -84,7 +84,7 @@ Process: hash public inputs → verify five-parameter reconstruction, atom order
 python software/scripts/run_p14_benzotricyclobutadiene_source_level_fixed_geometry.py
 ```
 
-See the [P14 input identity statement](../evidence/P01-P14/P14/inputs/README.md). These are reconstructed source-proxy coordinates because the historical Cartesian coordinates were not published.
+See the [P14 input identity statement (English)](../evidence/P01-P14/P14/inputs/README.md). These are reconstructed source-proxy coordinates because the historical Cartesian coordinates were not published.
 
 ## L4 — P14 five-parameter production optimization
 
