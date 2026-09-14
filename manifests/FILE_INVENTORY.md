@@ -28,7 +28,7 @@
 | `ai4s-agent/SYSTEM_ARCHITECTURE_EN.md` | agent-delivery | 1029 | `088b80306e941f18200e3bdd13522c7095ceebc9e90f3da623f3ada67c5de4d7` |
 | `ai4s-agent/SYSTEM_ARCHITECTURE_zh-CN.md` | agent-delivery | 1114 | `c767a97c2fca2abdb13540dfc6b6e8983952dbc9f3cfd5f119017da2dd830a8a` |
 | `AUTHORS.md` | repository-root | 2416 | `148d3f76aea865f1ed862c9b65ea980e92d170d3b95a598cba626250cd681df2` |
-| `CHANGELOG.md` | repository-root | 11379 | `2a49076af135c754ae10760e9d0fff30fb3cdf442c58669d90fdaa6a82b856ce` |
+| `CHANGELOG.md` | repository-root | 11701 | `0de2bc79903be7f82e0cdb232e187160b6902979e76331074275e256f848f18b` |
 | `CITATION.cff` | repository-root | 971 | `10f2e0df243f52a16f26f7ed3d65bcdd9583cfef7476cf3c1e787375a314e6c5` |
 | `configs/qm/p09_exchange_integral_classes_v0.1.yaml` | public-configuration | 7326 | `324c2e7988be48ed8898a5e9b04a87d40386ca8a8f7eb603d9a697d3ac6a6ee2` |
 | `configs/qm/p14_strained_aromatic_pi_distortivity_v0.1.yaml` | public-configuration | 6680 | `f64fed4aeb172deaf5c71e637af367656e24b867570061987a5311fdbe48e06b` |
