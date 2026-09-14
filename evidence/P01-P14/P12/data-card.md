@@ -1,6 +1,6 @@
 > **公开版说明（2026-08-26）：** 本文是命题关闭时形成的冻结证据快照。其中“未启动/禁用”等阶段性措辞只描述当时的任务边界，不代表项目当前进度；`ai4s-agent/EVALUATION_SUMMARY.json`是`v0.3.1`历史机器快照，当前P12解释见下方勘误。
 
-> **2026-09-13 解释勘误：** 以下“partially consistent”仅是`v0.3.1`历史发布标签，其以跨CESE/ASE估计量起点差异为反对子项的旧理由已失效。当前证据解释见[P12勘误](../../../P12_CORRIGENDUM.md)；原始数值与机器结果未改。
+> **2026-09-13 解释勘误：** 以下“partially consistent”仅是`v0.3.1`历史发布标签，其以跨CESE/ASE估计量起点差异为反对子项的旧理由已失效。当前证据解释见[P12勘误](../../../P12_CORRIGENDUM.md#english)；原始数值与机器结果未改。
 
 # P12 annulene size-boundary data card v0.1
 

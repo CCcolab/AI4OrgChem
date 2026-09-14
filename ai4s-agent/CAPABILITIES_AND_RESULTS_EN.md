@@ -4,7 +4,7 @@
 
 ## Scientific task support
 
-The Agent organizes fourteen falsifiable tasks with frozen data cards, protocols, reports, machine results, and validators. It preserves the published v0.3.1 classification snapshot (13 consistent, one partially consistent) while separately linking the [P12 evidence-interpretation note](../P12_CORRIGENDUM.md). The note invalidates the old cross-estimand onset objection without independently establishing a precise onset or changing the frozen classification. P05, P07, P11, and P14 corrections and evidence-grade distinctions remain traceable.
+The Agent organizes fourteen falsifiable tasks with frozen data cards, protocols, reports, machine results, and validators. It preserves the published v0.3.1 classification snapshot (13 consistent, one partially consistent) while separately linking the [P12 evidence-interpretation note](../P12_CORRIGENDUM.md#english). The note invalidates the old cross-estimand onset objection without independently establishing a precise onset or changing the frozen classification. P05, P07, P11, and P14 corrections and evidence-grade distinctions remain traceable.
 
 ## Molecular data and learning
 

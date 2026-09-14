@@ -42,7 +42,7 @@ WSL 2不是这些量子化学公式成立的数学前提，但它是本项目**�
 | P09 | 环丁二烯VDE/ADE与苯ESE的虚拟参考和独立能量组装 | [protocol](../evidence/P01-P14/P09/protocol.md) · [result](../evidence/P01-P14/P09/result.json) | G/DSI/GL、G/GL/GE-1/VR、B3LYP/6-31G(d) |
 | P10 | 苯键长交替五点扫描、电子能/核排斥能/总能及曲率 | [protocol](../evidence/P01-P14/P10/protocol.md) · [result](../evidence/P01-P14/P10/result.json) | B3LYPG/6-31G(d)、独立核间库仑和 |
 | P11 | 呋喃LDE；氰基苯/苯13态全平面逐态受限优化与共轭/诱导贡献 | [furan protocol](../evidence/P01-P14/P11/furan-protocol.md) · [furan result](../evidence/P01-P14/P11/furan-result.json) · [substituent protocol](../evidence/P01-P14/P11/substituent-protocol.md) · [substituent result](../evidence/P01-P14/P11/substituent-result.json) | source-2007 LDE、Fock/overlap条件SCF、state-specific planar optimization、ESE/CE/IE差分 |
-| P12 | 六点轮烯源表算术与账本内尺寸变化；不同估计量的ASE趋势仅作旁证 | [protocol](../evidence/P01-P14/P12/protocol.md) · [result](../evidence/P01-P14/P12/result.json) · [corrigendum](../P12_CORRIGENDUM.md) | VDE/ESE/CESE、相对局域增量；不作跨估计量同口径阈值判定 |
+| P12 | 六点轮烯源表算术与账本内尺寸变化；不同估计量的ASE趋势仅作旁证 | [protocol](../evidence/P01-P14/P12/protocol.md) · [result](../evidence/P01-P14/P12/result.json) · [corrigendum](../P12_CORRIGENDUM.md#中文) | VDE/ESE/CESE、相对局域增量；不作跨估计量同口径阈值判定 |
 | P13 | Kekulé候选枚举、GL规则优先级、RDKit分子式和PBH账本 | [protocol](../evidence/P01-P14/P13/protocol.md) · [result](../evidence/P01-P14/P13/result.json) | 图论完美匹配、RDKit、公开数值账本 |
 | P14 | C12H6 PLG条件SCF、固定几何端点、B3LYPG/6-31G(d)五参数生产优化及证据资格门禁 | [protocol](../evidence/P01-P14/P14/protocol.md) · [result](../evidence/P01-P14/P14/result.json) | **一致**；G/PLG梯度、终止、边界、SCF、电子数及结构/能量容差全部通过 |
 
@@ -137,8 +137,8 @@ python software/scripts/validate_wsl_release.py
 
 - [P01–P14证据导航](../evidence/P01-P14/README_zh-CN.md)
 - [十四项总证据矩阵](../manuscripts/P01-P14_evidence_matrix_zh-CN.md)
-- [中文运行手册](../reproducibility/RUNBOOK_zh-CN.md) / [English runbook](../reproducibility/RUNBOOK_EN.md)
-- [中文平台矩阵](../reproducibility/PLATFORM_MATRIX_zh-CN.md) / [Runtime platform matrix](../reproducibility/PLATFORM_MATRIX_EN.md)
+- [中文运行手册](../reproducibility/RUNBOOK_zh-CN.md)
+- [中文平台矩阵](../reproducibility/PLATFORM_MATRIX_zh-CN.md)
 - [WSL双目录入口说明](../reproducibility/wsl/README.md)
 - [公开核心软件与验证器](../software/README.md)
 - [AI4S Agent能力与结果](../ai4s-agent/CAPABILITIES_AND_RESULTS_zh-CN.md)及[限制](../ai4s-agent/LIMITATIONS_zh-CN.md)

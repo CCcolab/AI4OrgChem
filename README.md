@@ -84,7 +84,7 @@ The dataset is too small for industrial or universal molecular generalization. D
 
 ## Examine and reproduce
 
-Start with the [rapid evidence-verification guide](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md) or [typical reproduction programs](reproducibility/TYPICAL_PROGRAMS.md). The [English runbook](reproducibility/RUNBOOK_EN.md) and [platform matrix](reproducibility/PLATFORM_MATRIX_EN.md) contain commands, hardware requirements, and the distinction between evidence checks and costly quantum-chemical reruns. A separate [detailed computation guide (Chinese)](reproducibility/DETAILED_COMPUTATION_GUIDE_zh-CN.md) is also available.
+Start with the [rapid evidence-verification guide](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md) or [typical reproduction programs](reproducibility/TYPICAL_PROGRAMS.md). The [English runbook](reproducibility/RUNBOOK_EN.md) and [platform matrix](reproducibility/PLATFORM_MATRIX_EN.md) contain commands, hardware requirements, and the distinction between evidence checks and costly quantum-chemical reruns. For the longer Chinese-language computation guide, use the clearly labeled language switch at the top of this page.
 
 ## Reproducibility and evidence boundaries
 
@@ -98,7 +98,6 @@ Start with the [rapid evidence-verification guide](REVIEW_GUIDE_FOR_QUANTUM_CHEM
 
 - [Evidence matrix](manuscripts/P01-P14_evidence_matrix_EN.md)
 - [Publication positioning](manuscripts/PUBLICATION_POSITIONING_EN.md)
-- [中文发布定位](manuscripts/PUBLICATION_POSITIONING_zh-CN.md)
 
 ## License
 

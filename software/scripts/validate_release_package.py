@@ -300,8 +300,10 @@ def validate_computation_guide(failures: list[str]) -> None:
     if "DETAILED_COMPUTATION_GUIDE_zh-CN.md" not in (ROOT / "README_zh-CN.md").read_text(encoding="utf-8"):
         failures.append("Chinese homepage lacks detailed-guide link")
     english_homepage = (ROOT / "README.md").read_text(encoding="utf-8")
-    if "RUNBOOK_EN.md" not in english_homepage or "DETAILED_COMPUTATION_GUIDE_zh-CN.md" not in english_homepage:
-        failures.append("English homepage must link the English runbook and label the Chinese detailed guide")
+    if "RUNBOOK_EN.md" not in english_homepage or "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md" not in english_homepage:
+        failures.append("English homepage must link the English runbook and review guide")
+    if "](reproducibility/DETAILED_COMPUTATION_GUIDE_zh-CN.md)" in english_homepage:
+        failures.append("English homepage must not route readers directly to the Chinese-only detailed guide")
 
 
 def validate_english_navigation(failures: list[str]) -> None:
@@ -360,6 +362,29 @@ def validate_english_navigation(failures: list[str]) -> None:
                 "software/README.md",
             ):
                 failures.append(f"English page routes to Chinese directory entry: {source} -> {target}")
+
+    companion_path = ROOT / "evidence" / "P01-P14" / "EVIDENCE_COMPANION_EN.md"
+    english_index = (ROOT / "evidence" / "P01-P14" / "README.md").read_text(encoding="utf-8")
+    english_guide = (ROOT / "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md").read_text(encoding="utf-8")
+    if not companion_path.is_file():
+        failures.append("English proposition evidence companion missing")
+    else:
+        companion = companion_path.read_text(encoding="utf-8")
+        headings = {
+            re.sub(r"[^a-z0-9 -]", "", heading.lower()).replace(" ", "-")
+            for heading in re.findall(r"(?m)^### (.+)$", companion)
+        }
+        anchors = re.findall(r"\]\(EVIDENCE_COMPANION_EN\.md#([a-z0-9-]+)\)", english_index)
+        if len(anchors) != 45 or len(set(anchors)) != 45:
+            failures.append("English evidence navigator must expose 45 distinct companion sections")
+        for anchor in anchors:
+            if anchor not in headings:
+                failures.append(f"English evidence companion anchor missing: {anchor}")
+        for proposition in ("p04", "p08", "p09", "p11-b"):
+            if f"EVIDENCE_COMPANION_EN.md#{proposition}-report" not in english_guide:
+                failures.append(f"English review guide lacks {proposition} English report route")
+    if re.search(r"\]\(P\d{2}/(?:[a-z-]*-)?(?:data-card|protocol|report)\.md\)", english_index):
+        failures.append("English evidence navigator links directly to a Chinese-only original record")
 
 
 def validate_current_release_alignment(failures: list[str]) -> None:
