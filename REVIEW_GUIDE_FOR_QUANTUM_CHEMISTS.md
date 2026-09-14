@@ -42,7 +42,7 @@ Each file has a distinct evidentiary responsibility:
 
 ### Step 1 — Spend two minutes identifying the actual claim
 
-Read “Scientific assessment” and “Reproducibility and evidence boundaries” on the [English home page](README.md). Retain three statements:
+Read “Scientific outcome” and “Reproducibility and evidence boundaries” on the [English home page](README.md). Retain three statements:
 
 1. The published `v0.3.1` snapshot records thirteen consistent propositions, one historical partially consistent label (P12), none globally inconsistent, and none unknown; [P12's current evidence interpretation](P12_CORRIGENDUM.md) is separate from that label. P05 now has a seven-angle continuation in the same molecular system. P07 combines an independent same-Hamiltonian five-state path audit with the earlier `DERIVED` synthesis; inspect the bridge identity before interpreting component sums. P11-B moved from partial to consistent only after the source-2007 state-specific planar restricted optimizations reproduced both CE and IE; the old fixed-geometry result remains visible for audit.
 2. The evidence supports a bounded methodological criticism: several textbook heuristics do not automatically become universally sufficient mechanistic explanations.
@@ -50,7 +50,7 @@ Read “Scientific assessment” and “Reproducibility and evidence boundaries�
 
 ### Step 2 — Spend three minutes checking that different claims remain separate
 
-Open the [P01–P14 evidence matrix](manuscripts/P01-P14_evidence_matrix_zh-CN.md). Its rows separate:
+Open the [P01–P14 evidence matrix](manuscripts/P01-P14_evidence_matrix_EN.md). Its rows separate:
 
 ```text
 textbook heuristic → testable monograph proposition → independent method
@@ -63,10 +63,10 @@ The final column matters more than the word “consistent.” A result obtained 
 
 | Question | Recommended entry | Why it is useful first |
 |---|---|---|
-| Can an LFMO pi–pi endpoint have a destabilizing sign? | [P04](evidence/P01-P14/P04/report.md) | It directly tests the conjugation-energy sign at eleven technically valid endpoints. |
-| Why is the butadiene conjugation energy positive? | [P08](evidence/P01-P14/P08/report.md) | It exposes the GL definition, reference construction, and `+1.575676 kcal/mol` result. |
-| Can aromatic and antiaromatic energies be constructed theoretically? | [P09](evidence/P01-P14/P09/report.md) | It permits a direct sign and magnitude check for benzene and cyclobutadiene. |
-| How does the project correct an estimand mismatch and retain incomplete support? | [P11](evidence/P01-P14/P11/substituent-report.md) and [P12](P12_CORRIGENDUM.md) | P11 preserves the superseded fixed-geometry result while replacing it with same-method state-specific optimization; P12 separates a historical label from an unresolved same-estimand onset test. |
+| Can an LFMO pi–pi endpoint have a destabilizing sign? | [P04 original report (primarily Chinese)](evidence/P01-P14/P04/report.md) | It directly tests the conjugation-energy sign at eleven technically valid endpoints. |
+| Why is the butadiene conjugation energy positive? | [P08 original report (primarily Chinese)](evidence/P01-P14/P08/report.md) | It exposes the GL definition, reference construction, and `+1.575676 kcal/mol` result. |
+| Can aromatic and antiaromatic energies be constructed theoretically? | [P09 original report (primarily Chinese)](evidence/P01-P14/P09/report.md) | It permits a direct sign and magnitude check for benzene and cyclobutadiene. |
+| How does the project correct an estimand mismatch and retain incomplete support? | [P11 original report (primarily Chinese)](evidence/P01-P14/P11/substituent-report.md) and [P12 bilingual corrigendum](P12_CORRIGENDUM.md) | P11 preserves the superseded fixed-geometry result while replacing it with same-method state-specific optimization; P12 separates a historical label from an unresolved same-estimand onset test. |
 
 For one proposition, read the files in this order:
 
@@ -108,7 +108,7 @@ Evidence must also be read on two separate axes. `R1–R3` records scientific ev
 | Boundaries and exceptions in aromaticity | P11–P12 | Furan, substituent decomposition, and annulene size onset |
 | Polycyclic and strained aromatic systems | P13–P14 | GL rule hierarchy, graph enumeration, and pi-driven distortion |
 
-Machine learning and the evidence agent form a separate engineering layer. MACE, NequIP, active learning, and PySR ask whether frozen evidence is learnable in a bounded setting or can generate testable candidate relations. They cannot change any P01–P14 quantum-chemical classification. A scientific reviewer may initially skip the entire [`ai4s-agent/`](ai4s-agent/README.md) directory.
+Machine learning and the evidence agent form a separate engineering layer. MACE, NequIP, active learning, and PySR ask whether frozen evidence is learnable in a bounded setting or can generate testable candidate relations. They cannot change any P01–P14 quantum-chemical classification. A scientific reviewer may initially skip the entire [`ai4s-agent/`](ai4s-agent/README_EN.md) directory.
 
 ### `v0.3.0` adds enhancement evidence, not a reclassification of the fourteen propositions
 
@@ -185,7 +185,7 @@ Expected output includes:
 - thirteen consistent, one partially consistent, zero globally inconsistent, and zero unknown classifications.
 - `WP6_V03_RELEASE_VALIDATION_OK`.
 
-Readers interested only in scientific evidence do not need PySCF, CUDA, MACE, or PySR. Full runtime and WSL 2 information is provided only for software and platform reproduction in the [reproducibility directory](reproducibility/README.md).
+Readers interested only in scientific evidence do not need PySCF, CUDA, MACE, or PySR. Full runtime and WSL 2 information is provided only for software and platform reproduction in the [reproducibility directory](reproducibility/README_EN.md).
 
 ## 8. Recommended review wording
 
@@ -197,7 +197,7 @@ For a reviewer who has not independently rerun every historical computation, the
 
 - [English home page](README.md)
 - [P01–P14 evidence index](evidence/P01-P14/README.md)
-- [Evidence matrix](manuscripts/P01-P14_evidence_matrix_zh-CN.md)
+- [Evidence matrix](manuscripts/P01-P14_evidence_matrix_EN.md)
 - [Publication positioning](manuscripts/PUBLICATION_POSITIONING_EN.md)
-- [Reproducibility and platform boundaries](reproducibility/README.md)
-- [Authorship, contributions, and competing interests](AUTHORS.md)
+- [Reproducibility and platform boundaries](reproducibility/README_EN.md)
+- [Authorship, contributions, and competing interests (bilingual)](AUTHORS.md)

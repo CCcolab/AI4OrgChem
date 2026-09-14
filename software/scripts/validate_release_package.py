@@ -297,9 +297,69 @@ def validate_computation_guide(failures: list[str]) -> None:
         failures.append("detailed guide WSL determination table must contain exactly P01-P14")
     if "WSL 2不是这些量子化学公式成立的数学前提" not in text:
         failures.append("detailed guide must distinguish canonical runtime from mathematical necessity")
-    for homepage in (ROOT / "README.md", ROOT / "README_zh-CN.md"):
-        if "DETAILED_COMPUTATION_GUIDE_zh-CN.md" not in homepage.read_text(encoding="utf-8"):
-            failures.append(f"homepage lacks detailed-guide link: {homepage.name}")
+    if "DETAILED_COMPUTATION_GUIDE_zh-CN.md" not in (ROOT / "README_zh-CN.md").read_text(encoding="utf-8"):
+        failures.append("Chinese homepage lacks detailed-guide link")
+    english_homepage = (ROOT / "README.md").read_text(encoding="utf-8")
+    if "RUNBOOK_EN.md" not in english_homepage or "DETAILED_COMPUTATION_GUIDE_zh-CN.md" not in english_homepage:
+        failures.append("English homepage must link the English runbook and label the Chinese detailed guide")
+
+
+def validate_english_navigation(failures: list[str]) -> None:
+    """Keep the public English entry points on English pages where available."""
+    routes = {
+        "README.md": (
+            "manuscripts/P01-P14_evidence_matrix_EN.md",
+            "project/README_EN.md",
+            "manuscripts/README_EN.md",
+            "ai4s-agent/README_EN.md",
+            "ai4s-agent/CAPABILITIES_AND_RESULTS_EN.md",
+            "ai4s-agent/LIMITATIONS_EN.md",
+            "software/README_EN.md",
+            "reproducibility/README_EN.md",
+            "figures/README_EN.md",
+            "manifests/README_EN.md",
+        ),
+        "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md": (
+            "manuscripts/P01-P14_evidence_matrix_EN.md",
+            "ai4s-agent/README_EN.md",
+            "reproducibility/README_EN.md",
+        ),
+        "evidence/P01-P14/README.md": (
+            "../../manuscripts/P01-P14_evidence_matrix_EN.md",
+        ),
+        "ai4s-agent/README_EN.md": (
+            "SYSTEM_ARCHITECTURE_EN.md",
+            "CAPABILITIES_AND_RESULTS_EN.md",
+            "EVIDENCE_GOVERNANCE_EN.md",
+            "LIMITATIONS_EN.md",
+        ),
+    }
+    for source, targets in routes.items():
+        document = (ROOT / source).read_text(encoding="utf-8")
+        for target in targets:
+            if f"]({target})" not in document:
+                failures.append(f"English navigation route missing: {source} -> {target}")
+            resolved = (ROOT / source).parent / target
+            if not resolved.is_file():
+                failures.append(f"English navigation target missing: {source} -> {target}")
+
+    for source in ("README.md", "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md"):
+        document = (ROOT / source).read_text(encoding="utf-8")
+        for label, target in re.findall(r"\[([^\]]+)\]\(([^)]+)\)", document):
+            if target.endswith("_zh-CN.md") and not any(
+                marker in label.lower() for marker in ("chinese", "中文")
+            ):
+                failures.append(f"Chinese target lacks language label: {source} -> {target}")
+            if target in (
+                "ai4s-agent/README.md",
+                "figures/README.md",
+                "manifests/FILE_INVENTORY.md",
+                "manuscripts/README.md",
+                "project/README.md",
+                "reproducibility/README.md",
+                "software/README.md",
+            ):
+                failures.append(f"English page routes to Chinese directory entry: {source} -> {target}")
 
 
 def validate_current_release_alignment(failures: list[str]) -> None:
@@ -419,6 +479,7 @@ def main() -> int:
 
     validate_workflow(failures)
     validate_computation_guide(failures)
+    validate_english_navigation(failures)
     validate_current_release_alignment(failures)
     result = {
         "status": "PASS" if not failures else "FAIL",
