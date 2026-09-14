@@ -159,7 +159,7 @@ python software/scripts/run_p14_benzotricyclobutadiene_smoke.py
 python software/scripts/run_p14_benzotricyclobutadiene_source_level_fixed_geometry.py
 ```
 
-默认输出位于`runs/reproduction/p14/`。公开冻结输入及其身份说明见[P14输入说明](../evidence/P01-P14/P14/inputs/README.md)。
+默认输出位于`runs/reproduction/p14/`。公开冻结输入及其身份说明见[P14输入说明](../evidence/P01-P14/P14/inputs/README_zh-CN.md)。
 
 ### 预期输出与判读
 

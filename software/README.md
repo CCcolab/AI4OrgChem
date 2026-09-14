@@ -26,6 +26,6 @@ python software/scripts/validate_wsl_release.py
 python software/scripts/validate_release_package.py
 ```
 
-安装与完整测试方法见[中文运行手册](../reproducibility/RUNBOOK_zh-CN.md)或[英文运行手册](../reproducibility/RUNBOOK_EN.md)。项目权威科学环境为WSL 2 / Ubuntu 24.04；原生Windows仅作为有限复核平台，不被声明为PySCF、MACE/NequIP或PySR历史结果的等价运行环境。
+安装与完整测试方法见[中文运行手册](../reproducibility/RUNBOOK_zh-CN.md)。项目权威科学环境为WSL 2 / Ubuntu 24.04；原生Windows仅作为有限复核平台，不被声明为PySCF、MACE/NequIP或PySR历史结果的等价运行环境。
 
 本目录不包含原著程序，也不承诺仅凭首版精选包重做全部昂贵量子化学计算。

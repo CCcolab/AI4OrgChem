@@ -99,7 +99,6 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 ## 证据矩阵与发布定位
 
 - [十四项总证据矩阵](manuscripts/P01-P14_evidence_matrix_zh-CN.md)
-- [英文发布定位](manuscripts/PUBLICATION_POSITIONING_EN.md)
 - [中文发布定位](manuscripts/PUBLICATION_POSITIONING_zh-CN.md)
 
 ## 许可证
