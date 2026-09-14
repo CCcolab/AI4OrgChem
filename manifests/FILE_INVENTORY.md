@@ -177,8 +177,8 @@
 | `project/RESEARCH_ITEMS_zh-CN.md` | project-narrative | 1939 | `508c64832f3b075a9d073e33badd35be764012eebb94624fc7966fa2b03b143f` |
 | `project/RESEARCH_VALUE_zh-CN.md` | project-narrative | 1319 | `7308230ee6f5dd7009de88e0483b3ff298baa2a438d8f99fc010103e24b80c5b` |
 | `project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md` | project-narrative | 7037 | `2ea92085a7bab6b235f75ca06bb27b97162d00656395f879309da42a48df3c9d` |
-| `README.md` | repository-root | 10665 | `8b654b25d29017af5ff3be01576e3b7f76f27a411cba5a228df49713a15426d0` |
-| `README_zh-CN.md` | repository-root | 8940 | `dbc7e3e837024c7f58588e6fbbafcf4273f7c3ae0ce89a1e8670a8c0f1651455` |
+| `README.md` | repository-root | 10668 | `0ac305553728c46301f0cf8168e2e74c2ca79e21e85c9c9737b5ac5411f076ec` |
+| `README_zh-CN.md` | repository-root | 8911 | `b3f35fc2e40b6995e50dc69d613a8d9d496234c466b2bfaaeb507b5e970d851e` |
 | `reproducibility/conda-linux-64.explicit.txt` | reproducibility | 18332 | `543abce03ee369526d83016126d7a0b7a82de48e0ef3356d3877289af90f5637` |
 | `reproducibility/DETAILED_COMPUTATION_GUIDE_zh-CN.md` | reproducibility | 11992 | `071ea729a2f93fd16e3ef59ab4bff32ceffd0862276b79dd3f65de4136703ce9` |
 | `reproducibility/environment.yml` | reproducibility | 214 | `13ae5c398dd95bf2d841fe89c4180cdd98d6d8360618de98ac3f68df27be50a6` |

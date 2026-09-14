@@ -69,20 +69,20 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 
 ## 仓库导航
 
-| 路径 | 内容 |
+| 栏目 | 内容 |
 |---|---|
-| [`REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md`](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md) | 面向科学读者的AI4S快速复算与证据核验路线 |
-| [`project/`](project/README.md) | 项目背景、研究项、研究价值、成果和命题总表 |
-| [`evidence/P01-P14/`](evidence/P01-P14/README_zh-CN.md) | 冻结数据卡、协议、处理后结果和范围化报告 |
-| [`manuscripts/`](manuscripts/README.md) | 证据矩阵和双语发布定位 |
-| [`ai4s-agent/`](ai4s-agent/README.md) | Agent架构、能力、评估、证据治理和限制 |
-| [`software/`](software/README.md) | LFMO/条件SCF公开核心实现和69项测试 |
+| [快速复算与证据核验指南](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md) | 面向科学读者的AI4S快速复算与证据核验路线 |
+| [项目背景](project/README.md) | 项目背景、研究项、研究价值、成果和命题总表 |
+| [P01–P14证据](evidence/P01-P14/README_zh-CN.md) | 冻结数据卡、协议、处理后结果和范围化报告 |
+| [发表材料](manuscripts/README.md) | 证据矩阵和双语发布定位 |
+| [AI4S Agent](ai4s-agent/README.md) | Agent架构、能力、评估、证据治理和限制 |
+| [公开软件](software/README.md) | LFMO/条件SCF公开核心实现和69项测试 |
 | [典型程序复算入口](reproducibility/TYPICAL_PROGRAMS_zh-CN.md) | 按计算难度选择证据核验、条件SCF测试和可下载QM复算，并查看逐步计算说明 |
-| [`reproducibility/`](reproducibility/README.md) | 完整复现说明、运行环境和WSL 2平台边界 |
-| [`figures/`](figures/README.md) | 项目自行生成的总览图 |
+| [复现说明](reproducibility/README.md) | 完整复现说明、运行环境和WSL 2平台边界 |
+| [图表](figures/README.md) | 项目自行生成的总览图 |
 | [科学增强证据](science-v0.2/README.md) | 自包含配置、精选结果、判定、报告、测试与哈希 |
 | [科学闭合证据](science-v0.3/README.md) | 七工作包扩展及其独立证据边界 |
-| [`manifests/`](manifests/FILE_INVENTORY.md) | 文件清单和SHA-256清单 |
+| [文件清单](manifests/FILE_INVENTORY.md) | 文件清单和SHA-256清单 |
 
 ## 阅读与复核
 
@@ -107,4 +107,4 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 
 ## 引用
 
-本项目唯一作者为 **Xiao Chen**。联系方式：[chenxiao0101@gmail.com](mailto:chenxiao0101@gmail.com)。本项目使用 **OpenAI Codex（GPT-5.6）** 提供AI辅助研究与工程支持。作者身份、CRediT贡献、AI辅助披露和利益冲突声明见[`AUTHORS.md`](AUTHORS.md)；机器可读引用信息见[`CITATION.cff`](CITATION.cff)。因未提供机构和ORCID，目前不填写相关信息。
+本项目唯一作者为 **Xiao Chen**。联系方式：[chenxiao0101@gmail.com](mailto:chenxiao0101@gmail.com)。本项目使用 **OpenAI Codex（GPT-5.6）** 提供AI辅助研究与工程支持。作者身份、CRediT贡献、AI辅助披露和利益冲突声明见[作者声明](AUTHORS.md)；机器可读引用信息见[引用文件](CITATION.cff)。因未提供机构和ORCID，目前不填写相关信息。

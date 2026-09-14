@@ -67,20 +67,20 @@ The dataset is too small for industrial or universal molecular generalization. D
 
 ## Repository map
 
-| Path | Purpose |
+| Section | Purpose |
 |---|---|
-| [`REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md`](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md) | Rapid AI4S reproduction and evidence-verification route for scientific readers |
-| [`project/`](project/README_EN.md) | Background, research questions, value, achievements, and master proposition table |
-| [`evidence/P01-P14/`](evidence/P01-P14/README.md) | Frozen data cards, protocols, processed results, and scoped reports |
-| [`manuscripts/`](manuscripts/README_EN.md) | Evidence matrix and bilingual publication positioning; no pre-submission manuscript drafts are included |
-| [`ai4s-agent/`](ai4s-agent/README_EN.md) | Agent architecture, capabilities, evaluation, governance, and limitations |
-| [`software/`](software/README_EN.md) | Public LFMO/conditional-SCF implementation and 69 focused tests |
+| [Rapid reproduction guide](REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md) | Rapid AI4S reproduction and evidence-verification route for scientific readers |
+| [Project background](project/README_EN.md) | Background, research questions, value, achievements, and master proposition table |
+| [P01–P14 evidence](evidence/P01-P14/README.md) | Frozen data cards, protocols, processed results, and scoped reports |
+| [Publication materials](manuscripts/README_EN.md) | Evidence matrix and bilingual publication positioning; no pre-submission manuscript drafts are included |
+| [AI4S agent](ai4s-agent/README_EN.md) | Agent architecture, capabilities, evaluation, governance, and limitations |
+| [Public software](software/README_EN.md) | Public LFMO/conditional-SCF implementation and 69 focused tests |
 | [Typical reproduction programs](reproducibility/TYPICAL_PROGRAMS.md) | Select evidence checks, conditional-SCF tests, or downloadable QM reruns by cost, with step-by-step computation notes |
-| [`reproducibility/`](reproducibility/README_EN.md) | Full runtime instructions, environments, and WSL 2 platform boundaries |
-| [`figures/`](figures/README_EN.md) | Project-authored overview figure |
+| [Reproducibility](reproducibility/README_EN.md) | Full runtime instructions, environments, and WSL 2 platform boundaries |
+| [Figures](figures/README_EN.md) | Project-authored overview figure |
 | [Science enhancement evidence (bilingual)](science-v0.2/README.md) | Self-contained configurations, selected results, decisions, reports, tests, and hashes |
 | [Scientific-closure evidence (bilingual)](science-v0.3/README.md) | Seven-work-package extension and its separate evidence boundaries |
-| [`manifests/`](manifests/README_EN.md) | File inventory and SHA-256 release manifest |
+| [File manifests](manifests/README_EN.md) | File inventory and SHA-256 release manifest |
 
 ## Examine and reproduce
 
@@ -105,4 +105,4 @@ Project-authored software and documentation are released under the [Apache Licen
 
 ## Citation
 
-The sole project author is **Xiao Chen**. Contact: [chenxiao0101@gmail.com](mailto:chenxiao0101@gmail.com). AI-assisted research and engineering support was provided through **OpenAI Codex (GPT-5.6)**. Authorship, CRediT contributions, AI-assistance disclosure, and the competing-interests statement are recorded in the [bilingual authorship statement](AUTHORS.md). Machine-readable citation metadata is provided in [`CITATION.cff`](CITATION.cff). Affiliation and ORCID are omitted because they were not supplied.
+The sole project author is **Xiao Chen**. Contact: [chenxiao0101@gmail.com](mailto:chenxiao0101@gmail.com). AI-assisted research and engineering support was provided through **OpenAI Codex (GPT-5.6)**. Authorship, CRediT contributions, AI-assistance disclosure, and the competing-interests statement are recorded in the [bilingual authorship statement](AUTHORS.md). Machine-readable citation metadata is provided in the [citation file](CITATION.cff). Affiliation and ORCID are omitted because they were not supplied.
