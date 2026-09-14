@@ -6,15 +6,15 @@ authors:
   - family-names: Chen
     given-names: Xiao
     email: chenxiao0101@gmail.com
-version: 0.3.2
-date-released: 2026-09-13
+version: 0.3.1
+date-released: 2026-09-08
 license: Apache-2.0
 abstract: >-
   AI4OrgChem is an AI for Science agent assessing fourteen counter-traditional
   propositions in organic structure theory through independent computation,
   layered evidence, explicit scope boundaries, public core software, and
-  bounded machine-learning experiments. Version 0.3.2 corrects the P12 evidence
-  interpretation without new quantum-chemical results or reclassification.
+  bounded machine-learning experiments. A later P12 page note clarifies the
+  evidence interpretation without new quantum-chemical results or reclassification.
 keywords:
   - AI for Science
   - computational chemistry
