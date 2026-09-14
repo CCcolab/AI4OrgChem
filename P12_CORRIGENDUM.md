@@ -1,6 +1,6 @@
 # P12 evidence-interpretation corrigendum / P12 证据解释勘误
 
-Status: **included in the v0.3.2 evidence-interpretation maintenance release**. This corrigendum does not change the frozen P12 result or reclassify the proposition.
+Status: **post-release P12 page note on `main`**. The formal release remains `v0.3.1`; this note does not alter its fixed archive, frozen P12 result, or proposition classification.
 
 ## 中文
 

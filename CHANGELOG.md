@@ -6,18 +6,9 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 
 ### Post-release documentation
 
-- Moved the historical `v0.3.1` release notes out of the repository-root homepage file list, marked their superseded P12 rationale, and linked the current `v0.3.2` notes from both homepages. The `v0.3.2` tag and fixed Release assets remain unchanged.
+- Kept the `v0.3.1` release notes outside the repository-root homepage file list and marked their superseded P12 rationale. The current formal version remains `v0.3.1`; P12's later interpretation correction is a page note, not a new scientific release.
 - Reframed both repository homepages as version-neutral project overviews of background, goals, independent methods, results, AI4S capabilities, and evidence limits. Release-specific and P12 review details remain in the dedicated notes and evidence records; the long WSL computation guide moved to `reproducibility/` without changing its scientific content.
-
-## [0.3.2] - 2026-09-13
-
-### Documentation
-
-- Released the P12 evidence-interpretation corrigendum. The historical `v0.3.1` 13+1 machine classification remains frozen; the old cross-estimand opposing-subclaim rationale is rejected, while the exact CESE onset remains independently unconfirmed. No new QM result or P12 reclassification is included.
-- Synchronized the bilingual homepage's current release-page links to `v0.3.2` while preserving the `v0.3.1` machine classification as historical context.
-- Retitled the existing bilingual guide as the AI4S rapid reproduction and evidence verification guide, removed obsolete older-version download wording, and preserved the guide paths for inbound-link compatibility.
-- Simplified the historical `v0.3.0` Release description, corrected its completed publication state, and removed redundant standalone `sha256-manifest.json` assets from `v0.3.1`, `v0.3.0`, and `v0.1.0`; the complete archives, archive checksum files, tags, and in-package manifests remain unchanged.
-- Added bilingual `v0.3.2` release notes and aligned the current release links, citation metadata, review guides, and release validator; the complete package remains separately checksummed.
+- Retitled the bilingual guide as the AI4S rapid reproduction and evidence verification guide. Later repository documentation changes are not retroactively inserted into the fixed `v0.3.1` archive.
 
 ## [0.3.1] - 2026-09-08
 
