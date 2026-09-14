@@ -6,7 +6,7 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 
 ### Post-release documentation
 
-- Kept the `v0.3.1` release notes outside the repository-root homepage file list and marked their superseded P12 rationale. The current formal version remains `v0.3.1`; P12's later interpretation correction is a page note, not a new scientific release.
+- Kept the `v0.3.1` release notes outside the repository-root homepage file list and marked their superseded P12 rationale. The current formal version remains `v0.3.1`; the later [P12 interpretation correction](P12_CORRIGENDUM.md#english) is a page note, not a new scientific release. The GitHub Release description also carries a bilingual post-release notice; its tag and attachments are unchanged.
 - Reframed both repository homepages as version-neutral project overviews of background, goals, independent methods, results, AI4S capabilities, and evidence limits. Release-specific and P12 review details remain in the dedicated notes and evidence records; the long WSL computation guide moved to `reproducibility/` without changing its scientific content.
 - Retitled the bilingual guide as the AI4S rapid reproduction and evidence verification guide. Later repository documentation changes are not retroactively inserted into the fixed `v0.3.1` archive.
 
@@ -18,7 +18,7 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 - Recomputed ten cyanobenzene and three benzene states under the source-2007 state-specific, all-planar restricted protocol. `CE=+1.173122` and `IE=+0.490079 kcal/mol`; P11 changes from partially consistent to consistent. The superseded fixed-geometry opposite-sign result remains available for audit.
 - Extended P05 to the same-system seven-angle sequence at 0°, 5°, 10°, 17°, 25°, 35°, and 45°. All six nonzero endpoints are positive and the maximum closure residual is `3.493205724681e-12 Eh`.
 - Strengthened P07 with an independent same-Hamiltonian five-state path audit of the frozen 0°/17° results. The naive three-term residuals are `0.335760104092/0.333815958695 Eh`; an explicit `E_DSI2-E_PDSI` bridge or path-complete `E_DSI2-E_FUL` sigma term closes both exactly. The earlier proposition synthesis remains separately marked `DERIVED`.
-- The current proposition-level classification is **13 consistent and 1 partially consistent (P12)**, with 0 globally inconsistent and 0 unknown. Evidence identity, scope, and independence remain separate fields.
+- The classification recorded at `v0.3.1` publication was **13 consistent and 1 partially consistent (P12)**, with 0 globally inconsistent and 0 unknown. P12's historical label does not reaffirm the subsequently withdrawn cross-estimand rationale; see the [post-release interpretation note](P12_CORRIGENDUM.md#english). Evidence identity, scope, and independence remain separate fields.
 
 ### Reproducibility and governance
 

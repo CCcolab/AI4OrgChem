@@ -132,8 +132,8 @@
     {
       "path": "CHANGELOG.md",
       "artifact_role": "repository-root",
-      "bytes": 11379,
-      "sha256": "2a49076af135c754ae10760e9d0fff30fb3cdf442c58669d90fdaa6a82b856ce"
+      "bytes": 11701,
+      "sha256": "0de2bc79903be7f82e0cdb232e187160b6902979e76331074275e256f848f18b"
     },
     {
       "path": "CITATION.cff",
@@ -919,7 +919,7 @@
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
       "bytes": 91727,
-      "sha256": "3a2e981612dbeb68723fa0b69a13bc138b268a4c6806f262ac85b74b88088161"
+      "sha256": "aaefbd4b5fb7a9f9d2ed6fb4747ba756dc8c0fece8ccc878fa94b633f3cc0917"
     },
     {
       "path": "manifests/README_EN.md",
