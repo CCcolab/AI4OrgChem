@@ -83,6 +83,7 @@ The dataset is too small for industrial or universal molecular generalization. D
 | [Science enhancement evidence (bilingual)](science-v0.2/README.md) | Self-contained configurations, selected results, decisions, reports, tests, and hashes |
 | [Scientific-closure evidence (bilingual)](science-v0.3/README.md) | Seven-work-package extension and its separate evidence boundaries |
 | [File manifests](manifests/README_EN.md) | File inventory and SHA-256 release manifest |
+| [Release review and tagging checklist](RELEASE_CHECKLIST.md) | Mandatory final-review gate that must pass before any version tag is created |
 
 ## Examine and reproduce
 

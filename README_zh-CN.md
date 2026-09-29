@@ -85,6 +85,7 @@ AI4OrgChem是一个面向有机结构基础理论独立计算重构与证据评�
 | [科学增强证据](science-v0.2/README.md) | 自包含配置、精选结果、判定、报告、测试与哈希 |
 | [科学闭合证据](science-v0.3/README.md) | 七工作包扩展及其独立证据边界 |
 | [文件清单](manifests/FILE_INVENTORY.md) | 文件清单和SHA-256清单 |
+| [发布前全面复核与标签创建清单](RELEASE_CHECKLIST_zh-CN.md) | 创建任何版本标签前必须通过的最终复核门禁 |
 
 ## 阅读与复核
 
