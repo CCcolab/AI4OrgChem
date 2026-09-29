@@ -943,7 +943,7 @@
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
       "bytes": 92609,
-      "sha256": "fa6ce05c62df55a41672a6d889242ab6b1863777770b1ca5bb45e8695b6a7277"
+      "sha256": "fb740211f3bf1e4e98da211fd29da1158f21365225f821b94287ad1b761b2164"
     },
     {
       "path": "manifests/README_EN.md",
@@ -1134,14 +1134,14 @@
     {
       "path": "reproducibility/TYPICAL_PROGRAMS.md",
       "artifact_role": "reproducibility",
-      "bytes": 10173,
-      "sha256": "74301b9fa3f0e098ed26490ab615bd0817568322b9fc5407dd10a0ab5bb7341d"
+      "bytes": 10156,
+      "sha256": "eda568a693366a5832f1f0cbcf382b1306dc04c4f2f875eccdf7a8f5a6822b99"
     },
     {
       "path": "reproducibility/TYPICAL_PROGRAMS_zh-CN.md",
       "artifact_role": "reproducibility",
-      "bytes": 11542,
-      "sha256": "f9ea8050dceecf5673e9b68e24599746343b8efb5450bb07e3607eaee1d4ea42"
+      "bytes": 11522,
+      "sha256": "e530dc29c4291024113302cf8f2a9dd11aa672dc9fbe2d82d085036b827010cb"
     },
     {
       "path": "reproducibility/wsl/activate-ai4orgchem-public.sh",

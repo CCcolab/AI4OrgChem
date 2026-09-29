@@ -193,8 +193,8 @@
 | `reproducibility/README_EN.md` | reproducibility | 1387 | `4f7041c119f136f099b9e8f27cab83a5a345d25f5ffbe962d0227a3d909638d1` |
 | `reproducibility/RUNBOOK_EN.md` | reproducibility | 2854 | `2c7831ca9ee5f18ca597c66897f2f5d5e79cf766157442ee7d8e19706b5c9335` |
 | `reproducibility/RUNBOOK_zh-CN.md` | reproducibility | 3133 | `eeb5267031e04c8bc3f3585a2934000773c0ea966395c146c0c8a5a2fe7a43e8` |
-| `reproducibility/TYPICAL_PROGRAMS.md` | reproducibility | 10173 | `74301b9fa3f0e098ed26490ab615bd0817568322b9fc5407dd10a0ab5bb7341d` |
-| `reproducibility/TYPICAL_PROGRAMS_zh-CN.md` | reproducibility | 11542 | `f9ea8050dceecf5673e9b68e24599746343b8efb5450bb07e3607eaee1d4ea42` |
+| `reproducibility/TYPICAL_PROGRAMS.md` | reproducibility | 10156 | `eda568a693366a5832f1f0cbcf382b1306dc04c4f2f875eccdf7a8f5a6822b99` |
+| `reproducibility/TYPICAL_PROGRAMS_zh-CN.md` | reproducibility | 11522 | `e530dc29c4291024113302cf8f2a9dd11aa672dc9fbe2d82d085036b827010cb` |
 | `reproducibility/wsl/activate-ai4orgchem-public.sh` | reproducibility | 1475 | `5361fab00ebc6c614dfc191fffb4fb5c1eb0690ab862ad27000359347709cb2e` |
 | `reproducibility/wsl/ai4orgchem-verify` | reproducibility | 929 | `7eec73ec0269e9549a238707c6edf792a3bbae8161b72d714ba84abe3c43dc92` |
 | `reproducibility/wsl/README.md` | reproducibility | 1742 | `afb4d76e6f525e4b55036a446867d6ecc47b1657d7f17f6303062f4031ad832c` |
