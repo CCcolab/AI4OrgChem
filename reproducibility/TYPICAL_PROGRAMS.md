@@ -40,10 +40,11 @@ Process: enumerate P01–P14 → validate JSON/JSONL structure → compare froze
 
 ```bash
 python software/scripts/validate_public_evidence.py
+python software/scripts/validate_p12_evidence.py
 python software/scripts/validate_evidence_navigation.py
 ```
 
-Expected output includes `status: PASS`, `propositions_checked: 14`, `propositions_navigated: 14`, and a current count of **14 consistent and 0 partially consistent**. The old 13+1 count remains the historical v0.3.1 snapshot. The dedicated `validate_p12_evidence.py` gate checks the v0.3.2 same-estimand N12/N14/N16 ledgers and the separation of the historical P12 record. These commands verify the published evidence package, not the physical correctness of the underlying calculations or peer-review status.
+Expected output includes `status: PASS`, `propositions_checked: 14`, `propositions_navigated: 14`, and a current count of **14 consistent and 0 partially consistent**. The dedicated P12 gate checks the current machine result and the released N12/N14/N16 evidence ledgers without rerunning quantum chemistry. These commands verify the published evidence package, not the physical correctness of the underlying calculations or peer-review status.
 
 ## L1 — P09 conditional-SCF core tests
 
