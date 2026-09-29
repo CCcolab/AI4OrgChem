@@ -57,7 +57,7 @@
   "same_estimand_opposition_established": false,
   "formal_conclusion_en": "P12 is consistent with the monograph.",
   "formal_conclusion_zh": "P12与原著一致。",
-  "evidence_scope_note": "N12, N14, and N16 form the evidence basis for this verdict; N18, N20, and N22 were not used and are not pending release requirements.",
+  "evidence_scope_note": "The released evidence scope comprises N12, N14, and N16; N18, N20, and N22 are outside this scope and are not pending release requirements.",
   "historical_v0_3_1_verdict": "partially_consistent",
   "historical_v0_3_1_rewritten": false
 }

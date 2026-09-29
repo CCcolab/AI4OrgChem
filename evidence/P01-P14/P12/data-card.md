@@ -1,14 +1,14 @@
-# P12 annulene evidence data card v0.2
+# P12 annulene evidence data card v0.3.2
 
 ## Determination
 
 **P12 is consistent with the monograph.** The machine verdict is
 `P12_CONSISTENT`, validated as `PASS_P12_CONSISTENT`.
 
-The verdict is based on three independently recalculated, same-estimand
-configurations: N12 / `[12]-555`, N14 / `[14]-665`, and N16 / `[16]-5555`.
-N18, N20, and N22 were not used for this determination and are not pending
-requirements for v0.3.2.
+The public evidence scope comprises three independently recalculated,
+same-estimand configurations: N12 / `[12]-555`, N14 / `[14]-665`, and N16 /
+`[16]-5555`. N18, N20, and N22 are outside this released evidence scope and
+are not pending requirements for v0.3.2.
 
 ## Method
 

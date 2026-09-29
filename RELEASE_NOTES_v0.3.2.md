@@ -18,9 +18,8 @@ unknown**.
   established.
 
 The formal verdict is `P12_CONSISTENT`: **P12 is consistent with the
-monograph.** N12, N14, and N16 are the evidence basis, not conditional wording
-attached to the verdict. N18, N20, and N22 were not used for this determination
-and are not pending v0.3.2 requirements.
+monograph.** N12, N14, and N16 define the released evidence scope; they do not
+qualify the verdict.
 
 ### Integrity and history
 
@@ -45,9 +44,8 @@ and are not pending v0.3.2 requirements.
 - N16全部28个GE双键对直接计算，不使用对称加权；
 - 全部注册方向判据通过，没有建立同估计量反证。
 
-正式判定为`P12_CONSISTENT`：**P12与原著一致。** N12、N14、N16是形成
-判定的证据，不是附加在“一致”之后的条件性措辞。N18、N20、N22未用于本次
-判定，也不是`v0.3.2`待完成项。
+正式判定为`P12_CONSISTENT`：**P12与原著一致。** N12、N14、N16界定
+公开证据范围，不构成对“一致”判定的条件限定。
 
 ### 完整性与历史
 
