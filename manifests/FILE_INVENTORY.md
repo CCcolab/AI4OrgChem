@@ -2,7 +2,7 @@
 
 本清单记录GitHub洁净仓库中的实质内容文件。生成型SHA清单和本文件自身不反向列入表格。
 
-- 实质内容文件：585
+- 实质内容文件：587
 - 状态：版本化发布快照；内容变更后必须重新生成并验证
 
 | 文件 | 角色 | 字节 | SHA-256 |
@@ -181,8 +181,10 @@
 | `project/RESEARCH_ITEMS_zh-CN.md` | project-narrative | 1939 | `508c64832f3b075a9d073e33badd35be764012eebb94624fc7966fa2b03b143f` |
 | `project/RESEARCH_VALUE_zh-CN.md` | project-narrative | 1319 | `7308230ee6f5dd7009de88e0483b3ff298baa2a438d8f99fc010103e24b80c5b` |
 | `project/V0.3.0_POST_RELEASE_ERRATUM_2026-09-08.md` | project-narrative | 7609 | `13f784f84a120efe9546846942186ef7d41abec27d3779b37772d11dd74d5f56` |
-| `README.md` | repository-root | 11046 | `f1e53b6148b9aa04a2884ebc8f99edea2984a2e5400fbc9421f43c523a7c7e0d` |
-| `README_zh-CN.md` | repository-root | 9193 | `7b792d5bd38f66d812b60623ec6f2c45fcd54953bfbc41b318aca917794eac01` |
+| `README.md` | repository-root | 11190 | `f57e148ae4509c08ef9d5a272e9f67c212f75dcc1d4e4cb021a1879ae45bd0d8` |
+| `README_zh-CN.md` | repository-root | 9333 | `c9d93720721cd6c86cd077bd82c35962426523db583692a70281f1bc418ee620` |
+| `RELEASE_CHECKLIST.md` | repository-root | 3390 | `b96ae62513381d8d3fe68714ca1d986a5e69d8eda5262b2216d4aa6505cf05f7` |
+| `RELEASE_CHECKLIST_zh-CN.md` | repository-root | 2931 | `2dcfb0bb36f69fcd06531172e6b459814215c00546007cedeba63d0d4709c1f9` |
 | `RELEASE_NOTES_v0.3.2.md` | repository-root | 2435 | `1dc8c6b0a8357b2a2caa8b456e2452de0af831fdea5e4b80393d7c92309e9003` |
 | `reproducibility/conda-linux-64.explicit.txt` | reproducibility | 18332 | `543abce03ee369526d83016126d7a0b7a82de48e0ef3356d3877289af90f5637` |
 | `reproducibility/DETAILED_COMPUTATION_GUIDE_zh-CN.md` | reproducibility | 12231 | `edbbd5ae5be8281294dae35f4f671b9f7caf8576be0905ea535cda001abd7454` |
@@ -561,7 +563,7 @@
 | `software/scripts/validate_p14_evidence.py` | software-or-test | 7143 | `247b86aeb91a011df2488e38e11dd400a07d816462aa8bf0188a477424aee732` |
 | `software/scripts/validate_p14_memory_controlled_conditional_scf.py` | software-or-test | 7217 | `4ae13c258052395142c8c0f2b24271ee63d51535c2c4dff181d29f93fce8e655` |
 | `software/scripts/validate_public_evidence.py` | software-or-test | 5076 | `f0d5347c10a9417d9e23b0d9083d867b662d94b038d9b1dde2862584e69e70ef` |
-| `software/scripts/validate_release_package.py` | software-or-test | 20826 | `5f88e68789b9bb19996e52d7d7fa3560b128d2825d9efea95f84f89013d00b2a` |
+| `software/scripts/validate_release_package.py` | software-or-test | 22650 | `d863763f6f70533b01a7f67c7f79aa4c656ead5a8380b877f6d6c04e50ddc8ed` |
 | `software/scripts/validate_science_v02_wp0_public.py` | software-or-test | 4807 | `e7c57be3642ccbc4001c92c39447cce4a1777c73c2dc199a63562d170ad263db` |
 | `software/scripts/validate_wsl_release.py` | software-or-test | 3690 | `9ef2ef7ffe4fc654751268474142c54e0d79f695684a9167b267dbbe3646dcd6` |
 | `software/src/ai4orgchem/lfmo/__init__.py` | software-or-test | 1385 | `6fb72d30002525c94773ee7fb0a2a6ee73f38388e204de6c18817df95d88a438` |

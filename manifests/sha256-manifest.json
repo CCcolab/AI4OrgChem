@@ -942,8 +942,8 @@
     {
       "path": "manifests/FILE_INVENTORY.md",
       "artifact_role": "repository-root",
-      "bytes": 92609,
-      "sha256": "fb740211f3bf1e4e98da211fd29da1158f21365225f821b94287ad1b761b2164"
+      "bytes": 92857,
+      "sha256": "d3c0fb4706a5379fabd5d569a9bcb6de79c10d6fda6162d99d31e79addd46865"
     },
     {
       "path": "manifests/README_EN.md",
@@ -1062,14 +1062,26 @@
     {
       "path": "README.md",
       "artifact_role": "repository-root",
-      "bytes": 11046,
-      "sha256": "f1e53b6148b9aa04a2884ebc8f99edea2984a2e5400fbc9421f43c523a7c7e0d"
+      "bytes": 11190,
+      "sha256": "f57e148ae4509c08ef9d5a272e9f67c212f75dcc1d4e4cb021a1879ae45bd0d8"
     },
     {
       "path": "README_zh-CN.md",
       "artifact_role": "repository-root",
-      "bytes": 9193,
-      "sha256": "7b792d5bd38f66d812b60623ec6f2c45fcd54953bfbc41b318aca917794eac01"
+      "bytes": 9333,
+      "sha256": "c9d93720721cd6c86cd077bd82c35962426523db583692a70281f1bc418ee620"
+    },
+    {
+      "path": "RELEASE_CHECKLIST.md",
+      "artifact_role": "repository-root",
+      "bytes": 3390,
+      "sha256": "b96ae62513381d8d3fe68714ca1d986a5e69d8eda5262b2216d4aa6505cf05f7"
+    },
+    {
+      "path": "RELEASE_CHECKLIST_zh-CN.md",
+      "artifact_role": "repository-root",
+      "bytes": 2931,
+      "sha256": "2dcfb0bb36f69fcd06531172e6b459814215c00546007cedeba63d0d4709c1f9"
     },
     {
       "path": "RELEASE_NOTES_v0.3.2.md",
@@ -3342,8 +3354,8 @@
     {
       "path": "software/scripts/validate_release_package.py",
       "artifact_role": "software-or-test",
-      "bytes": 20826,
-      "sha256": "5f88e68789b9bb19996e52d7d7fa3560b128d2825d9efea95f84f89013d00b2a"
+      "bytes": 22650,
+      "sha256": "d863763f6f70533b01a7f67c7f79aa4c656ead5a8380b877f6d6c04e50ddc8ed"
     },
     {
       "path": "software/scripts/validate_science_v02_wp0_public.py",

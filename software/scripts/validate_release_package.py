@@ -307,6 +307,42 @@ def validate_computation_guide(failures: list[str]) -> None:
         failures.append("English homepage must not route readers directly to the Chinese-only detailed guide")
 
 
+def validate_release_tag_gate(failures: list[str]) -> None:
+    """Require the final-review gate to remain explicit and publicly discoverable."""
+    english_path = ROOT / "RELEASE_CHECKLIST.md"
+    chinese_path = ROOT / "RELEASE_CHECKLIST_zh-CN.md"
+    if not english_path.is_file():
+        failures.append("English release checklist missing")
+        return
+    if not chinese_path.is_file():
+        failures.append("Chinese release checklist missing")
+        return
+
+    english = english_path.read_text(encoding="utf-8")
+    chinese = chinese_path.read_text(encoding="utf-8")
+    required_english = (
+        "Do not create, move, or recreate a version tag until the complete release-level review has finished",
+        "The reviewed release-candidate commit must remain unchanged between final approval and tag creation",
+        "Perform a clean clone or archive extraction from the tag",
+    )
+    required_chinese = (
+        "全面的发布级复核尚未完成",
+        "不得创建、移动或重新创建版本标签",
+        "从标签执行洁净克隆或解压标签归档",
+    )
+    for statement in required_english:
+        if statement not in english:
+            failures.append(f"English release checklist missing mandatory gate: {statement}")
+    for statement in required_chinese:
+        if statement not in chinese:
+            failures.append(f"Chinese release checklist missing mandatory gate: {statement}")
+
+    if "](RELEASE_CHECKLIST.md)" not in (ROOT / "README.md").read_text(encoding="utf-8"):
+        failures.append("English homepage lacks release-checklist link")
+    if "](RELEASE_CHECKLIST_zh-CN.md)" not in (ROOT / "README_zh-CN.md").read_text(encoding="utf-8"):
+        failures.append("Chinese homepage lacks release-checklist link")
+
+
 def validate_english_navigation(failures: list[str]) -> None:
     """Keep the public English entry points on English pages where available."""
     routes = {
@@ -499,6 +535,7 @@ def main() -> int:
 
     validate_workflow(failures)
     validate_computation_guide(failures)
+    validate_release_tag_gate(failures)
     validate_english_navigation(failures)
     validate_current_release_alignment(failures)
     result = {
