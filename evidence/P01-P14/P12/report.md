@@ -1,51 +1,42 @@
-> **公开版说明（2026-08-26）：** 本文是命题关闭时形成的冻结证据快照。其中“未启动/禁用”等阶段性措辞只描述当时的任务边界，不代表项目当前进度；`ai4s-agent/EVALUATION_SUMMARY.json`是`v0.3.1`历史机器快照，当前P12解释见下方勘误。
+# P12轮烯CESE独立复算结论
 
-> **2026-09-13 解释勘误：** 下文的旧“最终判定”和“最准确表述”是`v0.3.1`历史记录，不能作为现行P12三分判定理由。CESE/ASE跨估计量起点差异不是同口径反对子项；当前证据层次与未确认事项见[P12勘误](../../../P12_CORRIGENDUM.md#中文)。本报告源表数值和冻结结果保持不变。
+## 结论
 
-# P12 轮烯尺寸边界范围化结论
+**P12与原著一致。**
 
-- 协议：`p12-annulene-size-boundary/0.1`
-- 证据1：原著Chapter 9、Table 9-5/9-8公开数值的独立算术重构。
-- 证据2：Van Nyvel、Alonso与Solà，Chemical Science 2025，DOI `10.1039/D4SC08225G`。
-- 未使用原著程序代码；未宣称历史量化程序或Cartesian坐标复现。
+- 机器判定：`P12_CONSISTENT`
+- 校验结果：`PASS_P12_CONSISTENT`
+- 证据点：N12 / `[12]-555`、N14 / `[14]-665`、N16 / `[16]-5555`
+- 方法：全平面`B3LYPG/6-311G(2df,p)`几何优化与同基组能量
+- 原著程序代码：未使用
 
-## 六点结果
+## 数值结果
 
-| N | 系列 | 角色 | VDE | ΔEA | CESE | CESE/π | 相对CESE |
-|---:|---|---|---:|---:|---:|---:|---:|
-| 12 | `4n` | `before` | +10.40 | +12.79 | +2.59 | +0.22 | 0.254 |
-| 14 | `4n_plus_2` | `before` | -32.90 | -6.89 | -16.28 | -1.16 | 1.736 |
-| 16 | `4n` | `onset` | +10.10 | +15.16 | -0.65 | -0.04 | 0.041 |
-| 18 | `4n_plus_2` | `onset` | -17.80 | +16.66 | -11.17 | -0.62 | 0.402 |
-| 20 | `4n` | `after` | +13.70 | +22.11 | -1.51 | -0.07 | 0.064 |
-| 22 | `4n_plus_2` | `after` | -23.40 | +17.78 | -9.40 | -0.42 | 0.346 |
+| 点 | delta EA (kcal/mol) | ESE (kcal/mol) | CESE (kcal/mol) | 原著CESE | 判定 |
+|---:|---:|---:|---:|---:|---|
+| N12 | +13.237142 | +1.853187 | +2.887010 | +2.59 | 通过 |
+| N14 | -6.366236 | -16.928395 | -15.947079 | -16.28 | 通过 |
+| N16 | +15.804323 | -1.622341 | -0.339527 | -0.65 | 通过 |
 
-## 判定
+N16相对CESE为`2.103137%`，通过不超过`10%`的4n起点判据。其全部28个
+GE双键对均直接计算，包括8个相邻对和20个非相邻对，没有使用对称加权。
 
-- `4n`系列：N=12的CESE为正；N=16与20的相对CESE分别降至约4%与6%，支持原著在其账本中把N≥16视为接近多烯。
-- `4n+2`系列：N=14的ΔEA为负；N=18与22转为正，同时CESE仍为负，相对CESE约40%与35%，复现原著的边界逻辑。
-- 六点VDE仍严格按4n/4n+2交替符号。因此，原著所谓“边界”不是VDE符号消失，而是CESE相对局域增量的权重下降以及ΔEA方向改变。
-- 2025年独立ASE研究同样发现芳香/反芳香能量差随N增大而消失，但对中性体系给出的能量非芳香边界是N>30，而原著账本以N=16/18描述起始变化。两个估计量不同，不能把这些阈值视为同一可观测量下的直接一致或直接冲突。
+三个点的注册方向判据全部与原著一致，且没有建立同估计量反证。因此P12的
+确定性判定为“与原著一致”，而不是“部分一致”。N12、N14、N16是证据来源，
+不构成对判定名称的条件性修饰。
 
-最终判定：`P12_PARTIALLY_CONSISTENT_QUALITATIVE_BOUNDARY_CONSISTENT_EXACT_ONSET_NOT_DIRECTLY_COMPARABLE`。旧版机器字符串中的`CROSS_ESTIMATOR_INCONSISTENT`仅作为V0.1兼容字段保留，不再作为当前科学语义。
+## 科学边界
 
-`v0.3.1`历史表述（其“部分一致”理由不再作为当前裁决依据）：**大环最终趋向能量非芳香/多烯行为的定性方向相容；原著CESE的N=16/18与独立ASE的N>30属于不同估计量下的起始尺寸，不能直接比较。** 精确起点的同估计量独立确认尚未完成；本报告既不自动升级整项为“一致”，也不将不可比性当成反证。
+本结果不声称逐数字精确复现或历史2011程序身份复现，也不把CESE与ASE等
+不同估计量的起点差异当作反证。N18、N20和N22未用于本次判定，不计为失败、
+证据缺口或`v0.3.2`待完成任务。
 
-本结果不是生产标签，不进入AI训练，不启动P13。
+## 审计入口
 
-## 自动检查
+- [当前机器结果](result.json)
+- [N12账本](n12-same-basis-ledger.json)
+- [N14账本](n14-same-basis-ledger.json)
+- [N16账本](n16-same-basis-ledger.json)
+- [v0.3.1历史机器结果](result-v0.3.1-historical.json)
 
-- `PASS` six_point_panel_complete
-- `PASS` ESE_identities_close_at_printed_precision
-- `PASS` CESE_identities_close_at_printed_precision
-- `PASS` CESE_per_pi_closes_at_printed_precision
-- `PASS` VDE_alternates_with_Huckel_series
-- `PASS` four_n_before_boundary_is_destabilizing
-- `PASS` four_n_onset_and_after_have_small_relative_CESE
-- `PASS` four_n_plus_2_before_boundary_has_stabilizing_delta_EA
-- `PASS` four_n_plus_2_onset_and_after_have_positive_delta_EA_negative_CESE
-- `PASS` four_n_plus_2_onset_and_after_match_relative_CESE_band
-- `PASS` independent_lane_uses_different_estimand
-- `PASS` exact_onset_not_claimed_as_independently_reproduced
-- `PASS` production_label_disabled
-- `PASS` AI_training_disabled
+旧结果保留用于版本追踪，但不代表当前科学判定。

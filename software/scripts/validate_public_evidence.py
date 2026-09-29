@@ -1,8 +1,7 @@
 """Validate the self-contained P01-P14 public evidence package.
 
-This validator intentionally uses only files shipped in ``publication``.  It
-does not require the private development tree, the monograph, or raw quantum-
-chemistry outputs.
+This validator uses only files in the public repository. It does not require
+the private development tree, the monograph, or raw quantum-chemistry outputs.
 """
 
 from __future__ import annotations
@@ -24,7 +23,7 @@ EXPECTED_JSON_VERDICTS = {
     "P10/result.json": "P10_SCOPED_PROPOSITION_SUPPORTED",
     "P11/furan-result.json": "P11A_SCOPED_FURAN_LDE_SUPPORTED",
     "P11/substituent-result.json": "P11B_SOURCE2007_PLANAR_RECALCULATION_CONSISTENT",
-    "P12/result.json": "P12_PARTIALLY_CONSISTENT_QUALITATIVE_BOUNDARY_CONSISTENT_EXACT_ONSET_NOT_DIRECTLY_COMPARABLE",
+    "P12/result.json": "P12_CONSISTENT",
     "P13/result.json": "P13_CONSISTENT_IN_TESTED_RULE_HIERARCHY_AND_PUBLISHED_LEDGER_SCOPE",
 }
 

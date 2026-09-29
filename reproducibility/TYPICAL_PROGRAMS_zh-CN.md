@@ -57,7 +57,7 @@ python software/scripts/validate_evidence_navigation.py
 
 ### 预期输出与判读
 
-预期包含`status: PASS`、`propositions_checked: 14`和`propositions_navigated: 14`。其中“13项一致、1项部分一致”是**v0.3.1发布时的历史分类快照**；后续的[P12证据更正](../P12_CORRIGENDUM.md#中文)已否定旧的跨估计量解释，但没有重新给出整项命题判定。若核验失败，应先阅读错误指出的具体文件，不得通过修改验证器来迁就结果。
+预期包含`status: PASS`、`propositions_checked: 14`、`propositions_navigated: 14`，当前统计为**14项一致、0项部分一致**。旧13+1统计仅是v0.3.1历史快照；专用`validate_p12_evidence.py`门禁核验v0.3.2的N12/N14/N16同估计量账本，并检查P12历史记录与当前记录严格分离。若核验失败，应先阅读错误指出的具体文件，不得通过修改验证器来迁就结果。
 
 ### 边界
 

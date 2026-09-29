@@ -2,6 +2,14 @@
 
 All notable changes to AI4OrgChem public releases are recorded in this file.
 
+## [0.3.2] - 2026-09-29
+
+- Added public, machine-readable same-estimand P12 ledgers for N12, N14, and N16 under the fully planar `B3LYPG/6-311G(2df,p)` protocol.
+- Recorded `P12_CONSISTENT` / `PASS_P12_CONSISTENT`: N12 CESE `+2.887010`, N14 CESE `-15.947079`, and N16 CESE `-0.339527 kcal/mol`; N16 relative CESE is `2.103137%`, with all 28 GE pairs calculated directly and no symmetry weighting.
+- Updated the current P01-P14 total to **14 consistent, 0 partially consistent, 0 globally inconsistent, and 0 unknown**. Evidence identity, numerical differences, and scope remain separate metadata.
+- Preserved the immutable v0.3.1 P12 machine result as a historical record rather than rewriting the old release.
+- Refreshed bilingual evidence navigation, matrices, review guides, publication positioning, validators, citation metadata, and release manifests.
+
 ## [Unreleased]
 
 ### Post-release documentation

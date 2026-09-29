@@ -43,7 +43,7 @@ python software/scripts/validate_public_evidence.py
 python software/scripts/validate_evidence_navigation.py
 ```
 
-Expected output includes `status: PASS`, `propositions_checked: 14`, and `propositions_navigated: 14`. The 13-consistent/1-partially-consistent count is the **historical v0.3.1 classification snapshot**. Read the later [P12 evidence corrigendum](../P12_CORRIGENDUM.md#english): it rejects the old cross-estimand rationale without assigning a new whole-proposition verdict. These commands verify the published evidence package, not the physical correctness of the underlying calculations or peer-review status.
+Expected output includes `status: PASS`, `propositions_checked: 14`, `propositions_navigated: 14`, and a current count of **14 consistent and 0 partially consistent**. The old 13+1 count remains the historical v0.3.1 snapshot. The dedicated `validate_p12_evidence.py` gate checks the v0.3.2 same-estimand N12/N14/N16 ledgers and the separation of the historical P12 record. These commands verify the published evidence package, not the physical correctness of the underlying calculations or peer-review status.
 
 ## L1 — P09 conditional-SCF core tests
 

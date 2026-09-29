@@ -14,6 +14,8 @@ AI4OrgChem is an **AI for Science (AI4S) Agent** for independent computational r
 
 The associated manuscript has not yet undergone peer review. Detailed classifications, qualifications, and corrections are recorded in the [evidence matrix](manuscripts/P01-P14_evidence_matrix_EN.md) and linked proposition records.
 
+> **Current release:** [`v0.3.2`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.2). All fourteen proposition-level determinations are consistent with the corresponding monograph propositions; evidence identity and scope remain separately reported.
+
 ## Why this project exists
 
 Textbook ideas such as conjugative stabilization, conjugation-driven planarization, steric destabilization, and aromatic stabilization are useful chemical heuristics. Problems arise when a heuristic is promoted to an unconditional mechanistic law. AI4OrgChem converts fourteen major propositions into falsifiable computational tasks with frozen systems, state definitions, sign conventions, numerical outputs, and explicit scope boundaries.
@@ -29,7 +31,7 @@ The project asks how far independent calculations and other traceable evidence s
 
 ## Scientific outcome
 
-The project has assembled protocols, processed results, data cards, and scope-limited reports for fourteen propositions. It also publishes the software and validation paths needed to inspect these records. The [evidence collection](evidence/P01-P14/README.md) and [matrix](manuscripts/P01-P14_evidence_matrix_EN.md) provide the proposition-level findings and their limitations.
+The project has assembled protocols, processed results, data cards, and scope-limited reports for fourteen propositions. In v0.3.2, all fourteen proposition-level determinations are consistent with the corresponding monograph propositions. It also publishes the software and validation paths needed to inspect these records. The [evidence collection](evidence/P01-P14/README.md) and [matrix](manuscripts/P01-P14_evidence_matrix_EN.md) provide the proposition-level findings and their limitations.
 
 Representative frozen results are:
 
@@ -39,6 +41,7 @@ Representative frozen results are:
 | GL-defined butadiene conjugation energy | +1.575676 kcal/mol |
 | Cyclobutadiene ADE | +53.822467 kcal/mol |
 | Benzene ESE | -37.412764 kcal/mol (monograph: -36.3; absolute difference 1.112764, about 3.07%) |
+| P12 same-estimand CESE | N12 +2.887010; N14 -15.947079; N16 -0.339527 kcal/mol; all registered direction checks pass |
 | Strained-aromatic C12H6 endpoints | +67.086899 kcal/mol fixed-geometry source-level anchor; +67.679719 kcal/mol qualified production optimization (`dDelta-r=0.172204 A`) |
 
 These results support a bounded methodological conclusion: several textbook heuristics do not automatically provide universally sufficient mechanistic explanations. They do **not** establish that traditional organic chemistry is globally wrong, do not create a universal opposite law of conjugative destabilization, and do not constitute institutional certification of the monograph.
