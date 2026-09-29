@@ -2,7 +2,7 @@
 
 This page provides an English route from the [evidence navigator](README.md) to the data scope, protocol, and report for each proposition. It is a **review companion, not a replacement for the frozen original records**. The linked machine-readable results retain their original values and status. The original data cards, protocols, and reports remain available in the [Chinese navigator](README_zh-CN.md) (intentional language switch). The [English evidence matrix](../../manuscripts/P01-P14_evidence_matrix_EN.md) gives the proposition-level comparison in one table.
 
-“Consistent” below means consistent with the monograph proposition in the registered tested domain, not universal validity or historical program identity. In particular, the published `v0.3.1` P12 label is historical; consult the [bilingual P12 corrigendum](../../P12_CORRIGENDUM.md#english) for its current interpretation.
+“Consistent” below means consistent with the monograph proposition under its registered evidence contract, not universal validity or historical program identity. Version 0.3.2 records all fourteen determinations as consistent; the v0.3.1 P12 result remains linked only for version history.
 
 ## P01 — orbital representation versus electronic delocalization
 
@@ -176,15 +176,25 @@ The computed `ESE(SB)=-37.352830`, `ESE(Ph)=-38.525952`, and `ESE(benzene)=-39.0
 
 ### P12 data card
 
-The published six-point source ledger covers `N=12, 14, 16, 18, 20, 22`, with VDE, ESE, CESE, `ΔEA`, local increments, and a `4n/4n+2` split. The six printed values received **arithmetic/source-ledger checks**, not six independent quantum-chemical reruns. [Frozen machine result](P12/result.json).
+The v0.3.2 determination is based on independent, same-estimand recalculations
+for N12 / `[12]-555`, N14 / `[14]-665`, and N16 / `[16]-5555`. All states use
+fully planar `B3LYPG/6-311G(2df,p)` geometry and energy. [Machine result](P12/result.json).
 
 ### P12 protocol
 
-The registered panels are `12/16/20` for `4n` and `14/18/22` for `4n+2`. Within the monograph ledger, CESE relative to local increments decreases and `ΔEA` changes sign in the `4n+2` series. A separate ASE study is a **different-estimand** complement: comparing its `N>30` boundary directly with the source CESE `N=16/18` onset is not a same-estimand agreement or counterexample.
+The registered checks require positive N12 CESE; negative N14 delta EA, ESE,
+and CESE; and positive N16 delta EA with negative ESE/CESE and relative CESE
+not exceeding 10%. N16 contains all 28 directly calculated GE pairs with no
+symmetry weighting. N18/N20/N22 are not part of this determination.
 
 ### P12 report
 
-The `v0.3.1` result retains a **historical “partially consistent” label**, but its former cross-estimand opposing-subclaim rationale has been withdrawn. The source-ledger large-ring direction is compatible; precise CESE onset under fully matched method, basis, state, and geometry remains independently unconfirmed. Local N12/N14/N16 candidate numbers were not added to the public package, and there is no independent N18/N20/N22 CESE panel. Do not interpret this label as “one verified true subclaim and one verified false subclaim”; see the [P12 corrigendum](../../P12_CORRIGENDUM.md#english).
+N12 gives CESE `+2.887010`, N14 `-15.947079`, and N16 `-0.339527 kcal/mol`;
+N16 relative CESE is `2.103137%`. Every registered direction check passes and
+no same-estimand opposing result is established. The determinate verdict is
+**P12 is consistent with the monograph** (`P12_CONSISTENT`). This does not claim
+digit-for-digit or historical-program identity reproduction. The old v0.3.1
+partial result is preserved as a [historical machine record](P12/result-v0.3.1-historical.json).
 
 ## P13 — polycyclic benzenoid rule hierarchy
 

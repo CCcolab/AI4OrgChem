@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "system": "AI4OrgChem AI4S Agent",
-  "snapshot_date": "2026-09-08",
-  "status": "v0.3.1_post_review_maintenance_snapshot",
+  "snapshot_date": "2026-09-29",
+  "status": "v0.3.2_fourteen_consistent_snapshot",
   "agent_maturity": {
     "level": "M2_scoped",
     "meaning": "external_model_selected_one_whitelisted_registered_replay_action_and_a_local_orchestrator_executed_it_in_a_clean_bundle_only_environment",
@@ -17,14 +17,16 @@
   "evidence_scope": "summary of frozen local engineering reports; models, caches, private run directories, the full external-model session, and a general replay runtime are excluded from the public maintenance package",
   "scientific_propositions": {
     "total": 14,
-    "consistent": 13,
-    "display_classification": "13 consistent; P12 partially consistent",
+    "consistent": 14,
+    "display_classification": "14 consistent",
     "verdict_scope_separated": true,
     "p05_evidence_update": "seven-angle same-system continuation; six nonzero endpoints positive",
     "p07_evidence_identity": "INDEPENDENT_COMPUTATIONAL_AUDIT_PLUS_DERIVED_SYNTHESIS",
     "p07_evidence_update": "same-Hamiltonian five-state path audit; explicit bridge or path-complete sigma definition required",
-    "partially_consistent": 1,
-    "globally_inconsistent": 0
+    "partially_consistent": 0,
+    "globally_inconsistent": 0,
+    "p12_verdict": "P12_CONSISTENT",
+    "p12_evidence_update": "independent same-estimand N12/N14/N16 planar B3LYPG/6-311G(2df,p) recalculation; all registered checks pass"
   },
   "bounded_learning_dataset": {
     "geometries": 17,

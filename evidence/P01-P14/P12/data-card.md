@@ -1,38 +1,43 @@
-> **公开版说明（2026-08-26）：** 本文是命题关闭时形成的冻结证据快照。其中“未启动/禁用”等阶段性措辞只描述当时的任务边界，不代表项目当前进度；`ai4s-agent/EVALUATION_SUMMARY.json`是`v0.3.1`历史机器快照，当前P12解释见下方勘误。
+# P12 annulene evidence data card v0.2
 
-> **2026-09-13 解释勘误：** 以下“partially consistent”仅是`v0.3.1`历史发布标签，其以跨CESE/ASE估计量起点差异为反对子项的旧理由已失效。当前证据解释见[P12勘误](../../../P12_CORRIGENDUM.md#english)；原始数值与机器结果未改。
+## Determination
 
-# P12 annulene size-boundary data card v0.1
+**P12 is consistent with the monograph.** The machine verdict is
+`P12_CONSISTENT`, validated as `PASS_P12_CONSISTENT`.
 
-## Scope
+The verdict is based on three independently recalculated, same-estimand
+configurations: N12 / `[12]-555`, N14 / `[14]-665`, and N16 / `[16]-5555`.
+N18, N20, and N22 were not used for this determination and are not pending
+requirements for v0.3.2.
 
-Six source-native published numeric records: `[12]`, `[14]`, `[16]`, `[18]`,
-`[20]`, and `[22]annulene`. Values are transcribed from Chapter 9, Tables 9-5
-and 9-8 of Zhong-Heng Yu's *Questioning Fundamental Principles of Organic Chemistry* and are
-recomputed under protocol `p12-annulene-size-boundary/0.1`.
+## Method
 
-## Fields
+- geometry and energy: fully planar `B3LYPG/6-311G(2df,p)`;
+- original monograph program code: not used;
+- estimand: `ESE = delta_EA - sum(delta_EAm)` and
+  `CESE = ESE - sum(delta_EnAm)`;
+- N16: all 28 GE pairs calculated directly, with no symmetry weighting;
+- historical-program identity and digit-for-digit numerical reproduction: not
+  claimed.
 
-- `VDE`, `ESE`, `CESE`, `delta_EA`, adjacent and nonadjacent local increments;
-- per-pi-electron normalization;
-- printed-precision identity residuals;
-- `|CESE|/|sum of local increments|`;
-- 4n or 4n+2 series and before/onset/after boundary role.
+## Results
 
-## Independent comparison
+| Point | delta EA | ESE | CESE | Source CESE | Registered check |
+|---|---:|---:|---:|---:|---|
+| N12 | +13.237142 | +1.853187 | +2.887010 | +2.59 | positive CESE: pass |
+| N14 | -6.366236 | -16.928395 | -15.947079 | -16.28 | negative delta EA/ESE/CESE: pass |
+| N16 | +15.804323 | -1.622341 | -0.339527 | -0.65 | relative CESE 2.103137% <= 10%: pass |
 
-Van Nyvel, Alonso and Sola, *Chemical Science* 2025, 16, 5613-5622,
-DOI `10.1039/D4SC08225G`. Only the neutral energetic size trend is compared.
-Its ASE/ISE-II quantity is not relabeled as CESE.
+Units are kcal/mol except relative CESE. All registered direction checks pass,
+and no same-estimand opposing result was established.
 
-## Fitness and limitations
+## Machine records
 
-Suitable for checking the arithmetic and interpretation of the monograph's
-published P12 size-boundary argument. It is not a quantum-chemistry trajectory,
-historical program reproduction, production label dataset, MACE training set,
-or proof that the exact N=16/N=18 onset is estimator-independent.
+- [v0.3.2 determination](result.json)
+- [N12 ledger](n12-same-basis-ledger.json)
+- [N14 ledger](n14-same-basis-ledger.json)
+- [N16 ledger](n16-same-basis-ledger.json)
+- [historical v0.3.1 result](result-v0.3.1-historical.json)
 
-Historical `v0.3.1` classification: **partially consistent**. The qualitative large-ring
-limit is consistent with the monograph. The exact onset values from the source
-CESE and independent ASE estimators (`N=16/18` versus `N>30`) are not directly
-comparable and are not treated as a same-estimand inconsistency.
+The v0.3.1 result is preserved for version history and is not the current P12
+determination.

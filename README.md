@@ -14,6 +14,8 @@ AI4OrgChem is an **AI for Science (AI4S) Agent** for independent computational r
 
 The associated manuscript has not yet undergone peer review. Detailed classifications, qualifications, and corrections are recorded in the [evidence matrix](manuscripts/P01-P14_evidence_matrix_EN.md) and linked proposition records.
 
+> **Current release:** [`v0.3.2`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.2). All fourteen proposition-level determinations are consistent with the corresponding monograph propositions; evidence identity and scope remain separately reported.
+
 ## Why this project exists
 
 Textbook ideas such as conjugative stabilization, conjugation-driven planarization, steric destabilization, and aromatic stabilization are useful chemical heuristics. Problems arise when a heuristic is promoted to an unconditional mechanistic law. AI4OrgChem converts fourteen major propositions into falsifiable computational tasks with frozen systems, state definitions, sign conventions, numerical outputs, and explicit scope boundaries.
@@ -29,7 +31,7 @@ The project asks how far independent calculations and other traceable evidence s
 
 ## Scientific outcome
 
-The project has assembled protocols, processed results, data cards, and scope-limited reports for fourteen propositions. It also publishes the software and validation paths needed to inspect these records. The [evidence collection](evidence/P01-P14/README.md) and [matrix](manuscripts/P01-P14_evidence_matrix_EN.md) provide the proposition-level findings and their limitations.
+The project has assembled protocols, processed results, data cards, and scope-limited reports for fourteen propositions. In v0.3.2, all fourteen proposition-level determinations are consistent with the corresponding monograph propositions. It also publishes the software and validation paths needed to inspect these records. The [evidence collection](evidence/P01-P14/README.md) and [matrix](manuscripts/P01-P14_evidence_matrix_EN.md) provide the proposition-level findings and their limitations.
 
 Representative frozen results are:
 

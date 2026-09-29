@@ -22,7 +22,7 @@ EXPECTED_CLASS = {
     "P09": "consistent",
     "P10": "consistent",
     "P11": "consistent",
-    "P12": "partially-consistent",
+    "P12": "consistent",
     "P13": "consistent",
     "P14": "consistent",
 }
@@ -36,7 +36,7 @@ EXPECTED_JSON_VERDICTS = {
     "P10/result.json": "P10_SCOPED_PROPOSITION_SUPPORTED",
     "P11/furan-result.json": "P11A_SCOPED_FURAN_LDE_SUPPORTED",
     "P11/substituent-result.json": "P11B_SOURCE2007_PLANAR_RECALCULATION_CONSISTENT",
-    "P12/result.json": "P12_PARTIALLY_CONSISTENT_QUALITATIVE_BOUNDARY_CONSISTENT_EXACT_ONSET_NOT_DIRECTLY_COMPARABLE",
+    "P12/result.json": "P12_CONSISTENT",
     "P13/result.json": "P13_CONSISTENT_IN_TESTED_RULE_HIERARCHY_AND_PUBLISHED_LEDGER_SCOPE",
 }
 
@@ -44,26 +44,24 @@ LINK = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 ROW = re.compile(r"^\| (P\d{2}) \|.*$", re.MULTILINE)
 
 AUTHORITATIVE_STATUS_REQUIREMENTS = {
-    "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md": ("published `v0.3.1` snapshot", "P05 now has a seven-angle continuation", "P12_CORRIGENDUM.md"),
-    "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md": ("`v0.3.1`已发布快照", "P05已经同一体系七角度连续序列增强", "P12_CORRIGENDUM.md"),
-    "README.md": ("Why this project exists", "Independent method", "Scientific outcome", "AI4S Agent engineering", "Examine and reproduce"),
-    "README_zh-CN.md": ("项目背景与目标", "独立研究方法", "科学论证结果", "AI4S Agent工程成果", "阅读与复核"),
-    "project/ACHIEVEMENTS_zh-CN.md": ("十三项与原著一致", "P05已补齐同一体系七角度连续序列", "一项（P12）部分一致"),
-    "project/P01-P14_MASTER_TABLE_zh-CN.md": ("P11", "CE=+1.173122", "IE=+0.490079", "一致4项"),
-    "manuscripts/P01-P14_evidence_matrix_zh-CN.md": ("一致13项", "七角度连续序列技术门禁全通过", "部分一致1项（P12）", "IE=+0.490079"),
-    "manuscripts/PUBLICATION_POSITIONING_EN.md": ("published `v0.3.1` classification", "P05 now includes a seven-angle continuation", "P12_CORRIGENDUM.md"),
-    "manuscripts/PUBLICATION_POSITIONING_zh-CN.md": ("`v0.3.1`历史分类", "P05已补齐同一体系七角度连续序列", "一项（P12）部分一致"),
-    "ai4s-agent/CAPABILITIES_AND_RESULTS_zh-CN.md": ("十三项一致", "P05七角度增强", "P07同哈密顿量路径审计", "一项部分一致（P12）"),
+    "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md": ("`v0.3.2`", "fourteen consistent", "P12_CONSISTENT"),
+    "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md": ("`v0.3.2`", "14项一致", "P12_CONSISTENT"),
+    "project/ACHIEVEMENTS_zh-CN.md": ("十四项", "证据身份", "受测范围"),
+    "project/P01-P14_MASTER_TABLE_zh-CN.md": ("v0.3.2十四项一致发布", "P12｜CAT06", "与原著命题一致"),
+    "manuscripts/P01-P14_evidence_matrix_zh-CN.md": ("一致14项", "P12读法", "INDEPENDENT_SAME_BASIS_PLANAR_CESE_RECALCULATION"),
+    "manuscripts/PUBLICATION_POSITIONING_EN.md": ("`v0.3.2`", "all fourteen proposition-level determinations"),
+    "manuscripts/PUBLICATION_POSITIONING_zh-CN.md": ("`v0.3.2`", "十四项命题级判定"),
+    "ai4s-agent/CAPABILITIES_AND_RESULTS_zh-CN.md": ("`v0.3.2`记录十四项", "受测范围"),
 }
 
 CURRENT_P12_REQUIREMENTS = {
-    "P12_CORRIGENDUM.md": ("formal release remains `v0.3.1`", "historical published classification", "历史分类记录", "not six-point independent", "不是六点独立"),
-    "evidence/P01-P14/README.md": ("published v0.3.1 snapshot", "historical label", "P12_CORRIGENDUM.md"),
-    "evidence/P01-P14/README_zh-CN.md": ("v0.3.1已发布历史快照", "历史标签", "P12_CORRIGENDUM.md"),
-    "manuscripts/P01-P14_evidence_matrix_zh-CN.md": ("正式发布版`v0.3.1`", "v0.3.1已发布判定", "旧理由已失效", "P12_CORRIGENDUM.md"),
-    "evidence/P01-P14/P12/data-card.md": ("历史发布标签", "P12_CORRIGENDUM.md"),
-    "evidence/P01-P14/P12/report.md": ("历史记录", "P12_CORRIGENDUM.md"),
-    "ai4s-agent/EVIDENCE_GOVERNANCE_zh-CN.md": ("`v0.3.1`历史分类标签", "P12_CORRIGENDUM.md"),
+    "P12_CORRIGENDUM.md": ("P12_CONSISTENT", "P12与原著一致", "P12 is consistent with the monograph"),
+    "evidence/P01-P14/README.md": ("Classification summary (v0.3.2)", "14 consistent", "2.103137%"),
+    "evidence/P01-P14/README_zh-CN.md": ("分类汇总（v0.3.2）", "一致：14项", "2.103137%"),
+    "manuscripts/P01-P14_evidence_matrix_zh-CN.md": ("正式发布版`v0.3.2`", "一致14项", "N12/N14/N16"),
+    "evidence/P01-P14/P12/data-card.md": ("P12_CONSISTENT", "N12", "N14", "N16"),
+    "evidence/P01-P14/P12/report.md": ("P12与原著一致", "全部28个", "2.103137%"),
+    "ai4s-agent/EVIDENCE_GOVERNANCE_zh-CN.md": ("`v0.3.2`的P12判定", "P12_CONSISTENT"),
 }
 
 FORBIDDEN_CURRENT_FRAGMENTS = (
@@ -78,15 +76,7 @@ FORBIDDEN_CURRENT_FRAGMENTS = (
     "P12为何只能判“部分一致”",
 )
 
-HOMEPAGE_DETAIL_FRAGMENTS = (
-    "v0.3.2",
-    "P12",
-    "P12_CORRIGENDUM.md",
-    "P12 interpretation correction",
-    "P12解释勘误",
-    "Current published release",
-    "当前已发布正式版",
-)
+HOMEPAGE_DETAIL_FRAGMENTS = ("13 consistent", "13项一致", "P12 partially consistent", "P12部分一致")
 
 
 def load_json(relative: str) -> dict:
@@ -120,7 +110,7 @@ def main() -> None:
 
         required_fragments = {
             "P11": ["+1.173122", "+1.2", "+0.490079", "+0.49", "13/13"],
-            "P12": ["N=16/18", "N>30"],
+            "P12": ["+2.887010", "-15.947079", "-0.339527", "2.103137%"],
         }
         for proposition, fragments in required_fragments.items():
             if any(fragment not in text for fragment in fragments):
@@ -199,14 +189,14 @@ def main() -> None:
     counts = agent_summary.get("scientific_propositions", {})
     expected_count_fields = {
         "total": 14,
-        "consistent": 13,
+        "consistent": 14,
         "verdict_scope_separated": True,
-        "partially_consistent": 1,
+        "partially_consistent": 0,
         "globally_inconsistent": 0,
         "p07_evidence_identity": "INDEPENDENT_COMPUTATIONAL_AUDIT_PLUS_DERIVED_SYNTHESIS",
     }
     if any(counts.get(key) != value for key, value in expected_count_fields.items()):
-        failures.append("AI4S Agent machine-readable proposition counts differ from the v0.3.1 historical 13+1 snapshot")
+        failures.append("AI4S Agent machine-readable proposition counts differ from v0.3.2 fourteen-consistent state")
 
     result = {
         "status": "PASS" if not failures else "FAIL",
@@ -214,12 +204,12 @@ def main() -> None:
         "bilingual_indexes": 2,
         "navigation_links_checked": link_count,
         "classification_counts": {
-            "consistent": 13,
-            "partially_consistent": 1,
+            "consistent": 14,
+            "partially_consistent": 0,
             "globally_inconsistent": 0,
             "unknown": 0,
         },
-        "classification_snapshot": "v0.3.1_published_historical",
+        "classification_snapshot": "v0.3.2_fourteen_consistent",
         "failures": failures,
     }
     print(json.dumps(result, ensure_ascii=False, indent=2))

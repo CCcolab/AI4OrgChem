@@ -42,6 +42,9 @@ jobs:
       - name: Rebuild and validate P14 from published lower-level evidence
         run: python software/scripts/validate_p14_evidence.py
 
+      - name: Validate P12 same-estimand evidence
+        run: python software/scripts/validate_p12_evidence.py
+
       - name: Validate bilingual evidence navigation
         run: python software/scripts/validate_evidence_navigation.py
 
