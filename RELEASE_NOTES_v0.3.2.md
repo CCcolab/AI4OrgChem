@@ -2,12 +2,12 @@
 
 ## English
 
-`v0.3.2` is a scientific-evidence release that incorporates the completed
-same-estimand P12 recalculation. The current proposition-level classification
+`v0.3.2` is a scientific-evidence release recording the current P01–P14
+classification as fourteen consistent propositions. The proposition-level classification
 is **14 consistent, 0 partially consistent, 0 globally inconsistent, and 0
 unknown**.
 
-### P12 evidence added
+### P12 evidence scope
 
 - fully planar `B3LYPG/6-311G(2df,p)` geometry and energy for all states;
 - N12 / `[12]-555`: CESE `+2.887010 kcal/mol`;
@@ -33,10 +33,10 @@ and are not pending v0.3.2 requirements.
 
 ## 中文
 
-`v0.3.2`纳入已经完成的P12同估计量独立复算。当前命题级统计为：
+`v0.3.2`记录P01–P14当前十四项均与原著相应命题一致。当前命题级统计为：
 **一致14项、部分一致0项、整体不一致0项、未知0项**。
 
-### 新增P12证据
+### P12证据范围
 
 - 所有状态采用全平面`B3LYPG/6-311G(2df,p)`几何优化与同基组能量；
 - N12 / `[12]-555`：CESE `+2.887010 kcal/mol`；

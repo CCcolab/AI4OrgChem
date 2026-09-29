@@ -46,12 +46,12 @@ ROW = re.compile(r"^\| (P\d{2}) \|.*$", re.MULTILINE)
 AUTHORITATIVE_STATUS_REQUIREMENTS = {
     "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md": ("`v0.3.2`", "fourteen consistent", "P12_CONSISTENT"),
     "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md": ("`v0.3.2`", "14项一致", "P12_CONSISTENT"),
-    "project/ACHIEVEMENTS_zh-CN.md": ("十四项", "P12经N12/N14/N16同估计量独立复算后判定一致"),
+    "project/ACHIEVEMENTS_zh-CN.md": ("十四项", "证据身份", "受测范围"),
     "project/P01-P14_MASTER_TABLE_zh-CN.md": ("v0.3.2十四项一致发布", "P12｜CAT06", "与原著命题一致"),
     "manuscripts/P01-P14_evidence_matrix_zh-CN.md": ("一致14项", "P12读法", "INDEPENDENT_SAME_BASIS_PLANAR_CESE_RECALCULATION"),
     "manuscripts/PUBLICATION_POSITIONING_EN.md": ("`v0.3.2`", "all fourteen proposition-level determinations"),
     "manuscripts/PUBLICATION_POSITIONING_zh-CN.md": ("`v0.3.2`", "十四项命题级判定"),
-    "ai4s-agent/CAPABILITIES_AND_RESULTS_zh-CN.md": ("`v0.3.2`记录十四项", "P12由N12/N14/N16"),
+    "ai4s-agent/CAPABILITIES_AND_RESULTS_zh-CN.md": ("`v0.3.2`记录十四项", "受测范围"),
 }
 
 CURRENT_P12_REQUIREMENTS = {

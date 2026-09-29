@@ -4,7 +4,7 @@
 
 ## Scientific task support
 
-The Agent organizes fourteen falsifiable tasks with frozen data cards, protocols, reports, machine results, and validators. Version `v0.3.2` records all fourteen proposition-level determinations as consistent with the corresponding monograph propositions. P12 reached that determinate verdict through independent same-estimand N12/N14/N16 recalculations; the published v0.3.1 snapshot (13 consistent, one partially consistent) remains linked only as history. P05, P07, P11, P12, and P14 corrections and evidence-grade distinctions remain traceable.
+The Agent organizes fourteen falsifiable tasks with frozen data cards, protocols, reports, machine results, and validators. Version `v0.3.2` records all fourteen proposition-level determinations as consistent with the corresponding monograph propositions. Proposition-specific evidence identity, numerical differences, tested scope, and superseded records remain separately traceable.
 
 ## Molecular data and learning
 

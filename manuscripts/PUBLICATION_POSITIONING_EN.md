@@ -6,14 +6,14 @@
 
 ## Central conclusion
 
-Without using the monograph's original program code, AI4OrgChem used AI-assisted engineering and layered computational and literature evidence to assess fourteen testable propositions. Version `v0.3.2` records all fourteen proposition-level determinations as consistent with the corresponding monograph propositions. P12 reached a determinate consistent verdict only after independent same-estimand N12/N14/N16 recalculations passed all registered checks; the v0.3.1 partial result remains public for audit. The evidence materially challenges the unconditional generalization of several textbook heuristics, but does not establish that traditional organic chemistry is globally incorrect or that conjugation is universally destabilizing.
+Without using the monograph's original program code, AI4OrgChem used AI-assisted engineering and layered computational and literature evidence to assess fourteen testable propositions. Version `v0.3.2` records all fourteen proposition-level determinations as consistent with the corresponding monograph propositions. Proposition-specific evidence scope and superseded records remain public for audit. The evidence materially challenges the unconditional generalization of several textbook heuristics, but does not establish that traditional organic chemistry is globally incorrect or that conjugation is universally destabilizing.
 
 ## Defensible claims
 
 1. Fourteen proposition-level, reproducible and falsifiable evidence chains were produced.
 2. Several tested systems contradict the use of conjugative stabilization/planarization and steric destabilization as universally sufficient explanations.
 3. State-specific LFMO comparisons provide an operational analysis distinct from ordinary relaxed RHF total-energy differences.
-4. The historical P12 and P11 results and the P14 review-defect-and-repair trail remain public, demonstrating that the workflow was not designed as one-way advocacy.
+4. Superseded results and review-defect-and-repair trails remain public, demonstrating that the workflow was not designed as one-way advocacy.
 5. AI assisted protocol execution, data organization, verification, generalization and explanation; the scientific evidence remains quantum-chemical and definition-dependent.
 
 ## Claims not supported

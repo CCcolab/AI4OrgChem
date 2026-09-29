@@ -44,7 +44,7 @@ Each file has a distinct evidentiary responsibility:
 
 Read “Scientific outcome” and “Reproducibility and evidence boundaries” on the [English home page](README.md). Retain three statements:
 
-1. The published `v0.3.2` classification records fourteen consistent propositions, none partially consistent, none globally inconsistent, and none unknown. P12 reached a determinate consistent verdict after independent same-estimand N12/N14/N16 recalculations passed all registered checks. P05 has a seven-angle continuation; P07 combines an independent same-Hamiltonian five-state path audit with the earlier `DERIVED` synthesis; P11-B changed only after source-2007 state-specific planar optimizations reproduced both CE and IE. Superseded records remain visible for audit.
+1. The published `v0.3.2` classification records fourteen consistent propositions, none partially consistent, none globally inconsistent, and none unknown. Evidence identity, numerical differences, tested scope, and superseded records remain separate from that verdict total and visible for audit.
 2. The evidence supports a bounded methodological criticism: several textbook heuristics do not automatically become universally sufficient mechanistic explanations.
 3. The project does not claim that traditional organic chemistry is globally wrong and does not propose a reverse universal law that conjugation must always be destabilizing.
 
@@ -122,9 +122,9 @@ Machine learning and the evidence agent form a separate engineering layer. MACE,
 | WP5 | External clean Agent replay | Reaches M2-scoped maturity for one whitelisted replay; it does not expose the full external-model session or automatically raise R1–R3 |
 | WP6 | Fixed tag, complete archive, hashes, CI, and post-tag clean verification | Fixes publication identity without generating a new scientific sign |
 
-See the current [`v0.3.2` release notes](RELEASE_NOTES_v0.3.2.md#english). The fixed `v0.3.1` package and its [release notes](project/release-history/RELEASE_NOTES_v0.3.1.md#english) remain historical records. Version 0.3.2 adds the qualified P12 same-estimand N12/N14/N16 evidence and updates the proposition-level total to fourteen consistent.
+See the current [`v0.3.2` release notes](RELEASE_NOTES_v0.3.2.md#english). The fixed `v0.3.1` package and its [release notes](project/release-history/RELEASE_NOTES_v0.3.1.md#english) remain historical records. Version 0.3.2 records the current proposition-level total as fourteen consistent and keeps proposition-specific evidence scope separate.
 
-## 5. Examine the P11 correction, P12 same-estimand closure, and the P14 correction
+## 5. Examine proposition-specific evidence scope and correction trails
 
 A credible independent assessment must retain results that do not fully support the source claim.
 
@@ -136,7 +136,7 @@ A credible independent assessment must retain results that do not fully support 
 - The recalculation gives `CE=+1.173122` and `IE=+0.490079 kcal/mol`, versus approximately `+1.2` and `+0.49` in the source; all 13 states converged.
 - P11 is therefore consistent within this single-system source-2007 domain. Missing historical Cartesian and hydrogen coordinates still prevent a claim of original-coordinate or historical-program identity.
 
-### P12 — Same-estimand N12/N14/N16 recalculation closes the determination
+### P12 — Evidence scope for the consistent verdict
 
 - Every state uses fully planar `B3LYPG/6-311G(2df,p)` geometry and energy.
 - N12 gives CESE `+2.887010 kcal/mol`; N14 gives `-15.947079 kcal/mol`.
@@ -153,7 +153,7 @@ A credible independent assessment must retain results that do not fully support 
 - They give `dΔr=0.172204 Å` versus the source `0.179 Å` and an optimized endpoint of `+67.679719 kcal/mol` versus `+67.08 kcal/mol`; both residuals pass the preregistered tolerances.
 - P14 is therefore restored to consistent, but only for one C12H6 planar-D3h five-parameter source-proxy system; no full-Cartesian frequency, wider-symmetry, nineteen-molecule, or universal-law claim is made.
 
-P11 demonstrates that an unfavorable result is not hidden but may be superseded when the missing source-defined operation is identified and rerun. P12 demonstrates that a historical partial label may be replaced only after direct same-estimand evidence passes registered checks. P14 demonstrates that a review-detected eligibility defect is corrected only after qualified replacement evidence passes the repaired gate.
+These records show how proposition-specific scope, superseded calculations, and repaired eligibility gates remain visible without changing the meaning of the current verdict labels.
 
 ## 6. Credibility checks that require no programming
 
@@ -193,7 +193,7 @@ Readers interested only in scientific evidence do not need PySCF, CUDA, MACE, or
 
 For a reviewer who has not independently rerun every historical computation, the strongest defensible summary is:
 
-> AI4OrgChem conducted a layered, auditable evidence assessment of fourteen counter-traditional propositions in organic structure theory and independently reconstructed the computationally testable propositions without using the monograph's program code. Version `v0.3.2` classifies all fourteen as consistent with the corresponding monograph propositions. P12 reached this determination only after fully planar `B3LYPG/6-311G(2df,p)` same-estimand N12/N14/N16 recalculations passed all registered checks; the v0.3.1 partial result remains public as history. Evidence identity, numerical differences, and tested scope remain separately reported. The aggregate result supports criticism of unconditionally universalizing several classical heuristics, but it does not reject traditional organic chemistry as a whole or establish a universal law in the opposite direction. The release has not undergone peer review.
+> AI4OrgChem conducted a layered, auditable evidence assessment of fourteen counter-traditional propositions in organic structure theory and independently reconstructed the computationally testable propositions without using the monograph's program code. Version `v0.3.2` classifies all fourteen as consistent with the corresponding monograph propositions. Evidence identity, numerical differences, tested scope, and superseded records remain separately reported for each proposition. The aggregate result supports criticism of unconditionally universalizing several classical heuristics, but it does not reject traditional organic chemistry as a whole or establish a universal law in the opposite direction. The release has not undergone peer review.
 
 ## 9. Shortest navigation path
 

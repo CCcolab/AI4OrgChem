@@ -13,9 +13,9 @@ abstract: >-
   AI4OrgChem is an AI for Science agent assessing fourteen counter-traditional
   propositions in organic structure theory through independent computation,
   layered evidence, explicit scope boundaries, public core software, and
-  bounded machine-learning experiments. Version 0.3.2 incorporates the
-  independent same-estimand N12/N14/N16 P12 recalculation and records all
-  fourteen proposition-level determinations as consistent with the monograph.
+  bounded machine-learning experiments. Version 0.3.2 records all fourteen
+  proposition-level determinations as consistent with the corresponding
+  monograph propositions; proposition-specific evidence scope remains explicit.
 keywords:
   - AI for Science
   - computational chemistry
