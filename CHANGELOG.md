@@ -14,7 +14,7 @@ All notable changes to AI4OrgChem public releases are recorded in this file.
 
 ### Post-release documentation
 
-- Kept the `v0.3.1` release notes outside the repository-root homepage file list and marked their superseded P12 rationale. The current formal version remains `v0.3.1`; the later [P12 interpretation correction](P12_CORRIGENDUM.md#english) is a page note, not a new scientific release. The GitHub Release description also carries a bilingual post-release notice; its tag and attachments are unchanged.
+- Kept the `v0.3.1` release notes outside the repository-root homepage file list and marked their superseded P12 rationale. The current formal version is `v0.3.2`; the [P12 version-transition note](P12_CORRIGENDUM.md#english) distinguishes the current determination from the immutable `v0.3.1` historical record.
 - Reframed both repository homepages as version-neutral project overviews of background, goals, independent methods, results, AI4S capabilities, and evidence limits. Release-specific and P12 review details remain in the dedicated notes and evidence records; the long WSL computation guide moved to `reproducibility/` without changing its scientific content.
 - Retitled the bilingual guide as the AI4S rapid reproduction and evidence verification guide. Later repository documentation changes are not retroactively inserted into the fixed `v0.3.1` archive.
 

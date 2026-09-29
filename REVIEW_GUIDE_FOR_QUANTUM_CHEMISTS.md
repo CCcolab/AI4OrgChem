@@ -143,7 +143,7 @@ A credible independent assessment must retain results that do not fully support 
 - N16 gives CESE `-0.339527 kcal/mol` and relative CESE `2.103137%`, below the registered 10% onset threshold.
 - All 28 N16 GE pairs were calculated directly, with no symmetry weighting.
 - All registered direction checks pass and no same-estimand opposing result is established.
-- The formal verdict is `P12_CONSISTENT`: **P12 is consistent with the monograph.** N18/N20/N22 were not used for this determination and are not pending v0.3.2 requirements.
+- The formal verdict is `P12_CONSISTENT`: **P12 is consistent with the monograph.** The released evidence scope is N12/N14/N16.
 - The v0.3.1 partial result remains public only as a historical machine record; no digit-for-digit or historical-program identity reproduction is claimed.
 
 ### P14 — Review-detected eligibility defect corrected by qualified production evidence

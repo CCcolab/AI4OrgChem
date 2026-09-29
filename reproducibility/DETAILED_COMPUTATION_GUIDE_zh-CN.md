@@ -27,7 +27,7 @@ WSL 2不是这些量子化学公式成立的数学前提，但它是本项目**�
 
 ### 十四项 × WSL 2定判入口
 
-并非十四项都是昂贵量子化学任务。P02主要是公开表值统计复核，P12是源账本与独立趋势比较，P13包含图论和分子式校验；表中明确列出每项在WSL 2上实际执行的任务。
+并非十四项都是昂贵量子化学任务。P02主要是公开表值统计复核，P12包含N12/N14/N16全平面同基组独立CESE复算，P13包含图论和分子式校验；表中明确列出每项在WSL 2上实际执行的任务。
 
 | 项号 | 在WSL 2上算什么 | 定判入口模块 | 主方法 |
 |---|---|---|---|
@@ -42,11 +42,11 @@ WSL 2不是这些量子化学公式成立的数学前提，但它是本项目**�
 | P09 | 环丁二烯VDE/ADE与苯ESE的虚拟参考和独立能量组装 | [protocol](../evidence/P01-P14/P09/protocol.md) · [result](../evidence/P01-P14/P09/result.json) | G/DSI/GL、G/GL/GE-1/VR、B3LYP/6-31G(d) |
 | P10 | 苯键长交替五点扫描、电子能/核排斥能/总能及曲率 | [protocol](../evidence/P01-P14/P10/protocol.md) · [result](../evidence/P01-P14/P10/result.json) | B3LYPG/6-31G(d)、独立核间库仑和 |
 | P11 | 呋喃LDE；氰基苯/苯13态全平面逐态受限优化与共轭/诱导贡献 | [furan protocol](../evidence/P01-P14/P11/furan-protocol.md) · [furan result](../evidence/P01-P14/P11/furan-result.json) · [substituent protocol](../evidence/P01-P14/P11/substituent-protocol.md) · [substituent result](../evidence/P01-P14/P11/substituent-result.json) | source-2007 LDE、Fock/overlap条件SCF、state-specific planar optimization、ESE/CE/IE差分 |
-| P12 | 六点轮烯源表算术与账本内尺寸变化；不同估计量的ASE趋势仅作旁证 | [protocol](../evidence/P01-P14/P12/protocol.md) · [result](../evidence/P01-P14/P12/result.json) · [corrigendum](../P12_CORRIGENDUM.md#中文) | VDE/ESE/CESE、相对局域增量；不作跨估计量同口径阈值判定 |
+| P12 | N12/N14/N16全平面同基组独立CESE复算；N16全部28个GE直接计算 | [protocol](../evidence/P01-P14/P12/protocol.md) · [result](../evidence/P01-P14/P12/result.json) · [N12/N14/N16账本](../evidence/P01-P14/P12/) | **一致**；`B3LYPG/6-311G(2df,p)`、VDE/ESE/CESE、相对局域增量；不作CESE/ASE跨估计量投票 |
 | P13 | Kekulé候选枚举、GL规则优先级、RDKit分子式和PBH账本 | [protocol](../evidence/P01-P14/P13/protocol.md) · [result](../evidence/P01-P14/P13/result.json) | 图论完美匹配、RDKit、公开数值账本 |
 | P14 | C12H6 PLG条件SCF、固定几何端点、B3LYPG/6-31G(d)五参数生产优化及证据资格门禁 | [protocol](../evidence/P01-P14/P14/protocol.md) · [result](../evidence/P01-P14/P14/result.json) | **一致**；G/PLG梯度、终止、边界、SCF、电子数及结构/能量容差全部通过 |
 
-统一机器定判入口为[`validate_public_evidence.py`](../software/scripts/validate_public_evidence.py)；双语导航和P11/P12差异由[`validate_evidence_navigation.py`](../software/scripts/validate_evidence_navigation.py)复核。定判入口读取冻结结果，不重新伪装成一次完整历史计算。
+统一机器定判入口为[`validate_public_evidence.py`](../software/scripts/validate_public_evidence.py)；P12账本与当前判定由[`validate_p12_evidence.py`](../software/scripts/validate_p12_evidence.py)专门核验，双语导航由[`validate_evidence_navigation.py`](../software/scripts/validate_evidence_navigation.py)复核。定判入口读取公开记录，不重新启动昂贵计算，也不宣称历史程序身份复现。
 
 ### 单次作业的数据流（WSL 2内）
 

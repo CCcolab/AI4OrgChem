@@ -185,7 +185,7 @@ fully planar `B3LYPG/6-311G(2df,p)` geometry and energy. [Machine result](P12/re
 The registered checks require positive N12 CESE; negative N14 delta EA, ESE,
 and CESE; and positive N16 delta EA with negative ESE/CESE and relative CESE
 not exceeding 10%. N16 contains all 28 directly calculated GE pairs with no
-symmetry weighting. N18/N20/N22 are not part of this determination.
+symmetry weighting. The released evidence scope is N12/N14/N16.
 
 ### P12 report
 

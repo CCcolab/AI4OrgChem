@@ -47,8 +47,8 @@ AUTHORITATIVE_STATUS_REQUIREMENTS = {
     "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS.md": ("`v0.3.2`", "fourteen consistent", "P12_CONSISTENT"),
     "REVIEW_GUIDE_FOR_QUANTUM_CHEMISTS_zh-CN.md": ("`v0.3.2`", "14项一致", "P12_CONSISTENT"),
     "project/ACHIEVEMENTS_zh-CN.md": ("十四项", "证据身份", "受测范围"),
-    "project/P01-P14_MASTER_TABLE_zh-CN.md": ("v0.3.2十四项一致发布", "P12｜CAT06", "与原著命题一致"),
-    "manuscripts/P01-P14_evidence_matrix_zh-CN.md": ("一致14项", "P12读法", "INDEPENDENT_SAME_BASIS_PLANAR_CESE_RECALCULATION"),
+    "project/P01-P14_MASTER_TABLE_zh-CN.md": ("v0.3.2十四项一致发布", "P12｜CAT06", "与原著命题一致", "公开证据范围为N12/N14/N16"),
+    "manuscripts/P01-P14_evidence_matrix_zh-CN.md": ("一致14项", "P12", "INDEPENDENT_SAME_BASIS_PLANAR_CESE_RECALCULATION", "公开证据范围为N12/N14/N16"),
     "manuscripts/PUBLICATION_POSITIONING_EN.md": ("`v0.3.2`", "all fourteen proposition-level determinations"),
     "manuscripts/PUBLICATION_POSITIONING_zh-CN.md": ("`v0.3.2`", "十四项命题级判定"),
     "ai4s-agent/CAPABILITIES_AND_RESULTS_zh-CN.md": ("`v0.3.2`记录十四项", "受测范围"),
@@ -59,9 +59,10 @@ CURRENT_P12_REQUIREMENTS = {
     "evidence/P01-P14/README.md": ("Classification summary (v0.3.2)", "14 consistent", "2.103137%"),
     "evidence/P01-P14/README_zh-CN.md": ("分类汇总（v0.3.2）", "一致：14项", "2.103137%"),
     "manuscripts/P01-P14_evidence_matrix_zh-CN.md": ("正式发布版`v0.3.2`", "一致14项", "N12/N14/N16"),
-    "evidence/P01-P14/P12/data-card.md": ("P12_CONSISTENT", "N12", "N14", "N16"),
-    "evidence/P01-P14/P12/report.md": ("P12与原著一致", "全部28个", "2.103137%"),
-    "ai4s-agent/EVIDENCE_GOVERNANCE_zh-CN.md": ("`v0.3.2`的P12判定", "P12_CONSISTENT"),
+    "evidence/P01-P14/P12/data-card.md": ("data card v0.3.2", "P12_CONSISTENT", "public evidence scope"),
+    "evidence/P01-P14/P12/protocol.md": ("协议 v0.3.2", "公开证据范围", "P12_CONSISTENT"),
+    "evidence/P01-P14/P12/report.md": ("P12与原著一致", "公开证据范围", "全部28个", "2.103137%"),
+    "ai4s-agent/EVIDENCE_GOVERNANCE_zh-CN.md": ("P12当前判定", "P12_CONSISTENT", "公开证据范围为N12/N14/N16"),
 }
 
 FORBIDDEN_CURRENT_FRAGMENTS = (
