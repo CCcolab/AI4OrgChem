@@ -20,7 +20,7 @@
 | P09 | 芳香/反芳香能必须依赖经验参照 | 可用局域几何/虚拟参照作纯理论计算 | 苯ESE、环丁二烯VDE/ADE、独立组装 | `SOURCE_ALIGNED_VIRTUAL_REFERENCE` | **一致** | 苯−37.412764 kcal/mol（原著−36.3；绝对差1.112764，约3.07%，非逐位复现）；环丁二烯ADE +53.822467 kcal/mol；P09普通态符号稳健但方法跨度41.0077 kcal/mol，CIPSI尚未完全收敛 |
 | P10 | 苯D6h与键长均一化主要归因π离域 | 核排斥最小化具有关键作用 | 键长交替扫描、Ee/EN/总能曲率 | `FROZEN_COORDINATE_QM_LEDGER` | **一致** | 冻结苯坐标上的电子—核账本与抵消；不把核排斥宣称为孤立第一原因 |
 | P11 | 呋喃和取代苯可统一套用苯型芳香判据 | 呋喃需LDE；取代效应需分共轭与诱导 | furan LDE；氰基苯/苯13态source-2007全平面逐态受限优化 | `SOURCE_ALIGNED_STATE_SPECIFIC_RESTRICTED_OPTIMIZATION` | **一致** | `CE=+1.173122`、`IE=+0.490079 kcal/mol`；13/13态收敛。旧固定几何异号保留审计；不宣称历史Cartesian或原厂程序身份复现 |
-| P12 | 4n+2规则对所有尺寸轮烯给出同一芳香分类 | 指定轮烯呈现CESE尺寸边界方向 | N12/N14/N16全平面`B3LYPG/6-311G(2df,p)`同估计量独立复算；N16含28个直接GE | `INDEPENDENT_SAME_BASIS_PLANAR_CESE_RECALCULATION` | **一致** | 公开证据范围为N12/N14/N16；CESE依次为`+2.887010`、`-15.947079`、`-0.339527 kcal/mol`，全部注册判据通过；不声明历史程序身份或逐数字复现 |
+| P12 | 4n+2规则对所有尺寸轮烯给出同一芳香分类 | 指定轮烯呈现CESE尺寸边界方向 | N12/N14/N16全平面`B3LYPG/6-311G(2df,p)`同估计量独立复算；N16含28个直接GE | `INDEPENDENT_SAME_BASIS_PLANAR_CESE_RECALCULATION` | **一致** | 公开证据范围为N12/N14/N16；CESE依次为`+2.887010`、`-15.947079`、`-0.339527 kcal/mol`，全部注册判据通过；不声明历史程序身份或逐数字复现；N16 对原著幅度差约 47.7651%，注册相对 CESE 为 2.103137%（分母不同，见 [P12 说明](../evidence/P01-P14/P12/report.md#n16-两种百分比的分母)） |
 | P13 | 多环苯系能量只需简单局域计数 | GL优先并结合位置/能量规则 | Kekulé图枚举、RDKit分子式、公开PBH账本 | `DERIVED_RULE_AND_GRAPH_EVIDENCE` | **一致** | 已测规则层级与公开账本；不是新增独立QM或全部候选的独立重优化 |
 | P14 | 应变芳香扭曲完全来自角应变 | π离域可具有结构扭曲作用 | C12H6 PLG、固定几何条件SCF、B3LYPG/6-31G(d)五参数生产优化 | `SOURCE_PROXY_PRODUCTION_CONDITIONAL_QM` | **一致** | 修复后的分类器拒绝STO-3G技术烟测；生产优化`dΔr=0.172204 Å`、端点`67.679719 kcal/mol`，G/PLG梯度与全部资格门禁通过。限单一C12H6平面D3h五参数体系；无全笛卡尔频率或19分子普遍性主张 |
 

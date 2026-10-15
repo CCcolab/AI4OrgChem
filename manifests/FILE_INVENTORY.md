@@ -134,8 +134,8 @@
 | `evidence/P01-P14/P12/n12-same-basis-ledger.json` | scientific-evidence | 9729 | `bba1bbeb15f7376a9446531c0238e694994b7f26cfdd497632b1936dbdefc2cc` |
 | `evidence/P01-P14/P12/n14-same-basis-ledger.json` | scientific-evidence | 26946 | `6409ad10cf47b7ecbdcc6248c156dec673cd8473d8b000b3f48d937910e022d6` |
 | `evidence/P01-P14/P12/n16-same-basis-ledger.json` | scientific-evidence | 15681 | `29bc336739475af39ef92bca1460f0ccbf127db411571a895e608c3c8d864200` |
-| `evidence/P01-P14/P12/protocol.md` | scientific-evidence | 1633 | `a1b91d8c827aa8dd2eb9f588c7f787ffbc718a3a78bf65a25eb8467f09df8656` |
-| `evidence/P01-P14/P12/report.md` | scientific-evidence | 1672 | `e1c9b5c9ce76dc8ca55078a16c60f02bf88176c6d6fe119b4e53ea7387b9ab4d` |
+| `evidence/P01-P14/P12/protocol.md` | scientific-evidence | 2614 | `ba58496b7e1f92ab8899636a990b1851b535e0f745861400b52f42b08d480d26` |
+| `evidence/P01-P14/P12/report.md` | scientific-evidence | 2653 | `5b37cf2acad38ef840269aa366f8c12cfe1ce719289f330437eb214af82c0dd1` |
 | `evidence/P01-P14/P12/result-v0.3.1-historical.json` | scientific-evidence | 7834 | `df9b94baf5adf27dc591dd838dd5325132a474c39b4ace4df644691a3829cebb` |
 | `evidence/P01-P14/P12/result.json` | scientific-evidence | 2458 | `8c694793bdadc586bfeb8a1f14f0b4a48ef21c1a599597057d7dd58f1d9559f6` |
 | `evidence/P01-P14/P13/data-card.md` | scientific-evidence | 1443 | `7783a9f3d0b400d29a7e94c1ae20caf4c2c0ee042a3f9f6a7f4d9969d56c7db4` |
@@ -163,8 +163,8 @@
 | `figures/README_EN.md` | project-figure | 590 | `bec6bf096504b7b3cf138d3d0083a9a5f47282a3541993c4e3917af30a8394d7` |
 | `figures/social-preview.png` | project-figure | 1273242 | `9f0d9ab3f77ed1fd3ef94b05e62cfedf5e2803c93d72ce9a469360594b9ba199` |
 | `LICENSE` | repository-root | 11357 | `4135cedb444c19860a53c85dc984b9c0a9644cba632c8ef44c45cbb1f88699b2` |
-| `manuscripts/P01-P14_evidence_matrix_EN.md` | manuscript | 7648 | `0d997c8c71796c57d14480f6cadec5baa5fdcbc6eec955d8f34c785f1375351c` |
-| `manuscripts/P01-P14_evidence_matrix_zh-CN.md` | manuscript | 6153 | `4611f096467dfd0d4943dcb779c772ec7859c110fb402e86430f2a30e6c76311` |
+| `manuscripts/P01-P14_evidence_matrix_EN.md` | manuscript | 7888 | `227dc1a910246f3942af76f4d843d1ff73fc682ecd1272a10d789384cd0a22e4` |
+| `manuscripts/P01-P14_evidence_matrix_zh-CN.md` | manuscript | 6325 | `cc05e61577ab45ad24114c826004621c09d2e47141391b6ed886f3ca1a53e95f` |
 | `manuscripts/PUBLICATION_POSITIONING_EN.md` | manuscript | 1914 | `f079299a16c7ae02a10b857a6f8e6d5c47dfa54fd3d576295ab5a175f5f4b2b3` |
 | `manuscripts/PUBLICATION_POSITIONING_zh-CN.md` | manuscript | 1517 | `e0fb7d9d6ad85eb6a141137aea92e1edb9edd3940e352ff866788691b921e97c` |
 | `manuscripts/README.md` | manuscript | 236 | `f7b32245c124593d8d28fc8ecb199c650c0213b9e3ae18cb4728dfe88215447a` |
