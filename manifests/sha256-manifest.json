@@ -1062,8 +1062,8 @@
     {
       "path": "README.md",
       "artifact_role": "repository-root",
-      "bytes": 11190,
-      "sha256": "f57e148ae4509c08ef9d5a272e9f67c212f75dcc1d4e4cb021a1879ae45bd0d8"
+      "bytes": 11577,
+      "sha256": "31c25053c92a7c30b69d528d6147c5a9f89273b12c80fb924f68ded8a454323a"
     },
     {
       "path": "README_zh-CN.md",
