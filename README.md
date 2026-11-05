@@ -16,6 +16,10 @@ The associated manuscript has not yet undergone peer review. Detailed classifica
 
 > **Current release:** [`v0.3.2`](https://github.com/CCcolab/AI4OrgChem/releases/tag/v0.3.2). All fourteen proposition-level determinations are consistent with the corresponding monograph propositions; evidence identity and scope remain separately reported.
 
+## Related FUL research
+
+The independent [NBA FUL research repository](https://github.com/CCcolab/AI4OrgChem-FUL-Research) provides source-conditional electronic states in STO-3G, 6-31G and 6-31G(d), with orbital coefficients, energy levels, validation evidence and Excel review packages. Its C1/C1* definitions, protocols and scientific scope are maintained separately from P01–P14.
+
 ## Why this project exists
 
 Textbook ideas such as conjugative stabilization, conjugation-driven planarization, steric destabilization, and aromatic stabilization are useful chemical heuristics. Problems arise when a heuristic is promoted to an unconditional mechanistic law. AI4OrgChem converts fourteen major propositions into falsifiable computational tasks with frozen systems, state definitions, sign conventions, numerical outputs, and explicit scope boundaries.
